@@ -1,3 +1,6 @@
+# Uros Krcadinac 2020
+# Main App
+
 import sys
 from flask import Flask, render_template
 from flask_flatpages import FlatPages
