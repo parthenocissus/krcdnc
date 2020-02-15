@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}Data Art, Writing, Teaching{% endblock %}
+
+{% block head %}
+    {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="main-body">
+
+        <div class="main-pictome">
+
+            <!-- General Picto Me -->
+            <svg id="pictome-svg" tooltip-text="All Projects" viewBox="0 0 200 200">
+                <g id="pictome-g" transform="translate(51,0) scale(5.714,5.714)">
+                    <rect id="pictome-bg" class="light-fill" x="0" y="0" height="18%" width="9%"></rect>
+                    <circle id="head" class="pictome" cx="8.5" cy="5.131" r="3.614"></circle>
+                    <circle id="dot" class="pictome-dot" cx="8.5" cy="17.5" r="0"></circle>
+                    <path id="arm1" stroke-linejoin="round" class="pictome"
+                          d="M0.066,12.942c0.601,0,7.435,0,8.601,0 s7.716,0,8.399,0"></path>
+                    <path id="arm2" stroke-linejoin="round" class="pictome"
+                          d="M0.066,12.942c0.601,0,7.435,0,8.601,0 s7.716,0,8.399,0"></path>
+                    <path id="leg1" stroke-linejoin="round" class="pictome"
+                          d="M1.153,34.434 c0.28-0.635,7.486-16.977,7.486-16.977S15.628,33.7,15.98,34.434"></path>
+                    <path id="leg2" stroke-linejoin="round" class="pictome"
+                          d="M1.153,34.434 c0.28-0.635,7.486-16.977,7.486-16.977S15.628,33.7,15.98,34.434"></path>
+                </g>
+            </svg>
+
+        </div>
+
+        <div class="main-content">
+
+
+            <div class="short-bio">
+                {% block index_bio %}
+                    <a href="#">Uroš Krčadinac</a> (b. 1984) is a Belgrade-based <br class="bio-break">digital artist,
+                    technologist, writer, and educator <br class="bio-break">
+                    who <span id="creates-verb">makes</span> <span id="creates-what"><a href="#">Data Art</a></span>.
+                {% endblock %}
+            </div>
+
+            <div class="flowerchart">
+            </div>
+
+            <div class="linechart">
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock %}
+
+{% block jscript %}
+    <script>
+        (function () {
+
+            baseUtility.baseSetup();
+
+            window.onresize = function () {
+                baseUtility.resetMenu();
+                baseUtility.baseSetup();
+            };
+
+            baseUtility.createFlowerchart(baseUtility.getFlowerParamsIndex());
+            baseUtility.createLinechart(baseUtility.getLinechartParamsIndex());
+            baseUtility.addData(pictoData);
+            baseUtility.mapDataToFlowerchart(pictoData);
+            baseUtility.drawLineChart();
+            baseUtility.setPeriodicalAnimation();
+
+        })();
+
+    </script>
+{% endblock %}

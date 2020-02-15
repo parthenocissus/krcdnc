@@ -1,0 +1,233 @@
+/* Main Settings */
+
+html {
+    overflow-y: hidden;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+#main-body {
+    overflow-y: hidden;
+}
+
+body {
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+
+/* Main */
+
+main {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Main Content */
+
+.main-body {
+	width: 100%;
+	/*height: calc(100vh - 0px);*/
+	/*margin-top: 0px;*/
+    height: 100vh;
+	display: grid;
+	grid-template-columns: 45% 55%;
+	grid-template-areas: "main-pictome main-content";
+
+	font-family: "Montserrat-Regular", sans-serif;
+	font-size: 10pt;
+    color: var(--darkcolor);
+	line-height: 1.7em;
+	letter-spacing: 0.2pt;
+
+	transition: 0.18s;
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+.main-pictome {
+    grid-area: main-pictome;
+	padding-right: 10%;
+	align-self: center;
+	justify-self: end;
+}
+
+#pictome-svg {
+	height: 200px;
+}
+
+.main-content {
+    grid-area: main-content;
+	padding: 0px 22px;
+	width: 340px;
+	align-self: center;
+	border-left: 1px solid var(--darkcolor);
+}
+
+.short-bio {
+	padding-bottom: 30px;
+}
+
+.flowerchart {
+	/*padding-bottom: 2px;*/
+	/*height: 188px;*/
+}
+
+.main-content a {
+    background: linear-gradient(
+            to bottom, var(--suncolor) 0%,
+            var(--suncolor) 100%
+    ) repeat-x 0 100%;
+    background-size: 3px 1px;
+    color: var(--darkcolor);
+    padding-bottom: 1px;
+  	text-decoration: none;
+  	transition: background-size .13s;
+}
+
+.main-content a:hover {
+  background-size: 2px 4px;
+}
+
+.bio-break {
+	display: auto;
+}
+
+/* Hover Pointer */
+
+.hover-pointer {
+	cursor: pointer;
+}
+
+/* Text Selection */
+
+::selection {
+	color: var(--lightcolor);
+  	background: var(--darkcolor);
+}
+
+::-moz-selection {
+	color: var(--lightcolor);
+  	background: var(--darkcolor);
+}
+
+/* SVG rules for Pictome and the rest of the pictogram graphics */
+
+.light-fill {
+	fill: var(--lightcolor);
+	stroke: none;
+}
+.light-fill:hover {
+	cursor: pointer;
+}
+
+/* Big Animated Pictogram */
+.pictome {
+	fill: none;
+	stroke: var(--darkcolor);
+	/*stroke: var(--suncolor);*/
+	stroke-width: 1.3;
+}
+.pictome:hover {
+	cursor: pointer;
+}
+
+.pictome-small-sun {
+	fill: none;
+	stroke: var(--suncolor);
+	stroke-width: 1.5;
+}
+
+.pictome-small-dark {
+	fill: none;
+	stroke: var(--darkcolor);
+	stroke-width: 1;
+}
+
+.pictome-dot {
+	stroke: none;
+	fill: var(--darkcolor);
+}
+.pictome-dot:hover {
+	cursor: pointer;
+}
+
+.pictome-dot-sun {
+	stroke: none;
+	fill: var(--suncolor);
+}
+
+.graphics-origin {
+	transform-origin: 0% 0%;
+}
+
+.small-pictome {
+  	transform-origin: 50% 100%;
+}
+
+.dashed {
+   	stroke-dasharray: 0, 9;
+   	stroke-linecap: round;
+}
+
+.dark-stroke {
+	stroke: var(--darkcolor);
+	stroke-width: 1;
+}
+
+.sun-stroke {
+	stroke: var(--suncolor);
+	stroke-width: 2;
+}
+
+.sun-stroke-only {
+	stroke: var(--suncolor);
+}
+
+.light-stroke-only {
+	stroke: var(--lightcolor);
+}
+
+.dark-stroke-only {
+	stroke: var(--darkcolor);
+}
+
+.fill-bg {
+	stroke: none;
+	fill: var(--lightcolor);
+}
+
+/* SVG Rules for Line Chart */
+
+.linechart {
+	height: 85px;
+	padding-bottom: 0;
+}
+
+.linechart .domain {
+	stroke: var(--darkcolor);
+	stroke-dasharray: 0, 9;
+   	stroke-linecap: round;
+	stroke-width: 2px;
+}
+
+.linechart .linechartLine {
+	fill: none;
+	stroke-width: 2px;
+	stroke: var(--suncolor);
+}
+
+.linechart .linechartXaxis {
+	font-family: "CartographSans-Regular", sans-serif;
+	font-size: 8pt;
+	color: var(--darkcolor);
+}
+
+.linechartCircle {
+	fill: var(--suncolor);
+	stroke: none;
+}

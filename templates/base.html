@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <style>
+
+            {# Montserrat #}
+
+            @font-face {
+                font-family: "Montserrat-Regular";
+                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Regular.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Regular.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Regular.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Regular.woff') }}) format('woff');
+            }
+
+            @font-face {
+                font-family: "Montserrat-SemiBold";
+                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.woff') }}) format('woff');
+            }
+
+            {# Cartograph Mono #}
+
+            @font-face {
+                font-family: "CartographMono-Heavy";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.woff') }}) format('woff');
+            }
+
+            {# Cartograph Sans #}
+
+            @font-face {
+                font-family: "CartographSans-Medium";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Medium.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Medium.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Medium.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Medium.woff') }}) format('woff');
+            }
+
+            @font-face {
+                font-family: "CartographSans-DemiBold";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.woff') }}) format('woff');
+            }
+
+            @font-face {
+                font-family: "CartographSans-Bold";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.woff') }}) format('woff');
+            }
+
+        </style>
+
+        <link rel="shortcut icon" type="image/png"
+              href="{{ url_for('static', filename='media/favicon/favicon.ico') }}"/>
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+
+        <script src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/util.js') }}"></script>
+
+        <title>Uroš Krčadinac ← {% block title %}Data Art, Writing, Teaching{% endblock %}</title>
+    {% endblock %}
+</head>
+<body>
+
+<div id="main-body">
+
+    <div id="main-logo">
+
+        <svg id="pictome-logo" tooltip-text="Menu" class="fill-none-stroke-dark" width="13px" height="26px">
+            <rect id="hover-rect" x="0" y="0" pointer-events="all" fill="none" stroke="none" width="13"
+                  height="26"></rect>
+            <circle id="idle-pictome-head" pointer-events="none" cx="6.5" cy="3.7" r="2.7"></circle>
+            <path id="idle-pictome-arm1" pointer-events="none" d="M0.1,9.6c0.5,0,5.6,0,6.5,0s5.8,0,6.3,0"></path>
+            <path id="idle-pictome-arm2" pointer-events="none" d="M0.1,9.6c0.5,0,5.6,0,6.5,0s5.8,0,6.3,0"></path>
+            <path id="idle-pictome-leg1" pointer-events="none"
+                  d="M1,25.7C1.2,25.2,6.6,13,6.6,13s5.2,12.2,5.5,12.7"></path>
+            <path id="idle-pictome-leg2" pointer-events="none"
+                  d="M1,25.7C1.2,25.2,6.6,13,6.6,13s5.2,12.2,5.5,12.7"></path>
+        </svg>
+
+    </div>
+
+    <div id="plus-logo">
+
+        <svg id="plus-logo-svg" class="fill-none-stroke-dark" width="13px" height="13px">
+            <rect id="hover-rect" x="0" y="0" pointer-events="all" fill="none" stroke="none" width="13"
+                  height="13"></rect>
+            <line class="plus-line" x1="6.5" y1="0" x2="6.5" y2="13"></line>
+            <line class="plus-line" x1="0" y1="6.5" x2="13" y2="6.5"></line>
+        </svg>
+
+    </div>
+
+
+    {% block lang %}
+        <div id="lang-choice">
+            <span id="eng" class="lang-li"><span>Eng</span></span>
+            <span id="nas" class="lang-li"><a href="../rad/">Naš</a></span>
+        </div>
+    {% endblock %}
+
+    <aside id="side-menu">
+
+        <div class="side-nav">
+            {% block menu %}
+                <div class="menu-title">Menu</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Writing</a></li>
+                    <li><a href="#">Teaching</a></li>
+                    <li><a href="#">Speaking</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <div class="menu-title lang">Lang</div>
+            {% endblock %}
+            {% block menu_lang %}
+                <ul>
+                    <li><span>Eng</span></li>
+                    <li><a href="../rad/">Naš</a></li>
+                </ul>
+            {% endblock %}
+        </div>
+
+    </aside>
+
+    <div id="name-aside" orig-text="Ur0š Krčad1nac" alt-text="Uroš Krčadinac" menu-text="Menu">
+        <a id="name-aside-href" href="#">Ur0š Krčad1nac</a>
+    </div>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <script>
+        let lang = {{ lang|tojson }}[0];
+        let pictoData = {{ pictoData|tojson }};
+    </script>
+
+    {% block jscript %}
+    {% endblock %}
+
+</div>
+
+</body>
+</html>
