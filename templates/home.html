@@ -6,6 +6,7 @@
     {{ super() }}
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
 
 {% endblock %}
 
@@ -16,7 +17,9 @@
         <div class="main-pictome">
 
             <!-- General Picto Me -->
-            <svg id="pictome-svg" tooltip-text="All Projects" viewBox="0 0 200 200">
+            <svg id="pictome-svg" tooltip-text="All Projects" viewBox="0 0 200 200" preserveAspectRatio="xMidYMin meet" >
+{#            <svg id="pictome-svg" tooltip-text="All Projects">#}
+
                 <g id="pictome-g" transform="translate(51,0) scale(5.714,5.714)">
                     <rect id="pictome-bg" class="light-fill" x="0" y="0" height="18%" width="9%"></rect>
                     <circle id="head" class="pictome" cx="8.5" cy="5.131" r="3.614"></circle>
@@ -30,6 +33,7 @@
                     <path id="leg2" stroke-linejoin="round" class="pictome"
                           d="M1.153,34.434 c0.28-0.635,7.486-16.977,7.486-16.977S15.628,33.7,15.98,34.434"></path>
                 </g>
+
             </svg>
 
         </div>
@@ -66,15 +70,15 @@
             window.onresize = function () {
                 baseUtility.resetMenu();
                 baseUtility.baseSetup();
-                baseUtility.addData(pictoData);
+                chartUtility.addData(pictoData);
             };
 
-            baseUtility.createFlowerchart(baseUtility.getFlowerParamsIndex());
-            baseUtility.createLinechart(baseUtility.getLinechartParamsIndex());
-            baseUtility.addData(pictoData);
-            baseUtility.mapDataToFlowerchart(pictoData);
-            baseUtility.drawLineChart();
-            baseUtility.setPeriodicalAnimation();
+            chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());
+            chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());
+            chartUtility.addData(pictoData);
+            chartUtility.mapDataToFlowerchart(pictoData);
+            chartUtility.drawLineChart();
+            chartUtility.setPeriodicalAnimation();
 
         })();
 
