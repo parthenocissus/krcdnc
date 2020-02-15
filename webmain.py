@@ -12,9 +12,13 @@ FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = 'content'
 POST_DIR = 'posts'
 
+STATIC_DIR = 'static'
+DATA_DIR = 'data'
+PICTOGRAMS_FILE = 'pictograms.json'
+PICTOGRAMS_PATH = '{}/{}/{}'.format(STATIC_DIR, DATA_DIR, PICTOGRAMS_FILE)
+
 EN = ["en"]
 SH = ["sh"]
-PICTOGRAMS_PATH = 'static/data/pictograms.json'
 
 app = Flask(__name__)
 flatpages = FlatPages(app)
