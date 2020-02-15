@@ -89,7 +89,8 @@ main {
   	transition: background-size .13s;
 }
 
-.main-content a:hover {
+.main-content a:hover,
+.main-content .manual-hover {
   background-size: 2px 4px;
 }
 
@@ -122,7 +123,7 @@ main {
 	stroke: none;
 }
 .light-fill:hover {
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 /* Big Animated Pictogram */
@@ -170,7 +171,7 @@ main {
 }
 
 .dashed {
-   	stroke-dasharray: 0, 9;
+   	stroke-dasharray: 0, 7;
    	stroke-linecap: round;
 }
 
@@ -206,18 +207,18 @@ main {
 .linechart {
 	height: 85px;
 	padding-bottom: 0;
+	stroke-width: 1;
 }
 
 .linechart .domain {
 	stroke: var(--darkcolor);
-	stroke-dasharray: 0, 9;
+	stroke-dasharray: 0, 7;
    	stroke-linecap: round;
-	stroke-width: 2px;
+	stroke-width: 1;
 }
 
 .linechart .linechartLine {
 	fill: none;
-	stroke-width: 2px;
 	stroke: var(--suncolor);
 }
 
@@ -231,3 +232,4 @@ main {
 	fill: var(--suncolor);
 	stroke: none;
 }
+.linechartCircleVisible { }

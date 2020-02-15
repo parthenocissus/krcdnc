@@ -234,12 +234,12 @@
     ]
   },
   {
-    "name": "Site Specific Works",
-    "createsVerb": "makes",
-    "nameS": "Radovi",
-    "createsVerbS": "kreira",
-    "nameSCase": "projekte specifične za lokaciju",
-    "id": "site-specific",
+    "name": "Digital Drawings",
+    "createsVerb": "draws",
+    "nameS": "Digitalni crtež",
+    "createsVerbS": "crta",
+    "nameSCase": "digitalne crteže",
+    "id": "drawing",
     "graphics": {
       "headcx": 8.5,
       "headcy": 5.239,
