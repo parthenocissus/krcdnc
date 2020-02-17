@@ -77,6 +77,13 @@
 </head>
 <body>
 
+<div id="margins">
+    <div id="top-margin"></div>
+    <div id="right-margin"></div>
+    <div id="bottom-margin"></div>
+    <div id="left-margin"></div>
+</div>
+
 <div id="main-body">
 
     <div id="main-logo">
@@ -106,9 +113,8 @@
 
     </div>
 
-
     {% block lang %}
-        <div id="lang-choice">
+        <div id="lang-choice" class="interface-text">
             <span id="eng" class="lang-li"><span>Eng</span></span>
             <span id="nas" class="lang-li"><a href="../rad/">Naš</a></span>
         </div>
@@ -150,8 +156,24 @@
     </main>
 
     <script>
+
         let lang = {{ lang|tojson }}[0];
         let pictoData = {{ pictoData|tojson }};
+
+        baseUtility.baseSetup();
+
+        window.onresize = function () {
+
+            baseUtility.resetMenu();
+            baseUtility.baseSetup();
+
+            try {
+                chartUtility.addData(pictoData);
+            } catch(error) {
+                // console.error(error);
+            }
+        };
+
     </script>
 
     {% block jscript %}

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}Data Art, Writing, Teaching{% endblock %}
+
+{% block head %}
+
+    {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/article.css') }}">
+{#    <script src="{{ url_for('static', filename='js/charts.js') }}"></script>#}
+    <script src="{{ url_for('static', filename='js/arrows.js') }}"></script>
+
+{% endblock %}
+
+{% block content %}
+
+    <div id="breadcrumbs">
+{#        <span id="breadcrumbs-arrow">#}
+{#            <svg id="breadcrumbs-arrow-svg" width="80" height="10">#}
+{#            </svg>#}
+{#        </span>#}
+{#        <span class="breadcrumbs-text interface-text"><a href="#">Projects</a></span>#}
+{#        <span class="breadcrumbs-small-arrow">#}
+{#            <svg class="arrow" width="30" height="10"></svg>#}
+{#        </span>#}
+{#        <span class="breadcrumbs-text interface-text"><a href="#">Name</a></span>#}
+    </div>
+    <div id="breadcrumbs-background"></div>
+
+    <div class="main-container">
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus nisi nec ultricies egestas. Duis quis
+            blandit leo. Maecenas aliquet lobortis lorem posuere rhoncus. Vivamus iaculis vitae diam ut tempus. In
+            elementum finibus sem, in vehicula orci tristique vel. Aenean vulputate, ante vitae elementum ultrices, sem
+            tellus blandit ligula, non elementum arcu est dapibus lectus. Nulla eu lorem maximus, vehicula lorem eu,
+            scelerisque eros. In lacinia vulputate mi, et iaculis ex fringilla nec. In rhoncus erat ut eleifend porta.
+            Morbi egestas erat leo, sit amet interdum ex suscipit id. Proin semper, tortor vitae varius tincidunt, dui
+            dui rutrum magna, id semper leo enim quis ligula. Ut ac ipsum leo. Mauris ut nulla eleifend, rhoncus elit
+            nec, gravida odio. Donec placerat imperdiet dolor, ac euismod ipsum. Praesent eu sapien convallis, sodales
+            justo ut, rutrum sapien. Sed varius tortor nisl, iaculis tristique enim ultricies quis.
+        </p>
+        <p>
+            Vivamus quam nisi, finibus nec mauris eu, pretium ultrices metus. Sed vitae neque mi. Quisque dapibus ex
+            nisi, non condimentum arcu condimentum rhoncus. Nulla malesuada ligula ligula, sed egestas justo condimentum
+            a. Donec aliquet risus sit amet sodales iaculis. Quisque commodo, nunc vitae tempus rhoncus, lectus risus
+            sollicitudin tellus, eget tincidunt quam orci in est. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus.
+        </p>
+        <p>
+            Praesent id aliquet mauris. Vivamus accumsan egestas egestas. Ut aliquet augue nec magna iaculis semper. Nam
+            iaculis, augue sit amet iaculis volutpat, justo felis interdum turpis, non sagittis neque mi quis sem.
+            Suspendisse potenti. Duis eget dignissim metus. Etiam consectetur dui sit amet finibus porta. Nunc tellus
+            massa, feugiat at egestas in, eleifend nec nibh. Integer gravida tortor eget mauris lacinia condimentum.
+            Nulla scelerisque risus sed tellus semper, in volutpat nibh mattis. Etiam accumsan mauris orci, faucibus
+            ullamcorper ipsum volutpat a. Sed ultrices tellus sit amet sapien molestie, ut molestie nulla finibus. Nulla
+            neque lectus, tempor eget dapibus vitae, iaculis sit amet tellus.
+        </p>
+        <p>
+            Integer interdum, enim imperdiet tincidunt dignissim, odio purus tincidunt mauris, et pharetra sem risus
+            mattis erat. Nam venenatis nibh quis vestibulum fringilla. Ut faucibus, orci quis aliquam malesuada, mauris
+            erat posuere est, quis auctor nisl lacus ut felis. In ut enim sed odio facilisis porta. Duis massa tellus,
+            facilisis eget laoreet eget, bibendum sit amet ante. Pellentesque varius vitae lacus quis interdum. Aenean
+            quis pretium lectus. Sed euismod finibus lacus nec maximus. Aliquam vel posuere urna, ut efficitur dui.
+            Aliquam erat volutpat. Etiam purus sem, elementum non maximus a, sodales eget tortor. Donec convallis
+            hendrerit nibh vitae condimentum. Quisque porttitor fringilla magna nec congue.
+        </p>
+        <p>
+            Suspendisse ultrices sed enim sed auctor. Nulla malesuada metus enim, id ultricies elit ultricies ac. Mauris
+            egestas lacus sed mi sodales, nec dapibus velit tempor. Morbi maximus ut neque sit amet vestibulum. Aenean
+            fermentum rhoncus tortor sed vulputate. Praesent rutrum ipsum non lectus imperdiet, euismod consectetur orci
+            efficitur. Suspendisse et pulvinar turpis. Sed bibendum lobortis nisi. Nulla vestibulum pharetra nulla id
+            bibendum. Pellentesque bibendum tempor nulla, id ultricies ipsum lobortis quis. Suspendisse eu tristique mi,
+            at eleifend arcu. Aliquam sed ultricies sem. Fusce at eleifend dui.
+        </p>
+
+    </div>
+
+{% endblock %}
+
+{% block jscript %}
+    <script>
+
+        let breadData = [
+            {"item": "Projects", "link": "../works/projects/"},
+            {"item": "This Project", "link": "../works/projects/thisproject"},
+        ];
+        arrowUtility.createBreadcrumbs(breadData);
+
+        //arrowUtility.drawArrow();
+
+        {#chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());#}
+        {#chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());#}
+        {#chartUtility.addData(pictoData);#}
+        {#chartUtility.mapDataToFlowerchart(pictoData);#}
+        {#chartUtility.drawLineChart();#}
+        {#chartUtility.setPeriodicalAnimation();#}
+
+    </script>
+{% endblock %}

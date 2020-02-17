@@ -38,12 +38,22 @@ def getPictoData():
 @app.route("/")
 @app.route("/work/")
 def home():
-    return render_template('home.html', lang=EN, pictoData=getPictoData())
+    return render_template('en/home.html', lang=EN, pictoData=getPictoData())
 
 
 @app.route("/rad/")
 def home_s():
-    return render_template('home_s.html', lang=SH, pictoData=getPictoData())
+    return render_template('sh/home_s.html', lang=SH, pictoData=getPictoData())
+
+
+@app.route("/test-page/")
+def test_page():
+    return render_template('en/generic_article.html', lang=EN, pictoData=getPictoData())
+
+
+@app.route("/test-scroll/")
+def test_scroll():
+    return render_template('testscroll.html')
 
 
 @app.route("/posts/")

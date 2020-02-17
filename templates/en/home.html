@@ -12,13 +12,13 @@
 
 {% block content %}
 
-    <div class="main-body">
+    <div class="main-container">
 
         <div class="main-pictome">
 
             <!-- General Picto Me -->
-            <svg id="pictome-svg" tooltip-text="All Projects" viewBox="0 0 200 200" preserveAspectRatio="xMidYMin meet" >
-{#            <svg id="pictome-svg" tooltip-text="All Projects">#}
+            <svg id="pictome-svg" tooltip-text="All Projects" viewBox="0 0 200 200" preserveAspectRatio="xMidYMin meet">
+                {#            <svg id="pictome-svg" tooltip-text="All Projects">#}
 
                 <g id="pictome-g" transform="translate(51,0) scale(5.714,5.714)">
                     <rect id="pictome-bg" class="light-fill" x="0" y="0" height="18%" width="9%"></rect>
@@ -45,7 +45,8 @@
                 {% block index_bio %}
                     <a href="#">Uroš Krčadinac</a> (b. 1984) is a Belgrade-based <br class="bio-break">digital artist,
                     technologist, writer, and educator <br class="bio-break">
-                    who <span id="creates-verb">makes</span> <span id="creates-what"><a id="link-to-projects" href="#">Data Art</a></span>.
+                    who <span id="creates-verb">makes</span>
+                    <span id="creates-what"><a id="link-to-projects" href="#">Data Art</a></span>.
                 {% endblock %}
             </div>
 
@@ -63,24 +64,13 @@
 
 {% block jscript %}
     <script>
-        (function () {
 
-            baseUtility.baseSetup();
-
-            window.onresize = function () {
-                baseUtility.resetMenu();
-                baseUtility.baseSetup();
-                chartUtility.addData(pictoData);
-            };
-
-            chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());
-            chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());
-            chartUtility.addData(pictoData);
-            chartUtility.mapDataToFlowerchart(pictoData);
-            chartUtility.drawLineChart();
-            chartUtility.setPeriodicalAnimation();
-
-        })();
+        chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());
+        chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());
+        chartUtility.addData(pictoData);
+        chartUtility.mapDataToFlowerchart(pictoData);
+        chartUtility.drawLineChart();
+        chartUtility.setPeriodicalAnimation();
 
     </script>
 {% endblock %}
