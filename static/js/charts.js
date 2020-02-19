@@ -98,22 +98,22 @@ let chartUtility = (function () {
 
     let projectPictolistParams = {
         scale: 2,
-        itemGap: 80,
+        itemGap: 60,
         svg: ".project-pictogram-list",
         class: "pictolist-item",
         rectClass: "light-fill",
         dotClass: "pictome-dot",
         idPrefix: "item-pictolist",
         getPictolistWidth: function (className) {
-            let introDiv = d3.select('.project-intro').node();
+            let introDiv = d3.select('.article-main-description').node();
             return introDiv.getBoundingClientRect().width;
         }
     }
 
     let createProjectPictolist = function (tags, params = projectPictolistParams) {
 
-        let pictoWidth = flowerchartParameters.pictogramWidth * params.scale,
-            pictolistHeight = flowerchartParameters.pictogramHeight * params.scale,
+        let pictoWidth = 17 * params.scale,
+            pictolistHeight = 35 * params.scale,
             pictolistWidth = params.getPictolistWidth();
 
         let pictolistSvg = d3.select(params.svg).append("svg")
@@ -725,7 +725,8 @@ let chartUtility = (function () {
         mapDataToFlowerchart: mapDataToFlowerchart,
         drawLineChart: drawLineChart,
         getLinechartParamsIndex: getLinechartParamsIndex,
-        setPeriodicalAnimation: setPeriodicalAnimation
+        setPeriodicalAnimation: setPeriodicalAnimation,
+        createProjectPictolist: createProjectPictolist
     }
 
 }());

@@ -106,6 +106,14 @@ a { text-decoration: none; }
 
 /* General Interface Text */
 
+.interface-heading {
+    font-family: "CartographMono-Heavy", monospace;
+    font-size: 7pt;
+    padding-bottom: 6px;
+    color: var(--darkcolor);
+    text-transform: uppercase;
+}
+
 .interface-text {
     font-family: "CartographSans-Regular", monospace;
     font-size: 9pt;
@@ -183,10 +191,10 @@ a { text-decoration: none; }
 /* Aside Navigation Bar Rules */
 
 aside {
-    position: absolute;
+    position: fixed;
     visibility: hidden;
     background-color: var(--suncolor);
-    height: calc(100vh - 16px);
+    height: 100vh;
     left: 0;
     width: 0;
     z-index: 11;

@@ -25,6 +25,14 @@
                 url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.woff') }}) format('woff');
             }
 
+            @font-face {
+                font-family: "Montserrat-Bold";
+                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Bold.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Bold.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Bold.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Bold.woff') }}) format('woff');
+            }
+
             {# Cartograph Mono #}
 
             @font-face {
@@ -113,12 +121,14 @@
 
     </div>
 
-    {% block lang %}
-        <div id="lang-choice" class="interface-text">
+
+    <div id="lang-choice" class="interface-text">
+        {% block lang %}
             <span id="eng" class="lang-li"><span>Eng</span></span>
             <span id="nas" class="lang-li"><a href="../rad/">Naš</a></span>
-        </div>
-    {% endblock %}
+        {% endblock %}
+    </div>
+
 
     <aside id="side-menu">
 
@@ -169,7 +179,7 @@
 
             try {
                 chartUtility.addData(pictoData);
-            } catch(error) {
+            } catch (error) {
                 // console.error(error);
             }
         };

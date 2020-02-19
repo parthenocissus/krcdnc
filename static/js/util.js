@@ -83,7 +83,7 @@ let baseUtility = (function () {
                     moveBackMenu();
                 }
             }
-        }
+        };
 
         let mobileEvents = {
             mouseover: function () {
@@ -99,7 +99,7 @@ let baseUtility = (function () {
                     updateLogoGraphics(generalPictogram.graphics);
                 }
             }
-        }
+        };
 
         let defaultEvents = desktopEvents;
         if (window.matchMedia(mobileQuery).matches) {

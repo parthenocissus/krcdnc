@@ -7,11 +7,19 @@ body {
 }
 
 p {
-    font-size: 12pt;
-    width: 300px;
-    padding: 30px 30px 0 146px;
+    margin: 0;
+    font-size: 11pt;
+    /*width: 300px;*/
+    /*padding: 30px 30px 0 146px;*/
+    padding: 0 0px 16px 0px;
     line-height: 1.7em;
     letter-spacing: 0.2pt;
+}
+
+img {
+    width: 100%;
+    /*height: 100%;*/
+    /*max-height: 100%;*/
 }
 
 #bottom-margin {
@@ -81,5 +89,105 @@ p {
 /* Main Container */
 
 .main-container {
-    margin-top: 50px;
+    margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: 90px repeat(8, 1fr) 90px;
+    grid-template-rows: auto minmax(300px, auto) auto;
+    grid-gap: 16px;
+    grid-template-areas:
+        /*".  pl pl .  .  ct ct il il . "*/
+        /*".  in in .  .  ct ct il il . "*/
+        /*".  ar ar im im im im im im . ";*/
+
+        ".  pl pl .  .  .  .  ct ct . "
+        ".  ar ar im im im im im im . "
+        ".  ar ar .  .  .  .  il il . ";
 }
+
+/* Pictolist */
+
+.project-pictogram-list {
+    grid-area: pl;
+    padding: 0 0 34px 0px;
+}
+
+.pictolist-item {
+	fill: none;
+	stroke: var(--darkcolor);
+	stroke-width: 1.3;
+	pointer-events: none;
+}
+
+.light-fill {
+	fill: var(--lightcolor);
+	stroke: none;
+	pointer-events: auto;
+}
+
+.pictome-dot {
+	stroke: none;
+	fill: var(--darkcolor);
+}
+
+/* Side List Elements */
+
+.categories-list {
+    grid-area: ct;
+}
+
+.information-list {
+    grid-area: il;
+    /*margin-top: 35px;*/
+}
+
+.interface-text {
+    padding-bottom: 20px;
+}
+
+/* Article Image */
+
+.article-image {
+    grid-area: im;
+    margin: 0;
+    /*padding: 0 16px 35px 40px;*/
+    margin: 8px 0px 35px 80px;
+    /*background-color: var(--suncolor);*/
+}
+
+/* Text Elements */
+
+.article-main-description {
+    /*grid-area: in;*/
+    font-size: 16pt;
+    /*width: 300px;*/
+    padding: 0 0px 35px 0px;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+}
+
+.article-main-description .first-word-project-title {
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+.article-main-description a {
+    background: linear-gradient(
+            to bottom, var(--suncolor) 0%,
+            var(--suncolor) 100%
+    ) repeat-x 0 100%;
+    background-size: 4px 2px;
+    color: var(--darkcolor);
+    padding-bottom: 1px;
+    text-decoration: none;
+    transition: background-size .13s;
+}
+
+.article-main-description a:hover {
+    background-size: 2px 6px;
+}
+
+.article-text {
+    grid-area: ar;
+}
+
+
