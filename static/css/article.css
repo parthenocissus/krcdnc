@@ -52,7 +52,7 @@ img {
 #breadcrumbs {
     position: fixed;
     top: 20px;
-    left: 50px;
+    left: 0px;
     z-index: 6;
 }
 
@@ -89,20 +89,16 @@ img {
 /* Main Container */
 
 .main-container {
-    margin-top: 100px;
-
+    margin: 100px 0 0 0;
     display: grid;
     grid-template-columns: 90px repeat(8, 1fr) 90px;
-    grid-template-rows: auto minmax(300px, auto) auto;
+    grid-template-rows: auto minmax(300px, auto) minmax(0, 1fr) 200px;
     grid-gap: 16px;
     grid-template-areas:
-        /*".  pl pl .  .  ct ct il il . "*/
-        /*".  in in .  .  ct ct il il . "*/
-        /*".  ar ar im im im im im im . ";*/
-
         ".  pl pl .  .  .  .  ct ct . "
         ".  ar ar im im im im im im . "
-        ".  ar ar .  .  .  .  il il . ";
+        ".  ar ar .  .  .  .  il il . "
+        "fo fo fo fo fo fo fo fo fo fo";
 }
 
 /* Pictolist */
@@ -188,6 +184,16 @@ img {
 
 .article-text {
     grid-area: ar;
+    margin-bottom: 35px;
+}
+
+/* Footer */
+
+.footer {
+    grid-area: fo;
+    background-color: var(--lightcolor);
+    border-top: var(--darkcolor) dotted 1px;
+    border-bottom: var(--suncolor) solid 8px;
 }
 
 

@@ -205,6 +205,17 @@ aside {
     overflow-x: hidden;
 }
 
+#side-mask {
+    position: fixed;
+    left: 0; top: 0;
+    height: 50px;
+    width: 56px;
+    z-index: 9;
+    background-color: var(--lightcolor);
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
 .side-nav {
     display: flex;
     justify-content: center;
@@ -289,6 +300,12 @@ aside {
     color: var(--lightcolor);
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    display: none;
 }
 
 /* MEDIA QUERIES */

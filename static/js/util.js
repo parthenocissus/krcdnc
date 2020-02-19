@@ -190,13 +190,15 @@ let baseUtility = (function () {
 
         hideNameAside();
 
-        let menuMargin = 90, menuWidth = menuMargin + "px";
+        let menuMargin = 90, menuWidth = menuMargin + "px",
+        menuMaskWidth = menuMargin + 16;
         parameters.menuFlag = false;
 
         if (window.matchMedia(mobileQuery).matches) {
             menuWidth = "50%";
         }
         d3.select("#side-menu").style("visibility", "visible").style("width", menuWidth);
+        d3.select("#side-mask").style("width", menuMaskWidth);
 
         currentPictogram = {
             graphics: generalPictogram.menu,
@@ -213,6 +215,7 @@ let baseUtility = (function () {
 
         parameters.menuFlag = true;
         d3.select("#side-menu").style("visibility", "hidden").style("width", "0");
+        d3.select("#side-mask").style("width", 56);
         setTimeout(showNameAside, 300);
 
         currentPictogram = {

@@ -1,17 +1,5 @@
 let arrowUtility = (function () {
 
-    /*
-    <span id="breadcrumbs-arrow">
-            <svg id="breadcrumbs-arrow-svg" width="80" height="10">
-            </svg>
-        </span>
-        <span class="breadcrumbs-text interface-text"><a href="#">Projects</a></span>
-        <span class="breadcrumbs-small-arrow">
-            <svg class="arrow" width="30" height="10"></svg>
-        </span>
-        <span class="breadcrumbs-text interface-text"><a href="#">Name</a></span>
-     */
-
     let createBreadcrumbs = function(breadData) {
 
         let breadDiv = d3.select("#breadcrumbs");
@@ -22,7 +10,7 @@ let arrowUtility = (function () {
             let breadSvg = breadSpan.append("svg")
                 .attr("height", 10)
                 .attr("width", function() {
-                    return (i === 0) ? 80 : 30;
+                    return (i === 0) ? 90 : 34;
                 });
             drawArrow(breadSvg);
 

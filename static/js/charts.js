@@ -75,7 +75,7 @@ let chartUtility = (function () {
 
         let xmargin = 36;
         let itemPictolistParams = {
-            scale: 0.8,
+            scale: 0.6,
             itemGap: 24,
             class: "project-item-pictolist",
             rectClass: "project-item-pictograms-rect",
