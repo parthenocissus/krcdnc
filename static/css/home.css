@@ -131,7 +131,7 @@ main {
 .pictome {
     fill: none;
     stroke: var(--darkcolor);
-    stroke-width: 1.3;
+    stroke-width: 0.5;
 }
 
 .pictome:hover {

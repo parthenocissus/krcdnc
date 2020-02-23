@@ -91,13 +91,14 @@ img {
 .main-container {
     margin: 100px 0 0 0;
     display: grid;
-    grid-template-columns: 90px repeat(8, 1fr) 90px;
-    grid-template-rows: auto minmax(300px, auto) minmax(0, 1fr) 200px;
+    grid-template-columns: 1fr repeat(8, 100px) 1fr;
+    grid-template-rows: auto auto minmax(300px, auto) minmax(0, 1fr) 200px;
     grid-gap: 16px;
     grid-template-areas:
-        ".  pl pl .  .  .  .  ct ct . "
-        ".  ar ar im im im im im im . "
-        ".  ar ar .  .  .  .  il il . "
+        ".  pl pl pl  .  .  .  ct ct . "
+        ".  in in in  .  .  .  .  .  . "
+        ".  im im im im im im im im . "
+        ".  ar ar ar  .  .  .  il il . "
         "fo fo fo fo fo fo fo fo fo fo";
 }
 
@@ -147,14 +148,14 @@ img {
     grid-area: im;
     margin: 0;
     /*padding: 0 16px 35px 40px;*/
-    margin: 8px 0px 35px 80px;
+    /*margin: 8px 0px 35px 80px;*/
     /*background-color: var(--suncolor);*/
 }
 
 /* Text Elements */
 
 .article-main-description {
-    /*grid-area: in;*/
+    grid-area: in;
     font-size: 16pt;
     /*width: 300px;*/
     padding: 0 0px 35px 0px;
