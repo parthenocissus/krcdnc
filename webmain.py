@@ -35,7 +35,11 @@ def getPictoData():
     return data
 
 
-# @app.route("/")
+@app.route("/")
+def false_home():
+    return render_template('falsebase.html')
+
+
 @app.route("/work/")
 def home():
     return render_template('en/home.html', lang=EN, pictoData=getPictoData())
