@@ -35,7 +35,7 @@ def getPictoData():
     return data
 
 
-@app.route("/")
+# @app.route("/")
 @app.route("/work/")
 def home():
     return render_template('en/home.html', lang=EN, pictoData=getPictoData())
@@ -75,4 +75,5 @@ if __name__ == "__main__":
         freezer.freeze()
     else:
         # app.run(host='0.0.0.0', debug=True)
-        app.run(host='127.0.0.1', debug=True)
+        # app.run(host='127.0.0.1', debug=True)
+        app.run(host='0.0.0.0')
