@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
-{% block title %}Data Art, Writing, Teaching{% endblock %}
+{% block title %}Projects ← {{ project.title }}{% endblock %}
 
 {% block head %}
 
     {{ super() }}
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/article.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/project.css') }}">
     <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
     <script src="{{ url_for('static', filename='js/arrows.js') }}"></script>
 
@@ -61,26 +61,12 @@
         </div>
 
         <div class="article-main-description">
-            <span class="first-word-project-title">Cyclozoetrope</span> is a centaur machine: half-bicycle,
-            half-<a href="#">zoetrope</a>. The devil’s wheel. The endless physical animated GIF.
+            <h1>{{ project.title }}</h1>
+            {{ project.lead|safe }}
         </div>
 
         <article class="article-text">
-
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus nisi nec ultricies egestas. Duis
-                quis blandit leo. Maecenas aliquet lobortis lorem posuere rhoncus. Vivamus iaculis vitae diam ut tempus.
-                In elementum finibus sem, in vehicula orci tristique vel. Aenean vulputate, ante vitae elementum
-                ultrices. </p>
-            <p> Vivamus quam nisi, finibus nec mauris eu. </p>
-            <p> Praesent id aliquet mauris. Vivamus accumsan egestas egestas. Ut aliquet augue nec magna iaculis semper.
-                Nam iaculis, augue sit amet iaculis volutpat, justo felis interdum turpis, non sagittis neque mi quis
-                sem. Suspendisse potenti. Duis eget dignissim metus. Etiam consectetur dui sit amet finibus porta. Nunc
-                tellus massa, feugiat at egestas in. </p>
-            <p> Integer interdum, enim imperdiet tincidunt dignissim, odio purus tincidunt mauris, et pharetra sem risus
-                mattis erat. Nam venenatis nibh quis vestibulum fringilla. Ut faucibus, orci quis aliquam malesuada,
-                mauris erat posuere est, quis auctor nisl lacus ut felis. In ut enim sed odio facilisis porta. Duis
-                massa tellus, facilisis eget laoreet eget. </p>
-            <p> Suspendisse ultrices sed enim sed auctor. </p>
+            {{ project.html|safe }}
         </article>
 
         <div class="footer">

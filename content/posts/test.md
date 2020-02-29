@@ -1,6 +1,11 @@
 title: Naslov
-date: 2013-08-27
+date: 2019
 bilosta: Hej hej!
+tags:
+- ai
+- book
+- software
+- animation
 
 American-style dates, I know, I know. Here you can write markdown code, including *italics* and **bold**
 

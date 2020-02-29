@@ -1,0 +1,6 @@
+{% for project in projects %}
+    <a href="{{ url_for('project', name=project.path.replace('projects/', '')) }}">
+        {{ project.title }}
+    </a>
+    <small>{{ project.date }}</small>
+{% endfor %}

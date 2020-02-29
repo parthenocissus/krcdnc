@@ -167,8 +167,15 @@
 
     <script>
 
-        let lang = {{ lang|tojson }}[0];
-        let pictoData = {{ pictoData|tojson }};
+        let setupParams = {{ params|tojson }};
+        let lang = setupParams.lang
+        let pictoData = setupParams.pictodata;
+        let maximumProjectCount = setupParams.max;
+
+        {#let lang = {{ lang|tojson }}[0];#}
+        {#let pictoData = {{ pictoData|tojson }};#}
+
+        console.log(setupParams);
 
         baseUtility.baseSetup();
 

@@ -286,13 +286,17 @@ let chartUtility = (function () {
                 "createsVerbS": d.createsVerbS,
                 "nameSCase": d.nameSCase,
                 "graphics": d.graphics,
-                "projects": fillMissingDates(d.projects)
+                //"projects": fillMissingDates(d.projects)
+                "projects": d.projects
             });
 
-            let tempMax = Math.max.apply(Math, d.projects.map(function (e) {
-                return parseInt(e.projectCount);
-            }));
-            if (tempMax > parameters.maxProjectCount) parameters.maxProjectCount = tempMax;
+            parameters.maxProjectCount = maximumProjectCount;
+
+            // let tempMax = Math.max.apply(Math, d.projects.map(function (e) {
+            //     return parseInt(e.projectCount);
+            // }));
+            // if (tempMax > parameters.maxProjectCount) parameters.maxProjectCount = tempMax;
+
         });
     };
 
@@ -580,8 +584,6 @@ let chartUtility = (function () {
         linechartParameters.tickDates2 = params.ticks;
         linechartParameters.params = params;
 
-        console.log(linechartParameters.linechartWidth);
-
         let margin = params.margin;
         linechartParameters.lineWidth = linechartParameters.linechartWidth - margin.left - margin.right;
         linechartParameters.lineHeight = linechartParameters.linechartHeight - margin.top - margin.bottom;
@@ -667,7 +669,7 @@ let chartUtility = (function () {
             });
 
         let updateSelection = linechartSVG.selectAll(".linechartLine")
-            .data([data], function (d) {
+            .data([data], function(d) {
                 return linechartParameters.yearParser(d.year)
             });
 

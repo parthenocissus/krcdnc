@@ -1,8 +1,11 @@
-title: Naslov2
-date: 2014
+title: Naslov3
+date: 2015
 tags: 
-- data-art
+- animation
+- ai
+- geography
 - cartography
+- software
 
 American-style dates, I know, I know. Here you can write markdown code, including *italics* and **bold**
 
