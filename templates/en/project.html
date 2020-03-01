@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Projects ← {{ project.title }}{% endblock %}
+{% block title %} → {{ project.title }}{% endblock %}
 
 {% block head %}
 
@@ -23,36 +23,35 @@
 
         <div class="project-pictogram-list"></div>
 
-        <div class="categories-list">
+{#        <div class="categories-list"></div>#}
+
+        <div class="information-list">
             <div class="interface-heading">Categories</div>
-            <div class="interface-text">
+            <div class="interface-text-article">
                 <a href="#">Data Art</a> /
                 <a href="#">Animation</a> /
                 <a href="#">Software</a> /
                 <a href="#">Artificial Intelligence</a> /
                 <a href="#">Book</a>
             </div>
-        </div>
-
-        <div class="information-list">
             <div class="interface-heading">Role</div>
-            <div class="interface-text">
+            <div class="interface-text-article">
                 <a href="#">Co-Writer</a> /
                 <a href="#">Illustrator</a> /
                 <a href="#">Programmer</a>
             </div>
             <div class="interface-heading">Medium</div>
-            <div class="interface-text">
+            <div class="interface-text-article">
                 <a href="#">Software</a> /
                 <a href="#">Book</a>
             </div>
             <div class="interface-heading">Collaborators</div>
-            <div class="interface-text">
-                <a href="#">John Doe</a> /
-                <a href="#">Nikola Pančevac</a> /
-                <a href="#">Bla Blablabla</a> /
-                <a href="#">Hjidas Geege</a> /
-                <a href="#">Bologog Ogogog</a> /
+            <div class="interface-text-article">
+                <span>John Doe</span> /
+                <span>Nikola Pančevac</span> /
+                <span>Bla Blablabla</span> /
+                <span>Hjidas Geege</span> /
+                <span>Bologog Ogogog</span> /
             </div>
         </div>
 
@@ -61,7 +60,6 @@
         </div>
 
         <div class="article-main-description">
-            <h1>{{ project.title }}</h1>
             {{ project.lead|safe }}
         </div>
 
@@ -79,25 +77,28 @@
 
 {% block jscript %}
     <script>
+        (function () {
 
-        let breadData = [
-            {"item": "Projects", "link": "../works/projects/"},
-            {"item": "This Project", "link": "../works/projects/thisproject"}
-            //{"item": "Part of This Project", "link": "../works/projects/thisproject"}
-        ];
-        arrowUtility.createBreadcrumbs(breadData);
-        //arrowUtility.drawArrow();
+            let projectTitle = "{{ project.title }}";
+            let breadData = [
+                {"item": "Projects", "link": "/work/projects/"},
+                {"item": projectTitle, "link": "/work/projects/" + projectTitle.toLowerCase()}
+            ];
+            arrowUtility.createBreadcrumbs(breadData);
+            //arrowUtility.drawArrow();
 
-        let pictolistTags = ["cartography", "animation", "workshop", "data-art", "dataviz"];
-        chartUtility.addData(pictoData);
-        chartUtility.createProjectPictolist(pictolistTags);
+            //let pictolistTags = ["cartography", "animation", "workshop", "data-art", "dataviz"];
+            let pictolistTags = ["animation", "installation",  "workshop", "interactive"];
+            chartUtility.addData(pictoData);
+            chartUtility.createProjectPictolist(pictolistTags);
 
-        {#chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());#}
-        {#chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());#}
+            {#chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());#}
+            {#chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());#}
 
-        {#chartUtility.mapDataToFlowerchart(pictoData);#}
-        {#chartUtility.drawLineChart();#}
-        {#chartUtility.setPeriodicalAnimation();#}
+            {#chartUtility.mapDataToFlowerchart(pictoData);#}
+            {#chartUtility.drawLineChart();#}
+            {#chartUtility.setPeriodicalAnimation();#}
 
+        }());
     </script>
 {% endblock %}

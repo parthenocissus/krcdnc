@@ -18,7 +18,8 @@ let chartUtility = (function () {
             animationDurationPictome: 400,
             precision: 1,
             animationInterval: 2000,
-            maxProjectCount: 0
+            maxProjectCount: 0,
+            radius: 2
         };
 
     let generalFlowerPictogram = {
@@ -71,34 +72,10 @@ let chartUtility = (function () {
 
     };
 
-    let drawItemPictogramList = function () {
-
-        let xmargin = 36;
-        let itemPictolistParams = {
-            scale: 0.6,
-            itemGap: 24,
-            class: "project-item-pictolist",
-            rectClass: "project-item-pictograms-rect",
-            dotClass: "project-item-pictograms-dot",
-            getPictolistWidth: function () {
-                let introDiv = d3.select('.project-item').node();
-                return introDiv.getBoundingClientRect().width - xmargin;
-            }
-        }
-
-        let divs = document.querySelectorAll('.project-item-pictograms');
-        Array.prototype.forEach.call(divs, function (item, iterator) {
-            let tags = item.dataset.pictolist.split(" ");
-            itemPictolistParams.svg = item;
-            itemPictolistParams.idPrefix = "item-" + iterator + "-pictolist";
-            createProjectPictolist(tags, itemPictolistParams);
-        });
-
-    };
+    // Pictolist Section
 
     let projectPictolistParams = {
-        scale: 2,
-        itemGap: 60,
+        scale: 3.2,
         svg: ".project-pictogram-list",
         class: "pictolist-item",
         rectClass: "light-fill",
@@ -113,13 +90,16 @@ let chartUtility = (function () {
     let createProjectPictolist = function (tags, params = projectPictolistParams) {
 
         let pictoWidth = 17 * params.scale,
-            pictolistHeight = 35 * params.scale,
-            pictolistWidth = params.getPictolistWidth();
+            pictolistHeight = 35 * params.scale, // 105px
+            pictolistWidth = params.getPictolistWidth(), // 528px
+            pictoCount = tags.length,
+            pictoGap = (pictolistWidth - pictoCount * pictoWidth) / (pictoCount - 1),
+            //pictoGap = 20 * params.scale,
+            pictoWidthPlusGap = (pictoWidth + pictoGap) * 0.9;
 
         let pictolistSvg = d3.select(params.svg).append("svg")
-            //.attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight).attr("preserveAspectRatio", "xMinYMin meet")
-            .attr("width", pictolistWidth)
-            .attr("height", pictolistHeight)
+            .attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight).attr("preserveAspectRatio", "xMinYMin meet")
+            //.attr("width", pictolistWidth).attr("height", pictolistHeight)
             .attr("id", "projectPictolistSvg");
 
         tags.forEach(function (d, i) {
@@ -127,6 +107,8 @@ let chartUtility = (function () {
             let item = dataCopy.find(object => {
                 return object.id === d;
             });
+
+            console.log(item.graphics);
 
             let pictogramParams = {
                 data: item.graphics,
@@ -152,44 +134,16 @@ let chartUtility = (function () {
                     // d3.select(".project-pictogram-name").style("opacity", 0);
                 },
                 transformFn: function () {
-                    return "translate(" + (params.itemGap * i) + ",0) "
+                    return "translate(" + (pictoWidthPlusGap * i) + ",0) "
                         + "scale(" + params.scale + " " + params.scale + ")";
                 }
             }
+
             drawSinglePictogram(pictogramParams);
         });
-    }
-
-    let flowerParamsFooter = {
-
-        pictoMouseover: function (d) {
-            //let lcl = (d === undefined) ? {id:generalFlowerPictogram.id, name:generalFlowerPictogram.name} : d;
-            lcl = d;
-            console.log("#pictogram-" + lcl.id);
-            d3.selectAll("#pictogram-" + lcl.id).classed("sun-stroke-only", true);
-            d3.selectAll("#" + lcl.id + "Dot").classed("pictome-dot-sun", true);
-            d3.selectAll("#line-" + lcl.id).classed("sun-stroke", true);
-            d3.select(".footer-pictogram-name")
-                .html(lcl.name.replace(/ /g, '<br>'))
-                .style("opacity", 1);
-        },
-
-        pictoMouseout: function (d) {
-            //let lcl = (d === undefined) ? {id:generalFlowerPictogram.id, name:generalFlowerPictogram.name} : d;
-            lcl = d;
-            d3.selectAll("#pictogram-" + lcl.id).classed("sun-stroke-only", false);
-            d3.selectAll("#" + lcl.id + "Dot").classed("pictome-dot-sun", false);
-            d3.selectAll("#line-" + lcl.id).classed("sun-stroke", false);
-            d3.select(".footer-pictogram-name")
-                .style("opacity", 0);
-        },
-
-        bgFillClass: "bg-fill-footer",
-        dottedLineStrokeClass: "light-stroke",
-        pictomeSmallClass: "pictome-small-light",
-        pictoDotClass: "pictome-dot-light"
-
     };
+
+    // Flowerchart Section
 
     let flowerParamsIndex = {
 
@@ -291,11 +245,6 @@ let chartUtility = (function () {
             });
 
             parameters.maxProjectCount = maximumProjectCount;
-
-            // let tempMax = Math.max.apply(Math, d.projects.map(function (e) {
-            //     return parseInt(e.projectCount);
-            // }));
-            // if (tempMax > parameters.maxProjectCount) parameters.maxProjectCount = tempMax;
 
         });
     };
@@ -526,20 +475,20 @@ let chartUtility = (function () {
 
     };
 
-    let fillMissingDates = function (data) {
-        let newData = data,
-            startYear = linechartParameters.firstDate.getFullYear(),
-            endYear = linechartParameters.lastDate.getFullYear();
-        for (let i = startYear; i < endYear + 1; i++) {
-            if (!(data.some(e => parseInt(e.year) === i))) {
-                newData.push({"year": i.toString(), "projectCount": 0});
-            }
-        }
-        newData.sort(function (obj1, obj2) {
-            return parseInt(obj1.year) - parseInt(obj2.year);
-        });
-        return newData;
-    };
+    // let fillMissingDates = function (data) {
+    //     let newData = data,
+    //         startYear = linechartParameters.firstDate.getFullYear(),
+    //         endYear = linechartParameters.lastDate.getFullYear();
+    //     for (let i = startYear; i < endYear + 1; i++) {
+    //         if (!(data.some(e => parseInt(e.year) === i))) {
+    //             newData.push({"year": i.toString(), "projectCount": 0});
+    //         }
+    //     }
+    //     newData.sort(function (obj1, obj2) {
+    //         return parseInt(obj1.year) - parseInt(obj2.year);
+    //     });
+    //     return newData;
+    // };
 
 
     /* Linechart Section */

@@ -100,20 +100,20 @@ def test_scroll():
     return render_template('test/testscroll.html')
 
 
-@app.route("/projects/")
+@app.route("/work/projects/")
 def projects():
     projects = [p for p in flatpages if p.path.startswith(PROJECTS_DIR)]
     projects.sort(key=lambda item: item['date'], reverse=True)
 
-    for year, projects_that_year in groupby(projects, lambda x: x["date"]):
-        for p in projects_that_year:
-            print("the project %s is posted on %s." % (p["title"], year))
-        print(" ")
+    # for year, projects_that_year in groupby(projects, lambda x: x["date"]):
+    #     for p in projects_that_year:
+    #         print("the project %s is posted on %s." % (p["title"], year))
+    #     print(" ")
 
     return render_template('test/posts.html', projects=projects)
 
 
-@app.route('/projects/<name>/')
+@app.route('/work/projects/<name>/')
 def project(name):
     path = '{}/{}'.format(PROJECTS_DIR, name)
     project = flatpages.get_or_404(path)

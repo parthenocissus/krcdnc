@@ -10,7 +10,7 @@ role:
 medium:
 - Machine
 - Performance
-lead: "<span class='first-word-project-title'>Cyclozoetrope</span> is a kentaur machine: half-bicycle, halfzoetrope.
+lead: "<span class='first-word-project-title'>Cyclozoetrope</span> is a centaur machine: half-bicycle, half-zoetrope.
 The devil’s wheel. The endless loop. Made for hand
 drawn animations or printed GIFs."
 
