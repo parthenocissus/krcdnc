@@ -4,6 +4,7 @@ tags:
 - animation
 - workshop
 - installation
+- interactive
 role:
 - Co-Inventor
 - Educator

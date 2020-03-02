@@ -85,10 +85,9 @@
                 {"item": projectTitle, "link": "/work/projects/" + projectTitle.toLowerCase()}
             ];
             arrowUtility.createBreadcrumbs(breadData);
-            //arrowUtility.drawArrow();
 
             //let pictolistTags = ["cartography", "animation", "workshop", "data-art", "dataviz"];
-            let pictolistTags = ["animation", "installation",  "workshop", "interactive"];
+            let pictolistTags = {{ project.tags|safe }};
             chartUtility.addData(pictoData);
             chartUtility.createProjectPictolist(pictolistTags);
 

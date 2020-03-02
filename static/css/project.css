@@ -128,6 +128,16 @@ img {
 	fill: var(--darkcolor);
 }
 
+.sun-stroke-only {
+    stroke: var(--suncolor);
+    cursor: pointer;
+}
+
+.pictome-dot-sun {
+    fill: var(--suncolor);
+    cursor: pointer;
+}
+
 /* Side List Elements */
 
 /*.categories-list {*/
@@ -186,6 +196,7 @@ img {
 
 .article-text {
     grid-area: ar;
+    padding-left: 16px;
     margin-bottom: 35px;
 }
 

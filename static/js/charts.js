@@ -108,8 +108,6 @@ let chartUtility = (function () {
                 return object.id === d;
             });
 
-            console.log(item.graphics);
-
             let pictogramParams = {
                 data: item.graphics,
                 svg: pictolistSvg,
@@ -123,15 +121,24 @@ let chartUtility = (function () {
                 idPrefix: params.idPrefix,
                 rectMouseover: function () {
                     // d3.select(this).classed("hover-pointer", true);
+                    // d3.select(".project-pictogram-name").html(item.name).style("opacity", 1);
                     // d3.selectAll("#pictolist-" + item.id).classed("sun-stroke-only", true);
                     // d3.selectAll("#pictolist-" + item.id + "Dot").classed("pictome-dot-sun", true);
-                    // d3.select(".project-pictogram-name").html(item.name).style("opacity", 1);
+                    let scaleFactor = 0.9 * params.scale;
+                    d3.selectAll("#" + params.idPrefix + "-" + item.id).classed("sun-stroke-only", true);
+                        // .transition().duration(parameters.animationDurationPictome)
+                        // .ease(d3.easePolyOut)
+                        // .attr("transform", "scale(" + scaleFactor + " " + scaleFactor + ")");
+                    d3.selectAll("#" + params.idPrefix + "-" + item.id + "Dot").classed("pictome-dot-sun", true);
                 },
                 rectMouseout: function () {
                     // d3.select(this).classed("hover-pointer", false);
+                    // d3.select(".project-pictogram-name").style("opacity", 0);
                     // d3.selectAll("#pictolist-" + item.id).classed("sun-stroke-only", false);
                     // d3.selectAll("#pictolist-" + item.id + "Dot").classed("pictome-dot-sun", false);
-                    // d3.select(".project-pictogram-name").style("opacity", 0);
+
+                    d3.selectAll("#" + params.idPrefix + "-" + item.id).classed("sun-stroke-only", false);
+                    d3.selectAll("#" + params.idPrefix + "-" + item.id + "Dot").classed("pictome-dot-sun", false);
                 },
                 transformFn: function () {
                     return "translate(" + (pictoWidthPlusGap * i) + ",0) "

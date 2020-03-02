@@ -4,13 +4,16 @@ let arrowUtility = (function () {
 
         let breadDiv = d3.select("#breadcrumbs");
 
+        let x = d3.select('.article-text').node().getBoundingClientRect().left;
+        console.log(x);
+
         breadData.forEach(function(d, i) {
 
             let breadSpan = breadDiv.append("span");
             let breadSvg = breadSpan.append("svg")
                 .attr("height", 10)
                 .attr("width", function() {
-                    return (i === 0) ? 90 : 34;
+                    return (i === 0) ? x : 34;
                 });
             drawArrow(breadSvg);
 
@@ -34,7 +37,6 @@ let arrowUtility = (function () {
 
         breadArrow.each(function() {
                 w = d3.select(this).style("width").replace("px", "");
-                console.log(w);
             })
             .append("line")
             .attr("x1", 0)
