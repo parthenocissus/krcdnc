@@ -25,32 +25,6 @@
                 url({{ url_for('static', filename='media/fonts/ambit/Ambit-Bold.woff') }}) format('woff');
             }
 
-            {# Montserrat #}
-
-            @font-face {
-                font-family: "Montserrat-Regular";
-                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Regular.eot') }});
-                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Regular.eot?#iefix') }}) format('embedded-opentype'),
-                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Regular.woff2') }}) format('woff2'),
-                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Regular.woff') }}) format('woff');
-            }
-
-            @font-face {
-                font-family: "Montserrat-SemiBold";
-                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.eot') }});
-                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.eot?#iefix') }}) format('embedded-opentype'),
-                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.woff2') }}) format('woff2'),
-                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-SemiBold.woff') }}) format('woff');
-            }
-
-            @font-face {
-                font-family: "Montserrat-Bold";
-                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Bold.eot') }});
-                src: url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Bold.eot?#iefix') }}) format('embedded-opentype'),
-                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Bold.woff2') }}) format('woff2'),
-                url({{ url_for('static', filename='media/fonts/montserrat/Montserrat-Bold.woff') }}) format('woff');
-            }
-
             {# Cartograph Mono #}
 
             @font-face {
@@ -95,7 +69,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 
         <script src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
-{#        <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>#}
+        {#        <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>#}
         <script src="{{ url_for('static', filename='js/util.js') }}"></script>
 
         <title>Uroš Krčadinac{% block title %} ← Data Art, Writing, Teaching{% endblock %}</title>
@@ -112,71 +86,75 @@
 
 <div id="main-body">
 
-    <div id="main-logo">
+    <nav id="navigation-frame">
 
-        <svg id="pictome-logo" tooltip-text="Menu" class="fill-none-stroke-dark" width="13px" height="26px">
-            <rect id="hover-rect" x="0" y="0" pointer-events="all" fill="none" stroke="none" width="13"
-                  height="26"></rect>
-            <circle id="idle-pictome-head" pointer-events="none" cx="6.5" cy="3.7" r="2.7"></circle>
-            <path id="idle-pictome-arm1" pointer-events="none" d="M0.1,9.6c0.5,0,5.6,0,6.5,0s5.8,0,6.3,0"></path>
-            <path id="idle-pictome-arm2" pointer-events="none" d="M0.1,9.6c0.5,0,5.6,0,6.5,0s5.8,0,6.3,0"></path>
-            <path id="idle-pictome-leg1" pointer-events="none"
-                  d="M1,25.7C1.2,25.2,6.6,13,6.6,13s5.2,12.2,5.5,12.7"></path>
-            <path id="idle-pictome-leg2" pointer-events="none"
-                  d="M1,25.7C1.2,25.2,6.6,13,6.6,13s5.2,12.2,5.5,12.7"></path>
-        </svg>
+        <div id="main-logo">
 
-    </div>
+            <svg id="pictome-logo" tooltip-text="Menu" class="fill-none-stroke-dark" width="13px" height="26px">
+                <rect id="hover-rect" x="0" y="0" pointer-events="all" fill="none" stroke="none" width="13"
+                      height="26"></rect>
+                <circle id="idle-pictome-head" pointer-events="none" cx="6.5" cy="3.7" r="2.7"></circle>
+                <path id="idle-pictome-arm1" pointer-events="none" d="M0.1,9.6c0.5,0,5.6,0,6.5,0s5.8,0,6.3,0"></path>
+                <path id="idle-pictome-arm2" pointer-events="none" d="M0.1,9.6c0.5,0,5.6,0,6.5,0s5.8,0,6.3,0"></path>
+                <path id="idle-pictome-leg1" pointer-events="none"
+                      d="M1,25.7C1.2,25.2,6.6,13,6.6,13s5.2,12.2,5.5,12.7"></path>
+                <path id="idle-pictome-leg2" pointer-events="none"
+                      d="M1,25.7C1.2,25.2,6.6,13,6.6,13s5.2,12.2,5.5,12.7"></path>
+            </svg>
 
-    <div id="plus-logo">
+        </div>
 
-        <svg id="plus-logo-svg" class="fill-none-stroke-dark" width="13px" height="13px">
-            <rect id="hover-rect" x="0" y="0" pointer-events="all" fill="none" stroke="none" width="13"
-                  height="13"></rect>
-            <line class="plus-line" x1="6.5" y1="0" x2="6.5" y2="13"></line>
-            <line class="plus-line" x1="0" y1="6.5" x2="13" y2="6.5"></line>
-        </svg>
+        <div id="plus-logo">
 
-    </div>
+            <svg id="plus-logo-svg" class="fill-none-stroke-dark" width="13px" height="13px">
+                <rect id="hover-rect" x="0" y="0" pointer-events="all" fill="none" stroke="none" width="13"
+                      height="13"></rect>
+                <line class="plus-line" x1="6.5" y1="0" x2="6.5" y2="13"></line>
+                <line class="plus-line" x1="0" y1="6.5" x2="13" y2="6.5"></line>
+            </svg>
+
+        </div>
 
 
-    <div id="lang-choice" class="interface-text">
-        {% block lang %}
-            <span id="eng" class="lang-li"><span>Eng</span></span>
-            <span id="nas" class="lang-li"><a href="../rad/">Naš</a></span>
-        {% endblock %}
-    </div>
-
-    <div id="side-mask"></div>
-    <aside id="side-menu">
-
-        <div class="side-nav">
-            {% block menu %}
-                <div class="menu-title">Menu</div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Writing</a></li>
-                    <li><a href="#">Teaching</a></li>
-                    <li><a href="#">Speaking</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-                <div class="menu-title lang">Lang</div>
-            {% endblock %}
-            {% block menu_lang %}
-                <ul>
-                    <li><span>Eng</span></li>
-                    <li><a href="../rad/">Naš</a></li>
-                </ul>
+        <div id="lang-choice" class="interface-text">
+            {% block lang %}
+                <span id="eng" class="lang-li"><span>Eng</span></span>
+                <span id="nas" class="lang-li"><a href="../rad/">Naš</a></span>
             {% endblock %}
         </div>
 
-    </aside>
+        <div id="side-mask"></div>
+        <aside id="side-menu">
 
-    <div id="name-aside" orig-text="Ur0š Krčad1nac" alt-text="Uroš Krčadinac" menu-text="Menu">
-        <a id="name-aside-href" href="#">Ur0š Krčad1nac</a>
-    </div>
+            <div class="side-nav">
+                {% block menu %}
+                    <div class="menu-title">Menu</div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Writing</a></li>
+                        <li><a href="#">Teaching</a></li>
+                        <li><a href="#">Speaking</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <div class="menu-title lang">Lang</div>
+                {% endblock %}
+                {% block menu_lang %}
+                    <ul>
+                        <li><span>Eng</span></li>
+                        <li><a href="../rad/">Naš</a></li>
+                    </ul>
+                {% endblock %}
+            </div>
+
+        </aside>
+
+        <div id="name-aside" orig-text="Ur0š Krčad1nac" alt-text="Uroš Krčadinac" menu-text="Menu">
+            <a id="name-aside-href" href="#">Ur0š Krčad1nac</a>
+        </div>
+
+    </nav>
 
     <main>
         {% block content %}

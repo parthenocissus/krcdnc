@@ -5,7 +5,6 @@ let arrowUtility = (function () {
         let breadDiv = d3.select("#breadcrumbs");
 
         let x = d3.select('.article-text').node().getBoundingClientRect().left;
-        console.log(x);
 
         breadData.forEach(function(d, i) {
 

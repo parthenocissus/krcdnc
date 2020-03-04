@@ -482,20 +482,20 @@ let chartUtility = (function () {
 
     };
 
-    // let fillMissingDates = function (data) {
-    //     let newData = data,
-    //         startYear = linechartParameters.firstDate.getFullYear(),
-    //         endYear = linechartParameters.lastDate.getFullYear();
-    //     for (let i = startYear; i < endYear + 1; i++) {
-    //         if (!(data.some(e => parseInt(e.year) === i))) {
-    //             newData.push({"year": i.toString(), "projectCount": 0});
-    //         }
-    //     }
-    //     newData.sort(function (obj1, obj2) {
-    //         return parseInt(obj1.year) - parseInt(obj2.year);
-    //     });
-    //     return newData;
-    // };
+    let fillMissingDates = function (data) {
+        let newData = data,
+            startYear = linechartParameters.firstDate.getFullYear(),
+            endYear = linechartParameters.lastDate.getFullYear();
+        for (let i = startYear; i < endYear + 1; i++) {
+            if (!(data.some(e => parseInt(e.year) === i))) {
+                newData.push({"year": i.toString(), "projectCount": 0});
+            }
+        }
+        newData.sort(function (obj1, obj2) {
+            return parseInt(obj1.year) - parseInt(obj2.year);
+        });
+        return newData;
+    };
 
 
     /* Linechart Section */

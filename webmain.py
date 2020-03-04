@@ -1,13 +1,15 @@
 # Uros Krcadinac 2020
 # Main App
 
+import json
+import os
+import os.path
 import sys
+from datetime import date, datetime
+
 from flask import Flask, render_template
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
-import json
-from itertools import groupby
-from datetime import date, datetime
 
 app = Flask(__name__)
 
@@ -24,8 +26,20 @@ DATA_DIR = 'data'
 PICTOGRAMS_FILE = 'pictograms.json'
 PICTOGRAMS_PATH = '{}/{}/{}'.format(STATIC_DIR, DATA_DIR, PICTOGRAMS_FILE)
 
-EN = ["en"]
-SH = ["sh"]
+EN = ["en",
+      {
+          "base": "/work/projects/",
+          "category": "category/",
+          "role": "role/",
+          "medium": "medium/"
+      }]
+SH = ["sh",
+      {
+          "base": "/rad/projekti/",
+          "category": "kategorija/",
+          "role": "uloga/",
+          "medium": "medijum/"
+      }]
 
 app = Flask(__name__)
 flatpages = FlatPages(app)
@@ -47,9 +61,11 @@ def setup_params(language):
             tag["projects"] = project_count_by_category(tag["id"])
         params = {"lang": language[0],
                   "pictodata": data,
-                  "max": max_project_count}
+                  "max": max_project_count,
+                  "project_paths": language[1]}
     else:
         params["lang"] = language[0]
+        params["project_paths"] = language[1]
     return params
 
 
@@ -60,13 +76,14 @@ def get_pictogram_data():
 
 
 def project_count_by_category(tag):
-
     global max_project_count
-    projects_tagged = list(filter(lambda x: (tag in x["tags"]), project_pages))
-    projects_data = []
 
+    projects_tagged = list(filter(lambda x: (tag in map(lambda d: d["id"], x["category"])), project_pages))
+
+    projects_data = []
     birth_year = datetime.strptime("1984", "%Y").year
     now_year = date.today().year
+
     for year in range(birth_year, now_year + 1):
         i = year - birth_year
         count_by_year = len(list(filter(lambda x: (year == x["date"]), projects_tagged)))
@@ -75,7 +92,6 @@ def project_count_by_category(tag):
         projects_data.insert(i, {"year": str(year), "projectCount": count_by_year})
 
     return projects_data
-
 
 
 # Flask Routes and Functions
@@ -104,20 +120,25 @@ def test_scroll():
 def projects():
     projects = [p for p in flatpages if p.path.startswith(PROJECTS_DIR)]
     projects.sort(key=lambda item: item['date'], reverse=True)
-
-    # for year, projects_that_year in groupby(projects, lambda x: x["date"]):
-    #     for p in projects_that_year:
-    #         print("the project %s is posted on %s." % (p["title"], year))
-    #     print(" ")
-
     return render_template('test/posts.html', projects=projects)
+
+
+@app.route("/work/projects/<by>/<criteria>")
+def projects_by_category(by, criteria):
+    filtered_projects = list(filter(lambda x: (criteria in map(lambda d: d["id"], x[by])), project_pages))
+    filtered_projects.sort(key=lambda item: item['date'], reverse=True)
+    return render_template('test/posts.html', projects=filtered_projects, params=setup_params(EN))
 
 
 @app.route('/work/projects/<name>/')
 def project(name):
     path = '{}/{}'.format(PROJECTS_DIR, name)
-    project = flatpages.get_or_404(path)
-    return render_template('en/project.html', project=project, params=setup_params(EN))
+    img_path = '{}/{}/{}/{}/{}'.format("static", "media", "projects", name, "img")
+    thumb_path = '{}/{}/{}/{}/{}'.format("static", "media", "projects", name, "thumbs")
+    this_project = flatpages.get_or_404(path)
+    n = {"img": len([n for n in os.listdir(img_path) if os.path.isfile(os.path.join(img_path, n))]),
+         "thumbs": len([n for n in os.listdir(thumb_path) if os.path.isfile(os.path.join(thumb_path, n))])}
+    return render_template('en/project.html', project=this_project, params=setup_params(EN), n_of_img=n)
 
 
 if __name__ == "__main__":

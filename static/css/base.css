@@ -128,11 +128,32 @@ a { text-decoration: none; }
     color: var(--suncolor);
 }
 
+/* Interface within Article */
+
+.interface-heading-article {
+    font-family: "CartographMono-Heavy", monospace;
+    font-size: 9pt;
+    padding-bottom: 8px;
+    color: var(--darkcolor);
+    text-transform: uppercase;
+}
+
+.interface-subheading {
+    font-family: "CartographSans-DemiBold", monospace;
+    font-size: 8pt;
+    padding: 4px 0 6px 0;
+    margin: 0;
+    color: var(--darkcolor);
+}
+
 .interface-text-article {
     font-family: "Ambit-Regular", monospace;
-    font-size: 9pt;
+    font-size: 10.5pt;
     line-height: 1.7em;
     letter-spacing: 0.2pt;
+}
+.interface-text-article span {
+    cursor: default;
 }
 .interface-text-article a {
     color: var(--darkcolor);
@@ -318,6 +339,15 @@ aside {
 
 footer {
     display: none;
+}
+
+/* Selection Queries */
+
+::selection {
+  background: var(--suncolor); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--suncolor); /* Gecko Browsers */
 }
 
 /* MEDIA QUERIES */

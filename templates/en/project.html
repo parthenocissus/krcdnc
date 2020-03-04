@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %} → {{ project.title }}{% endblock %}
+{% block title %} ⇝ {{ project.title }}{% endblock %}
 
 {% block head %}
 
@@ -23,40 +23,99 @@
 
         <div class="project-pictogram-list"></div>
 
-{#        <div class="categories-list"></div>#}
-
         <div class="information-list">
-            <div class="interface-heading">Categories</div>
+
+            <div class="interface-heading-article">Categories</div>
             <div class="interface-text-article">
-                <a href="#">Data Art</a> /
-                <a href="#">Animation</a> /
-                <a href="#">Software</a> /
-                <a href="#">Artificial Intelligence</a> /
-                <a href="#">Book</a>
+                {% for tag in project.category %}
+                    {% set href = params.project_paths.base ~ params.project_paths.category ~ tag.id %}
+                    {% set slash = " / " %}
+                    {% if loop.index == project.category|length %}
+                        {% set slash = "" %}
+                    {% endif %}
+                    <a href="{{ href }}" target="_blank">{{ tag.name }}</a>{{ slash }}
+                {% endfor %}
             </div>
-            <div class="interface-heading">Role</div>
+
+            <div class="interface-heading-article">Role</div>
             <div class="interface-text-article">
-                <a href="#">Co-Writer</a> /
-                <a href="#">Illustrator</a> /
-                <a href="#">Programmer</a>
+
+                {% for role in project.role %}
+                    {% set href = params.project_paths.base ~ params.project_paths.role ~ role.id %}
+                    {% set slash = " / " %}
+                    {% if loop.index == project.role|length %}
+                        {% set slash = "" %}
+                    {% endif %}
+                    <a href="{{ href }}" target="_blank">{{ role.name }}</a>{{ slash }}
+                {% endfor %}
             </div>
-            <div class="interface-heading">Medium</div>
+
+            <div class="interface-heading-article">Medium</div>
             <div class="interface-text-article">
-                <a href="#">Software</a> /
-                <a href="#">Book</a>
+                {% for medium in project.medium %}
+                    {% set href = params.project_paths.base ~ params.project_paths.medium ~ medium.id %}
+                    {% set slash = " / " %}
+                    {% if loop.index == project.medium|length %}
+                        {% set slash = "" %}
+                    {% endif %}
+                    <a href="{{ href }}" target="_blank">{{ medium.name }}</a>{{ slash }}
+                {% endfor %}
             </div>
-            <div class="interface-heading">Collaborators</div>
+
+            {% if project.team is defined %}
+                <div class="interface-heading-article">Collaborators</div>
+                <div class="interface-text-article">
+                    {% for human in project.team %}
+                        {% set href = human.link %}
+                        {% set slash = " / " %}
+                        {% if loop.index == project.team|length %}
+                            {% set slash = "" %}
+                        {% endif %}
+                        <a href="{{ href }}" target="_blank">{{ human.name }}</a>{{ slash }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <div class="interface-heading-article">{{ project.presentation_title }}</div>
             <div class="interface-text-article">
-                <span>John Doe</span> /
-                <span>Nikola Pančevac</span> /
-                <span>Bla Blablabla</span> /
-                <span>Hjidas Geege</span> /
-                <span>Bologog Ogogog</span> /
+                {% for p in project.presentations %}
+                    <p class="interface-subheading">{{ p.year }}</p>
+                    {% for e in p.events %}
+
+                        {% set slash = " / " %}
+                        {% if loop.index == p.events|length %}
+                            {% set slash = "" %}
+                        {% endif %}
+
+                        {% if e.link is defined %}
+                            <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>{{ slash }}
+                        {% else %}
+                            <span>{{ e.name }}</span>
+                        {% endif %}
+
+                    {% endfor %}
+                {% endfor %}
             </div>
+
+            {% if project.awards is defined %}
+                <div class="interface-heading-article">Awards</div>
+                <div class="interface-text-article">
+                    {% for a in project.awards %}
+                        {% set slash = " / " %}
+                        {% if loop.index == project.awards|length %}
+                            {% set slash = "" %}
+                        {% endif %}
+                        <a href="{{ a.link }}" target="_blank">{{ a.name }}</a>{{ slash }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+
         </div>
 
         <div class="article-image">
-            <img src="{{ url_for('static', filename='media/projects/cyclozoetrope/cyclozoetrope-main.jpg') }}">
+            {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
+            <img src="{{ url_for('static', filename=main_img_path) }}">
+            <div class="image-underline"></div>
         </div>
 
         <div class="article-main-description">
@@ -66,6 +125,13 @@
         <article class="article-text">
             {{ project.html|safe }}
         </article>
+
+        <div class="thumbs">
+            {% for i in range(n_of_img.thumbs) %}
+                {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb0" ~ i ~ ".jpg" %}
+                <img src="{{ url_for('static', filename=thumb_path) }}">
+            {% endfor %}
+        </div>
 
         <div class="footer">
             Tekst...
@@ -86,10 +152,13 @@
             ];
             arrowUtility.createBreadcrumbs(breadData);
 
-            //let pictolistTags = ["cartography", "animation", "workshop", "data-art", "dataviz"];
-            let pictolistTags = {{ project.tags|safe }};
+            let pictolistTags = {{ project.category|safe }},
+                tagIds = [];
+            pictolistTags.forEach(function (item) {
+                tagIds.push(item.id);
+            });
             chartUtility.addData(pictoData);
-            chartUtility.createProjectPictolist(pictolistTags);
+            chartUtility.createProjectPictolist(tagIds);
 
             {#chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());#}
             {#chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());#}
