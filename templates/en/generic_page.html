@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/generic_page.css') }}">
+{% endblock %}
+
+{% block content %}
+
+    {% block breadcrumbs %}
+        <div id="breadcrumbs-container">
+            <div id="breadcrumbs"></div>
+            <div id="breadcrumbs-background"></div>
+        </div>
+    {% endblock %}
+
+    <div class="generic-center-container">
+
+        {% block main_container %}
+        {% endblock %}
+
+        <div class="footer">
+
+            <div class="menu">
+                {% block footer_menu %}
+                    {% if params.lang == "en" %}
+                        <div class="interface-heading-article">Menu</div>
+                        <div class="interface-text-article">
+                            <a href="#" target="_blank">Home</a> /
+                            <a href="#" target="_blank">Project</a> /
+                            <a href="#" target="_blank">Writing</a> /
+                            <a href="#" target="_blank">Teaching</a> /
+                            <a href="#" target="_blank">Speaking</a> /
+                            <a href="#" target="_blank">Press</a> /
+                            <a href="#" target="_blank">About</a>
+                        </div>
+                    {% else %}
+                        <div class="interface-heading-article">Meni</div>
+                        <div class="interface-text-article">
+                            <a href="#" target="_blank">Početna</a> /
+                            <a href="#" target="_blank">Projekti</a> /
+                            <a href="#" target="_blank">Tekstovi</a> /
+                            <a href="#" target="_blank">Edukacija</a> /
+                            <a href="#" target="_blank">Nastupi</a> /
+                            <a href="#" target="_blank">Mediji</a> /
+                            <a href="#" target="_blank">O meni</a>
+                        </div>
+                    {% endif %}
+                {% endblock %}
+
+                {% block footer_social %}
+                    <div class="interface-heading-article">Social</div>
+                    <div class="interface-text-article">
+                        <a href="#" target="_blank">GitHub</a> /
+                        <a href="#" target="_blank">Facebook</a> /
+                        <a href="#" target="_blank">FMK</a> /
+                        <a href="#" target="_blank">Academy</a> /
+                        <a href="#" target="_blank">Vimeo</a> /
+                        <a href="#" target="_blank">Youtube</a>
+                    </div>
+                {% endblock %}
+            </div>
+
+            <div class="social">
+                .
+            </div>
+
+            <div class="categories">
+                {% block footer_categories %}
+                    <div class="interface-heading-article">Categories</div>
+                    <div class="interface-text-article">
+                        {% for tag in params.pictodata %}
+                            <a href="#" target="_blank">{{ tag.name }}</a> /
+                        {% endfor %}
+                    </div>
+                {% endblock %}
+            </div>
+
+            <div class="bio">
+                {% block footer_bio %}
+                    <div class="interface-heading-article">Short Bio</div>
+                    <p><a href="#">Uroš Krčadinac</a> (b. 1984) is a Belgrade-based digital artist,
+                    technologist, writer, and educator who <span id="creates-verb">makes</span>
+                    <span id="creates-what"><a id="link-to-projects" href="#">Data Art</a></span>.</p>
+                    <div class="interface-heading-article">Contact</div>
+                    <p>uros.krcadinac [et] gmail.com</p>
+{#                    <div class="interface-heading-article">Copyleft</div>#}
+{#                    <p><span class="copyleft">&copy;</span> 1999–2020 Uroš Krčadinac</p>#}
+                {% endblock %}
+            </div>
+
+        </div>
+
+        <div class="footer-margin"></div>
+
+    </div>
+
+{% endblock %}

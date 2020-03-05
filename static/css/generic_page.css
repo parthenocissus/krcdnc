@@ -1,0 +1,126 @@
+/* Breadcrumbs */
+
+#breadcrumbs {
+    position: fixed;
+    top: 20px;
+    left: 0px;
+    z-index: 6;
+}
+
+#breadcrumbs-arrow {
+}
+
+.breadcrumbs-text {
+    padding: 0 26px;
+    position: relative;
+    top: -2px;
+}
+
+.breadcrumbs-small-arrow {
+}
+
+#breadcrumbs-arrow-svg {
+}
+
+.breadcrumbs-arrow-style {
+    fill: none;
+    stroke: var(--darkcolor);
+    stroke-width: 1;
+}
+
+#breadcrumbs-background {
+    position: fixed;
+    top: 8px;
+    width: calc(100vw - 16px);
+    height: 50px;
+    z-index: 5;
+    background-color: var(--lightcolor);
+}
+
+/* Generic Center Container */
+
+.generic-center-container {
+    display: grid;
+    grid-template-columns: 1fr 1024px 1fr;
+    grid-template-rows: auto minmax(300px, auto) 8px;
+    grid-gap: 0;
+    grid-template-areas:
+        ".        maincont .       "
+        ".        footcont .       "
+        "footmarg footmarg footmarg";
+}
+
+/* Footer */
+
+.footer {
+    grid-area: footcont;
+    background-color: var(--lightcolor);
+    margin: 36px 26px 0 26px;
+    padding: 36px 0;
+    border-top: var(--darkcolor) solid 1px;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 26px;
+    grid-template-areas:
+        "menu menu soc soc cat cat bio bio";
+}
+
+.footer .menu {
+    grid-area: menu;
+}
+
+.footer .social {
+    grid-area: soc;
+}
+
+.footer .interface-text-article {
+    padding-bottom: 26px;
+}
+
+.footer .categories {
+    grid-area: cat;
+}
+
+.footer .bio {
+    grid-area: bio;
+}
+.footer .bio p {
+    font-family: 'Ambit-Regular', sans-serif;
+    color: var(--darkcolor);
+    font-size: 10.5pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+    margin: 0;
+    padding-bottom: 26px;
+}
+
+.footer .copyleft {
+    display: inline-block;
+    transform: rotate(180deg);
+    padding-top: 3px;
+}
+
+.footer .bio a {
+    background: linear-gradient(
+            to bottom, var(--suncolor) 0%,
+            var(--suncolor) 100%
+    ) repeat-x 0 100%;
+    background-size: 3px 1px;
+    color: var(--darkcolor);
+    padding-bottom: 1px;
+    text-decoration: none;
+    transition: background-size .13s;
+}
+
+.footer .bio a:hover {
+    background-size: 2px 5px;
+}
+
+/* Footer Margin, Bottom Margin */
+
+.footer-margin {
+    grid-area: footmarg;
+    background-color: var(--suncolor);
+}

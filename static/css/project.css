@@ -19,75 +19,73 @@ img {
     width: 8px;
 }
 
-/* Scroll Style */
-
-/*body::-webkit-scrollbar {*/
-    /*width: 10px;*/
-/*}*/
-
-/*body::-webkit-scrollbar-track {*/
-    /*!*box-shadow: inset 0 0 0 var(--darkcolor);*!*/
-    /*!*border: solid 3px transparent;*!*/
-/*}*/
-
-/*body::-webkit-scrollbar-thumb {*/
-    /*background-color: var(--darkcolor);*/
-    /*!*outline: 5px solid slategrey;*!*/
-/*}*/
-
 /* Breadcrumbs */
 
-#breadcrumbs {
-    position: fixed;
-    top: 20px;
-    left: 0px;
-    z-index: 6;
-}
+/*#breadcrumbs {*/
+/*    position: fixed;*/
+/*    top: 20px;*/
+/*    left: 0px;*/
+/*    z-index: 6;*/
+/*}*/
 
-#breadcrumbs-arrow {
-}
+/*#breadcrumbs-arrow {*/
+/*}*/
 
-.breadcrumbs-text {
-    padding: 0 26px;
-    position: relative;
-    top: -2px;
-}
+/*.breadcrumbs-text {*/
+/*    padding: 0 26px;*/
+/*    position: relative;*/
+/*    top: -2px;*/
+/*}*/
 
-.breadcrumbs-small-arrow {
-}
+/*.breadcrumbs-small-arrow {*/
+/*}*/
 
-#breadcrumbs-arrow-svg {
-}
+/*#breadcrumbs-arrow-svg {*/
+/*}*/
 
-.breadcrumbs-arrow-style {
-    fill: none;
-    stroke: var(--darkcolor);
-    stroke-width: 1;
-}
+/*.breadcrumbs-arrow-style {*/
+/*    fill: none;*/
+/*    stroke: var(--darkcolor);*/
+/*    stroke-width: 1;*/
+/*}*/
 
-#breadcrumbs-background {
-    position: fixed;
-    top: 8px;
-    width: calc(100vw - 16px);
-    height: 50px;
-    z-index: 5;
-    background-color: var(--lightcolor);
-}
+/*#breadcrumbs-background {*/
+/*    position: fixed;*/
+/*    top: 8px;*/
+/*    width: calc(100vw - 16px);*/
+/*    height: 50px;*/
+/*    z-index: 5;*/
+/*    background-color: var(--lightcolor);*/
+/*}*/
 
 /* Main Container */
 
+/*.main-container {*/
+/*    margin: 100px 0 0 0;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr repeat(8, 100px) 1fr;*/
+/*    grid-template-rows: auto auto minmax(300px, auto) minmax(0, 1fr) 200px;*/
+/*    grid-gap: 32px;*/
+/*    grid-template-areas:*/
+/*        ".  .  .  pl pl pl pl .  .  . "*/
+/*        ".  .  .  in in in in .  .  . "*/
+/*        ".  im im im im im im im im . "*/
+/*        ".  ar ar ar .  tb tb il il . "*/
+/*        "fo fo fo fo fo fo fo fo fo fo";*/
+/*}*/
+
 .main-container {
+    grid-area: maincont;
     margin: 100px 0 0 0;
     display: grid;
-    grid-template-columns: 1fr repeat(8, 100px) 1fr;
-    grid-template-rows: auto auto minmax(300px, auto) minmax(0, 1fr) 200px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto auto minmax(300px, auto) minmax(0, 1fr);
     grid-gap: 32px;
     grid-template-areas:
-        ".  .  .  pl pl pl pl .  .  . "
-        ".  .  .  in in in in .  .  . "
-        ".  im im im im im im im im . "
-        ".  ar ar ar .  tb tb il il . "
-        "fo fo fo fo fo fo fo fo fo fo";
+        ".  .  pl pl pl pl .  . "
+        ".  .  in in in in .  . "
+        "im im im im im im im im"
+        "ar ar ar .  tb tb il il";
 }
 
 /* Pictolist */
@@ -235,15 +233,6 @@ img {
 .article-text sup {
     font-size: 8pt;
     line-height: 1;
-}
-
-/* Footer */
-
-.footer {
-    grid-area: fo;
-    background-color: var(--lightcolor);
-    border-top: var(--darkcolor) dotted 1px;
-    border-bottom: var(--suncolor) solid 8px;
 }
 
 
