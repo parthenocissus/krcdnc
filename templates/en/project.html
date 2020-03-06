@@ -110,6 +110,19 @@
                 </div>
             {% endif %}
 
+            {% if project.press is defined %}
+                <div class="interface-heading-article">Press</div>
+                <div class="interface-text-article">
+                    {% for p in project.press %}
+                        {% set slash = " / " %}
+                        {% if loop.index == project.press|length %}
+                            {% set slash = "" %}
+                        {% endif %}
+                        <a href="{{ p.link }}" target="_blank">{{ p.name }}</a>{{ slash }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+
         </div>
 
         <div class="article-image">
