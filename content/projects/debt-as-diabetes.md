@@ -23,7 +23,8 @@ presentation_title: Exhibitions
 presentations:
     - year: 2018
       events:
-        - name: art+science+makers, Center for the Promotion of Science, Museum of Applied Arts, Belgrade, Serbia
+        - link: "http://cpn.rs/arhivaartandscience/2018/en/%d1%80%d0%b0%d0%b4%d0%be%d0%b2%d0%b8%d1%86%d0%bd/"
+          name: art+science+makers, Center for the Promotion of Science, Museum of Applied Arts, Belgrade, Serbia
 press:
     - link: 'http://www.seecult.org/vest/umetnost-nauka-i-mejkers-kultura'
       name: art+science+makers, SEECult

@@ -6,10 +6,6 @@ html {
 body {
 }
 
-img {
-    width: 100%;
-}
-
 #bottom-margin {
     display: none;
 }
@@ -80,12 +76,12 @@ img {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto auto minmax(300px, auto) minmax(0, 1fr);
-    grid-gap: 32px;
+    grid-gap: 50px;
     grid-template-areas:
         ".  .  pl pl pl pl .  . "
-        ".  .  in in in in .  . "
+        "in in in in in in in in"
         "im im im im im im im im"
-        "ar ar ar .  tb tb il il";
+        "ar ar ar ar tb tb il il";
 }
 
 /* Pictolist */
@@ -99,7 +95,7 @@ img {
 .pictolist-item {
 	fill: none;
 	stroke: var(--darkcolor);
-	stroke-width: 0.8;
+	stroke-width: 1.4;
 	pointer-events: none;
 }
 
@@ -116,7 +112,7 @@ img {
 
 .sun-stroke-only {
     stroke: var(--suncolor);
-    stroke-width: 1.25;
+    stroke-width: 1.5;
     cursor: pointer;
 }
 
@@ -145,6 +141,7 @@ img {
 
 .article-image img {
     display: block;
+    width: 100%;
 }
 
 .image-underline {
@@ -160,11 +157,14 @@ img {
 .thumbs {
     grid-area: tb;
     width: auto;
+    display: block;
+    text-align: center;
 }
 
 .thumbs img {
-    display: block;
-    margin: 8px 0 16px 0;
+    /*display: block;*/
+    margin: 8px 0px 16px 0px;
+    width: 80%;
 }
 
 /* Text Elements */
@@ -173,8 +173,8 @@ img {
 .article-main-description {
     grid-area: in;
     font-size: 16pt;
-    padding: 0 0 24px 0;
-    line-height: 1.7em;
+    padding: 0 50px 0 50px;
+    line-height: 1.5em;
     letter-spacing: 0.2pt;
 }
 
@@ -202,7 +202,7 @@ img {
 
 .article-text {
     grid-area: ar;
-    padding-left: 26px;
+    padding-left: 50px;
     margin: 0;
 }
 
@@ -210,7 +210,7 @@ img {
     margin: 0;
     font-size: 13pt;
     padding: 0 0px 16px 0px;
-    line-height: 1.7em;
+    line-height: 1.6em;
     letter-spacing: 0.2pt;
 }
 

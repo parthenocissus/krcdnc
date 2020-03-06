@@ -75,7 +75,7 @@ let chartUtility = (function () {
     // Pictolist Section
 
     let projectPictolistParams = {
-        scale: 3.2,
+        scale: 3.5,
         svg: ".project-pictogram-list",
         class: "pictolist-item",
         rectClass: "light-fill",
@@ -91,10 +91,10 @@ let chartUtility = (function () {
 
         let pictoWidth = 17 * params.scale,
             pictolistHeight = 35 * params.scale, // 105px
-            pictolistWidth = params.getPictolistWidth(), // 528px
+            pictolistWidth = 528;// params.getPictolistWidth(), // 528px
             pictoCount = tags.length,
-            pictoGap = (pictolistWidth - pictoCount * pictoWidth) / (pictoCount - 1),
-            //pictoGap = 20 * params.scale,
+            //pictoGap = (pictolistWidth - pictoCount * pictoWidth) / (pictoCount - 1),
+            pictoGap = 30 * params.scale,
             pictoWidthPlusGap = (pictoWidth + pictoGap) * 0.9;
 
         let pictolistSvg = d3.select(params.svg).append("svg")

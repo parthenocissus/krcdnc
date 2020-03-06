@@ -128,7 +128,7 @@
         <div class="article-image">
             {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
             <img src="{{ url_for('static', filename=main_img_path) }}">
-            <div class="image-underline"></div>
+{#            <div class="image-underline"></div>#}
         </div>
 
         <div class="article-main-description">
@@ -154,12 +154,12 @@
     <script>
         (function () {
 
-            let projectTitle = "{{ project.title }}";
-            let breadData = [
-                {"item": "Projects", "link": "/work/projects/"},
-                {"item": projectTitle, "link": "/work/projects/" + projectTitle.toLowerCase()}
-            ];
-            arrowUtility.createBreadcrumbs(breadData);
+            {#let projectTitle = "{{ project.title }}";#}
+            {#let breadData = [#}
+            {#    {"item": "Projects", "link": "/work/projects/"},#}
+            {#    {"item": projectTitle, "link": "/work/projects/" + projectTitle.toLowerCase()}#}
+            {#];#}
+            {#arrowUtility.createBreadcrumbs(breadData);#}
 
             let pictolistTags = {{ project.category|safe }},
                 tagIds = [];
