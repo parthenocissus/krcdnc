@@ -155,7 +155,8 @@ def download_file(args=None):
     for i in items:
         path = path + "/" + i
     print(path)
-    return send_file(path, as_attachment=True)
+    # return send_file(path, as_attachment=True)
+    return send_file(path)
 
 
 if __name__ == "__main__":
