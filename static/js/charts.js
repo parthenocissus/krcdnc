@@ -7,20 +7,21 @@ let chartUtility = (function () {
     let flowerchartParameters = {};
 
     let linechartParameters = {
-            radius: 2.5,
-            firstDate: new Date(1984, 1),
-            lastDate: new Date(2020, 1),
-            yearParser: d3.timeParse("%Y")
-        };
+        radius: 2.5,
+        firstDate: new Date(1984, 1),
+        lastDate: new Date(2020, 1),
+        yearParser: d3.timeParse("%Y"),
+        xShift: 0
+    };
 
     let parameters = {
-            animationDuration: 300,
-            animationDurationPictome: 400,
-            precision: 1,
-            animationInterval: 2000,
-            maxProjectCount: 0,
-            radius: 2
-        };
+        animationDuration: 300,
+        animationDurationPictome: 400,
+        precision: 1,
+        animationInterval: 2000,
+        maxProjectCount: 0,
+        radius: 0
+    };
 
     let generalFlowerPictogram = {
         name: "All Projects",
@@ -62,8 +63,10 @@ let chartUtility = (function () {
             dotClass: "pictome-dot",
             scale: scale,
             idPrefix: "category-pictogram",
-            rectMouseover: function () { },
-            rectMouseout: function () { },
+            rectMouseover: function () {
+            },
+            rectMouseout: function () {
+            },
             transformFn: function () {
                 return "scale(" + scale + " " + scale + ")";
             }
@@ -75,7 +78,7 @@ let chartUtility = (function () {
     // Pictolist Section
 
     let projectPictolistParams = {
-        scale: 3.5,
+        scale: 1.5,
         svg: ".project-pictogram-list",
         class: "pictolist-item",
         rectClass: "light-fill",
@@ -89,17 +92,15 @@ let chartUtility = (function () {
 
     let createProjectPictolist = function (tags, params = projectPictolistParams) {
 
-        let pictoWidth = 17 * params.scale,
-            pictolistHeight = 35 * params.scale, // 105px
-            pictolistWidth = 528;// params.getPictolistWidth(), // 528px
-            pictoCount = tags.length,
-            //pictoGap = (pictolistWidth - pictoCount * pictoWidth) / (pictoCount - 1),
-            pictoGap = 30 * params.scale,
-            pictoWidthPlusGap = (pictoWidth + pictoGap) * 0.9;
+        let pictoGap = 17 * params.scale,
+            pictoWidth = 17 * params.scale,
+            pictolistHeight = 35 * params.scale,
+            pictolistWidth = (pictoWidth * tags.length) + (pictoGap * (tags.length - 1));
+        pictoWidthPlusGap = pictoWidth + pictoGap;
 
         let pictolistSvg = d3.select(params.svg).append("svg")
-            .attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight).attr("preserveAspectRatio", "xMinYMin meet")
-            //.attr("width", pictolistWidth).attr("height", pictolistHeight)
+            //.attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight).attr("preserveAspectRatio", "xMinYMin meet")
+            .attr("width", pictolistWidth).attr("height", pictolistHeight)
             .attr("id", "projectPictolistSvg");
 
         tags.forEach(function (d, i) {
@@ -120,25 +121,14 @@ let chartUtility = (function () {
                 scale: params.scale,
                 idPrefix: params.idPrefix,
                 rectMouseover: function () {
-                    // d3.select(this).classed("hover-pointer", true);
-                    // d3.select(".project-pictogram-name").html(item.name).style("opacity", 1);
-                    // d3.selectAll("#pictolist-" + item.id).classed("sun-stroke-only", true);
-                    // d3.selectAll("#pictolist-" + item.id + "Dot").classed("pictome-dot-sun", true);
-                    let scaleFactor = 0.9 * params.scale;
                     d3.selectAll("#" + params.idPrefix + "-" + item.id).classed("sun-stroke-only", true);
-                        // .transition().duration(parameters.animationDurationPictome)
-                        // .ease(d3.easePolyOut)
-                        // .attr("transform", "scale(" + scaleFactor + " " + scaleFactor + ")");
                     d3.selectAll("#" + params.idPrefix + "-" + item.id + "Dot").classed("pictome-dot-sun", true);
+                    d3.select(".project-categories").html(item.name);
                 },
                 rectMouseout: function () {
-                    // d3.select(this).classed("hover-pointer", false);
-                    // d3.select(".project-pictogram-name").style("opacity", 0);
-                    // d3.selectAll("#pictolist-" + item.id).classed("sun-stroke-only", false);
-                    // d3.selectAll("#pictolist-" + item.id + "Dot").classed("pictome-dot-sun", false);
-
                     d3.selectAll("#" + params.idPrefix + "-" + item.id).classed("sun-stroke-only", false);
                     d3.selectAll("#" + params.idPrefix + "-" + item.id + "Dot").classed("pictome-dot-sun", false);
+                    d3.select(".project-categories").html("Project Categories");
                 },
                 transformFn: function () {
                     return "translate(" + (pictoWidthPlusGap * i) + ",0) "
@@ -373,9 +363,10 @@ let chartUtility = (function () {
 
     };
 
-    let setPeriodicalAnimation = function () {
+    let periodicalAnimationParamsIndex = {
 
-        d3.selectAll(".pictome, #pictome-bg, #dot, #creates-what, #link-to-projects, #linechart-svg")
+        hoverEffects: function () {
+            d3.selectAll(".pictome, #pictome-bg, #dot, #creates-what, #link-to-projects, #linechart-svg")
             .on("mouseover", function () {
                 d3.selectAll(".pictome").classed("sun-stroke-only", true);
                 d3.selectAll("#dot").classed("pictome-dot-sun", true);
@@ -392,15 +383,9 @@ let chartUtility = (function () {
                 d3.selectAll(".linechartLine").attr("stroke-width", 1);
                 d3.selectAll(".linechartCircleVisible").attr("r", linechartParameters.radius);
             });
+        },
 
-        setInterval(intervalFunction, parameters.animationInterval);
-
-    };
-
-    let intervalFunction = function () {
-
-        if (document.hasFocus()) {
-
+        flowerchartUpdate: function () {
             if (flowerchartParameters.prevItem) {
                 d3.select("#pictogram-" + flowerchartParameters.prevItem.id)
                     .attr("class", "pictome-small-dark");
@@ -411,74 +396,102 @@ let chartUtility = (function () {
             } else {
                 flowerchartParameters.prevItem = {};
             }
+        },
 
-            let randomItem = dataCopy[Math.floor(Math.random() * dataCopy.length)];
+        linechartUpdate: function (randomItem) {
+            updateLinechart(randomItem.projects, parameters.animationDuration)
+        }
 
-            /* Link to project */
-            /* Lang check */
+    }
 
-            if (lang === "en") {
-                d3.select("#creates-verb").html(randomItem.createsVerb);
-                let linkToProjects = "<a id='link-to-projects' href='../work/projects/" + randomItem.id + "'>" + randomItem.name + "</a>";
-                d3.select("#creates-what").html(linkToProjects);
-            } else {
-                d3.select("#creates-verb").html(randomItem.createsVerbS);
-                let linkToProjects = "<a id='link-to-projects' href='../rad/projekti/" + randomItem.id + "'>" + randomItem.nameSCase + "</a>";
-                d3.select("#creates-what").html(linkToProjects);
+    let periodicalAnimationParamsFooter = {
+        hoverEffects: function () {
+        },
+        flowerchartUpdate: function () {
+        },
+        linechartUpdate: function () {
+        }
+    }
+
+    let getPeriodicalAnimationParamsIndex = function () {
+        return periodicalAnimationParamsIndex;
+    }
+    let getPeriodicalAnimationParamsFooter = function () {
+        return periodicalAnimationParamsFooter;
+    }
+
+    let setPeriodicalAnimation = function (params = getPeriodicalAnimationParamsFooter()) {
+
+        params.hoverEffects();
+
+        setInterval(function () {
+
+            if (document.hasFocus()) {
+
+                params.flowerchartUpdate();
+
+                let randomItem = dataCopy[Math.floor(Math.random() * dataCopy.length)];
+                flowerchartParameters.prevItem = randomItem;
+
+                /* Lang check */
+
+                if (lang === "en") {
+                    d3.select("#creates-verb").html(randomItem.createsVerb);
+                    let linkToProjects = "<a id='link-to-projects' href='../work/projects/" + randomItem.id + "'>" + randomItem.name + "</a>";
+                    d3.select("#creates-what").html(linkToProjects);
+                } else {
+                    d3.select("#creates-verb").html(randomItem.createsVerbS);
+                    let linkToProjects = "<a id='link-to-projects' href='../rad/projekti/" + randomItem.id + "'>" + randomItem.nameSCase + "</a>";
+                    d3.select("#creates-what").html(linkToProjects);
+                }
+
+                d3.select("#pictogram-" + randomItem.id)
+                    .attr("class", "pictome-small-sun");
+                d3.select("#line-" + randomItem.id)
+                    .attr("class", "dashed sun-stroke");
+                d3.select("#pictogram-" + randomItem.id + "Dot")
+                    .classed("pictome-dot-sun", true);
+
+                d3.select("#pictome-svg");
+
+                d3.select("#head")
+                    .transition().duration(parameters.animationDurationPictome)
+                    .ease(d3.easePolyOut)
+                    .attr("cx", randomItem.graphics.headcx)
+                    .attr("cy", randomItem.graphics.headcy)
+                    .attr("r", randomItem.graphics.headr);
+
+                d3.select("#dot")
+                    .transition().duration(parameters.animationDurationPictome)
+                    .ease(d3.easePolyOut)
+                    .attr("cx", randomItem.graphics.dotcx)
+                    .attr("cy", randomItem.graphics.dotcy)
+                    .attr("r", randomItem.graphics.dotr);
+
+                d3.select("#arm1")
+                    .transition().duration(parameters.animationDurationPictome)
+                    .ease(d3.easePolyOut)
+                    .attrTween("d", baseUtility.pathTween(randomItem.graphics.arm1d, 3));
+
+                d3.select("#arm2")
+                    .transition().duration(parameters.animationDurationPictome)
+                    .ease(d3.easePolyOut)
+                    .attrTween("d", baseUtility.pathTween(randomItem.graphics.arm2d, 3));
+
+                d3.select("#leg1")
+                    .transition().duration(parameters.animationDurationPictome)
+                    .ease(d3.easePolyOut)
+                    .attrTween("d", baseUtility.pathTween(randomItem.graphics.leg1d, 3));
+
+                d3.select("#leg2")
+                    .transition().duration(parameters.animationDurationPictome)
+                    .ease(d3.easePolyOut)
+                    .attrTween("d", baseUtility.pathTween(randomItem.graphics.leg2d, 3));
+
+                params.linechartUpdate(randomItem);
             }
 
-
-            d3.select("#pictogram-" + randomItem.id)
-                .attr("class", "pictome-small-sun");
-            d3.select("#line-" + randomItem.id)
-                .attr("class", "dashed sun-stroke");
-            d3.select("#pictogram-" + randomItem.id + "Dot")
-                .classed("pictome-dot-sun", true);
-
-            d3.select("#pictome-svg");
-                // .attr("viewBox", "0 0 " + 200 + " " + 200)
-                // .attr("preserveAspectRatio", "xMinYMid meet");
-                // .attr("tooltip-text", randomItem.name);
-
-            d3.select("#head")
-                .transition().duration(parameters.animationDurationPictome)
-                .ease(d3.easePolyOut)
-                .attr("cx", randomItem.graphics.headcx)
-                .attr("cy", randomItem.graphics.headcy)
-                .attr("r", randomItem.graphics.headr);
-
-            d3.select("#dot")
-                .transition().duration(parameters.animationDurationPictome)
-                .ease(d3.easePolyOut)
-                .attr("cx", randomItem.graphics.dotcx)
-                .attr("cy", randomItem.graphics.dotcy)
-                .attr("r", randomItem.graphics.dotr);
-
-            d3.select("#arm1")
-                .transition().duration(parameters.animationDurationPictome)
-                .ease(d3.easePolyOut)
-                .attrTween("d", baseUtility.pathTween(randomItem.graphics.arm1d, 3));
-
-            d3.select("#arm2")
-                .transition().duration(parameters.animationDurationPictome)
-                .ease(d3.easePolyOut)
-                .attrTween("d", baseUtility.pathTween(randomItem.graphics.arm2d, 3));
-
-            d3.select("#leg1")
-                .transition().duration(parameters.animationDurationPictome)
-                .ease(d3.easePolyOut)
-                .attrTween("d", baseUtility.pathTween(randomItem.graphics.leg1d, 3));
-
-            d3.select("#leg2")
-                .transition().duration(parameters.animationDurationPictome)
-                .ease(d3.easePolyOut)
-                .attrTween("d", baseUtility.pathTween(randomItem.graphics.leg2d, 3));
-
-            updateLinechart(randomItem.projects, parameters.animationDuration);
-
-            flowerchartParameters.prevItem = randomItem;
-
-        }
+        }, parameters.animationInterval);
 
     };
 
@@ -500,19 +513,15 @@ let chartUtility = (function () {
 
     /* Linechart Section */
 
-    let linechartParamsList = {
+    let linechartParamsHeader = {
         computeWidth: function () {
-            let a = d3.select(".project-list").node().getBoundingClientRect().width;
-            let b = d3.select(".category-pictogram").node().getBoundingClientRect().width;
-            return a - b;
+            return d3.select(".main-container").node().getBoundingClientRect().width;
         },
-        height: 75,
+        height: 50,
         class: ".linechart",
-        margin: {top: 4, right: 4, bottom: 28, left: 4},
-        //ticks: [(new Date(1984, 1)), (new Date(1990, 1)), (new Date(2000, 1)), (new Date(2010, 1)), (new Date(2019, 1))]
-        ticks: [(new Date(1984, 1)), (new Date(1989, 1)), (new Date(1994, 1)),
-            (new Date(1999, 1)), (new Date(2004, 1)), (new Date(2009, 1)),
-            (new Date(2014, 1)), (new Date(2020, 1))]
+        margin: {top: 4, right: 4, bottom: 20, left: 4, lineAdj: 9, baseAdj: 8},
+        ticks: [(new Date(1984, 1)), (new Date(2020, 1))],
+        xShift: 0
     }
 
     let linechartParamsIndex = {
@@ -521,24 +530,32 @@ let chartUtility = (function () {
         },
         height: 100,
         class: ".linechart",
-        margin: {top: 4, right: 4, bottom: 28, left: 4},
-        ticks: [(new Date(1984, 1)), (new Date(2020, 1))]
+        margin: {top: 4, right: 4, bottom: 28, left: 4, lineAdj: 7, baseAdj: 8},
+        ticks: [(new Date(1984, 1)), (new Date(2020, 1))],
+        xShift: 0
     };
 
-    let getLinechartParamsList = function () {
-        return linechartParamsList;
+    let getLinechartParamsHeader = function (projectYear) {
+        if ((projectYear != undefined) && (projectYear != 2020)) {
+            linechartParamsHeader.ticks = [
+                (new Date(1984, 1)),
+                (new Date(projectYear, 1)),
+                (new Date(2020, 1))];
+        }
+        return linechartParamsHeader;
     };
     let getLinechartParamsIndex = function () {
         return linechartParamsIndex;
     };
 
-    let createLinechart = function (params = linechartParamsList) {
+    let createLinechart = function (params = linechartParamsHeader) {
 
         linechartParameters.linechartWidth = params.computeWidth();
         linechartParameters.linechartHeight = params.height;
         linechartParameters.divClass = params.class;
         linechartParameters.tickDates2 = params.ticks;
         linechartParameters.params = params;
+        linechartParameters.xShift = params.xShift;
 
         let margin = params.margin;
         linechartParameters.lineWidth = linechartParameters.linechartWidth - margin.left - margin.right;
@@ -558,17 +575,17 @@ let chartUtility = (function () {
                 + (linechartParameters.lineWidth + margin.left + margin.right) + " "
                 + (linechartParameters.lineHeight + margin.top + margin.bottom))
             .attr("preserveAspectRatio", "xMinYMin meet")
-            .append("g");
-            // .attr("transform",
-            //     "translate(" + margin.left + "," + margin.top + ")");
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
 
         linechartSVG.append("rect")
             .attr("class", "fill-bg")
             .attr("stroke", "none")
             .attr("x", 0)
             .attr("y", 0)
-            .attr("width", linechartParameters.lineWidth + margin.left + margin.right)
-            .attr("height", linechartParameters.lineHeight + margin.top + margin.bottom);
+            .attr("width", linechartParameters.lineWidth)
+            .attr("height", linechartParameters.lineHeight);
 
         linechartSVG.append("g")
             .attr("transform", "translate(0," + linechartParameters.lineHeight + ")")
@@ -579,6 +596,15 @@ let chartUtility = (function () {
         })
             .on("mouseout", function (d) {
                 d3.select(this).classed("hover-pointer", false);
+            })
+            .on("click", function (d) {
+                let top = d3.select("#presentations").node().offsetTop;
+                console.log(top);
+                window.scroll({
+                    top: top - 20,
+                    left: 0,
+                    behavior: 'smooth'
+                });
             });
 
     };
@@ -587,18 +613,16 @@ let chartUtility = (function () {
         updateLinechart(data);
     };
 
-    let drawLinechartForCategory = function (categoryId) {
-        let item = dataCopy.find(object => {
-            return object.id === categoryId;
-        });
-        updateLinechart(item.projects);
-    };
+    let drawLineChartHeader = function (timelineData, max) {
+        tdata = fillMissingDates(timelineData);
+        updateLinechart(tdata, 0, max);
+    }
 
-    let updateLinechart = function (data, currentDuration = 0) {
+    let updateLinechart = function (data, currentDuration = 0, maxCount = parameters.maxProjectCount) {
 
         linechartParameters.y = d3.scaleLinear()
-            .range([linechartParameters.lineHeight - 11, 4])
-            .domain([0, parameters.maxProjectCount]);
+            .range([linechartParameters.lineHeight - linechartParameters.params.margin.lineAdj, 0])
+            .domain([0, maxCount]);
 
         linechartParameters.yAxis = d3.axisLeft().scale(linechartParameters.y);
         linechartSVG.append("g")
@@ -610,9 +634,15 @@ let chartUtility = (function () {
             .call(linechartParameters.xAxis);
 
         linechartSVG.selectAll("text")
-            .attr("y", 12)
+            .attr("y", linechartParameters.params.margin.baseAdj)
             .attr("x", function (data) {
-                return (data.getFullYear() === linechartParameters.firstDate.getFullYear()) ? -3 : 0;
+                if (data.getFullYear() === linechartParameters.firstDate.getFullYear()) {
+                    return -3;
+                } else if (data.getFullYear() === linechartParameters.lastDate.getFullYear() - 1) {
+                    return -8;
+                } else {
+                    return 0;
+                }
             })
             .style("text-anchor", function (data) {
                 if (data.getFullYear() === linechartParameters.lastDate.getFullYear()) {
@@ -620,18 +650,19 @@ let chartUtility = (function () {
                 } else if ((data.getFullYear() === linechartParameters.firstDate.getFullYear())) {
                     return "start";
                 } else {
-                    return "middle";
+                    return "end"; //"middle";
                 }
             });
 
         let updateSelection = linechartSVG.selectAll(".linechartLine")
-            .data([data], function(d) {
+            .data([data], function (d) {
                 return linechartParameters.yearParser(d.year)
             });
 
         updateSelection.enter()
             .append("path")
             .attr("class", "linechartLine")
+            .attr("transform", "translate(" + linechartParameters.xShift + ", 0)")
             .merge(updateSelection)
             .transition()
             .duration(currentDuration)
@@ -655,7 +686,7 @@ let chartUtility = (function () {
             .transition()
             .duration(currentDuration)
             .ease(d3.easePolyOut)
-            .attr("class", function(d) {
+            .attr("class", function (d) {
                 let basicClass = "linechartCircle";
                 let real = basicClass + " linechartCircleVisible";
                 let imag = basicClass;
@@ -683,8 +714,12 @@ let chartUtility = (function () {
         mapDataToFlowerchart: mapDataToFlowerchart,
         drawLineChart: drawLineChart,
         getLinechartParamsIndex: getLinechartParamsIndex,
+        getLinechartParamsHeader: getLinechartParamsHeader,
         setPeriodicalAnimation: setPeriodicalAnimation,
-        createProjectPictolist: createProjectPictolist
+        createProjectPictolist: createProjectPictolist,
+        drawLineChartHeader: drawLineChartHeader,
+        getPeriodicalAnimationParamsIndex: getPeriodicalAnimationParamsIndex,
+        getPeriodicalAnimationParamsFooter: getPeriodicalAnimationParamsFooter
     }
 
 }());

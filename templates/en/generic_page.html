@@ -8,10 +8,10 @@
 {% block content %}
 
     {% block breadcrumbs %}
-{#        <div id="breadcrumbs-container">#}
-{#            <div id="breadcrumbs"></div>#}
-{#            <div id="breadcrumbs-background"></div>#}
-{#        </div>#}
+        {#        <div id="breadcrumbs-container">#}
+        {#            <div id="breadcrumbs"></div>#}
+        {#            <div id="breadcrumbs-background"></div>#}
+        {#        </div>#}
     {% endblock %}
 
     <div class="generic-center-container">
@@ -22,76 +22,103 @@
         <div class="footer">
 
             <div class="menu">
-                {% block footer_menu %}
-                    {% if params.lang == "en" %}
-                        <div class="interface-heading-article">Menu</div>
-                        <div class="interface-text-article">
-                            <a href="#" target="_blank">Home</a> /
-                            <a href="#" target="_blank">Project</a> /
-                            <a href="#" target="_blank">Writing</a> /
-                            <a href="#" target="_blank">Teaching</a> /
-                            <a href="#" target="_blank">Speaking</a> /
-                            <a href="#" target="_blank">Press</a> /
-                            <a href="#" target="_blank">About</a>
-                        </div>
-                    {% else %}
-                        <div class="interface-heading-article">Meni</div>
-                        <div class="interface-text-article">
-                            <a href="#" target="_blank">Početna</a> /
-                            <a href="#" target="_blank">Projekti</a> /
-                            <a href="#" target="_blank">Tekstovi</a> /
-                            <a href="#" target="_blank">Edukacija</a> /
-                            <a href="#" target="_blank">Nastupi</a> /
-                            <a href="#" target="_blank">Mediji</a> /
-                            <a href="#" target="_blank">O meni</a>
-                        </div>
-                    {% endif %}
-                {% endblock %}
 
-                {% block footer_social %}
-                    <div class="interface-heading-article">Social</div>
-                    <div class="interface-text-article">
-                        <a href="#" target="_blank">GitHub</a> /
-                        <a href="#" target="_blank">Facebook</a> /
-                        <a href="#" target="_blank">FMK</a> /
-                        <a href="#" target="_blank">Academy</a> /
-                        <a href="#" target="_blank">Vimeo</a> /
-                        <a href="#" target="_blank">Youtube</a>
-                    </div>
-                {% endblock %}
+                <div class="menu-inside">
+
+                    {% block footer_menu %}
+                        {% if params.lang == "en" %}
+                            <div class="interface-heading-article">Menu</div>
+                            <div class="interface-text-article no-padding-bottom">
+                                <a href="#" target="_blank">Home</a> /
+                                <a href="#" target="_blank">Projects</a> /
+                                <a href="#" target="_blank">Writing</a> /
+                                <a href="#" target="_blank">Teaching</a> /
+                                <a href="#" target="_blank">Speaking</a> /
+                                <a href="#" target="_blank">Press</a> /
+                                <a href="#" target="_blank">About</a>
+                            </div>
+                        {% else %}
+                            <div class="interface-heading-article">Meni</div>
+                            <div class="interface-text-article no-padding-bottom">
+                                <a href="#" target="_blank">Početna</a> /
+                                <a href="#" target="_blank">Projekti</a> /
+                                <a href="#" target="_blank">Tekstovi</a> /
+                                <a href="#" target="_blank">Edukacija</a> /
+                                <a href="#" target="_blank">Nastupi</a> /
+                                <a href="#" target="_blank">Mediji</a> /
+                                <a href="#" target="_blank">O meni</a>
+                            </div>
+                        {% endif %}
+                    {% endblock %}
+
+                </div>
+
             </div>
 
             <div class="social">
-                .
+                <div class="social-inside">
+
+                    {% block footer_social %}
+                        <div class="interface-heading-article">Social</div>
+                        <div class="interface-text-article no-padding-bottom">
+                            <a href="https://github.com/parthenocissus" target="_blank">GitHub</a> /
+                            <a href="https://www.facebook.com/uros.krcadinac" target="_blank">Facebook</a> /
+                            <a href="https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/" target="_blank">FMK</a> /
+                            <a href="http://www.klubputnika.org/autori/uros.krcadinac" target="_blank">Klub putnika</a> /
+                            <a href="https://vimeo.com/user11041734" target="_blank">Vimeo</a> /
+                            <a href="https://www.youtube.com/user/uroskrcadinac" target="_blank">YouTube</a> /
+                            <a href="https://dblp.org/pers/k/Krcadinac:Uros.html" target="_blank">dblp</a> /
+                            <a href="https://www.imdb.com/name/nm2799326/" target="_blank">imdb</a>
+                        </div>
+                    {% endblock %}
+
+                </div>
             </div>
 
-            <div class="categories">
-                {% block footer_categories %}
-                    <div class="interface-heading-article">Categories</div>
-                    <div class="interface-text-article">
-                        {% for tag in params.pictodata %}
-                            <a href="#" target="_blank">{{ tag.name }}</a> /
-                        {% endfor %}
-                    </div>
-                {% endblock %}
+            <div class="footer-pictogram">
+
+                <div class="main-pictome">
+
+{#                    viewBox="0 0 105 210"#}
+                    <svg id="pictome-svg" tooltip-text="All Projects" width="57px" height="114px"
+                         preserveAspectRatio="xMidYMin meet">
+                        <g id="pictome-g" transform="translate(0,0) scale(3.32)">
+                            <rect id="pictome-bg" x="0" y="0" height="100%" width="100%"></rect>
+                            <circle id="head" class="pictome" cx="8.5" cy="5.131" r="3.614"></circle>
+                            <circle id="dot" class="pictome-dot" cx="8.5" cy="17.5" r="0"></circle>
+                            <path id="arm1" stroke-linejoin="round" class="pictome"
+                                  d="M0.066,12.942c0.601,0,7.435,0,8.601,0 s7.716,0,8.399,0"></path>
+                            <path id="arm2" stroke-linejoin="round" class="pictome"
+                                  d="M0.066,12.942c0.601,0,7.435,0,8.601,0 s7.716,0,8.399,0"></path>
+                            <path id="leg1" stroke-linejoin="round" class="pictome"
+                                  d="M1.153,34.434 c0.28-0.635,7.486-16.977,7.486-16.977S15.628,33.7,15.98,34.434"></path>
+                            <path id="leg2" stroke-linejoin="round" class="pictome"
+                                  d="M1.153,34.434 c0.28-0.635,7.486-16.977,7.486-16.977S15.628,33.7,15.98,34.434"></path>
+                        </g>
+                    </svg>
+
+                </div>
             </div>
 
             <div class="bio">
-                {% block footer_bio %}
-                    <div class="interface-heading-article">Short Bio</div>
-                    <p><a href="#">Uroš Krčadinac</a> (b. 1984) is a Belgrade-based digital artist,
-                    technologist, writer, and educator who <span id="creates-verb">makes</span>
-                    <span id="creates-what"><a id="link-to-projects" href="#">Data Art</a></span>.</p>
-                    <div class="interface-heading-article">Contact</div>
-                    <p>uros.krcadinac [et] gmail.com</p>
-{#                    <div class="interface-heading-article">Copyleft</div>#}
-{#                    <p><span class="copyleft">&copy;</span> 1999–2020 Uroš Krčadinac</p>#}
-                {% endblock %}
+                <div class="bio-inside">
+
+                    {% block footer_bio %}
+                        <p><a href="#">Uroš Krčadinac</a> (b. 1984) is a<br>Belgrade-based digital artist,
+                            technologist, writer, and educator who <span id="creates-verb">makes</span>
+                            <span id="creates-what"><a id="link-to-projects" href="#">Interactive Art & Design</a></span>.</p>
+                        <p class="no-padding-bottom">Contact: uros (at) krcadinac.com</p>
+                        {#                    <div class="interface-heading-article">Copyleft</div>#}
+                        {#                    <p><span class="copyleft">&copy;</span> 1999–2020 Uroš Krčadinac</p>#}
+                    {% endblock %}
+
+                </div>
             </div>
 
         </div>
 
-        <div class="footer-margin"></div>
+        <div class="footer-margin-left"></div>
+        <div class="footer-margin-right"></div>
 
     </div>
 

@@ -41,59 +41,144 @@
 
 .generic-center-container {
     display: grid;
-    grid-template-columns: 1fr 1024px 1fr;
-    grid-template-rows: auto minmax(300px, auto) 8px;
+    grid-template-columns: 1fr 900px 1fr;
+    grid-template-rows: auto minmax(100px, auto);
     grid-gap: 0;
     grid-template-areas:
-        ".        maincont .       "
-        ".        footcont .       "
-        "footmarg footmarg footmarg";
+        ".  maincont . "
+        "f1 footcont f2";
 }
 
 /* Footer */
 
 .footer {
     grid-area: footcont;
-    background-color: var(--lightcolor);
-    margin: 36px 26px 0 26px;
-    padding: 36px 0;
-    border-top: var(--darkcolor) solid 1px;
+    color: var(--lightcolor);
+    background-color: var(--darkcolor);
+    margin: 0;
+    padding: 50px 0 50px 0;
 
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 26px;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: auto; /*minmax(10px, auto);*/
+    grid-gap: 0px;
     grid-template-areas:
-        "menu menu soc soc cat cat bio bio";
+        "menu menu soc soc pic pic bio bio bio";
 }
 
 .footer .menu {
     grid-area: menu;
+    display: block;
+}
+
+.footer .menu .menu-inside {
+    padding: 0 40px 0 20px;
+    border-left: var(--lightcolor) solid 1px;
 }
 
 .footer .social {
     grid-area: soc;
+    display: block;
+}
+
+.footer .social .social-inside {
+    padding: 0 40px 0 20px;
+    border-left: var(--lightcolor) solid 1px;
+}
+
+.footer .interface-heading-article {
+    color: var(--lightcolor);
+    padding-bottom: 12px;
 }
 
 .footer .interface-text-article {
+    color: var(--lightcolor);
     padding-bottom: 26px;
 }
 
-.footer .categories {
-    grid-area: cat;
+.footer .interface-text-article a {
+    font-family: CartographSans-Medium;
+    font-size: 9pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+    color: var(--lightcolor);
 }
+
+.footer .interface-text-article a:hover {
+    color: var(--suncolor);
+}
+
+/* Footer Pictogram Container */
+
+.footer .footer-pictogram {
+    grid-area: pic;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    border-left: var(--lightcolor) solid 1px;
+}
+
+.footer .footer-pictogram .main-pictome {
+    padding: 0 20px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+/* Animated Pictogram */
+
+.pictome {
+    fill: none;
+    stroke: var(--suncolor);
+    stroke-width: 1;
+}
+.pictome:hover {
+    cursor: pointer;
+}
+
+#pictome-bg {
+    fill: var(--darkcolor);
+    stroke: none;
+}
+#pictome-bg:hover {
+    cursor: pointer;
+}
+
+.pictome-dot {
+    stroke: none;
+    fill: var(--suncolor);
+}
+
+.pictome-dot:hover {
+    cursor: pointer;
+}
+
+.pictome-dot-sun {
+    stroke: none;
+    fill: var(--suncolor);
+}
+
+/* Footer Bio */
 
 .footer .bio {
     grid-area: bio;
+    display: block;
 }
+
+.footer .bio .bio-inside {
+    padding: 0 0 0 20px;
+    border-left: var(--lightcolor) solid 1px;
+}
+
 .footer .bio p {
-    font-family: 'Ambit-Regular', sans-serif;
-    color: var(--darkcolor);
-    font-size: 10.5pt;
+    /*font-family: 'Ambit-Regular', sans-serif;*/
+    font-family: CartographSans-Medium;
+    color: var(--lightcolor);
+    font-size: 9pt;
     line-height: 1.7em;
     letter-spacing: 0.2pt;
     margin: 0;
-    padding-bottom: 26px;
+    padding-bottom: 12px;
 }
 
 .footer .copyleft {
@@ -108,19 +193,34 @@
             var(--suncolor) 100%
     ) repeat-x 0 100%;
     background-size: 3px 1px;
-    color: var(--darkcolor);
-    padding-bottom: 1px;
+    color: var(--lightcolor);
+    padding-bottom: 3px;
     text-decoration: none;
     transition: background-size .13s;
 }
 
 .footer .bio a:hover {
-    background-size: 2px 5px;
+    color: var(--suncolor);
+    /*background-size: 2px 7px;*/
 }
 
-/* Footer Margin, Bottom Margin */
+/* Footer Margin, Bottom Margin, Left and Right */
 
-.footer-margin {
-    grid-area: footmarg;
-    background-color: var(--suncolor);
+.footer-margin-left {
+    grid-area: f1;
+    background-color: var(--darkcolor);
+}
+.footer-margin-right {
+    grid-area: f2;
+    background-color: var(--darkcolor);
+}
+
+/* Utils */
+
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+
+.no-padding-top {
+    padding-top: 0 !important;
 }

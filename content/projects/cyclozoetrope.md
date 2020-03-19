@@ -7,9 +7,9 @@ category:
     - id: workshop
       name: Workshop
     - id: installation
-      name: Installations and Performances
+      name: Installations + Performances
     - id: interactive
-      name: Interactive Art and Design
+      name: Interactive Art + Design
 role:
     - id: inventor
       name: Inventor
@@ -41,18 +41,23 @@ presentations:
     - year: 2018
       events:
         - name: Beogradski festival cveća, Serbia
-# awards:
-#     - link: "https://czzs.org/nasprostor/nas-grad-nasa-scena/"
-#       name: Generic Award Name          
-lead: "<span class='first-word-project-title'  target='_blank'>Cyclozoetrope</span> is a centaur machine: half-bicycle, half-<a href='https://en.wikipedia.org/wiki/Zoetrope' target='_blank'>zoetrope</a>.
-The devil’s wheel. The endless loop. Made for hand
-drawn animations or printed GIFs."
+img_to_show: 2       
+img_data:
+    - size: "1200x800"
+      caption: "Petnica, 2017 → Strahinja Jovanović, Sonja Jovanović"
+    - size: "1200x800"
+      caption: "Petnica, 2017 → Strahinja Jovanović"
+    - size: "800x1200"
+      caption: "Petnica, 2017 → Strahinja Jovanović"
+    - size: "1300x732"
+      caption: "Petnica, 2017 → Sonja Jovanović"   
+lead: "Half-bicycle, half-<a href='https://en.wikipedia.org/wiki/Zoetrope' target='_blank'>zoetrope</a>, cyclozoetrope is a centaur machine. Originally conceived as a kinetic monument to dying cinemas of Belgrade, it grew into a unique workshop and installation tool for hand-drawn animation and printed GIFs."
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
 be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ante ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
 
 Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. 
+Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>

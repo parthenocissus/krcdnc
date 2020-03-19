@@ -7,6 +7,12 @@
     {{ super() }}
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/project.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/default-skin.css') }}">
+
+    <script src="{{ url_for('static', filename='js/lib/photoswipe.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lib/photoswipe-ui-default.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lightbox.js') }}"></script>
     <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
     <script src="{{ url_for('static', filename='js/arrows.js') }}"></script>
 
@@ -14,32 +20,61 @@
 
 {% block main_container %}
 
-{#    <div id="breadcrumbs-container">#}
-{#        <div id="breadcrumbs"></div>#}
-{#        <div id="breadcrumbs-background"></div>#}
-{#    </div>#}
+    {#    <div id="breadcrumbs-container">#}
+    {#        <div id="breadcrumbs"></div>#}
+    {#        <div id="breadcrumbs-background"></div>#}
+    {#    </div>#}
 
     <div class="main-container">
 
+        <div title="{% if params.lang == "en" %}
+                Project Timeline ↓ Go To Presentations
+            {% else %}
+                Vremenska linija projekta ↓ vidi prezentacije
+            {% endif %}"
+             id="header-linechart" class="linechart">
+        </div>
+
+        <div class="project-categories">
+            {% if params.lang == "en" %}
+                Project Categories
+            {% else %}
+                Kategorije
+            {% endif %}
+        </div>
         <div class="project-pictogram-list"></div>
 
-        <div class="information-list">
+        <div class="down-arrow-container">
+            <svg id="down-arrow-svg" x="0px" y="0px" width="16px" height="131px">
+                <g>
+                    <line x1="8" y1="121.3" x2="8" y2="5"></line>
+                    <polygon points="14.5,122 13.4,120.9 8,126.7 2.6,120.9 1.5,122 8,129"></polygon>
+                </g>
+            </svg>
+        </div>
 
-            <div class="interface-heading-article">Categories</div>
+        <div class="project-title">{{ project.title }}</div>
+
+        <div class="article-main-description">
+            {{ project.lead|safe }}
+        </div>
+
+        <div class="article-image">
+            {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
+            <img src="{{ url_for('static', filename=main_img_path) }}">
+            {#            <div class="image-underline"></div>#}
+        </div>
+
+        <div class="column-1 dashed-right">
+            <article class="article-text">
+                {{ project.html|safe }}
+            </article>
+        </div>
+
+        <div class="column-2 dashed-right">
+
+            <div class="interface-heading-article no-padding-top">Role</div>
             <div class="interface-text-article">
-                {% for tag in project.category %}
-                    {% set href = params.project_paths.base ~ params.project_paths.category ~ tag.id %}
-                    {% set slash = " / " %}
-                    {% if loop.index == project.category|length %}
-                        {% set slash = "" %}
-                    {% endif %}
-                    <a href="{{ href }}" target="_blank">{{ tag.name }}</a>{{ slash }}
-                {% endfor %}
-            </div>
-
-            <div class="interface-heading-article">Role</div>
-            <div class="interface-text-article">
-
                 {% for role in project.role %}
                     {% set href = params.project_paths.base ~ params.project_paths.role ~ role.id %}
                     {% set slash = " / " %}
@@ -62,21 +97,83 @@
                 {% endfor %}
             </div>
 
+            <div class="thumbs">
+                <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                    {% for d in project.img_data %}
+                        {% set i = loop.index - 1 %}
+                        {% set x = "0" %}
+                        {% if i > 9 %}
+                            {% set x = "" %}
+                        {% endif %}
+                        {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb" ~ x ~ i ~ ".jpg" %}
+                        {% set img_path = "media/projects/" ~ project.id ~ "/img/"  ~ project.id ~ x ~ i ~ ".jpg" %}
+                        {% set show = "" %}
+                        {% if i >= project.img_to_show %}
+                            {% set show = "hidden" %}
+                        {% endif %}
+                        <figure class="{{ show }}" itemprop="associatedMedia" itemscope
+                                itemtype="http://schema.org/ImageObject">
+                            <a href="{{ url_for('static', filename=img_path) }}" data-size="{{ d.size }}"
+                               itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
+                                {% if i < project.img_to_show %}
+                                    <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt=""
+                                         title="{% if params.lang == "en" %}
+                                                Open Gallery → {{ project.img_data|length }} images
+                                            {% else %}
+                                                Otvori galeriju → {{ project.img_data|length }} sl.
+                                            {% endif %}">
+                                {% endif %}
+                            </a>
+                        </figure>
+                    {% endfor %}
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="column-3 dashed-right">
+
+            <div class="sunrect"
+                 title="{% if params.lang == "en" %}
+                    Open Gallery → {{ project.img_data|length }} images
+                 {% else %}
+                    Otvori galeriju → {{ project.img_data|length }} sl.
+                 {% endif %}">
+            </div>
+
+            <div class="interface-heading-article no-padding-top">Categories</div>
+            <div class="interface-text-article">
+                {% for tag in project.category %}
+                    {% set href = params.project_paths.base ~ params.project_paths.category ~ tag.id %}
+                    {% set slash = " / " %}
+                    {% if loop.index == project.category|length %}
+                        {% set slash = "" %}
+                    {% endif %}
+                    <a href="{{ href }}" target="_blank">{{ tag.name }}</a>{{ slash }}
+                {% endfor %}
+            </div>
+
             {% if project.team is defined %}
                 <div class="interface-heading-article">Collaborators</div>
                 <div class="interface-text-article">
                     {% for human in project.team %}
-                        {% set href = human.link %}
                         {% set slash = " / " %}
                         {% if loop.index == project.team|length %}
                             {% set slash = "" %}
                         {% endif %}
-                        <a href="{{ href }}" target="_blank">{{ human.name }}</a>{{ slash }}
+                        {% if human.link is defined %}
+                            <a href="{{ human.link }}" target="_blank">{{ human.name }}</a>
+                        {% else %}
+                            <span>{{ human.name }}</span>
+                        {% endif %}
+                        {{ slash }}
                     {% endfor %}
                 </div>
             {% endif %}
 
-            <div class="interface-heading-article">{{ project.presentation_title }}</div>
+            <div id="presentations" class="interface-heading-article">{{ project.presentation_title }}</div>
             <div class="interface-text-article">
                 {% for p in project.presentations %}
                     <p class="interface-subheading">{{ p.year }}</p>
@@ -88,24 +185,60 @@
                         {% endif %}
 
                         {% if e.link is defined %}
-                            <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>{{ slash }}
+                            <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
                         {% else %}
                             <span>{{ e.name }}</span>
                         {% endif %}
+                        {{ slash }}
 
                     {% endfor %}
                 {% endfor %}
             </div>
 
+            {% if project.publications is defined %}
+                <div class="interface-heading-article">Publications</div>
+                <div class="interface-text-article">
+                    {% for p in project.publications %}
+                        <p class="interface-subheading">{{ p.year }}</p>
+                        {% for e in p.pubs %}
+
+                            {% set slash = " / " %}
+                            {% if loop.index == p.pubs|length %}
+                                {% set slash = "" %}
+                            {% endif %}
+
+                            {% if e.link is defined %}
+                                <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
+                            {% else %}
+                                <span>{{ e.name }}</span>
+                            {% endif %}
+                            {{ slash }}
+
+                        {% endfor %}
+                    {% endfor %}
+                </div>
+            {% endif %}
+
             {% if project.awards is defined %}
                 <div class="interface-heading-article">Awards</div>
                 <div class="interface-text-article">
-                    {% for a in project.awards %}
-                        {% set slash = " / " %}
-                        {% if loop.index == project.awards|length %}
-                            {% set slash = "" %}
-                        {% endif %}
-                        <a href="{{ a.link }}" target="_blank">{{ a.name }}</a>{{ slash }}
+                    {% for p in project.awards %}
+                        <p class="interface-subheading">{{ p.year }}</p>
+                        {% for e in p.pubs %}
+
+                            {% set slash = " / " %}
+                            {% if loop.index == p.pubs|length %}
+                                {% set slash = "" %}
+                            {% endif %}
+
+                            {% if e.link is defined %}
+                                <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
+                            {% else %}
+                                <span>{{ e.name }}</span>
+                            {% endif %}
+                            {{ slash }}
+
+                        {% endfor %}
                     {% endfor %}
                 </div>
             {% endif %}
@@ -118,34 +251,62 @@
                         {% if loop.index == project.press|length %}
                             {% set slash = "" %}
                         {% endif %}
-                        <a href="{{ p.link }}" target="_blank">{{ p.name }}</a>{{ slash }}
+                        {% if p.link is defined %}
+                            <a href="{{ p.link }}" target="_blank">{{ p.name }}</a>
+                        {% else %}
+                            <span>{{ p.name }}</span>
+                        {% endif %}
+                        {{ slash }}
                     {% endfor %}
                 </div>
             {% endif %}
 
         </div>
 
-        <div class="article-image">
-            {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
-            <img src="{{ url_for('static', filename=main_img_path) }}">
-{#            <div class="image-underline"></div>#}
+    </div>
+
+{% endblock %}
+
+{% block lightbox_section %}
+
+    <!-- PhotoSwipe Markup -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
         </div>
-
-        <div class="article-main-description">
-            {{ project.lead|safe }}
-        </div>
-
-        <article class="article-text">
-            {{ project.html|safe }}
-        </article>
-
-        <div class="thumbs">
-            {% for i in range(n_of_img.thumbs) %}
-                {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb0" ~ i ~ ".jpg" %}
-                <img src="{{ url_for('static', filename=thumb_path) }}">
-            {% endfor %}
-        </div>
-
     </div>
 
 {% endblock %}
@@ -161,8 +322,14 @@
             {#];#}
             {#arrowUtility.createBreadcrumbs(breadData);#}
 
-            let pictolistTags = {{ project.category|safe }},
-                tagIds = [];
+            let origTimeline = {{ project.presentations|safe }}, projectYear, timelineData = [], maxCount = 0;
+            origTimeline.forEach(function (event, i) {
+                if (i == 0) projectYear = +event.year;
+                if (event.events.length > maxCount) maxCount = event.events.length;
+                timelineData.push({year: event.year.toString(), projectCount: event.events.length});
+            });
+
+            let pictolistTags = {{ project.category|safe }}, tagIds = [];
             pictolistTags.forEach(function (item) {
                 tagIds.push(item.id);
             });
@@ -170,11 +337,13 @@
             chartUtility.createProjectPictolist(tagIds);
 
             {#chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());#}
-            {#chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());#}
+            chartUtility.createLinechart(chartUtility.getLinechartParamsHeader(projectYear));
 
             {#chartUtility.mapDataToFlowerchart(pictoData);#}
-            {#chartUtility.drawLineChart();#}
-            {#chartUtility.setPeriodicalAnimation();#}
+            chartUtility.drawLineChartHeader(timelineData, maxCount);
+            chartUtility.setPeriodicalAnimation();
+
+            lightboxSetup();
 
         }());
     </script>

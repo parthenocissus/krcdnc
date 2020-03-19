@@ -7,7 +7,7 @@
 
         <style>
 
-            {# Montserrat #}
+            {# Ambit #}
 
             @font-face {
                 font-family: "Ambit-Regular";
@@ -61,6 +61,30 @@
                 url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.woff') }}) format('woff');
             }
 
+            @font-face {
+                font-family: "CartographSans-MediumItalic";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.woff') }}) format('woff');
+            }
+
+            @font-face {
+                font-family: "CartographSans-BoldItalic";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFBoldItalic.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFBoldItalic.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFBoldItalic.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFBoldItalic.woff') }}) format('woff');
+            }
+
+            @font-face {
+                font-family: "CartographSans-XBoldItalic";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFExtraBoldItalic.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFExtraBoldItalic.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFExtraBoldItalic.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFExtraBoldItalic.woff') }}) format('woff');
+            }
+
         </style>
 
         <link rel="shortcut icon" type="image/png"
@@ -69,7 +93,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 
         <script src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
-        {#        <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>#}
+        <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/util.js') }}"></script>
 
         <title>Uroš Krčadinac{% block title %} ← Data Art, Writing, Teaching{% endblock %}</title>
@@ -82,15 +106,15 @@
     <nav id="navigation-frame">
 
         <div id="margins">
-            <div id="top-margin"></div>
-            <div id="right-margin"></div>
-            <div id="bottom-margin"></div>
+{#            <div id="top-margin"></div>#}
+{#            <div id="right-margin"></div>#}
+{#            <div id="bottom-margin"></div>#}
             <div id="left-margin"></div>
         </div>
 
         <div id="main-logo">
 
-            <svg id="pictome-logo" tooltip-text="Menu" class="fill-none-stroke-dark" width="13px" height="26px">
+            <svg id="pictome-logo" tooltip-text="Menu" class="fill-none-stroke-dark" transform="scale(1.5)" width="13px" height="26px">
                 <rect id="hover-rect" x="0" y="0" pointer-events="all" fill="none" stroke="none" width="13"
                       height="26"></rect>
                 <circle id="idle-pictome-head" pointer-events="none" cx="6.5" cy="3.7" r="2.7"></circle>
@@ -150,8 +174,8 @@
 
         </aside>
 
-        <div id="name-aside" orig-text="Ur0š Krčad1nac" alt-text="Uroš Krčadinac" menu-text="Menu">
-            <a id="name-aside-href" href="#">Ur0š Krčad1nac</a>
+        <div id="name-aside" orig-text="Uroš Krčadinac" alt-text="Uroš Krčadinac" menu-text="Menu">
+            <a id="name-aside-href" href="#">Uroš Krčadinac</a>
         </div>
 
     </nav>
@@ -160,6 +184,9 @@
         {% block content %}
         {% endblock %}
     </main>
+
+    {% block lightbox_section %}
+    {% endblock %}
 
     <script>
 

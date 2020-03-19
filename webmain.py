@@ -7,7 +7,7 @@ import os.path
 import sys
 from datetime import date, datetime
 
-from flask import Flask, render_template
+from flask import Flask, render_template, send_file, redirect
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 
@@ -136,9 +136,26 @@ def project(name):
     img_path = '{}/{}/{}/{}/{}'.format("static", "media", "projects", name, "img")
     thumb_path = '{}/{}/{}/{}/{}'.format("static", "media", "projects", name, "thumbs")
     this_project = flatpages.get_or_404(path)
-    n = {"img": len([n for n in os.listdir(img_path) if os.path.isfile(os.path.join(img_path, n))]),
-         "thumbs": len([n for n in os.listdir(thumb_path) if os.path.isfile(os.path.join(thumb_path, n))])}
-    return render_template('en/project.html', project=this_project, params=setup_params(EN), n_of_img=n)
+
+    # n = {"img": len([n for n in os.listdir(img_path) if os.path.isfile(os.path.join(img_path, n))]),
+    #      "thumbs": len([n for n in os.listdir(thumb_path) if os.path.isfile(os.path.join(thumb_path, n))])}
+
+    return render_template('en/project.html', project=this_project, params=setup_params(EN))
+
+
+@app.route('/synesketch/')
+def synesketch():
+    return redirect("/work/projects/synesketch", code=302)
+
+
+@app.route('/download/<path:args>')
+def download_file(args=None):
+    items = args.split("/")
+    path = '{}/{}'.format("static", "download")
+    for i in items:
+        path = path + "/" + i
+    print(path)
+    return send_file(path, as_attachment=True)
 
 
 if __name__ == "__main__":

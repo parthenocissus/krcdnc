@@ -18,6 +18,7 @@ html {
 }
 
 body {
+    color: var(--darkcolor);
     margin: 0;
     padding: 0;
     background-color: var(--suncolor);
@@ -50,7 +51,7 @@ a { text-decoration: none; }
 #left-margin {
     position: fixed;
     left: 0; top: 0;
-    width: 40px;
+    width: 60px;
     height: 100%;
     background-color: var(--suncolor);
     z-index: 10;
@@ -81,12 +82,12 @@ a { text-decoration: none; }
     height: 26px;
     z-index: 15;
     top: 0;
-    margin-top: 20px;
-    left: 12px;
+    margin-top: 32px;
+    left: 22px;
 }
 
 #pictome-logo {
-    stroke-width: 1; /*1.5;*/
+    stroke-width: 1;
 }
 
 .fill-none-stroke-dark {
@@ -134,7 +135,6 @@ a { text-decoration: none; }
     font-family: "CartographMono-Heavy", monospace;
     font-size: 9pt;
     padding-bottom: 8px;
-    color: var(--darkcolor);
     text-transform: uppercase;
 }
 
@@ -143,11 +143,10 @@ a { text-decoration: none; }
     font-size: 8pt;
     padding: 4px 0 6px 0;
     margin: 0;
-    color: var(--darkcolor);
 }
 
 .interface-text-article {
-    font-family: "Ambit-Regular", sans;
+    font-family: "Ambit-Regular", sans-serif;
     font-size: 10.5pt;
     line-height: 1.5em;
     letter-spacing: 0.2pt;
@@ -300,18 +299,18 @@ aside {
 /* Name Aside */
 
 #name-aside {
-    /*font-family: "CartographSans-Bold", monospace;*/
-    font-family: "CartographSans-Medium", monospace;
-    font-size: 9pt;
+    font-family: "Ambit-Regular", monospace;
+    font-size: 10.5pt;
     color: var(--darkcolor);
     text-transform: uppercase;
     text-align: center;
     position: fixed;
     z-index: 15;
-    left: 10px;
+    left: 22px;
     top: 50%;
     writing-mode: tb-rl;
     cursor: default;
+    letter-spacing: 0.6pt;
 
     -webkit-transform: translate(0, -50%) rotate(180deg);
     -moz-transform: translate(0, -50%) rotate(180deg);

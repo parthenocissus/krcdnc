@@ -229,7 +229,7 @@ main {
 }
 
 .linechart .linechartXaxis {
-    font-family: "CartographSans-Regular", sans-serif;
+    font-family: "CartographSans-Medium", sans-serif;
     font-size: 8pt;
     color: var(--darkcolor);
 }

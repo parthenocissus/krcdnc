@@ -72,70 +72,183 @@ body {
 
 .main-container {
     grid-area: maincont;
-    margin: 100px 0 0 0;
+    margin: 18px 0 120px 0;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: auto auto minmax(300px, auto) minmax(0, 1fr);
-    grid-gap: 50px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, auto) minmax(300px, auto) minmax(0, 1fr);
+    grid-gap: 0px;
     grid-template-areas:
-        ".  .  pl pl pl pl .  . "
-        "in in in in in in in in"
-        "im im im im im im im im"
-        "ar ar ar ar tb tb il il";
+            "lc lc lc lc lc lc"
+            ".  pc pc pc pc . "
+            ".  pl pl pl pl . "
+            ".  .  aw aw .  . "
+            ".  ti ti ti ti . "
+            ".  in in in in . "
+            "c1 c1 im im im im"
+            "c1 c1 c2 c2 c3 c3";
 }
 
-/* Pictolist */
+/* Line Chart */
+
+.linechart {
+    grid-area: lc;
+    height: 50px;
+    stroke-width: 2;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.fill-bg {
+    fill: var(--lightcolor);
+}
+
+.linechart .domain {
+    stroke: var(--darkcolor);
+    stroke-dasharray: 0, 9;
+    stroke-linecap: round;
+    stroke-width: 1.6;
+}
+
+.linechart .linechartLine {
+    fill: none;
+    stroke: var(--suncolor);
+}
+
+.linechart .linechartXaxis {
+    font-family: "CartographSans-Medium", monospace;
+    font-size: 8pt;
+    color: var(--darkcolor);
+}
+
+.linechartCircle {
+    fill: var(--suncolor);
+    stroke: none;
+}
+
+.linechartCircleVisible {
+}
+
+
+/* Project Categories */
+
+.project-categories {
+    grid-area: pc;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "CartographSans-Medium", monospace;
+    font-size: 9pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+}
+
+/* Pictolist - List of Pictograms */
 
 .project-pictogram-list {
     grid-area: pl;
+    justify-self: center;
+    justify-items: center;
     width: auto;
-    padding: 0 0 34px 0px;
+    padding: 0;
+    margin-bottom: 8px;
 }
 
 .pictolist-item {
-	fill: none;
-	stroke: var(--darkcolor);
-	stroke-width: 1.4;
-	pointer-events: none;
+    fill: none;
+    stroke: var(--suncolor);
+    stroke-width: 1.4;
+    pointer-events: none;
 }
 
 .light-fill {
-	fill: var(--lightcolor);
-	stroke: none;
-	pointer-events: auto;
+    fill: var(--lightcolor);
+    stroke: none;
+    pointer-events: auto;
 }
 
 .pictome-dot {
-	stroke: none;
-	fill: var(--darkcolor);
+    stroke: none;
+    fill: var(--suncolor);
 }
 
 .sun-stroke-only {
-    stroke: var(--suncolor);
+    stroke: var(--darkcolor);
     stroke-width: 1.5;
     cursor: pointer;
 }
 
 .pictome-dot-sun {
-    fill: var(--suncolor);
+    fill: var(--darkcolor);
     cursor: pointer;
 }
 
-/* Side List Elements */
+/* Down Arrow */
 
-.information-list {
-    grid-area: il;
-    margin: 8px 26px 0 0;
+.down-arrow-container {
+    grid-area: aw;
+    justify-self: center;
+    margin-bottom: 8px;
 }
-/* REF: .interface-text-article in base.css */
-.information-list .interface-text-article {
-    padding-bottom: 26px;
+
+#down-arrow-svg line {
+    fill: none;
+    stroke: var(--darkcolor);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 0, 8;
+}
+#down-arrow-svg polygon {
+    fill: var(--darkcolor);
+}
+
+/* Title */
+
+.project-title {
+    grid-area: ti;
+    justify-self: center;
+    font-family: "Ambit-Bold", sans-serif;
+    margin: 15px 0 8px 0;
+    font-size: 32pt;
+    letter-spacing: 0.2pt;
+}
+
+/* Lead Intro Text */
+
+.article-main-description {
+    grid-area: in;
+    justify-items: center;
+    text-align: center;
+    font-size: 14.5pt;
+    padding: 0 25px 75px 25px;
+    line-height: 1.5em;
+    letter-spacing: 0.2pt;
+}
+/*.article-main-description .first-word-project-title {*/
+/*    font-family: "Ambit-Bold", sans-serif;*/
+/*}*/
+
+.article-main-description a {
+    background: linear-gradient(
+            to bottom, var(--suncolor) 0%,
+            var(--suncolor) 100%
+    ) repeat-x 0 100%;
+    background-size: 4px 2px;
+    color: var(--darkcolor);
+    padding-bottom: 3px;
+    text-decoration: none;
+    transition: background-size .13s;
+}
+
+.article-main-description a:hover {
+    background-size: 2px 8px;
 }
 
 /* Article Image */
 
 .article-image {
     grid-area: im;
+    padding: 0 0 25px 20px;
     margin: 0;
 }
 
@@ -152,64 +265,21 @@ body {
     margin: 0 26px 30px 26px;
 }
 
-/* Thumbnail Images */
+/* Column 1: Article Text, Project Description (Bellow the Lead, Next to Image) */
 
-.thumbs {
-    grid-area: tb;
-    width: auto;
-    display: block;
-    text-align: center;
+.column-1 {
+    grid-area: c1;
 }
-
-.thumbs img {
-    /*display: block;*/
-    margin: 8px 0px 16px 0px;
-    width: 80%;
-}
-
-/* Text Elements */
-/* Lead Intro Text */
-
-.article-main-description {
-    grid-area: in;
-    font-size: 16pt;
-    padding: 0 50px 0 50px;
-    line-height: 1.5em;
-    letter-spacing: 0.2pt;
-}
-
-.article-main-description .first-word-project-title {
-    font-family: "Ambit-Bold", sans-serif;
-}
-
-.article-main-description a {
-    background: linear-gradient(
-            to bottom, var(--suncolor) 0%,
-            var(--suncolor) 100%
-    ) repeat-x 0 100%;
-    background-size: 4px 2px;
-    color: var(--darkcolor);
-    padding-bottom: 1px;
-    text-decoration: none;
-    transition: background-size .13s;
-}
-
-.article-main-description a:hover {
-    background-size: 2px 6px;
-}
-
-/* Article Text (Bellow the Image and the Lead) */
 
 .article-text {
-    grid-area: ar;
-    padding-left: 50px;
+    padding-right: 35px;
     margin: 0;
 }
 
 .article-text p {
     margin: 0;
-    font-size: 13pt;
-    padding: 0 0px 16px 0px;
+    font-size: 12pt;
+    padding: 0 0 15px 0;
     line-height: 1.6em;
     letter-spacing: 0.2pt;
 }
@@ -221,13 +291,13 @@ body {
     ) repeat-x 0 100%;
     background-size: 3px 1px;
     color: var(--darkcolor);
-    padding-bottom: 1px;
+    padding-bottom: 3px;
     text-decoration: none;
     transition: background-size .13s;
 }
 
 .article-text a:hover {
-    background-size: 2px 5px;
+    background-size: 3px 7px;
 }
 
 .article-text sup {
@@ -235,4 +305,159 @@ body {
     line-height: 1;
 }
 
+.article-text mark {
+    font-size: 8pt;
+    color: var(--suncolor);
+    background-color: transparent;
+}
 
+/* Column 2 and 3: Side Elements */
+
+.column-2 {
+    grid-area: c2;
+    display: block;
+    padding: 0 20px 0 20px;
+}
+
+.column-3 {
+    grid-area: c3;
+    display: block;
+    padding: 0 20px 0 20px;
+}
+
+/* REF: .interface-text-article in base.css */
+.main-container .interface-text-article {
+    /*padding-bottom: 15px;*/
+}
+.main-container .interface-heading-article {
+    padding-top: 15px;
+}
+
+/* Thumbnail Images */
+
+.thumbs {
+    width: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.thumbs .gallery {
+    width: auto;
+    display: block;
+}
+
+/*.thumbs img {*/
+/*    display: block;*/
+/*    margin: 20px 0 0 0;*/
+/*    width: 100%;*/
+/*}*/
+
+figure {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
+    display: block;
+    margin: 20px 0 0 0;
+    width: 100%;
+
+    vertical-align: top;
+	height: auto;
+	line-height: 0;
+	letter-spacing: 0;
+	zoom: 1;
+}
+
+figure a {
+	padding: 0;
+	height: 0;
+	line-height: 0;
+	text-decoration: none;
+	background: none;
+}
+
+figure img {
+    display:block;
+    width: 100%;
+	opacity: 1;
+}
+
+figure img:hover {
+	opacity: 0.8;
+	transition: 0.18s;
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+	cursor: pointer;
+}
+
+/* Yellow Square */
+
+.sunrect {
+    background-color: var(--suncolor);
+    margin: 0;
+    width: 100%;
+    padding-top: 100%;
+    position: relative; /* If you want text inside of it */
+    margin: 0 0 25px 0;
+}
+
+.sunrect:hover {
+    cursor: pointer;
+}
+
+/* SVG-based Dash Style */
+
+.dashed-right {
+    /*background-image: linear-gradient(var(--darkcolor) 22%, rgba(255,255,255,0) 0%);*/
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 2 8' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='1' fill='1D1D1B'/></svg>");
+    background-position: right;
+    background-size: 2px 8px;
+    background-repeat: repeat-y;
+}
+
+/* Pointers */
+
+.hover-pointer {
+    cursor: pointer;
+}
+
+/* Hidden Util */
+
+.hidden {
+    display: none !important;
+}
+
+/* Video */
+
+iframe {
+    width: calc(100% - 0px);    !important;
+    height: auto   !important;
+    padding-bottom: 18px;
+}
+
+/* Quotes */
+
+.quote1 {
+    font-family: CartographSans-XBoldItalic;
+    font-size: 13pt;
+    line-height: 1.7em;
+    letter-spacing: 0.06pt;
+    padding: 20px 0 0 0;
+    margin-top: 15px;
+}
+
+.quote1 .by {
+    font-family: CartographSans-Bold;
+    padding: 10px 0 0 0;
+    font-size: 10pt;
+}
+
+.quote-upper-dash {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 8 2' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='1' fill='1D1D1B'/></svg>");
+    background-position: top;
+    background-size: 8px 2px;
+    background-repeat: repeat-x;
+}
