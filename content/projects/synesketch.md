@@ -1,5 +1,5 @@
 title: Synesketch
-id: Synesketch
+id: synesketch
 date: 2008
 category: 
     - id: data-art
