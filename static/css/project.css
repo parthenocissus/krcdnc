@@ -207,6 +207,7 @@ body {
 .project-title {
     grid-area: ti;
     justify-self: center;
+    text-align: center;
     font-family: "Ambit-Bold", sans-serif;
     margin: 15px 0 8px 0;
     font-size: 32pt;
