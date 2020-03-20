@@ -1,5 +1,5 @@
 title: Paperista
-id: Paperista
+id: paperista
 date: 2013
 category: 
     - id: dataviz
