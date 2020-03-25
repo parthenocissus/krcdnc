@@ -1,6 +1,6 @@
-title: Trees of Petnica
-id: petnica-trees
-date: 2015
+title: Physical Data Visualization Workshops
+id: physical-dataviz-workshops
+date: 2016
 category: 
     - id: workshop
       name: Workshop
@@ -14,7 +14,7 @@ role:
     - id: maker
       name: Co-Maker
     - id: educator
-      name: Workshop Creator
+      name: Workshop Co-Creator
 medium:
     - id: dataviz
       name: Physical Data Visualization
@@ -23,26 +23,29 @@ medium:
 team:
     - name: Isidora Nikolić
     - name: Vesna Pejović
-    - name: Borut Vild
 presentation_title: Presentations
 presentations:
-    - year: 2015
+    - year: 2016
       events:
-        - name: Design Seminar, Petnica Science Center, Serbia
+        - name: Design Seminar (Summer), Petnica Science Center, Serbia
+        - name: Design Seminar (Autumn), Petnica Science Center, Serbia
+    - year: 2017
+      events:
+        - name: Design Seminar (Winter), Petnica Science Center, Serbia
 img_to_show: 2       
 img_data:
-    - size: "1950x2814"
-      caption: "Final Infographic. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
-    - size: "868x1324"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
-    - size: "821x575"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1268x749"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."   
+    - size: "1200x801"
+      caption: "Petnica, 2016."
+    - size: "1200x801"
+      caption: "Petnica, 2016."
+    - size: "1200x801"
+      caption: "Petnica, 2016."
+    - size: "801x1200"
+      caption: "Petnica, 2016."
+    - size: "1200x800"
+      caption: "Petnica, 2016."
+    - size: "1200x801"
+      caption: "Petnica, 2016."   
 lead: "A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to

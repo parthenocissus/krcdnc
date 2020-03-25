@@ -1,15 +1,15 @@
-title: Trees of Petnica
-id: petnica-trees
-date: 2015
+title: Data Storytelling Workshops
+id: data-storytelling-workshops
+date: 2014
 category: 
     - id: workshop
       name: Workshop
-    - id: installation
-      name: Installations + Performances
     - id: data-art
       name: Data Art
     - id: dataviz
       name: Data Visualization
+    - id: interactive
+      name: Interactive Art + Design
 role:
     - id: maker
       name: Co-Maker
@@ -17,33 +17,42 @@ role:
       name: Workshop Creator
 medium:
     - id: dataviz
-      name: Physical Data Visualization
+      name: Data Visualization
     - id: workshop
       name: Workshop
-team:
-    - name: Isidora Nikolić
-    - name: Vesna Pejović
-    - name: Borut Vild
 presentation_title: Presentations
 presentations:
+    - year: 2014
+      events:
+        - name: Data Storytelling Workshop, Pravo Ljudski Festival, Sarajevo, BiH, 2015.
     - year: 2015
       events:
+        - name: Point Conference, Sarajevo, BiH
+        - name: Youth Centre Pančevo, Serbia
+    - year: 2016
+      events:
+        - name: Datathon, K-Monitor, Budapest, Hungary
         - name: Design Seminar, Petnica Science Center, Serbia
-img_to_show: 2       
+        - name: Otvoreni parlament, Leskovac, Serbia
+    - year: 2017
+      events:
+        - name: Nova Iskra, Belgrade, Serbia
+    - year: 2018
+      events:
+        - name: Nova Iskra, Belgrade, Serbia
+img_to_show: 3       
 img_data:
-    - size: "1950x2814"
-      caption: "Final Infographic. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
-    - size: "868x1324"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
-    - size: "821x575"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1268x749"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."   
-lead: "A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
+    - size: "1082x604"
+      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, Belgrade"
+    - size: "1000x667"
+      caption: "Data Storytelling Talk and Workshop @ Point Conference, Sarajevo, BiH"
+    - size: "729x729"
+      caption: "Data Storytelling Workshop @ K-Monitor, Budapest, Hungary"
+    - size: "1082x604"
+      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, Belgrade"
+lead: "A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+
+Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
 be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.

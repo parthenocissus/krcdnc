@@ -4,13 +4,14 @@
 */
 :root {
   --suncolor: #FFB901;
-  --bgcolor: #F6F5F1;
+  --lightcolor: #F6F5F1;
   --darkcolor: #1D1D1B;
   --graycolor: #868686;
 }
 
 /* pswp = photoswipe */
 .pswp {
+  color: var(--lightcolor);
   cursor: pointer;
   display: none;
   position: absolute;
@@ -31,6 +32,19 @@
             box-sizing: border-box; }
   .pswp img {
     max-width: none; }
+
+  .pswp a {
+    text-decoration: none;
+    color: var(--lightcolor);
+    padding-bottom: 2px;
+    border-bottom: solid var(--suncolor) 1px;
+  }
+  .pswp a:hover {
+    color: var(--suncolor);
+  }
+
+
+
 
 /* style is added when JS option showHideOpacity is set to true */
 .pswp--animate_opacity {

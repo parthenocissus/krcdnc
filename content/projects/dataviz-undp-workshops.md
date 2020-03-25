@@ -1,6 +1,6 @@
-title: Trees of Petnica
-id: petnica-trees
-date: 2015
+title: UNDP School of Data
+id: dataviz-undp-workshops
+date: 2019
 category: 
     - id: workshop
       name: Workshop
@@ -10,6 +10,8 @@ category:
       name: Data Art
     - id: dataviz
       name: Data Visualization
+    - id: interactive
+      name: Interactive Art + Design
 role:
     - id: maker
       name: Co-Maker
@@ -17,33 +19,36 @@ role:
       name: Workshop Creator
 medium:
     - id: dataviz
-      name: Physical Data Visualization
+      name: Data Visualization
     - id: workshop
       name: Workshop
-team:
-    - name: Isidora Nikolić
-    - name: Vesna Pejović
-    - name: Borut Vild
 presentation_title: Presentations
 presentations:
-    - year: 2015
+    - year: 2019
       events:
-        - name: Design Seminar, Petnica Science Center, Serbia
-img_to_show: 2       
+        - name: UNDP Datathon, Zrenjanin, Serbia
+        - name: UNDP School of Data, Mokrin House, Serbia
+img_to_show: 3       
 img_data:
-    - size: "1950x2814"
-      caption: "Final Infographic. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
-    - size: "868x1324"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
-    - size: "821x575"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1268x749"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."   
-lead: "A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
+    - size: "694x960"
+      caption: "UNDP School od Data, Mokrin House, 2019."
+    - size: "958x540"
+      caption: "UNDP School od Data, Mokrin House, 2019."
+    - size: "959x640"
+      caption: "UNDP School od Data, Mokrin House, 2019."
+    - size: "960x388"
+      caption: "UNDP School od Data, Mokrin House, 2019."
+    - size: "960x333"
+      caption: "UNDP School od Data, Mokrin House, 2019."
+    - size: "959x640"
+      caption: "UNDP School od Data, Mokrin House, 2019."
+    - size: "959x640"
+      caption: "UNDP School od Data, Mokrin House, 2019."
+    - size: "959x640"
+      caption: "UNDP School od Data, Mokrin House, 2019."
+    - size: "960x507"
+      caption: "UNDP School od Data, Mokrin House, 2019."      
+lead: "A compact data visualization and communication syllabus for the School of Data organized by <a href='https://www.rs.undp.org/content/serbia/en/home.html' target='_blank'>United Nations Development Programme</a> in Serbia. Carefully tailored to participants from diverse background, the programme fosters to combine analytic skills with creative and divergent thinking."
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
 be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
