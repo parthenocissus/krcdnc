@@ -1,4 +1,6 @@
 title: Physical Data Visualization Workshops
+title_html: "Physical Data Visualization<br>Workshops"
+title_short: Physical Dataviz
 id: physical-dataviz-workshops
 date: 2016
 category: 

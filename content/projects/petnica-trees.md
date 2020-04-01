@@ -31,12 +31,12 @@ presentations:
         - name: Design Seminar, Petnica Science Center, Serbia
 img_to_show: 2       
 img_data:
-    - size: "1950x2814"
-      caption: "Final Infographic. Petnica, 2015. Photo: Igor Rajković."
-    - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
     - size: "868x1324"
       caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
+    - size: "1600x950"
+      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
+    - size: "1950x2814"
+      caption: "Final Infographic. Petnica, 2015. Photo: Igor Rajković."
     - size: "821x575"
       caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
     - size: "1600x950"

@@ -239,7 +239,7 @@ a.pswp__share--twitter:hover {
   color: #FFF; }
 
 a.pswp__share--pinterest:hover {
-  background: #CCC;
+  background: var(--lightcolor);
   color: #CE272D; }
 
 a.pswp__share--download:hover {
@@ -285,7 +285,7 @@ a.pswp__share--download:hover {
   font-size: 13px;
   padding: 10px;
   line-height: 20px;
-  color: #CCC; }
+  color: var(--lightcolor); }
 
 .pswp__caption--empty {
   display: none; }

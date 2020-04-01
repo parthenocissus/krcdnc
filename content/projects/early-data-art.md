@@ -1,4 +1,5 @@
 title: The Earliest Data Art
+title_short: Earliest Data Art
 id: early-data-art
 date: 1989
 category: 

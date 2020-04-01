@@ -52,7 +52,8 @@ presentations:
         - name: Republika Festival, Rijeka, Croatia
     - year: 2016
       events:
-        - name: Strand Conference, Belgrade, Serbia
+        - link: 'http://www.strand.rs/goingdigital2016/blog-single-uros-krcadinac.html'
+          name: Strand Conference, Belgrade, Serbia
     - year: 2017
       events:
         - name: AI Lab, University of Belgrade, Serbia

@@ -1,4 +1,6 @@
 title: Mapping the Encyclopedia of the Dead's Kafanas
+title_html: "Mapping the<br>Encyclopedia of the Dead's<br>Kafanas"
+title_short: EOTD's Kafanas
 id: kis-kafanas
 date: 2015
 category: 

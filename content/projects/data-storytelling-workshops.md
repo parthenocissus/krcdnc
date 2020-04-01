@@ -1,5 +1,6 @@
 title: Data Storytelling Workshops
 id: data-storytelling-workshops
+title_short: Data Storytelling
 date: 2014
 category: 
     - id: workshop

@@ -1,5 +1,6 @@
 title: Data Visualization Workshops
 id: dataviz-workshops
+title_short: Dataviz Workshops
 date: 2015
 category: 
     - id: workshop

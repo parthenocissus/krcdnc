@@ -1,4 +1,4 @@
-title: The Early Comics and Caricatures
+title: Early Comics and Caricatures
 id: early-comics-caricatures
 date: 1998
 category: 

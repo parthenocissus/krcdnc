@@ -140,6 +140,43 @@ let chartUtility = (function () {
         });
     };
 
+    // Polar Chart Section
+
+    let drawPolarChart = function () {
+
+        let w = 260,
+            h = w;
+        let angles = [-Math.PI / 2,
+            Math.PI / 6,
+            5 * Math.PI / 6];
+
+        let polarSvg = d3.select("#polar-chart-svg")
+            .attr("viewBox", "0 0 " + w + " " + h);
+        let g = polarSvg.append("g"), svg = g.selectAll("svg");
+        let p = {
+            x: function(x, a, b) {
+                return a * Math.cos(x) + b;
+            },
+            y: function(x, a, b) {
+                return a * Math.sin(x) + b;
+            }
+        };
+
+        let ap = svg.data(angles)
+            .enter();
+
+        ap.append("line")
+            .attr("x1", w / 2)
+            .attr("y1", h / 2)
+            .attr("x2", d => p.x(d, w/2, w/2))
+            .attr("y2", d => p.y(d, h/2, h/2));
+
+        ap.append("circle")
+            .attr("r", 3)
+            .attr("cx", d => p.x(d, w/2, w/2))
+            .attr("cy", d => p.y(d, h/2, h/2));
+    };
+
     // Flowerchart Section
 
     let flowerParamsIndex = {
@@ -367,22 +404,22 @@ let chartUtility = (function () {
 
         hoverEffects: function () {
             d3.selectAll(".pictome, #pictome-bg, #dot, #creates-what, #link-to-projects, #linechart-svg")
-            .on("mouseover", function () {
-                d3.selectAll(".pictome").classed("sun-stroke-only", true);
-                d3.selectAll("#dot").classed("pictome-dot-sun", true);
-                d3.selectAll("#link-to-projects").classed("manual-hover", true);
-                linechartParameters.radius = 3;
-                d3.selectAll(".linechartLine").attr("stroke-width", 1.5);
-                d3.selectAll(".linechartCircleVisible").attr("r", linechartParameters.radius);
-            })
-            .on("mouseout", function (d, i) {
-                d3.selectAll(".pictome").classed("sun-stroke-only", false);
-                d3.selectAll("#dot").classed("pictome-dot-sun", false);
-                d3.selectAll("#link-to-projects").classed("manual-hover", false);
-                linechartParameters.radius = 2.5;
-                d3.selectAll(".linechartLine").attr("stroke-width", 1);
-                d3.selectAll(".linechartCircleVisible").attr("r", linechartParameters.radius);
-            });
+                .on("mouseover", function () {
+                    d3.selectAll(".pictome").classed("sun-stroke-only", true);
+                    d3.selectAll("#dot").classed("pictome-dot-sun", true);
+                    d3.selectAll("#link-to-projects").classed("manual-hover", true);
+                    linechartParameters.radius = 3;
+                    d3.selectAll(".linechartLine").attr("stroke-width", 1.5);
+                    d3.selectAll(".linechartCircleVisible").attr("r", linechartParameters.radius);
+                })
+                .on("mouseout", function (d, i) {
+                    d3.selectAll(".pictome").classed("sun-stroke-only", false);
+                    d3.selectAll("#dot").classed("pictome-dot-sun", false);
+                    d3.selectAll("#link-to-projects").classed("manual-hover", false);
+                    linechartParameters.radius = 2.5;
+                    d3.selectAll(".linechartLine").attr("stroke-width", 1);
+                    d3.selectAll(".linechartCircleVisible").attr("r", linechartParameters.radius);
+                });
         },
 
         flowerchartUpdate: function () {
@@ -719,7 +756,8 @@ let chartUtility = (function () {
         createProjectPictolist: createProjectPictolist,
         drawLineChartHeader: drawLineChartHeader,
         getPeriodicalAnimationParamsIndex: getPeriodicalAnimationParamsIndex,
-        getPeriodicalAnimationParamsFooter: getPeriodicalAnimationParamsFooter
+        getPeriodicalAnimationParamsFooter: getPeriodicalAnimationParamsFooter,
+        drawPolarChart: drawPolarChart
     }
 
 }());

@@ -82,7 +82,7 @@ body {
             ".  pc pc pc pc . "
             ".  pl pl pl pl . "
             ".  .  aw aw .  . "
-            ".  ti ti ti ti . "
+            "ti ti ti ti ti ti"
             ".  in in in in . "
             "c1 c1 im im im im"
             "c1 c1 c2 c2 c3 c3";
@@ -117,6 +117,8 @@ body {
 .linechart .linechartXaxis {
     font-family: "CartographSans-Medium", monospace;
     font-size: 8pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
     color: var(--darkcolor);
 }
 
@@ -209,7 +211,7 @@ body {
     justify-self: center;
     text-align: center;
     font-family: "Ambit-Bold", sans-serif;
-    margin: 15px 0 8px 0;
+    margin: 15px 0 15px 0;
     font-size: 32pt;
     letter-spacing: 0.2pt;
 }
@@ -256,6 +258,13 @@ body {
 .article-image img {
     display: block;
     width: 100%;
+}
+
+.article-image iframe {
+    display: block;
+    width: calc(100% - 0px);    !important;
+    height: 100%   !important;
+    padding-bottom: 18px;
 }
 
 .image-underline {
@@ -409,6 +418,24 @@ figure img:hover {
     cursor: pointer;
 }
 
+/* Polar Chart */
+
+.polar-chart {
+    margin: 0;
+}
+
+.polar-chart line {
+    stroke: var(--darkcolor);
+    stroke-dasharray: 0, 9;
+    stroke-linecap: round;
+    stroke-width: 1.6;
+}
+
+.polar-chart circle {
+    stroke: none;
+    fill: var(--darkcolor);
+}
+
 /* SVG-based Dash Style */
 
 .dashed-right {
@@ -433,7 +460,7 @@ figure img:hover {
 
 /* Video */
 
-iframe {
+.article-text iframe {
     width: calc(100% - 0px);    !important;
     height: auto   !important;
     padding-bottom: 18px;
@@ -461,4 +488,18 @@ iframe {
     background-position: top;
     background-size: 8px 2px;
     background-repeat: repeat-x;
+}
+
+/* Additional SVG Rules */
+
+#featured-svg circle {
+    fill: var(--darkcolor);
+    stroke: none;
+}
+
+#featured-svg line {
+    fill: none;
+    stroke: var(--lightcolor);
+    stroke-width: 18;
+    stroke-linecap: round;
 }

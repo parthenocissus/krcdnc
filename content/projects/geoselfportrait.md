@@ -1,4 +1,4 @@
-title: Geoselfportrait
+title: Geo-Self-Portrait
 id: geoselfportrait
 date: 2017
 category: 

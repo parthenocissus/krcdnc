@@ -10,7 +10,9 @@ let baseUtility = (function () {
         parameters = {
             animationDurationLogo: 300,
             menuFlag: true,
-            langFlag: true
+            langFlag: true,
+            logoLeftDefault: "22px",
+            logoLeftMenu: "28px"
         };
 
         generalPictogram = {
@@ -110,18 +112,18 @@ let baseUtility = (function () {
             .on("mouseout", defaultEvents.mouseout)
             .on("click", defaultEvents.onClick);
 
-        let plusLogoSvg = d3.selectAll("#plus-logo-svg");
-        plusLogoSvg.on("click", function () {
-            if (parameters.langFlag) {
-                moveLangMenu();
-            } else {
-                moveBackLangMenu();
-            }
-        });
-
-        d3.selectAll(".lang-li a").on("click", function () {
-            moveBackLangMenu();
-        });
+        // let plusLogoSvg = d3.selectAll("#plus-logo-svg");
+        // plusLogoSvg.on("click", function () {
+        //     if (parameters.langFlag) {
+        //         moveLangMenu();
+        //     } else {
+        //         moveBackLangMenu();
+        //     }
+        // });
+        //
+        // d3.selectAll(".lang-li a").on("click", function () {
+        //     moveBackLangMenu();
+        // });
 
         let nameAside = d3.selectAll("#name-aside");
         nameAside.on("mouseover", function () {
@@ -190,15 +192,22 @@ let baseUtility = (function () {
 
         hideNameAside();
 
-        let menuMargin = 90, menuWidth = menuMargin + "px",
-        menuMaskWidth = menuMargin + 16;
         parameters.menuFlag = false;
+        let menuMargin = 140,
+            menuWidth = menuMargin + "px",
+            logoLeft = parameters.logoLeftMenu;
 
         if (window.matchMedia(mobileQuery).matches) {
             menuWidth = "50%";
+            logoLeft = parameters.logoLeftDefault;
+
         }
         d3.select("#side-menu").style("visibility", "visible").style("width", menuWidth);
-        d3.select("#side-mask").style("width", menuMaskWidth);
+        d3.select("#main-logo").style("left", logoLeft);
+
+        setTimeout(function () {
+            d3.selectAll(".side-nav").style("opacity", "1");
+        }, 300);
 
         currentPictogram = {
             graphics: generalPictogram.menu,
@@ -214,8 +223,10 @@ let baseUtility = (function () {
         pictomeLogo.classed("fill-none-stroke-light fill-none-stroke-sun cursor-pointer", false);
 
         parameters.menuFlag = true;
+
         d3.select("#side-menu").style("visibility", "hidden").style("width", "0");
-        d3.select("#side-mask").style("width", 56);
+        d3.selectAll(".side-nav").style("opacity", "0");
+        d3.select("#main-logo").style("left", parameters.logoLeftDefault);
         setTimeout(showNameAside, 300);
 
         currentPictogram = {
@@ -225,29 +236,29 @@ let baseUtility = (function () {
 
     };
 
-    let moveLangMenu = function () {
-        parameters.langFlag = false;
-        d3.selectAll("#plus-logo-svg").attr('transform', "scale(0.9)rotate(45)");
-        d3.selectAll("#lang-choice").style("opacity", "1");
-    }
-
-    let moveBackLangMenu = function () {
-        parameters.langFlag = true;
-        d3.selectAll("#plus-logo-svg").attr('transform', "scale(1)rotate(0)");
-        d3.selectAll("#lang-choice").style("opacity", "0");
-    }
+    // let moveLangMenu = function () {
+    //     parameters.langFlag = false;
+    //     d3.selectAll("#plus-logo-svg").attr('transform', "scale(0.9)rotate(45)");
+    //     d3.selectAll("#lang-choice").style("opacity", "1");
+    // }
+    //
+    // let moveBackLangMenu = function () {
+    //     parameters.langFlag = true;
+    //     d3.selectAll("#plus-logo-svg").attr('transform', "scale(1)rotate(0)");
+    //     d3.selectAll("#lang-choice").style("opacity", "0");
+    // }
 
     let hideNameAside = function () {
         d3.select("#name-aside").style("opacity", "0");
-    }
+    };
 
     let showNameAside = function () {
         d3.select("#name-aside").style("opacity", "1");
-    }
+    };
 
     let resetMenu = function () {
         if (!parameters.menuFlag) moveBackMenu();
-        if (!parameters.langFlag) moveBackLangMenu();
+        // if (!parameters.langFlag) moveBackLangMenu();
     }
 
     /* Return */
