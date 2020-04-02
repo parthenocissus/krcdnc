@@ -145,36 +145,90 @@ let chartUtility = (function () {
     let drawPolarChart = function () {
 
         let w = 260,
-            h = w;
-        let angles = [-Math.PI / 2,
-            Math.PI / 6,
-            5 * Math.PI / 6];
+            h = w,
+            radius = 100,
+            circleR = 4,
+            center = {x: w / 2, y: h / 2},
+            startAngle = -Math.PI / 3, //- Math.PI / 2 + Math.PI / 6,
+            incrementAngle = 2 * Math.PI / 3,
+            angles = [-Math.PI / 2 + Math.PI / 3, Math.PI / 6 + Math.PI / 3, 5 * Math.PI / 6 + Math.PI / 3],
+            ranks = [1, 3, 3.6],
+            data = [];
 
-        let polarSvg = d3.select("#polar-chart-svg")
-            .attr("viewBox", "0 0 " + w + " " + h);
-        let g = polarSvg.append("g"), svg = g.selectAll("svg");
         let p = {
-            x: function(x, a, b) {
-                return a * Math.cos(x) + b;
-            },
-            y: function(x, a, b) {
-                return a * Math.sin(x) + b;
-            }
+            x: (t, r, cx) => r * Math.cos(t) + cx,
+            y: (t, r, cy) => r * Math.sin(t) + cy
         };
 
-        let ap = svg.data(angles)
-            .enter();
+        let polarMap = d3.scaleLinear()
+            .domain([0, 4])
+            .range([0, radius]);
 
-        ap.append("line")
-            .attr("x1", w / 2)
-            .attr("y1", h / 2)
-            .attr("x2", d => p.x(d, w/2, w/2))
-            .attr("y2", d => p.y(d, h/2, h/2));
+        for (let i = 0; i < ranks.length; i++) {
+            let currentAngle = startAngle + (i * incrementAngle);
+            data[i] = {
+                x: p.x(currentAngle, polarMap(ranks[i]), center.x),
+                y: p.y(currentAngle, polarMap(ranks[i]), center.y),
+                rank: ranks[i],
+                angle: currentAngle
+            }
+        }
 
-        ap.append("circle")
-            .attr("r", 3)
-            .attr("cx", d => p.x(d, w/2, w/2))
-            .attr("cy", d => p.y(d, h/2, h/2));
+        let polarSvg = d3.select("#polar-chart-svg")
+            .attr("viewBox", "0 0 " + w + " " + h)
+            .selectAll("svg");
+
+        polarSvg.data([data]).enter()
+            .append("polygon")
+            .classed("polygon-fill", true)
+            .attr("points", function (d) {
+                return d.map(function (d) {
+                    return [d.x, d.y].join(",");
+                }).join(" ");
+            });
+
+        polarSvg.data([1, 2, 3, 4]).enter()
+            .append("circle")
+            // .attr("class", d => (d == 4) ? "final-ring-circle" : "ring-circle")
+            .attr("class", "ring-circle")
+            .attr("r", d => polarMap(d))
+            .attr("cx", center.x)
+            .attr("cy", center.y);
+
+        let adjust = 10;
+        let svgData = polarSvg.data(data).enter();
+        // svgData.append("line")
+        //     .attr("class", "tick-line")
+        //     .attr("x1", d => p.x(d.angle, radius, center.x))
+        //     .attr("y1", d => p.y(d.angle, radius, center.y))
+        //     .attr("x2", d => p.x(d.angle, radius + adjust, center.x))
+        //     .attr("y2", d => p.y(d.angle, radius + adjust, center.y));
+        // svgData.append("line")
+        //     .attr("class", "center-line")
+        //     .attr("x1", center.x)
+        //     .attr("y1", center.y)
+        //     .attr("x2", d => p.x(d.angle, radius+8, center.x))
+        //     .attr("y2", d => p.y(d.angle, radius+8, center.y));
+        svgData.append("circle")
+            .classed("tick-circle", true)
+            .attr("r", circleR)
+            .attr("cx", d => p.x(d.angle, radius, center.x))
+            .attr("cy", d => p.y(d.angle, radius, center.y));
+
+        svgData.append("circle")
+            .attr("class", "central-circle")
+            .attr("r", 1)
+            .attr("cx", center.x)
+            .attr("cy", center.y);
+
+        // polarSvg.data([data]).enter()
+        //     .append("polygon")
+        //     .classed("polygon-stroke", true)
+        //     .attr("points", function (d) {
+        //         return d.map(function (d) {
+        //             return [d.x, d.y].join(",");
+        //         }).join(" ");
+        //     });
     };
 
     // Flowerchart Section

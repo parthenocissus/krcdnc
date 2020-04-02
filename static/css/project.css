@@ -424,22 +424,63 @@ figure img:hover {
     margin: 0;
 }
 
-.polar-chart line {
-    stroke: var(--darkcolor);
-    stroke-dasharray: 0, 9;
-    stroke-linecap: round;
-    stroke-width: 1.6;
+.polar-chart .tick-line {
+    stroke: var(--suncolor);
+    stroke-width: 1;
 }
 
-.polar-chart circle {
-    stroke: none;
+.polar-chart .center-line {
+    stroke: var(--darkcolor);
+    stroke-width: 0.5;
+    /*stroke-dasharray: 0, 7;*/
+    /*stroke-linecap: round;*/
+}
+
+.polar-chart .tick-circle {
+    stroke: var(--suncolor);
+    stroke-width: 2;
+    fill: var(--lightcolor);
+}
+
+.polar-chart .ring-circle {
+    fill: none;
+    stroke: var(--darkcolor);
+    stroke-width: 1;
+    stroke-dasharray: 0, 7;
+    stroke-linecap: round;
+}
+
+.polar-chart .final-ring-circle {
+    fill: none;
+    stroke: var(--suncolor);
+    stroke-width: 2;
+}
+
+.polar-chart .central-circle {
     fill: var(--darkcolor);
+    stroke: none;
+}
+
+.polar-chart .polygon-fill {
+    /*stroke: none;*/
+    fill: var(--suncolor);
+    /*opacity: 0.6;*/
+    stroke: var(--suncolor);
+    stroke-width: 2;
+    stroke-linejoin: round;
+}
+
+.polar-chart .polygon-stroke {
+    stroke: var(--suncolor);
+    fill: none;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
 }
 
 /* SVG-based Dash Style */
 
 .dashed-right {
-    /*background-image: linear-gradient(var(--darkcolor) 22%, rgba(255,255,255,0) 0%);*/
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 2 8' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='1' fill='1D1D1B'/></svg>");
     background-position: right;
     background-size: 2px 8px;
