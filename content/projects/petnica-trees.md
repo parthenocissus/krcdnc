@@ -1,6 +1,10 @@
 title: Trees of Petnica
 id: petnica-trees
 date: 2015
+ranks:
+    visual: 4
+    digital: 2
+    textual: 2
 category: 
     - id: workshop
       name: Workshop

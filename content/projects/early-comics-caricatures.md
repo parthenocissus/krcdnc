@@ -1,6 +1,10 @@
 title: Early Comics and Caricatures
 id: early-comics-caricatures
 date: 1998
+ranks:
+    visual: 4
+    digital: 0
+    textual: 2
 category: 
     - id: drawing
       name: Drawing

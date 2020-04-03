@@ -372,7 +372,9 @@
             chartUtility.drawLineChartHeader(timelineData, maxCount);
             chartUtility.setPeriodicalAnimation();
 
-            chartUtility.drawPolarChart();
+            chartUtility.drawPolarChart({{ project.ranks.visual|safe }},
+                {{ project.ranks.digital|safe }},
+                {{ project.ranks.textual|safe }});
 
             lightboxSetup();
 

@@ -1,6 +1,10 @@
 title: Zima
 id: zima
 date: 2019
+ranks:
+    visual: 0
+    digital: 4
+    textual: 4
 category: 
     - id: digital-literature
       name: Digital Literature

@@ -3,7 +3,10 @@ title_html: "Bantustan:<br>Atlas jednog putovanja"
 title_short: Bantustan
 id: bantustan-book
 date: 2015
-rank: 1 
+ranks:
+    visual: 3
+    digital: 1
+    textual: 4
 category:
     - id: book
       name: Book 

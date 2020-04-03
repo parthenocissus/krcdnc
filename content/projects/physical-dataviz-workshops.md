@@ -3,6 +3,10 @@ title_html: "Physical Data Visualization<br>Workshops"
 title_short: Physical Dataviz
 id: physical-dataviz-workshops
 date: 2016
+ranks:
+    visual: 4
+    digital: 2
+    textual: 2
 category: 
     - id: workshop
       name: Workshop

@@ -1,6 +1,10 @@
 title: UNDP School of Data
 id: dataviz-undp-workshops
 date: 2019
+ranks:
+    visual: 3
+    digital: 4 
+    textual: 2
 category: 
     - id: workshop
       name: Workshop

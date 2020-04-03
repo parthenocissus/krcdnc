@@ -1,6 +1,10 @@
 title: Foreign Affairs
 id: foreign-affairs
 date: 2013
+ranks:
+    visual: 4
+    digital: 4
+    textual: 1
 category: 
     - id: dataviz
       name: Data Visualization

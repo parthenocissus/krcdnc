@@ -1,6 +1,10 @@
 title: The Wind and the Seed
 id: wind-seed
 date: 2020
+ranks:
+    visual: 4
+    digital: 1
+    textual: 2
 category: 
     - id: installation
       name: Installations + Performances

@@ -1,6 +1,10 @@
 title: The 60-Month Walk
 id: 60month-walk
 date: 2017
+ranks:
+    visual: 4
+    digital: 2
+    textual: 0
 category: 
     - id: installation
       name: Installations + Performances

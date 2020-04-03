@@ -3,6 +3,10 @@ title_html: "Artificial Intelligence<br>for Artists and Writers"
 title_short: AI for Artists + Writers
 id: ai-art-workshops
 date: 2019
+ranks:
+    visual: 3
+    digital: 4
+    textual: 3
 category: 
     - id: workshop
       name: Workshop

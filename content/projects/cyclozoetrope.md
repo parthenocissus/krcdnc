@@ -1,6 +1,10 @@
 title: Cyclozoetrope
 id: cyclozoetrope
 date: 2017
+ranks:
+    visual: 3
+    digital: 1
+    textual: 0
 category: 
     - id: animation
       name: Animation

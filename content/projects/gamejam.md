@@ -1,6 +1,10 @@
 title: Animation Game Jams
 id: gamejam
 date: 2018
+ranks:
+    visual: 3
+    digital: 4
+    textual: 1
 category: 
     - id: workshop
       name: Workshop

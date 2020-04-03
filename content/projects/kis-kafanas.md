@@ -3,6 +3,10 @@ title_html: "Mapping the<br>Encyclopedia of the Dead's<br>Kafanas"
 title_short: EOTD's Kafanas
 id: kis-kafanas
 date: 2015
+ranks:
+    visual: 3
+    digital: 2
+    textual: 2
 category: 
     - id: workshop
       name: Workshop

@@ -1,6 +1,10 @@
 title: Small Data
 id: small-data
 date: 2017
+ranks:
+    visual: 4
+    digital: 1
+    textual: 1
 category: 
     - id: installation
       name: Installations + Performances

@@ -421,7 +421,7 @@ figure img:hover {
 /* Polar Chart */
 
 .polar-chart {
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 .polar-chart .tick-line {
@@ -436,10 +436,15 @@ figure img:hover {
     /*stroke-linecap: round;*/
 }
 
-.polar-chart .tick-circle {
+.polar-chart .arms-line {
     stroke: var(--suncolor);
-    stroke-width: 2;
-    fill: var(--lightcolor);
+    stroke-width: 2.1;
+    stroke-linecap: round;
+}
+
+.polar-chart .tick-circle {
+    stroke: none;
+    fill: var(--darkcolor);
 }
 
 .polar-chart .ring-circle {
@@ -457,8 +462,14 @@ figure img:hover {
 }
 
 .polar-chart .central-circle {
-    fill: var(--darkcolor);
+    stroke: var(--suncolor);
+    stroke-width: 2.1;
+    fill: var(--lightcolor);
+}
+
+.polar-chart .arms-end-circle {
     stroke: none;
+    fill: var(--suncolor);
 }
 
 .polar-chart .polygon-fill {
@@ -476,6 +487,15 @@ figure img:hover {
     stroke-width: 2;
     stroke-linejoin: round;
     stroke-linecap: round;
+}
+
+.polar-chart .curve-text {
+    color: var(--darkcolor);
+    font-family: CartographSans-Medium;
+    font-size: 9pt;
+    letter-spacing: 0.2pt;
+    opacity: 1;
+    cursor: default;
 }
 
 /* SVG-based Dash Style */

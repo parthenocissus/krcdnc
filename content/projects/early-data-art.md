@@ -2,6 +2,10 @@ title: The Earliest Data Art
 title_short: Earliest Data Art
 id: early-data-art
 date: 1989
+ranks:
+    visual: 4
+    digital: 0
+    textual: 2
 category: 
     - id: drawing
       name: Drawing

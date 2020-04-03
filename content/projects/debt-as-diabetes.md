@@ -1,6 +1,10 @@
 title: Debt as Diabetes
 id: debt-as-diabetes
 date: 2018
+ranks:
+    visual: 4
+    digital: 2
+    textual: 1
 category: 
     - id: data-art
       name: Data Art

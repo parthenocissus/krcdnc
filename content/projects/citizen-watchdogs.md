@@ -1,6 +1,10 @@
 title: Citizen Watchdogs
 id: citizen-watchdogs
 date: 2016
+ranks:
+    visual: 4
+    digital: 3
+    textual: 1
 featured_video: '<style>.codegena{position:relative;width:100%;height:0;padding-bottom:56.25%;}.codegena iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="codegena"><iframe width="500" height="281" src="https://www.youtube.com/embed/cQodv9z1ZgQ?&theme=dark&autohide=2&cc_load_policy=1"frameborder="0"></iframe></div>'
 category: 
     - id: animation

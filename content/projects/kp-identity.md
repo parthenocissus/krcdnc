@@ -1,6 +1,10 @@
 title: "The Travel Club Identity"
 id: kp-identity
 date: 2014
+ranks:
+    visual: 4
+    digital: 4
+    textual: 1
 featured_js: kplogo
 category:
     - id: drawing

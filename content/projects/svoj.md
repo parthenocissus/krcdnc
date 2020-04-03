@@ -1,6 +1,10 @@
 title: Svoj
 id: svoj
 date: 2002
+ranks:
+    visual: 4
+    digital: 1
+    textual: 1
 featured_video: '<style>.codegena{position:relative;width:100%;height:0;padding-bottom:75%;}.codegena iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="codegena"><iframe width="500" height="375" src="https://www.youtube.com/embed/nsbeS97A59o?&theme=dark&autohide=2&cc_load_policy=1"frameborder="0"></iframe></div>'
 category: 
     - id: animation

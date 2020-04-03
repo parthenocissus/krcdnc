@@ -142,18 +142,19 @@ let chartUtility = (function () {
 
     // Polar Chart Section
 
-    let drawPolarChart = function () {
+    //let drawPolarChart = function (input = {visual: 0, digital: 0, textual: 0}) {
+    let drawPolarChart = function (visual = 0, digital = 0, textual = 0) {
 
         let w = 260,
             h = w,
-            radius = 100,
-            circleR = 4,
+            radius = 107,
+            circleR = 1,
             center = {x: w / 2, y: h / 2},
-            startAngle = -Math.PI / 3, //- Math.PI / 2 + Math.PI / 6,
+            startAngle = -Math.PI / 3,
             incrementAngle = 2 * Math.PI / 3,
-            angles = [-Math.PI / 2 + Math.PI / 3, Math.PI / 6 + Math.PI / 3, 5 * Math.PI / 6 + Math.PI / 3],
-            ranks = [1, 3, 3.6],
-            data = [];
+            ranks = [visual, digital, textual],
+            data = [], axisData = [],
+            labels = ["visual", "digital", "textual"];
 
         let p = {
             x: (t, r, cx) => r * Math.cos(t) + cx,
@@ -164,13 +165,26 @@ let chartUtility = (function () {
             .domain([0, 4])
             .range([0, radius]);
 
+        let rad2deg = function (angle) {
+            return angle * (180 / Math.PI);
+        };
+
         for (let i = 0; i < ranks.length; i++) {
             let currentAngle = startAngle + (i * incrementAngle);
+            let halfRank = 0.5;
             data[i] = {
                 x: p.x(currentAngle, polarMap(ranks[i]), center.x),
                 y: p.y(currentAngle, polarMap(ranks[i]), center.y),
                 rank: ranks[i],
-                angle: currentAngle
+                angle: currentAngle,
+                textAngle: rad2deg(currentAngle),
+                label: labels[i]
+            };
+            for (let j = 0; j < 4; j++) {
+                axisData.push({
+                    x: p.x(currentAngle, polarMap(j + halfRank), center.x),
+                    y: p.y(currentAngle, polarMap(j + halfRank), center.y)
+                });
             }
         }
 
@@ -178,24 +192,22 @@ let chartUtility = (function () {
             .attr("viewBox", "0 0 " + w + " " + h)
             .selectAll("svg");
 
-        polarSvg.data([data]).enter()
-            .append("polygon")
-            .classed("polygon-fill", true)
-            .attr("points", function (d) {
-                return d.map(function (d) {
-                    return [d.x, d.y].join(",");
-                }).join(" ");
-            });
-
         polarSvg.data([1, 2, 3, 4]).enter()
             .append("circle")
             // .attr("class", d => (d == 4) ? "final-ring-circle" : "ring-circle")
             .attr("class", "ring-circle")
             .attr("r", d => polarMap(d))
             .attr("cx", center.x)
-            .attr("cy", center.y);
+            .attr("cy", center.y)
+            .attr("transform", "rotate(180 " + center.x + " " + center.y + ")");
 
-        let adjust = 10;
+        polarSvg.data(axisData).enter()
+            .append("circle")
+            .attr("class", "tick-circle")
+            .attr("r", 0.5)
+            .attr("cx", d => d.x)
+            .attr("cy", d => d.y);
+
         let svgData = polarSvg.data(data).enter();
         // svgData.append("line")
         //     .attr("class", "tick-line")
@@ -209,15 +221,28 @@ let chartUtility = (function () {
         //     .attr("y1", center.y)
         //     .attr("x2", d => p.x(d.angle, radius+8, center.x))
         //     .attr("y2", d => p.y(d.angle, radius+8, center.y));
+        // svgData.append("circle")
+        //     .classed("tick-circle", true)
+        //     .attr("r", circleR)
+        //     .attr("cx", d => p.x(d.angle, radius, center.x))
+        //     .attr("cy", d => p.y(d.angle, radius, center.y));
+
         svgData.append("circle")
-            .classed("tick-circle", true)
-            .attr("r", circleR)
-            .attr("cx", d => p.x(d.angle, radius, center.x))
-            .attr("cy", d => p.y(d.angle, radius, center.y));
+            .classed("arms-end-circle", true)
+            .attr("r", 2.5)
+            .attr("cx", d => d.x)
+            .attr("cy", d => d.y);
+
+        svgData.append("line")
+            .attr("class", "arms-line")
+            .attr("x1", center.x)
+            .attr("y1", center.y)
+            .attr("x2", d => d.x)
+            .attr("y2", d => d.y);
 
         svgData.append("circle")
             .attr("class", "central-circle")
-            .attr("r", 1)
+            .attr("r", 4.7)
             .attr("cx", center.x)
             .attr("cy", center.y);
 
@@ -229,6 +254,35 @@ let chartUtility = (function () {
         //             return [d.x, d.y].join(",");
         //         }).join(" ");
         //     });
+
+        let circlePath = function (myr, cx, cy, sign) {
+            return "M" + cx + "," + cy + " " +
+                "m" + -myr + ", 0 " +
+                "a" + myr + "," + myr + " 0 1," + sign + " " + myr * 2 + ",0 " +
+                "a" + myr + "," + myr + " 0 1," + sign + " " + -myr * 2 + ",0";
+        };
+
+        svgData.append("defs").append("path")
+            .attr("id", d => "curve-" + d.label)
+            .attr("transform", d => "rotate(" + d.textAngle + " " + center.x + " " + center.y + ")")
+            .attr("d", function(d) {
+                let sign = 1, ra = radius + 16;
+                if (d.label === "digital") {
+                    sign = 0;
+                    ra = radius + 21;
+                }
+                return circlePath(ra, center.x, center.y, sign);
+            });
+
+        svgData.append("text")
+            .attr("class", "curve-text")
+            .append("textPath")
+            .attr('startOffset', '50%')
+            .attr("xlink:href", d => "#curve-" + d.label)
+            .attr("text-anchor", "middle")
+            .attr("title", "title text")
+            .text(d => d.label);
+
     };
 
     // Flowerchart Section

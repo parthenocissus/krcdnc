@@ -1,6 +1,10 @@
 title: Geoglyphs of Zagreb
 id: geoglyphs-zg
 date: 2017
+ranks:
+    visual: 3
+    digital: 4
+    textual: 1
 category: 
     - id: workshop
       name: Workshop

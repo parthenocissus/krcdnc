@@ -1,6 +1,10 @@
 title: Paperista
 id: paperista
 date: 2013
+ranks:
+    visual: 4
+    digital: 4
+    textual: 2
 category: 
     - id: dataviz
       name: Data Visualization

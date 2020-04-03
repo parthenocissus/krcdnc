@@ -1,6 +1,10 @@
 title: 2102 Profiles
 id: 2102-profiles
 date: 1998
+ranks:
+    visual: 4
+    digital: 0
+    textual: 0
 category: 
     - id: drawing
       name: Drawing

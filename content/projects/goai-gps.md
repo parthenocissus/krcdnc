@@ -1,6 +1,10 @@
 title: GOAI Lab Identity
 id: goai-gps
 date: 2009
+ranks:
+    visual: 3
+    digital: 4
+    textual: 1
 category: 
     - id: drawing
       name: Digital Drawing

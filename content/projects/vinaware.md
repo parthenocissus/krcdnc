@@ -3,6 +3,10 @@ title_html: "I Do Not Wish To Be Loved,<br>I Wish Everyone Loved Leaves"
 title_short: I Do Not Wish To Be Loved…
 id: vinaware
 date: 2019
+ranks:
+    visual: 4
+    digital: 4
+    textual: 4
 category: 
     - id: digital-literature
       name: Digital Literature

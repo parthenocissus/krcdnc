@@ -1,6 +1,10 @@
 title: Optimized Poetry
 id: optimized-poetry
 date: 2018
+ranks:
+    visual: 1
+    digital: 4 
+    textual: 4
 category: 
     - id: digital-literature
       name: Digital Literature

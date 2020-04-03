@@ -3,6 +3,10 @@ title_html: "Self-Portrait<br>(Animated Film)"
 title_short: Self-Portrait
 id: selfportrait-animation
 date: 2007
+ranks:
+    visual: 4
+    digital: 2
+    textual: 1
 category: 
     - id: animation
       name: Animation

@@ -1,6 +1,10 @@
 title: The Eye of Sahara
 id: eye-of-sahara
 date: 2013
+ranks:
+    visual: 3
+    digital: 1
+    textual: 1
 category: 
     - id: cartography
       name: Experimental Cartography

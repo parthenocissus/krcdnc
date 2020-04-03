@@ -2,6 +2,10 @@ title: Generative Art Workshops
 title_short: Generative Art
 id: gen-art-workshops
 date: 2018
+ranks:
+    visual: 3
+    digital: 4
+    textual: 1
 category: 
     - id: workshop
       name: Workshop

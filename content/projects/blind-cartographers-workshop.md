@@ -14,6 +14,10 @@ category:
       name: Data Art
     - id: drawing
       name: Digital Drawing
+ranks:
+    visual: 3
+    digital: 1
+    textual: 1
 role:
     - id: maker
       name: Co-Maker

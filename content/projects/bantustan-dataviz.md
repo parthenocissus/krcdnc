@@ -12,6 +12,10 @@ category:
       name: Experimental Cartography
     - id: geography
       name: Experimental Geography
+ranks:
+    visual: 4
+    digital: 4
+    textual: 1
 role:
     - id: artist
       name: Artist

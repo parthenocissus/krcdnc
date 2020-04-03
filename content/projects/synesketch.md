@@ -1,6 +1,10 @@
 title: Synesketch
 id: synesketch
 date: 2008
+ranks:
+    visual: 4
+    digital: 4
+    textual: 3
 category: 
     - id: data-art
       name: Data Art
