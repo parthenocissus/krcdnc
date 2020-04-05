@@ -197,14 +197,6 @@ let chartUtility = (function () {
             .attr("viewBox", "0 0 " + w + " " + h)
             .selectAll("svg");
 
-       // d3.select("#polar-chart-svg").append("rect")
-       //      .attr("x", 0)
-       //      .attr("y", 0)
-       //      .attr("width", w)
-       //      .attr("height", h)
-       //      .attr("stroke", "none")
-       //      .attr("fill", "#c4c2b7");
-
         polarSvg.data([1, 2, 3, 4]).enter()
             .append("circle")
             // .attr("class", d => (d == 4) ? "final-ring-circle" : "ring-circle")
@@ -222,23 +214,6 @@ let chartUtility = (function () {
             .attr("cy", d => d.y);
 
         let svgData = polarSvg.data(data).enter();
-        // svgData.append("line")
-        //     .attr("class", "tick-line")
-        //     .attr("x1", d => p.x(d.angle, radius, center.x))
-        //     .attr("y1", d => p.y(d.angle, radius, center.y))
-        //     .attr("x2", d => p.x(d.angle, radius + adjust, center.x))
-        //     .attr("y2", d => p.y(d.angle, radius + adjust, center.y));
-        // svgData.append("line")
-        //     .attr("class", "center-line")
-        //     .attr("x1", center.x)
-        //     .attr("y1", center.y)
-        //     .attr("x2", d => p.x(d.angle, radius+8, center.x))
-        //     .attr("y2", d => p.y(d.angle, radius+8, center.y));
-        // svgData.append("circle")
-        //     .classed("tick-circle", true)
-        //     .attr("r", circleR)
-        //     .attr("cx", d => p.x(d.angle, radius, center.x))
-        //     .attr("cy", d => p.y(d.angle, radius, center.y));
 
         svgData.append("circle")
             .classed("arms-end-circle", true)
@@ -258,15 +233,6 @@ let chartUtility = (function () {
             .attr("r", 4.7)
             .attr("cx", center.x)
             .attr("cy", center.y);
-
-        // polarSvg.data([data]).enter()
-        //     .append("polygon")
-        //     .classed("polygon-stroke", true)
-        //     .attr("points", function (d) {
-        //         return d.map(function (d) {
-        //             return [d.x, d.y].join(",");
-        //         }).join(" ");
-        //     });
 
         let circlePath = function (myr, cx, cy, sign) {
             return "M" + cx + "," + cy + " " +

@@ -8,25 +8,25 @@ ranks:
     textual: 1
 category: 
     - id: installation
-      name: Installations + Performances
+      name: Instalacije + performansi
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
 role:
     - id: maker
-      name: Co-Creator
+      name: Su-kreator
 medium:
     - id: installation
-      name: Installation + Live Performance 
-presentation_title: Presentations
+      name: Instalacija + performans 
+presentation_title: Prezentacije
 presentations:
     - year: 2017
       events:
         - link: "https://re-publica.com/en/session/physical-data-visualisation-experience-design"
-          name: re:publika, Thesalloniki, Greece + Berlin, Germany  
+          name: re:publika, Solun, Grčka + Berlin, Nemačka  
         - link: "http://vojnik.net/2017/"
-          name: Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia           
+          name: Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd           
 team:
     - name: Isidora Nikolić
     - name: Borut Vild
@@ -39,28 +39,28 @@ press:
 img_to_show: 3       
 img_data:
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
     - size: "800x533"
-      caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
-lead: "Small Data is a live exercise in manual small data analysis, created in contrast to automatic big data analysis."
+      caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."
+lead: "Small Data (Mali skup podataka) je ... a live exercise in manual small data analysis, created in contrast to automatic big data analysis."
 
 The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? 
 

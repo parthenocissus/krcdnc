@@ -1,7 +1,7 @@
 title: 
-    name: Self-Portrait
-    html: "Self-Portrait<br>(Animated Film)"
-    short: Self-Portrait
+    name: Autoportret
+    html: "Autoportret<br>(animirani film)"
+    short: Autoportret
 id: selfportrait-animation
 date: 2007
 ranks:
@@ -10,44 +10,44 @@ ranks:
     textual: 1
 category: 
     - id: animation
-      name: Animation
+      name: Animacija
     - id: drawing
-      name: Digital Drawing
+      name: Digitalni crtež
 role:
     - id: animator
-      name: Director + Animator
+      name: Reditelj + Animator
 medium:
     - id: animation
-      name: Animated Short Film
+      name: Kratak animirani film
 team:
     - link: "https://www.imdb.com/name/nm1383706/"
-      name: Vladimir Uspenski (Sound Design)
+      name: Vladimir Uspenski (dizajn zvuka)
     - link: "https://www.imdb.com/name/nm1310575/"
-      name: Janja Lončar (Original Music)
+      name: Janja Lončar (originalna muzika)
 presentation_title: Festivals
 presentations:
     - year: 2007
       events:
-        - name: The Red Stick International Animation Festival, Baton Rouge, Louisiana, USA
-        - name: Balkanima Animation Festival, Belgrade, Serbia
+        - name: The Red Stick International Animation Festival, Baton Ruž, Luizijana, SAD
+        - name: Festival Balkanima, Beograd, Srbija
     - year: 2008
       events:
-        - name: BuSho, Budapest Short Film Festival, Budapest, Hungary
-        - name: Belgrade Documentary and Short Film Festival (Martovski), Belgrade, Serbia
-        - name: La Boca Del Lobo, XI Internacional Festival de Cortometrajes, Madrid, Spain
+        - name: BuSho, Budapest Short Film Festival, Budimpešta, Mađarska
+        - name: Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija
+        - name: La Boca Del Lobo, XI Internacional Festival de Cortometrajes, Madrid, Španija
 awards:
     - year: 2007
       pubs:
-        - name: "ASIFA Diploma for Best Animation, Balkanima Festival, Belgrade, Serbia"
+        - name: "ASIFA Diploma za najbolju animaciju, Balkanima Festival, Beograd, Srbija"
 img_to_show: 2       
 img_data:
     - size: "800x638"
-      caption: "Selected Frame"
+      caption: "Kadar iz filma"
     - size: "800x638"
-      caption: "Selected Frame"
+      caption: "Kadar iz filma"
     - size: "800x511"
-      caption: "Selected Frame"
-lead: "Self-Portrait (Autoportret) is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+      caption: "Kadar iz filma"
+lead: "Autoportret je kratki animirani film o... an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
 
 How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
 
