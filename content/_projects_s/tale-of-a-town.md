@@ -1,5 +1,5 @@
 title: 
-    name: The Tale of a Town
+    name: Priča o jednom gradu
 id: tale-of-a-town
 date: 2004
 ranks:
@@ -9,42 +9,42 @@ ranks:
 featured_video: '<style>.codegena{position:relative;width:100%;height:0;padding-bottom:75%;}.codegena iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="codegena"><iframe width="500" height="375" src="https://www.youtube.com/embed/VOoD0jDfjcM?&theme=dark&autohide=2&cc_load_policy=1"frameborder="0"></iframe></div>'
 category: 
     - id: animation
-      name: Animation
+      name: Animacija
     - id: drawing
-      name: Digital Drawing
+      name: Digitalni crtež
 role:
     - id: animator
-      name: Director + Animator
+      name: Reditelj + Animator
 medium:
     - id: animation
-      name: Animated Short Film
+      name: Kratak animirani film
 team:
     - link: "https://www.imdb.com/name/nm1383706/"
-      name: Vladimir Uspenski (Sound Design)
-presentation_title: Festivals
+      name: Vladimir Uspenski (dizajn zvuka)
+presentation_title: Festivali
 presentations:
     - year: 2004
       events:
-        - name: Belgrade Documentary and Short Film Festival (Martovski), Belgrade, Serbia
-        - name: Balkanima Animation Festival, Belgrade, Serbia
-        - name: International Short Film Festival in Drama, Greece
-        - name: Olympia International Film Festival for Children and Young People, Greece
+        - name: Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija
+        - name: Balkanima festival animiranog filma, Beograd, Srbija
+        - name: International Short Film Festival, Drama, Grčka
+        - name: Olympia International Film Festival for Children and Young People, Olimpija, Grčka
 awards:
     - year: 2004
       pubs:
         - link: "https://www.pancevac-online.rs/arhiva/arhiva/!4061/05lokalna.htm"
-          name: "City of Pančevo November Award for Achievement in Art, Pančevo, Serbia"
-        - name: Best Animation Award, Belgrade Documentary and Short Film Festival (Martovski), Belgrade, Serbia
-        - name: City of Niš Award for the Best National Animated Film, Niš, Serbia
+          name: "Novembarska nagrada grada Pančeva za umetničko postignuće, Pančevo, Srbija"
+        - name: Nagrada za najbolju animaciju domaćeg filma, Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija
+        - name: Nagrada grada Niša za najbolji nacionalni animirani film, Niš, Srbija
 img_to_show: 3       
 img_data:
     - size: "750x600"
-      caption: "Selected Frame"
+      caption: "Kadar iz filma"
     - size: "750x600"
-      caption: "Selected Frame"
+      caption: "Kadar iz filma"
     - size: "750x600"
-      caption: "Selected Frame"
-lead: "The Tale of a Town (Priča o jednom gradu) is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+      caption: "Kadar iz filma"
+lead: "Priča o jednom gradu (The Tale of a Town) je kratak animirani film... Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
 
 How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
 

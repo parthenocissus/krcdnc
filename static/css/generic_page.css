@@ -108,6 +108,14 @@
     color: var(--suncolor);
 }
 
+.footer .bio-break {
+    display: none;
+}
+
+.footer bio-break-footer-sh {
+    display: inline;
+}
+
 /* Footer Pictogram Container */
 
 .footer .footer-pictogram {

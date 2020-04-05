@@ -21,7 +21,7 @@ body {
     color: var(--darkcolor);
     margin: 0;
     padding: 0;
-    background-color: var(--suncolor);
+    background-color: var(--lightcolor);
     overflow-x: hidden;
 }
 
@@ -36,24 +36,6 @@ a { text-decoration: none; }
 
 /* Margins */
 
-#top-margin {
-    position: fixed;
-    left: 0; top: 0;
-    width: 100vw;
-    height: 8px;
-    background-color: var(--suncolor);
-    z-index: 10;
-}
-
-#right-margin {
-    position: fixed;
-    right: 0; top: 0;
-    width: 8px;
-    height: 100%;
-    background-color: var(--suncolor);
-    z-index: 6;
-}
-
 #left-margin {
     position: fixed;
     left: 0; top: 0;
@@ -63,14 +45,30 @@ a { text-decoration: none; }
     z-index: 10;
 }
 
-#bottom-margin {
-    position: fixed;
-    left: 0; bottom: 0;
-    height: 8px;
-    width: 100vw;
-    background-color: var(--suncolor);
-    z-index: 10;
-}
+/*#top-margin {*/
+/*    position: fixed;*/
+/*    left: 0; top: 0;*/
+/*    width: 100vw;*/
+/*    height: 8px;*/
+/*    background-color: var(--suncolor);*/
+/*    z-index: 10;*/
+/*}*/
+/*#right-margin {*/
+/*    position: fixed;*/
+/*    right: 0; top: 0;*/
+/*    width: 8px;*/
+/*    height: 100%;*/
+/*    background-color: var(--suncolor);*/
+/*    z-index: 6;*/
+/*}*/
+/*#bottom-margin {*/
+/*    position: fixed;*/
+/*    left: 0; bottom: 0;*/
+/*    height: 8px;*/
+/*    width: 100vw;*/
+/*    background-color: var(--suncolor);*/
+/*    z-index: 10;*/
+/*}*/
 
 /* Main Body */
 
@@ -241,6 +239,7 @@ aside {
     visibility: hidden;
     background-color: var(--suncolor);
     height: 100vh;
+    top: 0;
     left: 0;
     width: 0;
     z-index: 11;

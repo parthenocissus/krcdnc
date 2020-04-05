@@ -1,7 +1,5 @@
 {% extends "base.html" %}
 
-{% block title %} ← Data Art, Writing, Teaching{% endblock %}
-
 {% block head %}
     {{ super() }}
 
@@ -43,10 +41,7 @@
 
             <div class="short-bio">
                 {% block index_bio %}
-                    <a href="#">Uroš Krčadinac</a> (b. 1984) is a Belgrade-based <br class="bio-break">digital artist,
-                    technologist, writer, and educator <br class="bio-break">
-                    who <span id="creates-verb">makes</span>
-                    <span id="creates-what"><a id="link-to-projects" href="#">Data Art</a></span>.
+                    {{ params.bio.homepage|safe }}
                 {% endblock %}
             </div>
 

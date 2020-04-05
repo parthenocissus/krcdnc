@@ -1,6 +1,7 @@
 {% for project in projects %}
-    <a href="{{ url_for('project', name=project.path.replace('projects/', '')) }}">
-        {{ project.title }}
+    {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
+    <a href="{{ project_link }}">
+        {{ project.title.name }}
     </a>
     <small>{{ project.date }}</small>
     <br>

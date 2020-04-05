@@ -103,7 +103,7 @@
     "name": "Digital Drawings",
     "createsVerb": "draws",
     "nameS": "Digitalni crtež",
-    "createsVerbS": "crta",
+    "createsVerbS": "osmišljava i crta",
     "nameSCase": "digitalne crteže",
     "id": "drawing",
     "graphics": {
@@ -163,7 +163,7 @@
     "name": "Data Art",
     "createsVerb": "makes",
     "nameS": "Data umetnost",
-    "createsVerbS": "kreira",
+    "createsVerbS": "osmišljava i kreira",
     "nameSCase": "data umetnost",
     "id": "data-art",
     "graphics": {
@@ -183,7 +183,7 @@
     "name": "Books",
     "createsVerb": "writes",
     "nameS": "Knjige",
-    "createsVerbS": "piše",
+    "createsVerbS": "piše i objavljuje",
     "nameSCase": "tekstove i knjige",
     "id": "book",
     "graphics": {

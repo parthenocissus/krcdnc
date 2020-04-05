@@ -1,124 +1,122 @@
 title: 
-    name: I Do Not Wish To Be Loved, I Wish Everyone Loved Leaves
-    html: "I Do Not Wish To Be Loved,<br>I Wish Everyone Loved Leaves"
-    short: I Do Not Wish To Be Loved…
+    name: Ja nisam željan da me ko voli, nego da svi zavole lišće
+    html: "Ja nisam željan da me ko voli,<br>nego da svi zavole lišće"
+    short: Ja nisam željan da me ko voli…
 id: vinaware
 date: 2019
 goto:
     link: "http://vinaware.krcadinac.com"
-    label: "Open Project"
+    label: "Otvori stranicu projekta"
 ranks:
     visual: 4
     digital: 4
     textual: 4
 category: 
     - id: digital-literature
-      name: Digital Literature
+      name: Digitalna književnost
     - id: book
-      name: Book
+      name: Knjiga
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: ai
-      name: Artificial Intelligence
+      name: Veštačka inteligencija
     - id: software
-      name: Software
+      name: Softver
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
     - id: animation
-      name: Animation
+      name: Animacija
 role:
     - id: artist
-      name: Artist
+      name: Umetnik
     - id: writer
-      name: Writer
+      name: Pisac
     - id: programmer
-      name: Programmer
+      name: Programer
 medium:
     - id: software
-      name: Software
+      name: Softver
     - id: installation
-      name: Interactive Installation
+      name: Interaktivna instalacija
     - id: book
-      name: Artist Book
+      name: Umetnička knjiga
 team:
     - link: 'https://www.majaciric.com/'
-      name: Maja Ćirić (Curator)
+      name: Maja Ćirić (kustos)
     - link: 'https://www.designed.rs/high5/milos_nikolic'
-      name: Miloš Nikolić (Co-Designer)
-presentation_title: Exhibitions
+      name: Miloš Nikolić (dizajner saradnik)
+presentation_title: Izložbe
 presentations:
     - year: 2019
       events:
         - link: 'https://muzejnt.rs/sutra/portfolio-item/ja-nisam-vise-zeljan-da-me-ko-voli-nego-da-svi-zavole-lisce/'
-          name: S.U.T.R.A. Festival of New Media Art, Museum of Science and Technology, Belgrade, Serbia
+          name: S.U.T.R.A. Festival novomedijske umetnosti, Muzej nauke i tehnike, Beograd
         - link: 'http://www.strand.rs/2019/exhibition.pdf'
-          name: Strand Conference, Serbian Academy of Sciences and Arts, Belgrade, Serbia
+          name: Konferencija Strand, Srpska akademija nauka i umetnosti, Beograd, Srbija
         - link: 'http://www.seecult.org/vest/nove-tehnologije-i-ideja-o-napretku'
-          name: "New Technologies: Exhibition of New Media Art, Gallery of Contemporary Art, Pančevo, Serbia"
+          name: "Ishod(i) nove tehnologije: Izložba novomedijske umetnosti, Galerija savremene umetnosti, Pančevo"
 publications:
     - year: 2019
       pubs:
-        - name: "I Do Not Wish To Be Loved, I Wish Everyone Loved Leaves (Artist Book)"
+        - name: "Ja nisam željan da me ko voli, nego da svi zavole lišće (umetnička knjiga)"
 awards:
     - year: 2019
       pubs:
-        - name: "ARTificial Belgrade: New Media Art Installation Award, Everseen, Belgrade, Serbia"
+        - name: "ARTificial Belgrade: Nagrada za novomedijsku umetničku instalaciju, Everseen, Beograd"
 press:
     - link: "https://www.danas.rs/kultura/festival-s-u-t-r-a-u-ime-algoritma-pasivne-posetioce-pretvara-u-aktivne-ucesnike/"
-      name: About S.U.T.R.A. Festival, Danas, Belgrade, Serbia
+      name: O festivalu S.U.T.R.A., Danas, Beograd
     - link: 'http://www.seecult.org/vest/nove-tehnologije-i-ideja-o-napretku'
       name: SEECult
     - link: 'https://www.pancevo.city/kultura/nove-tehnologije-nove-mogucnosti-misljenja/'
       name: Pančevo.city
     - link: 'https://rtv.rs/sr_lat/mladi/gde-otici/izlozba-nove-tehnologije-inverse-u-pancevu_785261.html'
-      name: Radio Television of Vojvodina
+      name: Radio Televizija Vojvodine
     - link: 'http://www.arte.rs/sr/vesti/ishodi_nove_tehnologije-13247/1/1/'
       name: Arte
-    - link: 'https://www.danubeogradu.rs/2019/09/festival-s-u-t-r-a-2019-u-ime-algoritma/'
-      name: DanUBeogradu.rs
 img_to_show: 4
 img_data:
     - size: "1200x795"
-      caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga koja podražava logiku automatskog grananja i generisanja teksta. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga koja podražava logiku automatskog grananja i generisanja teksta. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Selected generative poem from the book. Photo: Ivona Petrov."
+      caption: "Izabran automatski generisan tekst iz knjige. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Foto: Ivona Petrov."
     - size: "795x1200"
-      caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga koja podražava logiku automatskog grananja i generisanja teksta. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Interactive Animated Interface, Screen Media. Photo: Ivona Petrov."
+      caption: "Interaktivni animirani interfejs. Ekranski medij, instalacija. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga koja podražava logiku automatskog grananja i generisanja teksta. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book. Detail from the database of every word Crnjanski used, sorted alphabetically. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Detalj baze podataka sastavljene od svih reči koje je Miloš Crnjanski ikada koristio, sortirane abecednim redom. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Database-printed wall and the mouse used to interact with the interface. Photo: Ivona Petrov."
+      caption: "Baza podataka odštampana na zidu i miš za interakciju sa ekranskom instalacijom. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book. Detail from the database of every word Crnjanski used, sorted alphabetically. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Detalj baze podataka sastavljene od svih reči koje je Miloš Crnjanski ikada koristio, sortirane abecednim redom. Foto: Ivona Petrov."
     - size: "795x1200"
-      caption: "Artist Book. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov."
+      caption: "Umetnička knjiga. Foto: Ivona Petrov."
     - size: "795x1200"
-      caption: "Selected generative poem from the book. Photo: Ivona Petrov."
+      caption: "Izabran automatski generisan tekst iz knjige. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Installation. Photo: Ivona Petrov."
+      caption: "Interaktivna instalacija. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Hand drawing in the book. Photo: Ivona Petrov."
+      caption: "Crtež iz knjige. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Installation. Photo: Ivona Petrov."    
-lead: "Synesketch was the Web’s first free open-source software for textual emotion recognition and artistic visualization. A pioneering work in AI humanization and generative æsthetics, Synesketch was recognized by international art venues, scientific journals and conferences, as well as many organizations and individuals Web-wide."
+      caption: "Interaktivna instalacija. Foto: Ivona Petrov."    
+lead: "Teskt tek treba da se napiše... Synesketch was the Web’s first free open-source software for textual emotion recognition and artistic visualization. A pioneering work in AI humanization and generative æsthetics, Synesketch was recognized by international art venues, scientific journals and conferences."
 
 Inspired by the concept of <a href="https://en.wikipedia.org/wiki/Synesthesia" target="_blank">synesthesia</a>, Synesketch is an attempt to create an artifical synesthete, a computer program that maps text to visuals via feelings. The project started in the pre-post-truth, pre-crisis year of 2007, when Internet was still young, with a lot of creative makers untainted by questions of digital surveillance, algorithmic commodification, and social consequences of AI. One may say it was the age of innocence for digital art. Synesketch presents an abstract portrait of that age. 
 

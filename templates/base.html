@@ -104,7 +104,7 @@
         <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/util.js') }}"></script>
 
-        <title>Uroš Krčadinac{% block title %} ← Data Art, Writing, Teaching{% endblock %}</title>
+        <title>Uroš Krčadinac{% block title %}{{ params.page_title.homepage }}{% endblock %}</title>
     {% endblock %}
 </head>
 <body>
@@ -114,9 +114,6 @@
     <nav id="navigation-frame">
 
         <div id="margins">
-{#            <div id="top-margin"></div>#}
-{#            <div id="right-margin"></div>#}
-{#            <div id="bottom-margin"></div>#}
             <div id="left-margin"></div>
         </div>
 
@@ -137,21 +134,20 @@
         </div>
 
 {#        <div id="plus-logo">#}
-{##}
 {#            <svg id="plus-logo-svg" class="fill-none-stroke-dark" width="13px" height="13px">#}
 {#                <rect id="hover-rect" x="0" y="0" pointer-events="all" fill="none" stroke="none" width="13"#}
 {#                      height="13"></rect>#}
 {#                <line class="plus-line" x1="6.5" y1="0" x2="6.5" y2="13"></line>#}
 {#                <line class="plus-line" x1="0" y1="6.5" x2="13" y2="6.5"></line>#}
 {#            </svg>#}
-{##}
 {#        </div>#}
 
         <div id="lang-choice" class="interface-text">
             {% block lang %}
                 <ul>
-                    <li><a href="../rad/">naš</a></li>
-                    <li><span>eng</span></li>
+                    <li><a href="{% block lang_link %}{{ params.lang_menu.base_link }}{% endblock %}">
+                        {{ params.lang_menu.link_title }}</a></li>
+                    <li><span>{{ params.lang_menu.active_title }}</span></li>
                 </ul>
             {% endblock %}
         </div>
@@ -160,30 +156,19 @@
 
             <div class="side-nav">
                 {% block menu %}
-{#                    <div class="menu-title">Menu</div>#}
+                    {#<div class="menu-title">Menu</div>#}
                     <ul>
-                        <li><a href="/work">Home</a></li>
-                        <li><a href="/work/projects">Projects</a></li>
-                        <li><a href="#">Writing</a></li>
-                        <li><a href="#">Teaching</a></li>
-                        <li><a href="#">Speaking</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">About</a></li>
+                        {% for item in params.menu_items %}
+                            <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 {% endblock %}
-{#                {% block menu_lang %}#}
-{#                    <div class="menu-title lang">Lang</div>#}
-{#                    <ul>#}
-{#                        <li><span>Eng</span></li>#}
-{#                        <li><a href="../rad/">Naš</a></li>#}
-{#                    </ul>#}
-{#                {% endblock %}#}
             </div>
 
         </aside>
 
-        <div id="name-aside" orig-text="Uroš Krčadinac" alt-text="Uroš Krčadinac" menu-text="Menu">
-            <a id="name-aside-href" href="/work">Uroš Krčadinac</a>
+        <div id="name-aside">
+            <a id="name-aside-href" href="/">Uroš Krčadinac</a>
             {% block breadcrumbs %}
             {% endblock %}
         </div>
@@ -200,10 +185,10 @@
 
     <script>
 
-        let setupParams = {{ params|tojson }};
-        let lang = setupParams.lang
-        let pictoData = setupParams.pictodata;
-        let maximumProjectCount = setupParams.max;
+        let params = {{ params|tojson }};
+        let lang = params.lang
+        let pictoData = params.pictodata;
+        let maximumProjectCount = params.max;
 
         baseUtility.baseSetup();
 

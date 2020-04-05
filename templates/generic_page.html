@@ -17,33 +17,16 @@
             <div class="menu">
 
                 <div class="menu-inside">
-
-                    {% block footer_menu %}
-                        {% if params.lang == "en" %}
-                            <div class="interface-heading-article">Menu</div>
-                            <div class="interface-text-article no-padding-bottom">
-                                <a href="/work">Home</a> /
-                                <a href="/work/projects">Projects</a> /
-                                <a href="#">Writing</a> /
-                                <a href="#">Teaching</a> /
-                                <a href="#">Speaking</a> /
-                                <a href="#">Press</a> /
-                                <a href="#">About</a>
-                            </div>
-                        {% else %}
-                            <div class="interface-heading-article">Meni</div>
-                            <div class="interface-text-article no-padding-bottom">
-                                <a href="#">Početna</a> /
-                                <a href="#">Projekti</a> /
-                                <a href="#">Tekstovi</a> /
-                                <a href="#">Edukacija</a> /
-                                <a href="#">Nastupi</a> /
-                                <a href="#">Mediji</a> /
-                                <a href="#">O meni</a>
-                            </div>
-                        {% endif %}
-                    {% endblock %}
-
+                    <div class="interface-heading-article">{{ params.menu.title }}</div>
+                    <div class="interface-text-article no-padding-bottom">
+                        {% for item in params.menu_items %}
+                            {% set slash = " / " %}
+                            {% if loop.index == params.menu_items|length %}
+                                {% set slash = "" %}
+                            {% endif %}
+                            <a href="{{ item.link }}">{{ item.title }}</a>{{ slash }}
+                        {% endfor %}
+                    </div>
                 </div>
 
             </div>
@@ -71,8 +54,6 @@
             <div class="footer-pictogram">
 
                 <div class="main-pictome">
-
-{#                    viewBox="0 0 105 210"#}
                     <svg id="pictome-svg" tooltip-text="All Projects" width="57px" height="114px"
                          preserveAspectRatio="xMidYMin meet">
                         <g id="pictome-g" transform="translate(0,0) scale(3.32)">
@@ -97,12 +78,14 @@
                 <div class="bio-inside">
 
                     {% block footer_bio %}
-                        <p><a href="#">Uroš Krčadinac</a> (b. 1984) is a<br>Belgrade-based digital artist,
-                            technologist, writer, and educator who <span id="creates-verb">makes</span>
-                            <span id="creates-what"><a id="link-to-projects" href="#">Interactive Art & Design</a></span>.</p>
-                        <p class="no-padding-bottom">Contact: uros (at) krcadinac.com</p>
-                        {#                    <div class="interface-heading-article">Copyleft</div>#}
-                        {#                    <p><span class="copyleft">&copy;</span> 1999–2020 Uroš Krčadinac</p>#}
+
+                        <p>{{ params.bio.homepage|safe }}</p>
+
+                        {#                        <p><a href="#">Uroš Krčadinac</a> (b. 1984) is a<br>Belgrade-based digital artist,#}
+                        {#                            technologist, writer, and educator who <span id="creates-verb">makes</span>#}
+                        {#                            <span id="creates-what"><a id="link-to-projects" href="#">Interactive Art & Design</a></span>.</p>#}
+
+                        <p class="no-padding-bottom">{{ params.contact.title }}: uros (at) krcadinac.com</p>
                     {% endblock %}
 
                 </div>

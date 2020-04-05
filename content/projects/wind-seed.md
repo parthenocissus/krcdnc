@@ -1,4 +1,5 @@
-title: The Wind and the Seed
+title: 
+    name: The Wind and the Seed
 id: wind-seed
 date: 2020
 ranks:
@@ -68,7 +69,7 @@ img_data:
     - size: "1200x795"
       caption: "Physical scatter-plot of selected Belgrade plants. Detail. Photo: Ivona Petrov."
     - size: "1200x1200"
-      caption: "Physical scatter-plot of selected Belgrade plants organized according to <a href='https://knowyourmeme.com/memes/political-compass' target='_blank'>Political Compass meme</a> model. Photo: Ivona Petrov."
+      caption: "Physical scatter-plot of selected Madeira plants organized according to <a href='https://knowyourmeme.com/memes/political-compass' target='_blank'>Political Compass meme</a> model. Photo: Ivona Petrov."
     - size: "1200x795"
       caption: "Physical scatter-plot of selected Madeira plants. Detail. Photo: Ivona Petrov."
     - size: "1200x795"
@@ -86,4 +87,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget mas
 
 Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Lltricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Nulla facilisi. Integer fermentum porta lectus id convallis. Integer fermentum porta lectus id convallis. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>

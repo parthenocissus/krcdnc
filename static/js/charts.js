@@ -147,14 +147,19 @@ let chartUtility = (function () {
 
         let w = 260,
             h = w,
-            radius = 107,
+            radius = 114,
             circleR = 1,
-            center = {x: w / 2, y: h / 2},
+            center = {x: w / 2 + 8, y: h / 2},
             startAngle = -Math.PI / 3,
             incrementAngle = 2 * Math.PI / 3,
             ranks = [visual, digital, textual],
             data = [], axisData = [],
             labels = ["visual", "digital", "textual"];
+
+        let captions = params.project_captions.polarchart;
+        labels[0] = captions.visual;
+        labels[1] = captions.digital;
+        labels[2] = captions.textual;
 
         let p = {
             x: (t, r, cx) => r * Math.cos(t) + cx,
@@ -191,6 +196,14 @@ let chartUtility = (function () {
         let polarSvg = d3.select("#polar-chart-svg")
             .attr("viewBox", "0 0 " + w + " " + h)
             .selectAll("svg");
+
+       // d3.select("#polar-chart-svg").append("rect")
+       //      .attr("x", 0)
+       //      .attr("y", 0)
+       //      .attr("width", w)
+       //      .attr("height", h)
+       //      .attr("stroke", "none")
+       //      .attr("fill", "#c4c2b7");
 
         polarSvg.data([1, 2, 3, 4]).enter()
             .append("circle")
@@ -265,11 +278,11 @@ let chartUtility = (function () {
         svgData.append("defs").append("path")
             .attr("id", d => "curve-" + d.label)
             .attr("transform", d => "rotate(" + d.textAngle + " " + center.x + " " + center.y + ")")
-            .attr("d", function(d) {
+            .attr("d", function(d, i) {
                 let sign = 1, ra = radius + 16;
-                if (d.label === "digital") {
+                if (i === 1) {
                     sign = 0;
-                    ra = radius + 21;
+                    ra = radius + 23;
                 }
                 return circlePath(ra, center.x, center.y, sign);
             });

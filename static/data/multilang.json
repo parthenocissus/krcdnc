@@ -1,0 +1,162 @@
+{
+  "en_params": {
+    "lang": "en",
+    "project_paths": {
+      "base": "/work/projects/",
+      "category": "category/",
+      "role": "role/",
+      "medium": "medium/"
+    },
+    "menu": {
+      "title": "Menu"
+    },
+    "menu_items": [
+      {
+        "title": "Home",
+        "link": "/work"
+      },
+      {
+        "title": "Projects",
+        "link": "/work/projects"
+      },
+      {
+        "title": "Writing",
+        "link": "/work/writing"
+      },
+      {
+        "title": "Teaching",
+        "link": "/work/teaching"
+      },
+      {
+        "title": "Speaking",
+        "link": "/work/teaching"
+      },
+      {
+        "title": "Press",
+        "link": "/work/press"
+      },
+      {
+        "title": "About",
+        "link": "/work/about"
+      }
+    ],
+    "lang_menu": {
+      "active_title": "eng",
+      "link_title": "naš",
+      "base_link": "/rad"
+    },
+    "bio": {
+      "homepage": "<a href='#'>Uroš Krčadinac</a> (b. 1984) is a Belgrade-based <br class='bio-break'>digital artist, technologist, writer, and educator <br class='bio-break'>who <span id='creates-verb'>makes</span> <span id='creates-what'><a id='link-to-projects' href='#'>Data Art</a></span>."
+    },
+    "page_title": {
+      "homepage": " ← Data Art, Writing, Teaching"
+    },
+    "tooltip": {
+      "linechart": "Project Timeline ↓ Go To Presentations"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "project_captions": {
+      "lang_link": "/rad/projekti/",
+      "categories_title": "Project Categories",
+      "categories": "Categories",
+      "presentations": "Presentations",
+      "role": "Role",
+      "medium": "Medium",
+      "collaborators": "Collaborators",
+      "publications": "Publications",
+      "awards": "Awards",
+      "press": "Press",
+      "gallery_tooltip": {
+        "start": "Open Gallery",
+        "end": "Images"
+      },
+      "polarchart": {
+        "textual": "textual",
+        "digital": "digital",
+        "visual": "visual"
+      }
+    }
+  },
+  "sh_params": {
+    "lang": "sh",
+    "project_paths": {
+      "base": "/rad/projekti/",
+      "category": "kategorija/",
+      "role": "uloga/",
+      "medium": "medijum/"
+    },
+    "menu": {
+      "title": "Sadržaj"
+    },
+    "menu_items": [
+      {
+        "title": "Početna",
+        "link": "/rad"
+      },
+      {
+        "title": "Projekti",
+        "link": "/rad/projekti"
+      },
+      {
+        "title": "Tekstovi",
+        "link": "/rad/tekstovi"
+      },
+      {
+        "title": "Edukacija",
+        "link": "/rad/edukacija"
+      },
+      {
+        "title": "Nastupi",
+        "link": "/rad/nastupi"
+      },
+      {
+        "title": "Mediji",
+        "link": "/rad/mediji"
+      },
+      {
+        "title": "Biografija",
+        "link": "/rad/bio"
+      }
+    ],
+    "lang_menu": {
+      "active_title": "naš",
+      "link_title": "eng",
+      "base_link": "/work"
+    },
+    "bio": {
+      "homepage": "<a href='#'>Uroš Krčadinac</a> (rođ. 1984) je <br class='bio-break-footer-sh'>digitalni umetnik, <br class='bio-break'> programer, autor <br class='bio-break-footer-sh'>i edukator koji <span id='creates-verb'>kreira</span> <br class='bio-break'><span id='creates-what'>transdisciplinarne projekte</span>."
+    },
+    "page_title": {
+      "homepage": " ← digitalni umetnik, programer, autor i edukator"
+    },
+    "tooltip": {
+      "linechart": "Vremenska linija projekta ↓ vidi prezentacije"
+    },
+    "contact": {
+      "title": "Kontakt"
+    },
+    "project_captions": {
+      "lang_link": "/work/projects/",
+      "categories_title": "Kategorije",
+      "categories": "Kategorije",
+      "presentations": "Prezentacije",
+      "role": "Uloga",
+      "medium": "Medij",
+      "collaborators": "Saradnici",
+      "publications": "Publikacije",
+      "awards": "Nagrade",
+      "press": "U medijima",
+      "gallery_tooltip": {
+        "start": "Otvori galeriju",
+        "end": "sl."
+      },
+      "polarchart": {
+        "textual": "tekstualno",
+        "digital": "digitalno",
+        "visual": "vizuelno"
+      }
+    }
+  }
+}

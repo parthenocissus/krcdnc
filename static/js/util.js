@@ -112,26 +112,6 @@ let baseUtility = (function () {
             .on("mouseout", defaultEvents.mouseout)
             .on("click", defaultEvents.onClick);
 
-        // let plusLogoSvg = d3.selectAll("#plus-logo-svg");
-        // plusLogoSvg.on("click", function () {
-        //     if (parameters.langFlag) {
-        //         moveLangMenu();
-        //     } else {
-        //         moveBackLangMenu();
-        //     }
-        // });
-        //
-        // d3.selectAll(".lang-li a").on("click", function () {
-        //     moveBackLangMenu();
-        // });
-
-        let nameAside = d3.selectAll("#name-aside");
-        nameAside.on("mouseover", function () {
-            d3.select("#name-aside-href").text(nameAside.attr("alt-text"));
-        }).on("mouseout", function () {
-            d3.select("#name-aside-href").text(nameAside.attr("orig-text"));
-        });
-
         d3.select("main").on("click", function () {
             resetMenu();
         });
@@ -193,13 +173,13 @@ let baseUtility = (function () {
         hideNameAside();
 
         parameters.menuFlag = false;
-        let menuMargin = 140,
+        let menuMargin = 150,
             menuWidth = menuMargin + "px",
             logoLeft = parameters.logoLeftMenu;
 
         if (window.matchMedia(mobileQuery).matches) {
             menuWidth = "50%";
-            logoLeft = parameters.logoLeftDefault;
+            logoLeft = parameterslogoLeftDefault;
 
         }
         d3.select("#side-menu").style("visibility", "visible").style("width", menuWidth);
@@ -259,14 +239,20 @@ let baseUtility = (function () {
     let resetMenu = function () {
         if (!parameters.menuFlag) moveBackMenu();
         // if (!parameters.langFlag) moveBackLangMenu();
-    }
+    };
+
+    let openInNewTab = function (url) {
+        let win = window.open(url, '_blank');
+        win.focus();
+    };
 
     /* Return */
 
     return {
         baseSetup: baseSetup,
         resetMenu: resetMenu,
-        pathTween: pathTween
+        pathTween: pathTween,
+        openInNewTab: openInNewTab
     }
 
 }());
