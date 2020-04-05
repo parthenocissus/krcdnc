@@ -4,67 +4,67 @@ id: synesketch
 date: 2008
 goto:
     link: "/download/synesketch/synesketch.zip"
-    label: "Download Source Code"
+    label: "Preuzmi programski kod"
 ranks:
     visual: 4
     digital: 4
     textual: 3
 category: 
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: research
-      name: Academic Research
+      name: Akademsko istraživanje
     - id: ai
-      name: Artificial Intelligence
+      name: Veštačka inteligencija
     - id: software
-      name: Software
+      name: Softver
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost i dizajn
 role:
     - id: artist
-      name: Artist
+      name: Umetnik
     - id: designer
-      name: Designer
+      name: Dizajner
     - id: programmer
-      name: Programmer
+      name: Programer
     - id: researcher
-      name: Academic Researcher
+      name: Akademski istraživač
 medium:
     - id: software
-      name: Software
+      name: Softver
     - id: installation
-      name: Interactive Installation
+      name: Interaktivna instalacija
     - id: research
-      name: Academic Text
-presentation_title: Exhibitions + Presentations
+      name: Akademski radovi
+presentation_title: Izložbe + Prezentacije
 presentations:
     - year: 2008
       events:
-        - name: Media Interaction Lab, Upper Austria University of Applied Sciences, Linz, Austria
-        - name: Alternative Party Art Exhibition, Helsinki, Finland
+        - name: Media Interaction Lab, Upper Austria University of Applied Sciences, Linc, Austrija
+        - name: Alternative Party Art Exhibition, Helsinki, Finska
     - year: 2009
       events:
-        - name: AI Lab, University of Belgrade, Serbia
+        - name: GOAI Lab, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija
     - year: 2010
       events:
-        - name: International Digital Media Arts Association Conference @ Emily Carr University Gallery, Vancouver Canada
+        - name: International Digital Media Arts Association Conference @ Emily Carr University Gallery, Vankuver, Kanada
     - year: 2011
       events:
-        - name: School of Interactive Art and Technology, Simon Fraser University, Vancouver, Canada
+        - name: School of Interactive Art and Technology, Simon Fraser University, Vankuver, Kanada
     - year: 2012
       events:
-        - name: ICHL, Guangzhou, China
-        - name: Share Conference, Belgrade, Serbia
+        - name: ICHL, Gvandžou, Kina
+        - name: Share Conference, Beograd, Srbija
     - year: 2013
       events:
-        - name: Republika Festival, Rijeka, Croatia
+        - name: Republika Festival, Rijeka, Hrvatska
     - year: 2016
       events:
         - link: 'http://www.strand.rs/goingdigital2016/blog-single-uros-krcadinac.html'
-          name: Strand Conference, Belgrade, Serbia
+          name: Konferencija Strand, Beograd, Srbija
     - year: 2017
       events:
-        - name: AI Lab, University of Belgrade, Serbia
+        - name: GOAI Lab, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija
 publications:
     - year: 2013
       pubs:
@@ -77,10 +77,10 @@ publications:
 awards:
     - year: 2008
       pubs:
-        - name: "Best Graduation Thesis Award, Belgrade Chamber of Commerce, Serbia"
+        - name: "Najbolji diplomski rad (jedan od najboljih 5 za Univerzitet u Beogradu), Privredna komora Srbije, Beograd, Srbija"
     - year: 2010
       pubs:
-        - name: "Award of Excellence, International Digital Media and Arts Association (iDMAa) Student Showcase, Vancouver, Canada"
+        - name: "Nagrada za interaktivni narativ Međunarodne asocijacije za digitalne medije i umetnost (iDMAa), Vankuver, Kanada"
 press:
     - name: Creative Review
     - link: 'http://www.visualcomplexity.com/vc/project.cfm?id=695'
@@ -89,28 +89,28 @@ press:
 img_to_show: 6
 img_data:
     - size: "640x162"
-      caption: "Growth of happiness visuals"
+      caption: "Razvoj vizuala za emociju radosti"
     - size: "640x159"
-      caption: "Growth of fear visuals"
+      caption: "Razvoj vizuala za emociju straha"
     - size: "640x159"
-      caption: "Growth of anger visuals"
+      caption: "Razvoj vizuala za emociju besa"
     - size: "640x158"
-      caption: "Growth of sadness visuals"
+      caption: "Razvoj vizuala za emociju tuge"
     - size: "640x945"
-      caption: "Growth of all visuals"
+      caption: "Razvoj vizuala za sve tipove emocija"
     - size: "464x365"
-      caption: "Interactive Narrative Award of Excellence, International Digital Media and Arts Association (iDMAa) Student Showcase, Vancouver, Canada — with Karen and Josh Tannenbaum"   
+      caption: "Nagrada za interaktivni narativ Međunarodne asocijacije za digitalne medije i umetnost (iDMAa), Vankuver, Kanada — sa Karen i Josh Tannenbaum"   
     - size: "640x945"
-      caption: "Diversity and Complexity, Princeton University Press, Book Cover — Cover Art"
+      caption: "Diversity and Complexity, Princeton University Press, korice knjige — grafički rad za korice"
     - size: "640x357"
-      caption: "Visuals generated by the emotion of surprise (detail)"   
+      caption: "Vizuali koje pokreće emocija iznenađenja (detalj)"   
     - size: "1200x897"
-      caption: "Alternative Synesketch visuals in the form of simple colored squares. Emotions from left to right, top to bottom: neutral / strong sadness / middle happiness / weak fear / strong anger / weak disgust / weak sadness / weak happiness / strong surprise / weak anger / strong disgust / middle sadness" 
+      caption: "Alternativni vizuali sistema Synesketch u obliku raznobojne kvadratne mreže. Emocije s leva na desno, od gore na dole: neutralna / snažna radost / srednja radost / slab strah / snažan bes / slabo gađenje / slaba tuga / slaba radost / snažno iznenađenje / slab bes / snažno gađenje / srednja tuga" 
     - size: "640x159"
-      caption: "Growth of disgust visuals"  
+      caption: "Razvoj vizuala za emociju gađenja"  
     - size: "640x157"
-      caption: "Growth of surprise visuals"    
-lead: "Synesketch was the Web’s first free open-source software for textual emotion recognition and artistic visualization. A pioneering work in AI humanization and generative æsthetics, Synesketch was recognized by international art venues, scientific journals and conferences, as well as many organizations and individuals Web-wide."
+      caption: "Razvoj vizuala za emociju iznenađenja"    
+lead: "Synesketch je slobodno licenciran softver otvorenog koda za prepoznavanje i umetničku vizuelizaciju emocija u tekstu — prvi takav na Vebu. Kao pionirski rad u oblasti generativne estetike, kreiran s namerom da humanizuje veštačku inteligenciju, Synesketch su prepoznali međunarodni umetnički festivali, naučni časopisi i konferencije, kao i organizacije i pojedinci širom Veba."
 
 Inspired by the concept of <a href="https://en.wikipedia.org/wiki/Synesthesia" target="_blank">synesthesia</a>, Synesketch is an attempt to create an artifical synesthete, a computer program that maps text to visuals via feelings. The project started in the pre-post-truth, pre-crisis year of 2007, when Internet was still young, with a lot of creative makers untainted by questions of digital surveillance, algorithmic commodification, and social consequences of AI. One may say it was the age of innocence for digital art. Synesketch presents an abstract portrait of that age. 
 
