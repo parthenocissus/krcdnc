@@ -242,6 +242,12 @@ main {
 .linechartCircleVisible {
 }
 
+/* Additional Break Fixes */
+
+.bio-break-footer-sh {
+    display: none;
+}
+
 
 /* Tablet & Mobile */
 

@@ -4,7 +4,6 @@
     {{ super() }}
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
-    <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
 
 {% endblock %}
 
@@ -62,8 +61,6 @@
 
         chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());
         chartUtility.createLinechart(chartUtility.getLinechartParamsIndex());
-        chartUtility.addData(pictoData);
-        chartUtility.mapDataToFlowerchart(pictoData);
         chartUtility.drawLineChart();
         chartUtility.setPeriodicalAnimation(chartUtility.getPeriodicalAnimationParamsIndex());
 

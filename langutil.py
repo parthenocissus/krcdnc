@@ -1,4 +1,4 @@
-import sys
+import copy
 import json
 from datetime import date, datetime
 
@@ -30,7 +30,8 @@ class LangUtil:
             tag["projects"] = self.__project_count_by_category(tag["id"])
 
         self.en_data["pictodata"] = pictogram_data
-        self.sh_data["pictodata"] = pictogram_data
+        self.sh_data["pictodata"] = LangUtil.__fix_sh_pictodata(pictogram_data)
+
         self.en_data["max"] = self.max_project_count
         self.sh_data["max"] = self.max_project_count
 
@@ -58,6 +59,13 @@ class LangUtil:
         return projects_data
 
     @staticmethod
+    def __fix_sh_pictodata(pictogram_data):
+        new_data = copy.deepcopy(pictogram_data)
+        for p in new_data:
+            p["name"] = p["nameS"]
+        return new_data
+
+    @staticmethod
     def prepare_sh_project(page):
         page.meta["title"] = page.meta["title_s"]
         for c in page.meta["category"]:
@@ -69,7 +77,6 @@ class LangUtil:
         for p in page.meta["presentations"]:
             for e in p["events"]:
                 e["name"] = e["name_s"]
-
         if "team" in page.meta:
             for t in page.meta["team"]:
                 t["name"] = t["name_s"]

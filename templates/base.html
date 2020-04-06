@@ -101,8 +101,8 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 
         <script src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/util.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
 
         <title>Uroš Krčadinac{% block title %}{{ params.page_title.homepage }}{% endblock %}</title>
     {% endblock %}
@@ -142,10 +142,11 @@
 {#            </svg>#}
 {#        </div>#}
 
-        <div id="lang-choice" class="interface-text">
+        <div id="lang-choice" class="interface-text"
+             onclick="location.href='{% block lang_link %}{{ params.lang_menu.base_link }}{% endblock %}';">
             {% block lang %}
                 <ul>
-                    <li><a href="{% block lang_link %}{{ params.lang_menu.base_link }}{% endblock %}">
+                    <li><a href="{{ params.lang_menu.base_link }}">
                         {{ params.lang_menu.link_title }}</a></li>
                     <li><span>{{ params.lang_menu.active_title }}</span></li>
                 </ul>
@@ -185,23 +186,14 @@
 
     <script>
 
-        let params = {{ params|tojson }};
-        let lang = params.lang
-        let pictoData = params.pictodata;
-        let maximumProjectCount = params.max;
-
         baseUtility.baseSetup();
+        chartUtility.setLangParams({{ params|tojson }});
 
         window.onresize = function () {
-
             baseUtility.resetMenu();
             baseUtility.baseSetup();
-
-            try {
-                chartUtility.addData(pictoData);
-            } catch (error) {
-                // console.error(error);
-            }
+            chartUtility.setLangParams({{ params|tojson }});
+            // try { chartUtility.addData(pictoData); } catch (error) { console.error(error); }
         };
 
     </script>

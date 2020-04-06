@@ -25,7 +25,7 @@ team:
     - name: Ivona Petrov
 presentation_title: Presentations
 presentations:
-    - year: 2013
+    - year: 2017
       events:
         - link: "https://2017.pland.hr/radionice/ivona-petrov-i-uras-krcadinac-zagrebacki-geoglifi/"
           name: Plan D Conference @ Nikola Tesla Science Museum, Zagreb, Croatia

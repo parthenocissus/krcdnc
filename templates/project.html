@@ -7,13 +7,13 @@
     {{ super() }}
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/project.css') }}">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/default-skin.css') }}">
 
+    <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/lib/photoswipe.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/lib/photoswipe-ui-default.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/lightbox.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
 
     {% if project.featured_js is defined %}
         {% set js_path = "js/ext/" ~ project.featured_js ~ ".js" %}
@@ -32,10 +32,7 @@
     <a href="{{ this_project_path }}">{{ this_project_title }}</a>
 {% endblock %}
 
-{% block lang_link %}
-    {% set link = params.project_captions.lang_link ~ project.id %}
-    {{ link }}
-{% endblock %}
+{% block lang_link %}{{ params.project_captions.lang_link ~ project.id }}{% endblock %}
 
 {% block main_container %}
 
@@ -293,32 +290,20 @@
     <script>
         (function () {
 
-            let origTimeline = {{ project.presentations|safe }}, projectYear, timelineData = [], maxCount = 0;
+            /*let origTimeline = {{ project.presentations|safe }}, projectYear, timelineData = [], maxCount = 0;
             origTimeline.forEach(function (event, i) {
                 if (i == 0) projectYear = +event.year;
                 if (event.events.length > maxCount) maxCount = event.events.length;
                 timelineData.push({year: event.year.toString(), projectCount: event.events.length});
-            });
+            });*/
 
-            let pictolistTags = {{ project.category|safe }}, tagIds = [];
-            pictolistTags.forEach(function (item) {
-                tagIds.push(item.id);
-            });
-            chartUtility.addData(pictoData);
-            chartUtility.createProjectPictolist(tagIds);
-
-            {#chartUtility.createFlowerchart(chartUtility.getFlowerParamsIndex());#}
-            chartUtility.createLinechart(chartUtility.getLinechartParamsHeader(projectYear));
-
-            {#chartUtility.mapDataToFlowerchart(pictoData);#}
-            chartUtility.drawLineChartHeader(timelineData, maxCount);
+            chartUtility.createProjectPictolist({{ project.category|safe }});
+            chartUtility.createLinechart(chartUtility.getLinechartParamsHeader({{ project.date|safe }}));
+            chartUtility.drawLineChartHeader({{ project.presentations|safe }});
             chartUtility.setPeriodicalAnimation();
+            chartUtility.drawPolarChart({{ project.ranks.visual|safe }}, {{ project.ranks.digital|safe }}, {{ project.ranks.textual|safe }});
 
-            chartUtility.drawPolarChart({{ project.ranks.visual|safe }},
-                {{ project.ranks.digital|safe }},
-                {{ project.ranks.textual|safe }});
-
-            lightboxSetup();
+            baseUtility.lightboxSetup();
 
         }());
     </script>

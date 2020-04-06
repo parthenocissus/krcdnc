@@ -1,8 +1,35 @@
 let chartUtility = (function () {
 
+    /* Lang Section */
+
+    let langParams;
+    let dataCopy = [];
+    let lang, pictoData, maximumProjectCount;
+
+    let setLangParams = function (params) {
+        langParams = params;
+
+        lang = params.lang;
+        dataCopy = params.pictodata;
+        maximumProjectCount = params.max;
+
+        // pictoData.forEach(function (d) {
+        //     dataCopy.push({
+        //         "id": d.id,
+        //         "name": d.name,
+        //         "createsVerb": d.createsVerb,
+        //         "nameS": d.nameS,
+        //         "createsVerbS": d.createsVerbS,
+        //         "nameSCase": d.nameSCase,
+        //         "graphics": d.graphics,
+        //         "projects": d.projects
+        //     });
+        // });
+    };
+
     /* Flowerchart Section */
 
-    let dataCopy = [], flowerchartSVG, linechartSVG;
+    let flowerchartSVG, linechartSVG;
 
     let flowerchartParameters = {};
 
@@ -106,7 +133,7 @@ let chartUtility = (function () {
         tags.forEach(function (d, i) {
 
             let item = dataCopy.find(object => {
-                return object.id === d;
+                return object.id === d.id;
             });
 
             let pictogramParams = {
@@ -123,12 +150,12 @@ let chartUtility = (function () {
                 rectMouseover: function () {
                     d3.selectAll("#" + params.idPrefix + "-" + item.id).classed("sun-stroke-only", true);
                     d3.selectAll("#" + params.idPrefix + "-" + item.id + "Dot").classed("pictome-dot-sun", true);
-                    d3.select(".project-categories").html(item.name);
+                    d3.select(".project-categories").html(item.name.title);
                 },
                 rectMouseout: function () {
                     d3.selectAll("#" + params.idPrefix + "-" + item.id).classed("sun-stroke-only", false);
                     d3.selectAll("#" + params.idPrefix + "-" + item.id + "Dot").classed("pictome-dot-sun", false);
-                    d3.select(".project-categories").html("Project Categories");
+                    d3.select(".project-categories").html(langParams.project_captions.categories_title);
                 },
                 transformFn: function () {
                     return "translate(" + (pictoWidthPlusGap * i) + ",0) "
@@ -156,7 +183,7 @@ let chartUtility = (function () {
             data = [], axisData = [],
             labels = ["visual", "digital", "textual"];
 
-        let captions = params.project_captions.polarchart;
+        let captions = langParams.project_captions.polarchart;
         labels[0] = captions.visual;
         labels[1] = captions.digital;
         labels[2] = captions.textual;
@@ -244,7 +271,7 @@ let chartUtility = (function () {
         svgData.append("defs").append("path")
             .attr("id", d => "curve-" + d.label)
             .attr("transform", d => "rotate(" + d.textAngle + " " + center.x + " " + center.y + ")")
-            .attr("d", function(d, i) {
+            .attr("d", function (d, i) {
                 let sign = 1, ra = radius + 16;
                 if (i === 1) {
                     sign = 0;
@@ -298,8 +325,7 @@ let chartUtility = (function () {
 
     let createFlowerchart = function (fp = flowerParamsFooter) {
 
-        let fw = 340, ph = 35, pw = 17,
-            genData = {id: generalFlowerPictogram.id, name: generalFlowerPictogram.name};
+        let fw = 340, ph = 35, pw = 17;
 
         flowerchartParameters = {
             divClass: ".flowerchart",
@@ -347,30 +373,11 @@ let chartUtility = (function () {
         };
         drawSinglePictogram(pictogramParams);
 
+        mapDataToFlowerchart();
+
     };
 
-    let addData = function (data) {
-
-        data.forEach(function (d) {
-
-            dataCopy.push({
-                "id": d.id,
-                "name": d.name,
-                "createsVerb": d.createsVerb,
-                "nameS": d.nameS,
-                "createsVerbS": d.createsVerbS,
-                "nameSCase": d.nameSCase,
-                "graphics": d.graphics,
-                //"projects": fillMissingDates(d.projects)
-                "projects": d.projects
-            });
-
-            parameters.maxProjectCount = maximumProjectCount;
-
-        });
-    };
-
-    let mapDataToFlowerchart = function (data) {
+    let mapDataToFlowerchart = function (data = dataCopy) {
 
         let params = flowerchartParameters,
             angle = 180 / (data.length - 1),
@@ -557,17 +564,16 @@ let chartUtility = (function () {
                 let randomItem = dataCopy[Math.floor(Math.random() * dataCopy.length)];
                 flowerchartParameters.prevItem = randomItem;
 
-                /* Lang check */
-
-                if (lang === "en") {
-                    d3.select("#creates-verb").html(randomItem.createsVerb);
-                    let linkToProjects = "<a id='link-to-projects' href='../work/projects/" + randomItem.id + "'>" + randomItem.name + "</a>";
-                    d3.select("#creates-what").html(linkToProjects);
-                } else {
-                    d3.select("#creates-verb").html(randomItem.createsVerbS);
-                    let linkToProjects = "<a id='link-to-projects' href='../rad/projekti/" + randomItem.id + "'>" + randomItem.nameSCase + "</a>";
-                    d3.select("#creates-what").html(linkToProjects);
-                }
+                // if (lang === "en") {
+                d3.select("#creates-verb").html(randomItem.name.createsVerb);
+                let baseLink = langParams.project_paths.base + randomItem.id;
+                let linkToProjects = "<a id='link-to-projects' href='" + baseLink + "'>" + randomItem.name.case + "</a>";
+                d3.select("#creates-what").html(linkToProjects);
+                // } else {
+                //     d3.select("#creates-verb").html(randomItem.createsVerbS);
+                //     let linkToProjects = "<a id='link-to-projects' href='../rad/projekti/" + randomItem.id + "'>" + randomItem.nameSCase + "</a>";
+                //     d3.select("#creates-what").html(linkToProjects);
+                // }
 
                 d3.select("#pictogram-" + randomItem.id)
                     .attr("class", "pictome-small-sun");
@@ -659,7 +665,8 @@ let chartUtility = (function () {
         xShift: 0
     };
 
-    let getLinechartParamsHeader = function (projectYear) {
+    let getLinechartParamsHeader = function (year) {
+        let projectYear = +year;
         if ((projectYear != undefined) && (projectYear != 2020)) {
             linechartParamsHeader.ticks = [
                 (new Date(1984, 1)),
@@ -737,12 +744,20 @@ let chartUtility = (function () {
         updateLinechart(data);
     };
 
-    let drawLineChartHeader = function (timelineData, max) {
+    let drawLineChartHeader = function(origTimeline) {
+
+        let timelineData = [], maxCount = 0, projectYear;
+        origTimeline.forEach(function (event, i) {
+            if (i == 0) projectYear = +event.year;
+            if (event.events.length > maxCount) maxCount = event.events.length;
+            timelineData.push({year: event.year.toString(), projectCount: event.events.length});
+        });
+
         tdata = fillMissingDates(timelineData);
-        updateLinechart(tdata, 0, max);
+        updateLinechart(tdata, 0, maxCount);
     }
 
-    let updateLinechart = function (data, currentDuration = 0, maxCount = parameters.maxProjectCount) {
+    let updateLinechart = function (data, currentDuration = 0, maxCount = maximumProjectCount) {
 
         linechartParameters.y = d3.scaleLinear()
             .range([linechartParameters.lineHeight - linechartParameters.params.margin.lineAdj, 0])
@@ -831,10 +846,11 @@ let chartUtility = (function () {
     /* Return */
 
     return {
+        setLangParams: setLangParams,
         createFlowerchart: createFlowerchart,
         getFlowerParamsIndex: getFlowerParamsIndex,
         createLinechart: createLinechart,
-        addData: addData,
+        //addData: addData,
         mapDataToFlowerchart: mapDataToFlowerchart,
         drawLineChart: drawLineChart,
         getLinechartParamsIndex: getLinechartParamsIndex,

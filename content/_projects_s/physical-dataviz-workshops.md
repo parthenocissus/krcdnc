@@ -1,7 +1,7 @@
 title: 
-    name: Physical Data Visualization Workshops
-    html: "Physical Data Visualization<br>Workshops"
-    short: Physical Dataviz
+    name: Radionice fizičke vizuelizacije podataka
+    html: "Radionice fizičke<br>vizuelizacije podataka"
+    short: Fizičke vizuelizacije podataka
 id: physical-dataviz-workshops
 date: 2016
 ranks:
@@ -10,35 +10,35 @@ ranks:
     textual: 2
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: installation
-      name: Installations + Performances
+      name: Instalacije + performansi
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Co-Creator
+      name: Edukator
 medium:
     - id: dataviz
-      name: Physical Data Visualization
+      name: Fizička vizuelizacija podataka
     - id: workshop
-      name: Workshop
+      name: Radionica
 team:
     - name: Isidora Nikolić
     - name: Vesna Pejović
-presentation_title: Presentations
+presentation_title: Prezentacije
 presentations:
     - year: 2016
       events:
-        - name: Design Seminar (Summer), Petnica Science Center, Serbia
-        - name: Design Seminar (Autumn), Petnica Science Center, Serbia
+        - name: Seminar dizajna (letnji), Istraživačka stanica Petnica, Srbija
+        - name: Seminar dizajna (jesenji), Istraživačka stanica Petnica, Srbija
     - year: 2017
       events:
-        - name: Design Seminar (Winter), Petnica Science Center, Serbia
+        - name: Seminar dizajna (zimski), Istraživačka stanica Petnica, Srbija
 img_to_show: 2       
 img_data:
     - size: "1200x801"
@@ -53,7 +53,7 @@ img_data:
       caption: "Petnica, 2016."
     - size: "1200x801"
       caption: "Petnica, 2016."   
-lead: "A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
+lead: "Serija radionica posvećenih... A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
 be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.

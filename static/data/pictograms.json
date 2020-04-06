@@ -1,11 +1,16 @@
 [
   {
-    "name": "Experimental Cartography",
-    "createsVerb": "works in",
-    "nameS": "Eksperimentalna kartografija",
-    "createsVerbS": "se bavi",
-    "nameSCase": "eksperimentalnom kartografijom",
     "id": "cartography",
+    "name": {
+      "title": "Experimental Cartography",
+      "case": "Experimental Cartography",
+      "createsVerb": "works in"
+    },
+    "nameS": {
+      "title": "Eksperimentalna kartografija",
+      "case": "eksperimentalnom kartografijom",
+      "createsVerb": "se bavi"
+    },
     "graphics": {
       "headcx": 8.527,
       "headcy": 5.951,
@@ -20,12 +25,17 @@
     }
   },
   {
-    "name": "Experimental Geography",
-    "createsVerb": "works in",
-    "nameS": "Eksperimentalna geografija",
-    "createsVerbS": "se bavi",
-    "nameSCase": "eksperimentalnom geografijom",
     "id": "geography",
+    "name": {
+      "title": "Experimental Geography",
+      "case": "Experimental Geography",
+      "createsVerb": "works in"
+    },
+    "nameS": {
+      "title": "Eksperimentalna geografija",
+      "case": "eksperimentalnom geografijom",
+      "createsVerb": "se bavi"
+    },
     "graphics": {
       "headcx": 8.501,
       "headcy": 17.488,
@@ -40,12 +50,17 @@
     }
   },
   {
-    "name": "Animation",
-    "createsVerb": "makes",
-    "nameS": "Animacija",
-    "createsVerbS": "kreira",
-    "nameSCase": "animacije i animirane filmove",
     "id": "animation",
+    "name": {
+      "title": "Animation",
+      "case": "Animation",
+      "createsVerb": "makes"
+    },
+    "nameS": {
+      "title": "Animacija",
+      "case": "animacije i animirane filmove",
+      "createsVerb": "kreira"
+    },
     "graphics": {
       "headcx": 9.54,
       "headcy": 5.623,
@@ -60,12 +75,17 @@
     }
   },
   {
-    "name": "Workshops",
-    "createsVerb": "creates",
-    "nameS": "Radionice",
-    "createsVerbS": "osmišljava i vodi",
-    "nameSCase": "radionice",
     "id": "workshop",
+    "name": {
+      "title": "Workshops",
+      "case": "Workshops",
+      "createsVerb": "creates"
+    },
+    "nameS": {
+      "title": "Radionice",
+      "case": "radionice",
+      "createsVerb": "osmišljava i vodi"
+    },
     "graphics": {
       "headcx": 8.5,
       "headcy": 30.151,
@@ -80,12 +100,17 @@
     }
   },
   {
-    "name": "Research",
-    "createsVerb": "conducts academic",
-    "nameS": "Istraživanje",
-    "createsVerbS": "se bavi",
-    "nameSCase": "istraživačkim radom",
     "id": "research",
+    "name": {
+      "title": "Research",
+      "case": "Research",
+      "createsVerb": "conducts academic"
+    },
+    "nameS": {
+      "title": "Istraživanje",
+      "case": "akademskim istraživačkim radom",
+      "createsVerb": "se bavi"
+    },
     "graphics": {
       "headcx": 5.998,
       "headcy": 8.422,
@@ -100,12 +125,17 @@
     }
   },
   {
-    "name": "Digital Drawings",
-    "createsVerb": "draws",
-    "nameS": "Digitalni crtež",
-    "createsVerbS": "osmišljava i crta",
-    "nameSCase": "digitalne crteže",
     "id": "drawing",
+    "name": {
+      "title": "Digital Drawings",
+      "case": "Digital Drawings",
+      "createsVerb": "draws"
+    },
+    "nameS": {
+      "title": "Digitalni crtež",
+      "case": "digitalne crteže",
+      "createsVerb": "osmišljava i crta"
+    },
     "graphics": {
       "headcx": 8.5,
       "headcy": 5.239,
@@ -120,12 +150,17 @@
     }
   },
   {
-    "name": "Data Visualization",
-    "createsVerb": "makes",
-    "nameS": "Vizuelizacija podataka",
-    "createsVerbS": "kreira",
-    "nameSCase": "vizuelizacije podataka",
     "id": "dataviz",
+    "name": {
+      "title": "Data Visualization",
+      "case": "Data Visualization",
+      "createsVerb": "makes"
+    },
+    "nameS": {
+      "title": "Vizuelizacija podataka",
+      "case": "vizuelizacije podataka",
+      "createsVerb": "kreira"
+    },
     "graphics": {
       "headcx": 4.67,
       "headcy": 30.379,
@@ -140,11 +175,16 @@
     }
   },
   {
-    "name": "Installations + Performances",
-    "createsVerb": "makes",
-    "nameS": "Instalacije i performansi",
-    "createsVerbS": "kreira",
-    "nameSCase": "instalacije i performanse",
+    "name": {
+      "title": "Installations + Performances",
+      "case": "Installations + Performances",
+      "createsVerb": "makes"
+    },
+    "nameS": {
+      "title": "Instalacije + performansi",
+      "case": "instalacije i performanse",
+      "createsVerb": "kreira"
+    },
     "id": "installation",
     "graphics": {
       "headcx": 4.828,
@@ -160,12 +200,17 @@
     }
   },
   {
-    "name": "Data Art",
-    "createsVerb": "makes",
-    "nameS": "Data umetnost",
-    "createsVerbS": "osmišljava i kreira",
-    "nameSCase": "data umetnost",
     "id": "data-art",
+    "name": {
+      "title": "Data Art",
+      "case": "Data Art",
+      "createsVerb": "makes"
+    },
+    "nameS": {
+      "title": "Data umetnost",
+      "case": "data umetnost",
+      "createsVerb": "osmišljava i kreira"
+    },
     "graphics": {
       "headcx": 4.674,
       "headcy": 7.762,
@@ -180,12 +225,17 @@
     }
   },
   {
-    "name": "Books",
-    "createsVerb": "writes",
-    "nameS": "Knjige",
-    "createsVerbS": "piše i objavljuje",
-    "nameSCase": "tekstove i knjige",
     "id": "book",
+    "name": {
+      "title": "Books",
+      "case": "Books",
+      "createsVerb": "writes"
+    },
+    "nameS": {
+      "title": "Knjige",
+      "case": "tekstove i knjige",
+      "createsVerb": "piše i objavljuje"
+    },
     "graphics": {
       "headcx": 4.799,
       "headcy": 29.576,
@@ -200,12 +250,17 @@
     }
   },
   {
-    "name": "Software",
-    "createsVerb": "builds",
-    "nameS": "Softver",
-    "createsVerbS": "kreira",
-    "nameSCase": "računarski softver",
     "id": "software",
+    "name": {
+      "title": "Software",
+      "case": "Software",
+      "createsVerb": "builds"
+    },
+    "nameS": {
+      "title": "Softver",
+      "case": "računarski softver",
+      "createsVerb": "kreira"
+    },
     "graphics": {
       "headcx": 8.5,
       "headcy": 16.556,
@@ -220,12 +275,17 @@
     }
   },
   {
-    "name": "Artificial Intelligence",
-    "createsVerb": "makes",
-    "nameS": "Veštačka inteligencija",
-    "createsVerbS": "programira",
-    "nameSCase": "veštačku inteligenciju",
     "id": "ai",
+    "name": {
+      "title": "Artificial Intelligence",
+      "case": "Artificial Intelligence",
+      "createsVerb": "programs"
+    },
+    "nameS": {
+      "title": "Veštačka inteligencija",
+      "case": "veštačku inteligenciju",
+      "createsVerb": "programira"
+    },
     "graphics": {
       "headcx": 8.5,
       "headcy": 17.5,
@@ -240,12 +300,17 @@
     }
   },
   {
-    "name": "Interactive Art + Design",
-    "createsVerb": "makes",
-    "nameS": "Interaktivna umetnost i dizajn",
-    "createsVerbS": "kreira u oblasti",
-    "nameSCase": "interaktivne umetnosti i dizajna",
     "id": "interactive",
+    "name": {
+      "title": "Interactive Art + Design",
+      "case": "Interactive Art + Design",
+      "createsVerb": "makes"
+    },
+    "nameS": {
+      "title": "Interaktivna umetnost i dizajn",
+      "case": "interaktivne umetnosti i dizajna",
+      "createsVerb": "kreira u oblasti"
+    },
     "graphics": {
       "headcx": 8.5,
       "headcy": 17.5,
@@ -260,12 +325,17 @@
     }
   },
   {
-    "name": "Digital Literature",
-    "createsVerb": "writes",
-    "nameS": "Digitalna književnost",
-    "createsVerbS": "se bavi",
-    "nameSCase": "digitalnom književnošću",
     "id": "digital-literature",
+    "name": {
+      "title": "Digital Literature",
+      "case": "Digital Literature",
+      "createsVerb": "makes"
+    },
+    "nameS": {
+      "title": "Digitalna književnost",
+      "case": "digitalnom književnošću",
+      "createsVerb": "se bavi"
+    },
     "graphics": {
       "headcx": 5.998,
       "headcy": 8.422,

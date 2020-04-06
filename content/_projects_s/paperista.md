@@ -8,27 +8,27 @@ ranks:
     textual: 2
 category: 
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: research
-      name: Academic Research
+      name: Akademsko istraživanje
     - id: software
-      name: Software
+      name: Softver
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
 role:
     - id: designer
-      name: Co-Designer
+      name: Ko-dizajner
     - id: programmer
-      name: Co-Programmer
+      name: Ko-programer
     - id: researcher
-      name: Academic Researcher
+      name: Akademski istraživač
 medium:
     - id: dataviz
-      name: Interactive Data Visualization
+      name: Interaktivna vizuelizacija podataka
     - id: software
-      name: Web Application
+      name: Veb aplikacija
     - id: research
-      name: Academic Text
+      name: Akademski tekst
 team:
     - name: Nikola Milikić
     - name: Bojan Franzee Brankov
@@ -39,7 +39,7 @@ presentation_title: Presentations
 presentations:
     - year: 2013
       events:
-        - name: International Conference on Learning Analytics & Knowledge, Leuven, Belgium
+        - name: International Conference on Learning Analytics & Knowledge, Leuven, Belgija
 publications:
     - year: 2013
       pubs:
@@ -48,13 +48,14 @@ publications:
 img_to_show: 2
 img_data:
     - size: "652x654"
-      caption: "Paperista Visualization Detail"
+      caption: "Paperista Visualization (detalj)"
     - size: "924x658"
-      caption: "Paperista Visualization Detail"
+      caption: "Paperista Visualization (detalj)"
     - size: "1600x960"
-      caption: "Paperista Interface"
+      caption: "Paperista interfejs"
     - size: "1600x1080"
-      caption: "Different views of the bubble chart: (1) All Year / All Topic (no highlights); (2) All Years / Group Topics
+      caption: "Različiti pregledi (views) grafikona s mehurićima (bubble chart):
+      Different views of the bubble chart: (1) All Year / All Topic (no highlights); (2) All Years / Group Topics
 (with highlights); (3) By Year (2009) / All Topics (no highlights); and (4) By Year (2012) / Group Topics (with
 highlights)"
 lead: "Connecting interactive data visualization design with artifical intelligence, Paperista is an interactive animated visual browser for semantically annotated research papers in the field of technology-enhanced learning."

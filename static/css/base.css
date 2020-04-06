@@ -201,6 +201,7 @@ a { text-decoration: none; }
 }
 
 #lang-choice ul {
+    pointer-events: none;
     padding: 0;
     line-height: 1.6em;
 }
@@ -210,21 +211,35 @@ a { text-decoration: none; }
     color: var(--darkcolor);
     position: relative;
     opacity: 0.25;
-    transition: opacity 0.12s;
+    top: 0;
+    transition: 0.12s;
     transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#lang-choice ul li a:hover {
-    text-decoration: none;
-    color: var(--suncolor);
-    opacity: 1;
 }
 
 #lang-choice ul li span {
     cursor: default;
     color: var(--darkcolor);
-
+    opacity: 1;
+    transition: 0.12s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
+#lang-choice:hover {
+    cursor: pointer;
+}
+
+#lang-choice:hover ul li a {
+    text-decoration: none;
+    color: var(--suncolor);
+    top: -2px;
+    opacity: 1;
+}
+
+#lang-choice:hover ul li span {
+    opacity: 0.25;
+}
+
+
 
 /* Cursors */
 

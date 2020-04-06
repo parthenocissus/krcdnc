@@ -1,5 +1,5 @@
 title: 
-    name: Trees of Petnica
+    name: Petnička stabla
 id: petnica-trees
 date: 2015
 ranks:
@@ -8,23 +8,23 @@ ranks:
     textual: 2
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: installation
-      name: Installations + Performances
+      name: Instalacija
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Creator
+      name: Edukator
 medium:
     - id: dataviz
-      name: Physical Data Visualization
+      name: Fizička vizuelizacija podataka
     - id: workshop
-      name: Workshop
+      name: Radionica
 team:
     - name: Isidora Nikolić
     - name: Vesna Pejović
@@ -33,22 +33,22 @@ presentation_title: Presentations
 presentations:
     - year: 2015
       events:
-        - name: Design Seminar, Petnica Science Center, Serbia
+        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
 img_to_show: 2       
 img_data:
     - size: "868x1324"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
+      caption: "Završna infografika, detalj. Petnica, 2015. Foto: Igor Rajković."
     - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
+      caption: "Radionica. Petnica, 2015. Foto: Igor Rajković."
     - size: "1950x2814"
-      caption: "Final Infographic. Petnica, 2015. Photo: Igor Rajković."
+      caption: "Završna infografika, detalj. Petnica, 2015. Foto: Igor Rajković."
     - size: "821x575"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."
+      caption: "Završna infografika, detalj. Petnica, 2015. Foto: Igor Rajković."
     - size: "1600x950"
-      caption: "Workshop. Petnica, 2015. Photo: Igor Rajković."
+      caption: "Radionica. Petnica, 2015. Foto: Igor Rajković."
     - size: "1268x749"
-      caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."   
-lead: "A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
+      caption: "Završna infografika, detalj. Petnica, 2015. Foto: Igor Rajković."   
+lead: "Radionica posvećena... data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
 be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
