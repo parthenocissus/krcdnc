@@ -15,10 +15,12 @@ category:
     - id: cartography
       name: Experimental Cartography
     - id: geography
-      name: Experimental Geography
+      name: Experimental Geography    
 role:
     - id: designer
       name: Co-Designer
+    - id: programmer
+      name: Programer
 medium:
     - id: drawing
       name: Geo-Based Visual Identity

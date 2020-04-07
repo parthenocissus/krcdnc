@@ -1,5 +1,5 @@
 title: 
-    name: "The Travel Club Identity"
+    name: "Identitet Kluba putnika"
 id: kp-identity
 date: 2014
 ranks:
@@ -9,19 +9,21 @@ ranks:
 featured_js: kplogo
 category:
     - id: drawing
-      name: Digital Drawing
+      name: Digitalni crtež
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija 
     - id: geography
-      name: Experimental Geography
+      name: Eksperimentalna geografija
 role:
     - id: designer
-      name: Co-Designer
+      name: Ko-dizajner
+    - id: programmer
+      name: Programer
 medium:
     - id: drawing
-      name: Geo-Based Visual Identity
+      name: Geo-vizuelni identitet 
 team:
     - link: 'http://fud.edu.rs/monika-lang/'
       name: Monika Lang
@@ -29,35 +31,35 @@ team:
       name: Lazar Pašćanović
     - link: 'http://www.thetravelclub.org/about-the-club'
       name: Klub putnika (The Travel Club)    
-presentation_title: Presentations
+presentation_title: Prezentacije
 presentations:
     - year: 2014
       events:
-        - name: SHARE Conference, Belgrade, Serbia
-        - name: KSET, Zagreb, Croatia
-        - name: Museum of Vojvodina, Novi Sad, Serbia
+        - name: SHARE konferencija, Beograd, Srbija
+        - name: KSET, Zagreb, Hrvatska
+        - name: Muzej Vojvodine, Novi Sad, Srbija
         - name: Kriterion, Sarajevo, BiH
     - year: 2015
       events:
-        - name: Design Seminar, Petnica Science Centre, Serbia
+        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
     - year: 2017
       events:
-        - name: Department of Digital Art, FMK, Belgrade, Serbia
+        - name: Department za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd
 img_to_show: 3       
 img_data:
     - size: "550x548"
-      caption: "Generative Algorithmic Variations"
+      caption: "Generativne algoritamske varijacije"
     - size: "1600x542"
-      caption: "The Travel Club (Klub putnika) identity on a badge"
+      caption: "Identitet Kluba putnika na bedžu"
     - size: "1000x667"
-      caption: "Presentation with Lazar Pašćanović, Nikolina Dodig, and Tibor Miglinci @ KSET, Zagreb, Croatia"
+      caption: "Predavanje sa Lazarom Pašćanovićem, Nikolinom Dodig i Tiborom Miglincijem @ KSET, Zagreb, Hrvatska"
     - size: "640x960"
-      caption: "The Travel Club (Klub putnika) identity during <a href='/work/projects/bantustan-book' target='_blank'>Bantustan: atlas jednog putovanja</a> presentation @ Booksa, Zagreb, Croatia"
+      caption: "Identitet Kluba putnika predstavljen za vreme predavanja o knjizi <a href='/rad/projekti/bantustan-book' target='_blank'>Bantustan: atlas jednog putovanja</a> @ Booksa, Zagreb, Hrvatska"
     - size: "960x638"
-      caption: "Presentation with Lazar Pašćanović @ SHARE Conference, Belgrade, Serbia"
+      caption: "Predavanje sa Lazarom Pašćanovićem @ SHARE konferencija, Beograd, Srbija"
     - size: "960x638"
-      caption: "Presentation @ SHARE Conference, Belgrade, Serbia"
-lead: "Identity design for <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a> (<a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a>), the biggest community in the Balkans for travel writers, creators, and independent travellers."
+      caption: "Predavanje @ SHARE konferencija, Beograd, Srbija"
+lead: "Dizajn identiteta za <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a> (<a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a>), the biggest community in the Balkans for travel writers, creators, and independent travellers."
 
 “Bantustan” is also an example of ergodic literature, since it contains hand-drawn maps and infographics which represent an interface for non-linear reading. The book was published in 3 editions (by now) and was presented in more than 30 cities across the Yugoslav region.
 
