@@ -1,6 +1,5 @@
 title: 
-    name: Video igra od štapa i kanapa (radionice)
-    html: "Video igra od štapa i kanapa <br>(radionice)"
+    name: Animation Game Jams
 id: gamejam
 date: 2018
 ranks:
@@ -9,56 +8,56 @@ ranks:
     textual: 1
 category: 
     - id: workshop
-      name: Radionica
+      name: Workshop
     - id: animation
-      name: Animacija
+      name: Animation
     - id: interactive
-      name: Interaktivna umetnost + dizajn
+      name: Interactive Art + Design
 role:
     - id: maker
-      name: Su-kreator
+      name: Co-Maker
     - id: educator
-      name: Edukator
+      name: Workshop Creator
 medium:
     - id: animation
-      name: Animacija
+      name: Animation
     - id: software
-      name: Interaktivna umetnost
+      name: Interactive Art
     - id: workshop
-      name: Radionica
-presentation_title: Prezentacije
+      name: Workshop
+presentation_title: Presentations
 presentations:
     - year: 2018
       events:
-        - link: 'https://novaiskra.com/animatorski-game-jam-video-igra-od-stapa-kanapa/'
-          name: "Animatorski Game Jam: video igra od štapa i kanapa, Nova Iskra, Beograd, Srbija"
+        - link: 'https://novaiskra.com/en/animation-game-jam-makeshift-video-game/'
+          name: "Animation Game Jam: A Makeshift Video Game, Nova Iskra, Belgrade, Serbia"
     - year: 2019
       events:
         - link: "https://www.goethe.de/ins/cs/sr/kul/sup/gps.html?forceDesktop=1"
-          name: Games & Politics, Goethe Institut, Beograd, Srbija
+          name: Games & Politics, Goethe Institute Belgrade, Belgrade, Serbia
         - link: "http://www.animanima.org/en/radionica.php"
-          name: Animanima Game Jam, Animanima Festival, Čačak, Srbija
+          name: Animanima Game Jam, Animanima Festival, Čačak, Serbia
 img_to_show: 2
 img_data:
     - size: "1000x599"
-      caption: "Video igra Ivana Kostića napravljena tokom radionice @ Nova Iskra, Beograd, Srbija"
+      caption: "Game Interface by Ivan Kostić, made during the Workshop @ Nova Iskra, Belgrade, Serbia"
     - size: "1200x747"
-      caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"
+      caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"
     - size: "1200x566"
-      caption: "Interfejs video igre napravljen tokom radionice @ Nova Iskra, Beograd, Srbija"
+      caption: "Game Interface made during the Workshop @ Nova Iskra, Belgrade, Serbia"
     - size: "1200x779"
-      caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"
+      caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"
     - size: "1200x773"
-      caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"
+      caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"
     - size: "800x489"
-      caption: "Dizajn karaktera kreiranih tokom radionice @ Nova Iskra, Beograd, Srbija"
+      caption: "Character Design made during the Workshop @ Nova Iskra, Belgrade, Serbia"
     - size: "1200x752"
-      caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"
+      caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"
     - size: "1200x795"
-      caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"
+      caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"
     - size: "1200x795"
-      caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"  
-lead: "Serija radionica za animatore i kreatore video igara... A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+      caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"  
+lead: "A series of animation game jam workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
 
 Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
 
