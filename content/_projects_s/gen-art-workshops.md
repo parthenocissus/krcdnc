@@ -1,6 +1,6 @@
 title: 
-    name: Generative Art Workshops
-title_short: Generative Art
+    name: Radionice generativne umetnosti
+title_short: Generativna umetnost
 id: gen-art-workshops
 date: 2018
 ranks:
@@ -9,50 +9,50 @@ ranks:
     textual: 1
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: animation
-      name: Animation
+      name: Animacija
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
     - id: software
-      name: Software
+      name: Softver
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Creator
+      name: Edukator
 medium:
     - id: animation
-      name: Animation
+      name: Animacija
     - id: software
-      name: Interactive Art
+      name: Interaktivna umetnost
     - id: workshop
-      name: Workshop
-presentation_title: Presentations
+      name: Radionica
+presentation_title: Prezentacije
 presentations:
     - year: 2017
       events:
-        - name: "Department of Digital Art, FMK, Belgrade, Serbia"
+        - name: "Departman za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd, Srbija"
     - year: 2018
       events:
-        - name: "Nova Iskra, Belgrade, Serbia"
-        - name: "Design Seminar, Petnica Science Centre, Serbia"
+        - name: "Nova Iskra, Beograd, Srbija"
+        - name: "Seminar dizajna, Istraživačka stanica Petnica, Srbija"
     - year: 2019
       events:
-        - name: "Nova Iskra, Belgrade, Serbia"
+        - name: "Nova Iskra, Beograd, Srbija"
 img_to_show: 3
 img_data:
     - size: "1024x683"
-      caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Nemanja Knežević"
+      caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Nemanja Knežević"
     - size: "628x419"
-      caption: "Workshop @ Design Seminar, Petnica Science Centre, Serbia"
+      caption: "Radionica @ Seminar dizajna, Istraživačka stanica Petnica, Srbija"
     - size: "1200x819"
-      caption: "Digital Art Exhibition, with Ivona Petrov @ Kvaka 22, Belgrade, Serbia. FMK's Department of Digital Art Annual Exhibition, 2017."
+      caption: "Izložba digitalne umetnosti, Godišnja izložba Departmana za digitalne umetnosti FMK @ Kvaka 22, Beograd, Srbija, 2018."
     - size: "1366x564"
-      caption: "Digital Slit Scan Experiments with Ivona Petrov"
+      caption: "Slit Scan eksperimenti"
     - size: "1200x800"
-      caption: "My student Miloš Desko Ćosović with his generative art project @ Digital Art Exhibition, Pro3or Gallery, Belgrade, Serbia. FMK's Department of Digital Art Annual Exhibition, 2017."
-lead: "A series of generative art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+      caption: "Miloš Desko Ćosović sa svojom generativnom projekcijom @ Godišnja izložba Departmana za digitalne umetnosti FMK, Galerija Pro3or, Beograd, Srbija, 2017."
+lead: "Serija radionica generativne umetnosti. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
 
 Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
 

@@ -1,5 +1,5 @@
 title: 
-    name: Geoglyphs of Zagreb
+    name: Zagrebački geoglifi
 id: geoglyphs-zg
 date: 2017
 ranks:
@@ -8,47 +8,49 @@ ranks:
     textual: 1
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionica
+    - id: drawing
+      name: Digitalni crtež
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
     - id: geography
-      name: Experimental Geography
+      name: Eksperimentalna geografija
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Creator
+      name: Edukator
 medium:
     - id: workshop
-      name: Workshop
+      name: Radionica
 team:
     - name: Ivona Petrov
-presentation_title: Presentations
+presentation_title: Prezentacije
 presentations:
     - year: 2017
       events:
         - link: "https://2017.pland.hr/radionice/ivona-petrov-i-uras-krcadinac-zagrebacki-geoglifi/"
-          name: Plan D Conference @ Nikola Tesla Science Museum, Zagreb, Croatia
+          name: Konferencija Plan D, TNMT, Zagreb, Hrvatska
 press:
     - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
-      name: Interview, Vizkultura.hr      
+      name: "Intervju (autor Bojan Krivokapić), Vizkultura.hr"    
 img_to_show: 2       
 img_data:
     - size: "1600x1063"
-      caption: "Plan D Conference and Exhibition, Zagreb, 2017. Photo: Tjaša Kalkan, Bojan Mrđenović."
+      caption: "Izložba na konferenciji Plan D @ Tehnički muzej Nikola Tesla, Zagreb, 2017. Foto: Tjaša Kalkan, Bojan Mrđenović."
     - size: "1600x1073"
-      caption: "Workshop @ Plan D, Zagreb, 2017. Photo: Tjaša Kalkan, Bojan Mrđenović."
+      caption: "Radionica na konferenciji Plan D @ Tehnički muzej Nikola Tesla, Zagreb, 2017. Foto: Tjaša Kalkan, Bojan Mrđenović."
     - size: "1600x1069"
-      caption: "Workshop @ Plan D, Zagreb, 2017. Photo: Tjaša Kalkan, Bojan Mrđenović."
+      caption: "Radionica na konferenciji Plan D @ Tehnički muzej Nikola Tesla, Zagreb, 2017. Foto: Tjaša Kalkan, Bojan Mrđenović."
     - size: "1600x1069"
-      caption: "A drawing from the workshop, Zagreb, 2017. Photo: Ivona Petrov."   
+      caption: "Crtež sa radionice, Zagreb, 2017. Foto: Ivona Petrov."   
     - size: "1600x1198"
-      caption: "Plan D Visual"
+      caption: "Plan D vizual"
     - size: "1800x1134"
-      caption: "Workshop @ Plan D, Zagreb, 2017. Photo: Ivona Petrov."
+      caption: "Radionica @ Plan D, Zagreb, 2017. Foto: Ivona Petrov."
     - size: "1024x724"
-      caption: "A drawing from the workshop, Zagreb, 2017. Photo: Ivona Petrov."   
-lead: "A three day workshop at <a href='https://2017.pland.hr/' target='_blank'>Plan D Festival, Zagreb</a> connecting the old practice of <a href='https://en.wikipedia.org/wiki/Nazca_Lines' target='_blank'>South-American Nazca lines</a> with the new media practice of <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS drawing</a> — creating lines by walking or cycling with a GPS device."
+      caption: "Crtež sa radionice, Zagreb, 2017. Foto: Ivona Petrov."   
+lead: "Trodnevna radionica na konferenciji i festivalu <a href='https://2017.pland.hr/' target='_blank'>Plan D</a> connecting the old practice of <a href='https://en.wikipedia.org/wiki/Nazca_Lines' target='_blank'>South-American Nazca lines</a> with the new media practice of <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS drawing</a> — creating lines by walking or cycling with a GPS device."
 
 The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? 
 

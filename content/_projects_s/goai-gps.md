@@ -1,5 +1,5 @@
 title: 
-    name: GOAI Lab Identity
+    name: Identitet laboratorije GOAI
 id: goai-gps
 date: 2009
 ranks:
@@ -8,40 +8,40 @@ ranks:
     textual: 1
 category: 
     - id: drawing
-      name: Digital Drawing
+      name: Digitalni crtež
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
     - id: geography
-      name: Experimental Geography
+      name: Eksperimentalna geografija
 role:
     - id: artist
-      name: Artist
+      name: Umetnik
     - id: designer
-      name: Designer
+      name: Dizajner
     - id: cartographer
-      name: Cartographer
+      name: Kartograf
 medium:
     - id: drawing
-      name: Geo-Based Visual Identity
-presentation_title: Exhibitions + Presentations
+      name: Geo-vizuelni identitet
+presentation_title: Prezentacije
 presentations:
     - year: 2009
       events:
-        - name: GOAI Lab, University of Belgrade, Serbia
+        - name: GOAI Lab, Fakultet organizacionih nauka, Univerzitet u Beogradu, Beograd, Srbija
     - year: 2014
       events:
-        - name: S.U.T.R.A. New Media Art Festival, Belgrade, Serbia     
+        - name: S.U.T.R.A. Festival novomedijske umetnosti, Beograd, Srbija     
 img_to_show: 2       
 img_data:
     - size: "700x317"
-      caption: "Visual Identity by GPS Drawing"
+      caption: "Vizuelni identitet u obliku GPS crteža"
     - size: "900x675"
-      caption: "Nazca Geoglyph in South America"
+      caption: "Geoglif naroda Nazca u Južnoj Americi"
     - size: "1200x963"
-      caption: "Visual Identity by GPS Drawing"
+      caption: "Vizuelni identitet u obliku GPS crteža"
     - size: "1200x958"
-      caption: "Visual Identity by GPS Drawing"
-lead: "GOOD OLD AI Lab. Geographical self-portrait. Lines represent all roads travelled since birth, meticulously reconstructed both digitally and manually using GPS data, old photo albums, notes, interviews, personal databases, and — if no other source was available — memory."
+      caption: "Vizuelni identitet u obliku GPS crteža"
+lead: "Tek treba da se napiše... GOOD OLD AI Lab. Geographical self-portrait. Lines represent all roads travelled since birth, meticulously reconstructed both digitally and manually using GPS data, old photo albums, notes, interviews, personal databases, and — if no other source was available — memory."
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
 

@@ -1,7 +1,7 @@
 title: 
-    name: Mapping the Encyclopedia of the Dead's Kafanas
-    html: "Mapping the<br>Encyclopedia of the Dead's<br>Kafanas"
-    short: EOTD's Kafanas
+    name: Mapa beogradskih kafana iz Enciklopedije mrtvih
+    html: "Mapa beogradskih kafana<br>iz Enciklopedije mrtvih"
+    short: Mapa beogradskih kafana
 id: kis-kafanas
 date: 2015
 ranks:
@@ -10,41 +10,41 @@ ranks:
     textual: 2
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
     - id: geography
-      name: Experimental Geography
+      name: Eksperimentalna geografija
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Creator
+      name: Edukator
 medium:
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: cartography
-      name: Hand-Drawn Cartography
-presentation_title: Presentations
+      name: Rukom crtana kartografija
+presentation_title: Prezentacije
 presentations:
     - year: 2015
       events:
-        - name: Map as Medium Conference, Tačka komunikacije @ Magacin MKM, Belgrade, Serbia      
+        - name: Mapa kao medij, Tačka komunikacije @ Magacin MKM, Beograd, Srbija
 img_to_show: 2       
 img_data:
     - size: "1600x1060"
-      caption: "Final Map. Magacin, Belgrade, 2015. Photo: Jelena Mijić."
+      caption: "Završena mapa. Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
     - size: "1600x1066"
-      caption: "Workshop. Magacin, Belgrade, 2015. Photo: Jelena Mijić."
+      caption: "Radionica. Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
     - size: "1000x1000"
-      caption: "Detail. Magacin, Belgrade, 2015. Photo: Jelena Mijić."
+      caption: "Mapa (detalj). Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
     - size: "1600x1066"
-      caption: "Workshop. Magacin, Belgrade, 2015. Photo: Jelena Mijić."
-lead: "A collaborative research project and a hand-made data visualization that represents a map of Belgrade <a href='https://en.wikipedia.org/wiki/Kafana' target='_blank'>kafanas</a> (a traditional Balkan bistro) writer <a href='https://en.wikipedia.org/wiki/Danilo_Ki%C5%A1' target='_blank'>Danilo Kiš</a> mentions in his collection of stories <a href='https://en.wikipedia.org/wiki/The_Encyclopedia_of_the_Dead' target='_blank'>The Encyclopedia of the Dead</a>."
+      caption: "Radionica. Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
+lead: "Tek treba da se napiše... research project and a hand-made data visualization that represents a map of Belgrade <a href='https://en.wikipedia.org/wiki/Kafana' target='_blank'>kafanas</a> (a traditional Balkan bistro) writer <a href='https://en.wikipedia.org/wiki/Danilo_Ki%C5%A1' target='_blank'>Danilo Kiš</a> mentions in his collection of stories <a href='https://en.wikipedia.org/wiki/The_Encyclopedia_of_the_Dead' target='_blank'>The Encyclopedia of the Dead</a>."
 
 The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? 
 

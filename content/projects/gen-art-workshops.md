@@ -47,7 +47,7 @@ img_data:
     - size: "628x419"
       caption: "Workshop @ Design Seminar, Petnica Science Centre, Serbia"
     - size: "1200x819"
-      caption: "Digital Art Exhibition, with Ivona Petrov @ Kvaka 22, Belgrade, Serbia. FMK's Department of Digital Art Annual Exhibition, 2017."
+      caption: "Digital Art Exhibition, with Ivona Petrov @ Kvaka 22, Belgrade, Serbia. FMK's Department of Digital Art Annual Exhibition, 2018."
     - size: "1366x564"
       caption: "Digital Slit Scan Experiments with Ivona Petrov"
     - size: "1200x800"

@@ -9,6 +9,8 @@ ranks:
 category: 
     - id: workshop
       name: Workshop
+    - id: drawing
+      name: Digital Drawing
     - id: cartography
       name: Experimental Cartography
     - id: geography

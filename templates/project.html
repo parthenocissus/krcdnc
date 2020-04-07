@@ -117,8 +117,7 @@
                                itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
                                 {% if i < project.img_to_show %}
                                     <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt=""
-                                         title="{{ params.project_captions.gallery_tooltip.start }}
-                                         → {{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }}">
+                                         title="{{ params.project_captions.gallery_tooltip.start }} → {{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }}">
                                 {% endif %}
                             </a>
                         </figure>

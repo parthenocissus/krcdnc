@@ -1,5 +1,5 @@
 title: 
-    name: Geo-Self-Portrait
+    name: Geoautoportret
 id: geoselfportrait
 date: 2017
 ranks:
@@ -8,37 +8,37 @@ ranks:
     textual: 1
 category: 
     - id: drawing
-      name: Digital Drawing
+      name: Digitalni crtež
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
     - id: geography
-      name: Experimental Geography
+      name: Eksperimentalna geografija
 role:
     - id: artist
-      name: Artist
+      name: Umetnik
     - id: cartographer
-      name: Cartographer
+      name: Kartograf
 medium:
     - id: print
-      name: Print on tracing paper, 42.3 x 33 cm
-presentation_title: Exhibitions + Presentations
+      name: Štampa na papiru, 42.3 x 33 cm
+presentation_title: Izložbe + prezentacije
 presentations:
     - year: 2017
       events:
         - link: "https://2017.pland.hr/en/"
-          name: Plan D Conference, Zagreb, Croatia
+          name: Konferencija Plan D, TNMT, Zagreb, Hrvatska
 press:
     - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
-      name: Interview, Vizkultura.hr      
+      name: "Intervju (autor Bojan Krivokapić), Vizkultura.hr"      
 img_to_show: 2       
 img_data:
     - size: "960x615"
-      caption: "Plan D Conference Talk and Exhibition @ Nikola Tesla Science Museum, Zagreb, 2017. Photo: Tjaša Kalkan, Bojan Mrđenović."
+      caption: "Konferencija, izložba i predavanje na konferenciji Plan D @ Tehnički muzej Nikola Tesla, Zagreb, 2017. Foto: Tjaša Kalkan, Bojan Mrđenović."
     - size: "1200x1200"
-      caption: "Detail. Photo: Ivona Petrov."
+      caption: "Mapa (detalj). Foto: Ivona Petrov."
     - size: "1600x1060"
-      caption: "Detail. Photo: Ivona Petrov."
-lead: "Geographical self-portrait. Lines represent all roads travelled since birth, meticulously reconstructed both digitally and manually using GPS data, old photo albums, notes, interviews, personal databases, and — if no other source was available — memory."
+      caption: "Mapa (detalj). Foto: Ivona Petrov."
+lead: "Geografski autoportret. (...) Lines represent all roads travelled since birth, meticulously reconstructed both digitally and manually using GPS data, old photo albums, notes, interviews, personal databases, and — if no other source was available — memory."
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
 

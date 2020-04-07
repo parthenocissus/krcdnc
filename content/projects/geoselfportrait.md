@@ -29,7 +29,7 @@ presentations:
           name: Plan D Conference, Zagreb, Croatia
 press:
     - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
-      name: Interview, Vizkultura.hr      
+      name: Interview by Bojan Krivokapić, Vizkultura.hr      
 img_to_show: 2       
 img_data:
     - size: "960x615"
