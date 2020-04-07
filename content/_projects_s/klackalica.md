@@ -9,33 +9,33 @@ ranks:
 featured_video: '<style>.codegena{position:relative;width:100%;height:0;padding-bottom:75%;}.codegena iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="codegena"><iframe width="500" height="375" src="https://www.youtube.com/embed/9ScyVvclC3M?&theme=dark&autohide=2&cc_load_policy=1"frameborder="0"></iframe></div>'
 category: 
     - id: animation
-      name: Animation
+      name: Animacija
     - id: drawing
-      name: Drawing
+      name: Crtež
 role:
     - id: animator
-      name: Director + Animator
+      name: Animator
 medium:
     - id: animation
-      name: Animated Short Film
+      name: Kratki animirani film
 team:
     - name: Srđan Keča
 presentation_title: Festivals
 presentations:
     - year: 1997
       events:
-        - name: A2 Animation School, Belgrade, Serbia
+        - name: Škola animacije A2, Beograd, Srbija
     - year: 2002
       events:
-        - name: JFJF Festival, Subotica, Serbia
-        - name: LOW-FI Video Festival, Belgrade, Serbia
+        - name: JFJF Festival, Subotica, Srbija
+        - name: LOW-FI Video Festival, Beograd, Srbija
 img_to_show: 2       
 img_data:
     - size: "900x673"
-      caption: "Selected Frame"
+      caption: "Kadar iz filma"
     - size: "900x673"
-      caption: "Selected Frame"
-lead: "Klackalica (The Teeter-Totter) is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+      caption: "Kadar iz filma"
+lead: "Klackalica (The Teeter-Totter) kratki aninirani film. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
 
 How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
 
