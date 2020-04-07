@@ -169,8 +169,7 @@ let chartUtility = (function () {
 
     // Polar Chart Section
 
-    //let drawPolarChart = function (input = {visual: 0, digital: 0, textual: 0}) {
-    let drawPolarChart = function (visual = 0, digital = 0, textual = 0) {
+    let drawPolarChart = function (origRanks) {
 
         let w = 260,
             h = w,
@@ -179,7 +178,7 @@ let chartUtility = (function () {
             center = {x: w / 2 + 8, y: h / 2},
             startAngle = -Math.PI / 3,
             incrementAngle = 2 * Math.PI / 3,
-            ranks = [visual, digital, textual],
+            ranks = [+origRanks.visual, +origRanks.digital, +origRanks.textual],
             data = [], axisData = [],
             labels = ["visual", "digital", "textual"];
 

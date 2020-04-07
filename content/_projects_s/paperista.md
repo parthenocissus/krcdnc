@@ -54,11 +54,8 @@ img_data:
     - size: "1600x960"
       caption: "Paperista interfejs"
     - size: "1600x1080"
-      caption: "Različiti pregledi (views) grafikona s mehurićima (bubble chart):
-      Different views of the bubble chart: (1) All Year / All Topic (no highlights); (2) All Years / Group Topics
-(with highlights); (3) By Year (2009) / All Topics (no highlights); and (4) By Year (2012) / Group Topics (with
-highlights)"
-lead: "Connecting interactive data visualization design with artifical intelligence, Paperista is an interactive animated visual browser for semantically annotated research papers in the field of technology-enhanced learning."
+      caption: "Različiti pregledi (views) grafikona s mehurićima (bubble chart): (1) sve godine / sve teme (bez istaknutih); sve godine / sve teme (bez istaknutih); sve godine / grupisane teme (sa istaknutima); po godinama / grupisane teme (sa istaknutima)" 
+lead: "Opis treba da se napiše... Connecting interactive data visualization design with artifical intelligence, Paperista is an interactive animated visual browser for semantically annotated research papers in the field of technology-enhanced learning."
 
 Paperista considers the problem of visualizing and exploring a dataset about research publications from the two fields of technology-enhanced learning: <a href="https://en.wikipedia.org/wiki/Learning_analytics" target="_blank">Learning Analytics (LA)</a> and <a href="https://en.wikipedia.org/wiki/Educational_data_mining" target="_blank">Educational Data Mining (EDM)</a>. Our approach is based on semantic annotation that associates publications from the dataset with Wikipedia topics.
 

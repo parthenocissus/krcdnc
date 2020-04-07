@@ -290,19 +290,11 @@
     <script>
         (function () {
 
-            /*let origTimeline = {{ project.presentations|safe }}, projectYear, timelineData = [], maxCount = 0;
-            origTimeline.forEach(function (event, i) {
-                if (i == 0) projectYear = +event.year;
-                if (event.events.length > maxCount) maxCount = event.events.length;
-                timelineData.push({year: event.year.toString(), projectCount: event.events.length});
-            });*/
-
             chartUtility.createProjectPictolist({{ project.category|safe }});
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader({{ project.date|safe }}));
             chartUtility.drawLineChartHeader({{ project.presentations|safe }});
             chartUtility.setPeriodicalAnimation();
-            chartUtility.drawPolarChart({{ project.ranks.visual|safe }}, {{ project.ranks.digital|safe }}, {{ project.ranks.textual|safe }});
-
+            chartUtility.drawPolarChart({{ project.ranks|safe }});
             baseUtility.lightboxSetup();
 
         }());
