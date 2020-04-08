@@ -41,7 +41,7 @@ publications:
     - year: 2019
       pubs:
         - link: "https://www.balkansmedia.org/en/node/129"
-          name: "Data Journalism: The Case of Minister's Travels, BalkansMedia.org"
+          name: "Data Journalism: The Case of Minister Travel Map, BalkansMedia.org"
 img_to_show: 2       
 img_data:
     - size: "994x567"

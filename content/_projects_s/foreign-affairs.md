@@ -1,5 +1,5 @@
 title: 
-    name: Foreign Affairs
+    name: Ministrova putovanja
 id: foreign-affairs
 date: 2013
 ranks:
@@ -8,21 +8,21 @@ ranks:
     textual: 1
 category: 
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
 role:
     - id: designer
-      name: Co-Designer
+      name: Ko-dizajner
     - id: programmer
-      name: Co-Programmer
+      name: Ko-programer
 medium:
     - id: dataviz
-      name: Interactive Data Visualization
+      name: Interaktivna vizuelizacija podataka
     - id: software
-      name: Web Application
+      name: Veb aplikacija
 team:
     - name: Bojan Franzee Brankov
     - name: Srđan Keča
@@ -30,18 +30,18 @@ team:
     - name: Jovan Vesić
     - link: 'https://birn.eu.com/'
       name: BIRN Research Journalism Team
-presentation_title: Presentations
+presentation_title: Prezentacije
 presentations:
     - year: 2013
       events:
-        - name: Republika Festival, Rijeka, Croatia
+        - name: Republika Festival, Rijeka, Hrvatska
         - link: "https://point.zastone.ba/program/the-cause-uzrok-for-vizualization-how-to-make-data-on-census-or-scientific-papers-interesting/"
           name: Point Conference, Sarajevo, BiH
 publications:
     - year: 2019
       pubs:
         - link: "https://www.balkansmedia.org/en/node/129"
-          name: "Data Journalism: The Case of Minister's Travels, BalkansMedia.org"
+          name: "Data novinarstvo: slučaj mape ministrovih putovanja, BalkansMedia.org"
 img_to_show: 2       
 img_data:
     - size: "994x567"
