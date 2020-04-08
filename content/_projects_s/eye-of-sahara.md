@@ -1,5 +1,5 @@
 title: 
-    name: The Eye of Sahara
+    name: Oko Sahare
 id: eye-of-sahara
 date: 2013
 ranks:
@@ -8,17 +8,17 @@ ranks:
     textual: 1
 category: 
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
     - id: geography
-      name: Experimental Geography
+      name: Eksperimentalna geografija
 role:
     - id: cartographer
-      name: Cartographer
+      name: Kartograf
     - id: maker
-      name: Co-Cinematographer   
+      name: Ko-sinematograf   
 medium:
     - id: data-art
-      name: Maps
+      name: Mape
     - id: film
       name: Video
 team:
@@ -30,31 +30,31 @@ presentation_title: Presentations
 presentations:
     - year: 2013
       events:
-        - name: Travel House, The Travel Club (Klub putnika), Grenada, Spain
+        - name: Putnička kuća, Klub putnika, Granada, Španija
     - year: 2018
       events:
-        - name: Travel Artist Talk @ Centre for the Promotion of Science, Belgrade, Serbia    
+        - name: Autorsko predavanje @ Centar za promociju nauke, Beograd, Srbija    
 img_to_show: 2       
 img_data:
     - size: "1200x795"
-      caption: "On the road. Mauritania, with Lazar Pašćanović and Mauritanian friends. Photo: Inesa Adamonyte."
+      caption: "Na putu. Mauritanija, sa Lazarom Pašćanovićem i meštanima. Foto: Inesa Adamonyte."
     - size: "1000x680"
-      caption: "Satellite Maps of the Eye of the Sahara"
+      caption: "Satelitske mape Oka Sahare"
     - size: "1200x800"
-      caption: "On the road. Photo: Inesa Adamonyte."
+      caption: "Na putu. Foto: Inesa Adamonyte."
     - size: "1200x800"
-      caption: "On the road. Photo: Inesa Adamonyte."
+      caption: "Na putu. Foto: Inesa Adamonyte."
     - size: "1200x800"
-      caption: "On the road. Photo: Inesa Adamonyte."
+      caption: "Na putu. Foto: Inesa Adamonyte."
     - size: "1200x800"
-      caption: "On the road. Photo: Inesa Adamonyte."
+      caption: "Na putu. Foto: Inesa Adamonyte."
     - size: "1200x800"
-      caption: "On the road. Photo: Inesa Adamonyte."
+      caption: "Na putu. Foto: Inesa Adamonyte."
     - size: "1200x800"
-      caption: "On the road. Photo: Inesa Adamonyte."
+      caption: "Na putu. Foto: Inesa Adamonyte."
     - size: "900x600"
-      caption: "On the road. Photo: Uroš Krčadinac."
-lead: "Geographical self-portrait. Lines represent all roads travelled since birth, meticulously reconstructed both digitally and manually using GPS data, old photo albums, notes, interviews, personal databases, and — if no other source was available — memory."
+      caption: "Na putu. Foto: Uroš Krčadinac."
+lead: "Da se napiše... Geographical self-portrait. Lines represent all roads travelled since birth, meticulously reconstructed both digitally and manually using GPS data, old photo albums, notes, interviews, personal databases, and — if no other source was available — memory."
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
 

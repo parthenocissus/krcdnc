@@ -1,6 +1,6 @@
 title: 
-    name: Video igra od štapa i kanapa (radionice)
-    html: "Video igra od štapa i kanapa <br>(radionice)"
+    name: Video igra od štapa i kanapa
+    html: "Video igra od štapa i kanapa"
 id: gamejam
 date: 2018
 ranks:
