@@ -228,7 +228,7 @@
     "id": "book",
     "name": {
       "title": "Books",
-      "case": "Books",
+      "case": "Texts and Books",
       "createsVerb": "writes"
     },
     "nameS": {
