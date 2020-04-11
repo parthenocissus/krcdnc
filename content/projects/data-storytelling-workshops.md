@@ -1,7 +1,7 @@
 title: 
     name: Data Storytelling Workshops
+    short: Data Storytelling
 id: data-storytelling-workshops
-title_short: Data Storytelling
 date: 2014
 ranks:
     visual: 2
@@ -26,11 +26,13 @@ medium:
       name: Data Visualization
     - id: workshop
       name: Workshop
+    - id: video
+      name: Video
 presentation_title: Presentations
 presentations:
     - year: 2014
       events:
-        - name: Data Storytelling Workshop, Pravo Ljudski Festival, Sarajevo, BiH, 2015.
+        - name: Data Storytelling Workshop, Pravo Ljudski Festival, Sarajevo, BiH
     - year: 2015
       events:
         - name: Point Conference, Sarajevo, BiH

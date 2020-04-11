@@ -1,71 +1,71 @@
 title: 
-    name: "Bantustan Data Visualization"
-    html: "Bantustan<br>Data Visualization"
+    name: "Vizuelizacija podataka o Bantustanu"
+    html: "Vizuelizacija podataka<br>o Bantustanu"
     short: Bantustan Dataviz
 id: bantustan-dataviz
 date: 2015
 category:
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
     - id: geography
-      name: Experimental Geography
+      name: Eksperimentalna geografija
 ranks:
     visual: 4
     digital: 4
     textual: 1
 role:
     - id: artist
-      name: Artist
+      name: Umetnik
     - id: designer
-      name: Designer
+      name: Dizajner
     - id: cartographer
-      name: Cartographer
+      name: Cartograf
 medium:
     - id: dataviz
-      name: Interactive Data Visualization    
-presentation_title: Presentations
+      name: Interaktivna vizuelizacija podataka    
+presentation_title: Prezentacije
 presentations:
     - year: 2015
       events:
-        - name: Design Seminar, Petnica Science Centre, Valjevo, Serbia
+        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
     - year: 2016
       events:
         - link: 'http://skc.org.rs/plusplusforum/6733-antropolo%C5%A1ki-razgovori-5.html'
-          name: Anthropology Conversations, Student Cultural Center (SKC), Belgrade, Serbia
+          name: Antropološki razgovori sa Prof. dr Ildiko Erdei @ SKC, Beograd, Srbija
         - link: 'http://www.danilokis.rs/sr/projekti/815-15-jun-1930-klub-putnika-bantustan-atlas-jednog-putovanja.html'
-          name: Danilo Kiš Foundation + Skladište Club, Subotica, Serbia
+          name: Fondacija Danilo Kiš + Klub Skladište, Subotica, Srbija
     - year: 2017
       events:
         - link: 'https://pefja.kg.ac.rs/arhiva/vesti.html'
-          name: Faculty of Pedagogy, Jagodina, Serbia
+          name: Fakultet pedagoških nauka, Jagodina, Srbija
     - year: 2019
       events:
-        - name: Department of Digital Art, FMK, Belgrade, Serbia
+        - name: Departman za digitalne umetnosti, FMK, Beograd, Srbija
 img_to_show: 3       
 img_data:
     - size: "650x606"
-      caption: "Data Visualization Example"
+      caption: "Primer vizuelizacije podataka"
     - size: "771x594"
-      caption: "Generative Data Visualization Example"
+      caption: "Generativna vizuelizacija podataka (screenshot)"
     - size: "772x594"
-      caption: "Generative Data Visualization Example"
+      caption: "Generativna vizuelizacija podataka (screenshot)"
     - size: "690x414"
-      caption: "Generative Data Visualization Examples"
+      caption: "Generativna vizuelizacija podataka (screenshot)"
     - size: "690x414"
-      caption: "Generative Data Visualization Examples"
+      caption: "Generativna vizuelizacija podataka (screenshot)"
     - size: "554x554"
-      caption: "Data Visualization Example"
+      caption: "Primer vizuelizacije podataka"
     - size: "782x606"
-      caption: "Generative Data Visualization Example"
+      caption: "Generativna vizuelizacija podataka (screenshot)"
     - size: "772x594"
-      caption: "Generative Data Visualization Example"
+      caption: "Generativna vizuelizacija podataka (screenshot)"
     - size: "782x606"
-      caption: "Generative Data Visualization Example"
-lead: "Series of Interactive Data Visualization that follows movements of the book <a href='/works/projects/bantustan-book' target='_blank'>Bantustan: atlas jednog putovanja (Bantustan: The Atlas of a Journey)</a> is a book of travel prose written by Lazar Pašćanović, Marko Đedović, and me."
+      caption: "Generativna vizuelizacija podataka (screenshot)"
+lead: "Serija generativnih... Series of Interactive Data Visualization that follows movements of the book <a href='/rad/projekti/bantustan-book' target='_blank'>Bantustan: atlas jednog putovanja</a> is a book of travel prose written by Lazar Pašćanović, Marko Đedović, and me."
 
 “Bantustan” is also an example of ergodic literature, since it contains hand-drawn maps and infographics which represent an interface for non-linear reading. The book was published in 3 editions (by now) and was presented in more than 30 cities across the Yugoslav region.
 

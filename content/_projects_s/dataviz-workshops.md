@@ -1,7 +1,7 @@
 title: 
-    name: Data Visualization Workshops
+    name: Radionice vizuelizacije podataka
+    short: Dataviz radionice
 id: dataviz-workshops
-title_short: Dataviz Workshops
 date: 2015
 ranks:
     visual: 3
@@ -9,59 +9,59 @@ ranks:
     textual: 2
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionice
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Creator
+      name: Edukator
 medium:
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: workshop
-      name: Workshop
-presentation_title: Presentations
+      name: Radionica
+presentation_title: Radionice
 presentations:
     - year: 2015
       events:
         - name: Point Conference, Sarajevo, BiH
-        - name: Internews, Zagreb, Croatia
-        - name: Youth Centre Pančevo, Serbia
+        - name: Internews, Zagreb, Hrvatska
+        - name: Dom omladine Pančevo, Srbija
     - year: 2016
       events:
-        - name: Data Visualization for Journalists, K-Monitor, Budapest, Hungary
-        - name: Design Seminar, Petnica Science Center, Serbia
+        - name: Vizuelizacija podataka za novinare, K-Monitor, Budimpešta, Mađarska
+        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
     - year: 2017
       events:
-        - name: Nova Iskra, Belgrade, Serbia
-        - name: Otvoreni parlament, Leskovac, Serbia
+        - name: Nova Iskra, Beograd, Srbija
+        - name: Otvoreni parlament, Leskovac, Srbija
     - year: 2018
       events:
-        - name: Nova Iskra, Belgrade, Serbia
+        - name: Nova Iskra, Beograd, Srbija
     - year: 2019
       events:
-        - name: FMK, Belgrade, Serbia
+        - name: FMK, Beograd, Srbija
 img_to_show: 3       
 img_data:
     - size: "1084x608"
-      caption: "<a href='https://www.youtube.com/watch?v=pYyaMJ2aN2o' target='_blank'>Animated Infographics</a> for Open Parliament, CRTA, Belgrade"
+      caption: "<a href='https://www.youtube.com/watch?v=pYyaMJ2aN2o' target='_blank'>Animirana infografika</a> za Otvoreni parlament, CRTA, Beograd"
     - size: "1024x683"
-      caption: "Data Visualization Workshop @ Nova Iskra, Belgrade, Serbia"
+      caption: "Radionica @ Nova Iskra, Beograd, Srbija"
     - size: "1024x683"
-      caption: "Data Visualization Workshop @ Nova Iskra, Belgrade, Serbia"
+      caption: "Radionica @ Nova Iskra, Beograd, Srbija"
     - size: "1084x608"
-      caption: "<a href='https://www.youtube.com/watch?v=pYyaMJ2aN2o' target='_blank'>Animated Infographics</a> for Open Parliament, CRTA, Belgrade"
+      caption: "<a href='https://www.youtube.com/watch?v=pYyaMJ2aN2o' target='_blank'>Animirana infografika</a> za Otvoreni parlament, CRTA, Beograd"
     - size: "1024x683"
-      caption: "Data Visualization Workshop @ Nova Iskra, Belgrade, Serbia"
+      caption: "Radionica @ Nova Iskra, Beograd, Srbija"
     - size: "1000x667"
-      caption: "Dataviz Lecture @ POINT Conference, Sarajevo, BiH"    
-lead: "A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+      caption: "Predavanje i radionica @ POINT Conference, Sarajevo, BiH"    
+lead: "Serija radionica... A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
 
 Example: <a href='https://www.youtube.com/watch?v=pYyaMJ2aN2o' target='_blank'>Animated Infographics</a> for Open Parliament, CRTA, Belgrade
 

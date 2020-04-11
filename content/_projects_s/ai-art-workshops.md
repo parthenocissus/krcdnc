@@ -1,7 +1,7 @@
 title: 
-    name: Artificial Intelligence for Artists and Writers
-    html: "Artificial Intelligence<br>for Artists and Writers"
-    short: AI for Artists + Writers
+    name: Veštačka inteligencija za pisce i umetnike
+    html: "Veštačka inteligencija<br>za pisce i umetnike"
+    short: AI za pisce + umetnike
 id: ai-art-workshops
 date: 2019
 ranks:
@@ -10,58 +10,54 @@ ranks:
     textual: 3
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: ai
-      name: Artificial Intelligence
+      name: Veštačka inteligencija
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
     - id: data-art
-      name: Data Art
+      name: Data umetnost
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Creator
+      name: Edukator
 medium:
     - id: software
-      name: Software + Interactive Art
+      name: Softver
     - id: workshop
-      name: Workshop
-presentation_title: Presentations
+      name: Radionica
+presentation_title: Radionice
 presentations:
     - year: 2019
       events:
         - link: 'https://muzejnt.rs/sutra/portfolio-item/nekreativno-pisanje/'
-          name: "(Un)Creative Writing in the Age of AI (Workshop), S.U.T.R.A. Festival of New Media Art @ Museum of Science and Technology, Belgrade, Serbia"
-        - name: "AI Art Workshop, Design Seminar, Petnica Science Centre, Serbia"
-        - name: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
+          name: "(Ne)kreativno pisanje u epohi veštačke inteligencije (radionica), S.U.T.R.A. Festival novomedijske umetnosti @ Muzej nauke i tehnike, Beograd, Srbija"
+        - name: "Radionica AI umetnosti, Seminar dizajna, Istraživačka stanica Petnica, Srbija"
+        - name: "Mašinsko učenje za pisce i umetnike (radionica), Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija"
     - year: 2020
       events:
-        - name: "Machine Learning for Artists Workshop, MultiMadeira Centre + CoWork, Madeira, Portugal"
+        - name: "Mašinsko učenje za umetnike (radionica), MultiMadeira + CoWork, Funšal, Madeira, Portugalija"
 press:
     - link: "https://www.danas.rs/kultura/festival-s-u-t-r-a-u-ime-algoritma-pasivne-posetioce-pretvara-u-aktivne-ucesnike/"
-      name: About S.U.T.R.A. Festival, Danas, Belgrade, Serbia
+      name: O festivalu S.U.T.R.A., Danas, Beograd, Srbija
 img_to_show: 3
 img_data:
     - size: "795x1200"
-      caption: "Machine Learning for Artists Workshop @ MultiMadeira Centre + CoWork, Madeira, Portugal"
+      caption: "Mašinsko učenje za umetnike (radionica), MultiMadeira + CoWork, Funšal, Madeira, Portugalija"
     - size: "960x640"
-      caption: "Artist Talk @ Strand Conference, Serbian Academy of Arts and Sciences, Belgrade, Serbia"
+      caption: "Autorsko predavanje @ Konferencija Strand, Srpska akademija nauka i umetnosti, Beograd, Srbija"
     - size: "960x654"
-      caption: "(Un)Creative Writing in the Age of AI (Workshop), S.U.T.R.A. Festival of New Media Art @ Museum of Science and Technology, Belgrade, Serbia"
-    - size: "1200x795"
-      caption: "Machine Learning for Artists Workshop @ MultiMadeira Centre + CoWork, Madeira, Portugal"
+      caption: "(Ne)kreativno pisanje u epohi veštačke inteligencije (radionica), S.U.T.R.A. Festival novomedijske umetnosti @ Muzej nauke i tehnike, Beograd, Srbija"
     - size: "960x640"
-      caption: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
+      caption: "Mašinsko učenje za pisce i umetnike (radionica), Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija"
     - size: "1200x795"
-      caption: "Machine Learning for Artists Workshop @ MultiMadeira Centre + CoWork, Madeira, Portugal" 
+      caption: "Mašinsko učenje za umetnike (radionica), MultiMadeira + CoWork, Funšal, Madeira, Portugalija" 
     - size: "704x704"
-      caption: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
-    - size: "1200x795"
-      caption: "Machine Learning for Artists Workshop @ MultiMadeira Centre + CoWork, Madeira, Portugal"
+      caption: "Mašinsko učenje za pisce i umetnike (radionica), Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija"
     - size: "960x720"
-      caption: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
-lead: "A series of animation game jam workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+      caption: "Mašinsko učenje za pisce i umetnike (radionica), Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija"
+lead: "Da se napiše... A series of animation game jam workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
 
 Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
 

@@ -29,7 +29,7 @@ presentations:
     - year: 2016
       events:
         - name: Crta, Belgrade, Serbia
-img_to_show: 3       
+img_to_show: 2       
 img_data:
     - size: "1081x611"
       caption: "Selected Frame"

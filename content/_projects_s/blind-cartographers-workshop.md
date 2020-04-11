@@ -1,51 +1,51 @@
 title: 
-    name: Blind Cartographers Workshop
-    html: "Blind Cartographers<br>Workshop"
-    short: Blind Cartographers
+    name: Slepi kartografi
+    html: "Slepi kartografi"
+    short: Slepi kartografi
 id: blind-cartographers-workshop
 date: 2012
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
     - id: geography
-      name: Experimental Geography
+      name: Eksperimentalna geografija
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: drawing
-      name: Digital Drawing
+      name: Digitalni crtež
 ranks:
     visual: 3
     digital: 1
     textual: 1
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Creator
+      name: Edukator
 medium:
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
 team:
-    - link: 'http://www.thetravelclub.org/about-the-club'
-      name: Klub putnika (The Travel Club)    
-presentation_title: Presentations
+    - link: 'http://www.klubputnika.org/o-klub-putnika'
+      name: Klub putnika    
+presentation_title: Prezentacije
 presentations:
     - year: 2012
       events:
-        - name: Blind Cartographers Workshop, Klub putnika (The Travel Club) @ Travel House, Istanbul, Turkey      
+        - name: Slepi kartografi, radionica Kluba putnika @ Putnička kuća, Istanbul, Turska      
 img_to_show: 2       
 img_data:
     - size: "960x720"
-      caption: "Workshop @ Travel House, Istanbul, Turkey. Photo: Lazar Pašćanović."
+      caption: "Radionica @ Putnička kuća, Istanbul, Turska. Foto: Lazar Pašćanović."
     - size: "592x846"
-      caption: "Map drawn during the workshop. Author: Ester Vanhoutte."
+      caption: "Mapa nacrtana tokom radionice. Autorka: Ester Vanhoutte."
     - size: "1600x1066"
-      caption: "Workshop @ Travel House, Istanbul, Turkey. Photo: Luka Knežević-Strika."
-lead: "The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? "
+      caption: "Radionica @ Putnička kuća, Istanbul, Turska. Foto: Luka Knežević-Strika."
+lead: "Opis radionice... The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? "
 
 The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? 
 

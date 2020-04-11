@@ -1,7 +1,7 @@
 title: 
     name: Data Visualization Workshops
+    short: Dataviz Workshops
 id: dataviz-workshops
-title_short: Dataviz Workshops
 date: 2015
 ranks:
     visual: 3

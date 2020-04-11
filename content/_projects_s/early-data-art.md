@@ -1,6 +1,6 @@
 title: 
-    name: The Earliest Data Art
-    short: Earliest Data Art
+    name: Najraniji data crteži
+    short: Najraniji data crteži
 id: early-data-art
 date: 1989
 ranks:
@@ -9,50 +9,50 @@ ranks:
     textual: 2
 category: 
     - id: drawing
-      name: Drawing
+      name: Crtež
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: cartography
-      name: Experimental Cartography
+      name: Eksperimentalna kartografija
 role:
     - id: artist
-      name: Artist
+      name: Umetnik
 medium:
     - id: print
-      name: Drawing on Paper
-presentation_title: Presentations
+      name: Crteži na papiru
+presentation_title: Prezentacije
 presentations:
     - year: 1989
       events:
-        - name: In-House Presentation, Pančevo, Serbia
+        - name: Kućna prezentacija, Pančevo
     - year: 1999
       events:
-        - name: Solo Exhibition of Children Drawing, Youth Centre Pančevo, Pančevo, Serbia
+        - name: Samostalna izložba dečijih stripova i karikatura, Dom omladine Pančevo
     - year: 2017
       events:
-        - name: Artist Talk @ Nova Iskra, Belgrade, Serbia
+        - name: Autorsko predavanje @ Nova Iskra, Beograd
     - year: 2019
       events:
-        - name: Artist Talk @ FMK, Belgrade, Serbia
+        - name: Autorsko predavanje @ FMK, Beograd
 img_to_show: 2       
 img_data:
     - size: "1200x987"
-      caption: "Anatomy charts (internal body parts) of my first comics characters."
+      caption: "Anatomski dijagrami unutrašnjih organa prvih stripskih junaka."
     - size: "643x1400"
-      caption: "Earliest world maps I've made"
+      caption: "Prve mape"
     - size: "1000x667"
-      caption: "Artist Talk @ Nova Iskra, Belgrade, Serbia, 2017."
+      caption: "Autorsko predavanje @ Nova Iskra, Beograd, Srbija, 2017."
     - size: "776x600"
-      caption: "Map of South Banat, region of Serbia where I grew up."       
+      caption: "Mapa Južnog Banata, od Beograda do Deliblatske peščare"       
     - size: "893x1200"
-      caption: "Earliest world maps I've made"
+      caption: "Prve mape"
     - size: "1000x955"
-      caption: "Earliest world maps I've made"
+      caption: "Prve mape"
     - size: "1600x1141"
-      caption: "Map of the house and the yard where I grew up."
-lead: "My first drawings were hand-drawn maps, graphs, and charts. Here is a selection of the earliest data art I've made when I was 5 years old."
+      caption: "Mapa kuće i okućnice u kojoj sam odrastao"
+lead: "Moji prvi crteži bili su mape, dijagrami i grafikoni. Ovo je kolekcija... Here is a selection of the earliest data art I've made when I was 5 years old."
 
 How should we feel and think about phantoms such as climate change, global migrations, Big Data, and highfrequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
 

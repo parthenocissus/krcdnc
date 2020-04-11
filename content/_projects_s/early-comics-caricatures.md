@@ -1,5 +1,5 @@
 title: 
-    name: Early Comics and Caricatures
+    name: Rani stripovi i karikature
 id: early-comics-caricatures
 date: 1998
 ranks:
@@ -8,48 +8,48 @@ ranks:
     textual: 2
 category: 
     - id: drawing
-      name: Drawing
+      name: Crtež
 role:
     - id: artist
-      name: Artist
+      name: Umetnik
 medium:
     - id: print
-      name: Drawing on Paper
-presentation_title: Presentations
+      name: Crtež na papiru
+presentation_title: Prezentacije
 presentations:
     - year: 1998
       events:
-        - name: Little Pier Best Children Caricature Exhibition, Belgrade, Serbia
+        - name: Mali pjer, izložba, Beograd
     - year: 1999
       events:
-        - name: Solo Exhibition of Children Drawing, Youth Centre Pančevo, Pančevo, Serbia
+        - name: Samostalna izložba dečjih stripova i karikatura, Dom omladine Pančevo, Srbija
 awards:
     - year: 1998
       pubs:
-        - name: "Little Pier Award for the Best Children Caricature in Serbia and Montenegro, Belgrade, Serbia"
+        - name: "Mali Pjer – nagrada za najbolju dečju karikaturu u Srbiji i Crnoj Gori, Beograd, Srbija"
 img_to_show: 2       
 img_data:
     - size: "1200x1200"
-      caption: "Little Pier Award for the best Best Children Caricature in Serbia and Montenegro, Belgrade, Serbia, 1998."
+      caption: "Mali Pjer – nagrada za najbolju dečju karikaturu u Srbiji i Crnoj Gori, Beograd, Srbija, 1998."
     - size: "862x1200"
-      caption: "Black marker and wooden colors on paper, 2000."
+      caption: "Crni marker i drvene boje na papiru, 2000."
     - size: "824x1200"
-      caption: "Black marker and wooden colors on paper, 2001."
+      caption: "Crni marker i drvene boje na papiru, 2001."
     - size: "817x1200"
-      caption: "Black marker and wooden colors on paper, 1999."
+      caption: "Crni marker i drvene boje na papiru, 1999."
     - size: "823x1200"
-      caption: "Black marker and wooden colors on paper, 1999."
+      caption: "Crni marker i drvene boje na papiru, 1999."
     - size: "824x1200"
-      caption: "Black marker and wooden colors on paper, 1999."
+      caption: "Crni marker i drvene boje na papiru, 1999."
     - size: "844x1200"
-      caption: "Black marker and wooden colors on paper, 1999."
+      caption: "Crni marker i drvene boje na papiru, 1999."
     - size: "820x1200"
-      caption: "Black marker and wooden colors on paper, 1999."
+      caption: "Crni marker i drvene boje na papiru, 1999."
     - size: "816x1200"
-      caption: "Black marker and wooden colors on paper, 1999."
+      caption: "Crni marker i drvene boje na papiru, 1999."
     - size: "826x1200"
-      caption: "Black marker and wooden colors on paper, 1999."
-lead: "A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures."
+      caption: "Crni marker i drvene boje na papiru, 1999."
+lead: "Izbor ranih stripova i karikatura... A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures."
 
 How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
 

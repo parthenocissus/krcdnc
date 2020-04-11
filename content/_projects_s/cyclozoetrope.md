@@ -1,5 +1,5 @@
 title:
-    name: Cyclozoetrope
+    name: Ciklozoetrop
 id: cyclozoetrope
 date: 2017
 ranks:
@@ -8,55 +8,55 @@ ranks:
     textual: 0
 category: 
     - id: animation
-      name: Animation
+      name: Animacija
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: installation
-      name: Installations + Performances
+      name: Instalacije + performansi
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
 role:
     - id: inventor
-      name: Inventor
+      name: Pronalazač
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Educator
+      name: Edukator
     - id: animator
       name: Animator
 medium:
     - id: machine
-      name: Machine
+      name: Mašina
     - id: performance
-      name: Performance
+      name: Performans
     - id: workshop
-      name: Workshop
+      name: Radionica
 team:
     - link: 'http://karkatag.org/'
       name: Karkatag
     - link: 'https://czzs.org/nasprostor/nas-grad-nasa-scena/'
       name: Naš Grad Naša Scena
-presentation_title: Presentations
+presentation_title: Prezentacije
 presentations:
     - year: 2017
       events:
         - link: "http://www.seecult.org/vest/pravac-slavica"
-          name: Pravac Slavica, Belgrade
-        - name: Design Seminar, Petnica Science Center, Serbia
+          name: Pravac Slavica, Beograd
+        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
     - year: 2018
       events:
-        - name: Beogradski festival cveća, Serbia
+        - name: Beogradski festival cveća, Srbija
 img_to_show: 2       
 img_data:
     - size: "1200x800"
-      caption: "Petnica, 2017 → Strahinja Jovanović, Sonja Jovanović"
+      caption: "Petnica, 2017. Foto: Strahinja Jovanović, Sonja Jovanović"
     - size: "1200x800"
-      caption: "Petnica, 2017 → Strahinja Jovanović"
+      caption: "Petnica, 2017. Foto: Strahinja Jovanović"
     - size: "800x1200"
-      caption: "Petnica, 2017 → Strahinja Jovanović"
+      caption: "Petnica, 2017. Foto: Strahinja Jovanović"
     - size: "1300x732"
-      caption: "Petnica, 2017 → Sonja Jovanović"   
-lead: "Half-bicycle, half-<a href='https://en.wikipedia.org/wiki/Zoetrope' target='_blank'>zoetrope</a>, cyclozoetrope is a centaur machine. Originally conceived as a kinetic monument to dying cinemas of Belgrade, it grew into a unique workshop and installation tool for hand-drawn animation and printed GIFs."
+      caption: "Petnica, 2017. Foto: Sonja Jovanović"   
+lead: "Napisati na srpskom: Half-bicycle, half-<a href='https://en.wikipedia.org/wiki/Zoetrope' target='_blank'>zoetrope</a>, cyclozoetrope is a centaur machine. Originally conceived as a kinetic monument to dying cinemas of Belgrade, it grew into a unique workshop and installation tool for hand-drawn animation and printed GIFs."
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
 be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.

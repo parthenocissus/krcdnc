@@ -1,7 +1,7 @@
 title: 
-    name: Data Storytelling Workshops
+    name: Radionice data pripovedanja
+    short: Radionice data pripovedanja
 id: data-storytelling-workshops
-title_short: Data Storytelling
 date: 2014
 ranks:
     visual: 2
@@ -9,54 +9,56 @@ ranks:
     textual: 3
 category: 
     - id: workshop
-      name: Workshop
+      name: Radionica
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: interactive
-      name: Interactive Art + Design
+      name: Interaktivna umetnost + dizajn
 role:
     - id: maker
-      name: Co-Maker
+      name: Su-kreator
     - id: educator
-      name: Workshop Creator
+      name: Edukator
 medium:
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: workshop
-      name: Workshop
-presentation_title: Presentations
+      name: Radionica
+    - id: video
+      name: Video
+presentation_title: Radionice
 presentations:
     - year: 2014
       events:
-        - name: Data Storytelling Workshop, Pravo Ljudski Festival, Sarajevo, BiH, 2015.
+        - name: Festival Pravo Ljudski, Sarajevo, BiH
     - year: 2015
       events:
         - name: Point Conference, Sarajevo, BiH
-        - name: Youth Centre Pančevo, Serbia
+        - name: Dom omladine Pančevo, Srbija
     - year: 2016
       events:
-        - name: Datathon, K-Monitor, Budapest, Hungary
-        - name: Design Seminar, Petnica Science Center, Serbia
-        - name: Otvoreni parlament, Leskovac, Serbia
+        - name: Dataton, K-Monitor, Budimpešta, Mađarska
+        - name: Seminar dizajn, Istraživačka stanica Petnica, Srbija
+        - name: Otvoreni parlament, Leskovac, Srbija
     - year: 2017
       events:
-        - name: Nova Iskra, Belgrade, Serbia
+        - name: Nova Iskra, Beograd, Srbija
     - year: 2018
       events:
-        - name: Nova Iskra, Belgrade, Serbia
+        - name: Nova Iskra, Beograd, Srbija
 img_to_show: 3       
 img_data:
     - size: "1082x604"
-      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, Belgrade"
+      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Infografički video</a> za inicijativu InvolvedNotInvalid, Beograd"
     - size: "1000x667"
-      caption: "Data Storytelling Talk and Workshop @ Point Conference, Sarajevo, BiH"
+      caption: "Radionica i predavanje @ Point Conference, Sarajevo, BiH"
     - size: "729x729"
-      caption: "Data Storytelling Workshop @ K-Monitor, Budapest, Hungary"
+      caption: "Radionica @ K-Monitor, Budimpešta, Mađarska"
     - size: "1082x604"
-      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, Belgrade"
-lead: "A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Infografički video</a> za inicijativu InvolvedNotInvalid, Beograd"
+lead: "Treba da se napiše... A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
 
 Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
 

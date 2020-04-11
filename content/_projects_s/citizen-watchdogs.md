@@ -1,5 +1,5 @@
 title: 
-    name: Citizen Watchdogs
+    name: Građani na straži
 id: citizen-watchdogs
 date: 2016
 ranks:
@@ -9,45 +9,45 @@ ranks:
 featured_video: '<style>.codegena{position:relative;width:100%;height:0;padding-bottom:56.25%;}.codegena iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="codegena"><iframe width="500" height="281" src="https://www.youtube.com/embed/cQodv9z1ZgQ?&theme=dark&autohide=2&cc_load_policy=1"frameborder="0"></iframe></div>'
 category: 
     - id: animation
-      name: Animation
+      name: Animacija
     - id: data-art
-      name: Data Art
+      name: Data umetnost
     - id: dataviz
-      name: Data Visualization
+      name: Vizuelizacija podataka
     - id: drawing
-      name: Digital Drawing
+      name: Digitalni crtež
 role:
     - id: animator
-      name: Director + Animator
+      name: Animator
 medium:
     - id: animation
-      name: Short Video
+      name: Kratki animirani video
     - id: dataviz
-      name: Animated Infographics
-presentation_title: Presentations
+      name: Animirana infografika
+presentation_title: Prezentacije
 presentations:
     - year: 2016
       events:
-        - name: Crta, Belgrade, Serbia
-img_to_show: 3       
+        - name: Crta, Beograd, Srbija
+img_to_show: 2       
 img_data:
     - size: "1081x611"
-      caption: "Selected Frame"
+      caption: "Kadar iz videa"
     - size: "1081x611"
-      caption: "Selected Frame"
+      caption: "Kadar iz videa"
     - size: "1081x611"
-      caption: "Selected Frame"
+      caption: "Kadar iz videa"
     - size: "1081x611"
-      caption: "Selected Frame"
+      caption: "Kadar iz videa"
     - size: "1081x611"
-      caption: "Selected Frame"
+      caption: "Kadar iz videa"
     - size: "1081x611"
-      caption: "Selected Frame"
+      caption: "Kadar iz videa"
     - size: "1081x611"
-      caption: "Selected Frame"
+      caption: "Kadar iz videa"
     - size: "1081x611"
-      caption: "Selected Frame"                  
-lead: "Citizen Watchdogs (Građani na straži) is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+      caption: "Kadar iz videa"                  
+lead: "Građani na straži (Citizen Watchdogs) je kratak animirani film o... an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
 
 How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
 
