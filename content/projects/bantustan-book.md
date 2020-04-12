@@ -54,7 +54,7 @@ presentations:
         - link: 'https://www.fiuman.hr/predstavljanje-putopisne-knjige-bantustan-u-palachu/'
           name: Palach Center, Rijeka, Croatia
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3995-raspored-druzenja-i-predstavljanja-knjige-bantustan'
-          name: OCK Abrašević, Mostar, BiH
+          name: OKC Abrašević, Mostar, BiH
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3995-raspored-druzenja-i-predstavljanja-knjige-bantustan'
           name: Cultural Centre Zora, Opatija, Croatia
         - link: 'https://www.ipazin.net/predstavljanje-putopisne-knjige-bantustan-u-bunkeru/'
@@ -88,7 +88,7 @@ presentations:
           name: Apolo Theater, Pančevo, Serbia    
         - link: 'https://varazdinski.net.hr/vijesti/drustvo/3194897/putopisno-predavanje-o-africkom-bantustanu-ove-srijede-u-centru-za-mlade/'
           name: Youth Centre, Varaždin, Croatia
-        - name: Cezam, Čakovec, Croatia     
+        - name: CeZam, Čakovec, Croatia     
     - year: 2016
       events:
         - link: 'http://skc.org.rs/plusplusforum/6733-antropolo%C5%A1ki-razgovori-5.html'
@@ -180,7 +180,7 @@ img_data:
     - size: "662x1000"
       caption: "Shapes of Noses of Every Person in Bantustan. Digital Drawing."
     - size: "870x1000"
-      caption: "Generative cartography of places Bantustan went to. Algorithmic Infographics."
+      caption: "<a href='/work/projects/bantustan-dataviz' target='_blank'>Generative cartography of places Bantustan went to</a>. Algorithmic Infographics."
     - size: "1200x675"
       caption: "On the road, with Marko Đedović. Namibia. Photo: Lazar Pašćanović."
     - size: "501x501"
