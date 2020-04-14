@@ -340,7 +340,8 @@ let chartUtility = (function () {
             svg: flowerchartSVG,
             width: flowerchartParameters.pictogramWidth,
             height: flowerchartParameters.pictogramHeight,
-            class: "pictome-small-sun",
+            //class: "pictome-small-sun",
+            class: "pictome-small-dark",
             id: "general",
             rectClass: fp.bgFillClass,
             dotClass: "invisible",
@@ -643,11 +644,11 @@ let chartUtility = (function () {
 
     let linechartParamsIndex = {
         computeWidth: function () {
-            return 400;
+            return 440;
         },
         height: 70,
         class: ".linechart",
-        margin: {top: 4, right: 4, bottom: 28, left: 4, lineAdj: 7, baseAdj: 8},
+        margin: {top: 4, right: 4, bottom: 28, left: 4, lineAdj: 9, baseAdj: 8},
         ticks: [(new Date(1984, 1)), (new Date(2020, 1))],
         xShift: 0
     };
