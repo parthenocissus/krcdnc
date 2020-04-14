@@ -643,7 +643,7 @@ let chartUtility = (function () {
 
     let linechartParamsIndex = {
         computeWidth: function () {
-            return 340;
+            return 400;
         },
         height: 70,
         class: ".linechart",
