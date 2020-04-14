@@ -45,31 +45,6 @@ a { text-decoration: none; }
     z-index: 10;
 }
 
-/*#top-margin {*/
-/*    position: fixed;*/
-/*    left: 0; top: 0;*/
-/*    width: 100vw;*/
-/*    height: 8px;*/
-/*    background-color: var(--suncolor);*/
-/*    z-index: 10;*/
-/*}*/
-/*#right-margin {*/
-/*    position: fixed;*/
-/*    right: 0; top: 0;*/
-/*    width: 8px;*/
-/*    height: 100%;*/
-/*    background-color: var(--suncolor);*/
-/*    z-index: 6;*/
-/*}*/
-/*#bottom-margin {*/
-/*    position: fixed;*/
-/*    left: 0; bottom: 0;*/
-/*    height: 8px;*/
-/*    width: 100vw;*/
-/*    background-color: var(--suncolor);*/
-/*    z-index: 10;*/
-/*}*/
-
 /* Main Body */
 
 #main-body {

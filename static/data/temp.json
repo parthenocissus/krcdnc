@@ -1,0 +1,25 @@
+{
+  "id": "digital-literature",
+  "name": {
+    "title": "Digital Literature",
+    "case": "Digital Literature",
+    "createsVerb": "makes"
+  },
+  "nameS": {
+    "title": "Digitalna književnost",
+    "case": "digitalnom književnošću",
+    "createsVerb": "se bavi"
+  },
+  "graphics": {
+    "headcx": 5.2,
+    "headcy": 29,
+    "headr": 3.614,
+    "dotcx": 15.2,
+    "dotcy": 1.9,
+    "dotr": 1.6111,
+    "arm1d": "M0.7,14.2 16.5,14.2",
+    "arm2d": "M0.7,1.7C17,1.7,0,32.5,16.1,32.5",
+    "leg1d": "M0.6,1.6c16.3,0-0.2,31,15.9,31",
+    "leg2d": "M0.6,1.6c16.3,0-0.2,31,15.9,31"
+  }
+}

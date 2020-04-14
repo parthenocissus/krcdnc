@@ -100,6 +100,32 @@
     }
   },
   {
+    "id": "interactive",
+    "name": {
+      "title": "Interactive Art + Design",
+      "case": "Interactive Art + Design",
+      "createsVerb": "makes"
+    },
+    "nameS": {
+      "title": "Interaktivna umetnost + dizajn",
+      "case": "interaktivne umetnosti + dizajna",
+      "createsVerb": "kreira u oblasti"
+    },
+    "graphics": {
+      "headcx": 12.5,
+      "headcy": 16.6,
+      "headr": 3.614,
+      "dotcx": 1.9,
+      "dotcy": 7.9,
+      "dotr": 1.6111,
+      "arm1d": "M0,1c4.8,0,9.1,2.1,12,5.5",
+      "arm2d": "M11.7,27.5C8.8,30.9,4.8,33,0,33",
+      "leg1d": "M12.3,27.8 1.4,16.9 12.4,5.9",
+      "leg1d": "M12.3,27.8 1.4,16.9 12.4,5.9",
+      "leg2d": "M12.3,27.8 1.4,16.9 12.4,5.9"
+    }
+  },
+  {
     "id": "research",
     "name": {
       "title": "Research",
@@ -127,26 +153,26 @@
   {
     "id": "drawing",
     "name": {
-      "title": "Digital Drawings",
+      "title": "Digital Drawing",
       "case": "Digital Drawings",
       "createsVerb": "draws"
     },
     "nameS": {
       "title": "Digitalni crtež",
       "case": "digitalne crteže",
-      "createsVerb": "osmišljava i crta"
+      "createsVerb": "smišlja i crta"
     },
     "graphics": {
-      "headcx": 8.5,
-      "headcy": 5.239,
+      "headcx": 10.4,
+      "headcy": 11.9,
       "headr": 3.614,
-      "dotcx": 8.373,
-      "dotcy": 10.458,
-      "dotr": 0,
-      "arm1d": "M0.973,27.184L8.48,12.572l0,0 l7.545,14.611",
-      "arm2d": "M0.973,27.184L8.48,12.572l0,0 l7.545,14.611",
-      "leg1d": "M8.5,31.666V13.12",
-      "leg2d": "M0.229,33.847h16.542"
+      "dotcx": 14.2,
+      "dotcy": 1.8,
+      "dotr": 1.6111,
+      "arm1d": "M0.6,2.7C9.8-3,7,10.9,16.4,8",
+      "arm2d": "M0.6,2.7C9.8-3,7,10.9,16.4,8",
+      "leg1d": "M15,18c-4,6-7.5,7-14.5,7",
+      "leg2d": "M16,22.1c-3,5-7.5,9.6-15.5,10.6"
     }
   },
   {
@@ -172,6 +198,31 @@
       "arm2d": "M7.275,0.199v27.312",
       "leg1d": "M14.979,20.229l-7.704,7.704",
       "leg2d": "M14.979,20.229l-7.704,7.704"
+    }
+  },
+  {
+    "id": "digital-literature",
+    "name": {
+      "title": "Digital Literature",
+      "case": "Digital Literature",
+      "createsVerb": "makes"
+    },
+    "nameS": {
+      "title": "Digitalna književnost",
+      "case": "digitalnom književnošću",
+      "createsVerb": "se bavi"
+    },
+    "graphics": {
+      "headcx": 4.7,
+      "headcy": 29.4,
+      "headr": 3.614,
+      "dotcx": 15.2,
+      "dotcy": 32.1,
+      "dotr": 1.6111,
+      "arm1d": "M8.2,0.7 8.2,29.5",
+      "arm2d": "M8.2,0.7 8.2,29.5",
+      "leg1d": "M8.2,0.7c0,6.2,7.7,5.4,7.7,12.4",
+      "leg2d": "M8.2,7.8c0,6.2,7.7,5.4,7.7,12.4"
     }
   },
   {
@@ -209,7 +260,7 @@
     "nameS": {
       "title": "Data umetnost",
       "case": "data umetnost",
-      "createsVerb": "osmišljava i kreira"
+      "createsVerb": "smišlja i kreira"
     },
     "graphics": {
       "headcx": 4.674,
@@ -297,56 +348,6 @@
       "arm2d": "M1.61115,14.78 c0-8.654,3.693-12.981,7.386-12.981s7.386,4.327,7.386,12.981",
       "leg1d": "M15.887,20.221c0,8.559-3.612,12.885-7.264,12.979c-3.733,0.097-7.508-4.229-7.508-12.979",
       "leg2d": "M15.887,20.221c0,8.559-3.612,12.885-7.264,12.979c-3.733,0.097-7.508-4.229-7.508-12.979"
-    }
-  },
-  {
-    "id": "interactive",
-    "name": {
-      "title": "Interactive Art + Design",
-      "case": "Interactive Art + Design",
-      "createsVerb": "makes"
-    },
-    "nameS": {
-      "title": "Interaktivna umetnost + dizajn",
-      "case": "interaktivne umetnosti + dizajna",
-      "createsVerb": "kreira u oblasti"
-    },
-    "graphics": {
-      "headcx": 8.5,
-      "headcy": 17.5,
-      "headr": 3.614,
-      "dotcx": 8.5,
-      "dotcy": 17.5,
-      "dotr": 0,
-      "arm1d": "M1.61115,14.78 c0-8.654,3.693-12.981,7.386-12.981s7.386,4.327,7.386,12.981",
-      "arm2d": "M1.61115,14.78 c0-8.654,3.693-12.981,7.386-12.981s7.386,4.327,7.386,12.981",
-      "leg1d": "M15.887,20.221c0,8.559-3.612,12.885-7.264,12.979c-3.733,0.097-7.508-4.229-7.508-12.979",
-      "leg2d": "M15.887,20.221c0,8.559-3.612,12.885-7.264,12.979c-3.733,0.097-7.508-4.229-7.508-12.979"
-    }
-  },
-  {
-    "id": "digital-literature",
-    "name": {
-      "title": "Digital Literature",
-      "case": "Digital Literature",
-      "createsVerb": "makes"
-    },
-    "nameS": {
-      "title": "Digitalna književnost",
-      "case": "digitalnom književnošću",
-      "createsVerb": "se bavi"
-    },
-    "graphics": {
-      "headcx": 5.998,
-      "headcy": 8.422,
-      "headr": 3.614,
-      "dotcx": 15.288,
-      "dotcy": 2.315,
-      "dotr": 1.6111,
-      "arm1d": "M8.476,6 c1.293-1.831,5.19-1.744,6.168,1.614c2.043,7-8.667,7.83-11.167,11.554c-2.377,3.541-2.334,14.916-2.334,14.916",
-      "arm2d": "M8.476,6 c1.293-1.831,5.19-1.744,6.168,1.614c2.043,7-8.667,7.83-11.167,11.554c-2.377,3.541-2.334,14.916-2.334,14.916",
-      "leg1d": "M5.998,17.091v16.993",
-      "leg2d": "M5.998,17.091v16.993"
     }
   }
 ]

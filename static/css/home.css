@@ -26,72 +26,76 @@ main {
     left: 0;
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Main Content */
 
 .main-container {
-    width: 100%;
-    /*height: calc(100vh - 0px);*/
-    /*margin-top: 0px;*/
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 45% 55%;
-    grid-template-areas: "main-pictome main-content";
 
-    font-family: "Montserrat-Regular", sans-serif;
-    font-size: 10pt;
+    width: 340px;
+    align-self: center;
+    justify-self: center;
+
+    font-family: "Ambit-Regular", sans-serif;
+    font-size: 11pt;
     color: var(--darkcolor);
     line-height: 1.7em;
     letter-spacing: 0.2pt;
 
     transition: 0.18s;
-    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1)
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    display: flex;
+    overflow: hidden;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-.main-pictome {
-    grid-area: main-pictome;
-    padding-right: 10%;
-    align-self: center;
-    justify-self: end;
-}
-
-#pictome-svg {
-    height: 200px;
-}
-
-.main-content {
-    grid-area: main-content;
-    padding: 0px 22px;
-    width: 340px;
-    align-self: center;
-    border-left: 1px solid var(--darkcolor);
-}
-
-.short-bio {
-    padding-bottom: 30px;
-}
-
-.flowerchart {
-    /*padding-bottom: 2px;*/
-    /*height: 188px;*/
-}
-
-.main-content a {
+.main-container a {
     background: linear-gradient(
             to bottom, var(--suncolor) 0%,
             var(--suncolor) 100%
     ) repeat-x 0 100%;
-    background-size: 3px 1px;
+    background-size: 3px 2px;
     color: var(--darkcolor);
-    padding-bottom: 1px;
+    padding-bottom: 3px;
     text-decoration: none;
     transition: background-size .13s;
 }
 
-.main-content a:hover,
-.main-content .manual-hover {
+.main-container a:hover,
+.main-container .manual-hover {
     background-size: 2px 4px;
+}
+
+.main-pictome {
+    width: 35px;
+    padding-bottom: 35px;
+    justify-self: center;
+    align-self: center;
+}
+
+#pictome-svg {
+    /*height: 100px;*/
+}
+
+.short-bio {
+    padding-bottom: 42px;
+}
+
+.flowerchart {
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+
+.flowerchart svg {
+    display: block;
 }
 
 .bio-break {
@@ -107,13 +111,11 @@ main {
 /* Text Selection */
 
 ::selection {
-    color: var(--lightcolor);
-    background: var(--darkcolor);
+    background: var(--suncolor);
 }
 
 ::-moz-selection {
-    color: var(--lightcolor);
-    background: var(--darkcolor);
+    background: var(--suncolor);
 }
 
 /* SVG rules for Pictome and the rest of the pictogram graphics */
@@ -130,8 +132,8 @@ main {
 /* Big Animated Pictogram */
 .pictome {
     fill: none;
-    stroke: var(--darkcolor);
-    stroke-width: 0.5;
+    stroke: var(--suncolor);
+    stroke-width: 1.1;
 }
 
 .pictome:hover {
@@ -156,7 +158,7 @@ main {
 
 .pictome-dot {
     stroke: none;
-    fill: var(--darkcolor);
+    fill: var(--suncolor);
 }
 
 .pictome-dot:hover {
@@ -165,7 +167,12 @@ main {
 
 .pictome-dot-sun {
     stroke: none;
-    fill: var(--suncolor);
+    fill: var(--suncolor) !important;
+}
+
+.pictome-dot-flower {
+    stroke: none;
+    fill: var(--darkcolor);
 }
 
 .graphics-origin {
@@ -191,8 +198,9 @@ main {
     stroke-width: 2;
 }
 
+/* big picto on hover */
 .sun-stroke-only {
-    stroke: var(--suncolor);
+    stroke-width: 1.5;
 }
 
 .light-stroke-only {
@@ -211,9 +219,9 @@ main {
 /* SVG Rules for Line Chart */
 
 .linechart {
-    height: 85px;
+    height: 70px;
     padding-bottom: 0;
-    stroke-width: 1;
+    stroke-width: 2;
 }
 
 .linechart .domain {

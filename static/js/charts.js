@@ -5,6 +5,7 @@ let chartUtility = (function () {
     let langParams;
     let dataCopy = [];
     let lang, pictoData, maximumProjectCount;
+    let hovering = false;
 
     let setLangParams = function (params) {
         langParams = params;
@@ -12,19 +13,6 @@ let chartUtility = (function () {
         lang = params.lang;
         dataCopy = params.pictodata;
         maximumProjectCount = params.max;
-
-        // pictoData.forEach(function (d) {
-        //     dataCopy.push({
-        //         "id": d.id,
-        //         "name": d.name,
-        //         "createsVerb": d.createsVerb,
-        //         "nameS": d.nameS,
-        //         "createsVerbS": d.createsVerbS,
-        //         "nameSCase": d.nameSCase,
-        //         "graphics": d.graphics,
-        //         "projects": d.projects
-        //     });
-        // });
     };
 
     /* Flowerchart Section */
@@ -311,7 +299,7 @@ let chartUtility = (function () {
         bgFillClass: "light-fill",
         dottedLineStrokeClass: "dark-stroke",
         pictomeSmallClass: "pictome-small-dark",
-        pictoDotClass: "pictome-dot"
+        pictoDotClass: "pictome-dot-flower"
 
     }
 
@@ -435,10 +423,10 @@ let chartUtility = (function () {
                     return "translate(" + tx + " " + ty + ")" +
                         "rotate(" + alpha + " " + hpw + " " + (-rad3) + ")";
                 }
-            }
+            };
             drawSinglePictogram(pictogramParams);
         });
-    }
+    };
 
     let drawSinglePictogram = function (params) {
 
@@ -496,21 +484,24 @@ let chartUtility = (function () {
     let periodicalAnimationParamsIndex = {
 
         hoverEffects: function () {
-            d3.selectAll(".pictome, #pictome-bg, #dot, #creates-what, #link-to-projects, #linechart-svg")
+            // d3.selectAll(".pictome, #pictome-bg, #dot, #creates-what, #link-to-projects, #linechart-svg")
+            d3.selectAll("#pictome-bg, #creates-what, #link-to-projects, #linechart-svg")
                 .on("mouseover", function () {
+                    hovering = true;
                     d3.selectAll(".pictome").classed("sun-stroke-only", true);
                     d3.selectAll("#dot").classed("pictome-dot-sun", true);
                     d3.selectAll("#link-to-projects").classed("manual-hover", true);
                     linechartParameters.radius = 3;
-                    d3.selectAll(".linechartLine").attr("stroke-width", 1.5);
+                    d3.selectAll(".linechartLine").attr("stroke-width", 3);
                     d3.selectAll(".linechartCircleVisible").attr("r", linechartParameters.radius);
                 })
                 .on("mouseout", function (d, i) {
+                    hovering = false;
                     d3.selectAll(".pictome").classed("sun-stroke-only", false);
                     d3.selectAll("#dot").classed("pictome-dot-sun", false);
                     d3.selectAll("#link-to-projects").classed("manual-hover", false);
                     linechartParameters.radius = 2.5;
-                    d3.selectAll(".linechartLine").attr("stroke-width", 1);
+                    d3.selectAll(".linechartLine").attr("stroke-width", 2);
                     d3.selectAll(".linechartCircleVisible").attr("r", linechartParameters.radius);
                 });
         },
@@ -529,6 +520,9 @@ let chartUtility = (function () {
         },
 
         linechartUpdate: function (randomItem) {
+            if (hovering) {
+                d3.selectAll("#link-to-projects").classed("manual-hover", true);
+            }
             updateLinechart(randomItem.projects, parameters.animationDuration)
         }
 
@@ -563,16 +557,10 @@ let chartUtility = (function () {
                 let randomItem = dataCopy[Math.floor(Math.random() * dataCopy.length)];
                 flowerchartParameters.prevItem = randomItem;
 
-                // if (lang === "en") {
                 d3.select("#creates-verb").html(randomItem.name.createsVerb);
                 let baseLink = langParams.project_paths.base + randomItem.id;
                 let linkToProjects = "<a id='link-to-projects' href='" + baseLink + "'>" + randomItem.name.case + "</a>";
                 d3.select("#creates-what").html(linkToProjects);
-                // } else {
-                //     d3.select("#creates-verb").html(randomItem.createsVerbS);
-                //     let linkToProjects = "<a id='link-to-projects' href='../rad/projekti/" + randomItem.id + "'>" + randomItem.nameSCase + "</a>";
-                //     d3.select("#creates-what").html(linkToProjects);
-                // }
 
                 d3.select("#pictogram-" + randomItem.id)
                     .attr("class", "pictome-small-sun");
@@ -651,13 +639,13 @@ let chartUtility = (function () {
         margin: {top: 4, right: 4, bottom: 20, left: 4, lineAdj: 9, baseAdj: 8},
         ticks: [(new Date(1984, 1)), (new Date(2020, 1))],
         xShift: 0
-    }
+    };
 
     let linechartParamsIndex = {
         computeWidth: function () {
             return 340;
         },
-        height: 100,
+        height: 70,
         class: ".linechart",
         margin: {top: 4, right: 4, bottom: 28, left: 4, lineAdj: 7, baseAdj: 8},
         ticks: [(new Date(1984, 1)), (new Date(2020, 1))],
@@ -666,7 +654,7 @@ let chartUtility = (function () {
 
     let getLinechartParamsHeader = function (year) {
         let projectYear = +year;
-        if ((projectYear != undefined) && (projectYear != 2020)) {
+        if ((projectYear !== undefined) && (projectYear !== 2020)) {
             linechartParamsHeader.ticks = [
                 (new Date(1984, 1)),
                 (new Date(projectYear, 1)),
@@ -747,14 +735,14 @@ let chartUtility = (function () {
 
         let timelineData = [], maxCount = 0, projectYear;
         origTimeline.forEach(function (event, i) {
-            if (i == 0) projectYear = +event.year;
+            if (i === 0) projectYear = +event.year;
             if (event.events.length > maxCount) maxCount = event.events.length;
             timelineData.push({year: event.year.toString(), projectCount: event.events.length});
         });
 
         tdata = fillMissingDates(timelineData);
         updateLinechart(tdata, 0, maxCount);
-    }
+    };
 
     let updateLinechart = function (data, currentDuration = 0, maxCount = maximumProjectCount) {
 
