@@ -4,6 +4,7 @@ title:
     short: Fizičke vizuelizacije podataka
 id: physical-dataviz-workshops
 date: 2016
+featured: 2
 ranks:
     visual: 4
     digital: 2

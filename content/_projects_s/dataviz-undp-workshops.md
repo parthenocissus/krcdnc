@@ -2,6 +2,7 @@ title:
     name: UNDP Škola za podatke
 id: dataviz-undp-workshops
 date: 2019
+featured: 2
 ranks:
     visual: 3
     digital: 4 

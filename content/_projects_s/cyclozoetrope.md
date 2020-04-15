@@ -2,6 +2,7 @@ title:
     name: Ciklozoetrop
 id: cyclozoetrope
 date: 2017
+featured: 2
 ranks:
     visual: 3
     digital: 1

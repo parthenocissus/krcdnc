@@ -2,6 +2,7 @@ title:
     name: Dug kao dijabetes
 id: debt-as-diabetes
 date: 2018
+featured: 2
 ranks:
     visual: 4
     digital: 2

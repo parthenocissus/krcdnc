@@ -58,7 +58,7 @@ def projects():
 @app.route("/rad/projekti/")
 def projects_s():
     project_list = [p for p in flatpages if p.path.startswith(PROJECTS_SH_DIR)]
-    project_list.sort(key=lambda item: item['date'], reverse=True)
+    project_list.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
     project_list_grouped = [{"year": y, "projects": list(i)} for y, i in groupby(project_list, lambda item: item['date'])]
     return render_template('project_list.html', projects=project_list_grouped, params=lang.sh())
 
@@ -79,7 +79,7 @@ def projects_by_category(by, criteria):
 def projects_by_category_s(by, criteria):
     project_pages = [p for p in flatpages if p.path.startswith(PROJECTS_SH_DIR)]
     filtered_projects = list(filter(lambda x: (criteria in map(lambda d: d["id"], x[by])), project_pages))
-    filtered_projects.sort(key=lambda item: item['date'], reverse=True)
+    filtered_projects.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
     project_list_grouped = [{"year": y, "projects": list(i)} for y, i in groupby(filtered_projects, lambda item: item['date'])]
     return render_template('project_list.html', projects=project_list_grouped, params=lang.sh())
 

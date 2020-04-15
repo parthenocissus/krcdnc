@@ -2,6 +2,7 @@ title:
     name: Identitet laboratorije GOAI
 id: goai-gps
 date: 2009
+featured: 2
 ranks:
     visual: 3
     digital: 4

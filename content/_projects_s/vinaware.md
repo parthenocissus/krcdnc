@@ -4,6 +4,7 @@ title:
     short: Ja nisam željan da me ko voli…
 id: vinaware
 date: 2019
+featured: 3
 goto:
     link: "http://vinaware.krcadinac.com"
     label: "Otvori stranicu projekta"

@@ -2,6 +2,7 @@ title:
     name: "Identitet Kluba putnika"
 id: kp-identity
 date: 2014
+featured: 2
 ranks:
     visual: 4
     digital: 4

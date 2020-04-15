@@ -2,6 +2,7 @@ title:
     name: Priča o jednom gradu
 id: tale-of-a-town
 date: 2004
+featured: 2
 ranks:
     visual: 4
     digital: 1

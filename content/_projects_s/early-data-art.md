@@ -3,6 +3,7 @@ title:
     short: Najraniji data crteži
 id: early-data-art
 date: 1989
+featured: 2
 ranks:
     visual: 4
     digital: 0

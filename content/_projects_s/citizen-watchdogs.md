@@ -2,6 +2,7 @@ title:
     name: Građani na straži
 id: citizen-watchdogs
 date: 2016
+featured: 2
 ranks:
     visual: 4
     digital: 3

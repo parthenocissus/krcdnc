@@ -2,6 +2,7 @@ title:
     name: Zagrebački geoglifi
 id: geoglyphs-zg
 date: 2017
+featured: 2
 ranks:
     visual: 3
     digital: 4

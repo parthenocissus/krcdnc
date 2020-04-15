@@ -2,6 +2,7 @@ title:
     name: Petnička stabla
 id: petnica-trees
 date: 2015
+featured: 2
 ranks:
     visual: 4
     digital: 2

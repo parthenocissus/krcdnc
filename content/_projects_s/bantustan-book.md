@@ -4,6 +4,7 @@ title:
     short: Bantustan
 id: bantustan-book
 date: 2015
+featured: 3
 ranks:
     visual: 4
     digital: 1

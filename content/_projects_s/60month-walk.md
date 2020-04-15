@@ -2,6 +2,7 @@ title:
     name: Hodali smo 60 meseci
 id: 60month-walk
 date: 2017
+featured: 2
 ranks:
     visual: 4
     digital: 2

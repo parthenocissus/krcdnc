@@ -2,6 +2,7 @@ title:
     name: Oko Sahare
 id: eye-of-sahara
 date: 2013
+featured: 2
 ranks:
     visual: 3
     digital: 1

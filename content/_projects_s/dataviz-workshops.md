@@ -3,6 +3,7 @@ title:
     short: Dataviz radionice
 id: dataviz-workshops
 date: 2015
+featured: 2
 ranks:
     visual: 3
     digital: 4

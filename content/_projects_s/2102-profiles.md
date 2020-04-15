@@ -2,6 +2,7 @@ title:
     name: 2102 profila
 id: 2102-profiles
 date: 2002
+featured: 2
 ranks:
     visual: 4
     digital: 0

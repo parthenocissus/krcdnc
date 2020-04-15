@@ -2,6 +2,7 @@ title:
     name: Svoj
 id: svoj
 date: 2002
+featured: 2
 ranks:
     visual: 4
     digital: 1

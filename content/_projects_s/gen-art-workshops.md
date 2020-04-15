@@ -3,6 +3,7 @@ title:
 title_short: Generativna umetnost
 id: gen-art-workshops
 date: 2018
+featured: 2
 ranks:
     visual: 3
     digital: 4
