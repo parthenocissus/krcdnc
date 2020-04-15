@@ -2,6 +2,7 @@ title:
     name: Early Comics and Caricatures
 id: early-comics-caricatures
 date: 1998
+featured: 2
 ranks:
     visual: 4
     digital: 0

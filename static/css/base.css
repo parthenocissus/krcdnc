@@ -277,7 +277,6 @@ aside {
     text-decoration: none;
 }
 .side-nav ul li a:hover {
-/*.side-nav .menu-links a:hover {*/
     color: var(--lightcolor);
     text-decoration: none;
 }

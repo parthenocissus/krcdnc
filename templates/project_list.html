@@ -16,23 +16,31 @@
 {% block lang_link %}{{ params.project_captions.lang_link }}{% endblock %}
 
 {% block main_container %}
-
     <div class="main-container">
 
         {% for p in projects %}
-            <p>{{ p.year }}</p>
-            {% for project in p.projects %}
-                {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
-                <a href="{{ project_link }}">
-                    {{ project.title.name }}
-                </a>
-{#                <small>{{ project.date }}</small>#}
-                <br>
-            {% endfor %}
+
+            <div class="year-container">
+
+                <div class="year-title dashed-top">{{ p.year }}</div>
+                <div class="year-projects">
+
+                    {% for project in p.projects %}
+                        {% set featured_class = " featured" if project.featured == 3 else "" %}
+                        {% set project_class = "project" ~ featured_class %}
+                        {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
+                        <div class="{{ project_class }}" onclick="baseUtility.openInNewTab('{{ project_link }}')">
+                            <a href="#">{{ project.title.name }}</a>
+                        </div>
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
         {% endfor %}
 
     </div>
-
 {% endblock %}
 
 {% block jscript %}

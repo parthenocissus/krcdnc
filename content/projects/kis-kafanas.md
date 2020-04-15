@@ -4,6 +4,7 @@ title:
     short: EOTD's Kafanas
 id: kis-kafanas
 date: 2015
+featured: 2
 ranks:
     visual: 3
     digital: 2

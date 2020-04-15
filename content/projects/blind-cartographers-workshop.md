@@ -4,6 +4,7 @@ title:
     short: Blind Cartographers
 id: blind-cartographers-workshop
 date: 2012
+featured: 2
 category: 
     - id: workshop
       name: Workshop

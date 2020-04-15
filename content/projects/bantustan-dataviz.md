@@ -4,6 +4,7 @@ title:
     short: Bantustan Dataviz
 id: bantustan-dataviz
 date: 2015
+featured: 2
 category:
     - id: data-art
       name: Data Art

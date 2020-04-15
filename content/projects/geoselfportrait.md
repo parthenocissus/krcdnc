@@ -2,6 +2,7 @@ title:
     name: Geo-Self-Portrait
 id: geoselfportrait
 date: 2017
+featured: 2
 ranks:
     visual: 4
     digital: 4

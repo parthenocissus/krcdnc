@@ -2,6 +2,7 @@ title:
     name: Animation Game Jams
 id: gamejam
 date: 2018
+featured: 2
 ranks:
     visual: 3
     digital: 4

@@ -4,6 +4,7 @@ title:
     short: Self-Portrait
 id: selfportrait-animation
 date: 2007
+featured: 2
 ranks:
     visual: 4
     digital: 2

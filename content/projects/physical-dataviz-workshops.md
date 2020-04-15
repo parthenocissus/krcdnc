@@ -4,6 +4,7 @@ title:
     short: Physical Dataviz
 id: physical-dataviz-workshops
 date: 2016
+featured: 2
 ranks:
     visual: 4
     digital: 2

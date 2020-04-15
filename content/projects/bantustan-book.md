@@ -3,6 +3,7 @@ title:
     html: "Bantustan:<br>Atlas jednog putovanja"
     short: Bantustan
 id: bantustan-book
+featured: 3
 date: 2015
 ranks:
     visual: 4

@@ -3,6 +3,7 @@ title:
     short: Data Storytelling
 id: data-storytelling-workshops
 date: 2014
+featured: 2
 ranks:
     visual: 2
     digital: 4

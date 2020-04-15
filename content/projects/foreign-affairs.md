@@ -2,6 +2,7 @@ title:
     name: Foreign Affairs
 id: foreign-affairs
 date: 2013
+featured: 2
 ranks:
     visual: 4
     digital: 4

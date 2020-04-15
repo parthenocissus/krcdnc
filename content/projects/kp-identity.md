@@ -2,6 +2,7 @@ title:
     name: "The Travel Club Identity"
 id: kp-identity
 date: 2014
+featured: 2
 ranks:
     visual: 4
     digital: 4

@@ -2,6 +2,7 @@ title:
     name: The Wind and the Seed
 id: wind-seed
 date: 2020
+featured: 2
 ranks:
     visual: 4
     digital: 1

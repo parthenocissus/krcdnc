@@ -3,6 +3,7 @@ title:
     html: "Artificial Intelligence<br>for Artists and Writers"
     short: AI for Artists + Writers
 id: ai-art-workshops
+featured: 3
 date: 2019
 ranks:
     visual: 3

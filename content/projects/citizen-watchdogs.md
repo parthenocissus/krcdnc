@@ -2,6 +2,7 @@ title:
     name: Citizen Watchdogs
 id: citizen-watchdogs
 date: 2016
+featured: 2
 ranks:
     visual: 4
     digital: 3

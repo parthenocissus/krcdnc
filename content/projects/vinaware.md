@@ -4,6 +4,7 @@ title:
     short: I Do Not Wish To Be Loved…
 id: vinaware
 date: 2019
+featured: 3
 goto:
     link: "http://vinaware.krcadinac.com"
     label: "Open Project"

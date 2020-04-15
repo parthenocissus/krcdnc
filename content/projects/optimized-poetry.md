@@ -2,6 +2,7 @@ title:
     name: Optimized Poetry
 id: optimized-poetry
 date: 2018
+featured: 2
 ranks:
     visual: 1
     digital: 4 

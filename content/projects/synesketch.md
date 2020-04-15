@@ -2,6 +2,7 @@ title:
     name: Synesketch
 id: synesketch
 date: 2008
+featured: 3
 goto:
     link: "/download/synesketch/synesketch.zip"
     label: "Download Source Code"

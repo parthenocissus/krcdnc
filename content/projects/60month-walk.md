@@ -2,6 +2,7 @@ title:
     name: The 60-Month Walk
 id: 60month-walk
 date: 2017
+featured: 2
 ranks:
     visual: 4
     digital: 2

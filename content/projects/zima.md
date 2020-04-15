@@ -2,6 +2,7 @@ title:
     name: Zima
 id: zima
 date: 2019
+featured: 2
 ranks:
     visual: 0
     digital: 4
