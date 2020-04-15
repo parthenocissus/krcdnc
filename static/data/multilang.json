@@ -1,8 +1,9 @@
 {
   "en_params": {
     "lang": "en",
-    "project_paths": {
-      "base": "/work/projects/",
+    "paths": {
+      "home": "/work/",
+      "projects": "/work/projects/",
       "category": "category/",
       "role": "role/",
       "medium": "medium/"
@@ -81,8 +82,9 @@
   },
   "sh_params": {
     "lang": "sh",
-    "project_paths": {
-      "base": "/rad/projekti/",
+    "paths": {
+      "home": "/rad/",
+      "projects": "/rad/projekti/",
       "category": "kategorija/",
       "role": "uloga/",
       "medium": "medijum/"

@@ -559,7 +559,7 @@ let chartUtility = (function () {
                 flowerchartParameters.prevItem = randomItem;
 
                 d3.select("#creates-verb").html(randomItem.name.createsVerb);
-                let baseLink = langParams.project_paths.base + randomItem.id;
+                let baseLink = langParams.paths.projects + randomItem.id;
                 let linkToProjects = "<a id='link-to-projects' href='" + baseLink + "'>" + randomItem.name.case + "</a>";
                 d3.select("#creates-what").html(linkToProjects);
 

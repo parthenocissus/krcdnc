@@ -23,7 +23,7 @@
 {% endblock %}
 
 {% block breadcrumbs %}
-    {% set projects_path = params.project_paths.base %}
+    {% set projects_path = params.paths.base %}
     {% set this_project_path = projects_path ~ project.id %}
     {% set this_project_title = project.title.short if project.title.short is defined else project.title.name %}
     <mark>⟶</mark>
@@ -88,7 +88,7 @@
             </div>
             <div class="interface-text-article">
                 {% for role in project.role %}
-                    {% set href = params.project_paths.base ~ params.project_paths.role ~ role.id %}
+                    {% set href = params.paths.projects ~ params.paths.role ~ role.id %}
                     {% set slash = " / " if loop.index != project.role|length else "" %}
                     <a href="{{ href }}" target="_blank">{{ role.name }}</a>{{ slash }}
                 {% endfor %}
@@ -97,7 +97,7 @@
             <div class="interface-heading-article">{{ params.project_captions.medium }}</div>
             <div class="interface-text-article">
                 {% for medium in project.medium %}
-                    {% set href = params.project_paths.base ~ params.project_paths.medium ~ medium.id %}
+                    {% set href = params.paths.projects ~ params.paths.medium ~ medium.id %}
                     {% set slash = " / " if loop.index != project.medium|length else "" %}
                     <a href="{{ href }}" target="_blank">{{ medium.name }}</a>{{ slash }}
                 {% endfor %}
@@ -139,7 +139,7 @@
                 <div class="interface-heading-article no-padding-top">{{ params.project_captions.categories }}</div>
                 <div class="interface-text-article">
                     {% for tag in project.category %}
-                        {% set href = params.project_paths.base ~ params.project_paths.category ~ tag.id %}
+                        {% set href = params.paths.projects ~ params.paths.category ~ tag.id %}
                         {% set slash = " / " if loop.index != project.category|length else "" %}
                         <a href="{{ href }}" target="_blank">{{ tag.name }}</a>{{ slash }}
                     {% endfor %}
