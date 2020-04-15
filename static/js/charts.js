@@ -3,6 +3,7 @@ let chartUtility = (function () {
     /* Lang Section */
 
     let langParams;
+    let currentItem;
     let dataCopy = [];
     let lang, pictoData, maximumProjectCount;
     let hovering = false;
@@ -504,6 +505,14 @@ let chartUtility = (function () {
                     linechartParameters.radius = 2.5;
                     d3.selectAll(".linechartLine").attr("stroke-width", 2);
                     d3.selectAll(".linechartCircleVisible").attr("r", linechartParameters.radius);
+                })
+                .on("click", function () {
+                    hovering = false;
+                    if (currentItem) {
+                        let url = langParams.paths.projects + langParams.paths.category + currentItem.id;
+                        let win = window.open(url, '_blank');
+                        win.focus();
+                    }
                 });
         },
 
@@ -556,12 +565,20 @@ let chartUtility = (function () {
                 params.flowerchartUpdate();
 
                 let randomItem = dataCopy[Math.floor(Math.random() * dataCopy.length)];
+                currentItem = randomItem;
                 flowerchartParameters.prevItem = randomItem;
 
                 d3.select("#creates-verb").html(randomItem.name.createsVerb);
-                let baseLink = langParams.paths.projects + randomItem.id;
-                let linkToProjects = "<a id='link-to-projects' href='" + baseLink + "'>" + randomItem.name.case + "</a>";
+                // let baseLink = langParams.paths.projects + langParams.paths.category + randomItem.id;
+                // let linkToProjects = "<a id='link-to-projects' href='" + baseLink + "'>" + randomItem.name.case + "</a>";
+                // d3.select("#creates-what").html(linkToProjects);
+
+                let linkToProjects = "<a id='link-to-projects' href='#'>" + randomItem.name.case + "</a>"
                 d3.select("#creates-what").html(linkToProjects);
+
+                d3.select(".linechart").attr("title", langParams.tooltip.linechart_index + randomItem.name.title);
+                d3.select(".main-pictome").attr("title", langParams.tooltip.bio_link_index + randomItem.name.title);
+                d3.select("#link-to-projects").attr("title", langParams.tooltip.bio_link_index + randomItem.name.title);
 
                 d3.select("#pictogram-" + randomItem.id)
                     .attr("class", "pictome-small-sun");
@@ -732,7 +749,7 @@ let chartUtility = (function () {
         updateLinechart(data);
     };
 
-    let drawLineChartHeader = function(origTimeline) {
+    let drawLineChartHeader = function (origTimeline) {
 
         let timelineData = [], maxCount = 0, projectYear;
         origTimeline.forEach(function (event, i) {

@@ -32,14 +32,14 @@
         </div>
 
 
-        <div class="short-bio">
+        <div class="short-bio" title="{{ params.tooltip.bio_index }}">
             {% block index_bio %}
                 {{ params.bio.homepage|safe }}
             {% endblock %}
         </div>
 
         <div class="flowerchart" onclick="location.href='{{ params.paths.projects }}'"
-            title="{{ params.menu_items[1].title }}">
+            title="{{ params.tooltip.projects_index }}">
         </div>
 
         <div class="linechart">

@@ -60,6 +60,9 @@ def projects_s():
     return render_template('test/posts.html', projects=project_list, params=lang.sh())
 
 
+# PROJECTS FILTERED
+# rendering filtered list of projects
+
 @app.route("/work/projects/<by>/<criteria>")
 def projects_by_category(by, criteria):
     project_pages = [p for p in flatpages if p.path.startswith(PROJECTS_DIR)]
@@ -68,9 +71,16 @@ def projects_by_category(by, criteria):
     return render_template('test/posts.html', projects=filtered_projects, params=lang.en())
 
 
+@app.route("/rad/projekti/<by>/<criteria>")
+def projects_by_category_s(by, criteria):
+    project_pages = [p for p in flatpages if p.path.startswith(PROJECTS_SH_DIR)]
+    filtered_projects = list(filter(lambda x: (criteria in map(lambda d: d["id"], x[by])), project_pages))
+    filtered_projects.sort(key=lambda item: item['date'], reverse=True)
+    return render_template('test/posts.html', projects=filtered_projects, params=lang.sh())
+
+
 # PROJECT SECTION
 # rendering project.html
-
 
 @app.route('/work/projects/<name>/')
 def project(name):

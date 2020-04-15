@@ -47,13 +47,17 @@
       "base_link": "/rad"
     },
     "bio": {
-      "homepage": "<a href='#'>Uroš Krčadinac</a> (b. 1984) is a Belgrade-based <br class='bio-break'>digital artist, technologist, writer, and educator <br class='bio-break'>who <span id='creates-verb'>creates</span> <span id='creates-what'>multidisciplinary projects</span>."
+      "homepage": "<a href='/work/about/'>Uroš Krčadinac</a> (b. 1984) is a Belgrade-based <br class='bio-break'>digital artist, technologist, writer, and educator <br class='bio-break'>who <span id='creates-verb'>creates</span> <span id='creates-what'>multidisciplinary projects</span>."
     },
     "page_title": {
       "homepage": " ← Data Art, Writing, Teaching"
     },
     "tooltip": {
-      "linechart": "Project Timeline ↓ Go To Presentations"
+      "linechart": "Project Timeline ↓ Go To Presentations",
+      "linechart_index": "Timeline of projects in category: ",
+      "bio_index": "Biography",
+      "projects_index": "All projects",
+      "bio_link_index": "Projects in category: "
     },
     "contact": {
       "title": "Contact"
@@ -85,9 +89,10 @@
     "paths": {
       "home": "/rad/",
       "projects": "/rad/projekti/",
-      "category": "kategorija/",
-      "role": "uloga/",
-      "medium": "medijum/"
+      "_COMMENT": "category: kategorija/, role: uloga/, medium: medijum/,",
+      "category": "category/",
+      "role": "role/",
+      "medium": "medium/"
     },
     "menu": {
       "title": "Sadržaj"
@@ -128,13 +133,17 @@
       "base_link": "/work"
     },
     "bio": {
-      "homepage": "<a href='#'>Uroš Krčadinac</a> (rođ. 1984) je <br class='bio-break-footer-sh'>digitalni umetnik, <br class='bio-break'> programer, autor <br class='bio-break-footer-sh'>i edukator koji <span id='creates-verb'>kreira</span> <br class='bio-break'><span id='creates-what'>transdisciplinarne projekte</span>."
+      "homepage": "<a href='/rad/biografija/'>Uroš Krčadinac</a> (rođ. 1984) je <br class='bio-break-footer-sh'>digitalni umetnik, <br class='bio-break'> programer, autor <br class='bio-break-footer-sh'>i edukator koji <span id='creates-verb'>kreira</span> <br class='bio-break'><span id='creates-what'>transdisciplinarne projekte</span>."
     },
     "page_title": {
       "homepage": " ← digitalni umetnik, programer, autor i edukator"
     },
     "tooltip": {
-      "linechart": "Vremenska linija projekta ↓ vidi prezentacije"
+      "linechart": "Vremenska linija projekta ↓ vidi prezentacije",
+      "linechart_index": "Vremenska linija projekata u kategoriji: ",
+      "bio_index": "Biografija",
+      "projects_index": "Svi projekti",
+      "bio_link_index": "Projekti u kategoriji: "
     },
     "contact": {
       "title": "Kontakt"
