@@ -1,0 +1,8 @@
+.main-container {
+    grid-area: maincont;
+    margin: 18px 0 120px 0;
+    font-family: Ambit-Regular;
+    font-size: 12pt;
+    line-height: 1.6em;
+    letter-spacing: 0.2pt;
+}

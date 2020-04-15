@@ -5,6 +5,7 @@ import sys
 from flask import Flask, render_template, send_file, redirect
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
+from itertools import groupby
 from langutil import LangUtil
 
 app = Flask(__name__)
@@ -50,14 +51,16 @@ def home_s():
 def projects():
     project_list = [p for p in flatpages if p.path.startswith(PROJECTS_DIR)]
     project_list.sort(key=lambda item: item['date'], reverse=True)
-    return render_template('test/posts.html', projects=project_list, params=lang.en())
+    project_list_grouped = [{"year": y, "projects": list(i)} for y, i in groupby(project_list, lambda item: item['date'])]
+    return render_template('project_list.html', projects=project_list_grouped, params=lang.en())
 
 
 @app.route("/rad/projekti/")
 def projects_s():
     project_list = [p for p in flatpages if p.path.startswith(PROJECTS_SH_DIR)]
     project_list.sort(key=lambda item: item['date'], reverse=True)
-    return render_template('test/posts.html', projects=project_list, params=lang.sh())
+    project_list_grouped = [{"year": y, "projects": list(i)} for y, i in groupby(project_list, lambda item: item['date'])]
+    return render_template('project_list.html', projects=project_list_grouped, params=lang.sh())
 
 
 # PROJECTS FILTERED
@@ -68,7 +71,8 @@ def projects_by_category(by, criteria):
     project_pages = [p for p in flatpages if p.path.startswith(PROJECTS_DIR)]
     filtered_projects = list(filter(lambda x: (criteria in map(lambda d: d["id"], x[by])), project_pages))
     filtered_projects.sort(key=lambda item: item['date'], reverse=True)
-    return render_template('test/posts.html', projects=filtered_projects, params=lang.en())
+    project_list_grouped = [{"year": y, "projects": list(i)} for y, i in groupby(filtered_projects, lambda item: item['date'])]
+    return render_template('project_list.html', projects=project_list_grouped, params=lang.en())
 
 
 @app.route("/rad/projekti/<by>/<criteria>")
@@ -76,7 +80,8 @@ def projects_by_category_s(by, criteria):
     project_pages = [p for p in flatpages if p.path.startswith(PROJECTS_SH_DIR)]
     filtered_projects = list(filter(lambda x: (criteria in map(lambda d: d["id"], x[by])), project_pages))
     filtered_projects.sort(key=lambda item: item['date'], reverse=True)
-    return render_template('test/posts.html', projects=filtered_projects, params=lang.sh())
+    project_list_grouped = [{"year": y, "projects": list(i)} for y, i in groupby(filtered_projects, lambda item: item['date'])]
+    return render_template('project_list.html', projects=project_list_grouped, params=lang.sh())
 
 
 # PROJECT SECTION

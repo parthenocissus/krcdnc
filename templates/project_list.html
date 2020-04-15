@@ -1,0 +1,52 @@
+{% extends "generic_page.html" %}
+
+{% block title %} → {{ params.tooltip.projects_index }}{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/project_list.css') }}">
+{% endblock %}
+
+{% block breadcrumbs %}
+    {% set projects_path = params.paths.base %}
+    <mark>⟶</mark>
+    <a href="{{ projects_path }}">{{ params.menu_items[1].title }}</a>
+{% endblock %}
+
+{% block lang_link %}{{ params.project_captions.lang_link }}{% endblock %}
+
+{% block main_container %}
+
+    <div class="main-container">
+
+        {% for p in projects %}
+            <p>{{ p.year }}</p>
+            {% for project in p.projects %}
+                {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
+                <a href="{{ project_link }}">
+                    {{ project.title.name }}
+                </a>
+{#                <small>{{ project.date }}</small>#}
+                <br>
+            {% endfor %}
+        {% endfor %}
+
+    </div>
+
+{% endblock %}
+
+{% block jscript %}
+    <script>
+        (function () {
+
+            chartUtility.setPeriodicalAnimation();
+
+            {#chartUtility.createProjectPictolist({{ project.category|safe }});#}
+            {#chartUtility.createLinechart(chartUtility.getLinechartParamsHeader({{ project.date|safe }}));#}
+            {#chartUtility.drawLineChartHeader({{ project.presentations|safe }});#}
+            {#chartUtility.drawPolarChart({{ project.ranks|safe }});#}
+            {#baseUtility.lightboxSetup();#}
+
+        }());
+    </script>
+{% endblock %}

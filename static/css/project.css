@@ -1,75 +1,5 @@
 /* Main Settings */
 
-html {
-}
-
-body {
-}
-
-#bottom-margin {
-    display: none;
-}
-
-#right-margin {
-    /*display: none;*/
-    width: 8px;
-}
-
-/* Breadcrumbs */
-
-/*#breadcrumbs {*/
-/*    position: fixed;*/
-/*    top: 20px;*/
-/*    left: 0px;*/
-/*    z-index: 6;*/
-/*}*/
-
-/*#breadcrumbs-arrow {*/
-/*}*/
-
-/*.breadcrumbs-text {*/
-/*    padding: 0 26px;*/
-/*    position: relative;*/
-/*    top: -2px;*/
-/*}*/
-
-/*.breadcrumbs-small-arrow {*/
-/*}*/
-
-/*#breadcrumbs-arrow-svg {*/
-/*}*/
-
-/*.breadcrumbs-arrow-style {*/
-/*    fill: none;*/
-/*    stroke: var(--darkcolor);*/
-/*    stroke-width: 1;*/
-/*}*/
-
-/*#breadcrumbs-background {*/
-/*    position: fixed;*/
-/*    top: 8px;*/
-/*    width: calc(100vw - 16px);*/
-/*    height: 50px;*/
-/*    z-index: 5;*/
-/*    background-color: var(--lightcolor);*/
-/*}*/
-
-/* Main Container */
-
-/*.main-container {*/
-/*    margin: 100px 0 0 0;*/
-/*    display: grid;*/
-/*    grid-template-columns: 1fr repeat(8, 100px) 1fr;*/
-/*    grid-template-rows: auto auto minmax(300px, auto) minmax(0, 1fr) 200px;*/
-/*    grid-gap: 32px;*/
-/*    grid-template-areas:*/
-/*        ".  .  .  pl pl pl pl .  .  . "*/
-/*        ".  .  .  in in in in .  .  . "*/
-/*        ".  im im im im im im im im . "*/
-/*        ".  ar ar ar .  tb tb il il . "*/
-/*        "fo fo fo fo fo fo fo fo fo fo";*/
-/*}*/
-
 .main-container {
     grid-area: maincont;
     margin: 18px 0 120px 0;
@@ -288,8 +218,8 @@ body {
 
 .article-text p {
     margin: 0;
-    font-size: 12pt;
     padding: 0 0 15px 0;
+    font-size: 12pt;
     line-height: 1.6em;
     letter-spacing: 0.2pt;
 }

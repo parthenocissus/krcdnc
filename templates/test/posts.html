@@ -1,8 +1,0 @@
-{% for project in projects %}
-    {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
-    <a href="{{ project_link }}">
-        {{ project.title.name }}
-    </a>
-    <small>{{ project.date }}</small>
-    <br>
-{% endfor %}
