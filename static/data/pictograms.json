@@ -233,7 +233,7 @@
     },
     "nameS": {
       "title": "Instalacije + performansi",
-      "case": "instalacije i performanse",
+      "case": "instalacije + performanse",
       "createsVerb": "kreira"
     },
     "id": "installation",
@@ -279,12 +279,12 @@
     "id": "book",
     "name": {
       "title": "Books",
-      "case": "Texts and Books",
+      "case": "Texts + Books",
       "createsVerb": "writes"
     },
     "nameS": {
       "title": "Knjige",
-      "case": "tekstove i knjige",
+      "case": "tekstove + knjige",
       "createsVerb": "piše i objavljuje"
     },
     "graphics": {
