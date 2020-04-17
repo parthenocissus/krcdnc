@@ -23,7 +23,7 @@
 {% endblock %}
 
 {% block breadcrumbs %}
-    {% set projects_path = params.paths.base %}
+    {% set projects_path = params.paths.projects %}
     {% set this_project_path = projects_path ~ project.id %}
     {% set this_project_title = project.title.short if project.title.short is defined else project.title.name %}
     <mark>⟶</mark>

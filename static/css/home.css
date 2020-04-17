@@ -134,6 +134,8 @@ main {
     fill: none;
     stroke: var(--suncolor);
     stroke-width: 1.1;
+    transition: stroke 0.18s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .pictome:hover {
@@ -200,7 +202,7 @@ main {
 
 /* big picto on hover */
 .sun-stroke-only {
-    stroke-width: 1.5;
+    stroke-width: 1.7;
 }
 
 .light-stroke-only {
@@ -234,6 +236,8 @@ main {
 .linechart .linechartLine {
     fill: none;
     stroke: var(--suncolor);
+    transition: stroke 0.18s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .linechart .linechartXaxis {

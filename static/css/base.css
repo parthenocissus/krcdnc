@@ -3,10 +3,12 @@
 :root {
     /* Colors */
     --suncolor: #FFB901;
-    --lightcolor: #F6F5F1;
+    --lightcolor: #FFFFFF;
     --darkcolor: #1D1D1B;
     --graycolor: #c2c2c2;
-    --suncolor2: #ffdc80;
+
+    /* Old colors */
+    --lightcolorA: #F6F5F1;
 }
 
 /* Main Settings */
