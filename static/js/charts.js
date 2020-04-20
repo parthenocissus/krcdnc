@@ -670,7 +670,7 @@ let chartUtility = (function () {
         xShift: 0
     };
 
-    let getLinechartParamsHeader = function (year) {
+    let getLinechartParamsHeader = function (year = 1984) {
         let projectYear = +year;
         if ((projectYear !== undefined) && (projectYear !== 2020)) {
             linechartParamsHeader.ticks = [
@@ -756,6 +756,18 @@ let chartUtility = (function () {
             if (i === 0) projectYear = +event.year;
             if (event.events.length > maxCount) maxCount = event.events.length;
             timelineData.push({year: event.year.toString(), projectCount: event.events.length});
+        });
+
+        tdata = fillMissingDates(timelineData);
+        updateLinechart(tdata, 0, maxCount);
+    };
+
+    let drawLineChartHeaderProjectList = function (origTimeline) {
+
+        let timelineData = [], maxCount = 0;
+        origTimeline.forEach(function (event, i) {
+            if (event.projects > maxCount) maxCount = event.projects;
+            timelineData.push({year: event.year.toString(), projectCount: event.projects});
         });
 
         tdata = fillMissingDates(timelineData);
@@ -855,16 +867,14 @@ let chartUtility = (function () {
         createFlowerchart: createFlowerchart,
         getFlowerParamsIndex: getFlowerParamsIndex,
         createLinechart: createLinechart,
-        //addData: addData,
-        mapDataToFlowerchart: mapDataToFlowerchart,
         drawLineChart: drawLineChart,
         getLinechartParamsIndex: getLinechartParamsIndex,
         getLinechartParamsHeader: getLinechartParamsHeader,
         setPeriodicalAnimation: setPeriodicalAnimation,
         createProjectPictolist: createProjectPictolist,
         drawLineChartHeader: drawLineChartHeader,
+        drawLineChartHeaderProjectList: drawLineChartHeaderProjectList,
         getPeriodicalAnimationParamsIndex: getPeriodicalAnimationParamsIndex,
-        getPeriodicalAnimationParamsFooter: getPeriodicalAnimationParamsFooter,
         drawPolarChart: drawPolarChart
     }
 

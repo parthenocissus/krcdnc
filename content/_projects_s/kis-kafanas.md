@@ -2,6 +2,7 @@ title:
     name: Mapa beogradskih kafana iz Enciklopedije mrtvih
     html: "Mapa beogradskih kafana<br>iz Enciklopedije mrtvih"
     short: Mapa beogradskih kafana
+    name_project_list: Mapa beogradskih kafana iz Enciklopedije mrtvih
 id: kis-kafanas
 date: 2015
 featured: 2

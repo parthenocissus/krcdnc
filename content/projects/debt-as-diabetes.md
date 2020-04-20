@@ -2,7 +2,7 @@ title:
     name: Debt as Diabetes
 id: debt-as-diabetes
 date: 2018
-featured: 2
+featured: 3
 ranks:
     visual: 4
     digital: 2

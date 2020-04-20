@@ -2,6 +2,7 @@ title:
     name: Mapping the Encyclopedia of the Dead's Kafanas
     html: "Mapping the<br>Encyclopedia of the Dead's<br>Kafanas"
     short: EOTD's Kafanas
+    name_project_list: Mapping the Encyclopedia of the Dead's Kafanas
 id: kis-kafanas
 date: 2015
 featured: 2

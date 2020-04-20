@@ -16,7 +16,27 @@
 {% block lang_link %}{{ params.project_captions.lang_link }}{% endblock %}
 
 {% block main_container %}
+
     <div class="main-container">
+
+        <div id="header-linechart" class="linechart"></div>
+
+        <div class="list-heading">
+            <div class="symbol"></div>
+            <div class="title">
+
+{#                <div class="criteria">All projects in category —</div>#}
+{#                <div class="name">Interactive Art + Design</div>#}
+
+{#                <div class="criteria">Role —</div>#}
+{#                <div class="name">Writer</div>#}
+
+                <div class="criteria">Projects —</div>
+                <div class="name">All categories</div>
+
+                <div class="description">Roles: artist / designer / publisher / educator / maker. Mediums: film / print / data visualization / interactive art / software / installation.</div>
+            </div>
+        </div>
 
         {% for p in projects %}
 
@@ -26,12 +46,21 @@
                 <div class="year-projects">
 
                     {% for project in p.projects %}
+
                         {% set featured_class = " featured" if project.featured == 3 else "" %}
                         {% set project_class = "project" ~ featured_class %}
                         {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
+                        {% set thumb_path = "media/projects/" ~ project.id ~ "/"  ~ project.id ~ "-main-thumb.jpg" %}
+                        {% set project_title = project.title.html|safe if project.title.html is defined else project.title.name %}
+                        {% set project_title = project.title.name_project_list|safe if project.title.name_project_list is defined else project_title %}
+
                         <div class="{{ project_class }}" onclick="location.href='{{ project_link }}';">
-                            <a href="#">{{ project.title.name }}</a>
+                            <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
+                            <div class="project-name">
+                                <a href="#">{{ project_title }}</a>
+                            </div>
                         </div>
+
                     {% endfor %}
 
                 </div>
@@ -48,6 +77,11 @@
         (function () {
 
             chartUtility.setPeriodicalAnimation();
+
+            console.log({{ data|safe }});
+
+            chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
+            chartUtility.drawLineChartHeaderProjectList({{ data|safe }});
 
             {#chartUtility.createProjectPictolist({{ project.category|safe }});#}
             {#chartUtility.createLinechart(chartUtility.getLinechartParamsHeader({{ project.date|safe }}));#}
