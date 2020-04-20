@@ -31,10 +31,10 @@
 {#                <div class="criteria">Role —</div>#}
 {#                <div class="name">Writer</div>#}
 
-                <div class="criteria">Projects —</div>
-                <div class="name">All categories</div>
+                <div class="criteria">Category —</div>
+                <div class="name">All Categories</div>
 
-                <div class="description">Roles: artist / designer / publisher / educator / maker. Mediums: film / print / data visualization / interactive art / software / installation.</div>
+                <div class="description">Roles — Artist / Designer / Publisher / Educator / Maker / Programmer / Researcher / Director</div>
             </div>
         </div>
 
@@ -77,11 +77,9 @@
         (function () {
 
             chartUtility.setPeriodicalAnimation();
-
-            console.log({{ data|safe }});
-
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
             chartUtility.drawLineChartHeaderProjectList({{ data|safe }});
+            chartUtility.drawProjectListSymbol();
 
             {#chartUtility.createProjectPictolist({{ project.category|safe }});#}
             {#chartUtility.createLinechart(chartUtility.getLinechartParamsHeader({{ project.date|safe }}));#}

@@ -78,6 +78,36 @@
     margin: 30px 0 0 0;
 }
 
+/* Pictogram Symbol */
+
+.pictolist-item {
+    fill: none;
+    stroke: var(--suncolor);
+    stroke-width: 1.4;
+    pointer-events: none;
+}
+
+.light-fill {
+    fill: var(--lightcolor);
+    stroke: none;
+    pointer-events: auto;
+}
+
+.pictome-dot {
+    stroke: none;
+    fill: var(--suncolor);
+}
+
+.sun-stroke-only {
+    stroke: var(--darkcolor);
+    stroke-width: 1.5;
+    cursor: pointer;
+}
+
+.pictome-dot-sun {
+    fill: var(--darkcolor);
+    cursor: pointer;
+}
 
 /* Project List */
 
@@ -85,7 +115,7 @@
     display: grid;
     grid-template-columns: 100px auto;
     grid-template-rows: auto;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .year-projects {

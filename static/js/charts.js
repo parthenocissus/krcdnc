@@ -91,7 +91,7 @@ let chartUtility = (function () {
 
     };
 
-    // Project List Pictogram
+    // Project List Pictogram Symbol
 
     /*
 
@@ -102,6 +102,55 @@ let chartUtility = (function () {
     <line class="st0" x1="11.1" y1="15.3" x2="11.1" y2="34"/>
 
      */
+
+    let listSymbol = {
+        name: "All Projects",
+        id: "all",
+        graphics: {
+            "headcx": 8.5,
+            "headcy": 4.8,
+            "headr": 3.5,
+            "arm1d": "M1.2,15.3 1.2,34",
+            "arm2d": "M16,15.3 16,34",
+            "leg1d": "M6.1,15.3 6.1,34",
+            "leg2d": "M11.1,15.3 11.1,34"
+        }
+    };
+
+    let drawProjectListSymbol = function (params = projectPictolistParams) {
+
+        let scale = 1.7,
+            w = 17 * scale,
+            h = 35 * scale;
+
+        let symbolSvg = d3.select(".symbol").append("svg")
+            //.attr("viewBox", "0 0 " + w + " " + h).attr("preserveAspectRatio", "xMinYMin meet")
+            .attr("width", w).attr("height", h)
+            .attr("id", "symbolSvg");
+
+        let pictogramParams = {
+            data: listSymbol.graphics,
+            svg: symbolSvg,
+            width: w,
+            height: h,
+            class: params.class,
+            id: listSymbol.id,
+            rectClass: params.rectClass,
+            dotClass: params.dotClass,
+            scale: scale,
+            idPrefix: params.idPrefix,
+            rectMouseover: function () {
+            },
+            rectMouseout: function () {
+            },
+            transformFn: function () {
+                return "translate(0, 0) scale(" + scale + " " + scale + ")";
+            }
+        };
+
+        drawSinglePictogram(pictogramParams);
+
+    };
 
     // Pictolist Section
 
@@ -127,7 +176,7 @@ let chartUtility = (function () {
         pictoWidthPlusGap = pictoWidth + pictoGap;
 
         let pictolistSvg = d3.select(params.svg).append("svg")
-            //.attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight).attr("preserveAspectRatio", "xMinYMin meet")
+        //.attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight).attr("preserveAspectRatio", "xMinYMin meet")
             .attr("width", pictolistWidth).attr("height", pictolistHeight)
             .attr("id", "projectPictolistSvg");
 
@@ -886,6 +935,7 @@ let chartUtility = (function () {
         createProjectPictolist: createProjectPictolist,
         drawLineChartHeader: drawLineChartHeader,
         drawLineChartHeaderProjectList: drawLineChartHeaderProjectList,
+        drawProjectListSymbol: drawProjectListSymbol,
         getPeriodicalAnimationParamsIndex: getPeriodicalAnimationParamsIndex,
         drawPolarChart: drawPolarChart
     }
