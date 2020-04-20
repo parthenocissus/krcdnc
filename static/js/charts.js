@@ -86,10 +86,22 @@ let chartUtility = (function () {
             transformFn: function () {
                 return "scale(" + scale + " " + scale + ")";
             }
-        }
+        };
         drawSinglePictogram(pictogramParams);
 
     };
+
+    // Project List Pictogram
+
+    /*
+
+    <circle id="head" class="st0" cx="8.5" cy="4.8" r="3.5"/>
+    <line class="st0" x1="1.2" y1="15.3" x2="1.2" y2="34"/>
+    <line class="st0" x1="16" y1="15.3" x2="16" y2="34"/>
+    <line class="st0" x1="6.1" y1="15.3" x2="6.1" y2="34"/>
+    <line class="st0" x1="11.1" y1="15.3" x2="11.1" y2="34"/>
+
+     */
 
     // Pictolist Section
 
@@ -104,7 +116,7 @@ let chartUtility = (function () {
             let introDiv = d3.select('.article-main-description').node();
             return introDiv.getBoundingClientRect().width;
         }
-    }
+    };
 
     let createProjectPictolist = function (tags, params = projectPictolistParams) {
 
