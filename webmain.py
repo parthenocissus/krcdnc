@@ -86,7 +86,6 @@ def project(name):
 @app.route('/rad/projekti/<name>/')
 def project_s(name):
     this_project = flatpages.get_or_404('{}/{}'.format(PROJECTS_SH_DIR, name))
-    # this_project = LangUtil.prepare_sh_project(this_project)
     return render_template('project.html', project=this_project, params=lang.sh())
 
 
@@ -117,6 +116,11 @@ def download_file(args=None):
     print(path)
     # return send_file(path, as_attachment=True)
     return send_file(path)
+
+
+@app.route('/3/')
+def poem():
+    return render_template('test/3.html')
 
 
 # MAIN
