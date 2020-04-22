@@ -8,12 +8,12 @@
 {% endblock %}
 
 {% block breadcrumbs %}
-    {% set projects_path = params.paths.base %}
+    {% set projects_path = params.paths.projects %}
     <mark>⟶</mark>
     <a href="{{ projects_path }}">{{ params.menu_items[1].title }}</a>
 {% endblock %}
 
-{% block lang_link %}{{ params.project_captions.lang_link }}{% endblock %}
+{% block lang_link %}{{ params.project_captions.lang_link ~ data.lang_link_path }}{% endblock %}
 
 {% block main_container %}
 
@@ -24,17 +24,9 @@
         <div class="list-heading">
             <div class="symbol"></div>
             <div class="title">
-
-{#                <div class="criteria">All projects in category —</div>#}
-{#                <div class="name">Interactive Art + Design</div>#}
-
-{#                <div class="criteria">Role —</div>#}
-{#                <div class="name">Writer</div>#}
-
-                <div class="criteria">Category —</div>
-                <div class="name">All Categories</div>
-
-                <div class="description">Roles — Artist / Designer / Publisher / Educator / Maker / Programmer / Researcher / Director</div>
+                <div class="criteria">{{ data.tag_title|safe }} —</div>
+                <div class="name">{{ data.name_title|safe }}</div>
+                <div class="description">{{ data.description|safe }}</div>
             </div>
         </div>
 
@@ -78,8 +70,8 @@
 
             chartUtility.setPeriodicalAnimation();
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
-            chartUtility.drawLineChartHeaderProjectList({{ data|safe }});
-            chartUtility.drawProjectListSymbol();
+            chartUtility.drawLineChartHeaderProjectList({{ data.timeline|safe }});
+            chartUtility.drawProjectListSymbol("{{ data.pictoid }}");
 
             {#chartUtility.createProjectPictolist({{ project.category|safe }});#}
             {#chartUtility.createLinechart(chartUtility.getLinechartParamsHeader({{ project.date|safe }}));#}

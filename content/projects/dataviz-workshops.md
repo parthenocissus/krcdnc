@@ -25,6 +25,8 @@ role:
 medium:
     - id: dataviz
       name: Data Visualization
+    - id: map
+      name: Map
     - id: workshop
       name: Workshop
 presentation_title: Presentations

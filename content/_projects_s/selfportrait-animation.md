@@ -16,10 +16,14 @@ category:
       name: Digitalni crtež
 role:
     - id: animator
-      name: Reditelj + Animator
+      name: Animator
+    - id: director
+      name: Reditelj
 medium:
     - id: animation
-      name: Kratak animirani film
+      name: Animacija
+    - id: video
+      name: Kratki film
 team:
     - link: "https://www.imdb.com/name/nm1383706/"
       name: Vladimir Uspenski (dizajn zvuka)

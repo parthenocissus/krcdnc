@@ -28,6 +28,10 @@
     margin-bottom: 20px;
 }
 
+.linechart:hover .linechartLine {
+    stroke-width: 3;
+}
+
 .fill-bg {
     fill: var(--lightcolor);
 }
@@ -42,6 +46,8 @@
 .linechart .linechartLine {
     fill: none;
     stroke: var(--suncolor);
+    transition: 0.18s;
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .linechart .linechartXaxis {

@@ -20,6 +20,8 @@ role:
     - id: cartographer
       name: Cartographer
 medium:
+    - id: map
+      name: Map
     - id: print
       name: Print on tracing paper, 42.3 x 33 cm
 presentation_title: Exhibitions + Presentations

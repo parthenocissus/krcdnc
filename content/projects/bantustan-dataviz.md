@@ -27,7 +27,11 @@ role:
       name: Cartographer
 medium:
     - id: dataviz
-      name: Interactive Data Visualization    
+      name: Interactive Data Visualization
+    - id: software
+      name: Software   
+    - id: map
+      name: Map     
 presentation_title: Presentations
 presentations:
     - year: 2015

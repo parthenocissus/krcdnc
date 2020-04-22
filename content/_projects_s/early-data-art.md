@@ -19,10 +19,12 @@ category:
       name: Eksperimentalna kartografija
 role:
     - id: artist
-      name: Umetnik
+      name: Crtač
 medium:
     - id: print
       name: Crteži na papiru
+    - id: map
+      name: Mape
 presentation_title: Prezentacije
 presentations:
     - year: 1989

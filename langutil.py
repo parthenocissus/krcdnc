@@ -4,7 +4,6 @@ from datetime import date, datetime
 
 
 class LangUtil:
-
     EN = "en"
     SH = "sh"
 
@@ -12,34 +11,50 @@ class LangUtil:
         self.flatpages = flatpages
         self.max_project_count = 0
         self.projects_dir = 'projects'
+        self.data = None
 
         base_path = 'static/data/'
         multilang_path = base_path + "multilang.json"
         picto_path = base_path + 'pictograms.json'
 
         with open(multilang_path, encoding="utf8") as json_file:
-            lang_data = json.load(json_file)
-
-        self.en_data = lang_data["en_params"]
-        self.sh_data = lang_data["sh_params"]
-
+            self.lang_data = json.load(json_file)
         with open(picto_path, encoding="utf8") as json_file:
-            pictogram_data = json.load(json_file)
-
-        for tag in pictogram_data:
+            self.pictogram_data = json.load(json_file)
+        for tag in self.pictogram_data:
             tag["projects"] = self.__project_count_by_category(tag["id"])
 
-        self.en_data["pictodata"] = pictogram_data
-        self.sh_data["pictodata"] = LangUtil.__fix_sh_pictodata(pictogram_data)
+    def params(self):
+        return self.data
 
-        self.en_data["max"] = self.max_project_count
-        self.sh_data["max"] = self.max_project_count
+    def get_category_description(self, category):
+        category_item = [i for i in self.data["pictodata"] if i["id"] == category][0]
+        return category_item["name"]["description"]
 
-    def en(self):
-        return self.en_data
+    def get_tag_name(self, key, id):
+        item = [i for i in self.data[key] if i["id"] == id][0]
+        name = item["title"] if key != "pictodata" else item["name"]["title"]
+        return name
 
-    def sh(self):
-        return self.sh_data
+    def categories_html(self):
+        return self.__tag_html("pictodata", "category")
+
+    def roles_html(self):
+        return self.__tag_html("roles", "role")
+
+    def mediums_html(self):
+        return self.__tag_html("mediums", "medium")
+
+    def __tag_html(self, key, tag):
+        html = "<div class='list'>"
+        l = len(self.data[key]) - 1
+        for i, item in enumerate(self.data[key]):
+            link = self.data["paths"]["projects"] + self.data["paths"][tag] + item["id"]
+            slash = " / " if i < l else ""
+            title = item["title"] if tag != "category" else item["name"]["title"]
+            html += "<a href='" + link + "'>" + title + "</a>" + slash
+        html += "</div>"
+        return html
 
     def __project_count_by_category(self, tag):
         project_pages = [p for p in self.flatpages if p.path.startswith(self.projects_dir)]
@@ -58,29 +73,27 @@ class LangUtil:
 
         return projects_data
 
+
+class LangUtilEn(LangUtil):
+
+    def __init__(self, flatpages):
+        super().__init__(flatpages)
+        self.data = self.lang_data["en_params"]
+        self.data["pictodata"] = self.pictogram_data
+        self.data["max"] = self.max_project_count
+
+
+class LangUtilSh(LangUtil):
+
+    def __init__(self, flatpages):
+        super().__init__(flatpages)
+        self.data = self.lang_data["sh_params"]
+        self.data["pictodata"] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)
+        self.data["max"] = self.max_project_count
+
     @staticmethod
     def __fix_sh_pictodata(pictogram_data):
         new_data = copy.deepcopy(pictogram_data)
         for p in new_data:
             p["name"] = p["nameS"]
         return new_data
-
-    @staticmethod
-    def prepare_sh_project(page):
-        page.meta["title"] = page.meta["title_s"]
-        for c in page.meta["category"]:
-            c["name"] = c["name_s"]
-        for r in page.meta["role"]:
-            r["name"] = r["name_s"]
-        for m in page.meta["medium"]:
-            m["name"] = m["name_s"]
-        for p in page.meta["presentations"]:
-            for e in p["events"]:
-                e["name"] = e["name_s"]
-        if "team" in page.meta:
-            for t in page.meta["team"]:
-                t["name"] = t["name_s"]
-        if "team" in page.meta:
-            for t in page.meta["team"]:
-                t["name"] = t["name_s"]
-        return page

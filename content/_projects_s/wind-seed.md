@@ -22,6 +22,8 @@ role:
     - id: artist
       name: Umetnik koautor
 medium:
+    - id: map
+      name: Mapa
     - id: dataviz
       name: Fizička vizuelizacija podataka
 team:

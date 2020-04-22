@@ -20,6 +20,8 @@ role:
     - id: cartographer
       name: Kartograf
 medium:
+    - id: map
+      name: Mapa
     - id: print
       name: Štampa na papiru, 42.3 x 33 cm
 presentation_title: Izložbe + prezentacije

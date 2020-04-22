@@ -18,12 +18,14 @@ category:
       name: Vizuelizacija podataka
 role:
     - id: maker
-      name: Su-kreator
+      name: Mejker koautor
     - id: educator
       name: Edukator
 medium:
     - id: dataviz
       name: Fizička vizuelizacija podataka
+    - id: map
+      name: Mapa
     - id: workshop
       name: Radionica
 team:

@@ -22,6 +22,8 @@ role:
     - id: artist
       name: Co-Artist
 medium:
+    - id: map
+      name: Map
     - id: dataviz
       name: Physical Data Visualization
 team:

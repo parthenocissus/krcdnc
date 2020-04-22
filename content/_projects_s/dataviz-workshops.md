@@ -25,8 +25,10 @@ role:
 medium:
     - id: dataviz
       name: Vizuelizacija podataka
+    - id: map
+      name: Mapa
     - id: workshop
-      name: Radionica
+      name: Radionica    
 presentation_title: Radionice
 presentations:
     - year: 2015

@@ -23,6 +23,8 @@ role:
 medium:
     - id: print
       name: Drawing on Paper
+    - id: map
+      name: Map
 presentation_title: Presentations
 presentations:
     - year: 1989

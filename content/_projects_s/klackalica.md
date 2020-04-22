@@ -16,9 +16,13 @@ category:
 role:
     - id: animator
       name: Animator
+    - id: director
+      name: Reditelj
 medium:
     - id: animation
-      name: Kratki animirani film
+      name: Animacija
+    - id: video
+      name: Kratki film
 team:
     - name: Srđan Keča
 presentation_title: Festivals

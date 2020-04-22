@@ -6,7 +6,7 @@ from flask import Flask, render_template, send_file, redirect
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 import utils
-from langutil import LangUtil
+from langutil import LangUtilEn, LangUtilSh
 
 app = Flask(__name__)
 
@@ -21,27 +21,27 @@ app = Flask(__name__)
 flatpages = FlatPages(app)
 freezer = Freezer(app)
 app.config.from_object(__name__)
-lang = LangUtil(flatpages)
+
+en = LangUtilEn(flatpages)
+sh = LangUtilSh(flatpages)
 
 
 # BASE ROUTES
 # homepages in english and serbian
 
-
 @app.route("/")
 def false_home():
-    # return render_template('test/falsebase.html', params=setup_params(EN))
-    return render_template('test/falsebase.html', params=lang.en())
+    return render_template('test/falsebase.html', params=en.params())
 
 
 @app.route("/work/")
 def home():
-    return render_template('home.html', params=lang.en())
+    return render_template('home.html', params=en.params())
 
 
 @app.route("/rad/")
 def home_s():
-    return render_template('home.html', params=lang.sh())
+    return render_template('home.html', params=sh.params())
 
 
 # PROJECT LIST SECTION
@@ -49,29 +49,29 @@ def home_s():
 
 @app.route("/work/projects/")
 def projects():
-    list, data = utils.projects(flatpages, PROJECTS_DIR)
-    return render_template('project_list.html', projects=list, params=lang.en(), data=data)
+    list, data = utils.projects(flatpages, en, PROJECTS_DIR)
+    return render_template('project_list.html', projects=list, params=en.params(), data=data)
 
 
 @app.route("/rad/projekti/")
 def projects_s():
-    list, data = utils.projects(flatpages, PROJECTS_SH_DIR)
-    return render_template('project_list.html', projects=list, params=lang.sh(), data=data)
+    list, data = utils.projects(flatpages, sh, PROJECTS_SH_DIR)
+    return render_template('project_list.html', projects=list, params=sh.params(), data=data)
 
 
 # PROJECTS FILTERED
-# rendering filtered list of projects
+# rendering filtered list of projects, also project_list.html
 
 @app.route("/work/projects/<by>/<criteria>")
 def projects_by_category(by, criteria):
-    list, data = utils.projects_by_category(flatpages, PROJECTS_DIR, by, criteria)
-    return render_template('project_list.html', projects=list, params=lang.en(), data=data)
+    list, data = utils.projects_by_category(flatpages, en, PROJECTS_DIR, by, criteria)
+    return render_template('project_list.html', projects=list, params=en.params(), data=data)
 
 
 @app.route("/rad/projekti/<by>/<criteria>")
 def projects_by_category_s(by, criteria):
-    list, data = utils.projects_by_category(flatpages, PROJECTS_SH_DIR, by, criteria)
-    return render_template('project_list.html', projects=list, params=lang.sh(), data=data)
+    list, data = utils.projects_by_category(flatpages, sh, PROJECTS_SH_DIR, by, criteria)
+    return render_template('project_list.html', projects=list, params=sh.params(), data=data)
 
 
 # PROJECT SECTION
@@ -80,13 +80,13 @@ def projects_by_category_s(by, criteria):
 @app.route('/work/projects/<name>/')
 def project(name):
     this_project = flatpages.get_or_404('{}/{}'.format(PROJECTS_DIR, name))
-    return render_template('project.html', project=this_project, params=lang.en())
+    return render_template('project.html', project=this_project, params=en.params())
 
 
 @app.route('/rad/projekti/<name>/')
 def project_s(name):
     this_project = flatpages.get_or_404('{}/{}'.format(PROJECTS_SH_DIR, name))
-    return render_template('project.html', project=this_project, params=lang.sh())
+    return render_template('project.html', project=this_project, params=sh.params())
 
 
 # TESTING SECTION
@@ -96,7 +96,7 @@ def project_s(name):
 def project1(name):
     path = '{}/{}'.format(PROJECTS_DIR, name)
     this_project = flatpages.get_or_404(path)
-    return render_template('project1.html', project=this_project, params=lang.en())
+    return render_template('project1.html', project=this_project, params=en.params())
 
 
 # ADDITIONAL ROUTES

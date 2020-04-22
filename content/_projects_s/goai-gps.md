@@ -22,7 +22,7 @@ role:
     - id: cartographer
       name: Kartograf
 medium:
-    - id: drawing
+    - id: dataviz
       name: Geo-vizuelni identitet
 presentation_title: Prezentacije
 presentations:

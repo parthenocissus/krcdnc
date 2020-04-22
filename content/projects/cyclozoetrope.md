@@ -17,8 +17,6 @@ category:
     - id: interactive
       name: Interactive Art + Design
 role:
-    - id: inventor
-      name: Inventor
     - id: maker
       name: Co-Maker
     - id: educator
@@ -27,7 +25,7 @@ role:
       name: Animator
 medium:
     - id: machine
-      name: Machine
+      name: Installation Machine
     - id: performance
       name: Performance
     - id: workshop

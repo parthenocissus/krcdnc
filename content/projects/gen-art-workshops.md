@@ -26,7 +26,7 @@ medium:
     - id: animation
       name: Animation
     - id: software
-      name: Interactive Art
+      name: Interactive Software
     - id: workshop
       name: Workshop
 presentation_title: Presentations

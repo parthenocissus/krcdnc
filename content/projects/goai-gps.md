@@ -22,7 +22,7 @@ role:
     - id: cartographer
       name: Cartographer
 medium:
-    - id: drawing
+    - id: dataviz
       name: Geo-Based Visual Identity
 presentation_title: Exhibitions + Presentations
 presentations:

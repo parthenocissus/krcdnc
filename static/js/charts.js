@@ -10,7 +10,6 @@ let chartUtility = (function () {
 
     let setLangParams = function (params) {
         langParams = params;
-
         lang = params.lang;
         dataCopy = params.pictodata;
         maximumProjectCount = params.max;
@@ -93,16 +92,6 @@ let chartUtility = (function () {
 
     // Project List Pictogram Symbol
 
-    /*
-
-    <circle id="head" class="st0" cx="8.5" cy="4.8" r="3.5"/>
-    <line class="st0" x1="1.2" y1="15.3" x2="1.2" y2="34"/>
-    <line class="st0" x1="16" y1="15.3" x2="16" y2="34"/>
-    <line class="st0" x1="6.1" y1="15.3" x2="6.1" y2="34"/>
-    <line class="st0" x1="11.1" y1="15.3" x2="11.1" y2="34"/>
-
-     */
-
     let listSymbol = {
         name: "All Projects",
         id: "all",
@@ -117,24 +106,35 @@ let chartUtility = (function () {
         }
     };
 
-    let drawProjectListSymbol = function (params = projectPictolistParams) {
+    let drawProjectListSymbol = function (pictogramId) {
+
+        params = projectPictolistParams;
+
+        let pctgrm;
+        if (pictogramId === "general") {
+            pctgrm = generalFlowerPictogram;
+        } else {
+            pctgrm = dataCopy.find(object => {
+                return object.id === pictogramId;
+            });
+        }
 
         let scale = 1.7,
             w = 17 * scale,
             h = 35 * scale;
 
         let symbolSvg = d3.select(".symbol").append("svg")
-            //.attr("viewBox", "0 0 " + w + " " + h).attr("preserveAspectRatio", "xMinYMin meet")
+        //.attr("viewBox", "0 0 " + w + " " + h).attr("preserveAspectRatio", "xMinYMin meet")
             .attr("width", w).attr("height", h)
             .attr("id", "symbolSvg");
 
         let pictogramParams = {
-            data: listSymbol.graphics,
+            data: pctgrm.graphics,
             svg: symbolSvg,
             width: w,
             height: h,
             class: params.class,
-            id: listSymbol.id,
+            id: pctgrm.id,
             rectClass: params.rectClass,
             dotClass: params.dotClass,
             scale: scale,
@@ -210,11 +210,16 @@ let chartUtility = (function () {
                 transformFn: function () {
                     return "translate(" + (pictoWidthPlusGap * i) + ",0) "
                         + "scale(" + params.scale + " " + params.scale + ")";
+                },
+                rectClick: function() {
+                    url = langParams.paths.projects + langParams.paths.category + item.id;
+                    window.open(url, "_self");
                 }
-            }
+            };
 
             drawSinglePictogram(pictogramParams);
         });
+
     };
 
     // Polar Chart Section
@@ -511,7 +516,12 @@ let chartUtility = (function () {
             .attr("width", params.width / params.scale)
             .attr("height", params.height / params.scale)
             .on("mouseover", params.rectMouseover)
-            .on("mouseout", params.rectMouseout);
+            .on("mouseout", params.rectMouseout)
+            .on("click", function() {
+               if (typeof params.rectClick === "function" ) {
+                   params.rectClick();
+               }
+            });
 
         pictogram.append("circle")
             .attr("id", params.id + "Head")
@@ -571,8 +581,7 @@ let chartUtility = (function () {
                     hovering = false;
                     if (currentItem) {
                         let url = langParams.paths.projects + langParams.paths.category + currentItem.id;
-                        let win = window.open(url, '_blank');
-                        win.focus();
+                        window.open(url, "_self");
                     }
                 });
         },

@@ -18,12 +18,14 @@ category:
       name: Eksperimentalna geografija
 role:
     - id: maker
-      name: Su-kreator
+      name: Kreator
     - id: educator
       name: Edukator
 medium:
     - id: workshop
       name: Radionica
+    - id: map
+      name: Map
 team:
     - name: Ivona Petrov
 presentation_title: Prezentacije

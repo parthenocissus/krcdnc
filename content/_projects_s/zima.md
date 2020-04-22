@@ -24,6 +24,8 @@ role:
 medium:
     - id: book
       name: Knjiga
+    - id: performance
+      name: Čitački performans
 team:
     - link: 'http://www.skart.rs/'
       name: Kolektiv Škart

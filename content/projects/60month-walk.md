@@ -23,7 +23,9 @@ role:
       name: Workshop Creator
 medium:
     - id: installation
-      name: Land Art Installation + Live Performance
+      name: Land Art Installation
+    - id: performance
+      name: Live Performance
     - id: dataviz
       name: Physical Data Visualization 
 presentation_title: Presentations

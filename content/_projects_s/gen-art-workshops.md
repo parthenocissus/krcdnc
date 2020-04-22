@@ -19,14 +19,14 @@ category:
       name: Softver
 role:
     - id: maker
-      name: Su-kreator
+      name: Kreator
     - id: educator
       name: Edukator
 medium:
     - id: animation
       name: Animacija
     - id: software
-      name: Interaktivna umetnost
+      name: Interaktivan softver
     - id: workshop
       name: Radionica
 presentation_title: Prezentacije

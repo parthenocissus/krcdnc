@@ -24,6 +24,8 @@ role:
 medium:
     - id: workshop
       name: Workshop
+    - id: map
+      name: Map
 team:
     - name: Ivona Petrov
 presentation_title: Presentations

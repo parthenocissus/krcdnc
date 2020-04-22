@@ -27,7 +27,11 @@ role:
       name: Cartograf
 medium:
     - id: dataviz
-      name: Interaktivna vizuelizacija podataka    
+      name: Interaktivna vizuelizacija podataka  
+    - id: software
+      name: Softver
+    - id: map
+      name: Mapa
 presentation_title: Prezentacije
 presentations:
     - year: 2015

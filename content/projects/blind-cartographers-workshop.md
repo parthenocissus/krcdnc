@@ -28,7 +28,7 @@ role:
 medium:
     - id: workshop
       name: Workshop
-    - id: cartography
+    - id: map
       name: Experimental Cartography
 team:
     - link: 'http://www.thetravelclub.org/about-the-club'

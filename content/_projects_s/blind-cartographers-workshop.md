@@ -28,7 +28,7 @@ role:
 medium:
     - id: workshop
       name: Radionica
-    - id: cartography
+    - id: map
       name: Eksperimentalna kartografija
 team:
     - link: 'http://www.klubputnika.org/o-klub-putnika'

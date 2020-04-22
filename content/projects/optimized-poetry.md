@@ -25,7 +25,7 @@ role:
       name: Programmer
     - id: artist
       name: Digital Artist
-    - id: workshop-creator
+    - id: educator
       name: Workshop Creator  
 medium:
     - id: workshop

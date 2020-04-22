@@ -24,6 +24,8 @@ role:
 medium:
     - id: dataviz
       name: Physical Data Visualization
+    - id: map
+      name: Map
     - id: workshop
       name: Workshop
 team:

@@ -19,7 +19,7 @@ category:
       name: Interaktivna umetnost + dizajn
 role:
     - id: maker
-      name: Su-kreator
+      name: Mejker
     - id: educator
       name: Edukator
 medium:

@@ -20,9 +20,13 @@ category:
 role:
     - id: animator
       name: Animator
+    - id: director
+      name: Reditelj
 medium:
     - id: animation
-      name: Kratki animirani video
+      name: Animacija
+    - id: video
+      name: Video
     - id: dataviz
       name: Animirana infografika
 presentation_title: Prezentacije

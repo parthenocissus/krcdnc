@@ -15,12 +15,12 @@ category:
 role:
     - id: cartographer
       name: Kartograf
-    - id: maker
-      name: Ko-sinematograf   
+    - id: director
+      name: Snimatelj koautor  
 medium:
-    - id: data-art
+    - id: map
       name: Mape
-    - id: film
+    - id: video
       name: Video
 team:
     - link: 'http://www.klubputnika.org/autori/Lazar'

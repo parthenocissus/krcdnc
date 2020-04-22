@@ -17,17 +17,15 @@ category:
     - id: interactive
       name: Interaktivna umetnost + dizajn
 role:
-    - id: inventor
-      name: Pronalazač
     - id: maker
-      name: Su-kreator
+      name: Mejker koautor
     - id: educator
       name: Edukator
     - id: animator
       name: Animator
 medium:
-    - id: machine
-      name: Mašina
+    - id: installation
+      name: Mašina za instalacije
     - id: performance
       name: Performans
     - id: workshop

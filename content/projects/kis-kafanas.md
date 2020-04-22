@@ -29,7 +29,7 @@ role:
 medium:
     - id: workshop
       name: Workshop
-    - id: cartography
+    - id: map
       name: Hand-Drawn Cartography
 presentation_title: Presentations
 presentations:

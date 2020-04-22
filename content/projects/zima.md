@@ -10,31 +10,25 @@ ranks:
 category: 
     - id: digital-literature
       name: Digital Literature
-      name_s: Digitalna književnost
     - id: book
       name: Book
-      name_s: Knjiga
     - id: data-art
       name: Data Art
-      name_s: Data umetnost
     - id: ai
       name: Artificial Intelligence
-      name_s: Veštačka inteligencija
 role:
     - id: writer
       name: Co-Writer
-      name_s: Pisac koautor
     - id: programmer
       name: Programmer
-      name_s: Programer
 medium:
     - id: book
       name: Book
-      name_s: Knjiga
+    - id: performance
+      name: Reading Performance
 team:
     - link: 'http://www.skart.rs/'
       name: Škart Collective
-      name_s: Kolektiv Škart
     - link: 'https://www.davidalbahari.com/'
       name: David Albahari
     - link: 'https://novaiskra.com/ljiljana-ilic/'

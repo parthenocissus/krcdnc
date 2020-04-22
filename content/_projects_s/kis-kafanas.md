@@ -23,13 +23,13 @@ category:
       name: Vizuelizacija podataka
 role:
     - id: maker
-      name: Su-kreator
+      name: Mejker koautor
     - id: educator
       name: Edukator
 medium:
     - id: workshop
       name: Radionica
-    - id: cartography
+    - id: map
       name: Rukom crtana kartografija
 presentation_title: Prezentacije
 presentations:

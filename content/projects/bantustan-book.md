@@ -3,8 +3,8 @@ title:
     html: "Bantustan:<br>Atlas jednog putovanja"
     short: Bantustan
 id: bantustan-book
-featured: 3
 date: 2015
+featured: 3
 ranks:
     visual: 4
     digital: 1
@@ -34,8 +34,10 @@ role:
 medium:
     - id: book
       name: Book
-    - id: drawing
-      name: Digital Drawings and Hand-Drawn Maps
+    - id: print
+      name: Digital Drawings
+    - id: map
+      name: Hand-Drawn Maps
 team:
     - link: 'http://www.klubputnika.org/autori/Lazar'
       name: Lazar Pašćanović

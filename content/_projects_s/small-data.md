@@ -16,10 +16,14 @@ category:
       name: Vizuelizacija podataka
 role:
     - id: maker
-      name: Su-kreator
+      name: Mejker koautor
 medium:
     - id: installation
-      name: Instalacija + performans 
+      name: Instalacija
+    - id: performance
+      name: Performans
+    - id: map
+      name: Mapa 
 presentation_title: Prezentacije
 presentations:
     - year: 2017

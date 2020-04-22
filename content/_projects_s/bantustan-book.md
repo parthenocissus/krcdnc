@@ -26,16 +26,18 @@ role:
     - id: writer
       name: Pisac koautor
     - id: artist
-      name: Umetnik
+      name: Ilustrator
     - id: cartographer
       name: Kartograf
     - id: publisher
-      name: Koizdavač
+      name: Ko-izdavač
 medium:
     - id: book
       name: Knjiga
     - id: drawing
-      name: Digitalni crteži i rukom crtane mape i infografike
+      name: Digitalni crteži
+    - id: map
+      name: Rukom crtane mape i infografike
 team:
     - link: 'http://www.klubputnika.org/autori/Lazar'
       name: Lazar Pašćanović

@@ -12,7 +12,7 @@ category:
       name: Crtež
 role:
     - id: artist
-      name: Umetnik
+      name: Crtač
 medium:
     - id: print
       name: Crtež na papiru

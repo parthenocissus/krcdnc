@@ -15,10 +15,14 @@ category:
       name: Drawing
 role:
     - id: animator
-      name: Director + Animator
+      name: Animator
+    - id: director
+      name: Director
 medium:
     - id: animation
-      name: Animated Short Film
+      name: Animation
+    - id: video
+      name: Video
 team:
     - name: Srđan Keča
 presentation_title: Festivals

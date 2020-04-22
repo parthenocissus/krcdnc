@@ -19,7 +19,11 @@ role:
       name: Co-Creator
 medium:
     - id: installation
-      name: Installation + Live Performance 
+      name: Installation
+    - id: performance
+      name: Live Performance
+    - id: map
+      name: Map
 presentation_title: Presentations
 presentations:
     - year: 2017

@@ -16,10 +16,14 @@ category:
       name: Digital Drawing
 role:
     - id: animator
-      name: Director + Animator
+      name: Animator
+    - id: director
+      name: Director
 medium:
     - id: animation
-      name: Animated Short Film
+      name: Animation
+    - id: video
+      name: Video
 team:
     - link: "https://www.imdb.com/name/nm1383706/"
       name: Vladimir Uspenski (Sound Design)

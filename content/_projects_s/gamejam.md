@@ -17,7 +17,7 @@ category:
       name: Interaktivna umetnost + dizajn
 role:
     - id: maker
-      name: Su-kreator
+      name: Kreator
     - id: educator
       name: Edukator
 medium:

@@ -82,6 +82,97 @@
         "digital": "digital",
         "visual": "visual"
       }
+    },
+    "roles": [
+      {
+        "id": "artist",
+        "title": "Artist"
+      },
+      {
+        "id": "writer",
+        "title": "Writer"
+      },
+      {
+        "id": "programmer",
+        "title": "Programmer"
+      },
+      {
+        "id": "educator",
+        "title": "Educator + Workshop Creator"
+      },
+      {
+        "id": "designer",
+        "title": "Designer"
+      },
+      {
+        "id": "researcher",
+        "title": "Researcher"
+      },
+      {
+        "id": "director",
+        "title": "Director"
+      },
+      {
+        "id": "cartographer",
+        "title": "Cartographer"
+      },
+      {
+        "id": "maker",
+        "title": "Maker"
+      },
+      {
+        "id": "publisher",
+        "title": "Publisher"
+      }
+    ],
+    "mediums": [
+      {
+        "id": "print",
+        "title": "Print"
+      },
+      {
+        "id": "animation",
+        "title": "Animation"
+      },
+      {
+        "id": "software",
+        "title": "Software"
+      },
+      {
+        "id": "installation",
+        "title": "Installation"
+      },
+      {
+        "id": "performance",
+        "title": "Performance"
+      },
+      {
+        "id": "dataviz",
+        "title": "Data Visualization"
+      },
+      {
+        "id": "map",
+        "title": "Map"
+      },
+      {
+        "id": "book",
+        "title": "Book"
+      },
+      {
+        "id": "video",
+        "title": "Video"
+      },
+      {
+        "id": "workshop",
+        "title": "Workshop"
+      }
+    ],
+    "tag_titles": {
+      "role": "Role",
+      "medium": "Medium",
+      "category": "Category",
+      "all": "Projects in",
+      "all_title": "All Categories"
     }
   },
   "sh_params": {
@@ -168,6 +259,97 @@
         "digital": "digitalno",
         "visual": "vizuelno"
       }
+    },
+    "roles": [
+      {
+        "id": "artist",
+        "title": "Umetnik"
+      },
+      {
+        "id": "writer",
+        "title": "Pisac"
+      },
+      {
+        "id": "programmer",
+        "title": "Programer"
+      },
+      {
+        "id": "educator",
+        "title": "Edukator"
+      },
+      {
+        "id": "designer",
+        "title": "Dizajner"
+      },
+      {
+        "id": "researcher",
+        "title": "Istraživač"
+      },
+      {
+        "id": "director",
+        "title": "Reditelj"
+      },
+      {
+        "id": "cartographer",
+        "title": "Kartograf"
+      },
+      {
+        "id": "maker",
+        "title": "Mejker"
+      },
+      {
+        "id": "publisher",
+        "title": "Izdavač"
+      }
+    ],
+    "mediums": [
+      {
+        "id": "print",
+        "title": "Print"
+      },
+      {
+        "id": "animation",
+        "title": "Animacija"
+      },
+      {
+        "id": "software",
+        "title": "Softver"
+      },
+      {
+        "id": "installation",
+        "title": "Instalacija"
+      },
+      {
+        "id": "performance",
+        "title": "Performans"
+      },
+      {
+        "id": "dataviz",
+        "title": "Vizuelizacija podataka"
+      },
+      {
+        "id": "map",
+        "title": "Mapa"
+      },
+      {
+        "id": "book",
+        "title": "Knjiga"
+      },
+      {
+        "id": "video",
+        "title": "Video"
+      },
+      {
+        "id": "workshop",
+        "title": "Radionica"
+      }
+    ],
+    "tag_titles": {
+      "role": "Uloga",
+      "medium": "Medij",
+      "category": "Kategorija",
+      "all": "Projekti za",
+      "all_title": "Sve kategorije"
     }
   }
 }

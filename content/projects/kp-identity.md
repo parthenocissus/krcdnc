@@ -23,7 +23,7 @@ role:
     - id: programmer
       name: Programer
 medium:
-    - id: drawing
+    - id: dataviz
       name: Geo-Based Visual Identity
 team:
     - link: 'http://fud.edu.rs/monika-lang/'

@@ -4,12 +4,14 @@
     "name": {
       "title": "Experimental Cartography",
       "case": "Experimental Cartography",
-      "createsVerb": "works in"
+      "createsVerb": "works in",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Eksperimentalna kartografija",
       "case": "eksperimentalnom kartografijom",
-      "createsVerb": "se bavi"
+      "createsVerb": "se bavi",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 8.527,
@@ -29,12 +31,14 @@
     "name": {
       "title": "Experimental Geography",
       "case": "Experimental Geography",
-      "createsVerb": "works in"
+      "createsVerb": "works in",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Eksperimentalna geografija",
       "case": "eksperimentalnom geografijom",
-      "createsVerb": "se bavi"
+      "createsVerb": "se bavi",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 8.501,
@@ -54,12 +58,14 @@
     "name": {
       "title": "Animation",
       "case": "Animation",
-      "createsVerb": "makes"
+      "createsVerb": "makes",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Animacija",
       "case": "animacije i animirane filmove",
-      "createsVerb": "kreira"
+      "createsVerb": "kreira",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 9.54,
@@ -79,12 +85,14 @@
     "name": {
       "title": "Workshops",
       "case": "Workshops",
-      "createsVerb": "creates"
+      "createsVerb": "creates",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Radionice",
       "case": "radionice",
-      "createsVerb": "osmišljava i vodi"
+      "createsVerb": "osmišljava i vodi",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 8.5,
@@ -104,12 +112,14 @@
     "name": {
       "title": "Interactive Art + Design",
       "case": "Interactive Art + Design",
-      "createsVerb": "makes"
+      "createsVerb": "makes",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Interaktivna umetnost + dizajn",
       "case": "interaktivne umetnosti + dizajna",
-      "createsVerb": "kreira u oblasti"
+      "createsVerb": "kreira u oblasti",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 12.5,
@@ -130,12 +140,14 @@
     "name": {
       "title": "Research",
       "case": "Research",
-      "createsVerb": "conducts academic"
+      "createsVerb": "conducts academic",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Istraživanje",
       "case": "akademskim istraživačkim radom",
-      "createsVerb": "se bavi"
+      "createsVerb": "se bavi",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 5.998,
@@ -155,12 +167,14 @@
     "name": {
       "title": "Digital Drawing",
       "case": "Digital Drawings",
-      "createsVerb": "draws"
+      "createsVerb": "draws",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Digitalni crtež",
       "case": "digitalne crteže",
-      "createsVerb": "smišlja i crta"
+      "createsVerb": "smišlja i crta",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 10.4,
@@ -180,12 +194,14 @@
     "name": {
       "title": "Data Visualization",
       "case": "Data Visualization",
-      "createsVerb": "makes"
+      "createsVerb": "makes",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Vizuelizacija podataka",
       "case": "vizuelizacije podataka",
-      "createsVerb": "kreira"
+      "createsVerb": "kreira",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 4.67,
@@ -205,12 +221,14 @@
     "name": {
       "title": "Digital Literature",
       "case": "Digital Literature",
-      "createsVerb": "makes"
+      "createsVerb": "makes",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Digitalna književnost",
       "case": "digitalnom književnošću",
-      "createsVerb": "se bavi"
+      "createsVerb": "se bavi",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 8.5,
@@ -229,12 +247,14 @@
     "name": {
       "title": "Installations + Performances",
       "case": "Installations + Performances",
-      "createsVerb": "makes"
+      "createsVerb": "makes",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Instalacije + performansi",
       "case": "instalacije + performanse",
-      "createsVerb": "kreira"
+      "createsVerb": "kreira",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "id": "installation",
     "graphics": {
@@ -255,12 +275,14 @@
     "name": {
       "title": "Data Art",
       "case": "Data Art",
-      "createsVerb": "makes"
+      "createsVerb": "makes",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Data umetnost",
       "case": "data umetnost",
-      "createsVerb": "smišlja i kreira"
+      "createsVerb": "smišlja i kreira",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 4.674,
@@ -280,12 +302,14 @@
     "name": {
       "title": "Books",
       "case": "Texts + Books",
-      "createsVerb": "writes"
+      "createsVerb": "writes",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Knjige",
       "case": "tekstove + knjige",
-      "createsVerb": "piše i objavljuje"
+      "createsVerb": "piše i objavljuje",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 4.799,
@@ -305,12 +329,14 @@
     "name": {
       "title": "Software",
       "case": "Software",
-      "createsVerb": "builds"
+      "createsVerb": "builds",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Softver",
       "case": "računarski softver",
-      "createsVerb": "kreira"
+      "createsVerb": "kreira",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 8.5,
@@ -330,12 +356,14 @@
     "name": {
       "title": "Artificial Intelligence",
       "case": "Artificial Intelligence",
-      "createsVerb": "programs"
+      "createsVerb": "programs",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "nameS": {
       "title": "Veštačka inteligencija",
       "case": "veštačku inteligenciju",
-      "createsVerb": "programira"
+      "createsVerb": "programira",
+      "description": "Lorem ipsum dolor sit <a href='#'>amet</a>, consectetur adipiscing elit. Pellentesque sed enim eget leo maximus blandit vel eu purus. Proin accumsan turpis dolor, sollicitudin ultricies metus pellentesque non. Phasellus in posuere libero."
     },
     "graphics": {
       "headcx": 8.5,

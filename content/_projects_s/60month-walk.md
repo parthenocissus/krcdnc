@@ -23,7 +23,9 @@ role:
       name: Edukator
 medium:
     - id: installation
-      name: Land Art instalacija + živi performans
+      name: Land Art instalacija
+    - id: performance
+      name: Živi performans
     - id: dataviz
       name: Fizička vizuelizacija podataka 
 presentation_title: Prezentacije
