@@ -41,6 +41,8 @@ medium:
       name: Interactive Installation
     - id: book
       name: Artist Book
+    - id: animation
+      name: Animation
 team:
     - link: 'https://www.majaciric.com/'
       name: Maja Ćirić (Curator)

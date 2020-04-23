@@ -113,6 +113,10 @@
         "title": "Director"
       },
       {
+        "id": "animator",
+        "title": "Animator"
+      },
+      {
         "id": "cartographer",
         "title": "Cartographer"
       },
@@ -284,6 +288,10 @@
       {
         "id": "researcher",
         "title": "Istraživač"
+      },
+      {
+        "id": "animator",
+        "title": "Animator"
       },
       {
         "id": "director",

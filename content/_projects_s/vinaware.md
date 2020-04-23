@@ -41,6 +41,8 @@ medium:
       name: Interaktivna instalacija
     - id: book
       name: Umetnička knjiga
+    - id: animation
+      name: Animacija
 team:
     - link: 'https://www.majaciric.com/'
       name: Maja Ćirić (kustos)

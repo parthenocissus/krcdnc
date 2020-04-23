@@ -90,7 +90,7 @@ main {
 }
 
 .flowerchart {
-    cursor: pointer;
+    /*cursor: pointer;*/
     padding-bottom: 15px;
 }
 
@@ -147,15 +147,29 @@ main {
 }
 
 .pictome-small-sun {
+    cursor: pointer;
     fill: none;
     stroke: var(--suncolor);
     stroke-width: 1.5;
+    transition: 0.18s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.pictome-small-sun:hover {
+    stroke-width: 2.5;
 }
 
 .pictome-small-dark {
+    cursor: pointer;
     fill: none;
     stroke: var(--darkcolor);
     stroke-width: 1;
+    transition: 0.18s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.pictome-small-dark:hover {
+    stroke-width: 2;
 }
 
 .pictome-dot {

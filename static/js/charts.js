@@ -84,7 +84,8 @@ let chartUtility = (function () {
             },
             transformFn: function () {
                 return "scale(" + scale + " " + scale + ")";
-            }
+            },
+            rectClick: function () { }
         };
         drawSinglePictogram(pictogramParams);
 
@@ -145,7 +146,8 @@ let chartUtility = (function () {
             },
             transformFn: function () {
                 return "translate(0, 0) scale(" + scale + " " + scale + ")";
-            }
+            },
+            rectClick: function () { }
         };
 
         drawSinglePictogram(pictogramParams);
@@ -211,7 +213,7 @@ let chartUtility = (function () {
                     return "translate(" + (pictoWidthPlusGap * i) + ",0) "
                         + "scale(" + params.scale + " " + params.scale + ")";
                 },
-                rectClick: function() {
+                rectClick: function () {
                     url = langParams.paths.projects + langParams.paths.category + item.id;
                     window.open(url, "_self");
                 }
@@ -414,6 +416,7 @@ let chartUtility = (function () {
             dotClass: "invisible",
             scale: 1,
             idPrefix: "pictogram",
+            tooltip: langParams.tooltip.projects_index,
 
             rectMouseover: function () {
                 // return fp.pictoMouseover(genData);
@@ -424,6 +427,10 @@ let chartUtility = (function () {
             transformFn: function () {
                 let tx = flowerchartParameters.halfFlowerWidth - flowerchartParameters.halfPictogramWidth;
                 return "translate(" + tx + " " + 0 + ")";
+            },
+            rectClick: function () {
+                url = langParams.paths.projects;
+                window.open(url, "_self");
             }
         };
         drawSinglePictogram(pictogramParams);
@@ -476,6 +483,7 @@ let chartUtility = (function () {
                 dotClass: fp.pictoDotClass,
                 scale: 1,
                 idPrefix: "pictogram",
+                tooltip: d.name.title,
 
                 rectMouseover: function () {
                     //return fp.pictoMouseover(d);
@@ -490,6 +498,10 @@ let chartUtility = (function () {
                         alpha = 90 - (angle * i);
                     return "translate(" + tx + " " + ty + ")" +
                         "rotate(" + alpha + " " + hpw + " " + (-rad3) + ")";
+                },
+                rectClick: function () {
+                    url = langParams.paths.projects + langParams.paths.category + d.id;
+                    window.open(url, "_self");
                 }
             };
             drawSinglePictogram(pictogramParams);
@@ -506,6 +518,9 @@ let chartUtility = (function () {
             .attr("height", params.height)
             .attr("transform", params.transformFn);
 
+        pictogram.append("svg:title")
+          .text(params.tooltip);
+
         pictogram.append("rect")
             .attr("class", params.rectClass)
             .attr("id", params.id + "Rect")
@@ -517,11 +532,7 @@ let chartUtility = (function () {
             .attr("height", params.height / params.scale)
             .on("mouseover", params.rectMouseover)
             .on("mouseout", params.rectMouseout)
-            .on("click", function() {
-               if (typeof params.rectClick === "function" ) {
-                   params.rectClick();
-               }
-            });
+            .on("click", params.rectClick);
 
         pictogram.append("circle")
             .attr("id", params.id + "Head")
