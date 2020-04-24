@@ -120,7 +120,7 @@ let chartUtility = (function () {
             });
         }
 
-        let scale = 1.7,
+        let scale = 1.6,
             w = 17 * scale,
             h = 35 * scale;
 

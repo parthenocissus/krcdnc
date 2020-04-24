@@ -57,7 +57,8 @@
       "linechart_index": "Timeline of projects in category: ",
       "bio_index": "Biography",
       "projects_index": "All projects",
-      "bio_link_index": "Projects in category: "
+      "bio_link_index": "Projects in category: ",
+      "projects_index_general": "Projects"
     },
     "contact": {
       "title": "Contact"
@@ -238,7 +239,8 @@
       "linechart_index": "Vremenska linija projekata u kategoriji: ",
       "bio_index": "Biografija",
       "projects_index": "Svi projekti",
-      "bio_link_index": "Projekti u kategoriji: "
+      "bio_link_index": "Projekti u kategoriji: ",
+      "projects_index_general": "Projekti"
     },
     "contact": {
       "title": "Kontakt"
