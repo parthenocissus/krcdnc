@@ -6,17 +6,19 @@ img:
     mask_link: "media/pages/uros-krcadinac-ai-mask.png"
     mask_caption: "Kartografija lica koju je nacrtao<br>algoritam za mašinsko učenje"
     caption: "Foto: Goranka Matić"
-quote: "Data umetnost nema za cilj inovaciju, nego lepotu, slobodu i nežnost."
+quote: "Data umetnost nema za cilj inovaciju, nego lepotu, razumevanje, slobodu i nežnost."
 download:
-    lead: "Izbor otvoreno licenciranih portreta i slika projekata, kao i duga i kratka verzija biografije, za medije, festivale, konferencije i druge događaje."
+    lead: "Izbor otvoreno licenciranih portreta i slika projekata, kao i duga i kratka verzija biografije, za medije, festivale, konferencije i druge događaje:"
     label: Preuzmi slike i biografije
-lead: "<span>Uroš Krčadinac</span> (1984) je digitalni umetnik, programer, autor i edukator koji u svom radu povezuje poetiku, estetiku i etiku ljudskih i tehnoloških sistema."
+lead: "<span>Uroš Krčadinac</span> (1984) je digitalni umetnik, programer, autor i edukator koji istražuje i kreira nove načine opažanja i doživljavanja zajedničkog sveta ljudi, mreža i podataka."
 
-Od data umetnosti.... Spanning data art, computer science, writing, mapmaking, digital drawing, and animation, his transdisciplinary media projects include several AI systems for generating visuals and prose, an installation that maps national debt to an amount of sugar for diabetics, digital poetry optimised by the Google Ads Keyword Planner, a book of hand-illustrated travel stories from the Balkans, Middle East, and Africa, a physical machine that is half-zoetrope, half-bicycle, and a 64 km long GPS drawing. 
+Obuhvatajući data umetnost, računarske nauke, pisanje, mapiranje, digitalni crtež i animaciju, njegovi transdisciplinarni projekti uključuju AI sisteme za automatsko generisanje vizuala i proze, interaktivne i animirane vizuelizacije podataka, infografičku proznu knjigu o ljudskoj geografiji, putovanju, Balkanu i Africi, fizičku mašinu koja je pola bicikl, pola zoetrop, kao i 64 km dug GPS crtež.
 
-His work have been shown at festivals and conferences in Europe, Asia, and North America, such as re:publica, International Digital Media and Arts Association Conference, Plan D, Designer – Author or Universal Soldier, and Art+Science organized by the Serbian CPN. His research was published in scientific journals including IEEE Transactions on Affective Computing and IEEE Transaction on Human-Machine Systems. It was covered by Creative Review, Vizkultura, and Visual Complexity, and awarded by iDMAa, University of Belgrade, Belgrade Chamber of Commerce, and Belgrade Documentary and Short Film Festival. 
+Njegov rad prikazan je na festivalima i konferencijama u Evropi, Aziji i Severnoj Americi, kao što su re:publica, International Digital Media and Arts Association Conference, Plan D, Dizajner – autor ili unverzalni vojnik, i Art+Science srpskog Centra za promociju nauke. Njegova akademska istraživanja objavljena su u M21 naučnim časopisima poput IEEE Transactions on Affective Computing i IEEE Transaction on Human-Machine Systems. O njegovim radovima pisali su Creative Review, Vizkultura i VisualComplexity. Dobili su nagrade institucija poput iDMAa, Univerziteta u Beogradu, Beogradske privredne komore, Martovskog festivala i gradova Pančeva i Niša. 
 
-He gave 100+ public talks, lectures, and workshops on various occasions, including three TEDx events, a lecture on AI aesthetics at the Belgrade’s Museum of Science and Technology, a discussion on new media at the Belgrade’s Salon of the Museum of Contemporary Art, and many talks about writing, creative coding, and mapmaking, including ones at SKC Belgrade, Booksa Zagreb, and Kriterion Sarajevo. 
+Kao edukator i javni predavač, osmislio je i održao 100+ public talks, lectures, and workshops on various occasions, including three TEDx events in Serbia and Croatia, a talk about physical data art at re:publica Festival at Thessaloniki's MOMus, a lecture on generative systems at the Vancouver's School of Interactive Arts + Technologies, SFU, a lecture on AI aesthetics at the Belgrade’s Museum of Science and Technology, a discussion on new media at the Belgrade’s Salon of the Museum of Contemporary Art, and many talks about digital art, writing, creative coding, and mapmaking, including ones at SKC Belgrade, Booksa Zagreb, and Kriterion Sarajevo. 
 
-He holds a PhD in Informatics from the University of Belgrade. Currently, he works as an Assistant Professor of Digital Art and Computer Science at the Faculty of Media and Communications, Singidunum University, Belgrade. He also works as a Senior Associate at Design Seminar in Petnica Science Center and a Visiting Lecturer of Data Visualization at the University of Belgrade.
+He holds a PhD in Informatics from the University of Belgrade.
+
+Currently, he works as an Assistant Professor of Digital Art and Computing at the Faculty of Media and Communications, Singidunum University, Belgrade. He also works as a Design Seminar Senior Associate in Petnica Science Center, and a Research Associate and Visiting Lecturer at the University of Belgrade.
  <mark>&#9632;</mark>
