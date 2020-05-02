@@ -214,7 +214,7 @@ img_data:
       caption: "On the road, with Abbas Harun, our Sudanese friend. Photo: Lazar Pašćanović."
     - size: "720x450"
       caption: "On the road. Sudan. Photo: Lazar Pašćanović."
-lead: "Bantustan: atlas jednog putovanja (Bantustan: The Atlas of a Journey) is a book of travel prose written by Lazar Pašćanović, Marko Đedović, and me. Describing a 3-month journey from Serbia to Namibia, the book consists of conversations between authors and people we met, mostly focusing on themes of human geography and identity."
+lead: "Bantustan: atlas jednog putovanja (Bantustan: The Atlas of a Journey) is a book of travel prose written by Lazar Pašćanović, Marko Đedović, and me. Describing a 3-month journey from Serbia to Namibia, the book consists of conversations between authors and people they met, mostly focusing on themes of human geography and identity."
 
 “Bantustan” is also an example of ergodic literature, since it contains hand-drawn maps and infographics which represent an interface for non-linear reading. The book was published in 3 editions (by now) and was presented in more than 30 cities across the Yugoslav region.
 

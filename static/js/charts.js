@@ -650,14 +650,14 @@ let chartUtility = (function () {
                 flowerchartParameters.prevItem = randomItem;
 
                 d3.select("#creates-verb").html(randomItem.name.createsVerb);
-                // let baseLink = langParams.paths.projects + langParams.paths.category + randomItem.id;
-                // let linkToProjects = "<a id='link-to-projects' href='" + baseLink + "'>" + randomItem.name.case + "</a>";
-                // d3.select("#creates-what").html(linkToProjects);
-
-                let linkToProjects = "<a id='link-to-projects' href='#'>" + randomItem.name.case + "</a>"
+                let baseLink = langParams.paths.projects + langParams.paths.category + randomItem.id;
+                let linkToProjects = "<a id='link-to-projects' href='" + baseLink + "'>" + randomItem.name.case + "</a>";
                 d3.select("#creates-what").html(linkToProjects);
 
-                d3.select(".linechart").attr("title", langParams.tooltip.linechart_index + randomItem.name.title);
+                // let linkToProjects = "<a id='link-to-projects' href='#'>" + randomItem.name.case + "</a>"
+                // d3.select("#creates-what").html(linkToProjects);
+
+                d3.select(linechartParamsIndex.class).attr("title", langParams.tooltip.linechart_index + randomItem.name.title);
                 d3.select(".main-pictome").attr("title", langParams.tooltip.bio_link_index + randomItem.name.title);
                 d3.select("#link-to-projects").attr("title", langParams.tooltip.bio_link_index + randomItem.name.title);
 
@@ -745,7 +745,7 @@ let chartUtility = (function () {
             return 440;
         },
         height: 70,
-        class: ".linechart",
+        class: ".linechart-index",
         margin: {top: 4, right: 4, bottom: 28, left: 4, lineAdj: 9, baseAdj: 8},
         ticks: [(new Date(1984, 1)), (new Date(2020, 1))],
         xShift: 0

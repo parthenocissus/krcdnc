@@ -1,9 +1,21 @@
 from itertools import groupby
 
 
-def projects(flatpages, lang, dir):
+def about(flatpages, lang):
+    page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "about"))
+    project_list = [p for p in flatpages if p.path.startswith(lang.dir())]
+    project_list.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
+    timeline_data = [{"year": y, "projects": len(list(i))}
+                     for y, i in groupby(project_list, lambda item: item['date'])]
+    data = {
+        "timeline": timeline_data
+    }
+    return page, data
+
+
+def projects(flatpages, lang):
     lang_params = lang.params()
-    project_list = [p for p in flatpages if p.path.startswith(dir)]
+    project_list = [p for p in flatpages if p.path.startswith(lang.dir())]
     project_list.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
     project_list_grouped = [{"year": y, "projects": list(i)}
                             for y, i in groupby(project_list, lambda item: item['date'])]
@@ -20,10 +32,10 @@ def projects(flatpages, lang, dir):
     return project_list_grouped, data
 
 
-def projects_by_category(flatpages, lang, dir, by, criteria):
+def projects_by_category(flatpages, lang, by, criteria):
     lang_params = lang.params()
     pictoid = "general"
-    project_pages = [p for p in flatpages if p.path.startswith(dir)]
+    project_pages = [p for p in flatpages if p.path.startswith(lang.dir())]
     filtered_projects = list(filter(lambda x: (criteria in map(lambda d: d["id"], x[by])), project_pages))
     filtered_projects.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
     project_list_grouped = [{"year": y, "projects": list(i)} for y, i in

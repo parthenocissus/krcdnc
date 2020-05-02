@@ -11,6 +11,7 @@ class LangUtil:
         self.flatpages = flatpages
         self.max_project_count = 0
         self.projects_dir = 'projects'
+        self.pages_dir = 'pages'
         self.data = None
 
         base_path = 'static/data/'
@@ -26,6 +27,12 @@ class LangUtil:
 
     def params(self):
         return self.data
+
+    def dir(self):
+        return self.projects_dir
+
+    def pgdir(self):
+        return self.pages_dir
 
     def get_category_description(self, category):
         category_item = [i for i in self.data["pictodata"] if i["id"] == category][0]
@@ -78,22 +85,24 @@ class LangUtilEn(LangUtil):
 
     def __init__(self, flatpages):
         super().__init__(flatpages)
-        self.data = self.lang_data["en_params"]
-        self.data["pictodata"] = self.pictogram_data
-        self.data["max"] = self.max_project_count
+        self.data = self.lang_data['en_params']
+        self.data['pictodata'] = self.pictogram_data
+        self.data['max'] = self.max_project_count
 
 
 class LangUtilSh(LangUtil):
 
     def __init__(self, flatpages):
         super().__init__(flatpages)
-        self.data = self.lang_data["sh_params"]
-        self.data["pictodata"] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)
-        self.data["max"] = self.max_project_count
+        self.projects_dir = '_projects_s'
+        self.pages_dir = '_pages_s'
+        self.data = self.lang_data['sh_params']
+        self.data['pictodata'] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)
+        self.data['max'] = self.max_project_count
 
     @staticmethod
     def __fix_sh_pictodata(pictogram_data):
         new_data = copy.deepcopy(pictogram_data)
         for p in new_data:
-            p["name"] = p["nameS"]
+            p['name'] = p['nameS']
         return new_data

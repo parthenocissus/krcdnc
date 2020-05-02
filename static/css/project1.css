@@ -249,18 +249,18 @@ body {
 
 /* Article Image */
 
-.article-image {
+.image-row {
     grid-area: im;
     padding: 0 0 25px 20px;
     margin: 0;
 }
 
-.article-image img {
+.image-row img {
     display: block;
     width: 100%;
 }
 
-.article-image iframe {
+.image-row iframe {
     display: block;
     width: calc(100% - 0px);    !important;
     height: 100%   !important;

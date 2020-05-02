@@ -52,7 +52,6 @@ main {
     overflow: hidden;
     align-self: center;
     justify-self: center;
-    justify-self: center;
     flex-direction: column;
     text-align: center;
 }
@@ -234,27 +233,27 @@ main {
 
 /* SVG Rules for Line Chart */
 
-.linechart {
+.linechart-index {
     height: 70px;
     padding-bottom: 0;
     stroke-width: 2;
 }
 
-.linechart .domain {
+.linechart-index .domain {
     stroke: var(--darkcolor);
     stroke-dasharray: 0, 9;
     stroke-linecap: round;
     stroke-width: 1.6;
 }
 
-.linechart .linechartLine {
+.linechart-index .linechartLine {
     fill: none;
     stroke: var(--suncolor);
     transition: stroke 0.18s;
     transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.linechart .linechartXaxis {
+.linechart-index .linechartXaxis {
     font-family: "CartographSans-Medium", sans-serif;
     font-size: 8pt;
     color: var(--darkcolor);

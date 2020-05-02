@@ -14,16 +14,14 @@ DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = 'content'
-PROJECTS_DIR = 'projects'
-PROJECTS_SH_DIR = '_projects_s'
 
 app = Flask(__name__)
-flatpages = FlatPages(app)
+fp = FlatPages(app)
 freezer = Freezer(app)
 app.config.from_object(__name__)
 
-en = LangUtilEn(flatpages)
-sh = LangUtilSh(flatpages)
+en = LangUtilEn(fp)
+sh = LangUtilSh(fp)
 
 
 # BASE ROUTES
@@ -49,14 +47,14 @@ def home_s():
 
 @app.route("/work/projects/")
 def projects():
-    list, data = utils.projects(flatpages, en, PROJECTS_DIR)
-    return render_template('project_list.html', projects=list, params=en.params(), data=data)
+    project_list, data = utils.projects(fp, en)
+    return render_template('project_list.html', projects=project_list, params=en.params(), data=data)
 
 
 @app.route("/rad/projekti/")
 def projects_s():
-    list, data = utils.projects(flatpages, sh, PROJECTS_SH_DIR)
-    return render_template('project_list.html', projects=list, params=sh.params(), data=data)
+    project_list, data = utils.projects(fp, sh)
+    return render_template('project_list.html', projects=project_list, params=sh.params(), data=data)
 
 
 # PROJECTS FILTERED
@@ -64,13 +62,13 @@ def projects_s():
 
 @app.route("/work/projects/<by>/<criteria>")
 def projects_by_category(by, criteria):
-    list, data = utils.projects_by_category(flatpages, en, PROJECTS_DIR, by, criteria)
+    list, data = utils.projects_by_category(fp, en, by, criteria)
     return render_template('project_list.html', projects=list, params=en.params(), data=data)
 
 
 @app.route("/rad/projekti/<by>/<criteria>")
 def projects_by_category_s(by, criteria):
-    list, data = utils.projects_by_category(flatpages, sh, PROJECTS_SH_DIR, by, criteria)
+    list, data = utils.projects_by_category(fp, sh, by, criteria)
     return render_template('project_list.html', projects=list, params=sh.params(), data=data)
 
 
@@ -79,14 +77,29 @@ def projects_by_category_s(by, criteria):
 
 @app.route('/work/projects/<name>/')
 def project(name):
-    this_project = flatpages.get_or_404('{}/{}'.format(PROJECTS_DIR, name))
+    this_project = fp.get_or_404('{}/{}'.format(en.dir(), name))
     return render_template('project.html', project=this_project, params=en.params())
 
 
 @app.route('/rad/projekti/<name>/')
 def project_s(name):
-    this_project = flatpages.get_or_404('{}/{}'.format(PROJECTS_SH_DIR, name))
+    this_project = fp.get_or_404('{}/{}'.format(sh.dir(), name))
     return render_template('project.html', project=this_project, params=sh.params())
+
+
+# ABOUT SECTION
+# biography
+
+@app.route('/work/about/')
+def about():
+    page, data = utils.about(fp, en)
+    return render_template('about.html', params=en.params(), page=page, data=data)
+
+
+@app.route('/rad/bio/')
+def about_s():
+    page, data = utils.about(fp, sh)
+    return render_template('about.html', params=sh.params(), page=page, data=data)
 
 
 # TESTING SECTION
@@ -94,8 +107,8 @@ def project_s(name):
 
 @app.route('/work/projects1/<name>/')
 def project1(name):
-    path = '{}/{}'.format(PROJECTS_DIR, name)
-    this_project = flatpages.get_or_404(path)
+    path = '{}/{}'.format(en.dir(), name)
+    this_project = fp.get_or_404(path)
     return render_template('project1.html', project=this_project, params=en.params())
 
 

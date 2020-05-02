@@ -73,12 +73,6 @@
             chartUtility.drawLineChartHeaderProjectList({{ data.timeline|safe }});
             chartUtility.drawProjectListSymbol("{{ data.pictoid }}");
 
-            {#chartUtility.createProjectPictolist({{ project.category|safe }});#}
-            {#chartUtility.createLinechart(chartUtility.getLinechartParamsHeader({{ project.date|safe }}));#}
-            {#chartUtility.drawLineChartHeader({{ project.presentations|safe }});#}
-            {#chartUtility.drawPolarChart({{ project.ranks|safe }});#}
-            {#baseUtility.lightboxSetup();#}
-
         }());
     </script>
 {% endblock %}
