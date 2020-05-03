@@ -18,7 +18,7 @@ Njegov rad prikazan je na festivalima i konferencijama u Evropi, Aziji i Severno
 
 Kao edukator i javni predavač, osmislio je i održao preko 100 javnih predavanja, izlaganja i radionica, uključujuči tri regionalna TEDx događaja, predavanje o fizičkoj data umetnosti na festivalu re:publika (MOMus, Solun), predavanje o generativnim sistemima na School of Interactive Arts + Technologies (SFU, Vankuver), predavanje o afektivnom računarstvu na South China Normal University (Guangdžou), predavanje o estetici veštačke inteligencije u beogradskom Muzeju nauke i tehnike, diskusiju o novim medijima u beogradskom Salonu MSU, kao i niz predavanja i radionica o digitalnoj umetnosti, književnosti, kretivnom kodiranju i kulturi putovanja, uključujući one u beogradskom SKCu, zagrebačkoj Booksi i sarajevskom Kriterionu.
 
-Bio je jedan od osnivača Uzroka, studija za dizajn informacija i interakcija (2013–2016). Kao kreativni i digitalni konsultant, sarađivao je sa organizacijama poput United Nations Development Fund, beogradskog Goethe-Instituta, Crte, Care International and Creole Choir of Cuba.  
+Bio je jedan od osnivača Uzroka, studija za dizajn informacija i interakcija (2013–2016). Kao kreativni i digitalni konsultant, sarađivao je sa organizacijama poput United Nations Development Fund, beogradskog Goethe-Instituta, Crte, Care International i Creole Choir of Cuba.  
 
 Doktorirao je informatiku na Univerzitetu u Beogradu.
 
