@@ -4,7 +4,7 @@ id: about
 img:
     link: "media/pages/uros-krcadinac-portrait.jpg"
     mask_link: "media/pages/uros-krcadinac-ai-mask.png"
-    mask_caption: "Facial cartography drawn by<br>machine learning algorithm"
+    mask_caption: "Facial cartography drawn by<br>a machine learning algorithm"
     caption: "Photo: Goranka Matić"
 quote: "Data Art is not about innovation. It is about beauty, intimacy, and resistance."
 download:
