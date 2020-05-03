@@ -82,13 +82,13 @@
 .article-container {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-gap: 50px;
     grid-auto-rows: auto;
 }
 
 /* Article Text */
 
 .article-text {
-    padding-right: 25px;
     margin: 0;
 }
 
@@ -132,7 +132,6 @@
 
 .image-row {
     position: relative;
-    margin-left: 25px;
     display: block;
 }
 
@@ -219,7 +218,7 @@
     font-size: 9.5pt;
     line-height: 1.7em;
     letter-spacing: 0.18pt;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 27px 0;
     width: 100%;
     padding: 22px 0;
     text-align: center;
