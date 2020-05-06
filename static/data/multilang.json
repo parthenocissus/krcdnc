@@ -31,7 +31,7 @@
       },
       {
         "title": "Speaking",
-        "link": "/work/teaching"
+        "link": "/work/speaking"
       },
       {
         "title": "Press",
@@ -88,7 +88,11 @@
       }
     },
     "pages_captions": {
-      "about_lang_link": "/rad/bio/"
+      "about_lang_link": "/rad/bio/",
+      "writing_lang_link": "/rad/tekstovi/",
+      "teaching_lang_link": "/rad/edukacija/",
+      "speaking_lang_link": "/rad/nastupi/",
+      "press_lang_link": "/rad/mediji/"
     },
     "roles": [
       {
@@ -275,7 +279,11 @@
       }
     },
     "pages_captions": {
-      "about_lang_link": "/work/about/"
+      "about_lang_link": "/work/about/",
+      "writing_lang_link": "/work/writing/",
+      "teaching_lang_link": "/work/teaching/",
+      "speaking_lang_link": "/work/speaking/",
+      "press_lang_link": "/work/press/"
     },
     "roles": [
       {

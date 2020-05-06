@@ -87,6 +87,66 @@ def project_s(name):
     return render_template('project.html', project=this_project, params=sh.params())
 
 
+# WRITING SECTION
+# texts and books
+
+@app.route('/work/writing/')
+def writing():
+    page, data = utils.writing(fp, en)
+    return render_template('writing.html', params=en.params(), page=page, data=data)
+
+
+@app.route('/rad/tekstovi/')
+def writing_s():
+    page, data = utils.writing(fp, sh)
+    return render_template('writing.html', params=sh.params(), page=page, data=data)
+
+
+# TEACHING SECTION
+# sillabi and workshops
+
+@app.route('/work/teaching/')
+def teaching():
+    page, data = utils.teaching(fp, en)
+    return render_template('page.html', params=en.params(), page=page, data=data)
+
+
+@app.route('/rad/edukacija/')
+def teaching_s():
+    page, data = utils.teaching(fp, sh)
+    return render_template('page.html', params=sh.params(), page=page, data=data)
+
+
+# SPEAKING SECTION
+# talks and public lectures
+
+@app.route('/work/speaking/')
+def speaking():
+    page, data = utils.speaking(fp, en)
+    return render_template('page.html', params=en.params(), page=page, data=data)
+
+
+@app.route('/rad/nastupi/')
+def speaking_s():
+    page, data = utils.speaking(fp, sh)
+    return render_template('page.html', params=sh.params(), page=page, data=data)
+
+
+# PRESS SECTION
+# press and media
+
+@app.route('/work/press/')
+def press():
+    page, data = utils.press(fp, en)
+    return render_template('page.html', params=en.params(), page=page, data=data)
+
+
+@app.route('/rad/mediji/')
+def press_s():
+    page, data = utils.press(fp, sh)
+    return render_template('page.html', params=sh.params(), page=page, data=data)
+
+
 # ABOUT SECTION
 # biography
 

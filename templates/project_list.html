@@ -46,11 +46,13 @@
                         {% set project_title = project.title.html|safe if project.title.html is defined else project.title.name %}
                         {% set project_title = project.title.name_project_list|safe if project.title.name_project_list is defined else project_title %}
 
-                        <div class="{{ project_class }}" onclick="location.href='{{ project_link }}';">
-                            <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
-                            <div class="project-name">
-                                <a href="#">{{ project_title }}</a>
-                            </div>
+                        <div class="{{ project_class }}">
+                            <a href="{{ project_link }}">
+                                <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
+                                <div class="project-name">
+                                    {{ project_title }}
+                                </div>
+                            </a>
                         </div>
 
                     {% endfor %}
