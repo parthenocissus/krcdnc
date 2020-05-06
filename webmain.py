@@ -162,21 +162,6 @@ def about_s():
     return render_template('about.html', params=sh.params(), page=page, data=data)
 
 
-# WRITING SECTION
-# texts and books
-
-@app.route('/work/writing/')
-def writing():
-    page, data = utils.writing(fp, en)
-    return render_template('writing.html', params=en.params(), page=page, data=data)
-
-
-@app.route('/rad/tekstovi/')
-def writing_s():
-    page, data = utils.writing(fp, sh)
-    return render_template('writing.html', params=sh.params(), page=page, data=data)
-
-
 # TESTING SECTION
 # alternative design
 
