@@ -22,5 +22,5 @@ As a creative digital consultant, he co-founded an information and interaction d
 
 He holds a PhD in Informatics from the University of Belgrade.
 
-Currently, he works as an Assistant Professor of Digital Art and Computing at the Faculty of Media and Communications, Singidunum University, Belgrade. He also works as a Design Seminar Senior Associate in Petnica Science Center and a Research Associate and Visiting Lecturer at the University of Belgrade.
+Currently, he works as an Assistant Professor of Digital Art and Computing at the Faculty of Media and Communications, Singidunum University, Belgrade. He also works as a Design Seminar Senior Associate in Petnica Science Center and a Visiting Lecturer and Research Associate at the Good Old AI Lab, University of Belgrade.
  <mark>&#9632;</mark>

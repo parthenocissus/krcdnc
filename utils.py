@@ -1,6 +1,37 @@
 from itertools import groupby
 
 
+def writing(flatpages, lang):
+    diglit = "digital-literature"
+    bantu = "bantustan-book"
+    research = "research"
+    by = "category"
+
+    page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "writing"))
+    projs = [p for p in flatpages if p.path.startswith(lang.dir())]
+
+    # travel prose projects, bantustan
+    bantu_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), bantu))
+    prose_projects = [bantu_page]
+    # digital literature projects
+    diglit_projs = list(filter(lambda x: (x["id"] != bantu) and (diglit in map(lambda d: d["id"], x[by])), projs))
+    diglit_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
+    # research project
+    research_projs = list(filter(lambda x: (research in map(lambda d: d["id"], x[by])), projs))
+    research_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
+
+    projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
+    timeline_data = [{"year": y, "projects": len(list(i))}
+                     for y, i in groupby(projs, lambda item: item['date'])]
+    data = {
+        "diglit": diglit_projs,
+        "prose": prose_projects,
+        "research": research_projs,
+        "timeline": timeline_data
+    }
+    return page, data
+
+
 def about(flatpages, lang):
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "about"))
     project_list = [p for p in flatpages if p.path.startswith(lang.dir())]

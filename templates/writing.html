@@ -1,0 +1,181 @@
+{% extends "generic_page.html" %}
+
+{% block title %} → {{ params.page_title.about }}{% endblock %}
+
+{% block head %}
+
+    {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/page.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/default-skin.css') }}">
+
+    <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lib/photoswipe.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lib/photoswipe-ui-default.min.js') }}"></script>
+
+{% endblock %}
+
+{% block breadcrumbs %}
+    <mark>⟶</mark>
+    <a href="{{ params.menu_items[6].link }}">{{ params.menu_items[6].title }}</a>
+{% endblock %}
+
+{% block lang_link %}{{ params.pages_captions.writing_lang_link }}{% endblock %}
+
+{% block main_container %}
+
+    <div class="main-container">
+
+        <div id="header-linechart" class="linechart" title="{{ params.tooltip.linechart_about }}"></div>
+
+        <h1 class="title title-style">
+            {{ page.title.name|safe }}
+        </h1>
+
+        <article class="article-main-description lead-style">
+            {{ page.lead|safe }}
+        </article>
+
+        <div class="down-arrow-container">
+            <svg id="down-arrow-svg" x="0px" y="0px" width="16px" height="131px">
+                <g>
+                    <line x1="8" y1="121.3" x2="8" y2="5"></line>
+                    <polygon points="14.5,122 13.4,120.9 8,126.7 2.6,120.9 1.5,122 8,129"></polygon>
+                </g>
+            </svg>
+        </div>
+
+        <div class="section-container section-container-grid-areas1">
+
+            <div class="section-image">
+                <img src="{{ url_for('static', filename=page.data.img1) }}">
+            </div>
+            <h2 class="section-heading section-title-style">
+                {{ page.data.title1|safe }}
+            </h2>
+            <article class="section-text body-style">
+                {{ page.data.text1|safe }}
+            </article>
+
+            <div class="project-title interface-heading-style">
+                {{ params.menu_items[1].title }}
+            </div>
+            <div class="section-projects">
+                {% for project in data.diglit %}
+                    {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
+                    {% set thumb_path = "media/projects/" ~ project.id ~ "/"  ~ project.id ~ "-main-thumb.jpg" %}
+                    {% set project_title = project.title.html|safe if project.title.html is defined else project.title.name %}
+                    <div class="project">
+                        <a href="{{ project_link }}">
+                            <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
+                            <div class="project-name project-name-in-list-style">
+                                {{ project_title }}
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div>
+
+        <div class="break-line dashed-top"></div>
+        <div class="section-container section-container-grid-areas2">
+
+            <div class="section-image">
+                <img src="{{ url_for('static', filename=page.data.img2) }}">
+            </div>
+            <h2 class="section-heading section-title-style">
+                {{ page.data.title2|safe }}
+            </h2>
+            <article class="section-text body-style">
+                {{ page.data.text2|safe }}
+            </article>
+
+            <div class="project-title interface-heading-style">
+                {{ params.menu_items[1].title }}
+            </div>
+            <div class="section-projects">
+                {% for project in data.prose %}
+                    {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
+                    {% set thumb_path = "media/projects/" ~ project.id ~ "/"  ~ project.id ~ "-main-thumb.jpg" %}
+                    {% set project_title = project.title.html|safe if project.title.html is defined else project.title.name %}
+                    <div class="project">
+                        <a href="{{ project_link }}">
+                            <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
+                            <div class="project-name project-name-in-list-style">
+                                {{ project_title }}
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div>
+
+        <div class="break-line dashed-top"></div>
+        <div class="section-container section-container-grid-areas1">
+
+            <div class="section-image">
+                <img src="{{ url_for('static', filename=page.data.img3) }}">
+            </div>
+            <h2 class="section-heading section-title-style">
+                {{ page.data.title3|safe }}
+            </h2>
+            <article class="section-text body-style">
+                {{ page.data.text3|safe }}
+            </article>
+
+            <div class="project-title interface-heading-style">
+                {{ params.menu_items[1].title }}
+            </div>
+            <div class="section-projects">
+                {% for project in data.research %}
+                    {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}
+                    {% set thumb_path = "media/projects/" ~ project.id ~ "/"  ~ project.id ~ "-main-thumb.jpg" %}
+                    {% set project_title = project.title.html|safe if project.title.html is defined else project.title.name %}
+                    <div class="project">
+                        <a href="{{ project_link }}">
+                            <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
+                            <div class="project-name project-name-in-list-style">
+                                {{ project_title }}
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div>
+
+        <div class="break-line dashed-top"></div>
+        <div class="section-container section-container-grid-areas2">
+
+            <div class="section-image">
+                <img src="{{ url_for('static', filename=page.data.img4) }}">
+            </div>
+            <h2 class="section-heading section-title-style">
+                {{ page.data.title4|safe }}
+            </h2>
+            <article class="section-text body-style">
+                {{ page.data.text4|safe }}
+            </article>
+
+        </div>
+
+    </div>
+
+{% endblock %}
+
+{% block jscript %}
+    <script>
+        (function () {
+
+            chartUtility.setPeriodicalAnimation();
+            chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
+            chartUtility.drawLineChartHeaderProjectList({{ data.timeline|safe }});
+
+        }());
+    </script>
+{% endblock %}

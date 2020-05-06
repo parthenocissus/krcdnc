@@ -128,18 +128,6 @@
     margin-bottom: 8px;
 }
 
-#down-arrow-svg line {
-    fill: none;
-    stroke: var(--darkcolor);
-    stroke-width: 1.6;
-    stroke-linecap: round;
-    stroke-miterlimit: 10;
-    stroke-dasharray: 0, 8;
-}
-#down-arrow-svg polygon {
-    fill: var(--darkcolor);
-}
-
 /* Title */
 
 .project-title {

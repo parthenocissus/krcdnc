@@ -14,16 +14,16 @@
 /* Main Settings */
 
 html {
-    font-family: 'Ambit-Regular', sans-serif;
+    font-family: Ambit-Regular, sans-serif;
     height: 100%;
     overflow-x: hidden;
 }
 
 body {
     color: var(--darkcolor);
+    background-color: var(--lightcolor);
     margin: 0;
     padding: 0;
-    background-color: var(--lightcolor);
     overflow-x: hidden;
 }
 
@@ -148,26 +148,13 @@ a { text-decoration: none; }
 
 /* Lang Logo */
 
-/*#plus-logo {*/
-/*    position: fixed;*/
-/*    z-index: 15;*/
-/*    top: 20px;*/
-/*    right: 20px;*/
-/*}*/
-
-/*#plus-logo-svg {*/
-/*    stroke-width: 1;*/
-/*    transition: 0.18s;*/
-/*    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);*/
-/*}*/
-
-/*#plus-logo-svg:hover {*/
-/*    stroke: var(--suncolor);*/
-/*    cursor: pointer;*/
-/*}*/
+#lang-href {
+    display: block;
+}
 
 #lang-choice {
     position: fixed;
+    display: block;
     z-index: 15;
     text-align: center;
     top: 30px;
@@ -183,7 +170,7 @@ a { text-decoration: none; }
     line-height: 1.6em;
 }
 
-#lang-choice ul li a {
+#lang-choice ul li .up {
     text-decoration: none;
     color: var(--darkcolor);
     position: relative;
@@ -193,7 +180,7 @@ a { text-decoration: none; }
     transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#lang-choice ul li span {
+#lang-choice ul li .down {
     cursor: default;
     color: var(--darkcolor);
     opacity: 1;
@@ -205,14 +192,14 @@ a { text-decoration: none; }
     cursor: pointer;
 }
 
-#lang-choice:hover ul li a {
+#lang-choice:hover ul li .up {
     text-decoration: none;
     color: var(--suncolor);
     top: -2px;
     opacity: 1;
 }
 
-#lang-choice:hover ul li span {
+#lang-choice:hover ul li .down {
     opacity: 0.25;
 }
 
