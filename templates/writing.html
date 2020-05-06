@@ -1,6 +1,6 @@
 {% extends "generic_page.html" %}
 
-{% block title %} → {{ params.page_title.about }}{% endblock %}
+{% block title %} → {{ page.title.name|safe }}{% endblock %}
 
 {% block head %}
 
@@ -20,7 +20,7 @@
 
 {% block breadcrumbs %}
     <mark>⟶</mark>
-    <a href="{{ params.menu_items[6].link }}">{{ params.menu_items[6].title }}</a>
+    <a href="{{ params.menu_items[2].link }}">{{ params.menu_items[2].title }}</a>
 {% endblock %}
 
 {% block lang_link %}{{ params.pages_captions.writing_lang_link }}{% endblock %}
@@ -81,7 +81,9 @@
 
         </div>
 
-        <div class="break-line dashed-top"></div>
+        <div class="break-line-container">
+            <div class="break-line dashed-right"></div>
+        </div>
         <div class="section-container section-container-grid-areas2">
 
             <div class="section-image">
@@ -115,7 +117,9 @@
 
         </div>
 
-        <div class="break-line dashed-top"></div>
+        <div class="break-line-container">
+            <div class="break-line dashed-right"></div>
+        </div>
         <div class="section-container section-container-grid-areas1">
 
             <div class="section-image">
@@ -149,7 +153,9 @@
 
         </div>
 
-        <div class="break-line dashed-top"></div>
+        <div class="break-line-container">
+            <div class="break-line dashed-right"></div>
+        </div>
         <div class="section-container section-container-grid-areas2">
 
             <div class="section-image">
@@ -174,7 +180,7 @@
 
             chartUtility.setPeriodicalAnimation();
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
-            chartUtility.drawLineChartHeaderProjectList({{ data.timeline|safe }});
+            chartUtility.drawLineChartHeaderPage({{ page.timeline|safe }});
 
         }());
     </script>

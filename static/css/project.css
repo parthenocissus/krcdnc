@@ -435,16 +435,10 @@ figure img:hover {
 /* SVG-based Dash Style */
 
 .dashed-right {
-
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 2 8' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='0.6' fill='1D1D1B'/></svg>");
     background-position: right;
     background-size: 2px 8px;
     background-repeat: repeat-y;
-
-    /*background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg'><rect x='0' cy='0' width='0.8' height='1' fill='1D1D1B'/></svg>");*/
-    /*background-position: right;*/
-    /*background-size: 1px 1px;*/
-    /*background-repeat: repeat-y;*/
 }
 
 /* Pointers */

@@ -843,6 +843,17 @@ let chartUtility = (function () {
         updateLinechart(tdata, 0, maxCount);
     };
 
+    let drawLineChartHeaderPage = function (origTimeline) {
+        let timelineData = [], maxCount = 0;
+        origTimeline.forEach(function (item) {
+            // if (i === 0) projectYear = +event.year;
+            if (item.d > maxCount) maxCount = item.d;
+            timelineData.push({year: item.year.toString(), projectCount: +item.d});
+        });
+        tdata = fillMissingDates(timelineData);
+        updateLinechart(tdata, 0, maxCount);
+    };
+
     let drawLineChartHeaderProjectList = function (origTimeline) {
 
         let timelineData = [], maxCount = 0;
@@ -955,6 +966,7 @@ let chartUtility = (function () {
         createProjectPictolist: createProjectPictolist,
         drawLineChartHeader: drawLineChartHeader,
         drawLineChartHeaderProjectList: drawLineChartHeaderProjectList,
+        drawLineChartHeaderPage: drawLineChartHeaderPage,
         drawProjectListSymbol: drawProjectListSymbol,
         getPeriodicalAnimationParamsIndex: getPeriodicalAnimationParamsIndex,
         drawPolarChart: drawPolarChart
