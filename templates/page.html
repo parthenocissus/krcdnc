@@ -1,0 +1,77 @@
+{% extends "generic_page.html" %}
+
+{% block title %} → {{ page.title.name|safe }}{% endblock %}
+
+{% block head %}
+
+    {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/page.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/default-skin.css') }}">
+
+    <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lib/photoswipe.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lib/photoswipe-ui-default.min.js') }}"></script>
+
+{% endblock %}
+
+{% block breadcrumbs %}
+    <mark>⟶</mark>
+    <a href="{{ data.link }}">{{ data.title }}</a>
+{% endblock %}
+
+{% block lang_link %}{{ data.langlink }}{% endblock %}
+
+{% block main_container %}
+
+    <div class="main-container">
+
+        <div id="header-linechart" class="linechart" title="{{ params.tooltip.linechart_about }}"></div>
+
+        <h1 class="title title-style">
+            {{ page.title.name|safe }}
+        </h1>
+
+        <article class="article-main-description lead-style">
+            {{ page.lead|safe }}
+        </article>
+
+        <div class="down-arrow-container">
+            <svg id="down-arrow-svg" x="0px" y="0px" width="16px" height="131px">
+                <g>
+                    <line x1="8" y1="121.3" x2="8" y2="5"></line>
+                    <polygon points="14.5,122 13.4,120.9 8,126.7 2.6,120.9 1.5,122 8,129"></polygon>
+                </g>
+            </svg>
+        </div>
+
+        <div class="page-section-container">
+
+            <div class="page-section-image">
+                <img src="{{ url_for('static', filename=page.img[0].link) }}">
+            </div>
+
+            <article class="page-section-text body-style">
+                {{ page.text|safe }}
+            </article>
+
+        </div>
+
+    </div>
+
+{% endblock %}
+
+{% block jscript %}
+    <script>
+        (function () {
+
+            chartUtility.setPeriodicalAnimation();
+            chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
+            chartUtility.drawLineChartHeaderPage({{ page.timeline|safe }});
+
+        }());
+    </script>
+{% endblock %}

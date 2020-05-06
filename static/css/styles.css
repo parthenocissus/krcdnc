@@ -1,0 +1,164 @@
+/* Line Chart */
+
+.linechart {
+    grid-area: lc;
+    height: 50px;
+    stroke-width: 2;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.fill-bg {
+    fill: var(--lightcolor);
+}
+
+.linechart .domain {
+    stroke: var(--darkcolor);
+    stroke-dasharray: 0, 9;
+    stroke-linecap: round;
+    stroke-width: 1.6;
+}
+
+.linechart .linechartLine {
+    fill: none;
+    stroke: var(--suncolor);
+}
+
+.linechart .linechartXaxis {
+    font-family: CartographSans-Medium, monospace;
+    font-size: 8pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+    color: var(--darkcolor);
+}
+
+.linechartCircle {
+    fill: var(--suncolor);
+    stroke: none;
+}
+
+
+/* Title */
+
+.title-style {
+    font-family: Ambit-Bold, sans-serif;
+    font-size: 32pt;
+    letter-spacing: 0.2pt;
+}
+
+/* Lead, Main Description */
+
+.lead-style {
+    /*font-size: 17pt;*/
+    font-size: 14.5pt;
+    line-height: 1.5em;
+    letter-spacing: 0.2pt;
+}
+
+/* Section Title */
+
+.section-title-style {
+    font-family: Ambit-Bold, sans-serif;
+    font-size: 17pt;
+    letter-spacing: 0.2pt;
+    /*text-transform: uppercase;*/
+}
+
+/* Body Text */
+
+.body-style p {
+    font-size: 12.5pt;
+    line-height: 1.6em;
+    letter-spacing: 0.2pt;
+}
+
+.body-style a {
+    background: linear-gradient(
+            to bottom, var(--suncolor) 0%,
+            var(--suncolor) 100%
+    ) repeat-x 0 100%;
+    background-size: 3px 1px;
+    color: var(--darkcolor);
+    padding-bottom: 3px;
+    text-decoration: none;
+    transition: background-size .13s;
+}
+
+.body-style a:hover {
+    background-size: 3px 3px;
+}
+
+/* Project Name in List */
+
+.project-name-in-list-style {
+    font-size: 11pt;
+    line-height: 1.4em;
+    letter-spacing: 0.2pt;
+}
+
+/* Big Quote */
+
+.big-quote-style {
+    font-family: CartographSans-XBoldItalic, monospace;
+    font-size: 16pt;
+    line-height: 1.5em;
+    letter-spacing: 0.18pt;
+    color: var(--darkcolor);
+}
+
+/* Portrait Photo Caption */
+
+.portrait-photo-caption-style {
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 11pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+    color: var(--darkcolor);
+    text-align: end;
+}
+
+/* Interface Heading */
+
+.interface-heading-style {
+    font-family: CartographMono-Heavy, monospace;
+    font-size: 9pt;
+    color: var(--darkcolor);
+    text-transform: uppercase;
+}
+
+/* Down Arrow, Dashed */
+
+#down-arrow-svg line {
+    fill: none;
+    stroke: var(--darkcolor);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 0, 8;
+}
+#down-arrow-svg polygon {
+    fill: var(--darkcolor);
+}
+
+/* Dashed */
+
+.dashed-top {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 8 2' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='0.6' fill='1D1D1B'/></svg>");
+    background-position: top;
+    background-size: 8px 2px;
+    background-repeat: repeat-x;
+}
+
+.dashed-right {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 2 8' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='0.6' fill='1D1D1B'/></svg>");
+    background-position: right;
+    background-size: 2px 8px;
+    background-repeat: repeat-y;
+}
+
+.dashed-left {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 2 8' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='0.6' fill='1D1D1B'/></svg>");
+    background-position: left;
+    background-size: 2px 8px;
+    background-repeat: repeat-y;
+}
