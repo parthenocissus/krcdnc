@@ -42,7 +42,7 @@
         {% for d in page.data %}
 
             {% if loop.index != 1 %}
-                <div class="break-line-container">
+                <div clasas="break-line-container">
                     <div class="break-line dashed-top"></div>
                 </div>
             {% endif %}
@@ -50,7 +50,7 @@
             {% set suffix = 1 + (loop.index % 2) %}
             {% set cont_class = "section-container section-container-grid-areas" ~ suffix %}
 
-            <div class="{{ cont_class }}">
+            <div id="{{ d.id }}" class="{{ cont_class }}">
 
                 <div class="section-image">
                     <img src="{{ url_for('static', filename=d.img) }}">
