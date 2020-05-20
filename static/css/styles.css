@@ -42,15 +42,16 @@
 
 .title-style {
     font-family: Ambit-Bold, sans-serif;
-    font-size: 32pt;
+    font-size: 36pt;
     letter-spacing: 0.2pt;
 }
 
 /* Lead, Main Description */
 
 .lead-style {
-    /*font-size: 17pt;*/
-    font-size: 14.5pt;
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 20pt;
+    /*font-size: 14.5pt;*/
     line-height: 1.5em;
     letter-spacing: 0.2pt;
 }
@@ -58,21 +59,22 @@
 /* Section Title */
 
 .section-title-style {
-    font-family: Ambit-Bold, sans-serif;
-    font-size: 17pt;
+    font-family: Ambit-BoldItalic, sans-serif;
+    font-size: 16pt;
     letter-spacing: 0.2pt;
     /*text-transform: uppercase;*/
 }
 
 /* Body Text */
 
-.body-style p {
+.body-style, .body-style p {
     font-size: 12.5pt;
     line-height: 1.6em;
     letter-spacing: 0.2pt;
 }
 
-.body-style a {
+.body-style a,
+.interface-page-li-style a {
     background: linear-gradient(
             to bottom, var(--suncolor) 0%,
             var(--suncolor) 100%
@@ -84,7 +86,8 @@
     transition: background-size .13s;
 }
 
-.body-style a:hover {
+.body-style a:hover,
+.interface-page-li-style a:hover {
     background-size: 3px 3px;
 }
 
@@ -126,6 +129,19 @@
     text-transform: uppercase;
 }
 
+.interface-subheading-style {
+    font-family: CartographSans-DemiBold, monospace;
+    font-size: 8pt;
+    text-transform: uppercase;
+}
+
+.interface-page-li-style {
+    font-family: "Ambit-Regular", sans-serif;
+    font-size: 11pt;
+    line-height: 1.5em;
+    letter-spacing: 0.2pt;
+}
+
 /* Down Arrow, Dashed */
 
 #down-arrow-svg line {
@@ -161,4 +177,10 @@
     background-position: left;
     background-size: 2px 8px;
     background-repeat: repeat-y;
+}
+
+/* Italic Style */
+
+.italic-style {
+    font-family: Ambit-Italic, sans-serif;
 }

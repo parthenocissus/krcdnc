@@ -48,9 +48,8 @@ def writing(flatpages, lang):
     research_projs = list(filter(lambda x: (research in map(lambda d: d["id"], x[by])), projs))
     research_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
     data = {
-        "diglit": diglit_projs,
-        "prose": prose_projects,
-        "research": research_projs
+        "projects": [diglit_projs, prose_projects, research_projs]
+        # "diglit": diglit_projs, "prose": prose_projects, "research": research_projs
     }
     return page, data
 

@@ -10,7 +10,7 @@
 /* Title */
 
 .title {
-    margin: 65px 0 15px 0;
+    margin: 95px 0 15px 0;
     text-align: center;
 }
 
@@ -20,14 +20,15 @@
     justify-items: center;
     text-align: center;
     padding: 0 20% 20px 20%;
+    margin-bottom: 110px;
 }
 
 /* Down Arrow */
 
-.down-arrow-container {
-    text-align: center;
-    padding-bottom: 70px;
-}
+/*.down-arrow-container {*/
+    /*text-align: center;*/
+    /*padding-bottom: 70px;*/
+/*}*/
 
 /* WRITING */
 
@@ -39,14 +40,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
-    grid-column-gap: 30px;
+    grid-column-gap: 40px;
 }
 
 .section-container-grid-areas1 {
     grid-template-areas:
         "img ttl"
         "img txt"
-        "prt txt"
+        "prl txt"
         "prj txt"
         "  . txt";
 }
@@ -55,7 +56,7 @@
     grid-template-areas:
         "ttl img"
         "txt img"
-        "txt prt"
+        "txt prl"
         "txt prj"
         "txt .  ";
 }
@@ -65,7 +66,7 @@
 .section-image {
     grid-area: img;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .section-image img {
@@ -98,17 +99,21 @@ h2, h3 {
     text-align: left;
 }
 
-/* Section Project Title */
-
-.project-title {
-    grid-area: prt;
-    margin: 14px 0;
-}
-
-/* Section Project List */
+/* Section Project Title and List */
 
 .section-projects {
     grid-area: prj;
+}
+
+.project-title {
+    margin: 20px 0;
+}
+
+.list-title {
+    margin: 12px 0;
+}
+
+.section-projects-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
@@ -157,6 +162,20 @@ h2, h3 {
     opacity: 0.8;
 }
 
+/* Section List (Publications) */
+
+.section-list {
+    grid-area: prl;
+}
+
+.section-list ul li {
+    padding-bottom: 15px;
+}
+
+.section-list ul li .year {
+    padding-right: 12px;
+}
+
 /* Break Line Dashed Top */
 
 .break-line-container {
@@ -166,9 +185,9 @@ h2, h3 {
 
 .break-line {
     display: inline-block;
-    width: 30px;
-    height: 72px;
-    margin: 0 0 0 0;
+    width: 152px;
+    height: 2px;
+    margin: 40px 0 50px 0;
 }
 
 /* TEACHING, SPEAKING, PRESS */

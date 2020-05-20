@@ -17,6 +17,8 @@ category:
       name: Eksperimentalna kartografija 
     - id: geography
       name: Eksperimentalna geografija
+    - id: software
+      name: Softver
 role:
     - id: designer
       name: Ko-dizajner

@@ -16,7 +16,9 @@ category:
     - id: cartography
       name: Experimental Cartography
     - id: geography
-      name: Experimental Geography    
+      name: Experimental Geography  
+    - id: software
+      name: Software  
 role:
     - id: designer
       name: Co-Designer

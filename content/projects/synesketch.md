@@ -67,13 +67,13 @@ presentations:
       events:
         - name: AI Lab, University of Belgrade, Serbia
 publications:
-    - year: 2013
-      pubs:
-        - link: "/download/synesketch/research/2013-Synesketch_An_Open_Source_Library_for_Sentence-based_Emotion_Recognition-Krcadinac_Pasquier_Jovanovic_and_Devedzic.pdf"
-          name: "Krcadinac U., Jovanovic J., Devedzic V. & Pasquier P.: Textual affect communication and evocation using abstract generative visuals, IEEE Transactions on Human-Machine Systems, doi: 10.1109 / THMS.2015.2504081 (Preprint PDF)"
     - year: 2016
       pubs:
         - link: "/download/synesketch/research/2016-Textual_Affect_Communication_and_Evocation_Using_Abstract_Generative_Visuals-Krcadinac_Jovanovic_Devedzic_and_Pasquier.pdf"
+          name: "Krcadinac U., Jovanovic J., Devedzic V. & Pasquier P.: Textual affect communication and evocation using abstract generative visuals, IEEE Transactions on Human-Machine Systems, doi: 10.1109 / THMS.2015.2504081 (Preprint PDF)"
+    - year: 2013
+      pubs:
+        - link: "/download/synesketch/research/2013-Synesketch_An_Open_Source_Library_for_Sentence-based_Emotion_Recognition-Krcadinac_Pasquier_Jovanovic_and_Devedzic.pdf"
           name: "Krcadinac U., Pasquier P., Jovanovic J. & Devedzic V.: Synesketch: An Open Source Library for SentenceBased Emotion Recognition, IEEE Transactions on Affective Computing 4(3): 312-325, 2013, doi: 10.1109 / T-AFFC.2013.18 (Preprint PDF)"
 awards:
     - year: 2008

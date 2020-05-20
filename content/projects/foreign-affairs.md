@@ -14,6 +14,8 @@ category:
       name: Interactive Art + Design
     - id: cartography
       name: Experimental Cartography
+    - id: software
+      name: Software
 role:
     - id: designer
       name: Co-Designer

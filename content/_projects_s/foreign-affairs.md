@@ -14,6 +14,8 @@ category:
       name: Interaktivna umetnost + dizajn
     - id: cartography
       name: Eksperimentalna kartografija
+    - id: software
+      name: Softver
 role:
     - id: designer
       name: Ko-dizajner
