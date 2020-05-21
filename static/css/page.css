@@ -2,7 +2,7 @@
 
 .main-container {
     grid-area: maincont;
-    margin: 18px 0 120px 0;
+    margin: 18px 0 140px 0;
     font-family: Ambit-Regular, sans-serif;
     min-height: calc(100vh - 220px);
 }
@@ -66,7 +66,7 @@
 /* Dot Padding */
 
 .bullet-padding {
-    padding-right: 4px;
+    padding-right: 5px;
 }
 
 /* Section Image */
@@ -201,8 +201,8 @@ h2, h3 {
 
 .break-line {
     display: inline-block;
-    width: 152px;
-    height: 2px;
+    width: 30px;
+    height: 0px;
     margin: 40px 0 30px 0;
 }
 

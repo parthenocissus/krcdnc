@@ -45,6 +45,7 @@ def writing(flatpages, lang):
     bantu = "bantustan-book"
     research = "research"
     by = "category"
+    params = lang.params()
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "writing"))
     projs = [p for p in flatpages if p.path.startswith(lang.dir())]
     bantu_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), bantu))
@@ -54,6 +55,9 @@ def writing(flatpages, lang):
     research_projs = list(filter(lambda x: (research in map(lambda d: d["id"], x[by])), projs))
     research_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
     data = {
+        "link": params["menu_items"][2]["link"],
+        "title": params["menu_items"][2]["title"],
+        "langlink": params["pages_captions"]["writing_lang_link"],
         "projects": [diglit_projs, prose_projects, research_projs]
         # "diglit": diglit_projs, "prose": prose_projects, "research": research_projs
     }
