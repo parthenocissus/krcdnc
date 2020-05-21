@@ -20,7 +20,7 @@
     justify-items: center;
     text-align: center;
     padding: 0 18% 20px 18%;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
 }
 
 /* Down Arrow */
@@ -34,7 +34,8 @@
 /* Section Container */
 
 .section-container {
-    margin-top: 10px;
+    margin-top: 0;
+    padding-top: 30px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -44,28 +45,30 @@
 
 .section-container-grid-areas1 {
     grid-template-areas:
-        "img ttl"
-        "img txt"
-        "prl txt"
-        "prj txt"
-        "  . txt";
+        "imc txt";
 }
 
 .section-container-grid-areas2 {
     grid-template-areas:
-        "ttl img"
-        "txt img"
-        "txt prl"
-        "txt prj"
-        "txt .  ";
+        "txt imc";
+}
+
+/* Columns */
+
+.image-column {
+    grid-area: imc;
+}
+
+.text-column {
+    grid-area: txt;
 }
 
 /* Section Image */
 
 .section-image {
-    grid-area: img;
+    /*grid-area: img;*/
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 }
 
 .section-image .image {
@@ -78,15 +81,14 @@
 }
 
 .section-image .caption {
-    padding: 0px 0;
-    margin-bottom: 15px;
-    text-align: left;
+    padding: 4px 0;
+    /*margin-bottom: 15px;*/
 }
 
 /* Section Title */
 
 .section-heading {
-    grid-area: ttl;
+    /*grid-area: ttl;*/
     padding-bottom: 18px;
 }
 
@@ -98,7 +100,7 @@ h2, h3 {
 /* Section Text */
 
 .section-text {
-    grid-area: txt;
+    /*grid-area: txt;*/
     margin: 0;
 }
 .section-text p {
@@ -110,7 +112,7 @@ h2, h3 {
 /* Section Project Title and List */
 
 .section-projects {
-    grid-area: prj;
+    /*grid-area: prj;*/
 }
 
 .project-title {
@@ -195,7 +197,7 @@ h2, h3 {
     display: inline-block;
     width: 152px;
     height: 2px;
-    margin: 40px 0 50px 0;
+    margin: 40px 0 30px 0;
 }
 
 /* TEACHING, SPEAKING, PRESS */

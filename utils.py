@@ -4,10 +4,16 @@ from itertools import groupby
 def teaching(flatpages, lang):
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "teaching"))
     params = lang.params()
+    workshops = "workshop"
+    by = "category"
+    projs = [p for p in flatpages if p.path.startswith(lang.dir())]
+    workshop_projs = list(filter(lambda x: (workshops in map(lambda d: d["id"], x[by])), projs))
+    workshop_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
     data = {
         "link": params["menu_items"][3]["link"],
         "title": params["menu_items"][3]["title"],
-        "langlink": params["pages_captions"]["teaching_lang_link"]
+        "langlink": params["pages_captions"]["teaching_lang_link"],
+        "projects": [0, 0, workshop_projs]
     }
     return page, data
 
