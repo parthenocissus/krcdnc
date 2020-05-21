@@ -120,6 +120,16 @@
     text-align: end;
 }
 
+/* Page Image Caption */
+
+.page-image-caption-style {
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 11pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+    color: var(--darkcolor);
+}
+
 /* Interface Heading */
 
 .interface-heading-style {

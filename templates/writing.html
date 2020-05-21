@@ -47,14 +47,24 @@
                 </div>
             {% endif %}
 
-            {% set suffix = 1 + (loop.index % 2) %}
+            {% set suffix = 1 + (loop.index % 2) if page.layout == 1 else 2 - (loop.index % 2) %}
             {% set cont_class = "section-container section-container-grid-areas" ~ suffix %}
 
             <div id="{{ d.id }}" class="{{ cont_class }}">
 
+
                 <div class="section-image">
-                    <img src="{{ url_for('static', filename=d.img) }}">
+                    {% for img in d.images %}
+                        <div class="image">
+                            <img src="{{ url_for('static', filename=img.path) }}">
+                        </div>
+{#                        {% if img.name is defined %}#}
+{#                            <div class="caption page-image-caption-style">{{ img.name|safe }}</div>#}
+{#                        {% endif %}#}
+                    {% endfor %}
                 </div>
+
+
                 <h2 class="section-heading section-title-style">
                     {{ d.title|safe }}
                 </h2>
@@ -67,7 +77,7 @@
                 </div>
 
                 {% set i = loop.index - 1 %}
-                {% if data.projects[i] is defined %}
+                {% if data.projects is defined and data.projects[i] is defined %}
 
                     <div class="section-projects">
 

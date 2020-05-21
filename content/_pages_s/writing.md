@@ -1,11 +1,13 @@
 title: 
     name: Pisani radovi
 id: writing
+layout: 1
 lead: "Knjige i tekstovi. Akademski istraživački radovi, proza, digitalni poetski eksperimenti, putopisi, eseji, enciklopedijski članci."
 data:
     - title: Digitalna književnost
       id: "diglit"
-      img: "media/projects/vinaware/img/vinaware02.jpg"
+      images: 
+        - path: "media/projects/vinaware/img/vinaware02.jpg"
       text: "<p>Serija konceptualnih književnih radova kreiranih uz pomoć niza <a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>digitalnih i elektronskih tehnika</a>, kao što su računarski <a href='/rad/projekti/category/ai'>AI sistemi</a> za generisanje teksta, poezija optimizovana pomoću Google Keyword Plannera i taktičko pisanje za prevaru programa koji prepoznaju emocije u tekstu.</p>
 <p>Među projektima izdvajam <span class='italic-style'><a href='/rad/projekti/vinaware/'>Ja nisam željan da me ko voli, nego da svi zavole lišće</a></span>, interaktivnu neuralnu mrežu za generisanje i vizuelizaciju teksta u stilu Miloša Crnjanskog. Tu je i <span class='italic-style'><a href='/rad/projekti/zima/'>Zima</a></span>, knjižica poezije koja sadrži pesmu koju sam napravio uz pomoć AI sistema, kao i <a href='/rad/projekti/optimized-poetry/'>Optimizovana poeziju</a>, čitački performans i radionica računarske književnosti.</p>
 <p>U epohi mreže verujem da kreativno pisanje ne sme da ignoriše činjenicu da je bilo koji tekst pre svega: 1) računarski podatak; i 2) digitalna roba. Za globalni tehno-lingvistički kapital, kako to <a href='https://infoscience.epfl.ch/record/200539?ln=en' target='_blank'>objašnjava prof. Frederic Kaplan</a>, reči su prosto indeksi roba i usluga.  Zašto ne bismo ova tehno-ekonomska ograničenja iskoristili kao umetnička ograničenja? Novi medijski režimi zazivaju nove poetske prakse – <span class='italic-style'>dataizam</span> umesto dadaizma.</p>
@@ -20,23 +22,25 @@ data:
     </ul>"
     - title: Proza + putopis
       id: "prose"
-      img: "media/projects/bantustan-book/img/bantustan-book13.jpg"
+      images: 
+        - path: "media/projects/bantustan-book/img/bantustan-book13.jpg"
       text: "<p>Prozu o putovanjima i ljudskim geografijama pisao sam u saradnji sa <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazarom Pašćanovićem</a> i <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klubom putnika</a>, glavnim nezavisnim okupljalištem za samostalne putnike i putopisce Balkana.</p>
-<p>U ovoj grupi radova izdvajam <span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>, infografički putopis <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazara Pašćanovića</a>, <a href='http://www.klubputnika.org/autori/chivitli' target='_blank'>Marka Đedovića</a> i mene. Opisujući tromesečno putovanje od Srbije do Namibije, knjiga se fokusira na razgovore između nas i ljudi koje srećemo.  Bantustan je knjiga o fluidnim identitetima, neočekivanim vezama, braunovskom kretanju ljudskih čestica i pokušaju da zamislimo nove i drugačije kartografije ljudskih odnosa na zajedničkoj planeti.</p>
+<p>U ovoj grupi radova izdvajam <span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>, infografički putopis <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazara Pašćanovića</a>, <a href='http://www.klubputnika.org/autori/chivitli' target='_blank'>Marka Đedovića</a> i mene. Opisujući tromesečno putovanje od Srbije do Namibije, knjiga se fokusira na razgovore između nas i ljudi koje srećemo.  <span class='italic-style'>Bantustan</span> je knjiga o fluidnim identitetima, neočekivanim vezama, <a href='/rad/projekti/kp-identity/'>braunovskom kretanju</a> ljudskih čestica i pokušaju da zamislimo nove i drugačije kartografije ljudskih odnosa na zajedničkoj planeti.</p>
 <p>Uz mnoštvo rukom crtanih mapa i infografika, svojevrsnih <span class='italic-style'>interfejsa</span> za nelinearno čitanje, <span class='italic-style'>Bantustan</span> je takođe primer <a href='https://www.articleworld.org/index.php/Ergodic_literature' target='_blank'>ergodičke i interaktivne književnosti</a>. Kritičari i književnici poput <a href='https://sr.wikipedia.org/sr-el/%D0%92%D0%B0%D1%81%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B' target='_blank'>Vase Pavkovića</a> i <a href='http://www.klubputnika.org/zbirka/blogovi/bantustan/3997-bantustan-kao-novi-oblik-romana' target='_blank'>Elisa Bektaša</a> opisali su ga kao <span class='italic-style'>novi oblik romana</span>.</p>
 <p>Do sada je <span class='italic-style'>Bantustan</span> doživeo 3 papirna izdanja (3000 primeraka) i preko 30 književnih gostovanja širom jugoslovenskog prostora. Tako je putovanje same knjige postalo <a href='/rad/projekti/bantustan-dataviz/'>priča za sebe</a>.</p>
 <p><span class='italic-style'>Bantustan</span> je dostupan kao <a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>otvoreno licencirana besplatna elektronska knjiga</a> (trenutno samo na našem jeziku; engleska verzija je u pripremi).</p>
 <p>Uz <span class='italic-style'>Bantustan</span>, takođe sam jedan od autora zbirke kratkih putopisa <span class='italic-style'><a href='http://www.klubputnika.org/zbirka/zbivanja/3432-neutabanim-stazama' target='_blank'>Neutabanim stazama</a></span>. Zajedno sa <a href='https://www.goodreads.com/author/show/4042520.Mario_Jankovi_Romano' target='_blank'>Mariom Janković-Romanom</a> i <a href='http://www.klubputnika.org/autori/nenad.moraca' target='_blank'>Nenadom Moračom</a>, napisao sam jedan od putopisa iz knjige, priču o Mongoliji,  <span class='italic-style'>Zemlja čiji gradovi ne postoje</span>. Redovan sam član žirija književnog konkursa <a href='http://www.klubputnika.org/zbirka/zbivanja/4287-konkurs-spasimo-putopis-2020' target='_blank'>Spasimo putopis</a> koji Klub putnika organizuje od 2019.</p>"
       list: "<div class='list-title interface-heading-style'>Publikacije</div>
     <ul>
-    <li><span class='year interface-subheading-style'>2015</span><span class='page-list-item-style'><span class='italic-style'><a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>Bantustan: Atlas jednog putovanja</a></span>, Pašćanović L., Krčadinac U., Đedović M., Klub putnika, Novi Sad, Serbia</span>
+    <li><span class='year interface-subheading-style'>2015</span><span class='page-list-item-style'><span class='italic-style'><a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>Bantustan: Atlas jednog putovanja</a></span>, Pašćanović L., Krčadinac U., Đedović M., Klub putnika, Novi Sad, Srbija</span>
     </li>
-    <li><span class='year interface-subheading-style'>2009</span><span class='page-list-item-style'><span class='italic-style'>Neutabanim stazama</span>, grupa autora, Klub putnika, Novi Sad, Serbia</span>
+    <li><span class='year interface-subheading-style'>2009</span><span class='page-list-item-style'><span class='italic-style'>Neutabanim stazama</span>, grupa autora, Klub putnika, Novi Sad, Srbija</span>
     </li>
     </ul>"
     - title: Akademski radovi u oblasti afektivnog računarstva
       id: "research"
-      img: "media/pages/hci_writing.jpg"
+      images: 
+        - path: "media/pages/hci_writing.jpg"
       text: "<p>Akademskim istraživanjima bavio sam se u oblastima koja povezuju računarstvo, dizajn i umetnost, kao što su afektivno računarstvo, interakcija čoveka i računara, generativna estetika, prepoznavanje emocija u tekstu i vizuelizacija podataka.</p>
 <p>Istraživanja su uglavnom vezana za <a href='/rad/projekti/synesketch/'>Synesketch</a>, besplatan i slobodan projekat otvorenog koda koji sam započeo u 2008. Synesketch je softverska biblioteka za prepoznavanje i umetničku vizuelizaciju emocija u tekstu. Kao pionirski poduhvat humanizacije veštačke inteligencije i generativne estetike, Synesketch su priznali međunarodni umetnički programi, naučni časopisi i konferencije, kao i mnoge organizacije i pojedinci širom Veba. U svojim akademskim radovima istraživao sam tačnost njegovog sistema za prepoznavanje emocija u tekstu, kao i kvalitet njegovih generativnih vizuala u kontekstu korisničkog estetskog iskustva. Radovi su objavljeni u dva <a href='https://www.paragraf.rs/izmene_i_dopune/130417-pravilnik_o_izmenama_i_dopunama_pravilnika_o_postupku_nacinu_vrednovanja_i_kvantitativnom_iskazivanju_naucnoistrazivackih_rezultata_istrazivaca.html' target='_blank'>M21</a> časopisa, <a href='https://ieeexplore.ieee.org/document/7358121' target='_blank'>IEEE Transactions on Human-Machine Systems</a> i <a href='https://ieeexplore.ieee.org/document/6589580' target='_blank'>IEEE Transactions on Affective Computing</a>.</p>
 <p>Drugi projekat o kojem sam pisao je <a href='/rad/projekti/paperista/'>Paperista</a>, interaktivni animirani vizuelni pretraživač za semantički označene istraživačke radove.</p>
@@ -49,7 +53,8 @@ data:
     </ul>"
     - title: Eseji i drugi članci
       id: "essays"
-      img: "media/projects/geoselfportrait/geoselfportrait-main.jpg"
+      images: 
+        - path: "media/projects/geoselfportrait/geoselfportrait-main.jpg"
       text: "<p>Od <a href='http://www.klubputnika.org/autori/uros.krcadinac' target='_blank'>tekstova koje sam napisao za Klub putnika</a>, izdvajam dva:</p>
 <p><span class='italic-style'><a href='http://www.klubputnika.org/zbirka/putoskop/3726-znak-kluba-putnika' target='_blank'>Znak Kluba putnika</a></span> – esej o ličnim geografskim linijama koje crtamo krećući se. Esej objašnjava poetsku motivaciju za <a href='/rad/projekti/kp-identity/'>Klubov generativni dizajn identiteta</a>. Ideje iz eseja izrasle su u projekte eksperimentalne geografije i kartografije poput <a href='/rad/projekti/geoselfportrait/'>Geoautoportreta</a> i <a href='/rad/projekti/geoglyphs-zg/'>Zagrebačkih geoglifa</a>.</p>
 <p><span class='italic-style'><a href='http://www.klubputnika.org/zbirka/blogovi/bantustan/3930-geografsko-ja' target='_blank'>Geografsko ja</a></span> – esej o ličnom geo-identietu koji svako od nas kreira putujući globusom i istražujući ga fizički.</p>
