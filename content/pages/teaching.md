@@ -9,14 +9,15 @@ data:
       images: 
         - path: "media/pages/teaching01.jpg"
         - path: "media/projects/dataviz-workshops/img/dataviz-workshops01.jpg"
+        - path: "media/pages/teaching04.jpg"
       text: "<p>Currently, I work as an <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Assistant Professor of Digital Art and Computing</a> at the Department of Digital Art, Faculty of Media and Communications, Singidunum University, Belgrade, Serbia. I try to foster an transdisciplinary studio environment in collaboration with <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidora Nikolić</a> and <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borut Vild</a>.</p> 
 <p>Along with teaching, I have created a group of interactive art courses for the Department of Digital Art, which was seen as a pioneering effort within Serbian high education system. Courses include:</p>
-<p><span class='italic-style'>– Creative Coding: Algorithm, Image, and Text<br>
-– Programming for Artists, Designers, and Writers<br>
-– New Media Art and Design<br>
-– Data Visualization and Data Art<br>
-– Interactive Narrative and Ergodic Literature<br>
-– Interaction Design and Critical Making</span></p>
+<p><span class='italic-style'><span class='bullet-padding'>•</span> Creative Coding: Algorithm, Image, and Text<br>
+<span class='bullet-padding'>•</span> Programming for Artists, Designers, and Writers<br>
+<span class='bullet-padding'>•</span> New Media Art and Design<br>
+<span class='bullet-padding'>•</span> Data Visualization and Data Art<br>
+<span class='bullet-padding'>•</span> Interactive Narrative and Ergodic Literature<br>
+<span class='bullet-padding'>•</span> Interaction Design and Critical Making</span></p>
 <p>I am also a <a href='http://goodoldai.org/' target='_blank'>Research Associate and Visiting Lecturer at the Good Old AI Lab</a>, Department of Software Engineering, Faculty of Organizational Sciences, University of Belgrade, Serbia. I lecture on data visualization and AI-related poetics, æsthetics, and ethics. My regular collaborators are <a href='https://jelenajovanovic.net/' target='_blank'>Jelena Jovanović</a> and <a href='http://devedzic.fon.bg.ac.rs/' target='_blank'>Vladan Devedžić</a>.</p>
 <p>My past academic experience include research work at the <a href='http://metacreation.net/' target='_blank'>Metacreation Lab</a>, <a href='http://www.sfu.ca/siat.html' target='_blank'>School of Interactive Arts + Technology, SFU</a>, Vancouver, Canada, and a residency at the <a href='http://mi-lab.org/' target='_blank'>Media Interaction Lab,  School of Informatics, Communication and Media</a>, University of Applied Sciences Upper Austria, Hagenberg, Austria.</p>" 
     - title: Petnica Design Programme
@@ -41,9 +42,9 @@ data:
         - path: "media/pages/desko_01.jpg"
           name: "<span class='italic-style'>Glitch Brush</span>, Miloš Desko Ćosović, 2017"
       text: "<p>I’ve been a teacher and mentor of several award-winning students, the most prominent being Kristina Tica, Jelena Pejović, and Miloš Desko Ćosović:</p>
-<p>– <a href='https://ticakristina.com/' target='_blank'>Kristina Tica</a>’s master project <span class='italic-style'><a href='https://ticakristina.com/Digital-Prayer' target='_blank'>Digital Prayer</a></span> was the winner of the <a href='http://www.seecult.org/konkurs/poziv-za-ucesce-u-projektu-evropska-laboratorija-vestacke-inteligencije' target='_blank'>National Competition for AI Art project</a>, organized by Belgrade Centre for the Promotion of Science within <a href='https://ars.electronica.art/ailab/en/' target='_blank'>European ARTificial Intelligence Lab</a>. <span class='italic-style'>Digital Prayer</span> was created by employing Generative Adversarial Neural Networks over a database of scanned icon paintings. Thus, a relation has been established between the canonical structure of an Orthodox icon and the image artificially created through computer program.</p>
-<p>– <a href='https://www.instagram.com/sunflower0306/?hl=en' target='_blank'>Jelena Pejović</a> won several Best Student and Best Student Project awards at the Faculty of Media and Communications. Her undergraduate project <span class='italic-style'><a href='https://www.instagram.com/p/BrgPt37gOTX/' target='_blank'>Generative Music Visualization</a></span> employs p5.js algorithms to responsive animated visuals in real-time.</p>
-<p>– <a href='http://lakrc.com/' target='_blank'>Miloš Desko Ćosović</a> won the Faculty of Media and Communications’s Best Student Project award for his master project <span class='italic-style'><a href='https://www.amicentre.biz/residence-de-Milos-Cosovic-Desko.html?lang=fr' target='_blank'>Glitch Brush</a></span>, which uses glitch aesthetics in combination with real-time digital drawing. Project was publicly exhibited as a 3D mapping installation in Serbia and France.</p>"
+<p><span class='bullet-padding'>•</span> <a href='https://ticakristina.com/' target='_blank'>Kristina Tica</a>’s master project <span class='italic-style'><a href='https://ticakristina.com/Digital-Prayer' target='_blank'>Digital Prayer</a></span> was the winner of the <a href='http://www.seecult.org/konkurs/poziv-za-ucesce-u-projektu-evropska-laboratorija-vestacke-inteligencije' target='_blank'>National Competition for AI Art project</a>, organized by Belgrade Centre for the Promotion of Science within <a href='https://ars.electronica.art/ailab/en/' target='_blank'>European ARTificial Intelligence Lab</a>. <span class='italic-style'>Digital Prayer</span> was created by employing Generative Adversarial Neural Networks over a database of scanned icon paintings. Thus, a relation has been established between the canonical structure of an Orthodox icon and the image artificially created through computer program.</p>
+<p><span class='bullet-padding'>•</span> <a href='https://www.instagram.com/sunflower0306/?hl=en' target='_blank'>Jelena Pejović</a> won several Best Student and Best Student Project awards at the Faculty of Media and Communications. Her undergraduate project <span class='italic-style'><a href='https://www.instagram.com/p/BrgPt37gOTX/' target='_blank'>Generative Music Visualization</a></span> employs p5.js algorithms to responsive animated visuals in real-time.</p>
+<p><span class='bullet-padding'>•</span> <a href='http://lakrc.com/' target='_blank'>Miloš Desko Ćosović</a> won the Faculty of Media and Communications’s Best Student Project award for his master project <span class='italic-style'><a href='https://www.amicentre.biz/residence-de-Milos-Cosovic-Desko.html?lang=fr' target='_blank'>Glitch Brush</a></span>, which uses glitch aesthetics in combination with real-time digital drawing. Project was publicly exhibited as a 3D mapping installation in Serbia and France.</p>"
     - title: Contact
       id: "contact"
       images: 

@@ -63,6 +63,12 @@
     grid-area: txt;
 }
 
+/* Dot Padding */
+
+.bullet-padding {
+    padding-right: 4px;
+}
+
 /* Section Image */
 
 .section-image {
