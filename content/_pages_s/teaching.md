@@ -37,9 +37,9 @@ data:
       id: "mentorships"
       images: 
         - path: "media/pages/kristina_tica_01.jpg"
-          name: "<span class='italic-style'>Digital Prayer</span>, Kristina Tica, 2020"
+          name: "<span class='italic-style'>Digitalna molitva</span>, Kristina Tica, 2020"
         - path: "media/pages/jelena_pejovic_02.png"
-          name: "<span class='italic-style'>Generative Music Visualization</span>, Jelena Pejović, 2019"
+          name: "<span class='italic-style'>Generativna vizuelizacija muzike</span>, Jelena Pejović, 2019"
         - path: "media/pages/desko_01.jpg"
           name: "<span class='italic-style'>Glitch Brush</span>, Miloš Desko Ćosović, 2017"
       text: "<p>Bio sam profesor i mentor nekolicini nagrađivanih studenata, među kojima izdvajam Kristinu Ticu, Jelenu Pejović i Miloša Deska Ćosovića:</p>
