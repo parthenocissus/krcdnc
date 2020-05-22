@@ -9,7 +9,7 @@ data:
       images: 
         - path: "media/pages/teaching01.jpg"
         - path: "media/projects/dataviz-workshops/img/dataviz-workshops01.jpg"
-        - path: "media/pages/teaching04.jpg"
+        - path: "media/pages/speaking_novaiskra02.jpg"
       text: "<p>Trenutno radim kao <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Docent digitalne umetnosti i računarstva</a> na Departmanu za digitalne umetnosti Fakulteta za medije i komunikacije Univerziteta Singidunum. Docent sam u dve oblasti: umetničkoj i naučnoj. U saradnji sa <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidorom Nikolić</a> i <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borutom Vildom</a> nastojim da negujem transdisciplinarnu studijsku atmosferu.</p> 
 <p>Uporedo s nastavom, osmislio sam grupu predmeta koji se bave interaktivnom umetnošću, jednu od prvih takvih u obrazovnom sistemu Srbije. Predmeti uključuju:</p>
 <p><span class='italic-style'>
