@@ -28,7 +28,7 @@ data:
         - path: "media/projects/data-storytelling-workshops/data-storytelling-workshops-main.jpg"
           name: "Point Conference, Sarajevo, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book10.jpg"
-          name: "Museum afričke umetnosti, Beograd, 2015"
+          name: "Muzej afričke umetnosti, Beograd, 2015"
         - path: "media/projects/kp-identity/img/kp-identity03.jpg"
           name: "Booksa, Zagreb, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book25.jpg"
