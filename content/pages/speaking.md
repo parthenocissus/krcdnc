@@ -19,8 +19,6 @@ data:
           name: "Centre for the Promotion of Science, Belgrade, 2019"
         - path: "media/pages/speaking_pland.jpg"
           name: "Plan D, Technical Museum, Zagreb, 2018"
-        - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
-          name: "Serbian Academy of Arts and Sciences, Belgrade, 2019"
         - path: "media/projects/gen-art-workshops/img/gen-art-workshops01.jpg"
           name: "Petnica Science Centre, Serbia, 2018"
         - path: "media/pages/speaking_novaiskra01.jpg"
@@ -35,6 +33,8 @@ data:
           name: "Palach, Rijeka, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book15.jpg"
           name: "Kriterion, Sarajevo, 2015"        
+        - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
+          name: "Serbian Academy of Arts and Sciences, Belgrade, 2019"
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2020</div>
     <ul>
