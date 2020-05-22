@@ -149,7 +149,7 @@ data:
 <div class='list-title interface-heading-style'><br></div>
 <ul>
 <li>—</li>
-<li>Full list of Bantustan-related Lectures, Talks, and Book Promotions can be found on the <a href='/work/projects/bantustan-book/'>Bantustan project page</a>. The list of selected workshops and teaching projects can be found in the <a href='/work/teaching/'>Teaching section</a>.</li>
+<li>Full list of <span class='italic-style'>Bantustan</span>-related Lectures, Talks, and Book Promotions can be found on the <a href='/work/projects/bantustan-book/'>Bantustan project page</a>. The list of selected workshops and teaching projects can be found in the <a href='/work/teaching/'>Teaching section</a>.</li>
 </ul>
 </div>" 
 timeline:
@@ -168,7 +168,7 @@ timeline:
     - year: 2014
       d: 2
     - year: 2015
-      d: 14
+      d: 13
     - year: 2016
       d: 7
     - year: 2017

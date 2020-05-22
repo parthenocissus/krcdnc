@@ -36,7 +36,7 @@ data:
         - path: "media/projects/bantustan-book/img/bantustan-book15.jpg"
           name: "Kriterion, Sarajevo, 2015"        
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2020</div>
+<div class='list-title-first-page interface-heading-style'>2020</div>
 <ul>
 <li><span class='italic-style'>Autorsko predavanje</span>, MultiMadeira Artist Residency, Funšal, Madeira, Portugal</li>
 <li><span class='italic-style'>Etika i estetika veštačke inteligencije</span> (javno predavanje), Odsek za softversko inženjerstvo, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
@@ -44,7 +44,7 @@ data:
 <li><span class='italic-style'>Nasleđe u digitalnom okruženju: Razgovor o prirodi neuspeha korišćenja novih medija u promociji i afirmaciji kulturnog nasleđa</span> (javna tribina), Kuća legata, Beograd, Srbija</li>
 <li><span class='italic-style'>Mašinsko učenje za umetnike</span> (javno predavanje), Co-Work Center, Funšal, Madeira, Portugal</li>
 </ul>
-    <div class='list-title interface-heading-style'>2019</div>
+<div class='list-title interface-heading-style'>2019</div>
 <ul>
 <li><span class='italic-style'><a href='https://fmk.singidunum.ac.rs/vesti/art-neuroscience-uros-krcadinac/' target='_blank'>Roboti ne sanjaju ništa, ali sanjamo li mi?</a></span> (javno predavanje), Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija</li>
 <li><span class='italic-style'>Data dada i neuralne mreže: Kako živeti anti-korporativnim životom?</span> (javno predavanje), Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
@@ -148,7 +148,7 @@ data:
 <div class='list-title interface-heading-style'><br></div>
 <ul>
 <li>—</li>
-<li>Kompletan spisak tribina o Bantustanu nalazi se na <a href='/rad/projekti/bantustan-book/'>stranici projekta</a>. Lista izabranih javnih radionica nalazi se na stranici <a href='/rad/edukacija/'>Edukacija.</a></li>
+<li>Kompletan spisak tribina o <span class='italic-style'>Bantustanu</span> nalazi se na <a href='/rad/projekti/bantustan-book/'>stranici projekta</a>. Lista izabranih javnih radionica nalazi se na stranici <a href='/rad/edukacija/'>Edukacija.</a></li>
 </ul>
 </div>" 
 timeline:
@@ -167,7 +167,7 @@ timeline:
     - year: 2014
       d: 2
     - year: 2015
-      d: 14
+      d: 13
     - year: 2016
       d: 7
     - year: 2017
