@@ -135,7 +135,7 @@ data:
 <div class='list-title interface-heading-style'>2010</div>
 <ul>
 <li><span class='italic-style'>Umetnička prezentacija</span>, International Digital Media Arts Association Conference, Emily Carr University Gallery, Vankuver, Kanada</li>
-<li><span class='italic-style'>Javno predavanje</span>, School of Interactive Art + Technology, Simon Fraser University, Vancouver Canada</li>
+<li><span class='italic-style'>Javno predavanje</span>, School of Interactive Art + Technology, Simon Fraser University, Vankuver, Kanada</li>
 </ul>
 <div class='list-title interface-heading-style'>2009</div>
 <ul>
