@@ -8,7 +8,7 @@ data:
       id: "venues"
       images:
         - path: "media/pages/teaching04.jpg"
-          name: "Nova Iskra, Beograd, 2016"
+          name: "Nova Iskra, Belgrade, 2016"
         - path: "media/pages/speaking_mokrin02.jpg"
           name: "TEDx Mokrin, Serbia, 2018" 
         - path: "media/pages/speaking_fdu.jpg"
@@ -123,7 +123,7 @@ data:
 <ul>
 <li><span class='italic-style'>Lecture on Paperista System</span>, International Conference on Learning Analytics & Knowledge, Leuven, Belgium</li>
 <li><span class='italic-style'>Public Talk</span>, Republika Festival, Rijeka, Croatia</li>
-<ul>
+</ul>
 <div class='list-title interface-heading-style'>2012</div>
 <ul>
 <li><span class='italic-style'>Visualizing the Affective Structure of Students Interaction</span> (Public Lecture), International Conference on Hybrid Learning, Guangzhou, China</li>
@@ -156,26 +156,26 @@ timeline:
     - year: 2008
       d: 1
     - year: 2009
-      d: 2
+      d: 1
     - year: 2010
       d: 2
     - year: 2011
-      d: 2
+      d: 1
     - year: 2012
       d: 2
     - year: 2013
-      d: 4
+      d: 2
     - year: 2014
       d: 2
     - year: 2015
-      d: 11
+      d: 14
     - year: 2016
-      d: 10
+      d: 7
     - year: 2017
-      d: 17
+      d: 10
     - year: 2018
-      d: 17
+      d: 10
     - year: 2019
-      d: 20
+      d: 15
     - year: 2020
-      d: 12
+      d: 5
