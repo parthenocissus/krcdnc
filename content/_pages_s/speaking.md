@@ -90,7 +90,7 @@ data:
 <div class='list-title interface-heading-style'>2016</div>
 <ul>
 <li><span class='italic-style'>Antropološki razgovori</span> (javna tribina), Klub studenata etnologije i antropologije KSEA, Studentski kulturni centar (SKC), Beograd</li>
-<li><span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas of a Journey</a></span> (javna književna tribina), Narodna biblioteka, Pirot</li>
+<li><span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span> (javna književna tribina), Narodna biblioteka, Pirot</li>
 <li><span class='italic-style'>Data Visualization as a Storytelling Medium</span> (Public Lecture), S.U.T.R.A. / Tomorrow Festival of Digital and New Media Art, Belgrade, Serbia</li>
 <li><span class='italic-style'>Bantustan: Atlas jednog putovanja</span> (javna književna tribina), Fondacija Danilo Kiš, Subotica</li>
 <li><span class='italic-style'>Bantustan: Atlas jednog putovanja</span> (javna književna tribina), Gradska biblioteka Karlo Bijelicki, Sombor, Srbija</li>
