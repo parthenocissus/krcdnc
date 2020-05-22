@@ -1,5 +1,5 @@
 title: 
-    name: Pisani radovi
+    name: Publikacije
 id: writing
 layout: 1
 lead: "Knjige i tekstovi. Akademski istraživački radovi, proza, digitalni poetski eksperimenti, putopisi, eseji, enciklopedijski članci."
