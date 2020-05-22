@@ -102,9 +102,11 @@
 
 
                 <div class="text-column">
-                    <h2 class="section-heading section-title-style">
-                        {{ d.title|safe }}
-                    </h2>
+                    {% if d.title != 0 %}
+                        <h2 class="section-heading section-title-style">
+                            {{ d.title|safe }}
+                        </h2>
+                    {% endif %}
                     <article class="section-text body-style">
                         {{ d.text|safe }}
                     </article>

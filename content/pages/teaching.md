@@ -9,7 +9,7 @@ data:
       images: 
         - path: "media/pages/teaching01.jpg"
         - path: "media/projects/dataviz-workshops/img/dataviz-workshops01.jpg"
-        - path: "media/pages/teaching04.jpg"
+        - path: "media/pages/speaking_novaiskra02.jpg"
       text: "<p>Currently, I work as an <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Assistant Professor of Digital Art and Computing</a> at the Department of Digital Art, Faculty of Media and Communications, Singidunum University, Belgrade, Serbia. I try to foster an transdisciplinary studio environment in collaboration with <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidora Nikolić</a> and <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borut Vild</a>.</p> 
 <p>Along with teaching, I have created a group of interactive art courses for the Department of Digital Art, which was seen as a pioneering effort within Serbian high education system. Courses include:</p>
 <p><span class='italic-style'><span class='bullet-padding'>•</span> Creative Coding: Algorithm, Image, and Text<br>

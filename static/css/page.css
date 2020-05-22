@@ -87,7 +87,7 @@
 }
 
 .section-image .caption {
-    padding: 4px 0;
+    padding: 4px 0 0 0;
     /*margin-bottom: 15px;*/
 }
 
@@ -127,6 +127,10 @@ h2, h3 {
 
 .list-title {
     margin: 12px 0;
+}
+
+.list-title-first-page {
+    margin: 0 0 12px 0;
 }
 
 .section-projects-list {
