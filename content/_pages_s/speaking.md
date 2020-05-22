@@ -99,7 +99,7 @@ data:
 </ul>
 <div class='list-title interface-heading-style'>2015</div>
 <ul>
-<li><span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas of a Journey</a></span> (javna književna tribina), Muzej afričke umetnosti, Beograd, Srbija</li> 
+<li><span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span> (javna književna tribina), Muzej afričke umetnosti, Beograd, Srbija</li> 
 <li><span class='italic-style'>Bantustan: Atlas jednog putovanja</span> (javna književna tribina), Booksa, Zagreb, Hrvatska</li>
 <li><span class='italic-style'>Bantustan: Atlas jednog putovanja</span> (javna književna tribina), Kriterion, Sarajevo, BiH</li>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=lOW9IeYoEqo' target='_blank'>Lični atlas sveta</a></span> (javno predavanje), TEDx Opatija, Opatija, Hrvatska</li>
