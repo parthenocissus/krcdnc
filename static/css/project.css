@@ -3,19 +3,18 @@
 .main-container {
     grid-area: maincont;
     margin: 18px 0 120px 0;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, auto) minmax(300px, auto) minmax(0, 1fr);
-    grid-gap: 0px;
-    grid-template-areas:
-            "lc lc lc lc lc lc"
-            ".  pc pc pc pc . "
-            ".  pl pl pl pl . "
-            ".  .  aw aw .  . "
-            "ti ti ti ti ti ti"
-            ".  in in in in . "
-            "c1 c1 im im im im"
-            "c1 c1 c2 c2 c3 c3";
+    /*display: grid;*/
+    /*grid-template-columns: repeat(6, 1fr);*/
+    /*grid-template-rows: repeat(5, auto) minmax(300px, auto) minmax(0, 1fr);*/
+    /*grid-gap: 0px;*/
+    /*grid-template-areas:*/
+    /*        "lc lc lc lc lc lc"*/
+    /*        ".  pc pc pc pc . "*/
+    /*        ".  pl pl pl pl . "*/
+    /*        "ti ti ti ti ti ti"*/
+    /*        ".  in in in in . "*/
+    /*        "c1 c1 im im im im"*/
+    /*        "c1 c1 c2 c2 c3 c3";*/
 }
 
 /* Line Chart */
@@ -74,10 +73,6 @@
     justify-self: center;
     text-align: center;
     margin-bottom: 15px;
-    font-family: "CartographSans-Medium", monospace;
-    font-size: 9pt;
-    line-height: 1.7em;
-    letter-spacing: 0.2pt;
 }
 
 /* Pictolist - List of Pictograms */
@@ -88,7 +83,8 @@
     justify-items: center;
     width: auto;
     padding: 0;
-    margin-bottom: 8px;
+    margin-bottom: 45px;
+    text-align: center;
 }
 
 .pictolist-item {
@@ -121,12 +117,11 @@
 }
 
 /* Down Arrow */
-
-.down-arrow-container {
-    grid-area: aw;
-    justify-self: center;
-    margin-bottom: 8px;
-}
+/*.down-arrow-container {*/
+/*    grid-area: aw;*/
+/*    justify-self: center;*/
+/*    margin-bottom: 8px;*/
+/*}*/
 
 /* Title */
 
@@ -134,10 +129,7 @@
     grid-area: ti;
     justify-self: center;
     text-align: center;
-    font-family: "Ambit-Bold", sans-serif;
     margin: 15px 0 15px 0;
-    font-size: 32pt;
-    letter-spacing: 0.2pt;
 }
 
 /* Lead Intro Text */
@@ -146,10 +138,7 @@
     grid-area: in;
     justify-items: center;
     text-align: center;
-    font-size: 14.5pt;
-    padding: 0 25px 75px 25px;
-    line-height: 1.5em;
-    letter-spacing: 0.2pt;
+    padding: 0 18% 75px 18%;
 }
 /*.article-main-description .first-word-project-title {*/
 /*    font-family: "Ambit-Bold", sans-serif;*/
@@ -169,6 +158,18 @@
 
 .article-main-description a:hover {
     background-size: 2px 5px;
+}
+
+/* Column Container */
+
+.column-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: minmax(300px, auto) minmax(0, 1fr);
+    grid-gap: 0px;
+    grid-template-areas:
+            "c1 c1 im im im im"
+            "c1 c1 c2 c2 c3 c3";
 }
 
 /* Article Image */
@@ -213,9 +214,6 @@
 .article-text p {
     margin: 0;
     padding: 0 0 15px 0;
-    font-size: 12pt;
-    line-height: 1.6em;
-    letter-spacing: 0.2pt;
 }
 
 .article-text a {

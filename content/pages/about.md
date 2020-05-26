@@ -10,6 +10,7 @@ quote: "Data Art is not about innovation. It is about beauty, intimacy, and resi
 download:
     lead: "Biography (short and long versions) and images (selection of openly licenced headshots and project visuals) for press, media, festivals, conferences, and other events:"
     label: Download Images and Biographies
+    path: "/download/uros-krcadinac-bio-photo.zip"
 lead: "<span>Uroš Krčadinac</span> (b. 1984) is a Belgrade-based digital artist, technologist, writer, and educator interested in new ways of sensing and feeling the shared world of humans, networks, and data."
 
 Spanning data art, computer science, writing, mapmaking, digital drawing, and animation, his transdisciplinary media projects include AI systems for generating visuals and prose, interactive data visualization and animation projects, a hand-drawn infographic prose book about human geographies, travel, Balkan and Africa, a physical machine that is half-bicycle, half-zoetrope, and a 64 km long GPS drawing.

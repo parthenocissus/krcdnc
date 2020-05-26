@@ -46,12 +46,21 @@
     letter-spacing: 0.2pt;
 }
 
+
 /* Lead, Main Description */
 
 .lead-style {
     font-family: Ambit-Regular, sans-serif;
     font-size: 20pt;
-    /*font-size: 14.5pt;*/
+    line-height: 1.5em;
+    letter-spacing: 0.2pt;
+}
+
+/* Lead, Project Main Description */
+
+.lead-project-style {
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 15pt;
     line-height: 1.5em;
     letter-spacing: 0.2pt;
 }
@@ -96,6 +105,15 @@
 .project-name-in-list-style {
     font-size: 11pt;
     line-height: 1.4em;
+    letter-spacing: 0.2pt;
+}
+
+/* Project Categories on Project Page */
+
+.project-categories-style {
+    font-family: "CartographSans-Medium", monospace;
+    font-size: 9pt;
+    line-height: 1.7em;
     letter-spacing: 0.2pt;
 }
 

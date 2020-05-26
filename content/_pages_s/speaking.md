@@ -21,8 +21,6 @@ data:
           name: "Plan D, Tehnički muzej, Zagreb, 2018"
         - path: "media/projects/gen-art-workshops/img/gen-art-workshops01.jpg"
           name: "Istraživačka stanica Petnica, 2018"
-        - path: "media/pages/speaking_novaiskra01.jpg"
-          name: "Nova Iskra, Beograd, 2016"
         - path: "media/projects/data-storytelling-workshops/data-storytelling-workshops-main.jpg"
           name: "Point Conference, Sarajevo, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book10.jpg"
@@ -33,6 +31,8 @@ data:
           name: "Palach, Rijeka, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book15.jpg"
           name: "Kriterion, Sarajevo, 2015"
+        - path: "media/pages/speaking_novaiskra01.jpg"
+          name: "Nova Iskra, Beograd, 2016"
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Srpska akademija nauka i umetnosti, Beograd, 2019"        
       text: "<div class='section-list interface-page-li-style'>
@@ -47,7 +47,7 @@ data:
 <div class='list-title interface-heading-style'>2019</div>
 <ul>
 <li><span class='italic-style'><a href='https://fmk.singidunum.ac.rs/vesti/art-neuroscience-uros-krcadinac/' target='_blank'>Roboti ne sanjaju ništa, ali sanjamo li mi?</a></span> (javno predavanje), Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija</li>
-<li><span class='italic-style'>Data dada i neuralne mreže: Kako živeti anti-korporativnim životom?</span> (javno predavanje), Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
+<li><span class='italic-style'>Data Dada: Subverzivne i kreativne upotrebe neuralnih mreža</span> (javno predavanje), Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
 <li><span class='italic-style'><a href='https://muzejnt.rs/sutra/portfolio-item/nekreativno-pisanje/' target='_blank'>(Ne)kreativno pisanje: Književnost u doba veštačke inteligencije</a></span>, S.U.T.R.A. Festival novomedijske umetnosti, Muzej nauke i tehnike, Beograd, Srbija</li>
 <li><span class='italic-style'>Veštačka inteligencija i post-istiniti mediji</span> (javna tribina), Muzej nauke i tehnike, Beograd, Srbija</li>
 <li><span class='italic-style'><a href='https://www.goethe.de/ins/cs/sr/ver.cfm?fuseaction=events.detail&event_id=21575748&' target='_blank'>Video igre i politika</a></span> (javna tribina), Goethe Institut, Beograd, Srbija</li>
@@ -116,16 +116,16 @@ data:
 <div class='list-title interface-heading-style'>2014</div>
 <ul>
 <li><span class='italic-style'>Mape priča: kartografija i pripovedanje</span> (javno predavanje), S.U.T.R.A. Festival novomedijske umetnosti, Dom omladine, Beograd, Srbija</li>
-<li><span class='italic-style'>Data Storytelling (javna radionica), Festival Pravo Ljudski, Sarajevo, BiH</li>
+<li><span class='italic-style'>Data Storytelling</span> (javna radionica), Festival Pravo Ljudski, Sarajevo, BiH</li>
 </ul>
 <div class='list-title interface-heading-style'>2013</div>
 <ul>
 <li><span class='italic-style'>Predavanje o sistemu Paperista</span>, International Conference on Learning Analytics & Knowledge, Leuven, Belgija</li>
-<li><span class='italic-style'>Javno predavanje</span>, Republika Festival, Rijeka, Croatia</li>
+<li><span class='italic-style'>Javno predavanje</span>, Republika Fest, Rijeka, Hrvatska</li>
 </ul>
 <div class='list-title interface-heading-style'>2012</div>
 <ul>
-<li><span class='italic-style'>Visualizing the Affective Structure of Students Interaction</span> (javno predavanje), International Conference on Hybrid Learning, Guangzhou, China</li>
+<li><span class='italic-style'>Visualizing the Affective Structure of Students Interaction</span> (javno predavanje), International Conference on Hybrid Learning, Guangdžou, Kina</li>
 <li><span class='italic-style'><a href='/rad/projekti/blind-cartographers-workshop/'>Slepi kartografi</a></span> (javna radionica), Putnička kuća Kluba putnika, Istanbul, Turska</li>
 </ul>
 <div class='list-title interface-heading-style'>2011</div>

@@ -21,8 +21,6 @@ data:
           name: "Plan D, Technical Museum, Zagreb, 2018"
         - path: "media/projects/gen-art-workshops/img/gen-art-workshops01.jpg"
           name: "Petnica Science Centre, Serbia, 2018"
-        - path: "media/pages/speaking_novaiskra01.jpg"
-          name: "Nova Iskra, Belgrade, 2016"
         - path: "media/projects/data-storytelling-workshops/data-storytelling-workshops-main.jpg"
           name: "Point Conference, Sarajevo, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book10.jpg"
@@ -33,6 +31,8 @@ data:
           name: "Palach, Rijeka, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book15.jpg"
           name: "Kriterion, Sarajevo, 2015"        
+        - path: "media/pages/speaking_novaiskra01.jpg"
+          name: "Nova Iskra, Belgrade, 2016"
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Serbian Academy of Arts and Sciences, Belgrade, 2019"
       text: "<div class='section-list interface-page-li-style'>
@@ -47,7 +47,7 @@ data:
     <div class='list-title interface-heading-style'>2019</div>
     <ul>
 <li><span class='italic-style'><a href='https://fmk.singidunum.ac.rs/vesti/art-neuroscience-uros-krcadinac/' target='_blank'>Androids Do Not Dream About Anything, But Do We?</a></span> (Public Lecture), Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia</li>
-<li><span class='italic-style'>Data Dada and Neural Networks: How to Live an Anti-Corporate Life?</span> (Public Lecture), Faculty of Organisational Sciences, University of Belgrade, Serbia</li>
+<li><span class='italic-style'>Data Dada: Subversive and Creative Uses of Neural Networks</span> (Public Lecture), Faculty of Organisational Sciences, University of Belgrade, Serbia</li>
 <li><span class='italic-style'><a href='https://muzejnt.rs/sutra/portfolio-item/nekreativno-pisanje/' target='_blank'>(Un)Creative Literature in the Age of AI</a></span> (Public Lecture), S.U.T.R.A. Festival of Digital Art, Museum of Science and Technology, Belgrade, Serbia</li>
 <li><span class='italic-style'>Artificial Intelligence and the Post-Truth Media</span> (Public Discussion), Museum of Science and Technology, Belgrade, Serbia</li>
 <li><span class='italic-style'><a href='https://www.goethe.de/ins/cs/sr/ver.cfm?fuseaction=events.detail&event_id=21575748&' target='_blank'>Games and Politics</a></span> (Public Discussion), Goethe Institut, Belgrade, Serbia</li>
@@ -117,7 +117,7 @@ data:
 <div class='list-title interface-heading-style'>2014</div>
 <ul>
 <li><span class='italic-style'>Story Maps: Cartography and Storytelling</span> (Public Lecture), S.U.T.R.A. / Tomorrow Festival of New Media Art, Youth Centre Belgrade, Serbia</li>
-<li><span class='italic-style'>Data Storytelling (Public Workshop), Festival Pravo Ljudski, Sarajevo, BiH</li>
+<li><span class='italic-style'>Data Storytelling</span> (Public Workshop), Festival Pravo Ljudski, Sarajevo, BiH</li>
 </ul>
 <div class='list-title interface-heading-style'>2013</div>
 <ul>

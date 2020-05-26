@@ -7,7 +7,6 @@
     {{ super() }}
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/project.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/default-skin.css') }}">
@@ -41,155 +40,142 @@
 
         <div title="{{ params.tooltip.linechart }}" id="header-linechart" class="linechart"></div>
 
-        <div class="project-categories">
+        <div class="project-categories project-categories-style">
             {{ params.project_captions.categories_title }}
         </div>
         <div class="project-pictogram-list"></div>
 
-        <div class="down-arrow-container">
-            <svg id="down-arrow-svg" x="0px" y="0px" width="16px" height="131px">
-                <g>
-                    <line x1="8" y1="121.3" x2="8" y2="5"></line>
-                    <polygon points="14.5,122 13.4,120.9 8,126.7 2.6,120.9 1.5,122 8,129"></polygon>
-                </g>
-            </svg>
-        </div>
+        {#        <div class="down-arrow-container">#}
+        {#            <svg id="down-arrow-svg" x="0px" y="0px" width="16px" height="131px">#}
+        {#                <g>#}
+        {#                    <line x1="8" y1="121.3" x2="8" y2="5"></line>#}
+        {#                    <polygon points="14.5,122 13.4,120.9 8,126.7 2.6,120.9 1.5,122 8,129"></polygon>#}
+        {#                </g>#}
+        {#            </svg>#}
+        {#        </div>#}
 
-        <div class="project-title">
+        <div class="project-title title-style">
             {% set title = project.title.html if project.title.html is defined else project.title.name %}
             {{ title|safe }}
         </div>
 
-        <div class="article-main-description">
+        <div class="article-main-description lead-project-style">
             {{ project.lead|safe }}
         </div>
 
-        <div class="image-row">
-            {% if project.featured_video is defined %}
-                {{ project.featured_video|safe }}
-            {% elif project.featured_js is defined %}
-                <svg id="featured-svg" preserveAspectRatio="xMidYMin meet"></svg>
-            {% else %}
-                {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
-                <img src="{{ url_for('static', filename=main_img_path) }}">
-                <!-- <div class="image-underline"></div> -->
-            {% endif %}
-        </div>
+        <div class="column-container">
 
-        <div class="column-1 dashed-right">
-            <article class="article-text">
-                {{ project.html|safe }}
-            </article>
-        </div>
-
-        <div class="column-2 dashed-right">
-
-            <div class="interface-heading-article no-padding-top">
-                {{ params.project_captions.role }}
-            </div>
-            <div class="interface-text-article">
-                {% for role in project.role %}
-                    {% set href = params.paths.projects ~ params.paths.role ~ role.id %}
-                    {% set slash = " / " if loop.index != project.role|length else "" %}
-                    <a href="{{ href }}">{{ role.name }}</a>{{ slash }}
-                {% endfor %}
+            <div class="image-row">
+                {% if project.featured_video is defined %}
+                    {{ project.featured_video|safe }}
+                {% elif project.featured_js is defined %}
+                    <svg id="featured-svg" preserveAspectRatio="xMidYMin meet"></svg>
+                {% else %}
+                    {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
+                    <img src="{{ url_for('static', filename=main_img_path) }}">
+                    <!-- <div class="image-underline"></div> -->
+                {% endif %}
             </div>
 
-            <div class="interface-heading-article">{{ params.project_captions.medium }}</div>
-            <div class="interface-text-article">
-                {% for medium in project.medium %}
-                    {% set href = params.paths.projects ~ params.paths.medium ~ medium.id %}
-                    {% set slash = " / " if loop.index != project.medium|length else "" %}
-                    <a href="{{ href }}">{{ medium.name }}</a>{{ slash }}
-                {% endfor %}
+            <div class="column-1 dashed-right">
+                <article class="article-text body-style">
+                    {{ project.html|safe }}
+                </article>
             </div>
 
-            <div class="thumbs">
-                <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            <div class="column-2 dashed-right">
 
-                    {% for d in project.img_data %}
-                        {% set i = loop.index - 1 %}
-                        {% set x = "0" if i < 10 else "" %}
-                        {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb" ~ x ~ i ~ ".jpg" %}
-                        {% set img_path = "media/projects/" ~ project.id ~ "/img/"  ~ project.id ~ x ~ i ~ ".jpg" %}
-                        {% set show = "" if i < project.img_to_show else "hidden" %}
-                        <figure class="{{ show }}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="{{ url_for('static', filename=img_path) }}" data-size="{{ d.size }}"
-                               itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
-                                {% if i < project.img_to_show %}
-                                    <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt=""
-                                         title="{{ params.project_captions.gallery_tooltip.start }} → {{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }}">
+                <div class="interface-heading-article no-padding-top">
+                    {{ params.project_captions.role }}
+                </div>
+                <div class="interface-text-article">
+                    {% for role in project.role %}
+                        {% set href = params.paths.projects ~ params.paths.role ~ role.id %}
+                        {% set slash = " / " if loop.index != project.role|length else "" %}
+                        <a href="{{ href }}">{{ role.name }}</a>{{ slash }}
+                    {% endfor %}
+                </div>
+
+                <div class="interface-heading-article">{{ params.project_captions.medium }}</div>
+                <div class="interface-text-article">
+                    {% for medium in project.medium %}
+                        {% set href = params.paths.projects ~ params.paths.medium ~ medium.id %}
+                        {% set slash = " / " if loop.index != project.medium|length else "" %}
+                        <a href="{{ href }}">{{ medium.name }}</a>{{ slash }}
+                    {% endfor %}
+                </div>
+
+                <div class="thumbs">
+                    <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                        {% for d in project.img_data %}
+                            {% set i = loop.index - 1 %}
+                            {% set x = "0" if i < 10 else "" %}
+                            {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb" ~ x ~ i ~ ".jpg" %}
+                            {% set img_path = "media/projects/" ~ project.id ~ "/img/"  ~ project.id ~ x ~ i ~ ".jpg" %}
+                            {% set show = "" if i < project.img_to_show else "hidden" %}
+                            <figure class="{{ show }}" itemprop="associatedMedia" itemscope
+                                    itemtype="http://schema.org/ImageObject">
+                                <a href="{{ url_for('static', filename=img_path) }}" data-size="{{ d.size }}"
+                                   itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
+                                    {% if i < project.img_to_show %}
+                                        <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail"
+                                             alt=""
+                                             title="{{ params.project_captions.gallery_tooltip.start }} → {{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }}">
+                                    {% endif %}
+                                </a>
+                            </figure>
+                        {% endfor %}
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="column-3">
+
+                <div class="inside-column dashed-right">
+
+                    <div class="polar-chart">
+                        <svg id="polar-chart-svg" preserveAspectRatio="xMidYMin meet"></svg>
+                    </div>
+
+                    <div class="interface-heading-article no-padding-top">{{ params.project_captions.categories }}</div>
+                    <div class="interface-text-article">
+                        {% for tag in project.category %}
+                            {% set href = params.paths.projects ~ params.paths.category ~ tag.id %}
+                            {% set slash = " / " if loop.index != project.category|length else "" %}
+                            <a href="{{ href }}">{{ tag.name }}</a>{{ slash }}
+                        {% endfor %}
+                    </div>
+
+                    {% if project.team is defined %}
+                        <div class="interface-heading-article">{{ params.project_captions.collaborators }}</div>
+                        <div class="interface-text-article">
+                            {% for human in project.team %}
+                                {% set slash = " / " if loop.index != project.team|length else "" %}
+                                {% if human.link is defined %}
+                                    <a href="{{ human.link }}" target="_blank">{{ human.name }}</a>
+                                {% else %}
+                                    <span>{{ human.name }}</span>
                                 {% endif %}
-                            </a>
-                        </figure>
-                    {% endfor %}
+                                {{ slash }}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
 
-                </div>
-            </div>
+                    {% if project.goto is defined %}
+                        <div class="goto-button" onclick="baseUtility.openInNewTab('{{ project.goto.link }}');">
+                            {{ project.goto.label }}
+                        </div>
+                    {% endif %}
 
-        </div>
-
-        <div class="column-3">
-
-            <div class="inside-column dashed-right">
-
-                <div class="polar-chart">
-                    <svg id="polar-chart-svg" preserveAspectRatio="xMidYMin meet"></svg>
-                </div>
-
-                <div class="interface-heading-article no-padding-top">{{ params.project_captions.categories }}</div>
-                <div class="interface-text-article">
-                    {% for tag in project.category %}
-                        {% set href = params.paths.projects ~ params.paths.category ~ tag.id %}
-                        {% set slash = " / " if loop.index != project.category|length else "" %}
-                        <a href="{{ href }}">{{ tag.name }}</a>{{ slash }}
-                    {% endfor %}
-                </div>
-
-                {% if project.team is defined %}
-                    <div class="interface-heading-article">{{ params.project_captions.collaborators }}</div>
+                    <div id="presentations" class="interface-heading-article">{{ project.presentation_title }}</div>
                     <div class="interface-text-article">
-                        {% for human in project.team %}
-                            {% set slash = " / " if loop.index != project.team|length else "" %}
-                            {% if human.link is defined %}
-                                <a href="{{ human.link }}" target="_blank">{{ human.name }}</a>
-                            {% else %}
-                                <span>{{ human.name }}</span>
-                            {% endif %}
-                            {{ slash }}
-                        {% endfor %}
-                    </div>
-                {% endif %}
-
-                {% if project.goto is defined %}
-                    <div class="goto-button" onclick="baseUtility.openInNewTab('{{ project.goto.link }}');">
-                        {{ project.goto.label }}
-                    </div>
-                {% endif %}
-
-                <div id="presentations" class="interface-heading-article">{{ project.presentation_title }}</div>
-                <div class="interface-text-article">
-                    {% for p in project.presentations %}
-                        <p class="interface-subheading">{{ p.year }}</p>
-                        {% for e in p.events %}
-                            {% set slash = " / " if loop.index != p.events|length else "" %}
-                            {% if e.link is defined %}
-                                <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
-                            {% else %}
-                                <span>{{ e.name }}</span>
-                            {% endif %}
-                            {{ slash }}
-                        {% endfor %}
-                    {% endfor %}
-                </div>
-
-                {% if project.publications is defined %}
-                    <div class="interface-heading-article">{{ params.project_captions.publications }}</div>
-                    <div class="interface-text-article">
-                        {% for p in project.publications %}
+                        {% for p in project.presentations %}
                             <p class="interface-subheading">{{ p.year }}</p>
-                            {% for e in p.pubs %}
-                                {% set slash = " / " if loop.index != p.pubs|length else "" %}
+                            {% for e in p.events %}
+                                {% set slash = " / " if loop.index != p.events|length else "" %}
                                 {% if e.link is defined %}
                                     <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
                                 {% else %}
@@ -199,40 +185,59 @@
                             {% endfor %}
                         {% endfor %}
                     </div>
-                {% endif %}
 
-                {% if project.awards is defined %}
-                    <div class="interface-heading-article">{{ params.project_captions.awards }}</div>
-                    <div class="interface-text-article">
-                        {% for p in project.awards %}
-                            <p class="interface-subheading">{{ p.year }}</p>
-                            {% for e in p.pubs %}
-                                {% set slash = " / " if loop.index != p.pubs|length else "" %}
-                                {% if e.link is defined %}
-                                    <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
+                    {% if project.publications is defined %}
+                        <div class="interface-heading-article">{{ params.project_captions.publications }}</div>
+                        <div class="interface-text-article">
+                            {% for p in project.publications %}
+                                <p class="interface-subheading">{{ p.year }}</p>
+                                {% for e in p.pubs %}
+                                    {% set slash = " / " if loop.index != p.pubs|length else "" %}
+                                    {% if e.link is defined %}
+                                        <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
+                                    {% else %}
+                                        <span>{{ e.name }}</span>
+                                    {% endif %}
+                                    {{ slash }}
+                                {% endfor %}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+                    {% if project.awards is defined %}
+                        <div class="interface-heading-article">{{ params.project_captions.awards }}</div>
+                        <div class="interface-text-article">
+                            {% for p in project.awards %}
+                                <p class="interface-subheading">{{ p.year }}</p>
+                                {% for e in p.pubs %}
+                                    {% set slash = " / " if loop.index != p.pubs|length else "" %}
+                                    {% if e.link is defined %}
+                                        <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
+                                    {% else %}
+                                        <span>{{ e.name }}</span>
+                                    {% endif %}
+                                    {{ slash }}
+                                {% endfor %}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+                    {% if project.press is defined %}
+                        <div class="interface-heading-article">{{ params.project_captions.press }}</div>
+                        <div class="interface-text-article">
+                            {% for p in project.press %}
+                                {% set slash = " / " if loop.index != project.press|length else "" %}
+                                {% if p.link is defined %}
+                                    <a href="{{ p.link }}" target="_blank">{{ p.name }}</a>
                                 {% else %}
-                                    <span>{{ e.name }}</span>
+                                    <span>{{ p.name }}</span>
                                 {% endif %}
                                 {{ slash }}
                             {% endfor %}
-                        {% endfor %}
-                    </div>
-                {% endif %}
+                        </div>
+                    {% endif %}
 
-                {% if project.press is defined %}
-                    <div class="interface-heading-article">{{ params.project_captions.press }}</div>
-                    <div class="interface-text-article">
-                        {% for p in project.press %}
-                            {% set slash = " / " if loop.index != project.press|length else "" %}
-                            {% if p.link is defined %}
-                                <a href="{{ p.link }}" target="_blank">{{ p.name }}</a>
-                            {% else %}
-                                <span>{{ p.name }}</span>
-                            {% endif %}
-                            {{ slash }}
-                        {% endfor %}
-                    </div>
-                {% endif %}
+                </div>
 
             </div>
 

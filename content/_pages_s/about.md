@@ -10,6 +10,7 @@ quote: "Data umetnost za cilj nema inovaciju, nego lepotu, razumevanje, slobodu 
 download:
     lead: "Biografije (kratka i duga verzija) i slike (izbor otvoreno licenciranih foto portreta i slika projekata) za medije, festivale, konferencije i druge događaje:"
     label: Preuzmi slike i biografije
+    path: "/download/uros-krcadinac-bio-photo.zip"
 lead: "<span>Uroš Krčadinac</span> (1984) je digitalni umetnik, programer, autor i edukator koji se bavi novim načinima opažanja i doživljavanja zajedničkog sveta ljudi, mreža i podataka."
 
 Obuhvatajući data umetnost, računarske nauke, pisanje, mapiranje, digitalni crtež i animaciju, njegovi transdisciplinarni projekti uključuju AI sisteme za automatsko generisanje vizuala i proze, interaktivne i animirane vizuelizacije podataka, infografičku proznu knjigu o ljudskoj geografiji, putovanju, Balkanu i Africi, fizičku mašinu koja je pola bicikl, pola zoetrop, kao i 64 km dug GPS crtež.
