@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block head %}
+
     {{ super() }}
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
@@ -12,7 +13,6 @@
     <div class="main-container">
 
         <div class="main-pictome">
-
 {#            <svg id="pictome-svg" tooltip-text="All Projects" viewBox="0 0 35 70" preserveAspectRatio="xMidYMin meet">#}
 {#                <g id="pictome-g" transform="translate(0,0) scale(2,2)">#}
 {#                    <rect id="pictome-bg" class="light-fill" x="0" y="0" height="50%" width="50%"></rect>#}
@@ -28,9 +28,7 @@
 {#                          d="M1.153,34.434 c0.28-0.635,7.486-16.977,7.486-16.977S15.628,33.7,15.98,34.434"></path>#}
 {#                </g>#}
 {#            </svg>#}
-
         </div>
-
 
         <div class="short-bio homepage-text-style" title="{{ params.tooltip.bio_index }}">
             {% block index_bio %}
@@ -38,14 +36,11 @@
             {% endblock %}
         </div>
 
-        {#        <div class="flowerchart" onclick="location.href='{{ params.paths.projects }}'"#}
-        {#            title="{{ params.tooltip.projects_index }}">#}
         <div class="flowerchart">
         </div>
 
         <div class="linechart-index">
         </div>
-
 
     </div>
 

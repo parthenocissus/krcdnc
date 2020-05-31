@@ -30,13 +30,13 @@
 
         <div id="header-linechart" class="linechart" title="{{ params.tooltip.linechart_about }}"></div>
 
-        <div class="article-main-description">
+        <div class="article-main-description lead-style">
             {{ page.lead|safe }}
         </div>
 
         <div class="article-container">
 
-            <article class="article-text">
+            <article class="article-text body-style">
                 {{ page.html|safe }}
             </article>
 
@@ -46,14 +46,14 @@
                 <img class="mask" src="{{ url_for('static', filename=page.img.mask_link) }}">
 
                 <div class="mask-caption">{{ page.img.mask_caption|safe }}</div>
-                <div class="photo-caption">{{ page.img.caption|safe }}</div>
+                <div class="photo-caption portrait-photo-caption-style">{{ page.img.caption|safe }}</div>
 
-                <div class="quote">{{ page.quote|safe }}</div>
+                <div class="quote big-quote-style">{{ page.quote|safe }}</div>
 
                 <div class="align-bottom">
                     <div class="download-material">{{ page.download.lead|safe }}</div>
                     <a href="{{ page.download.path }}">
-                        <div class="goto-button">{{ page.download.label|safe }}</div>
+                        <div class="goto-button goto-button-style">{{ page.download.label|safe }}</div>
                     </a>
                 </div>
 

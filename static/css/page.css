@@ -3,7 +3,6 @@
 .main-container {
     grid-area: maincont;
     margin: 18px 0 140px 0;
-    font-family: Ambit-Regular, sans-serif;
     min-height: calc(100vh - 220px);
 }
 
