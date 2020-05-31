@@ -1,3 +1,26 @@
+/* Root Default */
+
+:root, body {
+    font-size: 12.5pt;
+    line-height: 1.6em;
+    letter-spacing: 0.2pt;
+}
+
+/* Default Anchor */
+
+main a {
+    background: linear-gradient(0deg, var(--suncolor) 0%, var(--suncolor) 100%) repeat-x 0 100%;
+    background-size: 3px 1px;
+    color: var(--darkcolor);
+    padding-bottom: 2px;
+    text-decoration: none;
+    transition: .13s;
+}
+
+main a:hover {
+    background-size: 3px 3px;
+}
+
 /* Line Chart */
 
 .linechart {
@@ -37,6 +60,23 @@
     stroke: none;
 }
 
+/* Homepage Text */
+
+.homepage-text-style {
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 14pt;
+    line-height: 1.5em;
+    letter-spacing: 0.2pt;
+}
+
+.homepage-text-style a {
+    background-size: 3px 2px;
+}
+
+.homepage-text-style a:hover,
+.main-container .manual-hover {
+    background-size: 2px 4px;
+}
 
 /* Title */
 
@@ -65,6 +105,10 @@
     letter-spacing: 0.2pt;
 }
 
+.lead-project-style a:hover {
+    background-size: 3px 4px;
+}
+
 /* Section Title */
 
 .section-title-style {
@@ -82,24 +126,6 @@
     letter-spacing: 0.2pt;
 }
 
-.body-style a,
-.interface-page-li-style a {
-    background: linear-gradient(
-            to bottom, var(--suncolor) 0%,
-            var(--suncolor) 100%
-    ) repeat-x 0 100%;
-    background-size: 3px 1px;
-    color: var(--darkcolor);
-    padding-bottom: 3px;
-    text-decoration: none;
-    transition: background-size .13s;
-}
-
-.body-style a:hover,
-.interface-page-li-style a:hover {
-    background-size: 3px 3px;
-}
-
 /* Project Name in List */
 
 .project-name-in-list-style {
@@ -111,7 +137,7 @@
 /* Project Categories on Project Page */
 
 .project-categories-style {
-    font-family: "CartographSans-Medium", monospace;
+    font-family: CartographSans-Medium, monospace;
     font-size: 9pt;
     line-height: 1.7em;
     letter-spacing: 0.2pt;
@@ -125,6 +151,15 @@
     line-height: 1.5em;
     letter-spacing: 0.18pt;
     color: var(--darkcolor);
+}
+
+/* GoTo Button */
+
+.goto-button-style {
+    font-family: CartographSans-DemiBold, monospace;
+    font-size: 9.5pt;
+    line-height: 1.7em;
+    letter-spacing: 0.18pt;
 }
 
 /* Portrait Photo Caption */
@@ -149,6 +184,84 @@
     text-align: end;
 }
 
+/* Project List – Titles and Description */
+
+.prj-list-style .criteria {
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 14pt;
+    line-height: 1.5em;
+    letter-spacing: 0.2pt;
+}
+
+.prj-list-style .name {
+    font-family: Ambit-BoldItalic, sans-serif;
+    font-size: 22pt;
+    line-height: 1.5em;
+}
+
+.prj-list-style .description {
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 14pt;
+    line-height: 1.6em;
+    letter-spacing: 0.2pt;
+    width: calc(100% - 160px);
+    margin: 30px 0 0 0;
+}
+
+.prj-list-style .description .list a {
+    color: var(--darkcolor);
+    background: var(--lightcolor);
+    text-decoration: none;
+}
+
+.prj-list-style .description .list a:hover {
+    color: var(--suncolor);
+}
+
+/* Project List Year */
+
+.interface-year-style {
+    font-family: CartographSans-Medium, monospace;
+    font-size: 8pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+}
+
+/* Name Aside + Breadcrumbs */
+
+.breadcrumbs-style {
+    font-family: CartographSans-DemiBold, monospace;
+    font-size: 9.5pt;
+}
+
+.breadcrumbs-style a {
+    color: var(--darkcolor);
+    text-decoration: none;
+}
+
+.breadcrumbs-style a:hover {
+    color: var(--lightcolor);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Main Menu */
+
+.menu-style ul {
+    font-family: Ambit-SemiBold, monospace;
+    font-size: 13pt;
+    line-height: 1.7em;
+    letter-spacing: 0.18pt;
+}
+.menu-style ul li a {
+    color: var(--darkcolor);
+    text-decoration: none;
+}
+.menu-style ul li a:hover {
+    color: var(--lightcolor);
+    text-decoration: none;
+}
+
 /* Interface Heading */
 
 .interface-heading-style {
@@ -164,8 +277,68 @@
     text-transform: uppercase;
 }
 
+/* General Interface Text */
+
+.interface-text {
+    font-family: CartographSans-Medium, monospace;
+    font-size: 9pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+}
+.interface-text a {
+    color: var(--darkcolor);
+}
+.interface-text a:hover {
+    text-decoration: none;
+    color: var(--suncolor);
+}
+
+/* Interface Text, List Items, Links */
+
+.interface-text-style {
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.5em;
+    letter-spacing: 0.2pt;
+}
+.interface-text-style span {
+    cursor: default;
+}
+.interface-text-style a {
+    background: var(--lightcolor);
+    color: var(--darkcolor);
+    transition: .07s;
+}
+.interface-text-style a:hover {
+    text-decoration: none;
+    color: var(--suncolor);
+}
+
+/* Interface Footer */
+
+.footer .interface-text-article {
+    color: var(--lightcolor);
+    padding-bottom: 26px;
+}
+
+.footer .interface-text-article a {
+    font-family: CartographSans-Medium, monospace;
+    font-size: 9pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+    background: var(--darkcolor);
+    color: var(--lightcolor);
+    transition: .07s;
+}
+
+.footer .interface-text-article a:hover {
+    color: var(--suncolor);
+}
+
+/* Interface List Items on a Page (not project) */
+
 .interface-page-li-style {
-    font-family: "Ambit-Regular", sans-serif;
+    font-family: Ambit-Regular, sans-serif;
     font-size: 11pt;
     line-height: 1.6em;
     letter-spacing: 0.2pt;

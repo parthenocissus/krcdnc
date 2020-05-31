@@ -23,7 +23,7 @@
 
         <div class="list-heading">
             <div class="symbol"></div>
-            <div class="title">
+            <div class="title prj-list-style">
                 <div class="criteria">{{ data.tag_title|safe }} —</div>
                 <div class="name">{{ data.name_title|safe }}</div>
                 <div class="description">{{ data.description|safe }}</div>
@@ -34,7 +34,7 @@
 
             <div class="year-container">
 
-                <div class="year-title dashed-top">{{ p.year }}</div>
+                <div class="year-title dashed-top interface-year-style">{{ p.year }}</div>
                 <div class="year-projects">
 
                     {% for project in p.projects %}
@@ -48,10 +48,16 @@
 
                         <div class="{{ project_class }}">
                             <a href="{{ project_link }}">
-                                <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
-                                <div class="project-name">
+
+                                <div class="overburn-container">
+                                    <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
+                                    <div class="overburn"></div>
+                                </div>
+
+                                <div class="project-name project-name-in-list-style">
                                     {{ project_title }}
                                 </div>
+
                             </a>
                         </div>
 
@@ -70,10 +76,11 @@
     <script>
         (function () {
 
-            chartUtility.setPeriodicalAnimation();
+            {#chartUtility.setPeriodicalAnimation();#}
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
             chartUtility.drawLineChartHeaderProjectList({{ data.timeline|safe }});
             chartUtility.drawProjectListSymbol("{{ data.pictoid }}");
+            chartUtility.metaAnimation("{{ data.pictoid }}");
 
         }());
     </script>

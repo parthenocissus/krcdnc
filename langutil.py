@@ -59,7 +59,7 @@ class LangUtil:
             link = self.data["paths"]["projects"] + self.data["paths"][tag] + item["id"]
             slash = " / " if i < l else ""
             title = item["title"] if tag != "category" else item["name"]["title"]
-            html += "<a href='" + link + "'>" + title + "</a>" + slash
+            html += "<a id='" + item["id"] + "-anchor' class='anchors' href='" + link + "'>" + title + "</a>" + slash
         html += "</div>"
         return html
 

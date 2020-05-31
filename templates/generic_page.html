@@ -17,7 +17,7 @@
             <div class="menu">
 
                 <div class="menu-inside">
-                    <div class="interface-heading-article">{{ params.menu.title }}</div>
+                    <div class="interface-heading-style interface-heading-article">{{ params.menu.title }}</div>
                     <div class="interface-text-article no-padding-bottom">
                         {% for item in params.menu_items %}
                             {% set slash = " / " %}
@@ -35,7 +35,7 @@
                 <div class="social-inside">
 
                     {% block footer_social %}
-                        <div class="interface-heading-article">Social</div>
+                        <div class="interface-heading-style interface-heading-article">{{ params.menu.social }}</div>
                         <div class="interface-text-article no-padding-bottom">
                             <a href="https://github.com/parthenocissus" target="_blank">GitHub</a> /
                             <a href="https://www.facebook.com/uros.krcadinac" target="_blank">Facebook</a> /

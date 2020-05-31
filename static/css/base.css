@@ -89,61 +89,15 @@ a { text-decoration: none; }
     stroke: var(--suncolor);
 }
 
-/* General Interface Text */
-
-.interface-heading {
-    font-family: "CartographMono-Heavy", monospace;
-    font-size: 7pt;
-    padding-bottom: 6px;
-    color: var(--darkcolor);
-    text-transform: uppercase;
-}
-
-.interface-text {
-    font-family: "CartographSans-Medium", monospace;
-    font-size: 9pt;
-    line-height: 1.7em;
-    letter-spacing: 0.2pt;
-}
-.interface-text a {
-    color: var(--darkcolor);
-}
-.interface-text a:hover {
-    text-decoration: none;
-    color: var(--suncolor);
-}
-
 /* Interface within Article */
 
 .interface-heading-article {
-    font-family: "CartographMono-Heavy", monospace;
-    font-size: 9pt;
     padding-bottom: 8px;
-    text-transform: uppercase;
 }
 
 .interface-subheading {
-    font-family: "CartographSans-DemiBold", monospace;
-    font-size: 8pt;
     padding: 4px 0 6px 0;
     margin: 0;
-}
-
-.interface-text-article {
-    font-family: "Ambit-Regular", sans-serif;
-    font-size: 10.5pt;
-    line-height: 1.5em;
-    letter-spacing: 0.2pt;
-}
-.interface-text-article span {
-    cursor: default;
-}
-.interface-text-article a {
-    color: var(--darkcolor);
-}
-.interface-text-article a:hover {
-    text-decoration: none;
-    color: var(--suncolor);
 }
 
 /* Lang Logo */
@@ -252,24 +206,6 @@ aside {
     padding-top: 30px;
 }
 
-.side-nav ul {
-/*.side-nav .menu-links {*/
-
-    font-family: "Ambit-SemiBold", monospace;
-    font-size: 13pt;
-    line-height: 1.7em;
-    letter-spacing: 0.18pt;
-}
-.side-nav ul li a {
-/*.side-nav .menu-links a {*/
-    color: var(--darkcolor);
-    text-decoration: none;
-}
-.side-nav ul li a:hover {
-    color: var(--lightcolor);
-    text-decoration: none;
-}
-
 .side-nav ul li span {
     cursor: default;
     color: var(--darkcolor);
@@ -279,11 +215,7 @@ aside {
 /* Name Aside */
 
 #name-aside {
-    font-family: "CartographSans-DemiBold", monospace;
-    font-size: 9.5pt;
-    /*letter-spacing: 0.2pt;*/
     color: var(--darkcolor);
-    /*text-transform: uppercase;*/
     height: 100%;
     text-align: center;
     position: fixed;
@@ -304,26 +236,9 @@ aside {
     transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#name-aside a {
-    color: var(--darkcolor);
-    text-decoration: none;
-}
-
-#name-aside a:hover {
-    color: var(--lightcolor);
-    text-decoration: none;
-    cursor: pointer;
-}
-
 #name-aside mark {
     background-color: transparent;
     padding: 4px 0;
-}
-
-/* Footer */
-
-footer {
-    display: none;
 }
 
 /* Selection Queries */

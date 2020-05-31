@@ -162,15 +162,6 @@ def about_s():
     return render_template('about.html', params=sh.params(), page=page, data=data)
 
 
-# TESTING SECTION
-# alternative design
-
-@app.route('/work/projects1/<name>/')
-def project1(name):
-    path = '{}/{}'.format(en.dir(), name)
-    this_project = fp.get_or_404(path)
-    return render_template('project1.html', project=this_project, params=en.params())
-
 
 # ADDITIONAL ROUTES
 # synesketch, download, etc.

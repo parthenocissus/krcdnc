@@ -122,8 +122,8 @@
         <link rel="shortcut icon" type="image/png"
               href="{{ url_for('static', filename='media/favicon/favicon.ico') }}"/>
 
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 
         <script src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/util.js') }}"></script>
@@ -163,7 +163,6 @@
             <div id="lang-choice" class="interface-text">
                 {% block lang %}
                     <ul>
-{#                        <li><a href="{{ params.lang_menu.base_link }}">{{ params.lang_menu.link_title }}</a></li>#}
                         <li><span class="up">{{ params.lang_menu.link_title }}</span></li>
                         <li><span class="down">{{ params.lang_menu.active_title }}</span></li>
                     </ul>
@@ -174,9 +173,8 @@
 
         <aside id="side-menu">
 
-            <div class="side-nav">
+            <div class="side-nav menu-style">
                 {% block menu %}
-                    {#<div class="menu-title">Menu</div>#}
                     <ul>
                         {% for item in params.menu_items %}
                             <li><a href="{{ item.link }}">{{ item.title }}</a></li>
@@ -187,7 +185,7 @@
 
         </aside>
 
-        <div id="name-aside">
+        <div id="name-aside" class="breadcrumbs-style">
             <a id="name-aside-href" href="{{ params.paths.home }}">Uroš Krčadinac</a>
             {% block breadcrumbs %}
             {% endblock %}

@@ -92,20 +92,7 @@
 }
 
 .footer .interface-text-article {
-    color: var(--lightcolor);
     padding-bottom: 26px;
-}
-
-.footer .interface-text-article a {
-    font-family: CartographSans-Medium;
-    font-size: 9pt;
-    line-height: 1.7em;
-    letter-spacing: 0.2pt;
-    color: var(--lightcolor);
-}
-
-.footer .interface-text-article a:hover {
-    color: var(--suncolor);
 }
 
 .footer .bio-break {

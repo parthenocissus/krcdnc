@@ -3,87 +3,25 @@
 .main-container {
     grid-area: maincont;
     margin: 18px 0 120px 0;
-    /*display: grid;*/
-    /*grid-template-columns: repeat(6, 1fr);*/
-    /*grid-template-rows: repeat(5, auto) minmax(300px, auto) minmax(0, 1fr);*/
-    /*grid-gap: 0px;*/
-    /*grid-template-areas:*/
-    /*        "lc lc lc lc lc lc"*/
-    /*        ".  pc pc pc pc . "*/
-    /*        ".  pl pl pl pl . "*/
-    /*        "ti ti ti ti ti ti"*/
-    /*        ".  in in in in . "*/
-    /*        "c1 c1 im im im im"*/
-    /*        "c1 c1 c2 c2 c3 c3";*/
-}
-
-/* Line Chart */
-
-.linechart {
-    grid-area: lc;
-    height: 50px;
-    stroke-width: 2;
-    padding-bottom: 0;
-    margin-bottom: 20px;
-}
-
-.linechart:hover .linechartLine {
-    stroke-width: 3;
-}
-
-.fill-bg {
-    fill: var(--lightcolor);
-}
-
-.linechart .domain {
-    stroke: var(--darkcolor);
-    stroke-dasharray: 0, 9;
-    stroke-linecap: round;
-    stroke-width: 1.6;
-}
-
-.linechart .linechartLine {
-    fill: none;
-    stroke: var(--suncolor);
-    transition: 0.18s;
-	transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-.linechart .linechartXaxis {
-    font-family: "CartographSans-Medium", monospace;
-    font-size: 8pt;
-    line-height: 1.7em;
-    letter-spacing: 0.2pt;
-    color: var(--darkcolor);
-}
-
-.linechartCircle {
-    fill: var(--suncolor);
-    stroke: none;
-}
-
-.linechartCircleVisible {
 }
 
 
 /* Project Categories */
 
 .project-categories {
-    grid-area: pc;
     justify-self: center;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 40px 0 15px 0;
 }
 
 /* Pictolist - List of Pictograms */
 
 .project-pictogram-list {
-    grid-area: pl;
     justify-self: center;
     justify-items: center;
     width: auto;
     padding: 0;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
     text-align: center;
 }
 
@@ -126,7 +64,6 @@
 /* Title */
 
 .project-title {
-    grid-area: ti;
     justify-self: center;
     text-align: center;
     margin: 15px 0 15px 0;
@@ -139,25 +76,6 @@
     justify-items: center;
     text-align: center;
     padding: 0 18% 75px 18%;
-}
-/*.article-main-description .first-word-project-title {*/
-/*    font-family: "Ambit-Bold", sans-serif;*/
-/*}*/
-
-.article-main-description a {
-    background: linear-gradient(
-            to bottom, var(--suncolor) 0%,
-            var(--suncolor) 100%
-    ) repeat-x 0 100%;
-    background-size: 4px 2px;
-    color: var(--darkcolor);
-    padding-bottom: 3px;
-    text-decoration: none;
-    transition: background-size .13s;
-}
-
-.article-main-description a:hover {
-    background-size: 2px 5px;
 }
 
 /* Column Container */
@@ -214,22 +132,6 @@
 .article-text p {
     margin: 0;
     padding: 0 0 15px 0;
-}
-
-.article-text a {
-    background: linear-gradient(
-            to bottom, var(--suncolor) 0%,
-            var(--suncolor) 100%
-    ) repeat-x 0 100%;
-    background-size: 3px 2px;
-    color: var(--darkcolor);
-    padding-bottom: 3px;
-    text-decoration: none;
-    transition: background-size .13s;
-}
-
-.article-text a:hover {
-    background-size: 3px 4px;
 }
 
 .article-text sup {
@@ -328,10 +230,6 @@ figure img:hover {
 .goto-button {
     color: var(--darkcolor);
     background-color: var(--suncolor);
-    font-family: "CartographSans-DemiBold", monospace;
-    font-size: 9.5pt;
-    line-height: 1.7em;
-    letter-spacing: 0.18pt;
     margin: 20px 0 10px 0;
     width: 100%;
     padding: 22px 0;
@@ -422,7 +320,6 @@ figure img:hover {
 
 .polar-chart .curve-text {
     color: var(--darkcolor);
-    /*font-family: CartographSans-Medium;*/
     font-family: Ambit-Regular;
     font-size: 9.8pt;
     letter-spacing: 0.7pt;

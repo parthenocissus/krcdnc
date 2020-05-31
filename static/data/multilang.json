@@ -10,7 +10,8 @@
       "about": "about/"
     },
     "menu": {
-      "title": "Menu"
+      "title": "Menu",
+      "social": "Social"
     },
     "menu_items": [
       {
@@ -201,7 +202,8 @@
       "about": "bio/"
     },
     "menu": {
-      "title": "Sadržaj"
+      "title": "Sadržaj",
+      "social": "Mreže"
     },
     "menu_items": [
       {

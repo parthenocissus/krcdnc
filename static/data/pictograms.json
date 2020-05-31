@@ -5,13 +5,13 @@
       "title": "Experimental Cartography",
       "case": "Experimental Cartography",
       "createsVerb": "works in",
-      "description": "Maps are perhaps the pivotal medium of our time. If <a href='/work/projects/category/geography'>Experimental Geography</a> is the practice of creating a personal relationship with the Earth, Experimental Cartography is the practice of making personal, artistic, and experimental maps. Drawing inspiration from K. Harmon’s <a href='https://www.papress.com/html/product.details.dna?isbn=9781568987620' target='_blank'>Map as Art</a>, this kind of cartography is not about precision and accuracy as much as expression and story."
+      "description": "Maps are perhaps the pivotal medium of our time. If <a href='/work/projects/category/geography'>Experimental Geography</a> is the practice of creating a personal relationship with the Earth, Experimental Cartography is the practice of making personal, artistic, and experimental maps. Drawing inspiration from K. Harmon’s <a href='https://www.papress.com/html/product.details.dna?isbn=9781568987620' target='_blank'><span class='italic-style'>Map as Art</span></a>, this kind of cartography is not about precision and accuracy as much as expression and story."
     },
     "nameS": {
       "title": "Eksperimentalna kartografija",
       "case": "eksperimentalnom kartografijom",
       "createsVerb": "se bavi",
-      "description": "Mape su jedan od centralnih medija našeg vremena. Ako se <a href='/rad/projekti/category/geography'>eksperimentalna geografija</a> odnosi na kreiranje ličnog odnosa sa Zemljom, eksperimentalna kartografija bavi se kreiranjem ličnih, umetničkih i eksperimentalnih mapa. Crpeći inspriaciju iz koncepta <a href='https://www.papress.com/html/product.details.dna?isbn=9781568987620' target='_blank'>Mapa kao umetnost</a> K. Harmon, ova vrsta kartografije ne fokusira se na preciznost onoliko koliko se bavi ekspresijom i pripovedanjem."
+      "description": "Mape su jedan od centralnih medija našeg vremena. Ako se <a href='/rad/projekti/category/geography'>eksperimentalna geografija</a> odnosi na kreiranje ličnog odnosa sa Zemljom, eksperimentalna kartografija bavi se kreiranjem ličnih, umetničkih i eksperimentalnih mapa. Crpeći inspiraciju iz koncepta <a href='https://www.papress.com/html/product.details.dna?isbn=9781568987620' target='_blank'><span class='italic-style'>Mapa kao umetnost</span></a> K. Harmon, ova vrsta kartografije ne fokusira se na preciznost onoliko koliko se bavi ekspresijom i pripovedanjem."
     },
     "graphics": {
       "headcx": 8.527,
@@ -276,13 +276,13 @@
       "title": "Data Art",
       "case": "Data Art",
       "createsVerb": "makes",
-      "description": "Projects where data is the medium.  Drawing ideas from G. Lupi’s <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'>Data Humanism</a>, I believe we need to radically humanize data-driven approaches to society, from <a href='/work/projects/category/ai'>Artificial Intelligence</a> to digital statistics and map-making</a>. As artist <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a> <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>said</a>, by reducing people to numbers, dataviz can be anesthetizing. Data Art is a small personal response to Big Data fetishism."
+      "description": "Projects where data is the medium. Drawing ideas from G. Lupi’s <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'><span class='italic-style'>Data Humanism</span></a>, I believe we need to radically humanize data-driven approaches to society, from <a href='/work/projects/category/ai'>Artificial Intelligence</a> to digital statistics and map-making</a>. As artist <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a> <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>said</a>, by reducing people to numbers, dataviz can be anesthetizing. Data Art is a small personal response to Big Data fetishism."
     },
     "nameS": {
       "title": "Data umetnost",
       "case": "data umetnost",
       "createsVerb": "smišlja i kreira",
-      "description": "Projekti u kojima su podaci — medij. Na liniji s <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'>Data humanizmom</a> G. Lupi, verujem da data pristupe društvu treba radikalno humanizovati, od <a href='http://127.0.0.1:5000/rad/projekti/category/ai'>veštačke inteligencije</a> do digitalne statistike i kartografije</a>. Kao što je <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>rekao</a> umetnik <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a>, vizuelizacija podataka može da nas anestezira pretvarajući ljude u brojeve. Data umetnost je mali lični odgovor na Big Data fetišizam."
+      "description": "Spisak projekata gde su podaci — medij. Na liniji s <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'><span class='italic-style'>data humanizmom</span></a> G. Lupi, verujem da podatkovne pristupe društvu treba radikalno humanizovati, od <a href='http://127.0.0.1:5000/rad/projekti/category/ai'>veštačke inteligencije</a> do digitalne statistike i kartografije</a>. Kao što je <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>rekao</a> umetnik <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a>, vizuelizacija podataka može da nas anestezira pretvarajući ljude u brojeve. Data umetnost je mali lični odgovor na <span class='italic-style'>Big Data</span> fetišizam."
     },
     "graphics": {
       "headcx": 4.674,

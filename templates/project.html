@@ -85,10 +85,10 @@
 
             <div class="column-2 dashed-right">
 
-                <div class="interface-heading-article no-padding-top">
+                <div class="interface-heading-article interface-heading-style no-padding-top">
                     {{ params.project_captions.role }}
                 </div>
-                <div class="interface-text-article">
+                <div class="interface-text-style">
                     {% for role in project.role %}
                         {% set href = params.paths.projects ~ params.paths.role ~ role.id %}
                         {% set slash = " / " if loop.index != project.role|length else "" %}
@@ -96,8 +96,8 @@
                     {% endfor %}
                 </div>
 
-                <div class="interface-heading-article">{{ params.project_captions.medium }}</div>
-                <div class="interface-text-article">
+                <div class="interface-heading-article interface-heading-style">{{ params.project_captions.medium }}</div>
+                <div class="interface-text-style">
                     {% for medium in project.medium %}
                         {% set href = params.paths.projects ~ params.paths.medium ~ medium.id %}
                         {% set slash = " / " if loop.index != project.medium|length else "" %}
@@ -140,8 +140,8 @@
                         <svg id="polar-chart-svg" preserveAspectRatio="xMidYMin meet"></svg>
                     </div>
 
-                    <div class="interface-heading-article no-padding-top">{{ params.project_captions.categories }}</div>
-                    <div class="interface-text-article">
+                    <div class="interface-heading-article interface-heading-style no-padding-top">{{ params.project_captions.categories }}</div>
+                    <div class="interface-text-style">
                         {% for tag in project.category %}
                             {% set href = params.paths.projects ~ params.paths.category ~ tag.id %}
                             {% set slash = " / " if loop.index != project.category|length else "" %}
@@ -150,8 +150,8 @@
                     </div>
 
                     {% if project.team is defined %}
-                        <div class="interface-heading-article">{{ params.project_captions.collaborators }}</div>
-                        <div class="interface-text-article">
+                        <div class="interface-heading-article interface-heading-style">{{ params.project_captions.collaborators }}</div>
+                        <div class="interface-text-style">
                             {% for human in project.team %}
                                 {% set slash = " / " if loop.index != project.team|length else "" %}
                                 {% if human.link is defined %}
@@ -165,15 +165,18 @@
                     {% endif %}
 
                     {% if project.goto is defined %}
-                        <div class="goto-button" onclick="baseUtility.openInNewTab('{{ project.goto.link }}');">
-                            {{ project.goto.label }}
-                        </div>
+                        <a href="{{ project.goto.link }}" target="_blank">
+                            <div class="goto-button goto-button-style">
+                                {{ project.goto.label }}
+                            </div>
+                        </a>
                     {% endif %}
 
-                    <div id="presentations" class="interface-heading-article">{{ project.presentation_title }}</div>
-                    <div class="interface-text-article">
+                    <div id="presentations"
+                         class="interface-heading-article interface-heading-style">{{ project.presentation_title }}</div>
+                    <div class="interface-text-style">
                         {% for p in project.presentations %}
-                            <p class="interface-subheading">{{ p.year }}</p>
+                            <p class="interface-subheading interface-subheading-style">{{ p.year }}</p>
                             {% for e in p.events %}
                                 {% set slash = " / " if loop.index != p.events|length else "" %}
                                 {% if e.link is defined %}
@@ -187,10 +190,10 @@
                     </div>
 
                     {% if project.publications is defined %}
-                        <div class="interface-heading-article">{{ params.project_captions.publications }}</div>
-                        <div class="interface-text-article">
+                        <div class="interface-heading-article interface-heading-style">{{ params.project_captions.publications }}</div>
+                        <div class="interface-text-style">
                             {% for p in project.publications %}
-                                <p class="interface-subheading">{{ p.year }}</p>
+                                <p class="interface-subheading interface-subheading-style">{{ p.year }}</p>
                                 {% for e in p.pubs %}
                                     {% set slash = " / " if loop.index != p.pubs|length else "" %}
                                     {% if e.link is defined %}
@@ -205,10 +208,10 @@
                     {% endif %}
 
                     {% if project.awards is defined %}
-                        <div class="interface-heading-article">{{ params.project_captions.awards }}</div>
-                        <div class="interface-text-article">
+                        <div class="interface-heading-article interface-heading-style">{{ params.project_captions.awards }}</div>
+                        <div class="interface-text-style">
                             {% for p in project.awards %}
-                                <p class="interface-subheading">{{ p.year }}</p>
+                                <p class="interface-subheading interface-subheading-style">{{ p.year }}</p>
                                 {% for e in p.pubs %}
                                     {% set slash = " / " if loop.index != p.pubs|length else "" %}
                                     {% if e.link is defined %}
@@ -223,8 +226,8 @@
                     {% endif %}
 
                     {% if project.press is defined %}
-                        <div class="interface-heading-article">{{ params.project_captions.press }}</div>
-                        <div class="interface-text-article">
+                        <div class="interface-heading-article interface-heading-style">{{ params.project_captions.press }}</div>
+                        <div class="interface-text-style">
                             {% for p in project.press %}
                                 {% set slash = " / " if loop.index != project.press|length else "" %}
                                 {% if p.link is defined %}

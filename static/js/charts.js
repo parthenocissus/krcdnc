@@ -567,6 +567,15 @@ let chartUtility = (function () {
 
     let periodicalAnimationParamsIndex = {
 
+        d: {
+            head: "#head",
+            dot: "#dot",
+            arm1: "#arm1",
+            arm2: "#arm2",
+            leg1: "#leg1",
+            leg2: "#leg2"
+        },
+
         hoverEffects: function () {
             // d3.selectAll(".pictome, #pictome-bg, #dot, #creates-what, #link-to-projects, #linechart-svg")
             d3.selectAll("#pictome-bg, #creates-what, #link-to-projects, #linechart-svg")
@@ -617,23 +626,61 @@ let chartUtility = (function () {
             updateLinechart(randomItem.projects, parameters.animationDuration)
         }
 
-    }
+    };
 
     let periodicalAnimationParamsFooter = {
+        d: {
+            head: "#head",
+            dot: "#dot",
+            arm1: "#arm1",
+            arm2: "#arm2",
+            leg1: "#leg1",
+            leg2: "#leg2"
+        },
         hoverEffects: function () {
         },
         flowerchartUpdate: function () {
         },
         linechartUpdate: function () {
         }
-    }
+    };
+
+    let periodicalAnimationParamsFooterPL = {
+        d: {
+            head: "#head, #generalHead",
+            dot: "#dot, #item-pictolist-generalDot",
+            arm1: "#arm1, #generalArm1",
+            arm2: "#arm2, #generalArm2",
+            leg1: "#leg1, #generalLeg1",
+            leg2: "#leg2, #generalLeg2"
+        },
+        hoverEffects: function () {
+        },
+        flowerchartUpdate: function () {
+        },
+        linechartUpdate: function () {
+        }
+    };
 
     let getPeriodicalAnimationParamsIndex = function () {
         return periodicalAnimationParamsIndex;
-    }
+    };
     let getPeriodicalAnimationParamsFooter = function () {
         return periodicalAnimationParamsFooter;
-    }
+    };
+    let getPeriodicalAnimationParamsFooterPL = function () {
+        return periodicalAnimationParamsFooterPL;
+    };
+
+    let metaAnimation = function (pictogramId) {
+        let animParameters;
+        if (pictogramId === "general") {
+            animParameters = getPeriodicalAnimationParamsFooterPL();
+        } else {
+            animParameters = getPeriodicalAnimationParamsFooter();
+        }
+        setPeriodicalAnimation(animParameters);
+    };
 
     let setPeriodicalAnimation = function (params = getPeriodicalAnimationParamsFooter()) {
 
@@ -645,6 +692,8 @@ let chartUtility = (function () {
 
                 params.flowerchartUpdate();
 
+                d3.selectAll('.anchors').classed('hovered', false);
+
                 let randomItem = dataCopy[Math.floor(Math.random() * dataCopy.length)];
                 currentItem = randomItem;
                 flowerchartParameters.prevItem = randomItem;
@@ -654,12 +703,11 @@ let chartUtility = (function () {
                 let linkToProjects = "<a id='link-to-projects' href='" + baseLink + "'>" + randomItem.name.case + "</a>";
                 d3.select("#creates-what").html(linkToProjects);
 
-                // let linkToProjects = "<a id='link-to-projects' href='#'>" + randomItem.name.case + "</a>"
-                // d3.select("#creates-what").html(linkToProjects);
-
                 d3.select(linechartParamsIndex.class).attr("title", langParams.tooltip.linechart_index + randomItem.name.title);
                 d3.select(".main-pictome").attr("title", langParams.tooltip.bio_link_index + randomItem.name.title);
                 d3.select("#link-to-projects").attr("title", langParams.tooltip.bio_link_index + randomItem.name.title);
+
+                d3.select('#' + randomItem.id + "-anchor").classed('hovered', true);
 
                 d3.select("#pictogram-" + randomItem.id)
                     .attr("class", "pictome-small-sun");
@@ -670,36 +718,36 @@ let chartUtility = (function () {
 
                 d3.select("#pictome-svg");
 
-                d3.select("#head")
+                d3.selectAll(params.d.head)
                     .transition().duration(parameters.animationDurationPictome)
                     .ease(d3.easePolyOut)
                     .attr("cx", randomItem.graphics.headcx)
                     .attr("cy", randomItem.graphics.headcy)
                     .attr("r", randomItem.graphics.headr);
 
-                d3.select("#dot")
+                d3.selectAll(params.d.dot)
                     .transition().duration(parameters.animationDurationPictome)
                     .ease(d3.easePolyOut)
                     .attr("cx", randomItem.graphics.dotcx)
                     .attr("cy", randomItem.graphics.dotcy)
                     .attr("r", randomItem.graphics.dotr);
 
-                d3.select("#arm1")
+                d3.selectAll(params.d.arm1)
                     .transition().duration(parameters.animationDurationPictome)
                     .ease(d3.easePolyOut)
                     .attrTween("d", baseUtility.pathTween(randomItem.graphics.arm1d, 3));
 
-                d3.select("#arm2")
+                d3.selectAll(params.d.arm2)
                     .transition().duration(parameters.animationDurationPictome)
                     .ease(d3.easePolyOut)
                     .attrTween("d", baseUtility.pathTween(randomItem.graphics.arm2d, 3));
 
-                d3.select("#leg1")
+                d3.selectAll(params.d.leg1)
                     .transition().duration(parameters.animationDurationPictome)
                     .ease(d3.easePolyOut)
                     .attrTween("d", baseUtility.pathTween(randomItem.graphics.leg1d, 3));
 
-                d3.select("#leg2")
+                d3.selectAll(params.d.leg2)
                     .transition().duration(parameters.animationDurationPictome)
                     .ease(d3.easePolyOut)
                     .attrTween("d", baseUtility.pathTween(randomItem.graphics.leg2d, 3));
@@ -969,7 +1017,8 @@ let chartUtility = (function () {
         drawLineChartHeaderPage: drawLineChartHeaderPage,
         drawProjectListSymbol: drawProjectListSymbol,
         getPeriodicalAnimationParamsIndex: getPeriodicalAnimationParamsIndex,
-        drawPolarChart: drawPolarChart
+        drawPolarChart: drawPolarChart,
+        metaAnimation: metaAnimation
     }
 
 }());
