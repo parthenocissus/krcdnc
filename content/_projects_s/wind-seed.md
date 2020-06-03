@@ -81,7 +81,7 @@ img_data:
       caption: "Fizički dijagram rasejanja (scatter-plot) izabranih biljaka sa Madeire. Detalj. Foto: Ivona Petrov."
     - size: "1200x900"
       caption: "Dijagram bez semena. Foto: Ivona Petrov."
-lead: "Serija fizičkih vizuelizacija... A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
+lead: "Serija fizičkih i crtanih infografika o biljnim vrstama iz Beograda i sa ostrva Madeira, koju smo Ivona Petrov i ja kreirali tokom umetničke rezidencije na <a href='https://www.multimadeira.com/' target='_blank'>MultiMadeiri 2020</a>. Projekat govori o mogućnosti razumevanja <span class='italic-style'>data-driven</span> <a href='https://en.wikipedia.org/wiki/Biopolitics' target='_blank'>biopolitika</a> na ličnom i intimnom nivou."
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
 be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
