@@ -89,7 +89,7 @@ We started by doing research on plant migrations and regulations, what does it m
 
 We transported seeds or seedlings of 12 non-invasive plants from Belgrade to Funchal, from a non-EU country in Europe (Serbia) to an EU country in Africa (Portugal). With no plant passports or other documents prepared, seeds were effectually smuggled. Plant species were selected for their cultural, agricultural, and geographical significance (the common oak, the common bean, linden, ginkgo, pepper, grape ivy, etc). We've planted these seeds on several locations on the island. Then we created a collection of 12 Madeiran seeds and seedlings (kurrajong, ficus, eagle fern, Cornish heath, fan palm, bougainvillea, Tipuana tipu, etc), brought it back to Belgrade, and planted it in flowerpots. Most of these Madeiran plants weren't actually native to the island, but brought in recent history, often as decor for hotels and mansions.
 
-We documented this processes by drawing and writing diagrams. We created elaborated taxonomies and data classification systems in regard to whether a plant is beautiful and useful. We also imagined where a plant would sit on a <a href='https://knowyourmeme.com/memes/political-compass' target='_blank'>political compass (an Internet meme)</a> if it were a human migrant. 
+We documented this processes by drawing and writing diagrams. We created elaborated taxonomies and data classification systems in regard to whether a plant is beautiful and useful. We also imagined where a plant would sit on a <a href='https://www.politicalcompass.org/' target='_blank'>political compass</a> if it were a human migrant.
 
 We presented these visual materials during our Artist Talk at the MultiMadeira Centre in Funchal.
 
