@@ -61,7 +61,7 @@ presentations:
 publications:
     - year: 2019
       pubs:
-        - name: "I Do Not Wish To Be Loved, I Wish Everyone Loved Leaves (Artist Book)"
+        - name: "<span class='italic-style'>I Do Not Wish To Be Loved, I Wish Everyone Loved Leaves</span> (Artist Book), Gallery of Contemporary Art, Pančevo, Serbia"
 awards:
     - year: 2019
       pubs:
@@ -79,7 +79,7 @@ press:
       name: Arte
     - link: 'https://www.danubeogradu.rs/2019/09/festival-s-u-t-r-a-2019-u-ime-algoritma/'
       name: DanUBeogradu.rs
-img_to_show: 4
+img_to_show: 6
 img_data:
     - size: "1200x795"
       caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
@@ -121,14 +121,17 @@ img_data:
       caption: "Hand drawing in the book. Photo: Ivona Petrov."
     - size: "1200x795"
       caption: "Installation. Photo: Ivona Petrov."    
-lead: "Synesketch was the Web’s first free open-source software for textual emotion recognition and artistic visualization. A pioneering work in AI humanization and generative æsthetics, Synesketch was recognized by international art venues, scientific journals and conferences, as well as many organizations and individuals Web-wide."
+lead: "Named after a sentence from the <a href='https://sites.google.com/site/projectgoethe/Home/milos-crnjanski' target='_blank'>Miloš Crnjanski</a>’s lyrical novel <span class='italic-style'><a href='https://en.wikipedia.org/wiki/The_Journal_of_%C4%8Carnojevi%C4%87' target='_blank'>The Journal of Čarnojević</a></span>, the artwork represents an interactive animated interface for generating literary text in the style of said Serbian writer. The interface is connected to a <a href='https://en.wikipedia.org/wiki/Recurrent_neural_network' target='_blank'>Recurrent Neural Network</a>-based <a href='https://en.wikipedia.org/wiki/Natural-language_generation' target='_blank'>AI software</a> trained on complete written works by Crnjanski."
 
-Inspired by the concept of <a href="https://en.wikipedia.org/wiki/Synesthesia" target="_blank">synesthesia</a>, Synesketch is an attempt to create an artifical synesthete, a computer program that maps text to visuals via feelings. The project started in the pre-post-truth, pre-crisis year of 2007, when Internet was still young, with a lot of creative makers untainted by questions of digital surveillance, algorithmic commodification, and social consequences of AI. One may say it was the age of innocence for digital art. Synesketch presents an abstract portrait of that age. 
+So far, this project was shown at the Gallery of the Serbian Academy of Sciences and Arts, Belgrade Museum of Science and Technology, and Pančevo Gallery of Contemporary Art. It won the award for the best new media art installation, <span class='italic-style'>ARTificial Belgrade</span>, awarded by the <a href='https://everseen.com/technology.html' target='_blank'>Everseen company</a>.
 
-Technologically speaking, Synesketch algorithms analyse the emotional content of text sentences in terms of emotional types (happiness, sadness, anger, fear, disgust, and surprise), weights (how intense the emotion is), and a valence (is it positive or negative). The recognition technique is grounded on a refined keyword spotting method which employs a set of heuristic rules, a WordNet-based word lexicon, and a lexicon of emoticons and common abbreviations.
+The computer system behind the project is written in Python and JavaScript, using <a href='https://d3js.org/' target='_blank'>D3</a> for interactive fractal animation and <a href='https://www.tensorflow.org/' target='_blank'>Tensorflow</a> and <a href='https://keras.io/' target='_blank'>Keras</a> for text generation. The RNN engine is an adaptation of Max Woolf's <a href='https://github.com/minimaxir/textgenrnn' target='_blank'>textgenrnn library</a>. It is available online as an <a href='https://github.com/parthenocissus/autoprose' target='_blank'>open-source project on my GitHub</a>. 
 
-The real-time generative animations are partially based on <a href="http://www.complexification.net/gallery/" target="_blank">Jared Tarbell’s Bubble Chamber</a>, itself inspired by <a href="https://www.sciencedirect.com/topics/physics-and-astronomy/bubble-chambers" target="_blank">physics graphics of colliding particles</a>. 
+Users of the system and viewers of the installation are able to participate in the text generation process by co-creating their own literary pieces in real time via the treelike visualization of potential narrative branches. The visualization itself can be viewed as an interactive <a href='https://en.wikipedia.org/wiki/Concrete_poetry' target='_blank'>concrete poem</a>, an arborized remixed novel, a <span class='italic-style'>dataist</span> nod to old dadaist and surrealist experiments.
 
-Research papers about Synesketch were published in the <a href="https://ieeexplore.ieee.org/document/7358121" target="_blank">IEEE Transactions on Human-Machine Systems</a> and the <a href="https://www.computer.org/csdl/journal/ta/2013/03/06589580/13rRUy3gn5N" target="_blank">IEEE Transactions on Affective Computing</a>. 
+The artwork is an homage to surrealist literary pastiches and parodies of <a href='https://en.wikipedia.org/wiki/Stanislav_Vinaver' target='_blank'>Stanislav Vinaver</a> – another Serbian and Yugoslav writer who was also a mathematician. By playing with styles of Crnjanski and other writers, Vinaver was questioning cultural norms and media regimes of that time. Media regimes of today, however, are determined by the global digital economy: words do not belong to literature and philosophy as much as they belong to <a href='https://infoscience.epfl.ch/record/200539?ln=en' target='_blank'>technological capital</a>. As such, this artwork is also an artistic critique of contemporary digital media regime of text commodification, word indexing, search term optimization, textual emotion recognition, sentiment and affect classification, email surveillance, automated textual analysis, and the general corporate and political use and abuse of <a href='https://en.wikipedia.org/wiki/Natural_language_processing' target='_blank'>natural language processing techniques</a>.
 
-Synesketch was awarded by the International Digital Media and Arts Association, Canada, and the Belgrade Chamber of Commerce, Serbia. It was reviewed by <a href="https://www.creativereview.co.uk/about-subscribe/" target="_blank">Creative Review</a> and many other digital art and visualization publications, shown on festivals and conferences in Europe, Canada, and China, and used by designers, artists, engineers, and researchers world-wide. <mark>&#9632;</mark>
+The name itself, <span class='italic-style'>I Do Not Wish To Be Loved, I Wish Everyone Loved Leaves</span>, comes as an ironic comment on a plant-like cyber-utopia of endless hypertext fractal branching. Despite <a href='https://en.wikipedia.org/wiki/Cyber-utopianism' target='_blank'>cyber-utopian dreams</a>, the reality of new technologies for quantification of human life is far from an expressionist paradise. 
+
+In a world that imposes metrics upon every human endeavor, it is the responsibility of artists and writers to reappropriate these quantification tools and invent new ways of seeing, reading, making, interacting – new ways of creating meaning.
+ <mark>&#9632;</mark>

@@ -61,7 +61,7 @@ presentations:
 publications:
     - year: 2019
       pubs:
-        - name: "Ja nisam željan da me ko voli, nego da svi zavole lišće (umetnička knjiga)"
+        - name: "<span class='italic-style'>Ja nisam željan da me ko voli, nego da svi zavole lišće</span> (umetnička knjiga), Galerija savremene umetnosti, Pančevo"
 awards:
     - year: 2019
       pubs:
@@ -77,7 +77,7 @@ press:
       name: Radio Televizija Vojvodine
     - link: 'http://www.arte.rs/sr/vesti/ishodi_nove_tehnologije-13247/1/1/'
       name: Arte
-img_to_show: 4
+img_to_show: 6
 img_data:
     - size: "1200x795"
       caption: "Umetnička knjiga koja podražava logiku automatskog grananja i generisanja teksta. Foto: Ivona Petrov."
@@ -119,14 +119,16 @@ img_data:
       caption: "Crtež iz knjige. Foto: Ivona Petrov."
     - size: "1200x795"
       caption: "Interaktivna instalacija. Foto: Ivona Petrov."    
-lead: "Teskt tek treba da se napiše... Synesketch was the Web’s first free open-source software for textual emotion recognition and artistic visualization. A pioneering work in AI humanization and generative æsthetics, Synesketch was recognized by international art venues, scientific journals and conferences."
+lead: "Nazvan po rečenici iz <span class='italic-style'><a href='http://mcrnjanski.rs/ideje/slike/Milos-Crnjanski-Dnevnik-o-Carnojevicu.pdf' target='_blank'>Dnevnika o Čarnojeviću</a></span>, romana <a href='https://sh.wikipedia.org/wiki/Milo%C5%A1_Crnjanski' target='_blank'>Miloša Crnjanskog</a>, ovaj rad predstavlja interaktivan i animiran interfejs za automatsko generisanje proznog teksta u piščevom stilu. Interfejs je povezan sa softverom zasnovanim na <a href='https://en.wikipedia.org/wiki/Recurrent_neural_network' target='_blank'>rekurentnim neuralnim mrežama</a> – primenjenom <a href='https://en.wikipedia.org/wiki/Natural-language_generation' target='_blank'>veštačkom inteligencijom</a> koja je trenirana na kompletnim sabranim delima Crnjanskog."
 
-Inspired by the concept of <a href="https://en.wikipedia.org/wiki/Synesthesia" target="_blank">synesthesia</a>, Synesketch is an attempt to create an artifical synesthete, a computer program that maps text to visuals via feelings. The project started in the pre-post-truth, pre-crisis year of 2007, when Internet was still young, with a lot of creative makers untainted by questions of digital surveillance, algorithmic commodification, and social consequences of AI. One may say it was the age of innocence for digital art. Synesketch presents an abstract portrait of that age. 
+Do sada, ovaj rad je prikazan u beogradskom Muzeju nauke i tehnike, galeriji Srpske akademije nauka i umetnosti i pančevačkoj Galeriji savremene umetnosti. Dobitnik je nagrade za novomedijsku umetničku instalaciju, <span class='italic-style'>ARTificial Belgrade</span>, koju dodeljuje kompanija <a href='https://everseen.com/technology.html' target='_blank'>Everseen</a>.
 
-Technologically speaking, Synesketch algorithms analyse the emotional content of text sentences in terms of emotional types (happiness, sadness, anger, fear, disgust, and surprise), weights (how intense the emotion is), and a valence (is it positive or negative). The recognition technique is grounded on a refined keyword spotting method which employs a set of heuristic rules, a WordNet-based word lexicon, and a lexicon of emoticons and common abbreviations.
+Sistem je napisan u jezicima Python i JavaScript. Interaktivna fraktalna animacija radi uz pomoć tehnologije <a href='https://d3js.org/' target='_blank'>D3</a>, dok se sistem za generisanje teksta bazira na tehnologijama <a href='https://www.tensorflow.org/' target='_blank'>Tensorflow</a> i <a href='https://keras.io/' target='_blank'>Keras</a>. Rekurentne neuralne mreže implementirane su kao adaptacija biblioteke <a href='https://github.com/minimaxir/textgenrnn' target='_blank'>textgenrnn</a> Maxa Woolfa. Softver je dostupan kao na Internetu kao <a href='https://github.com/parthenocissus/autoprose' target='_blank'>projekat otvorenog koda na mojoj GitHub stranici</a>. 
 
-The real-time generative animations are partially based on <a href="http://www.complexification.net/gallery/" target="_blank">Jared Tarbell’s Bubble Chamber</a>, itself inspired by <a href="https://www.sciencedirect.com/topics/physics-and-astronomy/bubble-chambers" target="_blank">physics graphics of colliding particles</a>. 
+Korisnici sistema učestvuju u procesu generisanja teksta tako što u realnom vremenu <span class='italic-style'>su</span>-kreiraju svoje literarne radove uz pomoć razgranate vizuelizacije potencijalnih narativnih rukavaca. Sama vizuelizacija predstavlja interaktivnu <a href='https://en.wikipedia.org/wiki/Concrete_poetry' target='_blank'>konkretnu poeziju</a>, arborizovani i remiskovani roman, novi <span class='italic-style'>dataistički</span> pogled na stare dadaističke prakse. 
 
-Research papers about Synesketch were published in the <a href="https://ieeexplore.ieee.org/document/7358121" target="_blank">IEEE Transactions on Human-Machine Systems</a> and the <a href="https://www.computer.org/csdl/journal/ta/2013/03/06589580/13rRUy3gn5N" target="_blank">IEEE Transactions on Affective Computing</a>. 
+Rad se nadovezuje na nadrealističke pastiše <a href='https://sh.wikipedia.org/wiki/Stanislav_Vinaver' target='_blank'>Stanislava Vinavera</a>, književnika, matematičara i autora <span class='italic-style'><a href='https://www.rastko.rs/knjizevnost/umetnicka/svinaver-pantologija.html' target='_blank'>Pantologije srpske i jugoslovenske pelengirike</a></span>. Igrajući se stilovima književnika, između ostalih i Crnjanskog, Vinaver se u <span class='italic-style'>Pantologiji</span> zapravo bavi tadašnjim medijskim i kulturnim matricama. Danas te matrice definiše digitalna ekonomija: tekst kao takav više ne pripada književnosti i filozofiji onoliko koliko pripada <a href='https://infoscience.epfl.ch/record/200539?ln=en' target='_blank'>digitalnom kapitalu</a>. Otuda je rad ne samo omaž starim praksama nego pre svega umetnička kritika savremenog digitalno-medijskog režima komodifikacije teksta, indeksiranja reči, optimizacije termina za pretragu, prepoznavanja sentimenata u tekstu, nadzora imejl prepiski i uopšte, korporativne i političke (zlo)upotrebe <a href='https://en.wikipedia.org/wiki/Natural_language_processing' target='_blank'>računarskih alata za procesiranje ljudskog jezika</a>. 
 
-Synesketch was awarded by the International Digital Media and Arts Association, Canada, and the Belgrade Chamber of Commerce, Serbia. It was reviewed by <a href="https://www.creativereview.co.uk/about-subscribe/" target="_blank">Creative Review</a> and many other digital art and visualization publications, shown on festivals and conferences in Europe, Canada, and China, and used by designers, artists, engineers, and researchers world-wide. <mark>&#9632;</mark>
+Naziv rada <span class='italic-style'>Ja nisam više željan da me ko voli, nego da svi zavole lišće</span> izabran je kao ironični komentar na utopiju razgranatih nelinearnih hipertekstova. Uprkos <a href='https://en.wikipedia.org/wiki/Cyber-utopianism' target='_blank'>snovima Internet vizionara</a>, da li je stvarnost novih tehnologija za kvantifikaciju života uistinu <span class='italic-style'><a href='http://www.klubputnika.org/zbirka/vremeplov/3759-objasnjenje-sumatre-1920' target='_blank'>sumatraistička</a>?</span>
+
+Na umetnicima i piscima je da primene ove softverske alate za merenje ljudskog duha, vrate ih u prostor humanog, duhovitog, subverzivnog i nežnog, i izmisle nove načine gledanja, čitanja, pravljenja, sarađivanja – nove načine proizvodnje značenja. <mark>&#9632;</mark>

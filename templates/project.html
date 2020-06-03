@@ -197,9 +197,9 @@
                                 {% for e in p.pubs %}
                                     {% set slash = " / " if loop.index != p.pubs|length else "" %}
                                     {% if e.link is defined %}
-                                        <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
+                                        <a href="{{ e.link }}" target="_blank">{{ e.name|safe }}</a>
                                     {% else %}
-                                        <span>{{ e.name }}</span>
+                                        <span>{{ e.name|safe }}</span>
                                     {% endif %}
                                     {{ slash }}
                                 {% endfor %}
