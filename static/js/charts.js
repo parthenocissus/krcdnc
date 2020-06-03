@@ -8,6 +8,10 @@ let chartUtility = (function () {
     let lang, pictoData, maximumProjectCount;
     let hovering = false;
 
+    let currentYear = function () {
+        return (new Date()).getFullYear();
+    };
+
     let setLangParams = function (params) {
         langParams = params;
         lang = params.lang;
@@ -24,7 +28,7 @@ let chartUtility = (function () {
     let linechartParameters = {
         radius: 2.5,
         firstDate: new Date(1984, 1),
-        lastDate: new Date(2020, 1),
+        lastDate: new Date(currentYear(), 1),
         yearParser: d3.timeParse("%Y"),
         xShift: 0
     };
@@ -784,7 +788,7 @@ let chartUtility = (function () {
         height: 50,
         class: ".linechart",
         margin: {top: 4, right: 4, bottom: 20, left: 4, lineAdj: 9, baseAdj: 8},
-        ticks: [(new Date(1984, 1)), (new Date(2020, 1))],
+        ticks: [(new Date(1984, 1)), (new Date(currentYear(), 1))],
         xShift: 0
     };
 
@@ -795,17 +799,17 @@ let chartUtility = (function () {
         height: 70,
         class: ".linechart-index",
         margin: {top: 4, right: 4, bottom: 28, left: 4, lineAdj: 9, baseAdj: 8},
-        ticks: [(new Date(1984, 1)), (new Date(2020, 1))],
+        ticks: [(new Date(1984, 1)), (new Date(currentYear(), 1))],
         xShift: 0
     };
 
     let getLinechartParamsHeader = function (year = 1984) {
         let projectYear = +year;
-        if ((projectYear !== undefined) && (projectYear !== 2020)) {
+        if ((projectYear !== undefined) && (projectYear !== currentYear())) {
             linechartParamsHeader.ticks = [
                 (new Date(1984, 1)),
                 (new Date(projectYear, 1)),
-                (new Date(2020, 1))];
+                (new Date(currentYear(), 1))];
         }
         return linechartParamsHeader;
     };
