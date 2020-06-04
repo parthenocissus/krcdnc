@@ -81,7 +81,7 @@ img_data:
       caption: "Fizički dijagram rasejanja (scatter-plot) izabranih biljaka sa Madeire. Detalj. Foto: Ivona Petrov."
     - size: "1200x900"
       caption: "Dijagram bez semena. Foto: Ivona Petrov."
-lead: "Serija fizičkih i crtanih infografika o biljnim vrstama iz Beograda i sa ostrva Madeira, koju smo Ivona Petrov i ja kreirali tokom umetničke rezidencije na <a href='https://www.multimadeira.com/' target='_blank'>MultiMadeiri 2020</a>. Projekat govori o mogućnosti razumevanja <span class='italic-style'>data-driven</span> <a href='https://en.wikipedia.org/wiki/Biopolitics' target='_blank'>biopolitika</a> na ličan i intiman način."
+lead: "Serija fizičkih i crtanih infografika o biljnim vrstama iz Beograda i sa ostrva Madeira, koja govori o mogućnosti razumevanja <span class='italic-style'>data-driven</span> <a href='https://en.wikipedia.org/wiki/Biopolitics' target='_blank'>biopolitika</a> na ličan i intiman način. Projekat smo kreirali Ivona Petrov i ja tokom umetničke rezidencije na <a href='https://www.multimadeira.com/' target='_blank'>MultiMadeiri 2020</a>."
 
 Projekat <span class='italic-style'>Vetar i seme</span> kreiran je mesec dana nakon što je Evropska unija uvela nov <a href='https://www.europarl.europa.eu/doceo/document/E-9-2019-003753_EN.html' target='_blank'>Evropski pasoš za biljke</a> i – sasvim slučajno – mesec dana pre nego što je počela globalna pandemija COVID-19. Na neobičan način projekat je anticipirao značaj pitanja transportovanja gena preko nacionalnih granica. 
 

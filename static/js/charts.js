@@ -8,15 +8,15 @@ let chartUtility = (function () {
     let lang, pictoData, maximumProjectCount;
     let hovering = false;
 
-    let currentYear = function () {
-        return (new Date()).getFullYear();
-    };
-
     let setLangParams = function (params) {
         langParams = params;
         lang = params.lang;
         dataCopy = params.pictodata;
         maximumProjectCount = params.max;
+    };
+
+    let currentYear = function () {
+        return (new Date()).getFullYear();
     };
 
     /* Flowerchart Section */

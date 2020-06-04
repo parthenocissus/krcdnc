@@ -81,7 +81,7 @@ img_data:
       caption: "Physical scatter-plot of selected Madeira plants. Detail. Photo: Ivona Petrov."
     - size: "1200x900"
       caption: "Empty scatter-plot. Photo: Ivona Petrov."
-lead: "A series of playful hand-made infographics about plant species from Belgrade, Serbia, and Madeira, Portugal, created by Ivona Petrov and me during our artistic residency at <a href='https://www.multimadeira.com/' target='_blank'>MultiMadeira 2020</a>. The project talks about understanding data-driven <a href='https://en.wikipedia.org/wiki/Biopolitics' target='_blank'>biopolitics</a> on an intimate level."
+lead: "A series of playful hand-made infographics about plant species from Belgrade, Serbia, and Madeira, Portugal, which talks about understanding data-driven <a href='https://en.wikipedia.org/wiki/Biopolitics' target='_blank'>biopolitics</a> on an intimate level. The project was created by Ivona Petrov and me during our artistic residency at <a href='https://www.multimadeira.com/' target='_blank'>MultiMadeira 2020</a>."
 
 The project was created a month after EU initiated new <a href='https://www.europarl.europa.eu/doceo/document/E-9-2019-003753_EN.html' target='_blank'>European plant passports</a> and – incidentally – a month before the global COVID-19 pandemic. In a strange way, the project anticipated the problem of transporting genes over national borders. 
 

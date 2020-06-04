@@ -33,7 +33,7 @@ presentations:
 press:
     - link: 'http://www.seecult.org/vest/umetnost-nauka-i-mejkers-kultura'
       name: art+science+makers, SEECult  
-img_to_show: 2       
+img_to_show: 3       
 img_data:
     - size: "3000x2000"
       caption: "Izložba art+science+makers, Muzej primenjenih umetnosti, Beograd, 2018. Foto: Jana Ljubičić."
@@ -45,12 +45,16 @@ img_data:
       caption: "Izložba art+science+makers, Muzej primenjenih umetnosti, Beograd, 2018. Foto: Jana Ljubičić."       
     - size: "2000x3000"
       caption: "Izložba art+science+makers, Muzej primenjenih umetnosti, Beograd, 2018. Foto: Jana Ljubičić."
-lead: "Dug kao dijabetes je... an installation that maps Serbian debt to an amount of sugar for black coffee, drawing a parallel between diabetic illness of a single organism and financial dependency of a collective one."
+lead: "Dug kao dijabetes je instalacija koja mapira javni dug Republike Srbije na količinu šećera u crnoj kafi, povlačeći paralelu između dijabetske bolesti pojedinačnog organizma i finansijske zavisnosti kolektivnog organizma."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and highfrequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+Кako da osećamo i mislimo avete poput klimatskih promena, globalnih migracija, Big Data interneta i visokofrekventnih finansijkih transakcija? Ma koliko se činili apstraktnim, ovi složeni procesi na naše živote utiču svakodnevno i sveobuhvatno. Кako da pričamo o njima? Кako da ih predstavimo našem duhu i našem telu?
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
+<a href='http://www.javnidug.gov.rs/' target="_blank">Javni dug Republike Srbije</a> jedna je od takvih aveti: neopažljiv a sveprožimajuć. Кako dug doživeti vlastitim metabolizmom?
 
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
+Кao stilska vežba iz vizuelizacije podataka, ovaj rad prikazuje poslednjih 10 godina duga Republike Srbije. Za svaku godinu, <a href='https://en.wikipedia.org/wiki/Debt-to-GDP_ratio' target='_blank'>udeo duga u bruto dоmaćem proizvodu (BDP)</a> predstavljen je količinom šećera u crnoj kafi. Kafa je izabrana kao <a href='https://en.wikipedia.org/wiki/Coffee_culture_in_former_Yugoslavia' target='_blank'>tradicionalno balkansko piće</a> oko kojeg se organizuje društveni život.
 
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+<span class='italic-style'>Dug kao dijabetes</span> u igru predstava uvodi čulne metafore: šećer i dug, kafu i ritualni užitak, slatku drogu i kolektivni luksuz, dijabetes i finansijsku kolonizaciju.
+
+Posetioci instalacije bili su pozvani da piju kafu, jednu šolju/godinu za drugom, kako bi eksponencijalni rast duga doživeli najpre kao prijatan energetski šok a zatim, do kraja 10-godišnjeg niza, kao nešto otužno, neprijatno i dugoročno štetno po organizam.
+ 
+ Instalacija je bila deo izložbe <a href='https://www.cpn.edu.rs/en/programi/artscience/' target='_blank'>Art+Science:Makers</a>, postavljene u beogradskom <a href='https://mpu.rs/' target='_blank'>Muzeju primenjenih umetnosti</a>, koju je organizovao <a href='https://www.cpn.edu.rs/en/' target='_blank'>Centar za promociju nauke</a> u Srbiji. <mark>&#9632;</mark>

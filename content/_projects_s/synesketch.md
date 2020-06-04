@@ -87,7 +87,7 @@ press:
     - link: 'http://www.visualcomplexity.com/vc/project.cfm?id=695'
       name: VisualComplexity.com
     - name: Infosthetics.com
-img_to_show: 6
+img_to_show: 8
 img_data:
     - size: "640x162"
       caption: "Razvoj vizuala za emociju radosti"
@@ -97,6 +97,10 @@ img_data:
       caption: "Razvoj vizuala za emociju besa"
     - size: "640x158"
       caption: "Razvoj vizuala za emociju tuge"
+    - size: "640x159"
+      caption: "Razvoj vizuala za emociju gađenja"  
+    - size: "640x157"
+      caption: "Razvoj vizuala za emociju iznenađenja"
     - size: "640x945"
       caption: "Razvoj vizuala za sve tipove emocija"
     - size: "464x365"
@@ -106,11 +110,7 @@ img_data:
     - size: "640x357"
       caption: "Vizuali koje pokreće emocija iznenađenja (detalj)"   
     - size: "1200x897"
-      caption: "Alternativni vizuali sistema Synesketch u obliku raznobojne kvadratne mreže. Emocije s leva na desno, od gore na dole: neutralna / snažna radost / srednja radost / slab strah / snažan bes / slabo gađenje / slaba tuga / slaba radost / snažno iznenađenje / slab bes / snažno gađenje / srednja tuga" 
-    - size: "640x159"
-      caption: "Razvoj vizuala za emociju gađenja"  
-    - size: "640x157"
-      caption: "Razvoj vizuala za emociju iznenađenja"    
+      caption: "Alternativni vizuali sistema Synesketch u obliku raznobojne kvadratne mreže. Emocije s leva na desno, od gore na dole: neutralna / snažna radost / srednja radost / slab strah / snažan bes / slabo gađenje / slaba tuga / slaba radost / snažno iznenađenje / slab bes / snažno gađenje / srednja tuga"     
 lead: "Synesketch je slobodno licenciran softver otvorenog koda za prepoznavanje i umetničku vizuelizaciju emocija u tekstu — prvi takav na Vebu. Kao pionirski rad u oblasti generativne estetike, kreiran s namerom da humanizuje veštačku inteligenciju, Synesketch su prepoznali međunarodni umetnički festivali, naučni časopisi i konferencije, kao i organizacije i pojedinci širom Veba."
 
 Inspired by the concept of <a href="https://en.wikipedia.org/wiki/Synesthesia" target="_blank">synesthesia</a>, Synesketch is an attempt to create an artifical synesthete, a computer program that maps text to visuals via feelings. The project started in the pre-post-truth, pre-crisis year of 2007, when Internet was still young, with a lot of creative makers untainted by questions of digital surveillance, algorithmic commodification, and social consequences of AI. One may say it was the age of innocence for digital art. Synesketch presents an abstract portrait of that age. 
