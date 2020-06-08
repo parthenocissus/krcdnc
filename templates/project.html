@@ -63,35 +63,45 @@
             {{ project.lead|safe }}
         </div>
 
-        <div class="column-container">
+        <div class="image-row">
+            {% if project.featured_video is defined %}
+                {{ project.featured_video|safe }}
+            {% elif project.featured_js is defined %}
+                <svg id="featured-svg" preserveAspectRatio="xMidYMin meet"></svg>
+            {% else %}
+                {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
+                <img src="{{ url_for('static', filename=main_img_path) }}">
+                <!-- <div class="image-underline"></div> -->
+            {% endif %}
+        </div>
 
-            <div class="image-row">
-                {% if project.featured_video is defined %}
-                    {{ project.featured_video|safe }}
-                {% elif project.featured_js is defined %}
-                    <svg id="featured-svg" preserveAspectRatio="xMidYMin meet"></svg>
-                {% else %}
-                    {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
-                    <img src="{{ url_for('static', filename=main_img_path) }}">
-                    <!-- <div class="image-underline"></div> -->
-                {% endif %}
-            </div>
+        <div class="column-container">
 
             <div class="column-1">
                 <article class="article-text body-style">
                     {{ project.html|safe }}
                 </article>
+                <div class="polar-chart">
+                    <svg id="polar-chart-svg" preserveAspectRatio="xMidYMin meet"></svg>
+                </div>
             </div>
 
-{#            <div class="column-2">#}
-{##}
-{#                <div class="polar-chart">#}
-{#                    <svg id="polar-chart-svg" preserveAspectRatio="xMidYMin meet"></svg>#}
-{#                </div>#}
-{##}
-{#            </div>#}
+            {#                        <div class="column-2">#}
+            {##}
+            {#                        </div>#}
 
-            <div class="column-3">
+            {#            <div class="column-3">#}
+            {#            </div>#}
+
+            <div class="project-information">
+
+                {% if project.goto is defined %}
+                    <a href="{{ project.goto.link }}" target="_blank">
+                        <div class="goto-button goto-button-style">
+                            {{ project.goto.label }}
+                        </div>
+                    </a>
+                {% endif %}
 
                 <div class="interface-heading-article interface-heading-style no-padding-top">
                     {{ params.project_captions.role }}
@@ -137,10 +147,6 @@
                     </div>
                 {% endif %}
 
-            </div>
-
-            <div class="project-information">
-
                 <div class="thumbs">
                     <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
@@ -165,14 +171,6 @@
 
                     </div>
                 </div>
-
-                {% if project.goto is defined %}
-                    <a href="{{ project.goto.link }}" target="_blank">
-                        <div class="goto-button goto-button-style">
-                            {{ project.goto.label }}
-                        </div>
-                    </a>
-                {% endif %}
 
                 <div id="presentations"
                      class="interface-heading-article interface-heading-style">{{ project.presentation_title }}</div>
