@@ -75,26 +75,35 @@
     grid-area: in;
     justify-items: center;
     text-align: center;
-    padding: 0 12% 75px 12%;
+    padding: 0 12% 55px 12%;
 }
 
 /* Column Container */
 
 .column-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: minmax(300px, auto) minmax(0, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    /*grid-template-rows: minmax(300px, auto) minmax(0, 1fr) minmax(0, 1fr);*/
     grid-gap: 0px;
     grid-template-areas:
-            "c1 c1 im im im im"
-            "c1 c1 c2 c2 c3 c3";
+            "im im im im"
+            /*"c1 c1 c2 . "*/
+            "c1 c1 c3 c3"
+            "c1 c1 in in";
+}
+
+/* Information */
+
+.project-information {
+    grid-area: in;
 }
 
 /* Article Image */
 
 .image-row {
     grid-area: im;
-    padding: 0 0 25px 20px;
+    padding: 0 0 40px 0;
     margin: 0;
 }
 
@@ -110,22 +119,15 @@
     padding-bottom: 18px;
 }
 
-.image-underline {
-    background-color: var(--suncolor);
-    height: 8px;
-    min-height: 8px;
-    padding: 0;
-    margin: 0 26px 30px 26px;
-}
-
 /* Column 1: Article Text, Project Description (Bellow the Lead, Next to Image) */
 
 .column-1 {
     grid-area: c1;
+    display: block;
 }
 
 .article-text {
-    padding-right: 35px;
+    padding: 0 35px 0 0px;
     margin: 0;
 }
 
@@ -150,23 +152,15 @@
 .column-2 {
     grid-area: c2;
     display: block;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 0px;
 }
 
 .column-3 {
     grid-area: c3;
     display: block;
-    padding: 0 0 0 20px;
+    padding: 0;
 }
 
-.inside-column {
-    padding: 0 20px 20px 0;
-}
-
-/* REF: .interface-text-article in base.css */
-.main-container .interface-text-article {
-    /*padding-bottom: 15px;*/
-}
 .main-container .interface-heading-article {
     padding-top: 15px;
 }
@@ -187,7 +181,6 @@
 }
 
 figure {
-    margin: 0;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0;
@@ -321,19 +314,10 @@ figure img:hover {
 .polar-chart .curve-text {
     color: var(--darkcolor);
     font-family: Ambit-Regular;
-    font-size: 9.8pt;
+    font-size: 9pt;
     letter-spacing: 0.7pt;
     opacity: 1;
     cursor: default;
-}
-
-/* SVG-based Dash Style */
-
-.dashed-right {
-    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 2 8' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='0.6' fill='1D1D1B'/></svg>");
-    background-position: right;
-    background-size: 2px 8px;
-    background-repeat: repeat-y;
 }
 
 /* Pointers */
@@ -358,13 +342,18 @@ figure img:hover {
 
 /* Quotes */
 
+.quoted-text {
+    padding-left: 20px;
+    margin: 12px 0 28px 0;
+}
+
 .quote1 {
     font-family: CartographSans-XBoldItalic;
     font-size: 13pt;
     line-height: 1.7em;
     letter-spacing: 0.06pt;
     padding: 20px 0 0 0;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .quote1 .by {

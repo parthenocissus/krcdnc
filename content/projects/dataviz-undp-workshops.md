@@ -54,13 +54,10 @@ img_data:
       caption: "UNDP School od Data, Mokrin House, 2019."
     - size: "960x507"
       caption: "UNDP School od Data, Mokrin House, 2019."      
-lead: "A compact data visualization and communication syllabus for the School of Data organized by <a href='https://www.rs.undp.org/content/serbia/en/home.html' target='_blank'>United Nations Development Programme</a> in Serbia. Carefully tailored to participants from diverse background, the programme fosters to combine analytic skills with creative and divergent thinking."
+lead: "A compact introductory data visualization + communication workshop for the School of Data organized by the <a href='https://www.rs.undp.org/content/serbia/en/home.html' target='_blank'>United Nations Development Programme</a> in Serbia. Carefully tailored to participants from diverse backgrounds, the programme combines fostering analytical skills with creative and divergent thinking."
 
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
+<a href='https://www.rs.undp.org/content/serbia/en/home/presscenter/articles/2019/otvorene-prijave-za-jesenju-kolu-za-podatke.html' target='_blank'>The School of Data</a> is a UNDP-developed programme for participants from public administration, civil society organizations, startups, media companies, and academia. It provides the introduction to data-driven technologies, statistical and programming tools, legal frameworks, and visualization approaches.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+As the final part of the School of Data, my dataviz workshop focused on understanding the truthful and effective communication of large and small data sets. From historical cartography to modern interactive Web experiences, from <a href='/work/projects/category/data-art'>data art</a> to data journalism, we analysed what constitutes quality data-driven design. Special attention was devoted to explaining data-driven propaganda, ways of manipulating public via faux dataviz.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Participants got the chance to develop their own data visualization projects using various tools, such as <a href='https://d3js.org/' target='_blank'>d3.js</a>, <a href='https://www.tableau.com/' target='_blank'>Tableau</a>, and <a href='https://rawgraphs.io/' target='_blank'>Raw Graphs</a>. At the end, we have created a <span class='italic-style'>data performance</span>, including a physical scatter-plot made of participant bodies. <mark>&#9632;</mark>

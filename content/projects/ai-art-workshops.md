@@ -58,15 +58,17 @@ img_data:
       caption: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
     - size: "960x720"
       caption: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
-lead: "A series of animation game jam workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+lead: "Using my formal background in <a href='/work/projects/category/ai'>Applied Artificial Intelligence</a>, I've created a workshop for artists, writers, designers, and makers interested in using AI technologies and paradigms in their creative and critical practice. The workshop focuses on demystifying and understanding not only the logic of AI, but also its implications for society and culture — the ethics, æsthethics and poetics of quasi-intelligent systems."
 
-Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
+Everybody is talking about Artificial Intelligence, but what is it exactly? Is it the <a href='https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence' target='_blank'>next step in the evolution of human consciousness</a> or just a <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3078224' target='_blank'>marketing term big corporations use</a> to brand their software for automated statistics? In what way do AI technologies impact contemporary society, culture and media, intimate relations and the ones of production? How can artists, designers, writers, makers, directors, and the rest of us appropriate these technologies, use them creatively and critically?
 
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
+When he was beaten by the Deep Blue, G. Kasparov came up with the concept of <a href='https://en.wikipedia.org/wiki/Advanced_chess' target='_blank'>Centaur Chess</a>: a chess variety in which a human and a computer play against another human-computer pair. Humans use computers to explore possible moves, but make final decisions themselves. This is an example of an AI that, instead of ruining human creativity, ends up enhancing it. I believe a similar approach is possible in the domain of art and culture. Robots mights help creatives to invent new kinds of creative and subversive practices.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+The workshop is dedicated to demystifying, democratizing, explaining, and subverting the AI paradigm, presenting new conceptual possibilities and programming tools for exploration and creation of a new media forms. We might call them <span class='italic-style'>Centaur Art</span>.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Artists, writers, and technologists whose work we mention during the workshop include <a href='http://www.paglen.com/' target='_blank'>T. Paglen</a>, <a href='http://jamesbridle.com/' target='_blank'>J. Bridle</a>, <a href='http://www.memo.tv/works/' target='_blank'>M. Akten</a>, <a href='https://www.versobooks.com/books/2742-radical-technologies' target='_blank'>A. Greenfield</a>, <a href='https://yarden.github.io/' target='_blank'>Y. Katz</a>, <a href='https://anatomyof.ai/' target='_blank'>V. Joler</a>, and many others.  
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Workshop attendants are not expected to have any prior programming knowledge (although it won’t hurt if they do). An ideal group would be comprised of attendants with diverse background, ranging from engineers, scientists, designers, and philosophers to artisans and workers.
+
+Languages: Python, JavaScript.
+Technologies: Keras, TensorFlow, Google Colab, Runway ML, etc. <mark>&#9632;</mark>

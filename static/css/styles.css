@@ -135,7 +135,14 @@ main a:hover {
     letter-spacing: 0.2pt;
 }
 
-/* Big Quote */
+/* Quotes */
+
+.tiny-quote-style {
+    font-family: Ambit-Italic;
+    font-size: 12pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+}
 
 .big-quote-style {
     font-family: CartographSans-XBoldItalic, monospace;
