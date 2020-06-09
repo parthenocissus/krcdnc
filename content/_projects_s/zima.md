@@ -37,12 +37,12 @@ presentation_title: Presentations
 presentations:
     - year: 2019
       events:
-        - name: AKAB Okretnica, Beograd
+        - name: <span class='italic-style'>AKAB Okretnica</span>, Beograd, Srbija
 publications:
     - year: 2019
       pubs:
-        - name: Zima, Kulturni centar Albahari, Beograd, Srbija
-img_to_show: 2       
+        - name: <span class='italic-style'>Zima</span>, Zbirka poezije, grupa autora, Kulturni centar Albahari, Beograd, Srbija
+img_to_show: 3       
 img_data:
     - size: "1200x795"
       caption: "Beograd, 2019"

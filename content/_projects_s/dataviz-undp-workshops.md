@@ -32,8 +32,8 @@ presentation_title: Radionice
 presentations:
     - year: 2019
       events:
-        - name: UNDP Dataton, Zrenjanin, Srbija
-        - name: UNDP Škola za podatke, Mokrin House, Srbija
+        - name: <span class='italic-style'>UNDP Dataton</span>, Zrenjanin, Srbija
+        - name: <span class='italic-style'>UNDP Škola za podatke</span>, Mokrin House, Srbija
 img_to_show: 3       
 img_data:
     - size: "694x960"

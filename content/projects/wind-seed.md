@@ -32,8 +32,8 @@ presentation_title: Presentations
 presentations:
     - year: 2020
       events:
-        - name: Artist in Residence Talk @ MultiMadeira Centre, Funchal, Madeira, Portugal 
-img_to_show: 6       
+        - name: <span class='italic-style'>Artist in Residence Talk</span>, MultiMadeira Centre, Funchal, Madeira, Portugal 
+img_to_show: 7       
 img_data:
     - size: "1200x1200"
       caption: "Physical scatter-plot of selected Madeira plants organized according to useful / beautiful axis. Photo: Ivona Petrov."

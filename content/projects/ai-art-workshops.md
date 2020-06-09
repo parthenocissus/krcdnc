@@ -28,20 +28,24 @@ medium:
       name: Software + Interactive Art
     - id: workshop
       name: Workshop
-presentation_title: Presentations
+presentation_title: Workshops
 presentations:
     - year: 2019
       events:
         - link: 'https://muzejnt.rs/sutra/portfolio-item/nekreativno-pisanje/'
-          name: "(Un)Creative Writing in the Age of AI (Workshop), S.U.T.R.A. Festival of New Media Art @ Museum of Science and Technology, Belgrade, Serbia"
-        - name: "AI Art Workshop, Design Seminar, Petnica Science Centre, Serbia"
-        - name: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
+          linked: (Un)Creative Writing in the Age of AI
+          name: "Workshop, S.U.T.R.A. Festival of New Media and Digital Art, Museum of Science and Technology, Belgrade, Serbia"
+        - name: "<span class='italic-style'>AI Art Workshop</span>, Design Seminar, Petnica Science Centre, Serbia"
+        - name: "<span class='italic-style'>Artificial Intelligence for Artists and Writers</span>, Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
     - year: 2020
       events:
-        - name: "Machine Learning for Artists Workshop, MultiMadeira Centre + CoWork, Madeira, Portugal"
+        - name: "<span class='italic-style'>Machine Learning for Artists</span>, Workshop, MultiMadeira Centre + CoWork Centre, Madeira, Portugal"
 press:
-    - link: "https://www.danas.rs/kultura/festival-s-u-t-r-a-u-ime-algoritma-pasivne-posetioce-pretvara-u-aktivne-ucesnike/"
-      name: About S.U.T.R.A. Festival, Danas, Belgrade, Serbia
+    - year: 2019
+      events:
+        - link: "https://www.danas.rs/kultura/festival-s-u-t-r-a-u-ime-algoritma-pasivne-posetioce-pretvara-u-aktivne-ucesnike/"
+          linked: About S.U.T.R.A. Festival
+          name: Danas, Belgrade, Serbia
 img_to_show: 3
 img_data:
     - size: "795x1200"
@@ -58,7 +62,7 @@ img_data:
       caption: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
     - size: "960x720"
       caption: "Artificial Intelligence for Artists and Writers Workshop, Art+Neuroscience Conference, Centre for the Promotion of Science, Belgrade, Serbia"
-lead: "Using my formal background in <a href='/work/projects/category/ai'>Applied Artificial Intelligence</a>, I've created a workshop for artists, writers, designers, and makers interested in using AI technologies and paradigms in their creative and critical practice. The workshop focuses on demystifying and understanding not only the logic of AI, but also its implications for society and culture — the ethics, æsthethics and poetics of quasi-intelligent systems."
+lead: "Using my formal background in <a href='/work/projects/category/ai'>Applied Artificial Intelligence</a>, I've created a <a href='/work/projects/category/workshop'>workshop</a> for artists, writers, designers, and makers interested in using AI technologies and paradigms in their creative and critical practice. The workshop focuses on demystifying and understanding not only the logic of AI, but also its implications for society and culture — the ethics, æsthethics and poetics of quasi-intelligent systems."
 
 Everybody is talking about Artificial Intelligence, but what is it exactly? Is it the <a href='https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence' target='_blank'>next step in the evolution of human consciousness</a> or just a <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3078224' target='_blank'>marketing term big corporations use</a> to brand their software for automated statistics? In what way do AI technologies impact contemporary society, culture and media, intimate relations and the ones of production? How can artists, designers, writers, makers, directors, and the rest of us appropriate these technologies, use them creatively and critically?
 

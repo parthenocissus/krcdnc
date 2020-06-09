@@ -28,12 +28,12 @@ medium:
       name: Data Visualization
     - id: workshop
       name: Workshop
-presentation_title: Presentations
+presentation_title: Workshops
 presentations:
     - year: 2019
       events:
-        - name: UNDP Datathon, Zrenjanin, Serbia
-        - name: UNDP School of Data, Mokrin House, Serbia
+        - name: <span class='italic-style'>UNDP Datathon, Zrenjanin</span>, Serbia
+        - name: <span class='italic-style'>UNDP School of Data</span>, Mokrin House, Serbia
 img_to_show: 3       
 img_data:
     - size: "694x960"

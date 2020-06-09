@@ -28,11 +28,11 @@ medium:
       name: Fizička vizuelizacija podataka
 team:
     - name: Ivona Petrov
-presentation_title: Presentations
+presentation_title: Prezentacije
 presentations:
     - year: 2020
       events:
-        - name: Predavanje umetnika na rezidenciji @ MultiMadeira Centar, Funšal, Madeira, Portugalija 
+        - name: <span class='italic-style'>Predavanje umetnika na rezidenciji</span>, MultiMadeira Centar, Funšal, Madeira, Portugalija 
 img_to_show: 6       
 img_data:
     - size: "1200x1200"
