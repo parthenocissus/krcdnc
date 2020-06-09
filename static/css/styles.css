@@ -211,11 +211,14 @@ main a:hover {
 .prj-list-style .description .list a {
     color: var(--darkcolor);
     background: var(--lightcolor);
+    background-size: 3px 0;
     text-decoration: none;
 }
 
 .prj-list-style .description .list a:hover {
     color: var(--suncolor);
+    background: linear-gradient(0deg, var(--suncolor) 0%, var(--suncolor) 100%) repeat-x 0 100%;
+    background-size: 3px 1px;
 }
 
 /* Project List Year */

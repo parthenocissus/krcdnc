@@ -32,7 +32,11 @@ data:
 <p>I'm also a co-author of <span class='italic-style'><a href='http://www.klubputnika.org/zbirka/zbivanja/3432-neutabanim-stazama' target='_blank'>Neutabanim stazama (Off the Beaten Path)</a></span>, a collection of short travelogues published by Klub putnika. With <a href='https://www.goodreads.com/author/show/4042520.Mario_Jankovi_Romano' target='_blank'>Mario Janković-Romano</a> and <a href='http://www.klubputnika.org/autori/nenad.moraca' target='_blank'>Nenad Morača</a>, I've written one of it’s travelogues, <span class='italic-style'>The Land Whose Cities Do Not Exist</span>, a story from Mongolia. Since 2019 I serve as a regular jury member of the <a href='http://www.klubputnika.org/zbirka/zbivanja/4287-konkurs-spasimo-putopis-2020' target='_blank'>annual literary competition for the best travelogue</a> organized by Klub putnika.</p>"
       list: "<div class='list-title interface-heading-style'>Publications</div>
     <ul>
-    <li><span class='year interface-subheading-style'>2015</span><span class='page-list-item-style'><span class='italic-style'><a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>Bantustan: Atlas jednog putovanja</a></span> (<span class='italic-style'>Bantustan: Atlas of a Journey</span>), Pašćanović L., Krčadinac U., Đedović M., Klub putnika (The Travel Club), Novi Sad, Serbia</span>
+    <li><span class='year interface-subheading-style'>2015</span>
+    <span class='page-list-item-style'>
+    <span class='italic-style'>
+    <a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>Bantustan: Atlas jednog putovanja</a>
+    </span> (<span class='italic-style'>Bantustan: The Atlas of a Journey</span>), Pašćanović L., Krčadinac U., Đedović M., Klub putnika (The Travel Club), Novi Sad, Serbia</span>
     </li>
     <li><span class='year interface-subheading-style'>2009</span><span class='page-list-item-style'><span class='italic-style'>Neutabanim stazama</span> (<span class='italic-style'>Off the Beaten Path</span>), collaborative project, Klub putnika (The Travel Club), Novi Sad, Serbia</span>
     </li>

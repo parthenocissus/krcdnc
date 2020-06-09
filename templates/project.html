@@ -174,69 +174,91 @@
 
                 <div id="presentations"
                      class="interface-heading-article interface-heading-style">{{ project.presentation_title }}</div>
-                <div class="interface-text-style">
-                    {% for p in project.presentations %}
-                        <p class="interface-subheading interface-subheading-style">{{ p.year }}</p>
-                        {% for e in p.events %}
-                            {% set slash = " / " if loop.index != p.events|length else "" %}
-                            {% if e.link is defined %}
-                                <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
-                            {% else %}
-                                <span>{{ e.name }}</span>
-                            {% endif %}
-                            {{ slash }}
+                <div class="section-list interface-page-li-style">
+                    <ul>
+                        {% for p in project.presentations %}
+                            {% for e in p.events %}
+                                <li>
+                                    <span class="year interface-subheading-style">{{ p.year }}</span>
+                                    <span class='item page-list-item-style'>
+                                        {% if e.link is defined %}
+                                            {% set lnkd = e.linked if e.linked is defined else "Link" %}
+                                            <span class='italic-style'>
+                                                <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
+                                        {% endif %}
+                                        {{ e.name|safe }}
+                                    </span>
+                                </li>
+                            {% endfor %}
                         {% endfor %}
-                    {% endfor %}
+                    </ul>
                 </div>
 
                 {% if project.publications is defined %}
                     <div class="interface-heading-article interface-heading-style">{{ params.project_captions.publications }}</div>
-                    <div class="interface-text-style">
-                        {% for p in project.publications %}
-                            <p class="interface-subheading interface-subheading-style">{{ p.year }}</p>
-                            {% for e in p.pubs %}
-                                {% set slash = " / " if loop.index != p.pubs|length else "" %}
-                                {% if e.link is defined %}
-                                    <a href="{{ e.link }}" target="_blank">{{ e.name|safe }}</a>
-                                {% else %}
-                                    <span>{{ e.name|safe }}</span>
-                                {% endif %}
-                                {{ slash }}
+                    <div class="section-list interface-page-li-style">
+                        <ul>
+                            {% for p in project.publications %}
+                                {% for e in p.pubs %}
+                                    <li>
+                                        <span class="year interface-subheading-style">{{ p.year }}</span>
+                                        <span class='page-list-item-style'>
+                                            {% if e.link is defined %}
+                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
+                                                <span class='italic-style'><a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{", "}}
+                                            {% endif %}
+                                            {{ e.name|safe }}
+                                        </span>
+                                    </li>
+                                {% endfor %}
                             {% endfor %}
-                        {% endfor %}
+                        </ul>
                     </div>
                 {% endif %}
 
                 {% if project.awards is defined %}
                     <div class="interface-heading-article interface-heading-style">{{ params.project_captions.awards }}</div>
-                    <div class="interface-text-style">
-                        {% for p in project.awards %}
-                            <p class="interface-subheading interface-subheading-style">{{ p.year }}</p>
-                            {% for e in p.pubs %}
-                                {% set slash = " / " if loop.index != p.pubs|length else "" %}
-                                {% if e.link is defined %}
-                                    <a href="{{ e.link }}" target="_blank">{{ e.name }}</a>
-                                {% else %}
-                                    <span>{{ e.name }}</span>
-                                {% endif %}
-                                {{ slash }}
+                    <div class="section-list interface-page-li-style">
+                        <ul>
+                            {% for p in project.awards %}
+                                {% for e in p.pubs %}
+                                    <li>
+                                        <span class="year interface-subheading-style">{{ p.year }}</span>
+                                        <span class='item page-list-item-style'>
+                                            {% if e.link is defined %}
+                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
+                                                <span class='italic-style'>
+                                                <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
+                                            {% endif %}
+                                            {{ e.name|safe }}
+                                        </span>
+                                    </li>
+                                {% endfor %}
                             {% endfor %}
-                        {% endfor %}
+                        </ul>
                     </div>
                 {% endif %}
 
                 {% if project.press is defined %}
                     <div class="interface-heading-article interface-heading-style">{{ params.project_captions.press }}</div>
-                    <div class="interface-text-style">
-                        {% for p in project.press %}
-                            {% set slash = " / " if loop.index != project.press|length else "" %}
-                            {% if p.link is defined %}
-                                <a href="{{ p.link }}" target="_blank">{{ p.name }}</a>
-                            {% else %}
-                                <span>{{ p.name }}</span>
-                            {% endif %}
-                            {{ slash }}
-                        {% endfor %}
+                    <div class="section-list interface-page-li-style">
+                        <ul>
+                            {% for p in project.press %}
+                                {% for e in p.events %}
+                                    <li>
+                                        <span class="year interface-subheading-style">{{ p.year }}</span>
+                                        <span class='item page-list-item-style'>
+                                            {% if e.link is defined %}
+                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
+                                                <span class='italic-style'>
+                                                <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
+                                            {% endif %}
+                                            {{ e.name|safe }}
+                                        </span>
+                                    </li>
+                                {% endfor %}
+                            {% endfor %}
+                        </ul>
                     </div>
                 {% endif %}
 

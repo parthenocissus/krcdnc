@@ -50,98 +50,137 @@ presentations:
     - year: 2015
       events:
         - link: "http://mau.rs/en/afro-festival/2015.html"
-          name: Muzej afričke umetnosti, Beograd, Srbija
-        - name: Booksa, Zagreb, Hrvatska
+          linked: Muzej afričke umetnosti
+          name: Beograd, Srbija
+        - name: <span class='italic-style'>Booksa</span>, Zagreb, Hrvatska
         - link: 'https://point.zastone.ba/visualization-of-travel-promoting-a-book-bantusan/'
-          name: Kriterion, Sarajevo, BiH
+          linked: Kriterion
+          name: Sarajevo, BiH
         - link: 'https://www.fiuman.hr/predstavljanje-putopisne-knjige-bantustan-u-palachu/'
-          name: OKC Palach, Rijeka, Hrvatska
+          linked: OKC Palach
+          name: Rijeka, Hrvatska
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3995-raspored-druzenja-i-predstavljanja-knjige-bantustan'
-          name: OKC Abrašević, Mostar, BiH
+          linked: OKC Abrašević
+          name: Mostar, BiH
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3995-raspored-druzenja-i-predstavljanja-knjige-bantustan'
-          name: Kulturni dom Zora, Opatija, Hrvatska
+          linked: Kulturni dom Zora
+          name: Opatija, Hrvatska
         - link: 'https://www.ipazin.net/predstavljanje-putopisne-knjige-bantustan-u-bunkeru/'
-          name: Bunker, Pazin, Hrvatska
+          linked: Bunker
+          name: Pazin, Hrvatska
         - link: 'https://oradio.rs/sr/vesti/lifestyle/putovanja/zavirite-u-epski-svet-afrike-1367.html'
-          name: Američki kutak, Novi Sad, Srbija
+          linked: Američki kutak
+          name: Novi Sad, Srbija
         - link: 'https://www.putoholicari.rtl.hr/predstavljanje-putopisne-knjige-bantustan-26446/'
-          name: STA Putovanja, Zagreb, Hrvatska
+          linked: STA Putovanja
+          name: Zagreb, Hrvatska
         - link: 'http://www.sinj.com.hr/vijesti/22178/u-galeriji-sikirica-predstavljen-putopis-8216bantustan8217'
-          name: Galerija Sikirica, Sinj, Hrvatska
-        - name: Alternativni omladinski centar, Kragujevac, Srbija
+          linked: Galerija Sikirica
+          name: Sinj, Hrvatska
+        - name: <span class='italic-style'>Alternativni omladinski centar</span>, Kragujevac, Srbija
         - link: 'http://rojcnet.pula.org/index.php/hr/dnevni-boravak/dogadanja-iz-dnevnog-boravka/818-predstavljanje-putopisne-knjige-bantustan-u-dnevnom-boravku'
-          name: Društveni centar Rojc, Pula, Hrvatska
+          linked: Društveni centar Rojc
+          name: Pula, Hrvatska
         - link: 'https://trebinjelive.info/2015/09/16/trebinje-predstavljena-putopisna-knjiga-bantustan/'
-          name: Narodna biblioteka, Trebinje, BiH
+          linked: Narodna biblioteka
+          name: Trebinje, BiH
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3995-raspored-druzenja-i-predstavljanja-knjige-bantustan'
-          name: Travel Festival, Makarska, Hrvatska
-        - name: Istraživačka stanica Petnica, Valjevo, Srbija
+          linked: Travel Festival
+          name: Makarska, Hrvatska
+        - name: <span class='italic-style'>Istraživačka stanica Petnica</span>, Valjevo, Srbija
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3995-raspored-druzenja-i-predstavljanja-knjige-bantustan'
-          name: UM Remorker + Zavičajni muzej Zuko Džumhur, Konjic, BiH
+          linked: UM Remorker
+          name: Zavičajni muzej Zuko Džumhur, Konjic, BiH
         - link: 'https://impulsportal.net/index.php/kultura/alter/290-bl-art-festival-2015'
-          name: BLART Festival, Banjaluka, BiH
+          linked: BLART Festival
+          name: Banjaluka, BiH
         - link: 'http://vrsac.mojkraj.rs/vesti/kultura/item/615-tajni-zivot-mapa-u-vrscu'
-          name: Salon kod Porte, Tačka Susretanja, Vršac, Srbija
+          linked: Salon kod Porte
+          name: Tačka Susretanja, Vršac, Srbija
         - link: 'http://www.osijek031.com/osijek.php?najava_id=56706'
-          name: Knjižnica Nova, Osijek, Hrvatska
-        - name: New Folder, Istočno Sarajevo, BiH
+          linked: Knjižnica Nova
+          name: Osijek, Hrvatska
+        - name: <span class='italic-style'>New Folder</span>, Istočno Sarajevo, BiH
         - link: 'http://putospektiva.rs/putospektiva-broj-osamnaest/'
-          name: Putospektiva + Kulturni centar REX, Beograd, Srbija
+          linked: Putospektiva
+          name: Kulturni centar REX, Beograd, Srbija
         - link: 'http://rtv.rs/sr_ci/mladi/gde-otici/pa-promocija-knjige-bantustan-u-domu-omladine_608577.html'
-          name: Apolo dvorana, Pančevo, Srbija    
+          linked: Apolo dvorana
+          name: Pančevo, Srbija    
         - link: 'https://varazdinski.net.hr/vijesti/drustvo/3194897/putopisno-predavanje-o-africkom-bantustanu-ove-srijede-u-centru-za-mlade/'
-          name: Centar za mlade, Varaždin, Hrvatska
-        - name: CeZam, Čakovec, Hrvatska     
+          linked: Centar za mlade
+          name: Varaždin, Hrvatska
+        - name: <span class='italic-style'>CeZam</span>, Čakovec, Hrvatska     
     - year: 2016
       events:
         - link: 'http://skc.org.rs/plusplusforum/6733-antropolo%C5%A1ki-razgovori-5.html'
-          name: Antropološki razgovori, Studentski kulturni centar (SKC), Beograd, Srbija
+          linked: Antropološki razgovori
+          name: SKC, Beograd, Srbija
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/4090-bantustan-pirotska-turneja'
-          name: Narodna biblioteka, Pirot, Srbija
+          linked: Narodna biblioteka
+          name: Pirot, Srbija
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/4090-bantustan-pirotska-turneja'
-          name: Dom kulture, Babušnica, Srbija
+          linked: Dom kulture
+          name: Babušnica, Srbija
         - link: 'https://far.rs/bg/2016/05/06/predstavljanje-knjige-bantustan-atlas-jednog-putovanja-u-dimitrovgradskoj-biblioteci-2/'
-          name: Narodna biblioteka, Dimitrovgrad, Srbija
+          linked: Narodna biblioteka
+          name: Dimitrovgrad, Srbija
         - link: 'http://www.danilokis.rs/sr/projekti/815-15-jun-1930-klub-putnika-bantustan-atlas-jednog-putovanja.html'
-          name: Fondacija Danilo Kiš + Klub Skladište, Subotica, Srbija
+          linked: Fondacija Danilo Kiš
+          name: Klub Skladište, Subotica, Srbija
         - link: 'http://www.soinfo.org/forumi/tema/12377/1/GBKB-Atlas-putovanja-Bantustan/'
-          name: Gradska biblioteka Karlo Bijelicki, Sombor, Srbija
+          linked: Gradska biblioteka Karlo Bijelicki
+          name: Sombor, Srbija
         - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/4098-bantustan-na-severu-backe'
-          name: Eko centar, Bački Monoštor, Srbija
+          linked: Eko centar
+          name: Bački Monoštor, Srbija
         - link: 'http://www.klubputnika.org/zbirka/zbivanja/4070-predstavljanje-bantustana-u-cacku'
-          name: Dom kulture, Čačak, Srbija
+          linked: Dom kulture
+          name: Čačak, Srbija
     - year: 2017
       events:
         - link: 'https://pefja.kg.ac.rs/arhiva/vesti.html'
-          name: Fakultet pedagoških nauka, Jagodina, Srbija
+          linked: Fakultet pedagoških nauka
+          name: Jagodina, Srbija
         - link: 'https://smederevskenovine.rs/2017/10/10/kultura-putovanje-afrikom-umetnicke-fotografije/'
-          name: Centar za kulturu, Smederevo, Srbija
+          linked: Centar za kulturu
+          name: Smederevo, Srbija
     - year: 2018
       events:
-        - name: Seminar dizajna, Istraživačka stanica Petnica, Valjevo, Srbija
+        - name: <span class='italic-style'>Seminar dizajna</span>, I. S. Petnica, Valjevo, Srbija
     - year: 2019
       events:
-        - name: Departman za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd, Srbija
+        - name: <span class='italic-style'>Departman za digitalne umetnosti</span>, FMK, Beograd, Srbija
 press:
-    - link: 'https://www.beforeafter.rs/kultura/bantustan/'
-      name: BeforeAfter, intervju (autorka Staša Bajac)
-    - link: 'http://www.glif.rs/blog/bantustan-afrika-je-u-odnosu-na-zapadni-svet-nalicje-sveta/'
-      name: Glif, književni časopis, intervju (autorka Jelena Gvozden)
-    - link: 'https://www.portalmladi.com/uros-krcadinac-rec-dve-o-kulturi-putovanja/'
-      name: Portal Mladi, intervju (autorka Milica Tolmač)
-    - link: 'https://www.pancevac-online.rs/letnji-razgovori-uros-krcadinac-istrazivac-novih-medija-i-putopisac/'
-      name: Pančevac, intervju (autorka Dragana Mladenović)
-    - link: 'https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/1944619/klub-2.html'
-      name: Radio Beograd RTS, Klub 2, intevju (autorka Sonja Milovanović)
-    - link: 'https://www.rts.rs/page/tv/sr/story/21/rts-2/1775785/magazin-je-ove-nedelje-na-vezi-sa-afrikom.html'
-      name: Radio Television of Srbija, RTS 2, emisija Magazine 
-    - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3997-bantustan-kao-novi-oblik-romana'
-      name: Književna kritika (autor Elis Bektaš)
+    - year: 2015
+      events:
+        - link: 'https://www.beforeafter.rs/kultura/bantustan/'
+          linked: BeforeAfter
+          name: intervju vodila Staša Bajac
+        - link: 'http://www.glif.rs/blog/bantustan-afrika-je-u-odnosu-na-zapadni-svet-nalicje-sveta/'
+          linked: Glif
+          name: književni časopis, intervju vodila Jelena Gvozden
+        - link: 'https://www.portalmladi.com/uros-krcadinac-rec-dve-o-kulturi-putovanja/'
+          linked: Portal Mladi
+          name: intervju vodila Milica Tolmač
+        - link: 'https://www.pancevac-online.rs/letnji-razgovori-uros-krcadinac-istrazivac-novih-medija-i-putopisac/'
+          linked: Pančevac
+          name: intervju vodila Dragana Mladenović
+        - link: 'https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/1944619/klub-2.html'
+          linked: Klub 2
+          name: Radio Beograd RTS, Klub 2, intervju vodila Sonja Milovanović
+        - link: 'https://www.rts.rs/page/tv/sr/story/21/rts-2/1775785/magazin-je-ove-nedelje-na-vezi-sa-afrikom.html'
+          linked: Magazin
+          name: Radio Television of Srbija, RTS 2 
+        - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3997-bantustan-kao-novi-oblik-romana'
+          linked: Književna kritika 
+          name: autor Elis Bektaš
 publications:
     - year: 2015
       pubs:
-        - link: 'http://www.klubputnika.org/zbirka/blogovi/bantustan/3897-bantustan-povratak-u-afriku'
-          name: "Bantustan: atlas jednog putovanja, Klub putnika, Novi Sad, Srbija"
+        - link: 'http://www.klubputnika.org/tmp/Bantustan.pdf'
+          linked: "Bantustan: atlas jednog putovanja"
+          name: "L. Pašćanović, U. Krčadinac, M. Đedović, Klub putnika, Novi Sad, Srbija"
 img_to_show: 7       
 img_data:
     - size: "1200x772"
@@ -220,7 +259,7 @@ lead: "<span class='italic-style'>Bantustan: atlas jednog putovanja</span> je il
 
 <span class='italic-style'>Bantustan</span> je priča o našem tromesečnom putovanju 2010. kroz Srbiju, Bugarsku, Tursku, Siriju, Jordan, Egipat, Sudan, Keniju, Ugandu, Ruandu, D. R. Kongo, Tanzaniju, Zambiju i Namibiju. Kontekst putovanja donekle je vezan za psihogeografiju i <a href='/rad/projekti/category/geography'>eksperimentalnu geografiju</a>. Stopirajući i koristeći digitalne platforme za razmenu gostoprimstva, pokušali smo da se povežemo sa različitim ljudima svih klasa, rasa, uzrasta, identiteta i uverenja. Mnoge od njih upoznali smo zahvaljući filozofiji zajednice koju je negovao rani CouchSurfing. Putovanje je pokušalo da odgovori na pitanje kako fizički i čulno doživeti digitalno globalizovan svet.
 
-Uz seriju rukom crtaniih mapa, infografika i vizuelizacija podataka, svojevrsnih <span class='italic-style'>interfejsa</span> za nelinearno čitanje, <span class='italic-style'>Bantustan</span> je primer <a href='https://www.articleworld.org/index.php/Ergodic_literature' target='_blank'>ergodičke i interaktivne književnosti</a>. Čitaocima mogu da biraju kako će čitati knjigu: na tradicionalan linearan način ili kartografski, služeći se mapama kao vizuelnim interfejsima za skakanje od priče od priče. 
+Uz seriju rukom crtaniih mapa, infografika i vizuelizacija podataka, svojevrsnih <span class='italic-style'>interfejsa</span> za nelinearno čitanje, <span class='italic-style'>Bantustan</span> je primer <a href='https://www.articleworld.org/index.php/Ergodic_literature' target='_blank'>ergodičke i interaktivne književnosti</a>. Čitaoci mogu da biraju kako će čitati knjigu: na tradicionalan linearan način ili kartografski, služeći se mapama kao vizuelnim interfejsima za skakanje od priče od priče. 
 
 Sve mape i vizuale crtao sam rukom, digitalno, služeći se tabletom za crtanje. Mape predstavljaju složene tapiserije piktograma, ideograma, različitih pisama, grbova, lavirinata, tajnih poruka i drugih skrivenih simbola. Na ovim crtežima radio sam godinu dana. 
 

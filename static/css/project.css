@@ -101,7 +101,7 @@
 .image-row {
     /*grid-area: im;*/
     display: block;
-    padding: 0 0 50px 0;
+    padding: 0 0 55px 0;
     margin: 0;
 }
 
@@ -115,6 +115,18 @@
     width: calc(100% - 0px);    !important;
     height: 100%   !important;
     padding-bottom: 18px;
+}
+
+/* Image in Text */
+
+.image-in-text {
+    display: block;
+    padding-bottom: 5px 0 20px 0;
+}
+
+.image-in-text img {
+    display: block;
+    width: 100%;
 }
 
 /* Column 1: Article Text, Project Description (Bellow the Lead, Next to Image) */
@@ -161,6 +173,27 @@
 
 .main-container .interface-heading-article {
     padding-top: 15px;
+}
+
+/* Section List */
+
+.section-list {
+    grid-area: prl;
+}
+
+.section-list ul li {
+    padding-bottom: 10px;
+    /*display: grid;*/
+    /*grid-template-columns: 40px auto;*/
+    /*align-items: baseline;*/
+    /*justify-items: left;*/
+}
+
+.section-list ul li .year {
+    padding-right: 8px;
+}
+
+.section-list ul li .item {
 }
 
 /* Thumbnail Images */
@@ -350,25 +383,20 @@ figure img:hover {
 }
 
 .quote1 {
-    font-family: CartographSans-XBoldItalic;
+    /*font-family: CartographSans-XBoldItalic;*/
+    font-family: Ambit-BoldItalic;
     font-size: 13pt;
-    line-height: 1.7em;
+    /*line-height: 1.6em;*/
+    line-height: auto;
     letter-spacing: 0.06pt;
     padding: 20px 0 0 0;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .quote1 .by {
-    font-family: CartographSans-Bold;
-    padding: 10px 0 0 0;
-    font-size: 10pt;
-}
-
-.quote-upper-dash {
-    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 8 2' version='1.1' xmlns='http://www.w3.org/2000/svg'><circle cx='1' cy='1' r='1' fill='1D1D1B'/></svg>");
-    background-position: top;
-    background-size: 8px 2px;
-    background-repeat: repeat-x;
+    font-family: Ambit-Regular;
+    padding: 6px 0 0 0;
+    font-size: 10.5pt;
 }
 
 /* Additional SVG Rules */
