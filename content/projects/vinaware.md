@@ -54,7 +54,7 @@ presentations:
     - year: 2019
       events:
         - link: 'https://muzejnt.rs/sutra/portfolio-item/ja-nisam-vise-zeljan-da-me-ko-voli-nego-da-svi-zavole-lisce/'
-          linked: S.U.T.R.A. Festival of New Media andd Digital Art 
+          linked: S.U.T.R.A. Festival of New Media and Digital Art 
           name: Museum of Science and Technology, Belgrade, Serbia
         - link: 'http://www.strand.rs/2019/exhibition.pdf'
           linked: Strand Conference 
