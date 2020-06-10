@@ -26,19 +26,22 @@ medium:
       name: Interactive Art
     - id: workshop
       name: Workshop
-presentation_title: Presentations
+presentation_title: Workshops
 presentations:
     - year: 2018
       events:
         - link: 'https://novaiskra.com/en/animation-game-jam-makeshift-video-game/'
-          name: "Animation Game Jam: A Makeshift Video Game, Nova Iskra, Belgrade, Serbia"
+          linked: "Animation Game Jam: A Makeshift Video Game"
+          name: "Nova Iskra, Belgrade, Serbia"
     - year: 2019
       events:
         - link: "https://www.goethe.de/ins/cs/sr/kul/sup/gps.html?forceDesktop=1"
-          name: Games & Politics, Goethe Institute Belgrade, Belgrade, Serbia
+          linked: "Games & Politics"      
+          name: Goethe Institute Belgrade, Belgrade, Serbia
         - link: "http://www.animanima.org/en/radionica.php"
-          name: Animanima Game Jam, Animanima Festival, Čačak, Serbia
-img_to_show: 2
+          linked: Animanima Game Jam
+          name: Animanima Festival, Čačak, Serbia
+img_to_show: 3
 img_data:
     - size: "1000x599"
       caption: "Game Interface by Ivan Kostić, made during the Workshop @ Nova Iskra, Belgrade, Serbia"
@@ -59,11 +62,6 @@ img_data:
     - size: "1200x795"
       caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"  
 lead: "A series of animation game jam workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
-
-Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
-
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
 

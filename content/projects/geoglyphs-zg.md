@@ -30,14 +30,18 @@ team:
     - name: Ivona Petrov
 presentation_title: Presentations
 presentations:
-    - year: 2013
+    - year: 2017
       events:
         - link: "https://2017.pland.hr/radionice/ivona-petrov-i-uras-krcadinac-zagrebacki-geoglifi/"
-          name: Plan D Conference @ Nikola Tesla Science Museum, Zagreb, Croatia
+          linked: Plan D Conference
+          name: Nikola Tesla Science Museum, Zagreb, Croatia
 press:
-    - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
-      name: Interview, Vizkultura.hr      
-img_to_show: 2       
+    - year: 2017
+      events:
+        - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
+          linked: Interview
+          name: Vizkultura.hr, author Bojan Krištofić
+img_to_show: 3       
 img_data:
     - size: "1600x1063"
       caption: "Plan D Conference and Exhibition, Zagreb, 2017. Photo: Tjaša Kalkan, Bojan Mrđenović."

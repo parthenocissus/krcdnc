@@ -27,19 +27,22 @@ medium:
       name: Interaktivna umetnost
     - id: workshop
       name: Radionica
-presentation_title: Prezentacije
+presentation_title: Radionice
 presentations:
     - year: 2018
       events:
         - link: 'https://novaiskra.com/animatorski-game-jam-video-igra-od-stapa-kanapa/'
-          name: "Animatorski Game Jam: video igra od štapa i kanapa, Nova Iskra, Beograd, Srbija"
+          linked: "Animatorski Game Jam: video igra od štapa i kanapa"
+          name: "Nova Iskra, Beograd, Srbija"
     - year: 2019
       events:
         - link: "https://www.goethe.de/ins/cs/sr/kul/sup/gps.html?forceDesktop=1"
-          name: Games & Politics, Goethe Institut, Beograd, Srbija
+          linked: Games & Politics 
+          name: Goethe Institut, Beograd, Srbija
         - link: "http://www.animanima.org/en/radionica.php"
-          name: Animanima Game Jam, Animanima Festival, Čačak, Srbija
-img_to_show: 2
+          linked: Animanima Game Jam
+          name: Animanima Festival, Čačak, Srbija
+img_to_show: 3
 img_data:
     - size: "1000x599"
       caption: "Video igra Ivana Kostića napravljena tokom radionice @ Nova Iskra, Beograd, Srbija"
@@ -60,11 +63,6 @@ img_data:
     - size: "1200x795"
       caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"  
 lead: "Serija radionica za animatore i kreatore video igara... A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
-
-Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
-
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
 

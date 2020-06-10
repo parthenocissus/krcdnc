@@ -198,7 +198,7 @@
 .thumbs .gallery {
     width: auto;
     display: grid;
-    margin: 42px 0 30px 0;
+    margin: 42px 0 20px 0;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
     grid-gap: 15px;
@@ -408,9 +408,9 @@ figure img:hover {
 /* Video */
 
 .article-text iframe {
-    width: calc(100% - 0px);    !important;
-    height: auto   !important;
-    padding-bottom: 18px;
+    width: calc(100% - 0px); !important;
+    height: 277px !important;
+    padding: 10px 0 0 0;
 }
 
 /* Quotes */

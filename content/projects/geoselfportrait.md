@@ -29,11 +29,15 @@ presentations:
     - year: 2017
       events:
         - link: "https://2017.pland.hr/en/"
-          name: Plan D Conference, Zagreb, Croatia
+          linked: Plan D
+          name: Design Conference, Zagreb, Croatia
 press:
-    - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
-      name: Interview by Bojan Krivokapić, Vizkultura.hr      
-img_to_show: 2       
+    - year: 2017
+      events:
+        - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
+          linked: Interview 
+          name: Vizkultura.hr, author Bojan Krištofić      
+img_to_show: 1       
 img_data:
     - size: "960x615"
       caption: "Plan D Conference Talk and Exhibition @ Nikola Tesla Science Museum, Zagreb, 2017. Photo: Tjaša Kalkan, Bojan Mrđenović."

@@ -40,12 +40,12 @@ team:
     - link: 'https://novaiskra.com/ljiljana-ilic/'
       name: Ljiljana Ilić
     - name: Milan Vukelić
-presentation_title: Presentations
+presentation_title: Performances
 presentations:
     - year: 2018
       events:
-        - name: art+science+makers, Center for the Promotion of Science @ Polet Art District, Belgrade
-img_to_show: 2       
+        - name: "<span class='italic-style'>Art + Science: Makers</span>, Center for the Promotion of Science, Polet Art District, Belgrade, Serbia"
+img_to_show: 1       
 img_data:
     - size: "1200x782"
       caption: "Belgrade, 2018"

@@ -35,26 +35,27 @@ team:
       name: Karkatag
     - link: 'https://czzs.org/nasprostor/nas-grad-nasa-scena/'
       name: Naš Grad Naša Scena
-presentation_title: Presentations
+presentation_title: Presentations + Workshops
 presentations:
     - year: 2017
       events:
         - link: "http://www.seecult.org/vest/pravac-slavica"
-          name: Pravac Slavica, Belgrade
-        - name: Design Seminar, Petnica Science Center, Serbia
+          linked: Pravac Slavica
+          name: Festival, Belgrade, Serbia
+        - name: <span class='italic-style'>Design Seminar</span>, Petnica Science Center, Serbia
     - year: 2018
       events:
-        - name: Beogradski festival cveća, Serbia
-img_to_show: 2       
+        - name: <span class='italic-style'>Beogradski festival cveća</span>, Belgrade Serbia
+img_to_show: 3       
 img_data:
     - size: "1200x800"
-      caption: "Petnica, 2017 → Strahinja Jovanović, Sonja Jovanović"
+      caption: "Petnica, 2017. Photo: Strahinja Jovanović, Sonja Jovanović"
     - size: "1200x800"
-      caption: "Petnica, 2017 → Strahinja Jovanović"
+      caption: "Petnica, 2017. Photo: Strahinja Jovanović"
     - size: "800x1200"
-      caption: "Petnica, 2017 → Strahinja Jovanović"
+      caption: "Petnica, 2017. Photo: Strahinja Jovanović"
     - size: "1300x732"
-      caption: "Petnica, 2017 → Sonja Jovanović"   
+      caption: "Petnica, 2017. Photo: Sonja Jovanović"   
 lead: "Half-bicycle, half-<a href='https://en.wikipedia.org/wiki/Zoetrope' target='_blank'>zoetrope</a>, cyclozoetrope is a centaur machine. Originally conceived as a kinetic monument to dying cinemas of Belgrade, it grew into a unique workshop and installation tool for hand-drawn animation and printed GIFs."
 
 In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to

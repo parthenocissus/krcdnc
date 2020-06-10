@@ -5,7 +5,7 @@ date: 2008
 featured: 3
 goto:
     link: "/download/synesketch/synesketch.zip"
-    label: "Download Source Code"
+    label: "Source Code"
 ranks:
     visual: 4
     digital: 4
@@ -41,53 +41,59 @@ presentation_title: Exhibitions + Presentations
 presentations:
     - year: 2008
       events:
-        - name: Media Interaction Lab, Upper Austria University of Applied Sciences, Linz, Austria
-        - name: Alternative Party Art Exhibition, Helsinki, Finland
+        - name: <span class='italic-style'>Media Interaction Lab</span>, Upper Austria University of Applied Sciences, Linz, Austria
+        - name: <span class='italic-style'>Alternative Party Art Exhibition</span>, Helsinki, Finland
     - year: 2009
       events:
-        - name: AI Lab, University of Belgrade, Serbia
+        - name: <span class='italic-style'>AI Lab</span>, University of Belgrade, Serbia
     - year: 2010
       events:
-        - name: International Digital Media Arts Association Conference @ Emily Carr University Gallery, Vancouver Canada
+        - name: <span class='italic-style'>International Digital Media Arts Association Conference</span>, Emily Carr University Gallery, Vancouver Canada
     - year: 2011
       events:
-        - name: School of Interactive Art and Technology, Simon Fraser University, Vancouver, Canada
+        - name: <span class='italic-style'>School of Interactive Art and Technology</span>, Simon Fraser University, Vancouver, Canada
     - year: 2012
       events:
-        - name: ICHL, Guangzhou, China
-        - name: Share Conference, Belgrade, Serbia
+        - name: <span class='italic-style'>ICHL</span>, Guangzhou, China
+        - name: <span class='italic-style'>Share Conference</span>, Belgrade, Serbia
     - year: 2013
       events:
-        - name: Republika Festival, Rijeka, Croatia
+        - name: <span class='italic-style'>Republika Fest</span>, Rijeka, Croatia
     - year: 2016
       events:
         - link: 'http://www.strand.rs/goingdigital2016/blog-single-uros-krcadinac.html'
-          name: Strand Conference, Belgrade, Serbia
+          linked: Strand Conference
+          name: Museum of Applied Arts, Belgrade, Serbia
     - year: 2017
       events:
-        - name: AI Lab, University of Belgrade, Serbia
+        - name: <span class='italic-style'>AI Lab</span>, University of Belgrade, Serbia
 publications:
     - year: 2016
       pubs:
         - link: "/download/synesketch/research/2016-Textual_Affect_Communication_and_Evocation_Using_Abstract_Generative_Visuals-Krcadinac_Jovanovic_Devedzic_and_Pasquier.pdf"
-          name: "Krcadinac U., Jovanovic J., Devedzic V. & Pasquier P.: Textual affect communication and evocation using abstract generative visuals, IEEE Transactions on Human-Machine Systems, doi: 10.1109 / THMS.2015.2504081 (Preprint PDF)"
+          linked: "Textual affect communication and evocation using abstract generative visuals"
+          name: "Krcadinac U., Jovanovic J., Devedzic V. & Pasquier P., IEEE Transactions on Human-Machine Systems, doi: 10.1109 / THMS.2015.2504081 (Preprint PDF)"
     - year: 2013
       pubs:
         - link: "/download/synesketch/research/2013-Synesketch_An_Open_Source_Library_for_Sentence-based_Emotion_Recognition-Krcadinac_Pasquier_Jovanovic_and_Devedzic.pdf"
-          name: "Krcadinac U., Pasquier P., Jovanovic J. & Devedzic V.: Synesketch: An Open Source Library for SentenceBased Emotion Recognition, IEEE Transactions on Affective Computing 4(3): 312-325, 2013, doi: 10.1109 / T-AFFC.2013.18 (Preprint PDF)"
+          linked: "Synesketch: An Open Source Library for SentenceBased Emotion Recognition"
+          name: "Krcadinac U., Pasquier P., Jovanovic J. & Devedzic V., IEEE Transactions on Affective Computing 4(3): 312-325, 2013, doi: 10.1109 / T-AFFC.2013.18 (Preprint PDF)"
 awards:
     - year: 2008
       pubs:
-        - name: "Best Graduation Thesis Award, Belgrade Chamber of Commerce, Serbia"
+        - name: "<span class='italic-style'>Best Graduation Thesis Award</span>, Belgrade Chamber of Commerce, Serbia"
     - year: 2010
       pubs:
-        - name: "Award of Excellence, International Digital Media and Arts Association (iDMAa) Student Showcase, Vancouver, Canada"
+        - name: "<span class='italic-style'>Award of Excellence</span>, International Digital Media and Arts Association (iDMAa) Student Showcase, Vancouver, Canada"
 press:
-    - name: Creative Review
-    - link: 'http://www.visualcomplexity.com/vc/project.cfm?id=695'
-      name: VisualComplexity.com
-    - name: Infosthetics.com
-img_to_show: 8
+    - year: 2008
+      events:
+        - name: <span class='italic-style'>Creative Review</span>, London, UK
+        - name: <span class='italic-style'>Infosthetics.com</span>, USA
+        - link: 'http://www.visualcomplexity.com/vc/project.cfm?id=695'
+          linked: VisualComplexity.com
+          name: "New York, USA, editor Manuel Lima"
+img_to_show: 5
 img_data:
     - size: "640x162"
       caption: "Growth of happiness visuals"
@@ -122,10 +128,9 @@ The real-time generative animations are partially based on <a href="http://www.c
 Research papers about Synesketch were published in the <a href="https://ieeexplore.ieee.org/document/7358121" target="_blank">IEEE Transactions on Human-Machine Systems</a> and the <a href="https://www.computer.org/csdl/journal/ta/2013/03/06589580/13rRUy3gn5N" target="_blank">IEEE Transactions on Affective Computing</a>. 
 
 Synesketch was awarded by the International Digital Media and Arts Association, Canada, and the Belgrade Chamber of Commerce, Serbia. It was reviewed by <a href="https://www.creativereview.co.uk/about-subscribe/" target="_blank">Creative Review</a> and many other digital art and visualization publications, shown on festivals and conferences in Europe, Canada, and China, and used by designers, artists, engineers, and researchers world-wide.
-
-<iframe src="https://www.youtube.com/embed/u5kznE6kYmc?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>
  
  Synesketch is <a href="/download/synesketch/synesketch.zip" target="_blank">open and free to download</a>. 
  
-The softwere is free and open for further development by Java and Processing communities. It is published under <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GNU General Public License (version 2 or later)</a>. When referencing Synesketch in your work, please use one of the citations from the Publications sections of this page. <mark>&#9632;</mark>
- <div class="quote1 quote-upper-dash">We used Synesketch to visualize poems by Sylvia Plath and William Blake. Strange colors indeed.<p class="by">— Creative Review, 2008</p></div>
+The software is free and open for further development by Java and Processing communities. It is published under <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GNU General Public License (version 2 or later)</a>. When referencing Synesketch in your work, please use one of the citations from the Publications sections of this page. <mark>&#9632;</mark>
+
+<iframe src="https://www.youtube.com/embed/u5kznE6kYmc?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe><div class="quote1 quote-upper-dash">We used Synesketch to visualize poems by Sylvia Plath and William Blake. Strange colors indeed.<p class="by">— Creative Review, 2008</p></div>

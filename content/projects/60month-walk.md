@@ -33,13 +33,18 @@ presentations:
     - year: 2017
       events:  
         - link: "http://vojnik.net/2017/"
-          name: Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia           
+          linked: Designer – Author or Universal Soldier
+          name:  Design Conference, Ostavinska galerija, Faculty of Media and Communications, Belgrade, Serbia           
 press:
-    - link: "https://www.designed.rs/news/5_medunarodna_konferencija_graficki_dizajner_autor_ili_univerzalni_vojnik_%E2%80%93_veza"
-      name: Designed.rs
-    - link: "https://vizkultura.hr/regrutiranje-pocinje/"
-      name: Vizkultura.hr
-img_to_show: 2       
+    - year: 2017
+      events:
+        - link: "https://www.designed.rs/news/5_medunarodna_konferencija_graficki_dizajner_autor_ili_univerzalni_vojnik_%E2%80%93_veza"
+          linked: Designed.rs
+          name: Belgrade, Serbia
+        - link: "https://vizkultura.hr/regrutiranje-pocinje/"
+          linked: Vizkultura.hr
+          name: Zagreb, Croatia
+img_to_show: 3       
 img_data:
     - size: "800x533"
       caption: "Designer – Author or Universal Soldier Conference, Belgrade, Serbia, 2017."

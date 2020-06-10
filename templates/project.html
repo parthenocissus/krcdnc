@@ -166,10 +166,35 @@
                             </figure>
                         {% endfor %}
                         <div class="lightbox-rect goto-button-style">
-                            {{ params.project_captions.gallery_tooltip.start }}<br> ({{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }})
+                            {{ params.project_captions.gallery_tooltip.start }}<br>
+                            ({{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }})
                         </div>
                     </div>
                 </div>
+
+                {% if project.publications is defined %}
+                    <div class="interface-heading-article interface-heading-style">{{ params.project_captions.publications }}</div>
+                    <div class="section-list interface-page-li-style">
+                        <ul>
+                            {% for p in project.publications %}
+                                {% for e in p.pubs %}
+                                    <li>
+                                        <span class="year interface-subheading-style">{{ p.year }}</span>
+                                        <span class='page-list-item-style'>
+                                            {% if e.link is defined %}
+                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
+                                                <span class='italic-style'>
+                                                    <a href='{{ e.link }}' target='_blank'>{{ lnkd }}
+                                                    </a></span>{{ ", " }}
+                                            {% endif %}
+                                            {{ e.name|safe }}
+                                        </span>
+                                    </li>
+                                {% endfor %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
 
                 <div id="presentations"
                      class="interface-heading-article interface-heading-style">{{ project.presentation_title }}</div>
@@ -192,30 +217,6 @@
                         {% endfor %}
                     </ul>
                 </div>
-
-                {% if project.publications is defined %}
-                    <div class="interface-heading-article interface-heading-style">{{ params.project_captions.publications }}</div>
-                    <div class="section-list interface-page-li-style">
-                        <ul>
-                            {% for p in project.publications %}
-                                {% for e in p.pubs %}
-                                    <li>
-                                        <span class="year interface-subheading-style">{{ p.year }}</span>
-                                        <span class='page-list-item-style'>
-                                            {% if e.link is defined %}
-                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
-                                                <span class='italic-style'><a href='{{ e.link }}'
-                                                                              target='_blank'>{{ lnkd }}</a></span>
-                                                {{ ", " }}
-                                            {% endif %}
-                                            {{ e.name|safe }}
-                                        </span>
-                                    </li>
-                                {% endfor %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endif %}
 
                 {% if project.awards is defined %}
                     <div class="interface-heading-article interface-heading-style">{{ params.project_captions.awards }}</div>

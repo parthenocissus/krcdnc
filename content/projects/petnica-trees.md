@@ -29,15 +29,18 @@ medium:
     - id: workshop
       name: Workshop
 team:
-    - name: Isidora Nikolić
-    - name: Vesna Pejović
-    - name: Borut Vild
-presentation_title: Presentations
+    - link: https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/
+      name: Isidora Nikolić
+    - link: https://www.fsu.edu.rs/en/professor-vesna-pejovic/
+      name: Vesna Pejović
+    - link: https://fmk.singidunum.ac.rs/profesori/borut-vild/
+      name: Borut Vild
+presentation_title: Workshop
 presentations:
     - year: 2015
       events:
-        - name: Design Seminar, Petnica Science Center, Serbia
-img_to_show: 2       
+        - name: <span class='italic-style'>Design Seminar</span>, Petnica Science Center, Serbia
+img_to_show: 3       
 img_data:
     - size: "868x1324"
       caption: "Final Infographic, Detail. Petnica, 2015. Photo: Igor Rajković."

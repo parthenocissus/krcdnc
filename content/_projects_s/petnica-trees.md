@@ -29,15 +29,18 @@ medium:
     - id: workshop
       name: Radionica
 team:
-    - name: Isidora Nikolić
-    - name: Vesna Pejović
-    - name: Borut Vild
-presentation_title: Presentations
+    - link: https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/
+      name: Isidora Nikolić
+    - link: https://www.fsu.edu.rs/en/professor-vesna-pejovic/
+      name: Vesna Pejović
+    - link: https://fmk.singidunum.ac.rs/profesori/borut-vild/
+      name: Borut Vild
+presentation_title: Radionica
 presentations:
     - year: 2015
       events:
-        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
-img_to_show: 2       
+        - name: <span class='italic-style'>Seminar dizajna</span>, Istraživačka stanica Petnica, Srbija
+img_to_show: 3       
 img_data:
     - size: "868x1324"
       caption: "Završna infografika, detalj. Petnica, 2015. Foto: Igor Rajković."

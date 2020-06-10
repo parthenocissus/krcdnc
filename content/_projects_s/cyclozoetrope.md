@@ -35,17 +35,18 @@ team:
       name: Karkatag
     - link: 'https://czzs.org/nasprostor/nas-grad-nasa-scena/'
       name: Naš Grad Naša Scena
-presentation_title: Prezentacije
+presentation_title: Prezentacije + radionice
 presentations:
     - year: 2017
       events:
         - link: "http://www.seecult.org/vest/pravac-slavica"
-          name: Pravac Slavica, Beograd
-        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
+          linked: Pravac Slavica
+          name: Festival, Beograd
+        - name: <span class='italic-style'>Seminar dizajna</span>, Istraživačka stanica Petnica, Srbija
     - year: 2018
       events:
-        - name: Beogradski festival cveća, Srbija
-img_to_show: 2       
+        - name: <span class='italic-style'>Beogradski festival cveća</span>, Beograd, Srbija
+img_to_show: 3       
 img_data:
     - size: "1200x800"
       caption: "Petnica, 2017. Foto: Strahinja Jovanović, Sonja Jovanović"

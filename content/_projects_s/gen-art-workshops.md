@@ -29,18 +29,18 @@ medium:
       name: Interaktivan softver
     - id: workshop
       name: Radionica
-presentation_title: Prezentacije
+presentation_title: Radionice
 presentations:
     - year: 2017
       events:
-        - name: "Departman za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd, Srbija"
+        - name: "<span class='italic-style'>Departman za digitalne umetnosti</span>, Fakultet za medije i komunikacije, Beograd, Srbija"
     - year: 2018
       events:
-        - name: "Nova Iskra, Beograd, Srbija"
-        - name: "Seminar dizajna, Istraživačka stanica Petnica, Srbija"
+        - name: "<span class='italic-style'>Nova Iskra</span>, Beograd, Srbija"
+        - name: "<span class='italic-style'>Seminar dizajna</span>, Istraživačka stanica Petnica, Srbija"
     - year: 2019
       events:
-        - name: "Nova Iskra, Beograd, Srbija"
+        - name: "<span class='italic-style'>Nova Iskra</span>, Beograd, Srbija"
 img_to_show: 3
 img_data:
     - size: "1024x683"
@@ -54,11 +54,6 @@ img_data:
     - size: "1200x800"
       caption: "Miloš Desko Ćosović sa svojom generativnom projekcijom @ Godišnja izložba Departmana za digitalne umetnosti FMK, Galerija Pro3or, Beograd, Srbija, 2017."
 lead: "Serija radionica generativne umetnosti. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
-
-Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
-
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
 

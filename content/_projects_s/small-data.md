@@ -29,19 +29,28 @@ presentations:
     - year: 2017
       events:
         - link: "https://re-publica.com/en/session/physical-data-visualisation-experience-design"
-          name: re:publika, Solun, Grčka + Berlin, Nemačka  
+          linked: "re:publika"
+          name: Festival digitalne kulture, MOMus, Solun, Grčka + Berlin, Nemačka  
         - link: "http://vojnik.net/2017/"
-          name: Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd           
+          linked: Dizajner – autor ili univerzalni vojnik
+          name: Konferencija o dizajnu, Ostavinska galerija, Beograd           
 team:
-    - name: Isidora Nikolić
-    - name: Borut Vild
-    - name: Mia David
+    - link: https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/
+      name: Isidora Nikolić
+    - link: https://fmk.singidunum.ac.rs/profesori/borut-vild/
+      name: Borut Vild
+    - link: http://www.scen.uns.ac.rs/?page_id=6681
+      name: Mia David
 press:
-    - link: "https://www.designed.rs/news/5_medunarodna_konferencija_graficki_dizajner_autor_ili_univerzalni_vojnik_%E2%80%93_veza"
-      name: Designed.rs
-    - link: "https://vizkultura.hr/regrutiranje-pocinje/"
-      name: Vizkultura.hr
-img_to_show: 3       
+    - year: 2017
+      events:
+        - link: "https://www.designed.rs/news/5_medunarodna_konferencija_graficki_dizajner_autor_ili_univerzalni_vojnik_%E2%80%93_veza"
+          linked: O vojniku
+          name: Designed.rs
+        - link: "https://vizkultura.hr/regrutiranje-pocinje/"
+          linked: Regrutacija počinje
+          name: Vizkultura.hr
+img_to_show: 3
 img_data:
     - size: "800x533"
       caption: "Konferencija Dizajner – autor ili univerzalni vojnik @ Ostavinska galerija, Beograd, 2017."

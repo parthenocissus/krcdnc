@@ -33,11 +33,15 @@ presentations:
     - year: 2017
       events:
         - link: "https://2017.pland.hr/radionice/ivona-petrov-i-uras-krcadinac-zagrebacki-geoglifi/"
-          name: Konferencija Plan D, TNMT, Zagreb, Hrvatska
+          linked: Plan D
+          name: Konferencija o dizajnu, Tehnički muzej TMNT, Zagreb, Hrvatska
 press:
-    - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
-      name: "Intervju (autor Bojan Krivokapić), Vizkultura.hr"    
-img_to_show: 2       
+    - year: 2017
+      events:
+        - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
+          linked: Intervju
+          name: Vizkultura.hr, autor Bojan Krištofić 
+img_to_show: 3       
 img_data:
     - size: "1600x1063"
       caption: "Izložba na konferenciji Plan D @ Tehnički muzej Nikola Tesla, Zagreb, 2017. Foto: Tjaša Kalkan, Bojan Mrđenović."
