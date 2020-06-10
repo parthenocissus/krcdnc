@@ -36,7 +36,7 @@ presentations:
           linked: (Ne)kreativno pisanje u epohi veštačke inteligencije
           name: "radionica, S.U.T.R.A. Festival novomedijske umetnosti, Muzej nauke i tehnike, Beograd, Srbija"
         - name: "<span class='italic-style'>Radionica AI umetnosti</span>, Seminar dizajna, Istraživačka stanica Petnica, Srbija"
-        - name: "<span class='italic-style'>Mašinsko učenje za pisce i umetnike (radionica)</span>, Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija"
+        - name: "<span class='italic-style'>Mašinsko učenje za pisce i umetnike</span> (radionica), Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija"
     - year: 2020
       events:
         - name: "<span class='italic-style'>Mašinsko učenje za umetnike</span> (radionica), MultiMadeira + CoWork, Funšal, Madeira, Portugalija"
@@ -51,9 +51,9 @@ img_data:
     - size: "795x1200"
       caption: "Mašinsko učenje za umetnike (radionica), MultiMadeira + CoWork, Funšal, Madeira, Portugalija"
     - size: "960x640"
-      caption: "Autorsko predavanje @ Konferencija Strand, Srpska akademija nauka i umetnosti, Beograd, Srbija"
+      caption: "Autorsko predavanje, Konferencija Strand, Srpska akademija nauka i umetnosti, Beograd, Srbija"
     - size: "960x654"
-      caption: "(Ne)kreativno pisanje u epohi veštačke inteligencije (radionica), S.U.T.R.A. Festival novomedijske umetnosti @ Muzej nauke i tehnike, Beograd, Srbija"
+      caption: "(Ne)kreativno pisanje u epohi veštačke inteligencije (radionica), S.U.T.R.A. Festival novomedijske umetnosti, Muzej nauke i tehnike, Beograd, Srbija"
     - size: "960x640"
       caption: "Mašinsko učenje za pisce i umetnike (radionica), Konferencija Art+Neuroscience, Centar za promociju nauke, Beograd, Srbija"
     - size: "1200x795"

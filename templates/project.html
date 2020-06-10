@@ -99,7 +99,7 @@
                     </a>
                 {% endif %}
 
-                <div class="interface-heading-article interface-heading-style no-padding-top">
+                <div class="interface-heading-article-condensed interface-heading-style no-padding-top">
                     {{ params.project_captions.role }}
                 </div>
                 <div class="interface-text-style">
@@ -110,7 +110,7 @@
                     {% endfor %}
                 </div>
 
-                <div class="interface-heading-article interface-heading-style">{{ params.project_captions.medium }}</div>
+                <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.medium }}</div>
                 <div class="interface-text-style">
                     {% for medium in project.medium %}
                         {% set href = params.paths.projects ~ params.paths.medium ~ medium.id %}
@@ -119,7 +119,7 @@
                     {% endfor %}
                 </div>
 
-                <div class="interface-heading-article interface-heading-style">{{ params.project_captions.categories }}</div>
+                <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.categories }}</div>
                 <div class="interface-text-style">
                     {% for tag in project.category %}
                         {% set href = params.paths.projects ~ params.paths.category ~ tag.id %}
@@ -129,7 +129,7 @@
                 </div>
 
                 {% if project.team is defined %}
-                    <div class="interface-heading-article interface-heading-style">{{ params.project_captions.collaborators }}</div>
+                    <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.collaborators }}</div>
                     <div class="interface-text-style">
                         {% for human in project.team %}
                             {% set slash = " / " if loop.index != project.team|length else "" %}
@@ -145,26 +145,29 @@
 
                 <div class="thumbs">
                     <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
                         {% for d in project.img_data %}
                             {% set i = loop.index - 1 %}
                             {% set x = "0" if i < 10 else "" %}
                             {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb" ~ x ~ i ~ ".jpg" %}
                             {% set img_path = "media/projects/" ~ project.id ~ "/img/"  ~ project.id ~ x ~ i ~ ".jpg" %}
                             {% set show = "" if i < project.img_to_show else "hidden" %}
-                            <figure class="{{ show }}" itemprop="associatedMedia" itemscope
-                                    itemtype="http://schema.org/ImageObject">
+                            <figure class="{{ show ~ ' overburn-container' }}" itemprop="associatedMedia" itemscope
+                                    itemtype="http://schema.org/ImageObject"
+                                    title="{{ params.project_captions.gallery_tooltip.start }} — {{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }}">
                                 <a href="{{ url_for('static', filename=img_path) }}" data-size="{{ d.size }}"
                                    itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
                                     {% if i < project.img_to_show %}
                                         <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail"
                                              alt=""
                                              title="{{ params.project_captions.gallery_tooltip.start }} → {{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }}">
+                                        <div class="overburn"></div>
                                     {% endif %}
                                 </a>
                             </figure>
                         {% endfor %}
-
+                        <div class="lightbox-rect goto-button-style">
+                            {{ params.project_captions.gallery_tooltip.start }}<br> ({{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }})
+                        </div>
                     </div>
                 </div>
 

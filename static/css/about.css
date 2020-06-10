@@ -145,10 +145,6 @@
 }
 
 .image-row .mask-caption {
-    font-family: CartographSans-Medium, monospace;
-    font-size: 8pt;
-    line-height: 1.7em;
-    letter-spacing: 0.2pt;
 
     color: var(--lightcolor);
     position: absolute;

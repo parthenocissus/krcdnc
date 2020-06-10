@@ -45,7 +45,7 @@
                 <img class="portrait" src="{{ url_for('static', filename=page.img.link) }}">
                 <img class="mask" src="{{ url_for('static', filename=page.img.mask_link) }}">
 
-                <div class="mask-caption">{{ page.img.mask_caption|safe }}</div>
+                <div class="mask-caption mask-caption-style">{{ page.img.mask_caption|safe }}</div>
                 <div class="photo-caption portrait-photo-caption-style">{{ page.img.caption|safe }}</div>
 
                 <div class="quote big-quote-style">{{ page.quote|safe }}</div>

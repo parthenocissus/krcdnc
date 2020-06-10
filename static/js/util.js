@@ -289,7 +289,7 @@ let baseUtility = (function () {
                 lightBox.init();
             });
 
-            $(".sunrect").on('click', function (event) {
+            $(".lightbox-rect").on('click', function (event) {
                 event.preventDefault();
                 let lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
                 lightBox.init();

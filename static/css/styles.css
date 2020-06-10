@@ -135,6 +135,15 @@ main a:hover {
     letter-spacing: 0.2pt;
 }
 
+/* Mask Caption */
+
+.mask-caption-style {
+    font-family: CartographSans-Medium, monospace;
+    font-size: 8pt;
+    line-height: 1.7em;
+    letter-spacing: 0.2pt;
+}
+
 /* Quotes */
 
 .tiny-quote-style {

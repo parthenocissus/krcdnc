@@ -23,18 +23,19 @@ medium:
     - id: performance
       name: Performance
 team:
-    - link: 'http://www.cpn.rs/en/'
-      name: Belgrade Centre for the Promotion of Science Design Team 
+    - name: Belgrade Centre for the Promotion of Science Design Team 
 presentation_title: Exhibitions
 presentations:
     - year: 2018
       events:
-        - link: "http://cpn.rs/arhivaartandscience/2018/en/%d1%80%d0%b0%d0%b4%d0%be%d0%b2%d0%b8%d1%86%d0%bd/"
-          name: art+science+makers, Center for the Promotion of Science @ Museum of Applied Arts, Belgrade, Serbia
+        - name: "<span class='italic-style'>Art + Science: Makers</span>, Center for the Promotion of Science, Museum of Applied Arts, Belgrade, Serbia"
 press:
-    - link: 'http://www.seecult.org/vest/umetnost-nauka-i-mejkers-kultura'
-      name: art+science+makers, SEECult  
-img_to_show: 3       
+    - year: 2018
+      events:
+        - link: 'http://www.seecult.org/vest/umetnost-nauka-i-mejkers-kultura'
+          linked: "Art + Science: Makers"
+          name: SEECult, Belgrade, Serbia  
+img_to_show: 5
 img_data:
     - size: "3000x2000"
       caption: "Museum of Applied Arts, Belgrade, 2018. Photo: Jana Ljubičić."

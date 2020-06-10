@@ -91,7 +91,7 @@ press:
         - link: 'https://www.danubeogradu.rs/2019/09/festival-s-u-t-r-a-2019-u-ime-algoritma/'
           linked: DanUBeogradu.rs
           name: Belgrade, Serbia          
-img_to_show: 7
+img_to_show: 5
 img_data:
     - size: "1200x795"
       caption: "Installation. Photo: Ivona Petrov."
@@ -147,3 +147,4 @@ The name itself, <span class='italic-style'>I Do Not Wish To Be Loved, I Wish Ev
 
 In a world that imposes metrics upon every human endeavor, it is the responsibility of artists and writers to reappropriate these quantification tools and invent new ways of seeing, reading, making, interacting – new ways of creating meaning.
  <mark>&#9632;</mark>
+<div class="quote1">This art project is a heroic act of both preserving legacy and creating contemporary interpretations.<p class="by">— <a href='https://curatorsintl.org/collaborators/maja_ciric' target='_blank'>Maja Ćirić</a>, curator and art critic</p></div>

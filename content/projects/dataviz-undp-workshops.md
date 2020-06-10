@@ -32,8 +32,8 @@ presentation_title: Workshops
 presentations:
     - year: 2019
       events:
-        - name: <span class='italic-style'>UNDP Datathon, Zrenjanin</span>, Serbia
-        - name: <span class='italic-style'>UNDP School of Data</span>, Mokrin House, Serbia
+        - name: <span class='italic-style'>United Nations Development Programme (UNDP) Datathon</span>, Zrenjanin, Serbia
+        - name: <span class='italic-style'>United Nations Development Programme (UNDP) School of Data</span>, Mokrin House, Serbia
 img_to_show: 3       
 img_data:
     - size: "694x960"
@@ -54,7 +54,7 @@ img_data:
       caption: "UNDP School od Data, Mokrin House, 2019."
     - size: "960x507"
       caption: "UNDP School od Data, Mokrin House, 2019."      
-lead: "A compact introductory data visualization + communication workshop for the School of Data organized by the <a href='https://www.rs.undp.org/content/serbia/en/home.html' target='_blank'>United Nations Development Programme</a> in Serbia. Carefully tailored to participants from diverse backgrounds, the programme combines fostering analytical skills with creative and divergent thinking."
+lead: "A compact introductory data visualization + communication <a href='/work/projects/category/workshop'>workshop</a> for the School of Data organized by the <a href='https://www.rs.undp.org/content/serbia/en/home.html' target='_blank'>United Nations Development Programme</a> in Serbia. Carefully tailored to participants from diverse backgrounds, the programme combines fostering analytical skills with creative and divergent thinking."
 
 <a href='https://www.rs.undp.org/content/serbia/en/home/presscenter/articles/2019/otvorene-prijave-za-jesenju-kolu-za-podatke.html' target='_blank'>The School of Data</a> is a UNDP-developed programme for participants from public administration, civil society organizations, startups, media companies, and academia. It provides the introduction to data-driven technologies, statistical and programming tools, legal frameworks, and visualization approaches.
 

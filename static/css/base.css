@@ -95,6 +95,10 @@ a { text-decoration: none; }
     padding-bottom: 12px;
 }
 
+.interface-heading-article-condensed {
+    padding-bottom: 8px;
+}
+
 .interface-subheading {
     padding: 4px 0 6px 0;
     margin: 0;

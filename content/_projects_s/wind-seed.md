@@ -33,7 +33,7 @@ presentations:
     - year: 2020
       events:
         - name: <span class='italic-style'>Predavanje umetnika na rezidenciji</span>, MultiMadeira Centar, Funšal, Madeira, Portugalija 
-img_to_show: 6       
+img_to_show: 5       
 img_data:
     - size: "1200x1200"
       caption: "Fizički dijagram rasejanja (scatter-plot) izabranih biljaka sa Madeire, organizovanih u dve ose: korisne i lepe. Foto: Ivona Petrov."

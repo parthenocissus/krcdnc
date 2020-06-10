@@ -23,17 +23,19 @@ medium:
     - id: performance
       name: Performans
 team:
-    - link: 'http://www.cpn.rs/en/'
-      name: Tim dizajnera beogradskog Centra za promociju nauke 
+    - name: Tim dizajnera beogradskog Centra za promociju nauke 
 presentation_title: Izložbe
 presentations:
     - year: 2018
       events:
-        - name: Izložba art+science+makers, Centar za promociju nauke @ Muzej primenjenih umetnosti, Beograd, Srbija
+        - name: "<span class='italic-style'>Art + Science: Makers</span>, Izložba Centra za promociju nauke, Muzej primenjenih umetnosti, Beograd, Srbija"
 press:
-    - link: 'http://www.seecult.org/vest/umetnost-nauka-i-mejkers-kultura'
-      name: art+science+makers, SEECult  
-img_to_show: 3       
+    - year: 2018
+      events:
+        - link: 'http://www.seecult.org/vest/umetnost-nauka-i-mejkers-kultura'
+          linked: "Art + Science: Makers"
+          name: SEECult, Beograd, Srbija  
+img_to_show: 5       
 img_data:
     - size: "3000x2000"
       caption: "Izložba art+science+makers, Muzej primenjenih umetnosti, Beograd, 2018. Foto: Jana Ljubičić."
