@@ -33,7 +33,7 @@ team:
       name: David Albahari
     - link: 'https://novaiskra.com/ljiljana-ilic/'
       name: Ljiljana Ilić
-presentation_title: Presentations
+presentation_title: Prezentacije
 presentations:
     - year: 2019
       events:

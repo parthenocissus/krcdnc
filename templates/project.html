@@ -78,20 +78,16 @@
         <div class="column-container">
 
             <div class="column-1">
+
                 <article class="article-text body-style">
                     {{ project.html|safe }}
                 </article>
+
                 <div class="polar-chart">
                     <svg id="polar-chart-svg" preserveAspectRatio="xMidYMin meet"></svg>
                 </div>
+
             </div>
-
-            {#                        <div class="column-2">#}
-            {##}
-            {#                        </div>#}
-
-            {#            <div class="column-3">#}
-            {#            </div>#}
 
             <div class="project-information">
 
@@ -205,7 +201,9 @@
                                         <span class='page-list-item-style'>
                                             {% if e.link is defined %}
                                                 {% set lnkd = e.linked if e.linked is defined else "Link" %}
-                                                <span class='italic-style'><a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{", "}}
+                                                <span class='italic-style'><a href='{{ e.link }}'
+                                                                              target='_blank'>{{ lnkd }}</a></span>
+                                                {{ ", " }}
                                             {% endif %}
                                             {{ e.name|safe }}
                                         </span>

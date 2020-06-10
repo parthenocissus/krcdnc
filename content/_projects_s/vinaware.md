@@ -7,7 +7,7 @@ date: 2019
 featured: 3
 goto:
     link: "http://vinaware.krcadinac.com"
-    label: "Otvori stranicu projekta"
+    label: "Vebsajt projekta"
 ranks:
     visual: 4
     digital: 4
@@ -53,11 +53,14 @@ presentations:
     - year: 2019
       events:
         - link: 'https://muzejnt.rs/sutra/portfolio-item/ja-nisam-vise-zeljan-da-me-ko-voli-nego-da-svi-zavole-lisce/'
-          name: S.U.T.R.A. Festival novomedijske umetnosti, Muzej nauke i tehnike, Beograd
+          linked: S.U.T.R.A. Festival novomedijske i digitalne umetnosti 
+          name: Muzej nauke i tehnike, Beograd
         - link: 'http://www.strand.rs/2019/exhibition.pdf'
-          name: Konferencija Strand, Srpska akademija nauka i umetnosti, Beograd, Srbija
+          linked: Konferencija Strand 
+          name: Srpska akademija nauka i umetnosti, Beograd, Srbija
         - link: 'http://www.seecult.org/vest/nove-tehnologije-i-ideja-o-napretku'
-          name: "Ishod(i) nove tehnologije: Izložba novomedijske umetnosti, Galerija savremene umetnosti, Pančevo"
+          linked: Ishod(i) nove tehnologije
+          name: "Izložba novomedijske umetnosti, Galerija savremene umetnosti, Pančevo"
 publications:
     - year: 2019
       pubs:
@@ -65,22 +68,29 @@ publications:
 awards:
     - year: 2019
       pubs:
-        - name: "ARTificial Belgrade: Nagrada za novomedijsku umetničku instalaciju, Everseen, Beograd"
+        - name: "<span class='italic-style'>ARTificial Belgrade</span>, Nagrada za novomedijsku umetničku instalaciju, Everseen, Beograd"
 press:
-    - link: "https://www.danas.rs/kultura/festival-s-u-t-r-a-u-ime-algoritma-pasivne-posetioce-pretvara-u-aktivne-ucesnike/"
-      name: O festivalu S.U.T.R.A., Danas, Beograd
-    - link: 'http://www.seecult.org/vest/nove-tehnologije-i-ideja-o-napretku'
-      name: SEECult
-    - link: 'https://www.pancevo.city/kultura/nove-tehnologije-nove-mogucnosti-misljenja/'
-      name: Pančevo.city
-    - link: 'https://rtv.rs/sr_lat/mladi/gde-otici/izlozba-nove-tehnologije-inverse-u-pancevu_785261.html'
-      name: Radio Televizija Vojvodine
-    - link: 'http://www.arte.rs/sr/vesti/ishodi_nove_tehnologije-13247/1/1/'
-      name: Arte
-img_to_show: 6
+    - year: 2019
+      events:
+        - link: "https://www.danas.rs/kultura/festival-s-u-t-r-a-u-ime-algoritma-pasivne-posetioce-pretvara-u-aktivne-ucesnike/"
+          linked: O festivalu S.U.T.R.A.
+          name: Danas, Beograd, Srbija
+        - link: 'http://www.seecult.org/vest/nove-tehnologije-i-ideja-o-napretku'
+          linked: SEECult
+          name: Beograd, Srbija
+        - link: 'https://www.pancevo.city/kultura/nove-tehnologije-nove-mogucnosti-misljenja/'
+          linked: Pančevo.city
+          name: Pančevo, Srbija
+        - link: 'https://rtv.rs/sr_lat/mladi/gde-otici/izlozba-nove-tehnologije-inverse-u-pancevu_785261.html'
+          linked: Radio Televizija Vojvodine
+          name: Novi Sad, Srbija
+        - link: 'http://www.arte.rs/sr/vesti/ishodi_nove_tehnologije-13247/1/1/'
+          linked: Arte
+          name: Beograd, Srbija
+img_to_show: 7
 img_data:
     - size: "1200x795"
-      caption: "Umetnička knjiga koja podražava logiku automatskog grananja i generisanja teksta. Foto: Ivona Petrov."
+      caption: "Interaktivna instalacija. Foto: Ivona Petrov."
     - size: "1200x795"
       caption: "Umetnička knjiga koja podražava logiku automatskog grananja i generisanja teksta. Foto: Ivona Petrov."
     - size: "1200x795"
@@ -118,7 +128,7 @@ img_data:
     - size: "1200x795"
       caption: "Crtež iz knjige. Foto: Ivona Petrov."
     - size: "1200x795"
-      caption: "Interaktivna instalacija. Foto: Ivona Petrov."    
+      caption: "Umetnička knjiga koja podražava logiku automatskog grananja i generisanja teksta. Foto: Ivona Petrov."    
 lead: "Nazvan po rečenici iz <span class='italic-style'><a href='http://mcrnjanski.rs/ideje/slike/Milos-Crnjanski-Dnevnik-o-Carnojevicu.pdf' target='_blank'>Dnevnika o Čarnojeviću</a></span>, romana <a href='https://sh.wikipedia.org/wiki/Milo%C5%A1_Crnjanski' target='_blank'>Miloša Crnjanskog</a>, ovaj rad predstavlja interaktivan i animiran interfejs za automatsko generisanje proznog teksta u piščevom stilu. Interfejs je povezan sa softverom zasnovanim na <a href='https://en.wikipedia.org/wiki/Recurrent_neural_network' target='_blank'>rekurentnim neuralnim mrežama</a> – primenjenom <a href='https://en.wikipedia.org/wiki/Natural-language_generation' target='_blank'>veštačkom inteligencijom</a> koja je trenirana na kompletnim sabranim delima Crnjanskog."
 
 Do sada, ovaj projekat je prikazan u beogradskom Muzeju nauke i tehnike, galeriji Srpske akademije nauka i umetnosti i pančevačkoj Galeriji savremene umetnosti. Dobitnik je nagrade za novomedijsku umetničku instalaciju, <span class='italic-style'>ARTificial Belgrade</span>, koju dodeljuje kompanija <a href='https://everseen.com/technology.html' target='_blank'>Everseen</a>.

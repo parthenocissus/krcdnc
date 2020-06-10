@@ -8,6 +8,7 @@ featured: 3
 goto:
     link: "http://vinaware.krcadinac.com"
     label: "Open Project"
+    text: "Official project page"
 ranks:
     visual: 4
     digital: 4
@@ -53,11 +54,14 @@ presentations:
     - year: 2019
       events:
         - link: 'https://muzejnt.rs/sutra/portfolio-item/ja-nisam-vise-zeljan-da-me-ko-voli-nego-da-svi-zavole-lisce/'
-          name: S.U.T.R.A. Festival of New Media Art, Museum of Science and Technology, Belgrade, Serbia
+          linked: S.U.T.R.A. Festival of New Media andd Digital Art 
+          name: Museum of Science and Technology, Belgrade, Serbia
         - link: 'http://www.strand.rs/2019/exhibition.pdf'
-          name: Strand Conference, Serbian Academy of Sciences and Arts, Belgrade, Serbia
+          linked: Strand Conference 
+          name: Serbian Academy of Sciences and Arts, Belgrade, Serbia
         - link: 'http://www.seecult.org/vest/nove-tehnologije-i-ideja-o-napretku'
-          name: "New Technologies: Exhibition of New Media Art, Gallery of Contemporary Art, Pančevo, Serbia"
+          linked: New Technologies 
+          name: Exhibition of New Media Art, Gallery of Contemporary Art, Pančevo, Serbia"
 publications:
     - year: 2019
       pubs:
@@ -65,24 +69,32 @@ publications:
 awards:
     - year: 2019
       pubs:
-        - name: "ARTificial Belgrade: New Media Art Installation Award, Everseen, Belgrade, Serbia"
+        - name: "<span class='italic-style'>ARTificial Belgrade</span>, New Media Art Installation Award, Everseen, Belgrade, Serbia"
 press:
-    - link: "https://www.danas.rs/kultura/festival-s-u-t-r-a-u-ime-algoritma-pasivne-posetioce-pretvara-u-aktivne-ucesnike/"
-      name: About S.U.T.R.A. Festival, Danas, Belgrade, Serbia
-    - link: 'http://www.seecult.org/vest/nove-tehnologije-i-ideja-o-napretku'
-      name: SEECult
-    - link: 'https://www.pancevo.city/kultura/nove-tehnologije-nove-mogucnosti-misljenja/'
-      name: Pančevo.city
-    - link: 'https://rtv.rs/sr_lat/mladi/gde-otici/izlozba-nove-tehnologije-inverse-u-pancevu_785261.html'
-      name: Radio Television of Vojvodina
-    - link: 'http://www.arte.rs/sr/vesti/ishodi_nove_tehnologije-13247/1/1/'
-      name: Arte
-    - link: 'https://www.danubeogradu.rs/2019/09/festival-s-u-t-r-a-2019-u-ime-algoritma/'
-      name: DanUBeogradu.rs
-img_to_show: 6
+    - year: 2019
+      events:
+        - link: "https://www.danas.rs/kultura/festival-s-u-t-r-a-u-ime-algoritma-pasivne-posetioce-pretvara-u-aktivne-ucesnike/"
+          linked: About S.U.T.R.A. Festival 
+          name: Danas, Belgrade, Serbia
+        - link: 'http://www.seecult.org/vest/nove-tehnologije-i-ideja-o-napretku'
+          linked: SEECult
+          name: Belgrade, Serbia
+        - link: 'https://www.pancevo.city/kultura/nove-tehnologije-nove-mogucnosti-misljenja/'
+          linked: Pančevo.city
+          name: Pančevo, Serbia
+        - link: 'https://rtv.rs/sr_lat/mladi/gde-otici/izlozba-nove-tehnologije-inverse-u-pancevu_785261.html'
+          linked: Radio Television of Vojvodina
+          name: Novi Sad, Serbia
+        - link: 'http://www.arte.rs/sr/vesti/ishodi_nove_tehnologije-13247/1/1/'
+          linked: Arte
+          name: Belgrade, Serbia
+        - link: 'https://www.danubeogradu.rs/2019/09/festival-s-u-t-r-a-2019-u-ime-algoritma/'
+          linked: DanUBeogradu.rs
+          name: Belgrade, Serbia          
+img_to_show: 7
 img_data:
     - size: "1200x795"
-      caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
+      caption: "Installation. Photo: Ivona Petrov."
     - size: "1200x795"
       caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
     - size: "1200x795"
@@ -120,7 +132,7 @@ img_data:
     - size: "1200x795"
       caption: "Hand drawing in the book. Photo: Ivona Petrov."
     - size: "1200x795"
-      caption: "Installation. Photo: Ivona Petrov."    
+      caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."    
 lead: "Named after a sentence from the <a href='https://sites.google.com/site/projectgoethe/Home/milos-crnjanski' target='_blank'>Miloš Crnjanski</a>’s lyrical novel <span class='italic-style'><a href='https://en.wikipedia.org/wiki/The_Journal_of_%C4%8Carnojevi%C4%87' target='_blank'>The Journal of Čarnojević</a></span>, the artwork represents an interactive animated interface for generating literary text in the style of said Serbian writer. The interface is connected to a <a href='https://en.wikipedia.org/wiki/Recurrent_neural_network' target='_blank'>Recurrent Neural Network</a>-based <a href='https://en.wikipedia.org/wiki/Natural-language_generation' target='_blank'>AI software</a> trained on complete written works by Crnjanski."
 
 So far, this project was shown at the Gallery of the Serbian Academy of Sciences and Arts, Belgrade Museum of Science and Technology, and Pančevo Gallery of Contemporary Art. It won the national award for the best new media art installation, <span class='italic-style'>ARTificial Belgrade</span>, awarded by the <a href='https://everseen.com/technology.html' target='_blank'>Everseen company</a>.

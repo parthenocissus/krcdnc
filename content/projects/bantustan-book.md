@@ -5,6 +5,9 @@ title:
 id: bantustan-book
 date: 2015
 featured: 3
+goto:
+    link: "http://klubputnika.org/tmp/Bantustan.pdf"
+    label: "Book Download"
 ranks:
     visual: 4
     digital: 1
