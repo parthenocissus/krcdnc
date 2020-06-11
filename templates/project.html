@@ -6,6 +6,12 @@
 
     {{ super() }}
 
+    <meta property="og:title" content="{{ 'Uroš Krčadinac → ' ~ project.title.name }}">
+    <meta property="og:description" content="{{ project.lead|striptags }}">
+    {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main-thumb.jpg" %}
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:url" content="{{ 'http://krcadinac.com' ~ params.paths.projects ~ project.id }}">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/project.css') }}">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
