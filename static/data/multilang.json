@@ -83,9 +83,18 @@
         "end": "Images"
       },
       "polarchart": {
-        "textual": "textual",
-        "digital": "digital",
-        "visual": "visual"
+        "visual": {
+          "head": "visual",
+          "sub": ["æsthetics", "art+design", "shape"]
+        },
+        "textual": {
+          "head": "textual",
+          "sub": ["(po)ethics", "lit+phil", "meaning"]
+        },
+        "digital": {
+          "head": "digital",
+          "sub": ["logic", "sci+tech", "structure"]
+        }
       }
     },
     "pages_captions": {
@@ -278,6 +287,20 @@
         "textual": "tekstualno",
         "digital": "digitalno",
         "visual": "vizuelno"
+      },
+      "polarchart": {
+        "visual": {
+          "head": "vizuelno",
+          "sub": ["crtanje", "estetika", "oblik"]
+        },
+        "textual": {
+          "head": "tekstualno",
+          "sub": ["pisanje", "(po)etika", "značenje"]
+        },
+        "digital": {
+          "head": "digitalno",
+          "sub": ["programiranje", "logika", "struktura"]
+        }
       }
     },
     "pages_captions": {

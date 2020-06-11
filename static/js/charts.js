@@ -232,21 +232,25 @@ let chartUtility = (function () {
 
     let drawPolarChart = function (origRanks) {
 
-        let radius = 80,
+        let radius = 100,
             w = 493,
             h = 2 * radius + 2,
+            hext = h + 50,
             circleR = 1,
-            center = {x: radius, y: h / 2},
-            startAngle = -Math.PI / 3,
+            center = {x: 197, y: h / 2},
+            startAngle = (Math.PI) -Math.PI / 3,
             incrementAngle = 2 * Math.PI / 3,
             ranks = [+origRanks.visual, +origRanks.digital, +origRanks.textual],
-            data = [], axisData = [],
-            labels = ["visual", "digital", "textual"];
+            data = [], axisData = [], labels = [];
 
         let captions = langParams.project_captions.polarchart;
-        labels[0] = captions.visual;
-        labels[1] = captions.digital;
-        labels[2] = captions.textual;
+        labels[0] = captions.digital;
+        labels[1] = captions.textual;
+        labels[2] = captions.visual;
+
+        labels[0].tx = 0;
+        labels[1].tx = w - 160;
+        labels[2].tx = 0;
 
         let p = {
             x: (t, r, cx) => r * Math.cos(t) + cx,
@@ -264,13 +268,22 @@ let chartUtility = (function () {
         for (let i = 0; i < ranks.length; i++) {
             let currentAngle = startAngle + (i * incrementAngle);
             let halfRank = 0.5;
+            let yText = i * (h/2 - 38);
+            // if (i === 2) yText = 130;
+            let lineH = 18, firstLine = 32;
             data[i] = {
                 x: p.x(currentAngle, polarMap(ranks[i]), center.x),
                 y: p.y(currentAngle, polarMap(ranks[i]), center.y),
                 rank: ranks[i],
                 angle: currentAngle,
                 textAngle: rad2deg(currentAngle),
-                label: labels[i]
+                label: labels[i],
+                tx: labels[i].tx,
+                ty: 10 + yText,
+                tx2: labels[i].tx + 6,
+                ty2: [firstLine + yText,
+                    firstLine + lineH + yText,
+                    firstLine + 2*lineH + yText]
             };
             for (let j = 0; j < 4; j++) {
                 axisData.push({
@@ -281,7 +294,7 @@ let chartUtility = (function () {
         }
 
         let polarSvg = d3.select("#polar-chart-svg")
-            .attr("viewBox", "0 0 " + w + " " + h)
+            .attr("viewBox", "0 0 " + w + " " + hext)
             .selectAll("svg");
 
         polarSvg.data([1, 2, 3, 4]).enter()
@@ -321,33 +334,49 @@ let chartUtility = (function () {
             .attr("cx", center.x)
             .attr("cy", center.y);
 
-        let circlePath = function (myr, cx, cy, sign) {
-            return "M" + cx + "," + cy + " " +
-                "m" + -myr + ", 0 " +
-                "a" + myr + "," + myr + " 0 1," + sign + " " + myr * 2 + ",0 " +
-                "a" + myr + "," + myr + " 0 1," + sign + " " + -myr * 2 + ",0";
-        };
-
-        svgData.append("defs").append("path")
-            .attr("id", d => "curve-" + d.label)
-            .attr("transform", d => "rotate(" + d.textAngle + " " + center.x + " " + center.y + ")")
-            .attr("d", function (d, i) {
-                let sign = 1, ra = radius + 16;
-                if (i === 1) {
-                    sign = 0;
-                    ra = radius + 23;
-                }
-                return circlePath(ra, center.x, center.y, sign);
-            });
-
         svgData.append("text")
-            .attr("class", "curve-text")
-            .append("textPath")
-            .attr('startOffset', '50%')
-            .attr("xlink:href", d => "#curve-" + d.label)
-            .attr("text-anchor", "middle")
-            .attr("title", "title text")
-            .text(d => d.label);
+            .attr("class", "text1")
+            .attr("x", d => d.tx)
+            .attr("y", d => d.ty)
+            .attr("text-anchor", "start")
+            // .attr("title", "title text")
+            .text(d => d.label.head);
+
+        for (let i = 0; i < labels.length; i++) {
+            svgData.append("text")
+                .attr("class", "text2")
+                .attr("x", d => d.tx2)
+                .attr("y", d => d.ty2[i])
+                .attr("text-anchor", "start")
+                .text(d => d.label.sub[i]);
+        }
+
+
+        // let circlePath = function (myr, cx, cy, sign) {
+        //     return "M" + cx + "," + cy + " " +
+        //         "m" + -myr + ", 0 " +
+        //         "a" + myr + "," + myr + " 0 1," + sign + " " + myr * 2 + ",0 " +
+        //         "a" + myr + "," + myr + " 0 1," + sign + " " + -myr * 2 + ",0";
+        // };
+        // svgData.append("defs").append("path")
+        //     .attr("id", d => "curve-" + d.label)
+        //     .attr("transform", d => "rotate(" + d.textAngle + " " + center.x + " " + center.y + ")")
+        //     .attr("d", function (d, i) {
+        //         let sign = 1, ra = radius + 16;
+        //         if (i === 1) {
+        //             sign = 0;
+        //             ra = radius + 23;
+        //         }
+        //         return circlePath(ra, center.x, center.y, sign);
+        //     });
+        // svgData.append("text")
+        //     .attr("class", "curve-text")
+        //     .append("textPath")
+        //     .attr('startOffset', '50%')
+        //     .attr("xlink:href", d => "#curve-" + d.label)
+        //     .attr("text-anchor", "middle")
+        //     .attr("title", "title text")
+        //     .text(d => d.label);
 
     };
 

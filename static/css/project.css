@@ -316,7 +316,7 @@ figure img:hover {
 /* Polar Chart */
 
 .polar-chart {
-    margin: 40px 0 5px 0;
+    margin: 50px 0 5px 0;
 }
 
 .polar-chart .tick-line {
@@ -327,8 +327,6 @@ figure img:hover {
 .polar-chart .center-line {
     stroke: var(--darkcolor);
     stroke-width: 0.5;
-    /*stroke-dasharray: 0, 7;*/
-    /*stroke-linecap: round;*/
 }
 
 .polar-chart .arms-line {
@@ -393,6 +391,31 @@ figure img:hover {
     cursor: default;
 }
 
+.polar-chart .text1 {
+    /*font-family: CartographSans-DemiBold, monospace;*/
+    font-family: Ambit-SemiBold;
+    /*text-transform: uppercase;*/
+    font-size: 10pt;
+    line-height: 1.7em;
+    letter-spacing: 0.18pt;
+    /*font-family: Ambit-Regular;*/
+    /*font-size: 10pt;*/
+    /*line-height: 1.7em;*/
+    /*letter-spacing: 0.2pt;*/
+    color: var(--darkcolor);
+    cursor: default;
+}
+
+.polar-chart .text2 {
+    /*font-family: CartographSans-Regular, monospace;*/
+    font-family: Ambit-Regular;
+    font-size: 9pt;
+    line-height: 1.7em;
+    letter-spacing: 0.18pt;
+    color: var(--darkcolor);
+    cursor: default;
+}
+
 /* Pointers */
 
 .hover-pointer {
@@ -410,7 +433,7 @@ figure img:hover {
 .article-text iframe {
     width: calc(100% - 0px); !important;
     height: 277px !important;
-    padding: 10px 0 0 0;
+    padding: 10px 0 10px 0;
 }
 
 /* Quotes */
