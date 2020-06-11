@@ -47,7 +47,7 @@ img_data:
       caption: "Izložba art+science+makers, Muzej primenjenih umetnosti, Beograd, 2018. Foto: Jana Ljubičić."       
     - size: "2000x3000"
       caption: "Izložba art+science+makers, Muzej primenjenih umetnosti, Beograd, 2018. Foto: Jana Ljubičić."
-lead: "Dug kao dijabetes je instalacija koja mapira javni dug Republike Srbije na količinu šećera u crnoj kafi, povlačeći paralelu između dijabetske bolesti pojedinačnog organizma i finansijske zavisnosti kolektivnog organizma."
+lead: "<span class='italic-style'>Dug kao dijabetes</span> je instalacija koja mapira javni dug Republike Srbije na količinu šećera u crnoj kafi, povlačeći paralelu između dijabetske bolesti pojedinačnog organizma i finansijske zavisnosti kolektivnog organizma."
 
 Кako da osećamo i mislimo avete poput klimatskih promena, globalnih migracija, Big Data interneta i visokofrekventnih finansijkih transakcija? Ma koliko se činili apstraktnim, ovi složeni procesi na naše živote utiču svakodnevno i sveobuhvatno. Кako da pričamo o njima? Кako da ih predstavimo našem duhu i našem telu?
 

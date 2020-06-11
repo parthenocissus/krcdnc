@@ -232,11 +232,11 @@ let chartUtility = (function () {
 
     let drawPolarChart = function (origRanks) {
 
-        let w = 185,
-            h = w,
-            radius = 70,
+        let radius = 80,
+            w = 493,
+            h = 2 * radius + 2,
             circleR = 1,
-            center = {x: w / 2 + 8, y: h / 2},
+            center = {x: radius, y: h / 2},
             startAngle = -Math.PI / 3,
             incrementAngle = 2 * Math.PI / 3,
             ranks = [+origRanks.visual, +origRanks.digital, +origRanks.textual],
