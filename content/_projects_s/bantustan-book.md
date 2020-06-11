@@ -43,11 +43,15 @@ medium:
       name: Rukom crtane mape i infografike
 team:
     - link: 'http://www.klubputnika.org/autori/Lazar'
-      name: Lazar Pašćanović
+      name: Lazar Pašćanović (koautor)
     - link: 'http://www.klubputnika.org/autori/chivitli'
-      name: Marko Đedović
+      name: Marko Đedović (koautor)
     - link: 'http://www.klubputnika.org/o-klub-putnika'
       name: Klub putnika
+    - link: 'http://www.maneradmanovic.net/'
+      name: Mane Radmanović (dizajn i prelom knjige)
+    - link: 'https://isidoranikolic.carbonmade.com/about'
+      name: Isidora M. Nikolić (dizajn i prelom knjige)
 presentation_title: Prezentacije
 presentations:
     - year: 2015

@@ -29,7 +29,7 @@ role:
     - id: writer
       name: Co-Writer
     - id: artist
-      name: Artist
+      name: Artist + Illustrator
     - id: cartographer
       name: Cartographer
     - id: publisher
@@ -43,11 +43,15 @@ medium:
       name: Hand-Drawn Maps
 team:
     - link: 'http://www.klubputnika.org/autori/Lazar'
-      name: Lazar Pašćanović
+      name: Lazar Pašćanović (Co-Writer)
     - link: 'http://www.klubputnika.org/autori/chivitli'
-      name: Marko Đedović
+      name: Marko Đedović (Co-Writer)
     - link: 'http://www.thetravelclub.org/about-the-club'
-      name: Klub putnika (The Travel Club)    
+      name: Klub putnika (The Travel Club)   
+    - link: 'http://www.maneradmanovic.net/'
+      name: Mane Radmanović (Book Design)
+    - link: 'https://isidoranikolic.carbonmade.com/about'
+      name: Isidora M. Nikolić (Book Design) 
 presentation_title: Presentations
 presentations:
     - year: 2015
