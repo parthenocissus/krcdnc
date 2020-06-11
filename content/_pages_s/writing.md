@@ -7,7 +7,7 @@ data:
     - title: Digitalna književnost
       id: "diglit"
       images: 
-        - path: "media/projects/vinaware/img/vinaware02.jpg"
+        - path: "media/projects/vinaware/img/vinaware19.jpg"
       text: "<p>Serija konceptualnih književnih radova kreiranih uz pomoć niza <a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>digitalnih i elektronskih tehnika</a>, kao što su računarski <a href='/rad/projekti/category/ai'>AI sistemi</a> za generisanje teksta, poezija optimizovana pomoću Google Keyword Plannera i taktičko pisanje za prevaru programa koji prepoznaju emocije u tekstu.</p>
 <p>Među projektima izdvajam <span class='italic-style'><a href='/rad/projekti/vinaware/'>Ja nisam željan da me ko voli, nego da svi zavole lišće</a></span>, interaktivnu neuralnu mrežu za generisanje i vizuelizaciju teksta u stilu Miloša Crnjanskog. Tu je i <span class='italic-style'><a href='/rad/projekti/zima/'>Zima</a></span>, knjižica poezije koja sadrži pesmu koju sam napravio uz pomoć AI sistema, kao i <a href='/rad/projekti/optimized-poetry/'>Optimizovana poeziju</a>, čitački performans i radionica računarske književnosti.</p>
 <p>U epohi mreže verujem da kreativno pisanje ne sme da ignoriše činjenicu da je bilo koji tekst pre svega: 1) računarski podatak; i 2) digitalna roba. Za globalni tehno-lingvistički kapital, kako to <a href='https://infoscience.epfl.ch/record/200539?ln=en' target='_blank'>objašnjava prof. Frederic Kaplan</a>, reči su prosto indeksi roba i usluga.  Zašto ne bismo ova tehno-ekonomska ograničenja iskoristili kao umetnička ograničenja? Novi medijski režimi zazivaju nove poetske prakse – <span class='italic-style'>dataizam</span> umesto dadaizma.</p>

@@ -178,8 +178,33 @@ h2, h3 {
 	transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+.project .overburn-container {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.project .overburn-container .overburn {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: .13s;
+    border-bottom: 0 solid var(--suncolor);
+}
+
 .project:hover img {
-    opacity: 0.8;
+    /*opacity: 0.8;*/
+}
+
+.project:hover .overburn {
+    border-bottom: 6px solid var(--suncolor);
 }
 
 /* Section List (Publications) */

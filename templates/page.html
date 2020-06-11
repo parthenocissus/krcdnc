@@ -85,8 +85,11 @@
                                     {% set project_title = project.title.html|safe if project.title.html is defined else project.title.name %}
                                     <div class="project">
                                         <a href="{{ project_link }}">
-                                            <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail"
-                                                 alt="">
+                                            <div class="overburn-container">
+                                                <img src="{{ url_for('static', filename=thumb_path) }}"
+                                                     itemprop="thumbnail" alt="">
+                                                <div class="overburn"></div>
+                                            </div>
                                             <div class="project-name project-name-in-list-style">
                                                 {{ project_title }}
                                             </div>

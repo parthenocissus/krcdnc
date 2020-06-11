@@ -7,7 +7,7 @@ data:
     - title: Digital Literature
       id: "diglit"
       images: 
-        - path: "media/projects/vinaware/img/vinaware02.jpg"
+        - path: "media/projects/vinaware/img/vinaware19.jpg"
       text: "<p>A body of conceptual literary work created using various <a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>digital and electronic techniques</a>, including self-made text generation <a href='/work/projects/category/ai'>AI systems</a>, optimised poetry via Google Keyword Planner, and tactical counter-surveillance writing meant to fool emotion recognition engines.</p>
 <p>Projects include <span class='italic-style'><a href='/work/projects/vinaware/'>I Do Not Wish To Be Loved, I Wish Everyone Loved Leaves</a></span>, an interactive RNN for generating and visualizing text in the style of Miloš Crnjanski. There is also <span class='italic-style'><a href='/work/projects/zima/'>Zima</a></span>, a booklet of poetry containing a poem I've created with neural networks, and <span class='italic-style'><a href='/work/projects/optimized-poetry/'>Optimised Poetry</a></span>, a reading performance and a workshop in computational poetics.</p>
 <p>I believe creative writing in the age of network must acknowledge that any text is first and foremost: 1) data; and 2) a digital commodity. For global techno-linguistic capital, as <a href='https://infoscience.epfl.ch/record/200539?ln=en' target='_blank'>prof. Frederic Kaplan explains</a>, words are mere indexes of products and services. Why not use these techno-economic constraints as artistic and poetic constraints? New media regimes call for new poetic practices – <span class='italic-style'>dataism</span> instead of dadaism.</p>

@@ -77,7 +77,7 @@
 
 .article-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
     grid-auto-rows: auto;
 }
@@ -172,18 +172,26 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    /*display: grid;*/
+    /*grid-template-columns: 2fr 1fr;*/
+    /*grid-gap: 15px;*/
+}
+
+.align-bottom a {
+    background: none;
 }
 
 /* Quote Bellow Image */
 
 .quote {
+    /*padding: 10px 0;*/
     margin: 30px 0;
 }
 
 /* Download Lead */
 
 .download-material {
-    font-size: 12.5pt;
+    font-size: 11.5pt;
     line-height: 1.6em;
     letter-spacing: 0.2pt;
 }
@@ -193,9 +201,10 @@
 .goto-button {
     color: var(--darkcolor);
     background-color: var(--suncolor);
-    margin: 20px 0 27px 0;
+    box-sizing: border-box;
+    margin: 20px 0 20px 0;
     width: 100%;
-    padding: 22px 0;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
 }
