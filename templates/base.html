@@ -67,6 +67,14 @@
                 url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.woff') }}) format('woff');
             }
 
+            @font-face {
+                font-family: "CartographMono-Medium";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFMedium.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFMedium.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFMedium.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFMedium.woff') }}) format('woff');
+            }
+
             {# Cartograph Sans #}
 
             @font-face {
