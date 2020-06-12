@@ -62,14 +62,14 @@ Kulturni centar Albahari objavio je ediciju poezije koju čine 4 zbirke nazvane 
 
 <span class='italic-style'>Ljudi su poplave</span> jedina je pesma u zbirci koju je generisao računarski sistem:
 
-<div class='quoted-text tiny-quote-style'>
+<div class='quoted-text tiny-quote-style'><p>
 nevažne stvari ruše iznad ratnog ostrva<br>
 stoji otisak usana<br>
 i da se smeju u lice<br>
 ti prilaziš<br>
 a napolju ljudi odlaze<br>
 ljudi su poplave<br>
-</div>
+</p></div>
 
 Sistem za <a href='https://en.wikipedia.org/wiki/Natural-language_generation' target='_blank'>automatsko generisanje teksta</a> zasnovao sam na <a href='https://en.wikipedia.org/wiki/Recurrent_neural_network' target='_blank'>rekurentnim neuralnim mrežama</a>. Trenirao sam ga na tekstualnoj bazi podataka koja se sastoji od pesama <a href='https://sh.wikipedia.org/wiki/Mom%C4%8Dilo_Bajagi%C4%87_Bajaga' target='_blank'>Momčila Bajagića Bajage</a>, modernističke poezije <a href='https://sh.wikipedia.org/wiki/Milo%C5%A1_Crnjanski' target='_blank'>Miloša Crnjanskog</a> i kompletnog <a href='http://www.parlament.gov.rs/upload/documents/Ustav_Srbije_pdf.pdf' target='_blank'>Ustava Republike Srbije</a>. Nakon što je program izbacio nekoliko stotina tekstova, pažljivo sam izabrao najbolje, uključiv i <span class='italic-style'>Ljudi su poplave</span>.
 
