@@ -1,5 +1,5 @@
 title: 
-    name: Animation Game Jams
+    name: Rough and Ready Game Jam
 id: gamejam
 date: 2018
 featured: 2
@@ -38,6 +38,7 @@ presentations:
         - link: "https://www.goethe.de/ins/cs/sr/kul/sup/gps.html?forceDesktop=1"
           linked: "Games & Politics"      
           name: Goethe Institute Belgrade, Belgrade, Serbia
+        - name: <span class='italic-style'>Design Seminar</span>, Petnica Science Center, Serbia
         - link: "http://www.animanima.org/en/radionica.php"
           linked: Animanima Game Jam
           name: Animanima Festival, Čačak, Serbia
@@ -61,10 +62,12 @@ img_data:
       caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"
     - size: "1200x795"
       caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"  
-lead: "A series of animation game jam workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+lead: "Game design workshop for creating a simple 2D computer game out of drawing, photos, and a little bit of code. Participants are encouraged to focus on ideas, visuals, story, and mechanics instead of technology."
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+The premise of the workshop is that not every video game should be a technically demanding 3D endeavor, and that the best digital works arise from a creative process that takes place in the physical world.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Also, could a computer game be intimate as a love letter? Could it be emotional or philosophical as a poem? Could it be socially and politically relevant? Could it be in some way cathartic, similar to a good novel or a film?  
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+In the first part of the workshop, we reflect on the history of first video games, 8-bit æsthetics and the concept of <span class='italic-style'>sprites</span>, animated elements that make the building blocks of 2D video games. Super Mario or Sonic the Hedgehog work in such a way. This mean any kind of animation can be used for game design: from photos and stop-trick techniques, to wooden crayons and animations drawn by hand. Each participant chooses their own animation technique and sprite method.
+
+In the second part of the workshop, we connect these sprites with code, using the <a href='https://molleindustria.github.io/p5.play/' target='_blank'>P5 Play technology</a>. The coding part involves only the very basics of JavaScript. The focus is the interactivity, story, visuals, and creative mechanics. The final work is an open game platform in the form of a simple website, which integrates drawings, sprites, animations and software elements from all participants. <mark>&#9632;</mark>

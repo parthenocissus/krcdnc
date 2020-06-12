@@ -90,6 +90,7 @@ data:
 <div class='list-title interface-heading-style'>2016</div>
 <ul>
 <li><span class='italic-style'>Antropološki razgovori</span> (javna tribina), Klub studenata etnologije i antropologije KSEA, Studentski kulturni centar (SKC), Beograd, Srbija</li>
+<li><span class='italic-style'><a href='https://novaiskra.com/kako-postati-autor-u-digitalnoj-epohi/' target='_blank'>Kako postati autor u digitalnoj epohi?</a></span></span> (javno predavanje), Nova Iskra, Beograd, Srbija</li>
 <li><span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span> (javna književna tribina), Narodna biblioteka, Pirot, Srbija</li>
 <li><span class='italic-style'>Vizuelizacija podataka kao pripovedački medij</span> (javno predavanje), S.U.T.R.A. Festival digitalne i novomedijske umetnosti, Beograd, Srbija</li>
 <li><span class='italic-style'>Bantustan: Atlas jednog putovanja</span> (javna književna tribina), Fondacija Danilo Kiš, Subotica, Srbija</li>
@@ -169,7 +170,7 @@ timeline:
     - year: 2015
       d: 13
     - year: 2016
-      d: 7
+      d: 8
     - year: 2017
       d: 10
     - year: 2018

@@ -91,6 +91,7 @@ data:
 <div class='list-title interface-heading-style'>2016</div>
 <ul>
 <li><span class='italic-style'>Anthropology Conversations</span> (Public Discussion), Anthropology Student Club, Student Cultural Center (SKC), Belgrade, Serbia</li>
+<li><span class='italic-style'><a href='https://novaiskra.com/en/become-author-digital-era/' target='_blank'>How to Become an Author in the Digital Era?</a></span></span> (Public Lecture), Nova Iskra, Belgrade, Serbia</li>
 <li><span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: Atlas of a Journey</a></span> (Book Lecture), City Library, Pirot, Serbia</li>
 <li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Danilo Kiš Foundation, Subotica, Serbia</li>
 <li><span class='italic-style'>Data Visualization as a Storytelling Medium</span> (Public Lecture), S.U.T.R.A. / Tomorrow Festival of Digital and New Media Art, Belgrade, Serbia</li>
@@ -170,7 +171,7 @@ timeline:
     - year: 2015
       d: 13
     - year: 2016
-      d: 7
+      d: 8
     - year: 2017
       d: 10
     - year: 2018

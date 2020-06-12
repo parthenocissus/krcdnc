@@ -1,5 +1,5 @@
 title: 
-    name: Generative Art Workshops
+    name: Generative Art Workshop
 title_short: Generative Art
 id: gen-art-workshops
 date: 2018
@@ -53,10 +53,16 @@ img_data:
       caption: "Digital Slit Scan Experiments with Ivona Petrov"
     - size: "1200x800"
       caption: "My student Miloš Desko Ćosović with his generative art project @ Digital Art Exhibition, Pro3or Gallery, Belgrade, Serbia. FMK's Department of Digital Art Annual Exhibition, 2017."
-lead: "A series of generative art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+lead: "<a href='https://en.wikipedia.org/wiki/Generative_art' target='_blank'>Generative computer art</a> workshop with a focus on the expressive potential of algorithmic media. Using technologies such as <a href='https://p5js.org/' target='_blank'>P5.js</a> and <a href='http://processing.org/' target='_blank'>Processing</a>, students learn how to turn data streams into personal and authentic art + design pieces."
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+Today, when our lives are strongly influenced by algorithms and Big Data, the need for a new type of designers, artists, and storytellers has emerged – a need for those who understand computers, networks, and information technologies. They will invent and develop new visual and technological languages which will allow understanding and talking about the modernity. Unlike classical programmers, they will be able not only to build new things, but also to imagine new realities.
+ 
+<a href='/work/projects/category/interactive'>Interactive Art + Design</a>, <a href='/work/projects/category/data-art'>Data Art</a>, and <a href='/work/projects/category/dataviz'>Data Visualization</a> represent a new language for new designers, artists, and storytellers.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+During this workshop, participants get familiar with basic concepts and techniques of data visualization, generative art, and generative design. The participants are encouraged to look at coding not only as a digital tool but also as a form of expression, art, and design. This approach allows the participants to develop their own language of generative visuals and animation, which they use to describe a real-time data stream.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Since these visualizations also work as interactive animated Web sites, the participants will be able to upload them to the Web and use them for their portfolios.
+
+This workshop is tailored for all curios people, regardless of their profession. Previous coding knowledge is not necessary. Participants are expected to be inquisitive, sharp-witted, aspiring to learn and make new things. 
+
+Technologies: <a href='https://p5js.org/' target='_blank'>P5.js</a>, <a href='http://processing.org/' target='_blank'>Processing</a>, JavaScript, HTML, CSS. <mark>&#9632;</mark>

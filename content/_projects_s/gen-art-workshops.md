@@ -1,5 +1,5 @@
 title: 
-    name: Radionice generativne umetnosti
+    name: Radionica generativne umetnosti
 title_short: Generativna umetnost
 id: gen-art-workshops
 date: 2018
@@ -53,10 +53,16 @@ img_data:
       caption: "Slit Scan eksperimenti"
     - size: "1200x800"
       caption: "Miloš Desko Ćosović sa svojom generativnom projekcijom @ Godišnja izložba Departmana za digitalne umetnosti FMK, Galerija Pro3or, Beograd, Srbija, 2017."
-lead: "Serija radionica generativne umetnosti. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+lead: "Radionica <a href='https://en.wikipedia.org/wiki/Generative_art' target='_blank'>računarske generativne umetnosti</a> s fokusom na izražajni potencijal algoritamskog medija. Koristeći tehnologije <a href='https://p5js.org/' target='_blank'>P5.js</a> i <a href='http://processing.org/' target='_blank'>Processing</a>, polaznici uče kako da tokove digitalnih podataka pretvore u lične i autentične umetničke i dizajnerske radove."
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+U vreme kada nam život određuju algoritmi i velike baze podataka, javlja se potreba za novom vrstom dizajnera, umetnika i pripovedača – onih koji razumeju računare, mrežu i informacione tehnologije. Oni će izmišljati i razvijati nove vizuelno-tehnološke jezike, uz pomoć kojih će govoriti o savremenosti. Za razliku od klasičnih programera, oni će biti u stanju da prave ne samo nove stvari, nego i nove stvarnosti.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<a href='/rad/projekti/category/interactive'>Interaktivna umetnost + dizajn</a>, <a href='/rad/projekti/category/data-art'>data umetnost</a> i <a href='/rad/projekti/category/dataviz'>vizuelizacija podataka</a> novi su jezici za nove dizajnere, umetnike i pripovedače.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Tokom trodnevne radionice, polaznici se upoznaju sa osnovnim konceptima i tehnikama oblasti vizuelizacije podataka i generativne umetnosti i dizajna. Polaznici se podstiču da programski kôd ne doživljavaju samo kao digitalni alat, nego pre svega kao izražajni, kritički, umetnički i dizajnerski medij. Polaznici tako razvijaju sopstveni jezik generativnih vizuala i animacije kojim opisuju jedan tok digitalnih podataka u realnom vremenu.
+
+S obzirom da digitalni radovi nastali na radionici funkcionišu i kao interaktivni animirani Veb sajtovi, polaznici mogu da ih okače na Veb i dodaju u svoj portfolio.
+
+Radionica je namenjena svima, bez obzira na oblast iz koje dolaze. Ne očekuje se prethodno znanje programiranja. Očekuje se radoznalost, preciznost misli, spremnost da se uči i želja da se prave nove stvari. 
+
+Tehnologije: <a href='https://p5js.org/' target='_blank'>P5.js</a>, <a href='http://processing.org/' target='_blank'>Processing</a>, JavaScript, HTML, CSS. <mark>&#9632;</mark>
