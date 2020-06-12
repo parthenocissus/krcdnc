@@ -8,7 +8,7 @@
 
     <meta property="og:title" content="{{ 'Uroš Krčadinac → ' ~ params.page_title.about }}">
     <meta property="og:description" content="{{ page.lead|striptags }}">
-    <meta property="og:image" content="{{ url_for('static', filename=page.img.link) }}">
+    <meta property="og:image" content="{{ 'http://krcadinac.com' ~ url_for('static', filename=page.img.link) }}">
     <meta property="og:url" content="{{ 'http://krcadinac.com' ~ params.menu_items[6].link }}">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
