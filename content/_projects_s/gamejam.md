@@ -63,7 +63,7 @@ img_data:
       caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"
     - size: "1200x795"
       caption: "Radionica @ Nova Iskra, Beograd, Srbija. Foto: Ivona Petrov"  
-lead: "Radionica koja se bavi kreiranjem jednostavne 2D računarske igre od crteža, fotografija, štapa, kanapa i nešto kôda. Umesto na tehnologiji, akcenat je stavljen na kreativnu i autentičnu upotrebu digitalnog medija."
+lead: "Radionica koja se bavi kreiranjem jednostavne 2D računarske igre od crteža, fotografija, štapa, kanapa i nešto kôda. Umesto na tehnologiju, akcenat je stavljen na kreativnu i autentičnu upotrebu digitalnog medija."
 
 Radionica polazi od premise da ne mora svaka računarska video igra da bude tehnološki zahtevan 3D poduhvat, te da najbolji digitalni radovi nastaju nakon kreativnog procesa u fizičkom svetu.
 
