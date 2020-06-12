@@ -62,4 +62,4 @@ Kao završni segment Škole za podatke, moja radionica vizuelizacije i komunikac
 
 Učesnici su dobili priliku da razviju vlastite <span class='italic-style'>dataviz</span> projekte služeći se raznim alatima, poput <a href='https://d3js.org/' target='_blank'>d3.js</a>, <a href='https://www.tableau.com/' target='_blank'>Tableau</a> i <a href='https://rawgraphs.io/' target='_blank'>Raw Graphs</a>.
 
-Na kraju radionice zajedno smo kreirali neku vrstu <span class='italic-style'>data performansa</span>, tokom kojeg smo napravili fizičke dijagrame i grafikone raspodela i rasejanja uz pomoć naših tela kao živih tačaka između ascise i ordinate. <mark>&#9632;</mark>
+Na kraju radionice zajedno smo kreirali jednu vrstu <span class='italic-style'>data performansa</span>, tokom kojeg smo napravili fizičke dijagrame i grafikone raspodela i rasejanja uz pomoć naših tela kao živih tačaka između apscise i ordinate. <mark>&#9632;</mark>
