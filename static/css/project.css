@@ -161,7 +161,7 @@
 
 .main-container .interface-heading-article,
 .main-container .interface-heading-article-condensed {
-    padding-top: 15px;
+    padding-top: 12px;
 }
 
 /* Section List */
@@ -198,10 +198,10 @@
 .thumbs .gallery {
     width: auto;
     display: grid;
-    margin: 42px 0 25px 0;
+    margin: 30px 0 21px 0;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
-    grid-gap: 15px;
+    grid-gap: 10px;
 }
 
 figure {
@@ -298,8 +298,8 @@ figure img:hover {
 .goto-button {
     color: var(--darkcolor);
     background-color: var(--suncolor);
-    margin-bottom: 30px;
-    width: calc(50% - 30px);
+    margin-bottom: 24px;
+    width: calc(50% - 27px);
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -318,7 +318,7 @@ figure img:hover {
 /* Polar Chart */
 
 .polar-chart {
-    margin: 40px 0 5px 0;
+    margin: 32px 0 5px 0;
 }
 
 .polar-chart .tick-line {
@@ -435,7 +435,7 @@ figure img:hover {
 .article-text iframe {
     width: calc(100% - 0px); !important;
     height: 277px !important;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 0px 0;
 }
 
 /* Quotes */

@@ -39,11 +39,11 @@ press:
     - year: 2017
       events:
         - link: "https://www.designed.rs/news/5_medunarodna_konferencija_graficki_dizajner_autor_ili_univerzalni_vojnik_%E2%80%93_veza"
-          linked: Designed.rs
-          name: Beograd
+          linked: "5. međunarodna konferencija Grafički dizajner: autor ili univerzalni vojnik"
+          name: Designed.rs
         - link: "https://vizkultura.hr/regrutiranje-pocinje/"
-          linked: Vizkultura.hr
-          name: Zagreb
+          linked: "Regrutacija počinje"
+          name: "Vizkultura.hr"
 img_to_show: 3       
 img_data:
     - size: "800x533"
@@ -54,8 +54,18 @@ img_data:
       caption: "Dizajner – Autor ili univerzalni vojnik (konferencija), Beograd, 2017."
     - size: "800x533"
       caption: "Dizajner – Autor ili univerzalni vojnik (konferencija), Beograd, 2017."
-lead: "Srpski prevod... The 60-Month Walk is a collaborative experimental work of land & data art, created during a 3 day workshop for the <a href='http://vojnik.net/2017/' target='_blank'>Designer – Author or Universal Soldier Conference</a>. The work explores possibilities of physical data visualization as experience design."
+lead: "Mapirajući podatke o zagađenju vazduha na 30 metara dugačku stazu za hodanje, ovaj kolaborativni rad istražuje mogućnosti fizičke <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka</a> u kontekstu <span class='italic-style'>dizajna iskustva</span>. Rad je kreiran tokom trodnevne radionice na konferenciji <a href='http://vojnik.net/2017/' target='_blank'><span class='italic-style'>(Grafički) dizajner – autor ili univerzalni vojnik</span></a>."
 
-In particular, the <a href='https://en.wikipedia.org/wiki/Heat_map' target='_blank'>heatmap</a> of local air pollution data was recreated as a 1 meter wide, 30 meters long walking path. The path is divided into 60 segments. Each segment represents a monthly air quality index. Grass stands for a month of good quality air, sand is medium, gravel is bad, rocks are terrible. 
+U društvu kojem se upravlja pomoću <a href='https://en.wikipedia.org/wiki/Big_data' target='_blank'>velikih baza podataka</a> (<span class='italic-style'>Big Data</span>) raste potreba za razvijanjem i ponovnim izmišljanjem <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka kao medija</a>. Ovaj medij razvio se u pravi jezik kojim možemo govoriti o utvrđenim činjenicama i izmerenim brojkama. Međutim, u pokušaju da bude objektivan i univerzalan, medij vizuelizacije podataka nije u stanju da prihvati ličnu i emotivnu stranu ljudskog odnosa sa digitalnim podacima. 
 
-By walking barefoot, a participant can feel the change of air quality during the period of 5 years. <mark>&#9632;</mark>
+Inspirisan <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_class'><span class='italic-style'>Data humanizmom</span></a> Giorgie Lupi, počeo sam da se bavim <a href='https://re-publica.com/en/session/physical-data-visualisation-experience-design' target='_blank'>fizičkim vizuelizacijama podataka u kontekstu <span class='italic-style'>dizajna iskustva</span></a>, često u saradnji sa prof. <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidorom Nikolić</a>.
+
+Ovaj konkretan projekat nastao je tokom radionice vizuelizacije podataka na konferenciji <a href='http://vojnik.net/2017/' target='_blank'><span class='italic-style'>(Grafički) dizajner: autor ili univerzalni vojnik</span></a>, međunarodnoj konferenciji o dizajnu koja se održava u Beogradu.  
+
+Cilj radionice bio je da se pronađe najbolji i najinovativniji način predstavljanja baze podataka o zagađenju vazduha u Pančevu. Baza je sadržala mesečne <a href='https://en.wikipedia.org/wiki/Air_quality_index' target='_blank'>indekse kvaliteta vazduha</a> period od 5 godina ili 60 meseci, od 1998. do 2003. Nakon prolaska kroz seriju ideja, polaznici i ja smo odlučili da napravimo fizički rad, nešto što može i da se <span class='italic-style'>dodirne</span>, ne samo da se vidi ili čuje.
+
+Napravili smo stazu za hodanje kao fizičku formu tzv. <a href='https://en.wikipedia.org/wiki/Heat_map' target='_blank'><span class='italic-style'>heat-mape</span></a>, grafikona s poljima čija boja odgovara intenzitetu podataka. Široka 1 metar a dugačka 30 metara, naša <span class='italic-style'>mapa-staza</span> bila je podeljena na 60 segmenata. Svaki segment predstavljao je indeks kvaliteta vazduha za jedan mesec u datom petogodišnjem intervalu. Meseci kada je vazduh bio dobar predstavljeni su travnatim segmentom, srednji kvalitet vazduha predstavljen je peskom, šljunak je bio tu za zagušljive mesece, dok su kamenjem predstavljeni oni najzagađeniji.
+
+Hodajući bosi, polaznici radionice i posetioci izložbe mogli su da osete dugoročne promene i trendove u kvalitetu vazduha duž perioda od 5 godina.
+
+Ovakav pristup vizuelizaciji podataka prisutan je i u drugim projektima, poput <a href='/rad/projekti/physical-dataviz-workshops'>radionica fizičke vizuelizacije podataka</a> i projekta <a href='/rad/projekti/petnica-trees'>Petnička stabla</a>. <mark>&#9632;</mark>
