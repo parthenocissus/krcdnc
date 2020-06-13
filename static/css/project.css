@@ -283,6 +283,8 @@ figure img:hover {
     text-align: center;
     padding: calc(100% - 60px) 20px 0 18px;
     cursor: pointer;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: .13s;
 }
 
 .lightbox-rect:hover {
@@ -399,22 +401,15 @@ figure img:hover {
 }
 
 .polar-chart .text1 {
-    /*font-family: CartographSans-DemiBold, monospace;*/
     font-family: Ambit-SemiBold;
-    /*text-transform: uppercase;*/
     font-size: 10pt;
     line-height: 1.7em;
     letter-spacing: 0.18pt;
-    /*font-family: Ambit-Regular;*/
-    /*font-size: 10pt;*/
-    /*line-height: 1.7em;*/
-    /*letter-spacing: 0.2pt;*/
     color: var(--darkcolor);
     cursor: default;
 }
 
 .polar-chart .text2 {
-    /*font-family: CartographSans-Regular, monospace;*/
     font-family: Ambit-Regular;
     font-size: 9pt;
     line-height: 1.7em;

@@ -85,15 +85,15 @@
       "polarchart": {
         "visual": {
           "head": "visual",
-          "sub": ["æsthetics", "art+design", "shape"]
+          "sub": ["drawing", "æsthetics", "shape"]
         },
         "textual": {
           "head": "textual",
-          "sub": ["(po)ethics", "lit+phil", "meaning"]
+          "sub": ["writing", "(po)ethics", "meaning"]
         },
         "digital": {
           "head": "digital",
-          "sub": ["logic", "sci+tech", "structure"]
+          "sub": ["coding", "logic", "structure"]
         }
       }
     },
