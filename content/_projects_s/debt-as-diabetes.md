@@ -59,4 +59,4 @@ lead: "<span class='italic-style'>Dug kao dijabetes</span> je instalacija koja m
 
 Posetioci instalacije bili su pozvani da piju kafu, jednu šolju/godinu za drugom, kako bi eksponencijalni rast duga doživeli najpre kao prijatan energetski šok a zatim, do kraja 10-godišnjeg niza, kao nešto otužno, neprijatno i dugoročno štetno po organizam.
  
- Instalacija je bila deo izložbe <a href='https://www.cpn.edu.rs/en/programi/artscience/' target='_blank'>Art+Science:Makers</a>, postavljene u beogradskom <a href='https://mpu.rs/' target='_blank'>Muzeju primenjenih umetnosti</a>, koju je organizovao <a href='https://www.cpn.edu.rs/en/' target='_blank'>Centar za promociju nauke</a> u Srbiji. <mark>&#9632;</mark>
+ Instalacija je bila deo izložbe <a href='https://www.cpn.edu.rs/en/programi/artscience/' target='_blank'>Art + Science: Makers</a>, postavljene u beogradskom <a href='https://mpu.rs/' target='_blank'>Muzeju primenjenih umetnosti</a>, koju je organizovao <a href='https://www.cpn.edu.rs/en/' target='_blank'>Centar za promociju nauke</a> u Srbiji. <mark>&#9632;</mark>

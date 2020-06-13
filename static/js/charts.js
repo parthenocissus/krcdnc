@@ -232,7 +232,7 @@ let chartUtility = (function () {
 
     let drawPolarChart = function (origRanks) {
 
-        let radius = 100,
+        let radius = 80,
             w = 493,
             h = 2 * radius + 2,
             hext = h + 50,
@@ -243,14 +243,24 @@ let chartUtility = (function () {
             ranks = [+origRanks.visual, +origRanks.digital, +origRanks.textual],
             data = [], axisData = [], labels = [];
 
-        let captions = langParams.project_captions.polarchart;
-        labels[0] = captions.digital;
-        labels[1] = captions.textual;
-        labels[2] = captions.visual;
+        let xPositionAdjustment = (langParams.lang === 'en') ? 0 : 15;
 
+        let captions = langParams.project_captions.polarchart;
+        labels[0] = captions.visual;
+        labels[1] = captions.digital;
+        labels[2] = captions.textual;
         labels[0].tx = 0;
-        labels[1].tx = w - 160;
-        labels[2].tx = 0;
+        labels[1].tx = 0;
+        labels[2].tx = w - 145;
+        labels[0].yadj = 6;
+        labels[1].yadj = 6;
+        labels[2].yadj = 6;
+        labels[0].xLine = 55 + xPositionAdjustment;
+        labels[1].xLine = 55 + xPositionAdjustment;
+        labels[2].xLine = w - 200;
+        labels[0].lineLength = 75 - xPositionAdjustment;
+        labels[1].lineLength = 75 - xPositionAdjustment;
+        labels[2].lineLength = 42;
 
         let p = {
             x: (t, r, cx) => r * Math.cos(t) + cx,
@@ -268,8 +278,8 @@ let chartUtility = (function () {
         for (let i = 0; i < ranks.length; i++) {
             let currentAngle = startAngle + (i * incrementAngle);
             let halfRank = 0.5;
-            let yText = i * (h/2 - 38);
-            // if (i === 2) yText = 130;
+            let yText = p.y(currentAngle, polarMap(4), center.y) - labels[i].yadj;
+            let yLine = p.y(currentAngle, polarMap(4), center.y);
             let lineH = 18, firstLine = 32;
             data[i] = {
                 x: p.x(currentAngle, polarMap(ranks[i]), center.x),
@@ -283,7 +293,10 @@ let chartUtility = (function () {
                 tx2: labels[i].tx + 6,
                 ty2: [firstLine + yText,
                     firstLine + lineH + yText,
-                    firstLine + 2*lineH + yText]
+                    firstLine + 2*lineH + yText],
+                xLine: labels[i].xLine,
+                yLine: yLine,
+                lineLength: labels[i].lineLength
             };
             for (let j = 0; j < 4; j++) {
                 axisData.push({
@@ -339,7 +352,6 @@ let chartUtility = (function () {
             .attr("x", d => d.tx)
             .attr("y", d => d.ty)
             .attr("text-anchor", "start")
-            // .attr("title", "title text")
             .text(d => d.label.head);
 
         for (let i = 0; i < labels.length; i++) {
@@ -351,6 +363,12 @@ let chartUtility = (function () {
                 .text(d => d.label.sub[i]);
         }
 
+        svgData.append("line")
+            .attr("class", "pointer-line")
+            .attr("x1", d => d.xLine)
+            .attr("y1", d => d.yLine)
+            .attr("x2", d => d.xLine + d.lineLength)
+            .attr("y2", d => d.yLine);
 
         // let circlePath = function (myr, cx, cy, sign) {
         //     return "M" + cx + "," + cy + " " +

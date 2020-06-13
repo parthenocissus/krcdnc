@@ -59,4 +59,4 @@ The project introduces sensory metaphors into play: sugar and debt, coffee and r
 
 Visitors of the installation have been invited to drink coffee, one cup/year after another, in order to experience the exponential increase of debt as a short sugar-induced energy boost, which by the end of the 10-year line turns into a nausea, leaving a dark aftertaste. 
  
- The installation was a part of the <a href='https://cordmagazine.com/past-events/art-and-science-makers/' target='_blank'>Art+Science:Makers</a> exhibition at the Belgrade <a href='https://mpu.rs/en/' target='_blank'>Museum of Applied Arts</a>, organized by the <a href='https://www.cpn.edu.rs/en/' target='_blank'>Centre for the Promotion of Science</a> in Serbia. <mark>&#9632;</mark>
+ The installation was a part of the <a href='https://cordmagazine.com/past-events/art-and-science-makers/' target='_blank'>Art + Science: Makers</a> exhibition at the Belgrade <a href='https://mpu.rs/en/' target='_blank'>Museum of Applied Arts</a>, organized by the <a href='https://www.cpn.edu.rs/en/' target='_blank'>Centre for the Promotion of Science</a> in Serbia. <mark>&#9632;</mark>

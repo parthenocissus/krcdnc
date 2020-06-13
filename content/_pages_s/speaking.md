@@ -78,7 +78,7 @@ data:
 <ul>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=wwGcl-aGzNc' target='_blank'>Fizička vizuelizacija podataka kao dizajn iskustva</a></span> (javno predavanje), re:publica, MOMus, Solun, Grčka</li>
 <li><span class='italic-style'><a href='https://2017.pland.hr/predavanja/uros-krcadinac-data-storytelling-od-pronalazaca-do-pripovedaca/' target='_blank'>Data pripovedanje: Od pronalazača do pripovedača</a></span> (javno predavanje), Plan D, Tehnički muzej, Zagreb, Hrvatska</li>
-<li><span class='italic-style'><a href='rad/projekti/geoglyphs-zg/'>Zagrebački geoglifi</a></span> (javna radionica), Plan D, Tehnički muzej, Zagreb, Hrvatska</li>
+<li><span class='italic-style'><a href='/rad/projekti/geoglyphs-zg/'>Zagrebački geoglifi</a></span> (javna radionica), Plan D, Tehnički muzej, Zagreb, Hrvatska</li>
 <li><span class='italic-style'><a href='https://novaiskra.com/predavanje-kako-je-fantasy-roleplay-napravio-coveka-od-mene/' target='_blank'>Kako je Fantasy Roleplay napravio čoveka od mene?</a></span> (javno predavanje), Nova iskra, Beograd, Srbija</li>
 <li><span class='italic-style'>Animated Game Jame</span> (predavanje i radionica), Nova iskra, Beograd, Srbija</li>
 <li><span class='italic-style'>Data skulpture</span> (predavanje i radionica),  Designer – autor ili univerzalni vojnik, Fakultet za medije i komunikacije, Beograd, Srbija</li>

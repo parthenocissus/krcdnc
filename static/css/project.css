@@ -316,7 +316,7 @@ figure img:hover {
 /* Polar Chart */
 
 .polar-chart {
-    margin: 60px 0 5px 0;
+    margin: 40px 0 5px 0;
 }
 
 .polar-chart .tick-line {
@@ -333,6 +333,13 @@ figure img:hover {
     stroke: var(--suncolor);
     stroke-width: 2.1;
     stroke-linecap: round;
+}
+
+.polar-chart .pointer-line {
+    stroke: var(--darkcolor);
+    stroke-width: 0.7;
+    stroke-linecap: round;
+    stroke-dasharray: 0, 7;
 }
 
 .polar-chart .tick-circle {
