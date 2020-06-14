@@ -29,17 +29,17 @@ presentation_title: Prezentacije
 presentations:
     - year: 1989
       events:
-        - name: Kućna prezentacija, Pančevo
+        - name: <span class='italic-style'>Kućna prezentacija</span>, Pančevo
     - year: 1999
       events:
-        - name: Samostalna izložba dečijih stripova i karikatura, Dom omladine Pančevo
+        - name: <span class='italic-style'>Samostalna izložba dečijih stripova i karikatura</span>, Dom omladine Pančevo
     - year: 2017
       events:
-        - name: Autorsko predavanje @ Nova Iskra, Beograd
+        - name: <span class='italic-style'>Autorsko predavanje</span>, Nova Iskra, Beograd
     - year: 2019
       events:
-        - name: Autorsko predavanje @ FMK, Beograd
-img_to_show: 2       
+        - name: <span class='italic-style'>Autorsko predavanje</span>, Departman za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd
+img_to_show: 1       
 img_data:
     - size: "1200x987"
       caption: "Anatomski dijagrami unutrašnjih organa prvih stripskih junaka."
@@ -55,12 +55,12 @@ img_data:
       caption: "Prve mape"
     - size: "1600x1141"
       caption: "Mapa kuće i okućnice u kojoj sam odrastao"
-lead: "Moji prvi crteži bili su mape, dijagrami i grafikoni. Ovo je kolekcija... Here is a selection of the earliest data art I've made when I was 5 years old."
+lead: "Moji prvi crteži bili su mape, dijagrami i grafikoni. Ovo je selekcija takvih crteža koje sam nacrtao kad sam imao 5 godina. Bila je to polazna tačka za današnje projekte u oblastima <a href='/rad/projekti/category/data-art'>data umetnosti</a>, <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka</a>, <a href='/rad/projekti/category/cartography'>eksperimentalne kartografije</a>, <a href='/rad/projekti/category/geography'>geografije</a> i <a href='/rad/projekti/category/interactive'>interaktivne umetnosti i dizajna</a>."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and highfrequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+Crtajući mape, dete se orijentiše. Ova kolekcija dečjih crteža uključuje različite mape – različite nivoe geografske identifikacije. Tu je mapa pančevačke kuće i okućnice gde sam odrastao. Mapa Južnobanatske regije. Mapa Evrope, sveta, Sunčevog sistema.
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
+Tu su i anatomski dijagrami unutrašnjih organa mojih prvih stripskih junaka. Ovi junaci bili su heroji i zlikovci, vanzemaljci i antropomorfne životinje. Njihova anatomija u potpunosti je izmišljena. Svaki organ ima svoju funkciju.
 
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
+Ovaj izbor crteža vidim kao primer upotrebe podataka, upotrebe <span class='italic-style'>date</span>, kao <a href='/rad/projekti/category/data-art'>ličnog medija</a>. 
 
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+U svojim <a href='https://www.youtube.com/watch?v=lOW9IeYoEqo' target='_blank'>predavanjima</a> i <a href='http://www.klubputnika.org/zbirka/blogovi/bantustan/3930-geografsko-ja' target='_blank'>esejima</a>, povezao sam ove dečije mape i grafikone sa <a href='https://hundertwasser.com/en/applied-art/apa382_mens_five_skins_1975' target='_blank'><span class='italic-style'>Pet čovekovih koža</span> F. Hundertwassera</a> i načinom na koji je ovaj umetnik doživljavao slojevitost svojih identiteta. <mark>&#9632;</mark>
