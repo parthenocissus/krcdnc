@@ -54,4 +54,4 @@ lead: "Izbor ranih stripova i karikatura, koje sam crtao u osnovnoj i na početk
 
 Većina ovih stripova, crteža i karikatura nastala je za vreme bombardovanja Srbije i Crne Gore. Nisam išao u školu i mogao sam da se posvetim crtanju i pisanju. Kada se bombardovanje završilo, Dom omladine Pančevo organizovao je malu samostalnu izložbu ovih radova.
 
-Karikatura na kojoj stereotip Američkog starosedeoca šalje <a href='https://en.wikipedia.org/wiki/Smoke_signal' target='_blank'>dimne signale</a> uz pomoć digitalnog uređaja nagrađena je Malim Pjerom, nagradom za najbolju dečiju karikaturu u Srbiji i Crnoj Gori. Ova je karikatura na mnogo načina obeležila moj budući složeni odnos sa digitalnom tehnologijom. <mark>&#9632;</mark>
+Karikatura na kojoj se <a href='https://en.wikipedia.org/wiki/Smoke_signal' target='_blank'>dimni signali</a> šalju uz pomoć digitalnog uređaja nagrađena je Malim Pjerom, nagradom za najbolju dečiju karikaturu u Srbiji i Crnoj Gori. Ova je karikatura na mnogo načina obeležila moj budući složen odnos sa digitalnom tehnologijom. <mark>&#9632;</mark>

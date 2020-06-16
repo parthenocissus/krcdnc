@@ -29,22 +29,22 @@ team:
       name: Vladimir Uspenski (dizajn zvuka)
     - link: "https://www.imdb.com/name/nm1310575/"
       name: Janja Lončar (originalna muzika)
-presentation_title: Festivals
+presentation_title: Festivali
 presentations:
     - year: 2007
       events:
-        - name: The Red Stick International Animation Festival, Baton Ruž, Luizijana, SAD
-        - name: Festival Balkanima, Beograd, Srbija
+        - name: <span class='italic-style'>The Red Stick International Animation Festival</span>, Baton Ruž, Luizijana, SAD
+        - name: <span class='italic-style'>Balkanima</span>, Festival animiranog filma, Beograd, Srbija
     - year: 2008
       events:
-        - name: BuSho, Budapest Short Film Festival, Budimpešta, Mađarska
-        - name: Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija
-        - name: La Boca Del Lobo, XI Internacional Festival de Cortometrajes, Madrid, Španija
+        - name: <span class='italic-style'>BuSho</span>, Budapest Short Film Festival, Budimpešta, Mađarska
+        - name: <span class='italic-style'>Beogradski festival dokumentarnog i kratkometražnog filma</span> (Martovski), Beograd, Srbija
+        - name: <span class='italic-style'>La Boca Del Lobo</span>, XI Internacional Festival de Cortometrajes, Madrid, Španija
 awards:
     - year: 2007
       pubs:
-        - name: "ASIFA Diploma za najbolju animaciju, Balkanima Festival, Beograd, Srbija"
-img_to_show: 2       
+        - name: "<span class='italic-style'>ASIFA Diploma za najbolju animaciju</span>, Balkanima Festival, Beograd, Srbija"
+img_to_show: 1       
 img_data:
     - size: "800x638"
       caption: "Kadar iz filma"
@@ -52,12 +52,10 @@ img_data:
       caption: "Kadar iz filma"
     - size: "800x511"
       caption: "Kadar iz filma"
-lead: "Autoportret je kratki animirani film o... an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+lead: "<span class='italic-style'>Autoportret</span> je kratki 2D animirani film o slikanju jednog profila, jednog lica čiji delovi — nos, oko, uvo, usta, jezik, kosa — imaju svoj sopstveni život, stvarajući tako portret u pokretu i interakciji."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+<span class='italic-style'>Autoportret</span> je priča o slikaru koji, slikajući portret, shvata da naslikani delovi lica imaju svoj zaseban um. Ovi delovi, ovi mali junaci, počinju da hodaju, skaču, zaljubljuju se i međusobno se bore, stvarajući i razarajući sliku. Posredi je priča o dinamičkom i interaktivnom identitetu.  
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
+Tehnika animacije predstavlja kombinaciju <a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>tradicionalne rukom crtane animacije</a> i <a href='https://en.wikipedia.org/wiki/Animation#2D_animation' target='_blank'>kompjuterske 2D animacije</a>.
 
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
-
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+Film je prikazan na nekoliko festivala u Srbiji, SAD, Mađarskoj i Španiji. Nagrađen je ASIFA Diplomom za najbolju animaciju na festivalu Balkanima u Beogradu 2007. <mark>&#9632;</mark>

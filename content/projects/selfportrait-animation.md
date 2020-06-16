@@ -33,18 +33,18 @@ presentation_title: Festivals
 presentations:
     - year: 2007
       events:
-        - name: The Red Stick International Animation Festival, Baton Rouge, Louisiana, USA
-        - name: Balkanima Animation Festival, Belgrade, Serbia
+        - name: <span class='italic-style'>The Red Stick International Animation Festival</span>, Baton Rouge, Louisiana, USA
+        - name: <span class='italic-style'>Balkanima Animation Festival</span>, Belgrade, Serbia
     - year: 2008
       events:
-        - name: BuSho, Budapest Short Film Festival, Budapest, Hungary
-        - name: Belgrade Documentary and Short Film Festival (Martovski), Belgrade, Serbia
-        - name: La Boca Del Lobo, XI Internacional Festival de Cortometrajes, Madrid, Spain
+        - name: <span class='italic-style'>BuSho</span>, Budapest Short Film Festival, Budapest, Hungary
+        - name: <span class='italic-style'>Belgrade Documentary and Short Film Festival</span> (Martovski), Belgrade, Serbia
+        - name: <span class='italic-style'>La Boca Del Lobo</span>, XI Internacional Festival de Cortometrajes, Madrid, Spain
 awards:
     - year: 2007
       pubs:
-        - name: "ASIFA Diploma for Best Animation, Balkanima Festival, Belgrade, Serbia"
-img_to_show: 2       
+        - name: "<span class='italic-style'>ASIFA Diploma for Best Animation</span>, Balkanima Festival, Belgrade, Serbia"
+img_to_show: 1
 img_data:
     - size: "800x638"
       caption: "Selected Frame"
@@ -52,12 +52,10 @@ img_data:
       caption: "Selected Frame"
     - size: "800x511"
       caption: "Selected Frame"
-lead: "Self-Portrait (Autoportret) is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+lead: "<span class='italic-style'>Self-portrait</span> (<span class='italic-style'>Autoportret</span>) is an animated short film about a painting of a face, whose parts — nose, eye, ear, mouth, tongue, hair — have a mind of their own, thus creating a portrait in motion and interaction."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+<span class='italic-style'>Self-portrait</span> is a story about an artist, who, while creating a potrait, realises that the painted parts of the face have a life of their own. Those parts, those little characters, start walking, jumping, loving, and fighting around, composing and decomposing a big picture. It is a story about a dynamic, interactive identity.  
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
+The animation technique is a combination of a <a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>traditional hand-drawn animation</a> and a <a href='https://en.wikipedia.org/wiki/Animation#2D_animation' target='_blank'>computer 2D animation</a>.
 
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
-
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+The film was screened at several festivals in Serbia, USA, Hungary, and Spain. It won the ASIFA Award for Best Animation at the Balkanima Festival in Belgrade in 2007. <mark>&#9632;</mark>
