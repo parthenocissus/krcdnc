@@ -30,17 +30,18 @@ presentation_title: Festivali
 presentations:
     - year: 2004
       events:
-        - name: Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija
-        - name: Balkanima festival animiranog filma, Beograd, Srbija
-        - name: International Short Film Festival, Drama, Grčka
-        - name: Olympia International Film Festival for Children and Young People, Olimpija, Grčka
+        - name: <span class='italic-style'>Beogradski festival dokumentarnog i kratkometražnog filma</span> (Martovski), Beograd, Srbija
+        - name: <span class='italic-style'>Balkanima festival animiranog filma</span>, Beograd, Srbija
+        - name: <span class='italic-style'>International Short Film Festival</span>, Drama, Grčka
+        - name: <span class='italic-style'>Olympia International Film Festival for Children and Young People</span>, Olimpija, Grčka
 awards:
     - year: 2004
       pubs:
         - link: "https://www.pancevac-online.rs/arhiva/arhiva/!4061/05lokalna.htm"
-          name: "Novembarska nagrada grada Pančeva za umetničko postignuće, Pančevo, Srbija"
-        - name: Nagrada za najbolju animaciju domaćeg filma, Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija
-        - name: Nagrada grada Niša za najbolji nacionalni animirani film, Niš, Srbija
+          linked: Novembarska nagrada grada Pančeva za umetničko postignuće
+          name: "Pančevo, Srbija"
+        - name: <span class='italic-style'>Nagrada za najbolju animaciju domaćeg filma</span>, Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija
+        - name: <span class='italic-style'>Nagrada grada Niša za najbolji nacionalni animirani film</span>, Niš, Srbija
 img_to_show: 3       
 img_data:
     - size: "750x600"
@@ -49,12 +50,12 @@ img_data:
       caption: "Kadar iz filma"
     - size: "750x600"
       caption: "Kadar iz filma"
-lead: "Priča o jednom gradu (The Tale of a Town) je kratak animirani film... Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+    - size: "651x484"
+      caption: "Kadar iz filma"
+    - size: "651x484"
+      caption: "Kadar iz filma"
+lead: "Kratki animirani film o stvaranju Pančeva, ravničarskog grada na ušću Tamiša i Dunava. Jednostavna priča o radosti stvaranja."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+<a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>Tradicionalno animirana</a>, <span class='italic-style'>Priča o jednom gradu</span> napravljena je povodom proslave 850 godina grada Pančeva. Dom omladine Pančevo producirao je film a <a href='https://www.imdb.com/name/nm1383706/' target='_blank'>Vladimir Uspenski</a> pomogao mi je oko dizajna i obrade zvuka.  
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
-
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
-
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+Film je prikazan na festivalima u Srbiji i Grčkoj. Dobio je nekoliko nagrada, uključujući Nagradu za najbolju animaciju domaćeg filma na Beogradskom festivalu dokumentarnog i kratkometražnog filma, Novembarsku nagradu grada Pančeva za umetničko postignuće i Nagradu grada Niša za najbolji nacionalni animirani film. <mark>&#9632;</mark>

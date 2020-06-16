@@ -30,17 +30,18 @@ presentation_title: Festivals
 presentations:
     - year: 2004
       events:
-        - name: Belgrade Documentary and Short Film Festival (Martovski), Belgrade, Serbia
-        - name: Balkanima Animation Festival, Belgrade, Serbia
-        - name: International Short Film Festival in Drama, Greece
-        - name: Olympia International Film Festival for Children and Young People, Greece
+        - name: <span class='italic-style'>Belgrade Documentary and Short Film Festival</span> (Martovski), Belgrade, Serbia
+        - name: <span class='italic-style'>Balkanima Animation Festival</span>, Belgrade, Serbia
+        - name: <span class='italic-style'>International Short Film Festival in Drama</span>, Drama, Greece
+        - name: <span class='italic-style'>Olympia International Film Festival for Children and Young People</span>, Olympia, Greece
 awards:
     - year: 2004
       pubs:
         - link: "https://www.pancevac-online.rs/arhiva/arhiva/!4061/05lokalna.htm"
-          name: "City of Pančevo November Award for Achievement in Art, Pančevo, Serbia"
-        - name: Best Animation Award, Belgrade Documentary and Short Film Festival (Martovski), Belgrade, Serbia
-        - name: City of Niš Award for the Best National Animated Film, Niš, Serbia
+          linked: City of Pančevo November Award for Achievement in Art
+          name: "Pančevo, Serbia"
+        - name: <span class='italic-style'>Best Animation Award</span>, Belgrade Documentary and Short Film Festival (Martovski), Belgrade, Serbia
+        - name: <span class='italic-style'>City of Niš Award for the Best National Animated Film</span>, Niš, Serbia
 img_to_show: 3       
 img_data:
     - size: "750x600"
@@ -49,12 +50,13 @@ img_data:
       caption: "Selected Frame"
     - size: "750x600"
       caption: "Selected Frame"
-lead: "The Tale of a Town (Priča o jednom gradu) is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+    - size: "651x484"
+      caption: "Selected Frame"
+    - size: "651x484"
+      caption: "Selected Frame"
+lead: "<span class='italic-style'>The Tale of a Town</span> (<span class='italic-style'>Priča o jednom gradu</span>) is a short animated film about the creation of the city of <a href='https://en.wikipedia.org/wiki/Pan%C4%8Devo' target='_blank'>Pančevo</a>, a town at the confluence of two rivers, Danube and Tamiš. It is also a story about the joy of creation itself."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+<a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>Traditionally animated</a>, <span class='italic-style'>The Tale of a Town</span> was created for the celebration of 850 years of Pančevo. Youth Centre Pančevo produced the film and 
+ <a href='https://www.imdb.com/name/nm1383706/' target='_blank'>Vladimir Uspenski</a> helped me with sound design and editing.  
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
-
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
-
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+The film was screened in Serbia and Greece. It won several awards in Serbia, including the Best Animation Award at the Belgrade Documentary and Short Film Festival, City of Niš Award for the Best National Animated Film, and the City of Pančevo November Award for Achievement in Art. <mark>&#9632;</mark>
