@@ -20,8 +20,8 @@ presentation_title: Exhibition
 presentations:
     - year: 2002
       events:
-        - name: Exhibition of Drawings, Studio 21, Youth Centre Pančevo, Pančevo, Serbia
-img_to_show: 2       
+        - name: <span class='italic-style'>Exhibition of Drawings</span>, Studio 21, Youth Centre Pančevo, Pančevo, Serbia
+img_to_show: 1       
 img_data:
     - size: "848x1200"
       caption: "Black marker on paper, 2002."
@@ -59,12 +59,8 @@ img_data:
       caption: "Black marker on paper, 2001."   
     - size: "860x1200"
       caption: "Black marker on paper, 2001."                              
-lead: "A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early..."
+lead: "A series of drawings I made with black marker when I was in high school. In total, there are 2102 different cartoon profiles on 18 A4 papers."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+It started as a non-thinking activity, something I was doing in parallel with studying geography or history, and eventually grew into a project on its own, visual exploration of different cartoon faces. The number 2102 doesn't mean anything, I just had to stop somewhere and I liked that number.
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
-
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
-
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+Youth Centre Pančevo organized a small exhibition of these drawings in 2002. <mark>&#9632;</mark>

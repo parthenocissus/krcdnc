@@ -1,5 +1,5 @@
 title: 
-    name: Early Comics and Caricatures
+    name: Early Comics and Cartoons
 id: early-comics-caricatures
 date: 1998
 featured: 2
@@ -20,18 +20,18 @@ presentation_title: Presentations
 presentations:
     - year: 1998
       events:
-        - name: Little Pier Best Children Caricature Exhibition, Belgrade, Serbia
+        - name: <span class='italic-style'>Little Pier Best Children Cartoon Exhibition</span>, Belgrade, Serbia
     - year: 1999
       events:
-        - name: Solo Exhibition of Children Drawing, Youth Centre Pančevo, Pančevo, Serbia
+        - name: <span class='italic-style'>Solo Exhibition of Children Drawing</span>, Youth Centre Pančevo, Pančevo, Serbia
 awards:
     - year: 1998
       pubs:
-        - name: "Little Pier Award for the Best Children Caricature in Serbia and Montenegro, Belgrade, Serbia"
-img_to_show: 2       
+        - name: "<span class='italic-style'>Little Pier Award for the Best Children Cartoon in Serbia and Montenegro</span>, Belgrade, Serbia"
+img_to_show: 3      
 img_data:
     - size: "1200x1200"
-      caption: "Little Pier Award for the best Best Children Caricature in Serbia and Montenegro, Belgrade, Serbia, 1998."
+      caption: "Little Pier Award for the best Best Children Cartoon in Serbia and Montenegro, Belgrade, Serbia, 1998."
     - size: "862x1200"
       caption: "Black marker and wooden colors on paper, 2000."
     - size: "824x1200"
@@ -50,12 +50,8 @@ img_data:
       caption: "Black marker and wooden colors on paper, 1999."
     - size: "826x1200"
       caption: "Black marker and wooden colors on paper, 1999."
-lead: "A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures."
+lead: "A selection of early comics and cartoons, mostly hand drawn with black markers and wooden crayons on A4 and A3 paper."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+Most of these comics and drawings were created during the bombing of Serbia and Montenegro. I was free from school so I could focus on drawing and making comics. After the war ended, the Youth Centre in Pančevo, Serbia, organized a small solo exhibition of these works.
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
-
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
-
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+The cartoon with the stereotypical Native American creating <a href='https://en.wikipedia.org/wiki/Smoke_signal' target='_blank'>smoke signals</a> with a digital device won the Little Pier award, the award for the best children cartoon in Serbia and Montenegro. It many ways it marked my future complex relationship with digital technology. <mark>&#9632;</mark>

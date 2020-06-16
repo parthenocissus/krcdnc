@@ -20,15 +20,15 @@ presentation_title: Prezentacije
 presentations:
     - year: 1998
       events:
-        - name: Mali pjer, izložba, Beograd
+        - name: <span class='italic-style'>Mali pjer</span>, izložba, Beograd
     - year: 1999
       events:
-        - name: Samostalna izložba dečjih stripova i karikatura, Dom omladine Pančevo, Srbija
+        - name: <span class='italic-style'>Samostalna izložba dečjih stripova i karikatura</span>, Dom omladine Pančevo, Srbija
 awards:
     - year: 1998
       pubs:
-        - name: "Mali Pjer – nagrada za najbolju dečju karikaturu u Srbiji i Crnoj Gori, Beograd, Srbija"
-img_to_show: 2       
+        - name: "<span class='italic-style'>Mali Pjer</span>, Nagrada za najbolju dečju karikaturu u Srbiji i Crnoj Gori, Beograd, Srbija"
+img_to_show: 3       
 img_data:
     - size: "1200x1200"
       caption: "Mali Pjer – nagrada za najbolju dečju karikaturu u Srbiji i Crnoj Gori, Beograd, Srbija, 1998."
@@ -50,12 +50,8 @@ img_data:
       caption: "Crni marker i drvene boje na papiru, 1999."
     - size: "826x1200"
       caption: "Crni marker i drvene boje na papiru, 1999."
-lead: "Izbor ranih stripova i karikatura... A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures. A selection of the early comics and caricatures."
+lead: "Izbor ranih stripova i karikatura, koje sam crtao u osnovnoj i na početku srednje škole, uglavnom crnim flomasterom i drvenim bojama."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+Većina ovih stripova, crteža i karikatura nastala je za vreme bombardovanja Srbije i Crne Gore. Nisam išao u školu i mogao sam da se posvetim crtanju i pisanju. Kada se bombardovanje završilo, Dom omladine Pančevo organizovao je malu samostalnu izložbu ovih radova.
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
-
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
-
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+Karikatura na kojoj stereotip Američkog starosedeoca šalje <a href='https://en.wikipedia.org/wiki/Smoke_signal' target='_blank'>dimne signale</a> uz pomoć digitalnog uređaja nagrađena je Malim Pjerom, nagradom za najbolju dečiju karikaturu u Srbiji i Crnoj Gori. Ova je karikatura na mnogo načina obeležila moj budući složeni odnos sa digitalnom tehnologijom. <mark>&#9632;</mark>

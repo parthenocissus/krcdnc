@@ -59,7 +59,7 @@ lead: "Moji prvi crteži bili su mape, dijagrami i grafikoni. Ovo je selekcija t
 
 Crtajući mape, dete se orijentiše. Ova kolekcija dečjih crteža uključuje različite mape – različite nivoe geografske identifikacije. Tu je mapa pančevačke kuće i okućnice gde sam odrastao. Mapa Južnobanatske regije. Mapa Evrope, sveta, Sunčevog sistema.
 
-Tu su i anatomski dijagrami unutrašnjih organa mojih prvih stripskih junaka. Ovi junaci bili su heroji i zlikovci, vanzemaljci i antropomorfne životinje. Njihova anatomija u potpunosti je izmišljena. Svaki organ ima svoju funkciju.
+Tu su i anatomski dijagrami unutrašnjih organa mojih prvih stripskih junaka. Junaci su bili heroji i zlikovci, vanzemaljci i antropomorfne životinje. Njihova anatomija u potpunosti je izmišljena. Svaki organ ima svoju funkciju.
 
 Ovaj izbor crteža vidim kao primer upotrebe podataka, upotrebe <span class='italic-style'>date</span>, kao <a href='/rad/projekti/category/data-art'>ličnog medija</a>. 
 

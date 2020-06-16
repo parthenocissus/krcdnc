@@ -171,10 +171,13 @@
                                 </a>
                             </figure>
                         {% endfor %}
-                        <div class="lightbox-rect goto-button-style">
-                            {{ params.project_captions.gallery_tooltip.start }}<br>
-                            ({{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }})
-                        </div>
+
+                        {% if project.img_data|length > 2 %}
+                            <div class="lightbox-rect goto-button-style">
+                                {{ params.project_captions.gallery_tooltip.start }}<br>
+                                ({{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }})
+                            </div>
+                        {% endif %}
                     </div>
                 </div>
 
