@@ -1,6 +1,12 @@
 from itertools import groupby
 
 
+def project(flatpages, lang, name):
+    prj = flatpages.get_or_404('{}/{}'.format(lang.dir(), name))
+    prj.meta["img_term"] = lang.img_term(prj)
+    print(prj.meta["img_term"])
+    return prj
+
 def teaching(flatpages, lang):
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "teaching"))
     params = lang.params()
@@ -124,3 +130,4 @@ def projects_by_category(flatpages, lang, by, criteria):
         "timeline": timeline_data
     }
     return project_list_grouped, data
+

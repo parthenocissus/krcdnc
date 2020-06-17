@@ -1,5 +1,5 @@
 title: 
-    name: Citizen Watchdogs
+    name: Citizens on Watch
 id: citizen-watchdogs
 date: 2016
 featured: 2
@@ -33,8 +33,8 @@ presentation_title: Presentations
 presentations:
     - year: 2016
       events:
-        - name: Crta, Belgrade, Serbia
-img_to_show: 2       
+        - name: <span class='italic-style'>Crta</span>, Center for Research, Transparency and Accountability, Belgrade, Serbia
+img_to_show: 3 
 img_data:
     - size: "1081x611"
       caption: "Selected Frame"
@@ -52,12 +52,8 @@ img_data:
       caption: "Selected Frame"
     - size: "1081x611"
       caption: "Selected Frame"                  
-lead: "Citizen Watchdogs (Građani na straži) is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about. Self-Portrait is an animated short film about."
+lead: "<span class='italic-style'>Citizens on Watch</span> (<span class='italic-style'>Građani na straži</span>) is an infographic video, a data-driven animated short film I've created for the election monitoring initiative of <a href='https://crta.rs/en/gradani-na-strazi' target='_blank'>Center for Research, Transparency and Accountability</a> (Crta) in Serbia."
 
-How should we feel and think about phantoms such as climate change, global migrations, Big Data, and high-frequency trading? These complex processes, no matter how abstract and shapeless might seem to us, affect our lives on a daily basis. How should we bring them to a level of human mind and body?  
+Before creating the video, a thorough data analysis was performed in order to understand better the past accomplishments of Crta initiatives. Based on this information, the narrative was built, later transformed into a storyboard.
 
-<a href='http://www.javnidug.gov.rs/eng/default.asp' target="_blank">Public debt of the Republic of Serbia</a> is one such phantom: imperceptible yet present. Is it possible to convert it to an affective form sensible by human metabolism? 
-
-As a poetic exercise in physical data visualization, Debt as Diabetes depicts the last 10 years of Serbian debt. For each year, the the debt-to-GDP ratio is presented as the amount of sugar used for the black coffee, a traditional drink the entire Balkan life is woven around. 
-
-The project introduces sensory metaphors into play: sugar and debt, coffee and ritual pleasure, sweet drugs and collective luxury, diabetes and financial colonization. <mark>&#9632;</mark>
+Video was animated digitally, using 2D animation software. Its visual identity was based on <a href='https://en.wikipedia.org/wiki/Pixel_art' target='_blank'>8-bit pixel æsthetics</a>, a characteristic of old video games. <mark>&#9632;</mark>

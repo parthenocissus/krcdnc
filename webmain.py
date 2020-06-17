@@ -77,13 +77,13 @@ def projects_by_category_s(by, criteria):
 
 @app.route('/work/projects/<name>/')
 def project(name):
-    this_project = fp.get_or_404('{}/{}'.format(en.dir(), name))
+    this_project = utils.project(fp, en, name)
     return render_template('project.html', project=this_project, params=en.params())
 
 
 @app.route('/rad/projekti/<name>/')
 def project_s(name):
-    this_project = fp.get_or_404('{}/{}'.format(sh.dir(), name))
+    this_project = utils.project(fp, sh, name)
     return render_template('project.html', project=this_project, params=sh.params())
 
 

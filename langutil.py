@@ -89,6 +89,9 @@ class LangUtilEn(LangUtil):
         self.data['pictodata'] = self.pictogram_data
         self.data['max'] = self.max_project_count
 
+    def img_term(self, project):
+        return "Images"
+
 
 class LangUtilSh(LangUtil):
 
@@ -99,6 +102,16 @@ class LangUtilSh(LangUtil):
         self.data = self.lang_data['sh_params']
         self.data['pictodata'] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)
         self.data['max'] = self.max_project_count
+
+    def img_term(self, project):
+        val = "slika"
+        images_length = len(project.meta["img_data"])
+        last_digit = images_length % 10
+        spec_digits = [2, 3, 4]
+        exceptions = [12, 13, 14]
+        if ((last_digit in spec_digits) and (images_length not in exceptions)):
+            val = "slike"
+        return val
 
     @staticmethod
     def __fix_sh_pictodata(pictogram_data):
