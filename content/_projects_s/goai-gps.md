@@ -1,5 +1,6 @@
 title: 
-    name: Identitet laboratorije GOAI
+    name: Identitet laboratorije Good Old AI
+    short: Identitet laboratorije GOAI
 id: goai-gps
 date: 2009
 featured: 2
@@ -28,11 +29,11 @@ presentation_title: Prezentacije
 presentations:
     - year: 2009
       events:
-        - name: GOAI Lab, Fakultet organizacionih nauka, Univerzitet u Beogradu, Beograd, Srbija
+        - name: <span class='italic-style'>Good Old AI Lab</span>, Odsek za informacione tehnologije, Fakultet organizacionih nauka, Univerzitet u Beogradu, Beograd, Srbija
     - year: 2014
       events:
-        - name: S.U.T.R.A. Festival novomedijske umetnosti, Beograd, Srbija     
-img_to_show: 2       
+        - name: <span class='italic-style'>S.U.T.R.A. Festival novomedijske i digitalne umetnosti</span>, Dom omladine Beograda, Beograd, Srbija     
+img_to_show: 3       
 img_data:
     - size: "700x317"
       caption: "Vizuelni identitet u obliku GPS crteža"
@@ -42,10 +43,16 @@ img_data:
       caption: "Vizuelni identitet u obliku GPS crteža"
     - size: "1200x958"
       caption: "Vizuelni identitet u obliku GPS crteža"
-lead: "Tek treba da se napiše... GOOD OLD AI Lab. Geographical self-portrait. Lines represent all roads travelled since birth, meticulously reconstructed both digitally and manually using GPS data, old photo albums, notes, interviews, personal databases, and — if no other source was available — memory."
+lead: "Novomedijski dizajn vizuelnog identiteta za <a href='http://goodoldai.org/' target='_blank'>Good Old AI Lab</a>, beogradsku laboratoriju za primenjenu veštačku inteligenciju, izveden kao 64 km dug <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS crtež</a> koji sam napravio hodajući i vozeći bicikl po Parizu."
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+<a href='http://goodoldai.org/' target='_blank'>Good Old AI Lab</a> je međunarodno prepoznata laboratorija i mreža istraživača, inženjera i studenata koji se bave primenjenom veštačkom inteligencijom i softverskim inženjerstvom. Laboratorija je deo Odseka za informacione tehnologije Fakulteta organizacionih nauka Univerziteta u Beogradu. Vodi je prof. <a href='http://devedzic.fon.bg.ac.rs/' target='_blank'>Vladan Devedžić</a>.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Tamo sam nekoliko godina radio kao asistent i istraživač. Trenutno sarađujem s laboratorijom kao naučni saradnik i gostujući predavač.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Ovaj projekat nastao je 2009. kao pokušaj da se vizuelni identitet laboratorije, spiralna struktura koja podseća na biljku, osmisli i dizajnira na <a href='https://en.wikipedia.org/wiki/New_media_art' target='_blank'>novomedijski način</a>. Dizajn sam kreirao uz pomoć GPS uređaja, hodajući i vozeći bicikl po Parizu, gradu koji je izrodio <a href='https://anarhisticka-biblioteka.net/library/situacionisticka-internacionala-definicije' target='_blank'>psihogeografske i situacionističke prakse</a>. Crtež je dugačak ukupno 64 kilometara. Bilo je to moje prvo iskustvo u <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS umetnosti</a>. Kao takvo, otvorilo je nove pravce razmišljanja vidljive u projektima <a href='/rad/projekti/category/geography'>eksperimentalne geografije</a> i <a href='/rad/projekti/category/cartography'>kartografije</a> kojima sam se kasnije bavio.
+
+Nakon što je projekat već bio konceptualizovan, otkrio sam <a href='https://en.wikipedia.org/wiki/Nazca_Lines' target='_blank'>Naska geoglife</a> u Južnoj Americi, ogromne crteže u tlu koje je kreirala drevna kultura Naska. Jedan od geoglifa prikazuje stvorenje nalik na majmuna sa spiralnim repom, koje neobično podseća na logo laboratorije Good Old AI. Ovaj sinhronicitet bio mi je za inspiracija za <a href='/rad/projekti/geoglyphs-zg'>radionicu geoglifa i GPS umetnosti</a> koju sam 2018. osmislio za dizajnersku konferenciju i festival <span class='italic-style'>Plan D</span>.
+
+Projekat GPS dizajna identiteta za laboratoriju Good Old AI predstavljen je 2014. na beogradskom festivalu novomedijske i digitalne umetnosti S.U.T.R.A. <mark>&#9632;</mark>
+
+<iframe src="https://www.youtube.com/embed/jIQbPPW-pa8?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>

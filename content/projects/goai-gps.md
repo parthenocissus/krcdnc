@@ -1,5 +1,6 @@
 title: 
-    name: GOAI Lab Identity
+    name: Good Old AI Lab Identity
+    short: GOAI Lab Identity
 id: goai-gps
 date: 2009
 featured: 2
@@ -28,11 +29,11 @@ presentation_title: Exhibitions + Presentations
 presentations:
     - year: 2009
       events:
-        - name: GOAI Lab, University of Belgrade, Serbia
+        - name: <span class='italic-style'>Good Old AI Lab</span>, Faculty of Organizational Sciences, University of Belgrade, Belgrade, Serbia
     - year: 2014
       events:
-        - name: S.U.T.R.A. New Media Art Festival, Belgrade, Serbia     
-img_to_show: 2       
+        - name: <span class='italic-style'>S.U.T.R.A. New Media and Digital Art Festival</span>, Belgrade, Serbia     
+img_to_show: 3       
 img_data:
     - size: "700x317"
       caption: "Visual Identity by GPS Drawing"
@@ -42,10 +43,16 @@ img_data:
       caption: "Visual Identity by GPS Drawing"
     - size: "1200x958"
       caption: "Visual Identity by GPS Drawing"
-lead: "GOOD OLD AI Lab. Geographical self-portrait. Lines represent all roads travelled since birth, meticulously reconstructed both digitally and manually using GPS data, old photo albums, notes, interviews, personal databases, and — if no other source was available — memory."
+lead: "Visual identity for the <a href='http://goodoldai.org/' target='_blank'>Good Old AI Lab</a>, a Belgrade-based laboratory for applied artificial intelligence, reimagined as a 64 km long <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS drawing</a> I made by walking and cycling across Paris, France."
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+<a href='http://goodoldai.org/' target='_blank'>Good Old AI Lab</a> is an internationally recognized lab and network of award-winning researchers, engineers, and students working in the fields of applied artificial intelligence and software engineering, situated at the University of Belgrade. Prof. <a href='http://devedzic.fon.bg.ac.rs/' target='_blank'>Vladan Devedžić</a> is the principal of the lab.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+For several years I worked at the Good Old AI Lab as a research and teaching assistant. I still collaborate with the lab as a research associate and a visiting lecturer.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+This project came to be in 2009. as an experimental <a href='https://en.wikipedia.org/wiki/New_media_art' target='_blank'>new media</a> reimagining of its visual identity, a plant-like spiral structure. I've made it by walking and cycling with a GPS device through Paris, France, the capital of <a href='https://en.wikipedia.org/wiki/Psychogeography' target='_blank'>pshychogeography</a> and <a href='https://en.wikipedia.org/wiki/Situationist_International' target='_blank'>situationism</a>. The entire drawing is 64 km long. It was my first experience with the practive of <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS art</a>. As such, it opened avenues for projects in the fields of <a href='/work/projects/category/geography'>experimental geography</a> and <a href='/work/projects/category/cartography'>cartography</a>.
+
+It was when the project was already conceptualized that I've discovered <a href='https://en.wikipedia.org/wiki/Nazca_Lines' target='_blank'>Nazca geoglyphs</a> in South America, large land art created by the ancient Nazca culture. One of the geoglyphs was a spiral-shaped monkey-like creature, eerily similar to Good Old AI logo. This synchronicity became an inspiration for the <a href='/work/projects/geoglyphs-zg'>geoglyph and GPS art workshop</a> I created for the <span class='italic-style'>Plan D</span> Design Festival and Conference in 2018.
+
+The Good Old AI Lab GPS design was presented at the S.U.T.R.A. Festival of New Media and Digital Art in Belgrade, Serbia, in 2014. <mark>&#9632;</mark>
+
+<iframe src="https://www.youtube.com/embed/jIQbPPW-pa8?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>
