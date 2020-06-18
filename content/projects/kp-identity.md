@@ -38,16 +38,16 @@ presentation_title: Presentations
 presentations:
     - year: 2014
       events:
-        - name: SHARE Conference, Belgrade, Serbia
-        - name: KSET, Zagreb, Croatia
-        - name: Museum of Vojvodina, Novi Sad, Serbia
-        - name: Kriterion, Sarajevo, BiH
+        - name: <span class='italic-style'>SHARE Conference</span>, Belgrade, Serbia
+        - name: <span class='italic-style'>KSET, Klub studenata tehnike</span>, Zagreb, Croatia
+        - name: <span class='italic-style'>Museum of Vojvodina</span>, Novi Sad, Serbia
+        - name: <span class='italic-style'>Kriterion</span>, Sarajevo, BiH
     - year: 2015
       events:
-        - name: Design Seminar, Petnica Science Centre, Serbia
+        - name: <span class='italic-style'>Design Seminar</span>, Petnica Science Centre, Serbia
     - year: 2017
       events:
-        - name: Department of Digital Art, FMK, Belgrade, Serbia
+        - name: <span class='italic-style'>Department of Digital Art</span>, Faculty of Media and Communications, Singidunum University, Belgrade, Serbia
 img_to_show: 3       
 img_data:
     - size: "550x548"
@@ -62,7 +62,7 @@ img_data:
       caption: "Presentation with Lazar Pašćanović @ SHARE Conference, Belgrade, Serbia"
     - size: "960x638"
       caption: "Presentation @ SHARE Conference, Belgrade, Serbia"
-lead: "Identity design for <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a> (<a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a>), the biggest community in the Balkans for travel writers, creators, and independent travellers."
+lead: "Generative identity design for <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), the biggest community in the Balkans for non-commodified travel culture. Identity was created by <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a>, <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a>, and me. Algorithmically generated in real-time, its infinite shapes represent the infinite number of possible geographic paths each human being creates by traversing the common planet Earth."
 
 “Bantustan” is also an example of ergodic literature, since it contains hand-drawn maps and infographics which represent an interface for non-linear reading. The book was published in 3 editions (by now) and was presented in more than 30 cities across the Yugoslav region.
 

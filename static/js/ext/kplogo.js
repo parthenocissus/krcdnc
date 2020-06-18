@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
 
     let d = 500,
-        h = 460,
+        h = 480,
         adj = (d - h) / 2,
         r = d / 2 - adj,
         centerX = d / 2,

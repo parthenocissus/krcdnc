@@ -172,10 +172,6 @@
 
 .section-list ul li {
     padding-bottom: 10px;
-    /*display: grid;*/
-    /*grid-template-columns: 40px auto;*/
-    /*align-items: baseline;*/
-    /*justify-items: left;*/
 }
 
 .section-list ul li .year {
