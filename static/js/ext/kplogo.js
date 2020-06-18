@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
 
     let d = 500,
-        h = 480,
+        h = 500,
         adj = (d - h) / 2,
         r = d / 2 - adj,
         centerX = d / 2,
@@ -181,6 +181,13 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("cy", centerY)
             .attr("r", r);
 
+        var fixStartingPoint = function (point) {
+            let alpha = Math.atan2(point[1], point[0]);
+            let x = (r + 5) * Math.cos(alpha);
+            let y = (r + 5) * Math.sin(alpha);
+            return {x: x, y: y}
+        };
+
         if (generativeTreshold > Math.random()) {
 
             let cleanCollisions = function (x, y) {
@@ -200,7 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let normalR = 50;
             currentDots[0] = [];
             let alpha = 2 * Math.random() * Math.PI;
-            let dist = randomInt(normalR, normalR + 20);
+            let dist = randomInt(normalR + 5, normalR + 20);
             currentDots[0][0] = dist * Math.cos(alpha) + normalR;
             currentDots[0][1] = dist * Math.sin(alpha) + normalR;
 
@@ -219,15 +226,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 let x = dist * Math.cos(alpha) + normalR;
                 let y = dist * Math.sin(alpha) + normalR;
                 if (cleanCollisions(x, y)) {
-                    console.log(j + " " + x + " " + y);
                     currentDots[ranLen - 1] = [];
                     currentDots[ranLen - 1][0] = x;
                     currentDots[ranLen - 1][1] = y;
                     break;
                 }
-                if (j == serendipityCredit - 1) {
-                    console.log(j + " - go with existing >>");
+                if (j === serendipityCredit - 1) {
+                    // console.log(j + " - go with existing >>");
                     currentDots = dots[Math.floor((dots.length - 1) * Math.random())];
+                    let point = fixStartingPoint(currentDots[0]);
+                    currentDots[0][0] = point.x;
+                    currentDots[0][1] = point.y;
                     reflectX = (Math.random() > 0.5);
                 }
             }
@@ -235,6 +244,9 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
 
             currentDots = dots[Math.floor((dots.length - 1) * Math.random())];
+            let point = fixStartingPoint(currentDots[0]);
+            currentDots[0][0] = point.x;
+            currentDots[0][1] = point.y;
             reflectX = (Math.random() > 0.5);
 
         }
