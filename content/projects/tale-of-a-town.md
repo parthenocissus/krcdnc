@@ -57,6 +57,6 @@ img_data:
 lead: "<span class='italic-style'>The Tale of a Town</span> (<span class='italic-style'>Priča o jednom gradu</span>) is a short animated film about the creation of the city of <a href='https://en.wikipedia.org/wiki/Pan%C4%8Devo' target='_blank'>Pančevo</a>, a town at the confluence of two rivers, Danube and Tamiš. It is also a story about the joy of creation itself."
 
 <a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>Traditionally animated</a>, <span class='italic-style'>The Tale of a Town</span> was created for the celebration of 850 years of Pančevo. Youth Centre Pančevo produced the film and 
- <a href='https://www.imdb.com/name/nm1383706/' target='_blank'>Vladimir Uspenski</a> helped me with sound design and editing.  
+ <a href='https://www.imdb.com/name/nm1383706/' target='_blank'>Vladimir Uspenski</a> helped me with sound design and editing. I owe special thanks to film director <a href='https://www.pancevac-online.rs/arhiva/index.php?module=section&issue_id=313&id=15' target='_blank'>Radiša Stanišić</a> for his wholehearted support.  
 
 The film was screened in Serbia and Greece. It won several awards in Serbia, including the Best Animation Award at the Belgrade Documentary and Short Film Festival, City of Niš Award for the Best National Animated Film, and the City of Pančevo November Award for Achievement in Art. <mark>&#9632;</mark>

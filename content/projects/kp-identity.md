@@ -34,12 +34,18 @@ team:
       name: Lazar Pašćanović
     - link: 'http://www.thetravelclub.org/about-the-club'
       name: Klub putnika (The Travel Club)    
+publications:
+    - year: 2014
+      pubs:
+        - link: "http://www.klubputnika.org/zbirka/putoskop/3726-znak-kluba-putnika" 
+          linked: The Travel Club Symbol
+          name: "Essay in Serbian (<span class='italic-style'>Znak Kluba putnika</span>), KlubPutnika.org"
 presentation_title: Presentations
 presentations:
     - year: 2014
       events:
         - name: <span class='italic-style'>SHARE Conference</span>, Belgrade, Serbia
-        - name: <span class='italic-style'>KSET, Klub studenata tehnike</span>, Zagreb, Croatia
+        - name: <span class='italic-style'>KSET</span>, Zagreb, Croatia
         - name: <span class='italic-style'>Museum of Vojvodina</span>, Novi Sad, Serbia
         - name: <span class='italic-style'>Kriterion</span>, Sarajevo, BiH
     - year: 2015
@@ -62,14 +68,20 @@ img_data:
       caption: "Presentation with Lazar Pašćanović @ SHARE Conference, Belgrade, Serbia"
     - size: "960x638"
       caption: "Presentation @ SHARE Conference, Belgrade, Serbia"
-lead: "Generative identity design for <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), the biggest community in the Balkans for non-commodified travel culture. Identity was created by <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a>, <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a>, and me. Algorithmically generated in real-time, its infinite shapes represent the infinite number of possible geographic paths each human being creates by traversing the common planet Earth."
+lead: "Generative identity design for <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), an independent Balkan centre for non-commodified travel culture. Identity was created by <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a>, <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a>, and me. Lines are generated algorithmically, in real time, and every time are different. Endless variety of lines represent unique geographic paths that each human being draws by traversing the common planet."
 
-“Bantustan” is also an example of ergodic literature, since it contains hand-drawn maps and infographics which represent an interface for non-linear reading. The book was published in 3 editions (by now) and was presented in more than 30 cities across the Yugoslav region.
+By moving and travelling, every human draws lines. Whether one moves to another room or another continent, a new line is formed. These lines are invisible. We imagined what would happen if they were visible (for instance, if every human carried a <a href='/work/project/goai-gps'>GPS device</a> all the time). A collection of these geographic lines, unique for each individual, would form an encyclopedia of human geography, a multi-billion page atlas of migration footprints.
 
-Literary critics and writers such as Vasa Pavković and Elis Bektaš described it as a new form of a novel.  
+This was the original concept for the visual identity of The Travel Club, a community that promotes individual, subjective, creative, and anti-industrial vision of traveling, where an act of traveling is not an act of tourism but an act of understanding and feeling the globe we share. An act of developing a deeper sensibility of geographical, climate, economic, production, and technological systems we live in. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+<a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a> and me conceptualized the identity, <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a> designed several visual examples, and I've made the algorithmic generative version.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Software creates a new logo design every time, honoring the idea of each person's uniqueness. Built with <a href='https://d3js.org/' target='_blank'>D3.js</a>, it extends the tradition of generative logos (for example, the ones of the Serbian <a href='https://www.cpn.edu.rs/en/' target='_blank'>Centre for the Promotion of Science</a> and <a href='https://vimeo.com/110380013' target='_blank'>MIT Media Lab</a>), recontextualizing it within travel culture.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+The idea of a unique geographic footprint was later developed through <a href='/work/projects/category/geography'>experimental geography</a> projects of mine, such as the <a href='/work/project/geoselfportrait'>Geo-Self-Portrait</a>, a meticulously drawn line of all the paths I've traversed since I was born.
+
+One of the inspiration came from the literature of <a href='https://en.wikipedia.org/wiki/Danilo_Ki%C5%A1' target='_blank'>Danilo Kiš</a>, a writer who played with the idea of a <span class='italic-style'>literary database</span> long before the Internet. Here is a quote from his <a href='https://memoryoftheworld.org/#/book/cd543663-9929-4b5a-8732-3a06ba6a9ae0' target='_blank'><span class='italic-style'>Encyclopedia of the Dead</span></a>:
+
+<div class='quoted-text padding-right-fixed tiny-quote-style'><p>After all – and this what I consider the compilers' central message – nothing in the history of mankind is ever repeated, things that at first glance seem the same are scarcely even similar; each individual is a star unto himself, everything happens always and never, all things repeat themselves ad infinitum yet are unique. (That is why the authors of the majestic monument that is <span class='italic-style'>The Encyclopedia of the Dead</span> stress the particular; that is why every human being is sacred to them.)</p></div>
+
+The Travel Club identity concept was presented on several festivals and events in Serbia, Bosnia, and Croatia, including the SHARE Conference and the Museum of Vojvodina popular anthropology programme. <mark>&#9632;</mark>

@@ -56,6 +56,6 @@ img_data:
       caption: "Kadar iz filma"
 lead: "Kratki animirani film o stvaranju Pančeva, ravničarskog grada na ušću Tamiša i Dunava. Jednostavna priča o radosti stvaranja."
 
-<a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>Tradicionalno animirana</a>, <span class='italic-style'>Priča o jednom gradu</span> napravljena je povodom proslave 850 godina grada Pančeva. Dom omladine Pančevo producirao je film a <a href='https://www.imdb.com/name/nm1383706/' target='_blank'>Vladimir Uspenski</a> pomogao mi je oko dizajna i obrade zvuka.  
+<a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>Tradicionalno animirana</a>, <span class='italic-style'>Priča o jednom gradu</span> napravljena je povodom proslave 850 godina grada Pančeva. Dom omladine Pančevo producirao je film, a <a href='https://www.imdb.com/name/nm1383706/' target='_blank'>Vladimir Uspenski</a> pomogao mi je oko dizajna i obrade zvuka. Posebnu zahvalnost dugujem reditelju <a href='https://www.pancevac-online.rs/arhiva/index.php?module=section&issue_id=313&id=15' target='_blank'>Radiši Stanišiću</a> na podršci.
 
 Film je prikazan na festivalima u Srbiji i Grčkoj. Dobio je nekoliko nagrada, uključujući Nagradu za najbolju animaciju domaćeg filma na Beogradskom festivalu dokumentarnog i kratkometražnog filma, Novembarsku nagradu grada Pančeva za umetničko postignuće i Nagradu grada Niša za najbolji nacionalni animirani film. <mark>&#9632;</mark>

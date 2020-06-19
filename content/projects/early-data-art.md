@@ -55,7 +55,7 @@ img_data:
       caption: "Earliest world maps I've made"
     - size: "1600x1141"
       caption: "Map of the house and the yard where I grew up."
-lead: "My first drawings were maps, graphs, and charts. Here is a selection of the earliest such art I've drawn when I was 5 years old. It was a starting point for <a href='/work/projects/category/data-art'>data art</a>, <a href='/work/projects/category/dataviz'>dataviz</a>, <a href='/work/projects/category/cartography'>experimental cartography</a>, <a href='/work/projects/category/geography'>geography</a>, and <a href='/work/projects/category/interactive'>interactive art and design</a> projects I'm involved in today."
+lead: "My first drawings were maps, graphs, and charts. Here is a selection of the earliest such art I've drawn when I was 6 years old. It was a starting point for <a href='/work/projects/category/data-art'>data art</a>, <a href='/work/projects/category/dataviz'>dataviz</a>, <a href='/work/projects/category/cartography'>experimental cartography</a>, <a href='/work/projects/category/geography'>geography</a>, and <a href='/work/projects/category/interactive'>interactive art and design</a> projects I'm involved in today."
 
 Drawing a map is a child's way of orienting oneself. This collection involves different maps – different levels of geographical identification. A map of the house and the yard in the city of <a href='https://en.wikipedia.org/wiki/Pan%C4%8Devo' target='_blank'>Pančevo</a> where I grew up. A map of the region of <a href='https://en.wikipedia.org/wiki/South_Banat_District' target='_blank'>South Banat</a>. A map of Europe, the World, the Solar System.
 

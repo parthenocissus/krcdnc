@@ -33,21 +33,27 @@ team:
     - link: 'http://www.klubputnika.org/autori/Lazar'
       name: Lazar Pašćanović
     - link: 'http://www.thetravelclub.org/about-the-club'
-      name: Klub putnika (The Travel Club)    
+      name: Klub putnika (The Travel Club)
+publications:
+    - year: 2014
+      pubs:
+        - link: "http://www.klubputnika.org/zbirka/putoskop/3726-znak-kluba-putnika" 
+          linked: Znak Kluba putnika
+          name: "Esej ili dizajnerska eksplikacija, KlubPutnika.org"    
 presentation_title: Prezentacije
 presentations:
     - year: 2014
       events:
-        - name: SHARE konferencija, Beograd, Srbija
-        - name: KSET, Zagreb, Hrvatska
-        - name: Muzej Vojvodine, Novi Sad, Srbija
-        - name: Kriterion, Sarajevo, BiH
+        - name: <span class='italic-style'>SHARE konferencija</span>, Beograd, Srbija
+        - name: <span class='italic-style'>KSET</span>, Zagreb, Hrvatska
+        - name: <span class='italic-style'>Muzej Vojvodine</span>, Novi Sad, Srbija
+        - name: <span class='italic-style'>Kriterion</span>, Sarajevo, BiH
     - year: 2015
       events:
-        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
+        - name: <span class='italic-style'>Seminar dizajna</span>, Istraživačka stanica Petnica, Srbija
     - year: 2017
       events:
-        - name: Department za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd
+        - name: <span class='italic-style'>Department za digitalne umetnosti</span>, Fakultet za medije i komunikacije, Beograd
 img_to_show: 3       
 img_data:
     - size: "550x548"
@@ -62,14 +68,20 @@ img_data:
       caption: "Predavanje sa Lazarom Pašćanovićem @ SHARE konferencija, Beograd, Srbija"
     - size: "960x638"
       caption: "Predavanje @ SHARE konferencija, Beograd, Srbija"
-lead: "Dizajn identiteta za <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a> (<a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a>), the biggest community in the Balkans for travel writers, creators, and independent travellers."
+lead: "Generativni dizajn identiteta za <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>, centar za nezavisnu i neprofitnu kulturu putovanja. Identitet smo kreirali <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a>, <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a> i ja. Linija se generiše algoritamski, u realnom vremenu, i svaki je put drugačija. Različite linije predstavljaju jedinstvene geografske putanje koje svako od nas nacrta krećući se po zajedničkoj planeti."
 
-“Bantustan” is also an example of ergodic literature, since it contains hand-drawn maps and infographics which represent an interface for non-linear reading. The book was published in 3 editions (by now) and was presented in more than 30 cities across the Yugoslav region.
+Krećući se i putujući, svaki čovek crta linije. Bilo da ode u drugu sobu ili na drugi kontinent, nova linija se formira. Ove su linije nevidljive. Pokušali smo da zamislimo kako bi izgledale da jesu vidljive (da, primera radi, svaki čovek sve vreme nosi <a href='/rad/projekti/goai-gps'>GPS uređaj</a> sa sobom). Kolekcija ovih geografskih linija, jedinstvenih za svakog pojedinca, formirala bi enciklopediju ljudske geografije, atlas tragova ljudskih kretanja i migracija, atlas od nekoliko desetina milijardi stranica.
 
-Literary critics and writers such as Vasa Pavković and Elis Bektaš described it as a new form of a novel.  
+Ovo je bio originalni koncept za vizuelni identitet Kluba putnika, zajednice koja promoviše individualnu, subjektivnu, kreativnu, nekomodifikovanu i anti-industrijsku viziju putovanja. Tu putovanje nije čin turizma nego čin razumevanja, opažanja i osećanja zajedničke planete koju svi delimo. Čin razvijanja dubljeg senzibiliteta prema geografskim, klimatskim, ekonomskim, proizvodnim i tehnološkim sistemima unutar kojih živimo, a koji su svi globalni. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+Identitet smo konceptualizovali <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a> i ja. <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a> je dizajnirala nekoliko vizuelnih primera, a ja sam isprogramirao algoritamsku generativnu verziju.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Računarski program svaki put iznova generiše novi dizajn, shodno ideji da je trag svakog ljudskog stvorenja jedinstven. Napisan uz pomoć tehnologije <a href='https://d3js.org/' target='_blank'>D3.js</a>, program se poziva na tradiciju generativnih linijskih logoa (tu je, primera radi, logo <a href='https://www.cpn.edu.rs' target='_blank'>Centra za promociju nauke</a> i laboratorije <a href='https://vimeo.com/110380013' target='_blank'>MIT Media Lab</a>), stavljajući je u kontekst kulture putovanja.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Ideju jedinstvenog geografskog otiska kasnije sam razvio kroz svoje projekte u oblasti <a href='/rad/projekti/category/geography'>eksperimentalne geografije</a>, kao što je <a href='/rad/projekti/geoselfportrait'>Geoautopotret</a>, minuciozno nacrtana linija svih putanja koje sam prešao i proputovao otkad sam se rodio.
+
+<a href='http://www.kis.org.rs/biografija.htm' target='_blank'>Danilo Kiš</a>, pisac koji se davno pre Interneta bavio idejom <span class='italic-style'>književnih baza podataka</span>, napisao je u svojoj <a href='https://memoryoftheworld.org/#/book/cd543663-9929-4b5a-8732-3a06ba6a9ae0' target='_blank'><span class='italic-style'>Enciklopediji mrtvih</span></a>:
+
+<div class='quoted-text padding-right-fixed tiny-quote-style'><p>Jer – a to je mislim osnovna poruka sastavljača Enciklopedije – nikad se ništa ne ponavlja u istoriji ljudskih bića, sve što se na prvi pogled čini da je isto jedva da je slično; svaki je čovek zvezda za sebe, sve se događa uvek i nikad, sve se ponavlja beskrajno i neponovljivo. (Stoga sastavljači Enciklopedije mrtvih, tog veličanstvenog spomenika različitosti, insistiraju na pojedinačnom, zato im je svako ljudsko stvorenje svetinja.)</p></div>
+
+Koncept identiteta Kluba putnika predstavljen je na nekoliko festivala i događaja u Srbiji, Hrvatskoj i BiH, uključujući SHARE konferenciju u Beogradu i program popularne antropologije Muzeja Vojvodine u Novom Sadu. <mark>&#9632;</mark>

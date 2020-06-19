@@ -55,7 +55,7 @@ img_data:
       caption: "Prve mape"
     - size: "1600x1141"
       caption: "Mapa kuće i okućnice u kojoj sam odrastao"
-lead: "Moji prvi crteži bili su mape, dijagrami i grafikoni. Ovo je selekcija takvih crteža koje sam nacrtao kad sam imao 5 godina. Bila je to polazna tačka za današnje projekte u oblastima <a href='/rad/projekti/category/data-art'>data umetnosti</a>, <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka</a>, <a href='/rad/projekti/category/cartography'>eksperimentalne kartografije</a>, <a href='/rad/projekti/category/geography'>geografije</a> i <a href='/rad/projekti/category/interactive'>interaktivne umetnosti i dizajna</a>."
+lead: "Moji prvi crteži bili su mape, dijagrami i grafikoni. Ovo je selekcija takvih crteža koje sam nacrtao kad sam imao 6 godina. Bila je to polazna tačka za današnje projekte u oblastima <a href='/rad/projekti/category/data-art'>data umetnosti</a>, <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka</a>, <a href='/rad/projekti/category/cartography'>eksperimentalne kartografije</a>, <a href='/rad/projekti/category/geography'>geografije</a> i <a href='/rad/projekti/category/interactive'>interaktivne umetnosti i dizajna</a>."
 
 Crtajući mape, dete se orijentiše. Ova kolekcija dečjih crteža uključuje različite mape – različite nivoe geografske identifikacije. Tu je mapa pančevačke kuće i okućnice gde sam odrastao. Mapa Južnobanatske regije. Mapa Evrope, sveta, Sunčevog sistema.
 
