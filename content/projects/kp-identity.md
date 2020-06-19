@@ -72,6 +72,8 @@ lead: "Generative identity design for <a href='http://www.thetravelclub.org/abou
 
 By moving and travelling, every human draws lines. Whether one moves to another room or another continent, a new line is formed. These lines are invisible. We imagined what would happen if they were visible (for instance, if every human carried a <a href='/work/project/goai-gps'>GPS device</a> all the time). A collection of these geographic lines, unique for each individual, would form an encyclopedia of human geography, a multi-billion page atlas of migration footprints.
 
+It is similar to <a href='https://en.wikipedia.org/wiki/Brownian_motion' target='_blank'>Brownian motion</a>: if we imagine humans as particles, our society could be seen as a liquid field. Each new relationship starts a chemical reaction that can inspire a new angle, a new path.
+
 This was the original concept for the visual identity of The Travel Club, a community that promotes individual, subjective, creative, and anti-industrial vision of traveling, where an act of traveling is not an act of tourism but an act of understanding and feeling the globe we share. An act of developing a deeper sensibility of geographical, climate, economic, production, and technological systems we live in. 
 
 <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a> and me conceptualized the identity, <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a> designed several visual examples, and I've made the algorithmic generative version.

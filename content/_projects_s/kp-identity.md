@@ -72,6 +72,8 @@ lead: "Generativni dizajn identiteta za <a href='http://www.klubputnika.org/o-kl
 
 Krećući se i putujući, svaki čovek crta linije. Bilo da ode u drugu sobu ili na drugi kontinent, nova linija se formira. Ove su linije nevidljive. Pokušali smo da zamislimo kako bi izgledale da jesu vidljive (da, primera radi, svaki čovek sve vreme nosi <a href='/rad/projekti/goai-gps'>GPS uređaj</a> sa sobom). Kolekcija ovih geografskih linija, jedinstvenih za svakog pojedinca, formirala bi enciklopediju ljudske geografije, atlas tragova ljudskih kretanja i migracija, atlas od nekoliko desetina milijardi stranica.
 
+To je slično <a href='https://sr.wikipedia.org/sr-el/%D0%91%D1%80%D0%B0%D1%83%D0%BD%D0%BE%D0%B2%D0%BE_%D0%BA%D1%80%D0%B5%D1%82%D0%B0%D1%9A%D0%B5' target='_blank'>Braunovom kretanju</a>: ukoliko ljude zamislimo kao čestice, naše bi društvo bilo gas ili fluid. Svaki novi razgovor, svaki novi susret između ljudi, izaziva hemijsku reakciju i može da proizvede novi ugao i novu putanju.
+
 Ovo je bio originalni koncept za vizuelni identitet Kluba putnika, zajednice koja promoviše individualnu, subjektivnu, kreativnu, nekomodifikovanu i anti-industrijsku viziju putovanja. Tu putovanje nije čin turizma nego čin razumevanja, opažanja i osećanja zajedničke planete koju svi delimo. Čin razvijanja dubljeg senzibiliteta prema geografskim, klimatskim, ekonomskim, proizvodnim i tehnološkim sistemima unutar kojih živimo, a koji su svi globalni. 
 
 Identitet smo konceptualizovali <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a> i ja. <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a> je dizajnirala nekoliko vizuelnih primera, a ja sam isprogramirao algoritamsku generativnu verziju.

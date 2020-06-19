@@ -118,6 +118,10 @@ main a:hover {
     letter-spacing: 0.2pt;
 }
 
+.author {
+    line-height: 2.1em !important;
+}
+
 /* Project Name in List */
 
 .project-name-in-list-style {
