@@ -46,8 +46,8 @@ press:
     - year: 2017
       events:
         - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
-          linked: Intervju
-          name: Vizkultura.hr, autor Bojan Krištofić      
+          linked: Suočiti se s halabukom sveta
+          name: Intervju, Vizkultura.hr, autor Bojan Krištofić      
 img_to_show: 1  
 img_data:
     - size: "960x615"
