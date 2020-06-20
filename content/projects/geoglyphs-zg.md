@@ -39,8 +39,8 @@ press:
     - year: 2017
       events:
         - link: 'https://vizkultura.hr/suociti-se-s-halabukom-svijeta/'
-          linked: Interview
-          name: Vizkultura.hr, author Bojan Krištofić
+          linked: Confronting the Chaos of the World
+          name: Interview (in Serbo-Croatian), Vizkultura.hr, author Bojan Krištofić
 img_to_show: 3       
 img_data:
     - size: "1600x1063"
@@ -57,10 +57,14 @@ img_data:
       caption: "Workshop @ Plan D, Zagreb, 2017. Photo: Ivona Petrov."
     - size: "1024x724"
       caption: "A drawing from the workshop, Zagreb, 2017. Photo: Ivona Petrov."   
-lead: "A three day workshop at <a href='https://2017.pland.hr/' target='_blank'>Plan D Festival, Zagreb</a> connecting the old practice of <a href='https://en.wikipedia.org/wiki/Nazca_Lines' target='_blank'>South-American Nazca lines</a> with the new media practice of <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS drawing</a> — creating lines by walking or cycling with a GPS device."
+lead: "A three day workshop at the <a href='https://2017.pland.hr/' target='_blank'>Plan D</a> Conference connecting the ancient practice of South-American <a href='https://en.wikipedia.org/wiki/Nazca_Lines' target='_blank'>Nazca geoglyphs</a>, making large scale designs in the ground, with the new media practice of <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS art</a>, making city-size drawings with a GPS tracking device."
 
-The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? 
+Developed and run by Ivona Petrov and me, the workshop was articulated through a series of questions: 
 
-What are these modern geoglyphs telling us about our urban environments and dataspaces we inhabit? 
+If Nazca people drew monkeys and whales, what are we drawing for our gods? What are these modern geoglyphs telling us about our urban environments and dataspaces we inhabit? Is the <a href='https://en.wikipedia.org/wiki/Quantified_Self' target='_blank'>Quantified Self</a> movement subversive or conformist? Could self-surveillance surpass data fetishism and become a way of developing deeper sensibility towards technological systems we inhabit? What are the tactics – in <a href="https://monoskop.org/images/2/2a/De_Certeau_Michel_The_Practice_of_Everyday_Life.pdf" target="_blank">De Certeau’s terms</a> – we can employ as creative individuals living within these huge systems?
 
-What are the tactics (in <a href="https://monoskop.org/images/2/2a/De_Certeau_Michel_The_Practice_of_Everyday_Life.pdf" target="_blank">De Certeau’s terms</a>) we can employ as creative individuals living within huge technological systems? And what is the aesthetics of these tactics? <mark>&#9632;</mark>
+Before we started drawing with GPS devices and apps, we talked about diverse map-related projects, books, and practices, mentioning authors and artists such as <a href='https://www.brainpickings.org/2009/10/16/the-map-as-art/' target='_blank'>K. Harmon</a>, <a href="https://en.wikipedia.org/wiki/Michel_de_Certeau" target="_blank">M. de Certau</a>, <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>P. Turchi</a>, <a href='https://en.wikipedia.org/wiki/Guy_Debord' target='_blank'>G. Debord</a>, <a href='https://www.e-flux.com/announcements/38923/experimental-geography/' target='_blank'>N. Thompson</a>, <a href='http://number27.org/biography' target='_blank'>J. Harris</a>, and many others. 
+
+The second day of the workshop was devoted to exploring the urban environment and making the actual designs. On the third day we organized a small exhibition and a discussion at the Technical Museum in Zagreb, where the Plan D Conference took place. 
+
+In addition to the workshop, I presented a related project, <a href='/work/projects/geoselfportrait'>Geo-Self-Portrait</a>, a detailed map of all geographical paths I've traversed since birth. <mark>&#9632;</mark>

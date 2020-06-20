@@ -193,10 +193,8 @@
                                             {% if e.link is defined %}
                                                 {% set lnkd = e.linked if e.linked is defined else "Link" %}
                                                 <span class='italic-style'>
-                                                    <a href='{{ e.link }}' target='_blank'>{{ lnkd }}
-                                                    </a></span>{{ ", " }}
-                                            {% endif %}
-                                            {{ e.name|safe }}
+                                                    <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
+                                            {% endif %}{{ e.name|safe }}
                                         </span>
                                     </li>
                                 {% endfor %}
