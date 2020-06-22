@@ -29,26 +29,26 @@ medium:
       name: Workshop
     - id: video
       name: Video
-presentation_title: Presentations
+presentation_title: Workshops
 presentations:
     - year: 2014
       events:
-        - name: Data Storytelling Workshop, Pravo Ljudski Festival, Sarajevo, BiH
+        - name: <span class='italic-style'>Data Storytelling Workshop</span> (in collaboration with Srđan Keča), Pravo Ljudski Festival, Sarajevo, BiH
     - year: 2015
       events:
-        - name: Point Conference, Sarajevo, BiH
-        - name: Youth Centre Pančevo, Serbia
+        - name: <span class='italic-style'>Data Stories Workshop</span>, Point Conference, Sarajevo, BiH
+        - name: <span class='italic-style'>Young Artists as Data Storytellers</span>, Youth Centre Pančevo, Serbia
     - year: 2016
       events:
-        - name: Datathon, K-Monitor, Budapest, Hungary
-        - name: Design Seminar, Petnica Science Center, Serbia
-        - name: Otvoreni parlament, Leskovac, Serbia
+        - name: <span class='italic-style'>Datathon</span>, K-Monitor, Budapest, Hungary
+        - name: <span class='italic-style'>Making Narratives with Digital Data</span>, Design Seminar, Petnica Science Center, Serbia
+        - name: <span class='italic-style'>Data Storytelling Workshop</span>, Open Parliament, Leskovac, Serbia
     - year: 2017
       events:
-        - name: Nova Iskra, Belgrade, Serbia
+        - name: <span class='italic-style'>Data Storytelling and Data Art</span>, Nova Iskra, Belgrade, Serbia
     - year: 2018
       events:
-        - name: Nova Iskra, Belgrade, Serbia
+        - name: <span class='italic-style'>What are Data Stories?</span>, Nova Iskra, Belgrade, Serbia
 img_to_show: 3       
 img_data:
     - size: "1082x604"
@@ -59,15 +59,18 @@ img_data:
       caption: "Data Storytelling Workshop @ K-Monitor, Budapest, Hungary"
     - size: "1082x604"
       caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, Belgrade"
-lead: "A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+lead: "Workshops that combine storytelling and databases. Data-driven design as a narrative form. Journalists as cartographers, writers as chart makers, film directors as data communicators, poets as statisticians. In the network age, no narrative form stays untouched by data."
 
-Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
+Peter Turchi claims that <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>writers are similar to cartographers</a>. As a co-author and illustrator of <a href='/work/projects/bantustan-book'><span class='italic-style'>Bantustan: The Atlas of a Journey</span></a>, an interactive prose book with a lot of maps and infographics, I couldn't agree more.
 
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
+This workshop is devoted to the narrative art of communicating insights gained from data analysis. We choose a data sourse, do the analysis, formulate insights, and than try to find the most effective way of communicating these insights. In other words, we're trying to tell a story that includes numbers and measurements.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+We mention different dataviz technologies (such as <a href='https://d3js.org/' target='_blank'>D3.js</a>, <a href='https://processing.org/' target='_blank'>Processing</a>, <a href='https://p5js.org/' target='_blank'>P5.js</a>, <a href='https://www.tableau.com/' target='_blank'>Tableau</a>, and <a href='https://rawgraphs.io/' target='_blank'>Raw Graphs</a>), but the focus is on crafting a story, not on technology.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Special attention is payed to different ways of misleading the public via data stories. With its aura of objectivity and factfulness, the medium of data can be easily used to obfuscate as much as clarify. There are no perfect maps. That is something data storytellers should always keep in mind.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Data storytelling workshops were held in Serbia, Hungary, and Bosnia and Herzegovina. Participants were different kinds of storytellers – journalists, writers, Web designers, academics, film directors, and game designers. In parallel, I've conceptualized and led related workshops in <a href='/work/projects/dataviz-workshops'>Data Visualization</a> and <a href='physical-dataviz-workshops'>Physical Dataviz</a>.  
+
+Bellow is an example of <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Video Infographics</a>, a data-driven video story, I created for the <span class='italic-style'>Involved not Invalid</span> project led by <a href='https://yihr.org/' target='_blank'>YIHR</a> – Youth Initiative for Human Rights. <mark>&#9632;</mark>
+
+<iframe src="https://www.youtube.com/embed/T2PH3liBbpo?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>

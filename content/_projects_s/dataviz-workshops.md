@@ -46,7 +46,7 @@ presentations:
         - name: <span class='italic-style'>Vizuelizacija podataka za aktiviste</span>, Otvoreni parlament, Leskovac, Srbija
     - year: 2018
       events:
-        - name: <span class='italic-style'>Vizuelizacija podataka i generativna umetnost</span>, Nova Iskra, Beograd, Srbija
+        - name: <span class='italic-style'>Vizuelizacija podataka i generativna umetnost</span>, Nova iskra, Beograd, Srbija
     - year: 2019
       events:
         - name: <span class='italic-style'>Autorsko predavanje</span>, Departman za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd, Srbija

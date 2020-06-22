@@ -33,41 +33,44 @@ presentation_title: Radionice
 presentations:
     - year: 2014
       events:
-        - name: Festival Pravo Ljudski, Sarajevo, BiH
+        - name: <span class='italic-style'>Radionica data pripovedanja</span> (u saradnji sa Srđanom Kečom), Festival Pravo ljudski, Sarajevo, BiH
     - year: 2015
       events:
-        - name: Point Conference, Sarajevo, BiH
-        - name: Dom omladine Pančevo, Srbija
+        - name: <span class='italic-style'>Radionica data priča</span>, Point konferencija, Sarajevo, BiH
+        - name: <span class='italic-style'>Priče od podataka</span>, Dom omladine Pančevo, Srbija
     - year: 2016
       events:
-        - name: Dataton, K-Monitor, Budimpešta, Mađarska
-        - name: Seminar dizajn, Istraživačka stanica Petnica, Srbija
-        - name: Otvoreni parlament, Leskovac, Srbija
+        - name: <span class='italic-style'>Dataton</span>, K-Monitor, Budimpešta, Mađarska
+        - name: <span class='italic-style'>Kako se pričaju priče od podataka?</span>, Seminar dizajna, Istraživačka stanica Petnica, Valjevo, Srbija
+        - name: <span class='italic-style'>Radionica data pripovedanja</span>, Otvoreni parlament, Leskovac, Srbija
     - year: 2017
       events:
-        - name: Nova Iskra, Beograd, Srbija
+        - name: <span class='italic-style'>Data pripovedanje i data umetnost</span>, Nova iskra, Beograd, Srbija
     - year: 2018
       events:
-        - name: Nova Iskra, Beograd, Srbija
+        - name: <span class='italic-style'>Šta su data priče?</span>, Nova iskra, Beograd, Srbija
 img_to_show: 3       
 img_data:
     - size: "1082x604"
-      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Infografički video</a> za inicijativu InvolvedNotInvalid, Beograd"
+      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Infografički video</a> za inicijativu <span class='italic-style'>Involved Not Invalid</span>, Beograd"
     - size: "1000x667"
       caption: "Radionica i predavanje @ Point Conference, Sarajevo, BiH"
     - size: "729x729"
       caption: "Radionica @ K-Monitor, Budimpešta, Mađarska"
     - size: "1082x604"
-      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Infografički video</a> za inicijativu InvolvedNotInvalid, Beograd"
-lead: "Treba da se napiše... A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+      caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Infografički video</a> za inicijativu <span class='italic-style'>Involved Not Invalid</span>, Beograd"
+lead: "Radionice koje kombinuju baze podataka i veštinu pripovedanja. Dizajn podataka kao narativna forma. Novinari kao kartografi, pisci kao autori grafikona, filmski reditelji kao komunikatori podataka, pesnici kao statističari. U epohi mreže, digitalni podaci dotiču svaki oblik naracije."
 
-Example: <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, YIHR, Belgrade
+Peter Turchi tvrdi da su <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>pisci slični kartografima</a>. Kao koautor i ilustrator knjige <a href='/rad/projekti/bantustan-book'><span class='italic-style'>Bantustan: Atlas jednog putovanja</span></a>, interaktivne prozne knjige sa mnogo mapa i infografika, slažem se u potpunosti.
 
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
+Ova radionica posvećena je narativnoj veštini komunikacije uvida stečenih na osnovu analiza podataka. Radionica započinje izborom izvora podataka. Zatim obavljamo analizu, formulišemo uvide, a onda pokušavamo da nađemo najefektivniji način da ove uvide <span class='italic-style'>ispričamo</span>. Drugim rečima, pokušavamo da ispričamo priču od brojeva i mera.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+Pominjemo različite <span class='italic-style'>dataviz</span> tehnologije (kao što su <a href='https://d3js.org/' target='_blank'>D3.js</a>, <a href='https://processing.org/' target='_blank'>Processing</a>, <a href='https://p5js.org/' target='_blank'>P5.js</a>, <a href='https://www.tableau.com/' target='_blank'>Tableau</a> i <a href='https://rawgraphs.io/' target='_blank'>Raw Graphs</a>), ali fokus nije na tehnologiji, nego na pričanju priče.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Pažljivo obrađujemo načine uz pomoć kojih se može manipulisati podacima i pričama od podataka. Zahvaljujući auri objektivnosti i vernosti činjenicama, podatkovni medij lako može da se upotrebi za zamagljivanje istine isto koliko i za pojašnjenjet. Savršene mape ne postoje; svaka na izvestan način laže. To svi data pripovedači treba da imaju na umu. 
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Ovakve radionice vodio sam u Srbiji, Mađarskoj i Bosni i Hercegovini. Među učesnicima bilo je raznih pripovedača – novinara, pisaca, Veb dizajnera, akademskih radnika i dizajnera video igara. Uporedo s ovim radionicom, osmislio sam i vodio srodne radionice <a href='/rad/projekti/dataviz-workshops'>vizuelizacije podataka</a> i <a href='/rad/projekti/physical-dataviz-workshops'>fizičke vizuelizacije podataka</a>.  
+
+Sledi primer <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>video infografike</a>, video priče vođene podacima, koju sam kreirao za <span class='italic-style'>Involved not Invalid</span> project led by <a href='https://yihr.org/' target='_blank'>YIHR</a> – Inicijativu mladih za ljudska prava. <mark>&#9632;</mark>
+
+<iframe src="https://www.youtube.com/embed/T2PH3liBbpo?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>

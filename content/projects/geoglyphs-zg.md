@@ -1,5 +1,5 @@
 title: 
-    name: Geoglyphs of Zagreb
+    name: Zg Geoglyphs
 id: geoglyphs-zg
 date: 2017
 featured: 2
@@ -63,7 +63,7 @@ Developed and led by Ivona Petrov and me, the workshop was articulated through a
 
 If Nazca people drew monkeys and whales, what are we drawing for our gods? What are these modern geoglyphs telling us about our urban environments and dataspaces we inhabit? Is the <a href='https://en.wikipedia.org/wiki/Quantified_Self' target='_blank'>Quantified Self</a> movement subversive or conformist? Could self-surveillance surpass data fetishism and become a way of developing deeper sensibility towards technological systems we inhabit? What are the tactics – in <a href="https://monoskop.org/images/2/2a/De_Certeau_Michel_The_Practice_of_Everyday_Life.pdf" target="_blank">M. de Certeau’s terms</a> – we can employ as creative individuals living within these huge techno-systems of surveillance?
 
-Before we started drawing with GPS devices and apps, we talked about diverse map-related projects, books, and practices, mentioning authors and artists such as <a href='https://www.brainpickings.org/2009/10/16/the-map-as-art/' target='_blank'>K. Harmon</a>, <a href="https://en.wikipedia.org/wiki/Michel_de_Certeau" target="_blank">M. de Certau</a>, <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>P. Turchi</a>, <a href='https://en.wikipedia.org/wiki/Guy_Debord' target='_blank'>G. Debord</a>, <a href='https://www.e-flux.com/announcements/38923/experimental-geography/' target='_blank'>N. Thompson</a>, <a href='http://number27.org/biography' target='_blank'>J. Harris</a>, and many others. 
+Before we started drawing with GPS devices and apps, we talked about diverse map-related projects, books, and practices, mentioning authors and artists such as <a href='https://monoskop.org/images/b/b7/Wright_Stephen_ed_Datasthetics_How_To_Do_Things_With_Data.pdf' target='_blank'>S. Wright</a>, <a href='https://www.brainpickings.org/2009/10/16/the-map-as-art/' target='_blank'>K. Harmon</a>, <a href="https://en.wikipedia.org/wiki/Michel_de_Certeau" target="_blank">M. de Certau</a>, <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>P. Turchi</a>, <a href='https://en.wikipedia.org/wiki/Guy_Debord' target='_blank'>G. Debord</a>, <a href='https://www.e-flux.com/announcements/38923/experimental-geography/' target='_blank'>N. Thompson</a>, <a href='http://number27.org/biography' target='_blank'>J. Harris</a>, and many others. 
 
 The second day of the workshop was devoted to exploring the urban environment and making the actual designs. On the third day we organized a small exhibition and a discussion at the Technical Museum in Zagreb, where the Plan D Conference took place. 
 

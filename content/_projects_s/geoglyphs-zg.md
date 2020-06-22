@@ -1,5 +1,5 @@
 title: 
-    name: Zagrebački geoglifi
+    name: Zg geoglifi
 id: geoglyphs-zg
 date: 2017
 featured: 2
@@ -63,7 +63,7 @@ Radionicu smo osmislili i vodili Ivona Petrov i ja. Artikulisali smo je uz pomo�
 
 Ako je narod Naska crtao majmune i kitove, šta mi danas crtamo za svoje bogove? Šta ovi moderni geoglifi govore o našim urbanim okruženjima i data prostorima u kojima živimo? Da li je pokret <a href='https://en.wikipedia.org/wiki/Quantified_Self' target='_blank'><span class='italic-style'>kvantifikovanja sebe</span></a> subverzivan ili konformistički? Može li <span class='italic-style'>samo-nadzor</span> (<span class='italic-style'>self-surveillance</span>) da prevaziđe nivo data fetišizma i postane način na koji stičemo dublji senzibilitet spram tehnoloških sistema? Šta su taktike – u smislu koji im daje <a href="https://monoskop.org/images/2/2a/De_Certeau_Michel_The_Practice_of_Everyday_Life.pdf" target="_blank">de Certeau</a> – koje možemo da upotrebimo kao kreativni pojedinci koji žive unutar ovih nepreglednih tehno-sistema za nadzor?
 
-Pre nego što smo počeli da crtamo GPS uređajima i aplikacijama, razgovarali smo o raznovrsnim projektima, knjigama i praksama koje se bave mapiranjem. Obrađivali smo autore i umetnike kao što su <a href='https://www.brainpickings.org/2009/10/16/the-map-as-art/' target='_blank'>K. Harmon</a>, <a href="https://en.wikipedia.org/wiki/Michel_de_Certeau" target="_blank">M. de Certau</a>, <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>P. Turchi</a>, <a href='https://en.wikipedia.org/wiki/Guy_Debord' target='_blank'>G. Debord</a>, <a href='https://www.e-flux.com/announcements/38923/experimental-geography/' target='_blank'>N. Thompson</a>, <a href='http://number27.org/biography' target='_blank'>J. Harris</a> i drugi. 
+Pre nego što smo počeli da crtamo GPS uređajima i aplikacijama, razgovarali smo o raznovrsnim projektima, knjigama i praksama koje se bave mapiranjem. Obrađivali smo autore i umetnike kao što su <a href='https://monoskop.org/images/b/b7/Wright_Stephen_ed_Datasthetics_How_To_Do_Things_With_Data.pdf' target='_blank'>S. Wright</a>, <a href='https://www.brainpickings.org/2009/10/16/the-map-as-art/' target='_blank'>K. Harmon</a>, <a href="https://en.wikipedia.org/wiki/Michel_de_Certeau" target="_blank">M. de Certau</a>, <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>P. Turchi</a>, <a href='https://en.wikipedia.org/wiki/Guy_Debord' target='_blank'>G. Debord</a>, <a href='https://www.e-flux.com/announcements/38923/experimental-geography/' target='_blank'>N. Thompson</a>, <a href='http://number27.org/biography' target='_blank'>J. Harris</a> i drugi. 
 
 Drugi dan radionice bio je posvećen istraživanju urbanog okruženja i pravljenju konačnih GPS linija. Trećeg dana organizovali smo malu izložbu i diskusiju u zagrebačkom Tehničkom muzeju TMNT, gde se održavala konferencija Plan D. 
 
