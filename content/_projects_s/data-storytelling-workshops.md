@@ -69,7 +69,7 @@ Pominjemo različite <span class='italic-style'>dataviz</span> tehnologije (kao 
 
 Pažljivo obrađujemo načine uz pomoć kojih se može manipulisati podacima i pričama od podataka. Zahvaljujući auri objektivnosti i vernosti činjenicama, podatkovni medij lako može da se upotrebi za zamagljivanje istine isto koliko i za pojašnjenje. Savršene mape ne postoje; svaka na izvestan način laže. To data pripovedači treba da imaju na umu. 
 
-Ovakve radionice vodio sam u Srbiji, Mađarskoj i Bosni i Hercegovini. Među učesnicima bilo je raznih pripovedača – novinara, pisaca, Veb dizajnera, akademskih radnika i dizajnera video igara. Uporedo s ovim radionicom, osmislio sam i vodio srodne radionice <a href='/rad/projekti/dataviz-workshops'>vizuelizacije podataka</a> i <a href='/rad/projekti/physical-dataviz-workshops'>fizičke vizuelizacije podataka</a>.  
+Ovakve radionice vodio sam u Srbiji, Mađarskoj i Bosni i Hercegovini. Među učesnicima bilo je raznih pripovedača – novinara, pisaca, Veb dizajnera, akademskih radnika i dizajnera video igara. Uporedo s ovom radionicom, osmislio sam i vodio srodne radionice <a href='/rad/projekti/dataviz-workshops'>vizuelizacije podataka</a> i <a href='/rad/projekti/physical-dataviz-workshops'>fizičke vizuelizacije podataka</a>.  
 
 Sledi primer <a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>video infografike</a>, video priče vođene podacima, koju sam kreirao za projekat <span class='italic-style'>Involved not Invalid</span> u organiziciji udruženja <a href='https://yihr.org/' target='_blank'>YIHR</a> – Inicijative mladih za ljudska prava. <mark>&#9632;</mark>
 
