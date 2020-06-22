@@ -48,6 +48,9 @@ presentations:
     - year: 2013
       events:
         - name: <span class='italic-style'>International Conference on Learning Analytics and Knowledge</span>, Leuven, Belgium
+        - link: "https://point.zastone.ba/program/the-cause-uzrok-for-vizualization-how-to-make-data-on-census-or-scientific-papers-interesting/"
+          linked: How to Make Data on Census or Scientific Papers Interesting
+          name: Point Conference, Sarajevo, Bosnia and Herzegovina
 publications:
     - year: 2013
       pubs:

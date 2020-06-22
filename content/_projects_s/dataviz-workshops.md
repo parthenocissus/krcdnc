@@ -64,7 +64,7 @@ img_data:
       caption: "Radionica @ Nova Iskra, Beograd, Srbija"
     - size: "1000x667"
       caption: "Predavanje i radionica @ POINT Conference, Sarajevo, BiH"    
-lead: "Serija <a href='/rad/projekti/category/dataviz'><span class='italic-style'>dataviz</span></a> radionica, usmerenih ka polaznicima iz različitih oblasti. Uvod u <a href='https://en.wikipedia.org/wiki/Data_science' target='_blank'>nauku o podacima</a> i <a href='/rad/projekti/category/data-art'>podatkovnu umetnost</a>. Fokus na kreativnu upotrebu medija vizuelizacije podataka. Komunikacija podataka kroz više formi — interaktivna mapa, infografika, animirani video, itd."
+lead: "Serija <a href='/rad/projekti/category/dataviz'><span class='italic-style'>dataviz</span></a> radionica, usmerenih ka polaznicima iz različitih oblasti. Uvod u <a href='https://en.wikipedia.org/wiki/Data_science' target='_blank'><span class='italic-style'>data</span> nauku</a> i <a href='/rad/projekti/category/data-art'><span class='italic-style'>data</span> umetnost</a>. Fokus na kreativnu upotrebu medija vizuelizacije podataka. Komunikacija podataka kroz više formi — interaktivna mapa, infografika, animirani video, itd."
 
 Radionica se fokusira na razumevanje istinite, efektivne i afektivne komunikacije u kontekstu digitalnih podataka. Od istorijske kartografije do savremenih interaktivnih radova na Vebu, od data umetnosti do novinarstva vođenog podacima, radionica pokušava da odgovori na pitanje šta čini kvalitetan dizajn zasnovan na podacima. Posebnu pažnju poklanjamo razumevanju data propagande, načina na koji se jezik grafikona i dijagrama može upotrebiti radi manipulacije javnosti.
 
