@@ -59,7 +59,7 @@ img_data:
       caption: "A drawing from the workshop, Zagreb, 2017. Photo: Ivona Petrov."   
 lead: "A three day workshop at the <a href='https://2017.pland.hr/' target='_blank'>Plan D</a> Conference connecting the ancient practice of South-American <a href='https://en.wikipedia.org/wiki/Nazca_Lines' target='_blank'>Nazca geoglyphs</a>, making large scale designs in the ground, with the new media practice of <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS art</a>, making city-size drawings with a GPS tracking device."
 
-Developed and run by Ivona Petrov and me, the workshop was articulated through a series of questions: 
+Developed and led by Ivona Petrov and me, the workshop was articulated through a series of questions: 
 
 If Nazca people drew monkeys and whales, what are we drawing for our gods? What are these modern geoglyphs telling us about our urban environments and dataspaces we inhabit? Is the <a href='https://en.wikipedia.org/wiki/Quantified_Self' target='_blank'>Quantified Self</a> movement subversive or conformist? Could self-surveillance surpass data fetishism and become a way of developing deeper sensibility towards technological systems we inhabit? What are the tactics – in <a href="https://monoskop.org/images/2/2a/De_Certeau_Michel_The_Practice_of_Everyday_Life.pdf" target="_blank">M. de Certeau’s terms</a> – we can employ as creative individuals living within these huge techno-systems of surveillance?
 

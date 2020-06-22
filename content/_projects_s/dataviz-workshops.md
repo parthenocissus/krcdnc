@@ -33,23 +33,23 @@ presentation_title: Radionice
 presentations:
     - year: 2015
       events:
-        - name: Point Conference, Sarajevo, BiH
-        - name: Internews, Zagreb, Hrvatska
-        - name: Dom omladine Pančevo, Srbija
+        - name: <span class='italic-style'>Vizuelizacija podataka kao novi jezik</span>, Point konferencija, Sarajevo, BiH
+        - name: <span class='italic-style'>Uvod u vizuelizaciju podataka</span>, Internews, Zagreb, Hrvatska
+        - name: <span class='italic-style'>Radionica data umetnoti</span>, Dom omladine Pančevo, Srbija
     - year: 2016
       events:
-        - name: Vizuelizacija podataka za novinare, K-Monitor, Budimpešta, Mađarska
-        - name: Seminar dizajna, Istraživačka stanica Petnica, Srbija
+        - name: <span class='italic-style'>Vizuelizacija podataka za novinare i aktiviste</span>, K-Monitor, Budimpešta, Mađarska
+        - name: <span class='italic-style'>Vizuelizacija podataka za studente dizajna</span>, Seminar dizajna, Istraživačka stanica Petnica, Valjevo, Srbija
     - year: 2017
       events:
-        - name: Nova Iskra, Beograd, Srbija
-        - name: Otvoreni parlament, Leskovac, Srbija
+        - name: <span class='italic-style'>Umetnost vizuelizacije podataka</span>, Nova Iskra, Beograd, Srbija
+        - name: <span class='italic-style'>Vizuelizacija podataka za aktiviste</span>, Otvoreni parlament, Leskovac, Srbija
     - year: 2018
       events:
-        - name: Nova Iskra, Beograd, Srbija
+        - name: <span class='italic-style'>Vizuelizacija podataka i generativna umetnost</span>, Nova Iskra, Beograd, Srbija
     - year: 2019
       events:
-        - name: FMK, Beograd, Srbija
+        - name: <span class='italic-style'>Autorsko predavanje</span>, Departman za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd, Srbija
 img_to_show: 3       
 img_data:
     - size: "1084x608"
@@ -64,15 +64,16 @@ img_data:
       caption: "Radionica @ Nova Iskra, Beograd, Srbija"
     - size: "1000x667"
       caption: "Predavanje i radionica @ POINT Conference, Sarajevo, BiH"    
-lead: "Serija radionica... A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops. A series of data visualization and data art workshops."
+lead: "Serija <a href='/rad/projekti/category/dataviz'><span class='italic-style'>dataviz</span></a> radionica, usmerenih ka polaznicima iz različitih oblasti. Uvod u <a href='https://en.wikipedia.org/wiki/Data_science' target='_blank'>nauku o podacima</a> i <a href='/rad/projekti/category/data-art'>podatkovnu umetnost</a>. Fokus na kreativnu upotrebu medija vizuelizacije podataka. Komunikacija podataka kroz više formi — interaktivna mapa, infografika, animirani video, itd."
 
-Example: <a href='https://www.youtube.com/watch?v=pYyaMJ2aN2o' target='_blank'>Animated Infographics</a> for Open Parliament, CRTA, Belgrade
+Radionica se fokusira na razumevanje istinite, efektivne i afektivne komunikacije u kontekstu digitalnih podataka. Od istorijske kartografije do savremenih interaktivnih radova na Vebu, od data umetnosti do novinarstva vođenog podacima, radionica pokušava da odgovori na pitanje šta čini kvalitetan dizajn zasnovan na podacima. Posebnu pažnju poklanjamo razumevanju data propagande, načina na koji se jezik grafikona i dijagrama može upotrebiti radi manipulacije javnosti.
 
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
+Koristimo različite alate, od olovaka, drvenih boja i telefonskih kamera do programerskih tehnologija kao što su <a href='https://d3js.org/' target='_blank'>D3.js</a>, <a href='https://processing.org/' target='_blank'>Processing</a>, <a href='https://p5js.org/' target='_blank'>P5.js</a>, <a href='https://www.tableau.com/' target='_blank'>Tableau</a> i <a href='https://rawgraphs.io/' target='_blank'>Raw Graphs</a>. Softver je značajan alat; verujem, međutim, da je njegov značaj precenjen u ovoj oblasti. Ideje su važnije od alata.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+Tokom radionice ostavljamo prostor za polemiku o ulozi podataka u savremenom društvu. Verujem da treba da <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'>humanizujemo</a> podatkovne pristupe društvu, medijima i kulturi. Umetnik <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a> kaže u <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>svojim predavanjima</a> da vizuelizacija podataka, svodeći ljude na brojeve, može da deluje kao anestezija. Treba da budemo svesni ove opasnosti.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Radionice vizuelizacije podataka vodio sam u Srbiji, Mađarskoj, BiH i Hrvatskoj, za raznovrsne zajednice dizajnera, akademskih radnika, aktivista, novinara, zaposlenih u javnom sektoru, digitalnih umetnika, inženjera i učenika srednje škole. Uporedo sam osmislio i vodio srodne radionice <a href='/rad/projekti/data-storytelling-workshops'>data pripovedanja</a> i <a href='/rad/projekti/physical-dataviz-workshops'>fizičke vizuelizacije podataka</a>. Verujem da data vizuelizacija kao kreativni medij može i treba da bude otvorena za sve.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Sledi primer <a href='https://www.youtube.com/watch?v=pYyaMJ2aN2o' target='_blank'>animirane infografike</a> koju sam napravio za Otvoreni parlament, koji vodi beogradska organizacija <a href='https://crta.rs/en/' target='_blank'>CRTA</a> – Center for Research, Transparency, and Accountability. Video je kreiran posle <span class='italic-style'>dataviz</span> radionice koju sam pripremio za njih. <mark>&#9632;</mark>
+
+<iframe src="https://www.youtube.com/embed/pYyaMJ2aN2o?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>

@@ -30,10 +30,10 @@ presentations:
       events:
         - link: "https://re-publica.com/en/session/physical-data-visualisation-experience-design"
           linked: re:publika
-          name: Digital Culture Festival, MOMus, Thesalloniki, Greece + Berlin, Germany  
+          name: Internet and Digital Society Conference, MOMus, Thesalloniki, Greece + Berlin, Germany  
         - link: "http://vojnik.net/2017/"
           linked: Designer – Author or Universal Soldier
-          name: Design Conference, Ostavinska galerija, Belgrade, Serbia           
+          name: Design Conference, Ostavinska galerija, Belgrade, Serbia
 team:
     - link: https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/
       name: Isidora Nikolić
@@ -74,10 +74,14 @@ img_data:
       caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
     - size: "800x533"
       caption: "Designer – Author or Universal Soldier Conference @ Ostavinska galerija, Belgrade, Serbia, 2017."
-lead: "Small Data is a live exercise in manual small data analysis, created in contrast to automatic big data analysis."
+lead: "Small Data is a live performance, an exercise in manual small data analysis, created in contrast to automatic big data analysis. Conceptualized by <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidora Nikolić</a>, <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borut Vild</a>, <a href='http://www.scen.uns.ac.rs/?page_id=6681' target='_blank'>Mia David</a>, and me, it was performed at <a href='https://re-publica.com/en/session/physical-data-visualisation-experience-design' target='_blank'>re:publika</a> (MOMus, Thessaloniki) and the <a href='http://vojnik.net/2017/' target='_blank'>Soldier Design Conference</a> (Ostavinska Gallery, Belgrade)."
 
-The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? 
+What kind of a designer, artist or maker are you? Where do you position yourself on these scales: author—universal soldier; avantguarde—postmodern; idealist—realist; monochrome—colorful; hand—computer; words—images; team—solo; etc?
 
-What are these modern geoglyphs telling us about our urban environments and dataspaces we inhabit? 
+These dichotomies were presented as visual axis on five wall-sized <a href='https://datavizcatalogue.com/methods/scatterplot.html' target='_blank'>scatterplots</a>. Visitors were given five sticky black dot, one for each chart. They could position themselves by pasting dots on charts. After that, we made a statistical analysis. And a party.
 
-What are the tactics (in <a href="https://monoskop.org/images/2/2a/De_Certeau_Michel_The_Practice_of_Everyday_Life.pdf" target="_blank">De Certeau’s terms</a>) we can employ as creative individuals living within huge technological systems? And what is the aesthetics of these tactics? <mark>&#9632;</mark>
+The idea behind the project was to return the understanding of data to the hands of ordinary people, who are not data scientists. Instead of Big Data mystification, we offered Small Data tangibility. 
+
+This approach was inspired by manual and intimate dataviz projects, such as <a href='https://lithub.com/small-data-is-the-new-big-data/' target='_blank'><span class='italic-style'>Dear Data</span></a> by Giorgia Lupi and Stefani Posavec. 
+
+Small Data was installed and performed at MOMus, Thessaloniki, Greece, within Berlin-based GmbH’s <a href='https://re-publica.com/en/session/physical-data-visualisation-experience-design' target='_blank'>re:publika</a> Internet and Digital Society Conference, and at Ostavinska Gallery, Belgrade, Serbia, within the <a href='http://vojnik.net/2017/' target='_blank'>(Graphic) Designer – Author or Universal Soldier</a> Conference. <mark>&#9632;</mark>
