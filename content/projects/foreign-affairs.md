@@ -68,7 +68,9 @@ img_data:
       caption: "Foreign Affair's Interface, 2013"   
 lead: "Interactive data visualization that shows all travel expenses Serbian Minister of Foreign Affairs made during his tenure before 2013. It was a collaborative open data project between the Uzrok Design Studio and the <a href='https://birn.eu.com/' target='_blank'>BIRN</a> Investigative Journalism Team in Belgrade."
 
-Uzrok Studio was an interaction and information design and film production studio founded and led by Srđan Keča, Bojan Franzee Brankov, Luka Knežević-Strika, Jovan Vesić, and me. One of our projects was <span class='italic-style'>Foreign Affairs</span>, an interactive Web visualization of minister's travel expenses. The visualization was based on a data set provided by the <a href='https://birn.eu.com/' target='_blank'>BIRN</a> Investigative Journalism Team in Belgrade.
+Uzrok Studio was an interaction and information design and film production studio founded and led by Srđan Keča, Bojan Franzee Brankov, Luka Knežević-Strika, Jovan Vesić, and me. 
+
+One of our first projects was <span class='italic-style'>Foreign Affairs</span>, an interactive Web visualization of minister's travel expenses. The visualization was based on a data set provided by the <a href='https://birn.eu.com/' target='_blank'>BIRN</a> Investigative Journalism Team in Belgrade.
 
 When published on BIRN's portal <span class='italic-style'>Javno</span> in 2013, the visualization created a significant viral effect. 
 

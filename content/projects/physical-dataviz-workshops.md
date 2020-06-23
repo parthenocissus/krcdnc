@@ -1,6 +1,5 @@
 title: 
-    name: Physical Data Visualization Workshops
-    html: "Physical Data Visualization<br>Workshops"
+    name: Physical Dataviz Workshops
     short: Physical Dataviz
 id: physical-dataviz-workshops
 date: 2016
@@ -32,17 +31,22 @@ medium:
       name: Workshop
 team:
     - name: Isidora Nikolić
+      link: https://www.designed.rs/intervju/isidora_nikolic
     - name: Vesna Pejović
+      link: https://www.fsu.edu.rs/en/professor-vesna-pejovic/
 presentation_title: Presentations
 presentations:
     - year: 2016
       events:
-        - name: Design Seminar (Summer), Petnica Science Center, Serbia
-        - name: Design Seminar (Autumn), Petnica Science Center, Serbia
+        - name: <span class='italic-style'>Design Seminar</span> (Summer), Petnica Science Center, Serbia
+        - name: <span class='italic-style'>Design Seminar</span> (Autumn), Petnica Science Center, Serbia
     - year: 2017
       events:
-        - name: Design Seminar (Winter), Petnica Science Center, Serbia
-img_to_show: 2       
+        - name: <span class='italic-style'>Design Seminar</span> (Winter), Petnica Science Center, Serbia
+        - linked: "Physical Data Visualisation as Experience Design"
+          link: https://www.youtube.com/watch?v=wwGcl-aGzNc
+          name: re:publica, MOMus, Thessaloniki, Greece (in collaboration with Isidora Nikolić)
+img_to_show: 3       
 img_data:
     - size: "1200x801"
       caption: "Petnica, 2016."
@@ -56,13 +60,14 @@ img_data:
       caption: "Petnica, 2016."
     - size: "1200x801"
       caption: "Petnica, 2016."   
-lead: "A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
+lead: "A series of physical data visualization workshops at <a href='https://en.wikipedia.org/wiki/Petnica_Science_Center' target='_blank'>Petnica Science Center</a> Design Programme. Petnica is a renowned talent campus for young students, its design programme being a unique blend of design, art, science, and tech. Workshops were conceptualized by <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'>Isidora Nikolić</a>, <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a>, and me within the context of <a href='/work/projects/category/data-art'>Data Art</a>." 
 
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
+Since 2016 I work as a <a href='/work/teaching#petnica'>Senior Associate</a> at Petnica Science Center Design Programme. Petnica is a talent campus for high school students from Serbia and the Balkans, located between a forest, a lake, and a cave near the city of <a href='https://en.wikipedia.org/wiki/Valjevo' target='_blank'>Valjevo</a>. Yearly design programme in Petnica consists of several one- and two-week seminars, where 15-30 selected students learn about basics of design and other creative endeavours by making their own projects. Topics range from graphic, industrial, and interactive design to visual art, creative writing, creative coding, video and animation.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+Design Programme was founded by <a href='https://www.designed.rs/intervju/borut_vild' target='_blank'>Borut Vild</a> and developed by <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'> Isidora Nikolić</a> and <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a>. It is currently led by Saša Mitrović and Igor Rajković, with a group of exceptional junior assistents.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+The idea behind physical data visualization workshops is the humanization of data-driven approaches to society and culture. Drawing ideas from S. Wright’ <a href='https://monoskop.org/images/b/b7/Wright_Stephen_ed_Datasthetics_How_To_Do_Things_With_Data.pdf' target='_blank'><span class='italic-style'>Dataethetics</span></a> and G. Lupi’s <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'><span class='italic-style'>Data Humanism</span></a>, we inspired students to play with data in physical ways. Projects included cardboard relief cartography, <a href='https://datavizcatalogue.com/methods/treemap.html' target='_blank'>treemaps</a> made as painted metal objects, self-adhesive <a href='https://datavizcatalogue.com/methods/scatterplot.html' target='_blank'>scatterplots</a>, nail-and-string  <a href='https://datavizcatalogue.com/methods/non_ribbon_chord_diagram.html' target='_blank'>chord diagrams</a>, a fabulous research-based <a href='https://www.youtube.com/watch?v=befZ8n4domg' target='_blank'>animated video</a> about search terms Petnica students make, and many more.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+In his <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>TED talk</a>, artist <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a> said that by reducing people to numbers, dataviz can be anesthetizing. Instead of being an act of shallow <a href='https://en.wikipedia.org/wiki/Quantified_self#The_data_fetishist_critique' target='_blank'>data fetishism</a>, we believe this is a way of developing a deeper human sensibility towards technology and statistics.
+
+The best projects were presented at the Petnica exhbition of design students. In addition, Isidora Nikolić and me presented some of these projects during our talk at <a href='https://www.youtube.com/watch?v=wwGcl-aGzNc' target='_blank'>re:publika</a>, MOMus, Thessaloniki, Greece. <mark>&#9632;</mark>

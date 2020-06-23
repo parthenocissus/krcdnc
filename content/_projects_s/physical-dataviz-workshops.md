@@ -32,17 +32,22 @@ medium:
       name: Radionica
 team:
     - name: Isidora Nikolić
+      link: https://www.designed.rs/intervju/isidora_nikolic
     - name: Vesna Pejović
+      link: https://www.fsu.edu.rs/en/professor-vesna-pejovic/
 presentation_title: Prezentacije
 presentations:
     - year: 2016
       events:
-        - name: Seminar dizajna (letnji), Istraživačka stanica Petnica, Srbija
-        - name: Seminar dizajna (jesenji), Istraživačka stanica Petnica, Srbija
+        - name: <span class='italic-style'>Seminar dizajna</span> (letnji), Istraživačka stanica Petnica, Srbija
+        - name: <span class='italic-style'>Seminar dizajna</span> (jesenji), Istraživačka stanica Petnica, Srbija
     - year: 2017
       events:
-        - name: Seminar dizajna (zimski), Istraživačka stanica Petnica, Srbija
-img_to_show: 2       
+        - name: <span class='italic-style'>Seminar dizajna</span> (zimski), Istraživačka stanica Petnica, Srbija
+        - linked: "Physical Data Visualisation as Experience Design"
+          link: https://www.youtube.com/watch?v=wwGcl-aGzNc
+          name: re:publica, MOMus, Thessaloniki, Greece (u saradnji sa Isidorom Nikolić)
+img_to_show: 3       
 img_data:
     - size: "1200x801"
       caption: "Petnica, 2016."
@@ -56,13 +61,14 @@ img_data:
       caption: "Petnica, 2016."
     - size: "1200x801"
       caption: "Petnica, 2016."   
-lead: "Serija radionica posvećenih... A series of physical data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
+lead: "Serija radionica fizičke vizuelizacije podataka na Seminaru dizajnu <a href='http://petnica.rs/' target='_blank'>Istraživačke stanice Petnica</a>. U okruženju kampusa za mlade naučnike, petnički program dizajna predstavlja jedinstvenu mešavinu dizajna, umetnosti, nauke i tehnologije. Radionice smo osmislili <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'>Isidora Nikolić</a>, <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a> i ja u kontekstu <a href='/rad/projekti/category/data-art'>data umetnosti</a>." 
 
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
+Od 2016. radim kao <a href='/rad/edukacija#petnica'>stručni saradnik na Seminaru dizajna</a> Istraživačke stanice Petnica. Kao priznati obrazovni centar za domaće i strane srednjoškolce i studente, Petnica se nalazi nadomak Valjeva, između šume, pećine i jezera. Program dizajna obuhvata nekoliko seminara tokom godine, na kojima 15-30 izabranih srednjoškolaca zajedno uči o dizajnu i drugim kreativnim disciplinama kroz samostalni i grupni rad na projektima. Teme obuhvataju grafički, industrijski i digitalni dizajn, vizuelne umetnosti, interaktivnost, kreativno pisanje, kreativno kodiranje, video i animaciju.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+Seminar dizajna osmislili su i razvili <a href='https://www.designed.rs/intervju/borut_vild' target='_blank'>Borut Vild</a>, <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'>Isidora Nikolić</a> i <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a>. Program trenutno vode Saša Mitrović i Igor Rajković zajedno sa grupom izuzetnih mlađih saradnika.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Ideja vodilja radionica fizičke vizuelizacije podataka jeste humanizacija tehnocentričnih pristupa društvu i kulturi, zasnovanih na digitalnim podacima. Inspirisani <a href='https://monoskop.org/images/b/b7/Wright_Stephen_ed_Datasthetics_How_To_Do_Things_With_Data.pdf' target='_blank'><span class='italic-style'>Data estetikom</span></a> S. Wrighta i <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'><span class='italic-style'>Data humanizmom</span></a> G. Lupi, podstakli smo studente da se igraju digitalnim podacima na fizičke, analogne načine. U projekte spadaju reljefne mape od kartona, <a href='https://datavizcatalogue.com/methods/treemap.html' target='_blank'><span class='italic-style'>treemap</span> grafikoni</a> od oslikanih metalnih objekata, samolepljivi <a href='https://datavizcatalogue.com/methods/scatterplot.html' target='_blank'>dijagrami rasejanja</a>, <a href='https://datavizcatalogue.com/methods/non_ribbon_chord_diagram.html' target='_blank'><span class='italic-style'>chord</span> dijagrami</a> od eksera i konca, <a href='https://www.youtube.com/watch?v=befZ8n4domg' target='_blank'>animirani video</a> koji predstavlja kvalitativnu analizu istorije Internet pretraživanja u Petnici, kao i mnogi drugi.
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+U svom <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>TED predavanju</a>, umetnik <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a> kaže da vizuelizacija podataka može da nas anestezira tako što ljude svodi na brojeve. Umesto površnog <a href='https://en.wikipedia.org/wiki/Quantified_self#The_data_fetishist_critique' target='_blank'>data fetišizma</a>, verujemo da je su ovakve vežbe način da razvijemo dublji, <span class='italic-style'>ljudski</span> senzibilitet spram tehnologije i statistike.
+
+Najbolje projekte predstavili smo na izložbi polaznika petničkog Seminara dizajna. Osim toga, Isidora Nikolić i ja predstavili smo ove projekte na konferenciji <a href='https://www.youtube.com/watch?v=wwGcl-aGzNc' target='_blank'>re:publika</a> u muzeju MOMus u Solunu, u Grčkoj. <mark>&#9632;</mark>

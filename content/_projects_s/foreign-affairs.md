@@ -68,7 +68,9 @@ img_data:
       caption: "Interfejs aplikacije, 2013"   
 lead: "Interaktivna vizuelizacija podataka koja prikazuje putne troškove koje je napravio Ministar spoljnih poslova Republike Srbije do 2013. Zajednički projekat dizajn studija Uzrok i <a href='https://birn.eu.com/' target='_blank'>BIRN-ovih</a> istraživačkih novinara."
 
-Studio Uzrok bio je studio za dizajn interakcija i informacija, kao i produkciju filmova, koji smo osnovali i vodili Srđan Keča, Bojan Franzee Brankov, Luka Knežević-Strika, Jovan Vesić i ja. Kao jedan od naših prvih projekata, ova aplikacija predstavlja interaktivnu vizuelizaciju podataka o putnim troškovima Ministra spoljnih poslova Republike Srbije. Vizuelizacija je zasnovana na bazi podataka koju su obezbedili istraživački novinari iz organizacije <a href='https://birn.eu.com/' target='_blank'>BIRN</a> u Beogradu.
+Studio Uzrok bio je studio za dizajn interakcija i informacija, kao i produkciju filmova, koji smo osnovali i vodili Srđan Keča, Bojan Franzee Brankov, Luka Knežević-Strika, Jovan Vesić i ja. 
+
+Kao jedan od naših prvih projekata, ova aplikacija predstavlja interaktivnu vizuelizaciju podataka o putnim troškovima Ministra spoljnih poslova Republike Srbije. Vizuelizacija je zasnovana na bazi podataka koju su obezbedili istraživački novinari iz organizacije <a href='https://birn.eu.com/' target='_blank'>BIRN</a> u Beogradu.
 
 Kada ju je 2013. BIRN objavio na svom portalu <span class='italic-style'>Javno</span>, ova vizuelizacija brzo je postala viralna. 
 
