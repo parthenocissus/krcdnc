@@ -35,11 +35,19 @@ team:
       name: Vesna Pejović
     - link: https://fmk.singidunum.ac.rs/profesori/borut-vild/
       name: Borut Vild
-presentation_title: Radionica
+presentation_title: Radionica + prezentacije
 presentations:
     - year: 2015
       events:
-        - name: <span class='italic-style'>Seminar dizajna</span>, Istraživačka stanica Petnica, Srbija
+        - name: <span class='italic-style'>Radionica Petnička stabla</span>, Seminar dizajna, Istraživačka stanica Petnica, Srbija
+    - year: 2017
+      events:
+        - linked: "Physical Data Visualisation as Experience Design"
+          link: https://www.youtube.com/watch?v=wwGcl-aGzNc
+          name: re:publica, MOMus, Thessaloniki, Greece (u saradnji sa Isidorom Nikolić)
+    - year: 2018
+      events:
+        - name: <span class='italic-style'>Autorsko predavanje</span>, Nova iskra, Beograd, Srbija
 img_to_show: 3       
 img_data:
     - size: "868x1324"
@@ -54,13 +62,20 @@ img_data:
       caption: "Radionica. Petnica, 2015. Foto: Igor Rajković."
     - size: "1268x749"
       caption: "Završna infografika, detalj. Petnica, 2015. Foto: Igor Rajković."   
-lead: "Radionica posvećena... data visualization and data art workshops, organized as a part of the Design Seminar in the Petnica Science Center, a talent campus for young students."
+    - size: "635x960"
+      caption: "Veličanstveni crni bor, najstarije drvo u Petnici, 2015."
+    - size: "717x960"
+      caption: "Veličanstveni crni bor, najstarije drvo u Petnici, 2015."   
+lead: "Radionica i timski projekat <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka</a> i <a href='/rad/projekti/category/data-art'>data umetnosti</a>. Od prikupljanja, analize i mapiranja podataka o svakom drvetu u <a href='http://petnica.rs/' target='_blank'>Istraživačkoj stanici Petnica</a>, do zajedničke izrade prelepog rukom crtanog grafikona koji prikazuje prečnike svih stabala u razmeri 1 : 1."
 
-In the 21<sup>st</sup> century Serbia film theaters are getting shut down one by one, so moving images have to
-be moved as in the 19<sup>th</sup> century – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mechanically</a>.
+Od 2016. radim kao <a href='/work/teaching#petnica'>stručni saradnik na petničkom Seminaru dizajna</a>, jedinstvenoj obrazovnoj mešavini dizajna, umetnosti, nauke i tehnologije. Petnički kampus nalazi se između šume, jezera i pećine, nedaleko od Valjeva. Seminar dizajna osnovao je <a href='https://www.designed.rs/intervju/borut_vild' target='_blank'>Borut Vild</a> a razvile su ga <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'>Isidora Nikolić</a> i <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a>. Ovu radionicu osmislio sam i vodio u saradnji s njima.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus eget massa a ornare. Ut lacinia magna non orci ornare, sed tempor ultrices. Maecenas id dolor nunc. Aenean commodo facilisis luctus. Vivamus vestibulum arcu eu ante porttitor malesuada. Vivamus sit amet ultricies lorem, eleifend vestibulum augue. Praesent quis nulla pulvinar, faucibus ligula eget, condimentum dolor. Fusce in aliquet libero.
+Inspirisani autorima i umetnicima kao što su <a href='https://monoskop.org/images/b/b7/Wright_Stephen_ed_Datasthetics_How_To_Do_Things_With_Data.pdf' target='_blank'>Stephen Wright</a> i <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'>Giorgia Lupi</a>, rukovodili smo se idejom humanizacije tehnocentrične <span class='italic-style'>data</span> paradigme.
 
-Pellentesque ultricies nisi et consectetur tristique. Suspendisse vitae massa vel dui dignissim mattis. Nullam dignissim accumsan ex vitae hendrerit. Pellentesque lacus sem, vestibulum id arcu quis, consectetur pharetra ipsum. Donec sem nibh, molestie vel purus a, malesuada pharetra magna. Maecenas eget neque congue, laoreet lectus vel, feugiat libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Radionica je započela merenjem svakog drveta u okviru petničke stanice. Konačna baza podataka sadržala je podatke o bezmalo 100 stabala: obim stabla, procenjena visina krošnje, vrsta drveta, itd. Statistička analiza otkrila je da među drvećem postoje tri klastera: mladice, posađene 2011. tokom obnove kampusa; zrela stabla, posađena 1982. kada je osnovana Istraživačka stanica Petnica; i stari divovi, davno zasađeni pored crkve i škole starog petničkog sela. Najstarije drvo sa najširim stablom je veličanstven <a href='/static/media/projects/petnica-trees/img/petnica-trees06.jpg' target='_blank'>crni bor</a>, star nekoliko stotina godina.  
 
-Nulla facilisi. Integer fermentum porta lectus id convallis. Maecenas condimentum nunc turpis, nec rutrum massa dictum at. <mark>&#9632;</mark>
+Finalnu vizuelizaciju nacrtali smo rukom, uz pomoć improvizovanog šestara. Za svako drvo nacrtali smo krug onolikog obima koliko je njegovo stablo. Krugovi su povezani sa listovima, koji ukazuju na vrstu drveta. Savršena razmera 1 : 1 stvara suptilan emocionalni efekat kod posmatrača – kao da gledaju sliku <span class='italic-style'>kolektivnih godova</span>, jedinstven kolektivni portret koji se preklapa, apstraktni portret jedne male šume.
+
+Rad je bio izložen u holu stanice. Nekoliko godina kasnije, pljusak ga je uništio.
+
+Ovaj projekat predstavio sam na više konferencija i događaja, kao što su <a href='https://www.youtube.com/watch?v=wwGcl-aGzNc' target='_blank'>re:publika</a> (MOMus, Solun, Grčka) i autorsko predavanje u Novoj iskri (Beograd, Srbija). <mark>&#9632;</mark>
