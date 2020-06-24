@@ -1,8 +1,8 @@
 title: 
-    name: Mapa beogradskih kafana iz Enciklopedije mrtvih
-    html: "Mapa beogradskih kafana<br>iz Enciklopedije mrtvih"
-    short: Mapa beogradskih kafana
-    name_project_list: Mapa beogradskih kafana iz Enciklopedije mrtvih
+    name: Enciklopedija mrtvih kafana
+    html: "Enciklopedija mrtvih kafana"
+    short: Enciklopedija mrtvih kafana
+    name_project_list: Enciklopedija mrtvih kafana
 id: kis-kafanas
 date: 2015
 featured: 2
@@ -31,25 +31,43 @@ medium:
       name: Radionica
     - id: map
       name: Rukom crtana kartografija
-presentation_title: Prezentacije
+presentation_title: Radionica + prezentacije
 presentations:
     - year: 2015
       events:
-        - name: Mapa kao medij, Tačka komunikacije @ Magacin MKM, Beograd, Srbija
-img_to_show: 2       
+        - name: <span class='italic-style'>Mapa kao medij</span>, konferencija Tačke komunikacije, Kulturni centar Magacin, Beograd, Srbija
+    - year: 2018
+      events:
+        - name: <span class='italic-style'>Autorsko predavanje</span>, Nova iskra, Beograd, Srbija
+    - year: 2019
+      events:
+        - name: <span class='italic-style'>Autorska prezentacija</span>, Departman za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd, Srbija
+img_to_show: 3       
 img_data:
     - size: "1600x1060"
       caption: "Završena mapa. Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
-    - size: "1600x1066"
-      caption: "Radionica. Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
     - size: "1000x1000"
       caption: "Mapa (detalj). Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
     - size: "1600x1066"
       caption: "Radionica. Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
-lead: "Tek treba da se napiše... research project and a hand-made data visualization that represents a map of Belgrade <a href='https://en.wikipedia.org/wiki/Kafana' target='_blank'>kafanas</a> (a traditional Balkan bistro) writer <a href='https://en.wikipedia.org/wiki/Danilo_Ki%C5%A1' target='_blank'>Danilo Kiš</a> mentions in his collection of stories <a href='https://en.wikipedia.org/wiki/The_Encyclopedia_of_the_Dead' target='_blank'>The Encyclopedia of the Dead</a>."
+    - size: "1600x1066"
+      caption: "Radionica. Magacin MKM, Beograd, 2015. Foto: Jelena Mijić."
+lead: "Vizuelizacija podataka kao omaž <a href='https://sh.wikipedia.org/wiki/Danilo_Ki%C5%A1' target='_blank'>Danilu Kišu</a>. Istraživački projekat i rukom crtana mapa beogradskih kafana koje Kiš pominje u <a href='https://memoryoftheworld.org/#/book/cd543663-9929-4b5a-8732-3a06ba6a9ae0' target='_blank'><span class='italic-style'>Enciklopediji mrtvih</span></a>. Projekat je nastao na radionici, tokom konferencije <span class='italic-style'>Mapa kao medij</span> 2015."
 
-The workshop was structured through a series of questions, such as: If the people of old Nazca drew monkeys and whales, what are we drawing for ours gods (i.e. ourselves)? 
+U svojoj književnosti, <a href='http://www.kis.org.rs/biografija.htm' target='_blank'>Danilo Kiš</a> služio se podacima, dokumentima, enciklopedijskim crticama, dokumentarnim zapisima, spiskovima, brojevima, kartonima evidencije, ličnim pismima, redovima vožnje. U izvesnom smislu, bila je to <span class='italic-style'>data</span> književnost. Umetnost oblikovanja priče na osnovu baza podataka.   
 
-What are these modern geoglyphs telling us about our urban environments and dataspaces we inhabit? 
+Za potrebe beogradske konferencije <span class='italic-style'>Mapa kao medij</span>, koju je organizovalo udruženje <a href='http://tackakomunikacije.org/' target='_blank'>Tačka komunikacije</a>, bio sam pozvao da osmislim autorsku radionicu koja se drži slične poetike. U <a href='https://memoryoftheworld.org/#/book/cd543663-9929-4b5a-8732-3a06ba6a9ae0' target='_blank'><span class='italic-style'>Enciklopediji mrtvih</span></a>, objavljenoj 1983. godine, Kiš crta <span class='italic-style'>topografski kroki</span> svoje epohe i Beograda tako što nabraja imena tada značajnih <a href='https://en.wikipedia.org/wiki/Kafana' target='_blank'>kafana</a>, mesta koja igraju posebnu ulogu u kolektivnoj balkanskoj imaginaciji:
 
-What are the tactics (in <a href="https://monoskop.org/images/2/2a/De_Certeau_Michel_The_Practice_of_Everyday_Life.pdf" target="_blank">De Certeau’s terms</a>) we can employ as creative individuals living within huge technological systems? And what is the aesthetics of these tactics? <mark>&#9632;</mark>
+<div class='quoted-text padding-right-fixed2 tiny-quote-style'><p>Na jednom velikom sifonu za soda-vodu ispisao je, na akvamarinskoj osnovi, imena beogradskih kafana, slovima kakvim se beleže na mapama nazivi ostrva: Brioni, Boka, Galeb, Mornar, Zora, Srpska kafana, Vidin-kapija, Stambol-kapija, Skadarlija, Tri šešira, Dva jelena, Pod lipom, Tri grozda, Šumatovac, Sedam dana, Marš na Drinu, Kalemegdan, Kolarac, Domovina, Orač, Obrenovac, Oplenac, Dušanov grad, Ušće, Smederevo, Lovački rog, Znak pitanja, Poslednja šansa.</p></div>
+
+U ovim toponimima sadržana je čitava jedna fluidna istorija. Na početku radionice, zapitali smo se – gde su ove kafane danas? Trideset godina i nekoliko država kasnije. Da li postoje? Da li im se u međuvremenu promenio identitet? Ko je nekad u njih dolazio a ko dolazi sada? Kako su se društvene promene, identitetske i klasne, odrazile na ove ugostiteljske objekte? Možemo li, nakon svega, da napravimo jedan novomedijski, infografički omaž Kišovoj <a href='/rad/projekti/category/geography'>geografskoj</a> poeziji?
+
+Za početak, definisali smo odrednice identiteta jedne kafane: vizuelni identitet, cena, miris, geografska i klasna struktura gostiju, muzički žanr, sadržaj jelovnika, itd.
+
+Podatke smo prikupili na terenu. Obišli smo sve Kišove toponime. Na nekima se i dalje nalaze iste kafane, na drugima ugostiteljski objekti drukčijeg imena, dok su mnoge zamenjene bankama, kladionicama, pekarama, apotekama – klasičnim tranzicionim biznisima – ili su naprosto srušene.
+
+U pogledu identiteta, izdvojili smo četiri tipa: kafane koje su zadržale identitet u odnosu na Kišovo vreme; one koje su ga drastično promenile; one između; i one koje više ne postoje, <span class='italic-style'>kafane-utvare</span>. U pogledu <a href='https://sh.wikipedia.org/wiki/Dru%C5%A1tvena_klasa' target='_blank'>društvene klase</a>, tu su kafane za višu, srednju i nižu klasu, kao i kafane za turiste. Kao dodatni sadržaj uvrstili smo isečke iz razgovora sa konobarima.
+
+Mapu smo crtali i slikali rukom. Koristili smo grafitne olovke, tuš, vodene boje i kafu kao slikarsko sredstvo. Nastojali smo da prljava i fluidna vizuelnost odgovara ideji prljavih i fluidnih geografskih identiteta. 
+
+Projekat je predstavljen na završnoj izložbi konferencije <span class='italic-style'>Mapa kao medij</span> u <a href='https://kcmagacin.org/' target='_blank'>Kulturnom centru Magacin</a> u Beogradu. Često sam ga pominjao i kasnije, tokom svojih <a href='/rad/nastupi'>predavanja i javnih nastupa</a>, na fakultetu i drugde. <mark>&#9632;</mark>

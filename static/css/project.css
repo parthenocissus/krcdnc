@@ -444,6 +444,9 @@ figure img:hover {
 .padding-right-fixed {
     padding-right: 100px;
 }
+.padding-right-fixed2 {
+    padding-right: 120px;
+}
 
 .quoted-text p {
     padding-bottom: 8px;
