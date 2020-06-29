@@ -159,13 +159,11 @@
                             {% set show = "" if i < project.img_to_show else "hidden" %}
                             <figure class="{{ show ~ ' overburn-container' }}" itemprop="associatedMedia" itemscope
                                     itemtype="http://schema.org/ImageObject"
-                                    title="{{ params.project_captions.gallery_tooltip.start }} — {{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }}">
+                                    title="{{ params.project_captions.gallery_tooltip.start }} — {{ project.img_data|length }} {{ project.img_term }}">
                                 <a href="{{ url_for('static', filename=img_path) }}" data-size="{{ d.size }}"
                                    itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
                                     {% if i < project.img_to_show %}
-                                        <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail"
-                                             alt=""
-                                             title="{{ params.project_captions.gallery_tooltip.start }} → {{ project.img_data|length }} {{ params.project_captions.gallery_tooltip.end }}">
+                                        <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail">
                                         <div class="overburn"></div>
                                     {% endif %}
                                 </a>
