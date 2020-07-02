@@ -85,6 +85,8 @@ img_data:
       caption: "Generativna vizuelizacija podataka (screenshot)"
     - size: "782x606"
       caption: "Generativna vizuelizacija podataka (screenshot)"
+    - size: "782x605"
+      caption: "Generativna vizuelizacija podataka (screenshot)"
 lead: "Serija interaktivnih vizuelizacija podataka i generativnih infografika koje prate i prikazuju sve čitaoce knjige <a href='/rad/projekti/bantustan-book'><span class='italic-style'>Bantustan: atlas jednog putovanja</span></a>, ilustrovanog putopisa Lazara Pašćanovića, Marka Đedovića i mene."
 
 <a href='/rad/projekti/bantustan-book'><span class='italic-style'>Bantustan: atlas jednog putovanja</span></a> opisuje tromesečno putovanje kroz Srbiju, Bugarsku, Tursku, Siriju, Jordan, Egipat, Sudan, Keniju, Ugandu, Ruandu, D. R. Kongo, Tanzaniju, Zambiju i Namibiju. Knjiga predstavlja infografički međužanrovski narativ o fluidnim identitetima, neočekivanim vezama, <a href='/rad/projekti/kp-identity'>braunovskom</a> kretanju ljudskih čestica i pokušaju da zamislimo nove i drugačije kartografije ljudskih odnosa na zajedničkoj planeti.
