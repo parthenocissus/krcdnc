@@ -44,22 +44,22 @@ class LangUtil:
         return name
 
     def categories_html(self):
-        return self.__tag_html("pictodata", "category")
+        return self.__tag_html("pictodata", "category", "anchor")
 
     def roles_html(self):
-        return self.__tag_html("roles", "role")
+        return self.__tag_html("roles", "role", "role-anchor")
 
     def mediums_html(self):
-        return self.__tag_html("mediums", "medium")
+        return self.__tag_html("mediums", "medium", "medium-anchor")
 
-    def __tag_html(self, key, tag):
+    def __tag_html(self, key, tag, anchor):
         html = "<div class='list'>"
         l = len(self.data[key]) - 1
         for i, item in enumerate(self.data[key]):
             link = self.data["paths"]["projects"] + self.data["paths"][tag] + item["id"]
             slash = " / " if i < l else ""
             title = item["title"] if tag != "category" else item["name"]["title"]
-            html += "<a id='" + item["id"] + "-anchor' class='anchors' href='" + link + "'>" + title + "</a>" + slash
+            html += "<a id='" + item["id"] + "-" + anchor + "' class='anchors' href='" + link + "'>" + title + "</a>" + slash
         html += "</div>"
         return html
 

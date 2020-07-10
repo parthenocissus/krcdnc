@@ -26,7 +26,9 @@ role:
       name: Programer
 medium:
     - id: dataviz
-      name: Geo-vizuelni identitet 
+      name: Geo-vizuelni identitet
+    - id: software
+      name: Softver 
 team:
     - link: 'http://fud.edu.rs/monika-lang/'
       name: Monika Lang

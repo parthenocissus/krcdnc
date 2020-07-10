@@ -195,13 +195,13 @@
       "title": "Data Visualization",
       "case": "Data Visualization",
       "createsVerb": "makes",
-      "description": "While <a href='/work/projects/category/data-art'>Data Art</a> is personal and subjective, Data Visualization is communicative, informative, and useful. These are my dataviz projects — interactive visualizations, Web interfaces, physical maps, and workshops. Despite valid criticism, dataviz is still an important medium because it makes abstract systems and power structures visible and sensible."
+      "description": "While <a href='/work/projects/category/data-art'>Data Art</a> is personal and subjective, Data Visualization is communicative, informative, and useful. These are my dataviz projects — interactive visualizations, Web interfaces, physical maps, and workshops. Dataviz is an important medium because it makes abstract systems and power structures visible and sensible."
     },
     "nameS": {
       "title": "Vizuelizacija podataka",
       "case": "vizuelizacije podataka",
       "createsVerb": "kreira",
-      "description": "Dok je <a href='/rad/projekti/category/data-art'>data umetnost</a> lična i subjektivna, dizajn vizuelizacija podataka treba da bude komunikativan, informativan i koristan. Ovo su moji dataviz projekti — interaktivne vizuelizacije, Veb interfejsi, fizičke i analogne mape, kao i radionice na ove teme. Uprkos validnoj kritici, vizuelizacija podataka je i dalje relevantan medij jer apstraktne sisteme i strukture moći čini vidljivim i doživljivim."
+      "description": "Dok je <a href='/rad/projekti/category/data-art'>data umetnost</a> lična i subjektivna, dizajn vizuelizacija podataka je komunikativan, informativan i koristan. Ovo su moji dataviz projekti — interaktivne vizuelizacije, Veb interfejsi, fizičke i analogne mape, kao i radionice na ove teme. Vizuelizacija podataka je moćan medij jer apstraktne sisteme i strukture čini vidljivim i doživljivim."
     },
     "graphics": {
       "headcx": 4.67,
@@ -357,13 +357,13 @@
       "title": "Artificial Intelligence",
       "case": "Artificial Intelligence",
       "createsVerb": "programs",
-      "description": "During my studies of informatics at the University of Belgrade, I was interested in <a href='https://en.wikipedia.org/wiki/Generative_art' target='_blank'>generative models</a> and <a href='https://ieeexplore.ieee.org/document/6589580' target='_blank'>the affective computing paradigm</a> from the perspective of an engineer. Now I use this knowledge in the context of digital art and literature, believing we need to demystify and humanize AI. These are my AI-related projects."
+      "description": "During my studies of informatics at the University of Belgrade, I was interested in <a href='https://en.wikipedia.org/wiki/Generative_art' target='_blank'>generative models</a> and <a href='https://ieeexplore.ieee.org/document/6589580' target='_blank'>the affective computing paradigm</a> from the perspective of an engineer. Now I use this knowledge in the context of digital art and literature, believing we need to demystify and humanize AI."
     },
     "nameS": {
       "title": "Veštačka inteligencija",
       "case": "veštačku inteligenciju",
       "createsVerb": "programira",
-      "description": "Za vreme svojih informatičkih studija na Univerzitetu u Beogradu, bio sam zainteresovan za <a href='https://sr.wikipedia.org/wiki/Generativna_umetnost' target='_blank'>generativne modele</a> i <a href='https://ieeexplore.ieee.org/document/6589580' target='_blank'>afektivno računarstvo</a> iz pozicije inženjera. Sada ovo znanje koristim u kontekstu digitalne umetnosti i književnosti, nastojeći da demistifikujem i humanizujem veštačku inteligenciju. Ovde su izlistani takvi projekti."
+      "description": "Za vreme svojih informatičkih studija na Univerzitetu u Beogradu, bio sam zainteresovan za <a href='https://sr.wikipedia.org/wiki/Generativna_umetnost' target='_blank'>generativne modele</a> i <a href='https://ieeexplore.ieee.org/document/6589580' target='_blank'>afektivno računarstvo</a> iz pozicije inženjera. Sada ovo znanje koristim u kontekstu digitalne umetnosti i književnosti, nastojeći da demistifikujem i humanizujem veštačku inteligenciju."
     },
     "graphics": {
       "headcx": 8.5,

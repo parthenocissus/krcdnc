@@ -27,6 +27,8 @@ role:
 medium:
     - id: dataviz
       name: Geo-Based Visual Identity
+    - id: software
+      name: Softver 
 team:
     - link: 'http://fud.edu.rs/monika-lang/'
       name: Monika Lang

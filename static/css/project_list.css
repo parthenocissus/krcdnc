@@ -11,12 +11,12 @@
 .list-heading {
     display: grid;
     grid-template-columns: 74px auto;
-    margin: 100px 0 120px 0;
+    margin: 80px 0 80px 0;
 }
 
 .title .description {
-    width: calc(100% - 148px);
-    margin: 30px 0 0 0;
+    width: calc(100% - 70px);
+    margin: 12px 0 0 0;
 }
 
 .hovered {

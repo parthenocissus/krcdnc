@@ -124,7 +124,7 @@ let chartUtility = (function () {
             });
         }
 
-        let scale = 1.6,
+        let scale = 1.43,
             w = 17 * scale,
             h = 35 * scale;
 
@@ -207,11 +207,13 @@ let chartUtility = (function () {
                     d3.selectAll("#" + params.idPrefix + "-" + item.id).classed("sun-stroke-only", true);
                     d3.selectAll("#" + params.idPrefix + "-" + item.id + "Dot").classed("pictome-dot-sun", true);
                     d3.select(".project-categories").html(item.name.title);
+                    d3.select(".project-categories").style("opacity", 1);
                 },
                 rectMouseout: function () {
                     d3.selectAll("#" + params.idPrefix + "-" + item.id).classed("sun-stroke-only", false);
                     d3.selectAll("#" + params.idPrefix + "-" + item.id + "Dot").classed("pictome-dot-sun", false);
                     d3.select(".project-categories").html(langParams.project_captions.categories_title);
+                    d3.select(".project-categories").style("opacity", 0);
                 },
                 transformFn: function () {
                     return "translate(" + (pictoWidthPlusGap * i) + ",0) "
@@ -290,7 +292,7 @@ let chartUtility = (function () {
                 label: labels[i],
                 tx: labels[i].tx,
                 ty: 10 + yText,
-                tx2: labels[i].tx + 6,
+                tx2: labels[i].tx,
                 ty2: [firstLine + yText,
                     firstLine + lineH + yText,
                     firstLine + 2*lineH + yText],

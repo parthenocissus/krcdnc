@@ -1,14 +1,14 @@
 title: 
     name: Press
 id: press
-lead: "Press and media coverage. Selected interviews. Featured reviews."
+lead: "Press and media coverage.<br>Selected interviews.<br>Featured reviews."
 layout: 2
 data:
     - title: 0
       id: "venues"
       images:
-        - path: "media/pages/teaching02.jpg"
         - path: "media/projects/bantustan-book/img/bantustan-book29.jpg"
+        - path: "media/pages/teaching02.jpg"
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2019</div>
     <ul>

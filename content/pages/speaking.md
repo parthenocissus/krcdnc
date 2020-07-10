@@ -7,10 +7,10 @@ data:
     - title: 0
       id: "venues"
       images:
-        - path: "media/pages/teaching04.jpg"
-          name: "Nova Iskra, Belgrade, 2016"
         - path: "media/pages/speaking_mokrin02.jpg"
-          name: "TEDx Mokrin, Serbia, 2018" 
+          name: "TEDx Mokrin, Serbia, 2018"
+        - path: "media/pages/teaching04.jpg"
+          name: "Nova Iskra, Belgrade, 2016" 
         - path: "media/pages/speaking_fdu.jpg"
           name: "Faculty of Dramatic Arts, Belgrade, 2018"
         - path: "media/pages/speaking_moca.jpg"
@@ -25,7 +25,7 @@ data:
           name: "Point Conference, Sarajevo, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book10.jpg"
           name: "Museum of African Art, Belgrade, 2015"
-        - path: "media/projects/kp-identity/img/kp-identity03.jpg"
+        - path: "media/pages/speaking_booksa.jpg"
           name: "Booksa, Zagreb, 2015"
         - path: "media/projects/bantustan-book/img/bantustan-book25.jpg"
           name: "Palach, Rijeka, 2015"
