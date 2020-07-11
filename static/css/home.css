@@ -36,7 +36,7 @@ main {
 
 .main-container {
     /*width: 440px;*/
-    width: 60vh;
+    width: 52vh;
     color: var(--darkcolor);
     transition: 0.18s;
     transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -49,7 +49,7 @@ main {
 }
 
 .homepage-text-style {
-    font-size: 2.7vh;
+    font-size: 2.3vh;
 }
 
 .main-pictome {
@@ -64,7 +64,7 @@ main {
 }
 
 .short-bio {
-    padding: 6vh 0 56px 0;
+    padding: 6vh 0 60px 0;
 }
 
 .flowerchart {
@@ -251,6 +251,22 @@ main {
 .bio-break-footer-sh {
     display: none;
 }
+
+
+/* Middle Size Laptops */
+@media only screen and (min-width: 769px) and (max-width: 1200px)   {
+
+
+    .main-container {
+        width: 60vh;
+    }
+
+    .homepage-text-style {
+        font-size: 2.7vh;
+    }
+
+}
+
 
 
 /* Tablet & Mobile */
