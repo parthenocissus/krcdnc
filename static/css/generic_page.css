@@ -56,7 +56,7 @@
     color: var(--lightcolor);
     background-color: var(--darkcolor);
     margin: 0;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 60px 0;
 
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -115,6 +115,7 @@
 
 .footer .footer-pictogram .main-pictome {
     padding: 0 20px;
+    display: block;
     justify-self: center;
     align-self: center;
     text-align: center;
@@ -158,6 +159,7 @@
 .footer .bio {
     grid-area: bio;
     display: block;
+    padding-right: 20px;
     border-left: var(--lightcolor) solid 1px;
 }
 

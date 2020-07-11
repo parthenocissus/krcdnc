@@ -64,11 +64,11 @@ main {
 }
 
 .short-bio {
-    padding: 6vh 0 10vh 0;
+    padding: 6vh 0 8vh 0;
 }
 
 .flowerchart {
-    padding-bottom: 5vh;
+    padding-bottom: 4vh;
 }
 
 .flowerchart svg {

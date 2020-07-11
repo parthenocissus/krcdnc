@@ -132,4 +132,7 @@ Synesketch je dobio nagrade Međunarodne asocijacije za digitalne medije i umetn
  
 Softver je otvoren za dalji razvoj u Java i Processing zajednicama. Objavljen je pod licencom <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GNU General Public License</a> (verzija 2 ili poznija). Ukoliko u svom radu referencirate Synesketch, molim vas da citirate jednu od referenci koje se nalaze u sekciji <span class='italic-style'>Publikacije</span> na ovoj stranici. <mark>&#9632;</mark>
 
-<iframe src="https://www.youtube.com/embed/u5kznE6kYmc?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe><div class="quote-block"><div class="quote1 quote-upper-dash">Ukucajte poeziju Johna Hegleya. Dobre su šanse da će se pojaviti živopisni raznobojni vrtlog. Ukucajte poznije radove Sylvie Plath. Stvoriće se sasvim drugačiji vizuelni vajb.<p class="by">— <a href='https://www.creativereview.co.uk/' target='_blank'>Creative Review</a>, vol. 28 num. 11, 2008</p></div></div>
+<iframe src="https://www.youtube.com/embed/u5kznE6kYmc?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>
+<div class="quote-block">
+<div class="quote1 quote-upper-dash">Ukucajte poeziju Johna Hegleya. Dobre su šanse da će se pojaviti živopisni raznobojni vrtlog. Ukucajte poznije radove Sylvie Plath. Stvoriće se sasvim drugačiji vizuelni vajb.<p class="by">— <a href='https://www.creativereview.co.uk/' target='_blank'>Creative Review</a>, vol. 28 num. 11, 2008</p></div>
+</div>

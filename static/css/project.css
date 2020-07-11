@@ -80,7 +80,7 @@
     grid-area: in;
     justify-items: center;
     text-align: center;
-    padding: 0 14% 60px 14%;
+    padding: 0 13% 60px 13%;
 }
 
 /* Column Container */
@@ -437,7 +437,7 @@ figure img:hover {
     display: block;
     width: 100%; !important;
     height: 277px !important;
-    padding: 20px 0 0 0;
+    padding: 32px 0 20px 0;
 }
 
 /* Quotes */
@@ -482,7 +482,8 @@ figure img:hover {
 /* Down Quotes */
 
 .quote-block {
-    margin: 10px 0 46px 0;
+    padding: 10px 0 26px 0;
+    margin: 0;
 }
 
 .quote1 {
