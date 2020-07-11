@@ -151,6 +151,7 @@ The artwork is an homage to surrealist literary pastiches and parodies of <a hre
 
 The name itself, <span class='italic-style'>I Do Not Wish To Be Loved, I Wish Everyone Loved Leaves</span>, comes as an ironic comment on a plant-like cyber-utopia of endless hypertext fractal branching. Despite <a href='https://en.wikipedia.org/wiki/Cyber-utopianism' target='_blank'>cyber-utopian dreams</a>, the reality of new technologies for quantification of human life is far from an expressionist paradise. 
 
-In a world that imposes metrics upon every human endeavor, it is the responsibility of artists and writers to reappropriate these quantification tools and invent new ways of seeing, reading, making, interacting – new ways of creating meaning.
- <mark>&#9632;</mark>
+In a world that imposes metrics upon every human endeavor, it is the responsibility of artists and writers to reappropriate these quantification tools and invent new ways of seeing, reading, making, interacting – new ways of creating meaning. <mark>&#9632;</mark>
+<div class="quote-block">
 <div class="quote1">This art project is a heroic act of both preserving legacy and creating contemporary interpretations.<p class="by">— <a href='https://curatorsintl.org/collaborators/maja_ciric' target='_blank'>Maja Ćirić</a>, curator and art critic</p></div>
+</div>

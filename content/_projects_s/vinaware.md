@@ -148,4 +148,6 @@ Evo primera literarnog teksta koji sam kreirao na ovaj način:
 Naziv rada <span class='italic-style'>Ja nisam više željan da me ko voli, nego da svi zavole lišće</span> izabran je kao ironični komentar na utopiju razgranatih nelinearnih hipertekstova. Uprkos <a href='https://en.wikipedia.org/wiki/Cyber-utopianism' target='_blank'>snovima Internet vizionara</a>, da li je stvarnost novih tehnologija za kvantifikaciju života uistinu <span class='italic-style'><a href='http://www.klubputnika.org/zbirka/vremeplov/3759-objasnjenje-sumatre-1920' target='_blank'>sumatraistička</a>?</span>
 
 Na umetnicima i piscima je da primene ove softverske alate za merenje ljudskog duha, vrate ih u prostor humanog, duhovitog, subverzivnog i nežnog, i izmisle nove načine gledanja, čitanja, pravljenja, sarađivanja – nove načine proizvodnje značenja. <mark>&#9632;</mark>
+<div class="quote-block">
 <div class="quote1">Ovaj umetnički poduhvat herojski je čin koji istovremeno štiti nasleđe i stvara savremene interpretacije.<p class="by">— <a href='https://curatorsintl.org/collaborators/maja_ciric' target='_blank'>Maja Ćirić</a>, kustoskinja i likovna kritičarka</p></div>
+</div>

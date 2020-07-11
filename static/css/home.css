@@ -64,12 +64,11 @@ main {
 }
 
 .short-bio {
-    padding: 6vh 0 60px 0;
+    padding: 6vh 0 10vh 0;
 }
 
 .flowerchart {
-    /*cursor: pointer;*/
-    padding-bottom: 25px;
+    padding-bottom: 5vh;
 }
 
 .flowerchart svg {
@@ -254,7 +253,7 @@ main {
 
 
 /* Middle Size Laptops */
-@media only screen and (min-width: 769px) and (max-width: 1200px)   {
+@media only screen and (min-width: 769px) and (max-width: 1380px)   {
 
 
     .main-container {

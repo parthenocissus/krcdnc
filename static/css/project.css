@@ -434,9 +434,10 @@ figure img:hover {
 /* Video */
 
 .article-text iframe {
-    width: calc(100% - 0px); !important;
+    display: block;
+    width: 100%; !important;
     height: 277px !important;
-    padding: 10px 0 0px 0;
+    padding: 20px 0 0 0;
 }
 
 /* Quotes */
@@ -478,14 +479,18 @@ figure img:hover {
     line-height: 26px;
 }
 
+/* Down Quotes */
+
+.quote-block {
+    margin: 10px 0 46px 0;
+}
+
 .quote1 {
-    /*font-family: CartographSans-XBoldItalic;*/
     font-family: Ambit-BoldItalic;
     font-size: 13pt;
-    /*line-height: 1.6em;*/
     line-height: auto;
     letter-spacing: 0.06pt;
-    padding: 20px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .quote1 .by {

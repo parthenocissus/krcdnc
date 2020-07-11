@@ -133,4 +133,7 @@ Synesketch was awarded by the International Digital Media and Arts Association, 
  
 The software is free and open for further development by Java and Processing communities. It is published under <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GNU General Public License (version 2 or later)</a>. When referencing Synesketch in your work, please use one of the citations from the Publications sections of this page. <mark>&#9632;</mark>
 
-<iframe src="https://www.youtube.com/embed/u5kznE6kYmc?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe><div class="quote1 quote-upper-dash">Type in a John Hegley poem and the chances are a brightly coloured swirl of happy visuals will appear. Type in some of Sylvia Plath’s later work, and a different visual vibe will be created.<p class="by">— <a href='https://www.creativereview.co.uk/' target='_blank'>Creative Review</a>, vol. 28 num. 11, 2008</p></div>
+<iframe src="https://www.youtube.com/embed/u5kznE6kYmc?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>
+<div class="quote-block">
+<div class="quote1 quote-upper-dash">Type in a John Hegley poem and the chances are a brightly coloured swirl of happy visuals will appear. Type in some of Sylvia Plath’s later work, and a different visual vibe will be created.<p class="by">— <a href='https://www.creativereview.co.uk/' target='_blank'>Creative Review</a>, vol. 28 num. 11, 2008</p></div>
+</div>
