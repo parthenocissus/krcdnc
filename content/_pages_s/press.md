@@ -2,6 +2,7 @@ title:
     name: U medijima
 id: press
 lead: "Medijski izveštaji. Novinski<br>tekstovi. Izabrani invervjui.<br>Odabrane recenzije."
+linechart_tooltip: "Vremenska linija izabranih pojavljivanja u medijima"
 layout: 2
 data:
     - title: 0

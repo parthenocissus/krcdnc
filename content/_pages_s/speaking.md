@@ -2,6 +2,7 @@ title:
     name: Predavanja i javni nastupi
 id: speaking
 lead: "Izabrani javni nastupi, predavanja, prezentacije, tribine i diskusije na konferencijama, izložbama, festivalima i drugim događajima."
+linechart_tooltip: "Vremenska linija svih predavanja i nastupa"
 layout: 1
 data:
     - title: 0

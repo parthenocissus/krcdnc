@@ -39,20 +39,20 @@ presentations:
     - year: 2019
       events:
         - name: <span class='italic-style'>Autorsko predavanje</span>, Departman za digitalne umetnosti, Fakultet za medije i komunikacije, Beograd
-img_to_show: 1       
+img_to_show: 3       
 img_data:
     - size: "1200x987"
       caption: "Anatomski dijagrami unutrašnjih organa prvih stripskih junaka."
     - size: "643x1400"
       caption: "Prve mape"
-    - size: "1000x667"
-      caption: "Autorsko predavanje @ Nova Iskra, Beograd, Srbija, 2017."
+    - size: "1000x955"
+      caption: "Prve mape"
     - size: "776x600"
       caption: "Mapa Južnog Banata, od Beograda do Deliblatske peščare"       
     - size: "893x1200"
-      caption: "Prve mape"
-    - size: "1000x955"
-      caption: "Prve mape"
+      caption: "Prve mape"    
+    - size: "1000x667"
+      caption: "Autorsko predavanje @ Nova Iskra, Beograd, Srbija, 2017."
     - size: "1600x1141"
       caption: "Mapa kuće i okućnice u kojoj sam odrastao"
 lead: "Moji prvi crteži bili su mape, dijagrami i grafikoni. Ovo je selekcija takvih radova koje sam nacrtao kad sam imao 6 godina. Bila je to polazna tačka za današnje projekte u oblastima <a href='/rad/projekti/category/data-art'>data umetnosti</a>, <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka</a>, <a href='/rad/projekti/category/cartography'>eksperimentalne kartografije</a>, <a href='/rad/projekti/category/geography'>geografije</a> i <a href='/rad/projekti/category/interactive'>interaktivne umetnosti i dizajna</a>."

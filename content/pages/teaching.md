@@ -2,6 +2,7 @@ title:
     name: Teaching
 id: teaching
 lead: "Academic courses, public workshops, lectures, seminars. Mentorships. Student projects."
+linechart_tooltip: "Teaching Timeline"
 layout: 2
 data:
     - title: Academic Courses

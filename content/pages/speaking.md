@@ -2,6 +2,7 @@ title:
     name: Speaking
 id: speaking
 lead: "Selected public talks, lectures, presentations, and discussions at various venues, conferences, exhibitions, and festivals."
+linechart_tooltip: "Speaking Timeline"
 layout: 1
 data:
     - title: 0

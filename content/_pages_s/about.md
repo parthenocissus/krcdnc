@@ -1,6 +1,7 @@
 title: 
     name: About
 id: about 
+linechart_tooltip: "Vremenska linija svih projekata"
 img:
     link: "media/pages/uros-krcadinac-portrait.jpg"
     mask_link: "media/pages/uros-krcadinac-ai-mask.png"

@@ -2,6 +2,7 @@ title:
     name: Edukacija
 id: teaching
 lead: "Akademski kursevi, javne radionice, predavanja, seminari. Mentorski rad. Studentski projekti."
+linechart_tooltip: "Vremenska linija edukativnih projekata"
 layout: 2
 data:
     - title: Akademski kursevi

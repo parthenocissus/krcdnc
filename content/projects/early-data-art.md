@@ -39,20 +39,20 @@ presentations:
     - year: 2019
       events:
         - name: <span class='italic-style'>Artist Talk</span>, Department of Digital Art, Faculty of Media and Communications, Belgrade, Serbia
-img_to_show: 1    
+img_to_show: 3    
 img_data:
     - size: "1200x987"
       caption: "Anatomy charts (internal body parts) of my first comics characters."
     - size: "643x1400"
       caption: "Earliest world maps I've made"
-    - size: "1000x667"
-      caption: "Artist Talk @ Nova Iskra, Belgrade, Serbia, 2017."
+    - size: "1000x955"
+      caption: "Earliest world maps I've made"    
     - size: "776x600"
       caption: "Map of South Banat, region of Serbia where I grew up."       
     - size: "893x1200"
-      caption: "Earliest world maps I've made"
-    - size: "1000x955"
-      caption: "Earliest world maps I've made"
+      caption: "Earliest world maps I've made"    
+    - size: "1000x667"
+      caption: "Artist Talk @ Nova Iskra, Belgrade, Serbia, 2017."
     - size: "1600x1141"
       caption: "Map of the house and the yard where I grew up."
 lead: "My first drawings were maps, graphs, and charts. Here is a selection of the earliest such art I've drawn when I was 6 years old. It was a starting point for <a href='/work/projects/category/data-art'>data art</a>, <a href='/work/projects/category/dataviz'>dataviz</a>, <a href='/work/projects/category/cartography'>experimental cartography</a>, <a href='/work/projects/category/geography'>geography</a>, and <a href='/work/projects/category/interactive'>interactive art and design</a> projects I'm involved in today."
