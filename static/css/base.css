@@ -255,33 +255,21 @@ aside {
 }
 
 /* MEDIA QUERIES */
-
 /* Mobile */
 
-@media only screen and (max-width: 768px) {
-
-    /* Main Body */
+@media only screen and (max-width: 480px) {
 
     #left-margin {
-            width: 8px;
+        width: 0;
     }
 
-    /* Header Logo */
     #main-logo {
-        left: 18px;
+        left: 20px;
     }
 
-    /* Side Menu */
-    .side-nav {
-        padding-left: 20px;
-    }
-
-    .side-nav .menu-title {
-        font-size: 10pt;
-    }
-
-    .side-nav ul {
-        font-size: 12pt;
+    #lang-choice {
+        top: 25px;
+        right: 20px;
     }
 
     #name-aside {

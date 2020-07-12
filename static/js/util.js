@@ -179,7 +179,7 @@ let baseUtility = (function () {
 
         if (window.matchMedia(mobileQuery).matches) {
             menuWidth = "50%";
-            logoLeft = parameterslogoLeftDefault;
+            logoLeft = parameters.logoLeftDefault;
 
         }
         d3.select("#side-menu").style("visibility", "visible").style("width", menuWidth);
