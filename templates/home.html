@@ -6,7 +6,7 @@
 
     <meta property="og:title" content="{{ 'Uroš Krčadinac' ~ params.page_title.homepage }}">
     <meta property="og:description" content="{{ params.bio.homepage|striptags }}">
-    {% set main_img_path = "media/pages/krcadinac_home_image.jpg.jpg" %}
+    {% set main_img_path = "media/pages/krcadinac_home_image.jpg" %}
     <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
     <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}" />
     <meta property="og:url" content="{{ 'http://krcadinac.com' ~ params.paths.home }}">
