@@ -3,8 +3,18 @@
 {% block title %} → {{ params.tooltip.projects_index_general }}{% endblock %}
 
 {% block head %}
+
     {{ super() }}
+
+    <meta property="og:title" content="{{ 'Uroš Krčadinac → ' ~ params.menu_items[1].title }}">
+    <meta property="og:description" content="{{ data.description|striptags }}">
+    {% set main_img_path = "media/projects/krcadinac_home_image.jpg" %}
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}" />
+    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ params.paths.projects }}">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/project_list.css') }}">
+
 {% endblock %}
 
 {% block breadcrumbs %}
