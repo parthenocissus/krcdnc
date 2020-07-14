@@ -2,7 +2,7 @@ title:
     name: Press
 id: press
 linechart_tooltip: "Press Timeline"
-lead: "Press and media coverage.<br>Selected interviews.<br>Featured reviews."
+lead: "Press and media coverage. <br>Selected interviews. <br>Featured reviews."
 layout: 2
 data:
     - title: 0
