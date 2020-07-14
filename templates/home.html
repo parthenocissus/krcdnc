@@ -4,6 +4,12 @@
 
     {{ super() }}
 
+    <meta property="og:title" content="{{ 'Uroš Krčadinac' ~ params.page_title.homepage }}">
+    <meta property="og:description" content="{{ params.bio.homepage|striptags }}">
+    {% set main_img_path = "media/pages/krcdnc_image.jpg" %}
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:url" content="{{ 'http://krcadinac.com' ~ params.paths.home }}">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 
 {% endblock %}
@@ -12,23 +18,8 @@
 
     <div class="main-container">
 
-        <div class="main-pictome">
-{#            <svg id="pictome-svg" tooltip-text="All Projects" viewBox="0 0 35 70" preserveAspectRatio="xMidYMin meet">#}
-{#                <g id="pictome-g" transform="translate(0,0) scale(2,2)">#}
-{#                    <rect id="pictome-bg" class="light-fill" x="0" y="0" height="50%" width="50%"></rect>#}
-{#                    <circle id="head" class="pictome" cx="8.5" cy="5.131" r="3.614" pointer-events="none"></circle>#}
-{#                    <circle id="dot" class="pictome-dot" cx="8.5" cy="17.5" r="0" pointer-events="none"></circle>#}
-{#                    <path id="arm1" stroke-linejoin="round" class="pictome" pointer-events="none"#}
-{#                          d="M0.066,12.942c0.601,0,7.435,0,8.601,0 s7.716,0,8.399,0"></path>#}
-{#                    <path id="arm2" stroke-linejoin="round" class="pictome" pointer-events="none"#}
-{#                          d="M0.066,12.942c0.601,0,7.435,0,8.601,0 s7.716,0,8.399,0"></path>#}
-{#                    <path id="leg1" stroke-linejoin="round" class="pictome" pointer-events="none"#}
-{#                          d="M1.153,34.434 c0.28-0.635,7.486-16.977,7.486-16.977S15.628,33.7,15.98,34.434"></path>#}
-{#                    <path id="leg2" stroke-linejoin="round" class="pictome" pointer-events="none"#}
-{#                          d="M1.153,34.434 c0.28-0.635,7.486-16.977,7.486-16.977S15.628,33.7,15.98,34.434"></path>#}
-{#                </g>#}
-{#            </svg>#}
-        </div>
+{#        <div class="main-pictome">#}
+{#        </div>#}
 
         <div class="short-bio homepage-text-style" title="{{ params.tooltip.bio_index }}">
             {% block index_bio %}
