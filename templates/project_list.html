@@ -13,6 +13,12 @@
     <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}" />
     <meta property="og:url" content="{{ 'https://krcadinac.com' ~ params.paths.projects }}">
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@krcadinac" />
+    <meta name="twitter:title" content="{{ 'Uroš Krčadinac → ' ~ params.menu_items[1].title }}" />
+    <meta name="twitter:description" content="{{ data.description|striptags }}" />
+    <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}" />
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/project_list.css') }}">
 
 {% endblock %}
