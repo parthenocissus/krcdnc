@@ -7,7 +7,7 @@
     {{ super() }}
 
     <meta property="og:title" content="{{ 'Uroš Krčadinac → ' ~ data.title }}">
-    <meta property="og:description" content="{{ data.description|striptags }}">
+    <meta property="og:description" content="{{ page.lead|striptags }}">
     {% set main_img_path = page.data[0].images[0].path %}
     <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
     <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}" />
