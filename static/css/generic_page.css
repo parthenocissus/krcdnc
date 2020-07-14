@@ -44,9 +44,7 @@
     grid-template-columns: 1fr 940px 1fr;
     grid-template-rows: auto minmax(100px, auto);
     grid-gap: 0;
-    grid-template-areas:
-        ".  maincont . "
-        "f1 footcont f2";
+    grid-template-areas: ".  maincont . " "f1 footcont f2";
 }
 
 /* Footer */
@@ -62,8 +60,7 @@
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: auto; /*minmax(10px, auto);*/
     grid-gap: 0px;
-    grid-template-areas:
-        "menu menu soc soc pic pic bio bio bio";
+    grid-template-areas: "menu menu soc soc pic pic bio bio bio";
 }
 
 .footer .menu {
@@ -88,7 +85,7 @@
 
 .footer .interface-heading-article {
     color: var(--lightcolor);
-    padding-bottom: 12px;
+    padding-bottom: 6px;
 }
 
 .footer .interface-text-article {
@@ -128,6 +125,7 @@
     stroke: var(--suncolor);
     stroke-width: 1;
 }
+
 .pictome:hover {
     cursor: pointer;
 }
@@ -136,6 +134,7 @@
     fill: var(--darkcolor);
     stroke: none;
 }
+
 #pictome-bg:hover {
     cursor: pointer;
 }
@@ -201,6 +200,7 @@
     grid-area: f1;
     background-color: var(--darkcolor);
 }
+
 .footer-margin-right {
     grid-area: f2;
     background-color: var(--darkcolor);
@@ -214,4 +214,61 @@
 
 .no-padding-top {
     padding-top: 0 !important;
+}
+
+/* Middle Size Laptops */
+
+@media only screen and (min-width: 480px) and (max-width: 1150px) {
+
+    .generic-center-container {
+        display: grid;
+        grid-template-columns: 1fr calc(100vw - 200px) 1fr;
+        grid-template-rows: auto minmax(100px, auto);
+    }
+
+}
+
+
+/* Small Mobile */
+
+@media only screen and (max-width: 480px) {
+
+    .generic-center-container {
+        display: grid;
+        grid-template-columns: 1fr calc(100vw - 80px) 1fr;
+        grid-template-rows: auto minmax(100px, auto);
+    }
+
+    .footer {
+        margin: 0;
+        padding: 40px 0 44px 0;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto; /*minmax(10px, auto);*/
+        grid-gap: 40px;
+        grid-template-areas: "pic pic" "menu menu" "soc soc" "bio bio";
+    }
+
+    .footer .footer-pictogram,
+    .footer .bio,
+    .footer .menu,
+    .footer .social {
+        border-left: 0;
+    }
+
+    .footer .bio {
+        padding: 0;
+    }
+
+    .footer .bio .bio-inside,
+    .footer .menu .menu-inside,
+    .footer .social .social-inside {
+        padding: 0;
+    }
+
+    .footer .footer-pictogram {
+        padding: 30px 0 40px 0;
+    }
+
 }

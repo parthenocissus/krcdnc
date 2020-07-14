@@ -253,7 +253,7 @@ main {
 
 
 /* Middle Size Laptops */
-@media only screen and (min-width: 769px) and (max-width: 1380px)   {
+@media only screen and (min-width: 480px) and (max-width: 1380px)   {
 
 
     .main-container {
@@ -263,14 +263,6 @@ main {
     .homepage-text-style {
         font-size: 2.7vh;
     }
-
-}
-
-
-
-/* Tablet & Mobile */
-
-@media only screen and (max-width: 768px) {
 
 }
 
