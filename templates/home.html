@@ -9,6 +9,7 @@
     {% set main_img_path = "media/pages/krcdnc_image.jpg" %}
     <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
     <meta property="og:url" content="{{ 'http://krcadinac.com' ~ params.paths.home }}">
+    <meta property="og:image:secure_url" content="{{ 'https://krcadinac.com' ~ params.paths.home }}" />
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 
