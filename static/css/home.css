@@ -253,7 +253,7 @@ main {
 
 
 /* Middle Size Laptops */
-@media only screen and (min-width: 480px) and (max-width: 1380px)   {
+@media only screen and (min-width: 650px) and (max-width: 1380px)   {
 
 
     .main-container {
@@ -268,7 +268,7 @@ main {
 
 /* Small Mobile */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 650px) {
 
     .homepage-text-style {
         font-size: 14pt;

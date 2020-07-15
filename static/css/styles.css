@@ -336,13 +336,13 @@ main a:hover {
 .footer .interface-text-article {
     color: var(--lightcolor);
     padding-bottom: 26px;
-}
-
-.footer .interface-text-article a {
     font-family: CartographSans-Medium, monospace;
     font-size: 9pt;
     line-height: 1.7em;
     letter-spacing: 0.2pt;
+}
+
+.footer .interface-text-article a {
     background: var(--darkcolor);
     color: var(--lightcolor);
     transition: .07s;
@@ -411,4 +411,17 @@ main a:hover {
 
 .italic-style {
     font-family: Ambit-Italic, sans-serif;
+}
+
+@media only screen and (max-width: 650px) {
+
+    /*.interface-heading-style {*/
+        /*font-size: 10pt;*/
+    /*}*/
+
+    /*.footer .bio-style p,*/
+    /*.footer .interface-text-article {*/
+        /*font-size: 10pt;*/
+    /*}*/
+
 }

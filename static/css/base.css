@@ -256,7 +256,7 @@ aside {
 /* MEDIA QUERIES */
 /* Mobile */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 650px) {
 
     #left-margin {
         width: 0;
