@@ -19,6 +19,8 @@ let chartUtility = (function () {
         return (new Date()).getFullYear();
     };
 
+    let mobileQuery = "(max-width: 650px)";
+
     /* Flowerchart Section */
 
     let flowerchartSVG, linechartSVG;
@@ -124,8 +126,11 @@ let chartUtility = (function () {
             });
         }
 
-        let scale = 1.43,
-            w = 17 * scale,
+        let scale = 1.43;
+        if (window.matchMedia(mobileQuery).matches) {
+            scale = 2.6;
+        }
+        let w = 17 * scale,
             h = 35 * scale;
 
         let symbolSvg = d3.select(".symbol").append("svg")

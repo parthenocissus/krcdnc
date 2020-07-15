@@ -228,14 +228,29 @@
 
 }
 
+.mobile-bar {
+    position: absolute;
+    height: 60px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: var(--lightcolor);
+    z-index: 9;
+    visibility: hidden;
+}
+
 
 /* Small Mobile */
 
 @media only screen and (max-width: 650px) {
 
+    .mobile-bar {
+        visibility: visible;
+    }
+
     .generic-center-container {
         display: grid;
-        grid-template-columns: 1fr calc(100vw - 90px) 1fr;
+        grid-template-columns: 1fr calc(100vw - 40px) 1fr;
         grid-template-rows: auto minmax(100px, auto);
     }
 

@@ -1,7 +1,7 @@
 let baseUtility = (function () {
 
     let parameters, generalPictogram, currentPictogram;
-    let mobileQuery = "(max-width: 768px)";
+    let mobileQuery = "(max-width: 650px)";
 
     /* Base Functions */
 
@@ -179,9 +179,10 @@ let baseUtility = (function () {
 
         if (window.matchMedia(mobileQuery).matches) {
             menuWidth = "50%";
+            // parameters.logoLeftDefault = "14px";
             logoLeft = parameters.logoLeftDefault;
-
         }
+
         d3.select("#side-menu").style("visibility", "visible").style("width", menuWidth);
         d3.select("#main-logo").style("left", logoLeft);
 

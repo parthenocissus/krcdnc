@@ -263,12 +263,14 @@ aside {
     }
 
     #main-logo {
-        left: 20px;
+        position: absolute;
+        margin-top: 24px;
     }
 
     #lang-choice {
-        top: 25px;
-        right: 20px;
+        position: absolute;
+        top: 16px;
+        right: 22px;
     }
 
     #name-aside {
