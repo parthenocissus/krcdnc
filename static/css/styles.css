@@ -415,13 +415,12 @@ main a:hover {
 
 @media only screen and (max-width: 650px) {
 
-    /*.interface-heading-style {*/
-        /*font-size: 10pt;*/
-    /*}*/
-
-    /*.footer .bio-style p,*/
-    /*.footer .interface-text-article {*/
-        /*font-size: 10pt;*/
-    /*}*/
+    .footer .interface-heading-style {
+        font-size: 10pt;
+    }
+    .footer .bio-style p,
+    .footer .interface-text-article {
+        font-size: 10pt;
+    }
 
 }

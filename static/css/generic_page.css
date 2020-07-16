@@ -248,6 +248,10 @@
         visibility: visible;
     }
 
+    .linechart {
+        display: none;
+    }
+
     .generic-center-container {
         display: grid;
         grid-template-columns: 1fr calc(100vw - 40px) 1fr;
@@ -256,13 +260,13 @@
 
     .footer {
         margin: 0;
-        padding: 40px 0 44px 0;
+        padding: 24px 0 30px 0;
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto; /*minmax(10px, auto);*/
-        grid-gap: 40px;
-        grid-template-areas: "menu menu" "soc soc" "bio bio" "pic pic";
+        grid-gap: 20px;
+        grid-template-areas: "menu menu" "soc soc" "pic pic" "bio bio";
     }
 
     .footer .interface-heading-article {
@@ -287,7 +291,7 @@
     }
 
     .footer .footer-pictogram {
-        padding: 30px 0 30px 0;
+        padding: 24px 0 30px 0;
     }
 
 }
