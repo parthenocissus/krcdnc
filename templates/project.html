@@ -10,14 +10,14 @@
     <meta property="og:description" content="{{ project.lead|striptags }}">
     {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main-thumb.jpg" %}
     <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
-    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}" />
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
     <meta property="og:url" content="{{ 'https://krcadinac.com' ~ params.paths.projects ~ project.id }}">
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@krcadinac" />
-    <meta name="twitter:title" content="{{ 'Uroš Krčadinac → ' ~ project.title.name }}" />
-    <meta name="twitter:description" content="{{ project.lead|striptags }}" />
-    <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}" />
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@krcadinac"/>
+    <meta name="twitter:title" content="{{ 'Uroš Krčadinac → ' ~ project.title.name }}"/>
+    <meta name="twitter:description" content="{{ project.lead|striptags }}"/>
+    <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}"/>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/project.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
@@ -57,15 +57,6 @@
         </div>
         <div class="project-pictogram-list"></div>
 
-        {#        <div class="down-arrow-container">#}
-        {#            <svg id="down-arrow-svg" x="0px" y="0px" width="16px" height="131px">#}
-        {#                <g>#}
-        {#                    <line x1="8" y1="121.3" x2="8" y2="5"></line>#}
-        {#                    <polygon points="14.5,122 13.4,120.9 8,126.7 2.6,120.9 1.5,122 8,129"></polygon>#}
-        {#                </g>#}
-        {#            </svg>#}
-        {#        </div>#}
-
         <div class="project-title title-style">
             {% set title = project.title.html if project.title.html is defined else project.title.name %}
             {{ title|safe }}
@@ -103,177 +94,185 @@
 
             <div class="project-information">
 
-                {% if project.goto is defined %}
-                    <a href="{{ project.goto.link }}" target="_blank">
-                        <div class="goto-button goto-button-style">
-                            {{ project.goto.label }}
-                        </div>
-                    </a>
-                {% endif %}
-
-                <div class="interface-heading-article-condensed interface-heading-style no-padding-top">
-                    {{ params.project_captions.role }}
-                </div>
-                <div class="interface-text-style">
-                    {% for role in project.role %}
-                        {% set href = params.paths.projects ~ params.paths.role ~ role.id %}
-                        {% set slash = " / " if loop.index != project.role|length else "" %}
-                        <a href="{{ href }}">{{ role.name }}</a>{{ slash }}
-                    {% endfor %}
-                </div>
-
-                <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.medium }}</div>
-                <div class="interface-text-style">
-                    {% for medium in project.medium %}
-                        {% set href = params.paths.projects ~ params.paths.medium ~ medium.id %}
-                        {% set slash = " / " if loop.index != project.medium|length else "" %}
-                        <a href="{{ href }}">{{ medium.name }}</a>{{ slash }}
-                    {% endfor %}
-                </div>
-
-                <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.categories }}</div>
-                <div class="interface-text-style">
-                    {% for tag in project.category %}
-                        {% set href = params.paths.projects ~ params.paths.category ~ tag.id %}
-                        {% set slash = " / " if loop.index != project.category|length else "" %}
-                        <a href="{{ href }}">{{ tag.name }}</a>{{ slash }}
-                    {% endfor %}
-                </div>
-
-                {% if project.team is defined %}
-                    <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.collaborators }}</div>
-                    <div class="interface-text-style">
-                        {% for human in project.team %}
-                            {% set slash = " / " if loop.index != project.team|length else "" %}
-                            {% if human.link is defined %}
-                                <a href="{{ human.link }}" target="_blank">{{ human.name }}</a>
-                            {% else %}
-                                <span>{{ human.name }}</span>
-                            {% endif %}
-                            {{ slash }}
-                        {% endfor %}
-                    </div>
-                {% endif %}
-
-                <div class="thumbs">
-                    <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
-                        {% for d in project.img_data %}
-                            {% set i = loop.index - 1 %}
-                            {% set x = "0" if i < 10 else "" %}
-                            {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb" ~ x ~ i ~ ".jpg" %}
-                            {% set img_path = "media/projects/" ~ project.id ~ "/img/"  ~ project.id ~ x ~ i ~ ".jpg" %}
-                            {% set show = "" if i < project.img_to_show else "hidden" %}
-                            <figure class="{{ show ~ ' overburn-container' }}" itemprop="associatedMedia" itemscope
-                                    itemtype="http://schema.org/ImageObject"
-                                    title="{{ params.project_captions.gallery_tooltip.start }} — {{ project.img_data|length }} {{ project.img_term }}">
-                                <a href="{{ url_for('static', filename=img_path) }}" data-size="{{ d.size }}"
-                                   itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
-                                    {% if i < project.img_to_show %}
-                                        <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail">
-                                        <div class="overburn"></div>
-                                    {% endif %}
-                                </a>
-                            </figure>
-                        {% endfor %}
-
-                        {% if project.img_data|length > 2 %}
-                            <div class="lightbox-rect goto-button-style">
-                                {{ params.project_captions.gallery_tooltip.start }}<br>
-                                ({{ project.img_data|length }} {{ project.img_term }})
+                <div class="goto-cont">
+                    {% if project.goto is defined %}
+                        <a href="{{ project.goto.link }}" target="_blank">
+                            <div class="goto-button goto-button-style">
+                                {{ project.goto.label }}
                             </div>
-                        {% endif %}
-                    </div>
+                        </a>
+                    {% endif %}
                 </div>
 
-                {% if project.publications is defined %}
-                    <div class="interface-heading-article interface-heading-style">{{ params.project_captions.publications }}</div>
-                    <div class="section-list interface-page-li-style">
-                        <ul>
-                            {% for p in project.publications %}
-                                {% for e in p.pubs %}
-                                    <li>
-                                        <span class="year interface-subheading-style">{{ p.year }}</span>
-                                        <span class='page-list-item-style'>
+                <div class="info-rest-cont">
+
+                    <div class="interface-heading-article-condensed interface-heading-style no-padding-top">
+                        {{ params.project_captions.role }}
+                    </div>
+                    <div class="interface-text-style">
+                        {% for role in project.role %}
+                            {% set href = params.paths.projects ~ params.paths.role ~ role.id %}
+                            {% set slash = " / " if loop.index != project.role|length else "" %}
+                            <a href="{{ href }}">{{ role.name }}</a>{{ slash }}
+                        {% endfor %}
+                    </div>
+
+                    <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.medium }}</div>
+                    <div class="interface-text-style">
+                        {% for medium in project.medium %}
+                            {% set href = params.paths.projects ~ params.paths.medium ~ medium.id %}
+                            {% set slash = " / " if loop.index != project.medium|length else "" %}
+                            <a href="{{ href }}">{{ medium.name }}</a>{{ slash }}
+                        {% endfor %}
+                    </div>
+
+                    <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.categories }}</div>
+                    <div class="interface-text-style">
+                        {% for tag in project.category %}
+                            {% set href = params.paths.projects ~ params.paths.category ~ tag.id %}
+                            {% set slash = " / " if loop.index != project.category|length else "" %}
+                            <a href="{{ href }}">{{ tag.name }}</a>{{ slash }}
+                        {% endfor %}
+                    </div>
+
+                    {% if project.team is defined %}
+                        <div class="interface-heading-article-condensed interface-heading-style">{{ params.project_captions.collaborators }}</div>
+                        <div class="interface-text-style">
+                            {% for human in project.team %}
+                                {% set slash = " / " if loop.index != project.team|length else "" %}
+                                {% if human.link is defined %}
+                                    <a href="{{ human.link }}" target="_blank">{{ human.name }}</a>
+                                {% else %}
+                                    <span>{{ human.name }}</span>
+                                {% endif %}
+                                {{ slash }}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+                    <div class="thumbs">
+                        <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                            {% for d in project.img_data %}
+                                {% set i = loop.index - 1 %}
+                                {% set x = "0" if i < 10 else "" %}
+                                {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb" ~ x ~ i ~ ".jpg" %}
+                                {% set img_path = "media/projects/" ~ project.id ~ "/img/"  ~ project.id ~ x ~ i ~ ".jpg" %}
+                                {% set show = "" if i < project.img_to_show else "hidden" %}
+                                <figure class="{{ show ~ ' overburn-container' }}" itemprop="associatedMedia" itemscope
+                                        itemtype="http://schema.org/ImageObject"
+                                        title="{{ params.project_captions.gallery_tooltip.start }} — {{ project.img_data|length }} {{ project.img_term }}">
+                                    <a href="{{ url_for('static', filename=img_path) }}" data-size="{{ d.size }}"
+                                       itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
+                                        {% if i < project.img_to_show %}
+                                            <img src="{{ url_for('static', filename=thumb_path) }}"
+                                                 itemprop="thumbnail">
+                                            <div class="overburn"></div>
+                                        {% endif %}
+                                    </a>
+                                </figure>
+                            {% endfor %}
+
+                            {% if project.img_data|length > 2 %}
+                                <div class="lightbox-rect goto-button-style">
+                                    {{ params.project_captions.gallery_tooltip.start }}<br>
+                                    ({{ project.img_data|length }} {{ project.img_term }})
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    {% if project.publications is defined %}
+                        <div class="interface-heading-article interface-heading-style">{{ params.project_captions.publications }}</div>
+                        <div class="section-list interface-page-li-style">
+                            <ul>
+                                {% for p in project.publications %}
+                                    {% for e in p.pubs %}
+                                        <li>
+                                            <span class="year interface-subheading-style">{{ p.year }}</span>
+                                            <span class='page-list-item-style'>
                                             {% if e.link is defined %}
                                                 {% set lnkd = e.linked if e.linked is defined else "Link" %}
                                                 <span class='italic-style'>
-                                                    <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
+                                                    <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>
+                                                {{ ", " }}
                                             {% endif %}{{ e.name|safe }}
                                         </span>
-                                    </li>
+                                        </li>
+                                    {% endfor %}
                                 {% endfor %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endif %}
+                            </ul>
+                        </div>
+                    {% endif %}
 
-                <div id="presentations"
-                     class="interface-heading-article interface-heading-style">{{ project.presentation_title }}</div>
-                <div class="section-list interface-page-li-style">
-                    <ul>
-                        {% for p in project.presentations %}
-                            {% for e in p.events %}
-                                <li>
-                                    <span class="year interface-subheading-style">{{ p.year }}</span>
-                                    <span class='item page-list-item-style'>
+                    <div id="presentations"
+                         class="interface-heading-article interface-heading-style">{{ project.presentation_title }}</div>
+                    <div class="section-list interface-page-li-style">
+                        <ul>
+                            {% for p in project.presentations %}
+                                {% for e in p.events %}
+                                    <li>
+                                        <span class="year interface-subheading-style">{{ p.year }}</span>
+                                        <span class='item page-list-item-style'>
                                         {% if e.link is defined %}
                                             {% set lnkd = e.linked if e.linked is defined else "Link" %}
                                             <span class='italic-style'>
                                                 <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
                                         {% endif %}
-                                        {{ e.name|safe }}
+                                            {{ e.name|safe }}
                                     </span>
-                                </li>
+                                    </li>
+                                {% endfor %}
                             {% endfor %}
-                        {% endfor %}
-                    </ul>
+                        </ul>
+                    </div>
+
+                    {% if project.awards is defined %}
+                        <div class="interface-heading-article interface-heading-style">{{ params.project_captions.awards }}</div>
+                        <div class="section-list interface-page-li-style">
+                            <ul>
+                                {% for p in project.awards %}
+                                    {% for e in p.pubs %}
+                                        <li>
+                                            <span class="year interface-subheading-style">{{ p.year }}</span>
+                                            <span class='item page-list-item-style'>
+                                            {% if e.link is defined %}
+                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
+                                                <span class='italic-style'>
+                                                <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
+                                            {% endif %}
+                                                {{ e.name|safe }}
+                                        </span>
+                                        </li>
+                                    {% endfor %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+
+                    {% if project.press is defined %}
+                        <div class="interface-heading-article interface-heading-style">{{ params.project_captions.press }}</div>
+                        <div class="section-list interface-page-li-style">
+                            <ul>
+                                {% for p in project.press %}
+                                    {% for e in p.events %}
+                                        <li>
+                                            <span class="year interface-subheading-style">{{ p.year }}</span>
+                                            <span class='item page-list-item-style'>
+                                            {% if e.link is defined %}
+                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
+                                                <span class='italic-style'>
+                                                <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
+                                            {% endif %}
+                                                {{ e.name|safe }}
+                                        </span>
+                                        </li>
+                                    {% endfor %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+
                 </div>
-
-                {% if project.awards is defined %}
-                    <div class="interface-heading-article interface-heading-style">{{ params.project_captions.awards }}</div>
-                    <div class="section-list interface-page-li-style">
-                        <ul>
-                            {% for p in project.awards %}
-                                {% for e in p.pubs %}
-                                    <li>
-                                        <span class="year interface-subheading-style">{{ p.year }}</span>
-                                        <span class='item page-list-item-style'>
-                                            {% if e.link is defined %}
-                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
-                                                <span class='italic-style'>
-                                                <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
-                                            {% endif %}
-                                            {{ e.name|safe }}
-                                        </span>
-                                    </li>
-                                {% endfor %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endif %}
-
-                {% if project.press is defined %}
-                    <div class="interface-heading-article interface-heading-style">{{ params.project_captions.press }}</div>
-                    <div class="section-list interface-page-li-style">
-                        <ul>
-                            {% for p in project.press %}
-                                {% for e in p.events %}
-                                    <li>
-                                        <span class="year interface-subheading-style">{{ p.year }}</span>
-                                        <span class='item page-list-item-style'>
-                                            {% if e.link is defined %}
-                                                {% set lnkd = e.linked if e.linked is defined else "Link" %}
-                                                <span class='italic-style'>
-                                                <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
-                                            {% endif %}
-                                            {{ e.name|safe }}
-                                        </span>
-                                    </li>
-                                {% endfor %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                {% endif %}
 
             </div>
 
