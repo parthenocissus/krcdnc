@@ -216,18 +216,6 @@
     padding-top: 0 !important;
 }
 
-/* Middle Size Laptops */
-
-@media only screen and (min-width: 480px) and (max-width: 1150px) {
-
-    .generic-center-container {
-        display: grid;
-        grid-template-columns: 1fr calc(100vw - 200px) 1fr;
-        grid-template-rows: auto minmax(100px, auto);
-    }
-
-}
-
 .mobile-bar {
     position: absolute;
     height: 60px;
@@ -239,6 +227,57 @@
     visibility: hidden;
 }
 
+/* Middle Size Laptops */
+
+@media only screen and (min-width: 480px) and (max-width: 1150px) {
+
+    .generic-center-container {
+        display: grid;
+        grid-template-columns: 1fr calc(100vw - 200px) 1fr;
+        grid-template-rows: auto minmax(100px, auto);
+    }
+
+    .footer {
+        margin: 0;
+        padding: 24px 0 30px 0;
+
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+        grid-template-areas: "menu pic" "soc pic" "bio pic";
+    }
+
+    .footer .interface-heading-article {
+        padding-bottom: 6px;
+    }
+
+    .footer .footer-pictogram {
+        justify-self: end;
+    }
+
+    .footer .footer-pictogram,
+    .footer .bio,
+    .footer .menu,
+    .footer .social {
+        border-left: 0;
+    }
+
+    .footer .bio {
+        padding: 0;
+    }
+
+    .footer .bio .bio-inside,
+    .footer .menu .menu-inside,
+    .footer .social .social-inside {
+        padding: 0;
+    }
+
+    .footer .footer-pictogram {
+        padding: 24px 0 30px 0;
+    }
+
+}
 
 /* Small Mobile */
 
@@ -263,7 +302,7 @@
         padding: 24px 0 30px 0;
 
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto; /*minmax(10px, auto);*/
         grid-gap: 20px;
         grid-template-areas: "menu menu" "soc soc" "pic pic" "bio bio";
@@ -291,7 +330,7 @@
     }
 
     .footer .footer-pictogram {
-        padding: 24px 0 30px 0;
+        padding: 24px 0 20px 0;
     }
 
 }

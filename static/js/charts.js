@@ -279,17 +279,23 @@ let chartUtility = (function () {
         let lineH = 18, firstLine = 32;
 
         if (window.matchMedia(mobileQuery).matches) {
-            radius = 154;
+            radius = 90;
             w = 360;
-            h = 390;
+            h = 250;
             hext = h;
-            center = {x: w / 2, y: h / 2 - 20};
+            center = {x: w / 2, y: h / 2 - 25};
 
             labels[2].txtAnchor = "end";
-            labels[2].yadj = -24;
+            labels[2].yadj = -18;
             labels[2].tx = w;
             lineH = 20;
             firstLine = 36;
+
+            labels[0].xLine = 65 + xPositionAdjustment;
+            labels[1].xLine = 65 + xPositionAdjustment;
+            labels[0].lineLength = 45 - xPositionAdjustment;
+            labels[1].lineLength = 45 - xPositionAdjustment;
+            labels[2].lineLength = 76;
         }
 
         let p = {

@@ -3,6 +3,7 @@ title:
 id: teaching
 lead: "Academic courses, public workshops, lectures, seminars. Mentorships. Student projects."
 linechart_tooltip: "Teaching Timeline"
+main_image: "media/pages/speaking_novaiskra04.jpg"
 layout: 2
 data:
     - title: Academic Courses
