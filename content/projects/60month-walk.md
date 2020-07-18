@@ -69,4 +69,8 @@ data <a href='https://en.wikipedia.org/wiki/Heat_map' target='_blank'>heatmap</a
 
 By walking barefoot, workshop participants and exhibition visitors could feel the long-term change of air quality during the period of 5 years. 
 
+One of the workshop participants <a href='https://www.oblakoder.org.rs/ivana-miljkovic-covek-ne-moze-da-izoluje-ono-sto-stvara-od-onoga-sto-jeste/' target='_blank'>Ivana Miljković</a> created a video about this project.
+
 Examples of this kind of dataviz approach include projects such as <a href='/work/projects/physical-dataviz-workshops'>Physical Dataviz Workshops</a> and the <a href='/work/projects/petnica-trees'>Trees of Petnica</a>. <mark>&#9632;</mark>
+
+<iframe src="https://www.youtube.com/embed/PhuOr3hReg4?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>
