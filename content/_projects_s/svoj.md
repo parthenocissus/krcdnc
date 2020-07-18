@@ -47,3 +47,6 @@ lead: "Kratki crtani film o odnosu između jednog drveta, njegove senke i Sunca.
 Film je animiran tradicionalnom tehnikom <a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>rukom crtane 2D animacije</a>. Zahtevao je nekoliko stotina crteža, napravljenih na staromodnom stolu za animaciju, skeniranih, digitalno obojenih i složenih u video. Dizajn zvuka uradio je <a href='https://www.imdb.com/name/nm1383706/' target='_blank'>Vladimir Uspenski</a>. Produkciju filma obezbedio je Dom omladine Pančevo.
 
 Film je prikazan u Srbiji i Rusiji. Dobio je Nagradu za najboljeg debitanta na Beogradskom festivalu dokumentarnog i kratkometražnog filma 2002. <mark>&#9632;</mark>
+<div class="quote-block">
+<div class="quote1">Reska vizuelna metafora o odbrani autentičnosti i prava na nepristajanje.<p class="by">— <a href='http://www.skd.rs/milan-vlajcic/' target='_blank'>Milan Vlajčić</a>, pisac i filmski kritičar</p></div>
+</div>
