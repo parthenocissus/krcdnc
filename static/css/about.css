@@ -242,7 +242,7 @@
     .mobile-main-image {
         display: block;
         width: 100%;
-        padding-bottom: 20px;
+        padding-bottom: 32px;
     }
 
     .mobile-main-image img {
@@ -267,7 +267,8 @@
     }
 
     .quote {
-        margin-top: 18px;
+        padding: 30px 0 30px 0;
+        margin: 0;
     }
 
     .align-bottom {
@@ -277,7 +278,7 @@
     }
 
     .download-material {
-        padding-top: 50px;
+        padding-top: 0;
     }
 
     .goto-button {

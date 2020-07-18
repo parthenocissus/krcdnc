@@ -274,23 +274,39 @@ main {
         font-size: 14pt;
     }
 
-    .short-bio {
-        padding: 10px 0 45px 0;
-    }
-
-    .flowerchart {
-        padding-bottom: 20px;
-    }
-
     .main-container {
-        padding: 0;
         width: calc(100vw - 40px);
-        display: flex;
-        justify-content: center;
+        padding: 120px 0 0 0;
+        height: calc(100vh - 120px);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "one" "two" "tre";
+    }
+
+    .short-bio {
+        grid-area: one;
+        padding: 0 0 35px 0;
+        align-self: start;
     }
 
     .bio-break {
         display: none !important;
+    }
+
+    .flowerchart {
+        grid-area: two;
+        align-self: center;
+        padding: 0;
+        margin: 0;
+        /*padding-bottom: 20px;*/
+    }
+
+    .linechart-index {
+        grid-area: tre;
+        align-self: end;
+        padding: 25px 0 20px 0;
+        margin: 0;
     }
 
 }

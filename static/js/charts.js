@@ -188,10 +188,18 @@ let chartUtility = (function () {
             pictolistWidth = (pictoWidth * tags.length) + (pictoGap * (tags.length - 1));
         pictoWidthPlusGap = pictoWidth + pictoGap;
 
-        let pictolistSvg = d3.select(params.svg).append("svg")
-        //.attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight).attr("preserveAspectRatio", "xMinYMin meet")
-            .attr("width", pictolistWidth).attr("height", pictolistHeight)
-            .attr("id", "projectPictolistSvg");
+        let pictolistSvg;
+        if ((window.matchMedia(mobileQuery).matches) &&
+            ((window.innerWidth - 40) < pictolistWidth)) {
+            pictolistSvg = d3.select(params.svg).append("svg")
+                .attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight)
+                .attr("preserveAspectRatio", "xMinYMin meet")
+                .attr("id", "projectPictolistSvg");
+        } else {
+            pictolistSvg = d3.select(params.svg).append("svg")
+                .attr("width", pictolistWidth).attr("height", pictolistHeight)
+                .attr("id", "projectPictolistSvg");
+        }
 
         tags.forEach(function (d, i) {
 
@@ -841,7 +849,12 @@ let chartUtility = (function () {
 
     let linechartParamsIndex = {
         computeWidth: function () {
-            return 440;
+            if (window.matchMedia(mobileQuery).matches) {
+                return window.innerWidth - 40;
+            }
+            else {
+                return 440;
+            }
         },
         height: 70,
         class: ".linechart-index",
