@@ -36,12 +36,14 @@ awards:
     - year: 2002
       pubs:
         - name: <span class='italic-style'>Nagrada za najboljeg debitanta</span>, Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija
-img_to_show: 2       
+img_to_show: 1       
 img_data:
     - size: "900x613"
       caption: "Kadar iz filma"
     - size: "900x613"
       caption: "Kadar iz filma"
+    - size: "795x1200"
+      caption: "<span class='italic-style'>Nagrada za najboljeg debitanta</span>, Beogradski festival dokumentarnog i kratkometražnog filma (Martovski), Beograd, Srbija"
 lead: "Kratki crtani film o odnosu između jednog drveta, njegove senke i Sunca. Senke moraju da se pokore Suncu. Ili ne?"
 
 Film je animiran tradicionalnom tehnikom <a href='https://en.wikipedia.org/wiki/Traditional_animation' target='_blank'>rukom crtane 2D animacije</a>. Zahtevao je nekoliko stotina crteža, napravljenih na staromodnom stolu za animaciju, skeniranih, digitalno obojenih i složenih u video. Dizajn zvuka uradio je <a href='https://www.imdb.com/name/nm1383706/' target='_blank'>Vladimir Uspenski</a>. Produkciju filma obezbedio je Dom omladine Pančevo.
