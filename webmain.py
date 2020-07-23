@@ -27,12 +27,13 @@ sh = LangUtilSh(fp)
 # BASE ROUTES
 # homepages in english and serbian
 
-@app.route("/")
-def false_home():
-    return render_template('test/falsebase.html', params=en.params())
+# @app.route("/")
+# def false_home():
+#     return render_template('test/falsebase.html', params=en.params())
 
 
 @app.route("/work/")
+@app.route("/")
 def home():
     return render_template('home.html', params=en.params())
 
