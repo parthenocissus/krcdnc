@@ -196,8 +196,8 @@
       "role": "Role",
       "medium": "Medium",
       "category": "Category",
-      "all": "Projects in",
-      "all_title": "All Categories"
+      "all": "All Categories",
+      "all_title": "All Projects"
     }
   },
   "sh_params": {
@@ -403,8 +403,8 @@
       "role": "Uloga",
       "medium": "Medij",
       "category": "Kategorija",
-      "all": "Projekti za",
-      "all_title": "Sve kategorije"
+      "all": "Sve kategorije",
+      "all_title": "Svi projekti"
     }
   }
 }

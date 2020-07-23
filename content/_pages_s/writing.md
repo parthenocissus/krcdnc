@@ -4,6 +4,7 @@ id: writing
 layout: 1
 lead: "Knjige i tekstovi. Akademski istraživački radovi, proza, digitalni poetski eksperimenti, putopisi, eseji, enciklopedijski članci."
 linechart_tooltip: "Vremenska linija svih publikacija"
+main_image: "media/projects/bantustan-book/img/bantustan-book03.jpg"
 data:
     - title: Digitalna književnost
       id: "diglit"

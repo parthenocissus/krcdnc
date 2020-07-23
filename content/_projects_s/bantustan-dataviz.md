@@ -106,4 +106,4 @@ Pojam <span class='italic-style'>bantustana</span>, sa svojim <a href='https://e
 <span class='bullet-padding'>•</span> <a href='http://www.klubputnika.org/zbirka/blogovi/bantustan/4042-geobantu-gde-putuje-bantustan' target='_blank'><span class='italic-style'>Gde je sve otišao Bantustan?</span></a><br>
 <span class='bullet-padding'>•</span> <a href='http://www.klubputnika.org/zbirka/blogovi/bantustan/4052-bantustan-kako-se-spajaju-tacke' target='_blank'><span class='italic-style'>Bantustan: Kako se spajaju tačke</span></a><br>
 
-Projekat je predstavljen u više gradova, u okviru regionalnih književnih promocija i tribina. Kasnije sam ga ugradio u elemente svojih silabusa za predmete koje sam <a href='/rad/edukacija#academic'>kreirao na Departmanu za digitalne umetnosti</a> Fakulteta za medije i komunikacije u Beogradu. <mark>&#9632;</mark>
+Projekat je predstavljen u više gradova, u okviru regionalnih književnih promocija i tribina. Kasnije sam ga ugradio u elemente svojih silabusa za predmete koje sam <a href='/rad/edukacija#academic'>kreirao na Departmanu za digitalne umetnosti</a> Fakulteta za medije i komunikacije. <mark>&#9632;</mark>

@@ -91,7 +91,8 @@ let chartUtility = (function () {
             transformFn: function () {
                 return "scale(" + scale + " " + scale + ")";
             },
-            rectClick: function () { }
+            rectClick: function () {
+            }
         };
         drawSinglePictogram(pictogramParams);
 
@@ -156,7 +157,8 @@ let chartUtility = (function () {
             transformFn: function () {
                 return "translate(0, 0) scale(" + scale + " " + scale + ")";
             },
-            rectClick: function () { }
+            rectClick: function () {
+            }
         };
 
         drawSinglePictogram(pictogramParams);
@@ -186,10 +188,18 @@ let chartUtility = (function () {
             pictolistWidth = (pictoWidth * tags.length) + (pictoGap * (tags.length - 1));
         pictoWidthPlusGap = pictoWidth + pictoGap;
 
-        let pictolistSvg = d3.select(params.svg).append("svg")
-        //.attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight).attr("preserveAspectRatio", "xMinYMin meet")
-            .attr("width", pictolistWidth).attr("height", pictolistHeight)
-            .attr("id", "projectPictolistSvg");
+        let pictolistSvg;
+        if ((window.matchMedia(mobileQuery).matches) &&
+            ((window.innerWidth - 40) < pictolistWidth)) {
+            pictolistSvg = d3.select(params.svg).append("svg")
+                .attr("viewBox", "0 0 " + pictolistWidth + " " + pictolistHeight)
+                .attr("preserveAspectRatio", "xMinYMin meet")
+                .attr("id", "projectPictolistSvg");
+        } else {
+            pictolistSvg = d3.select(params.svg).append("svg")
+                .attr("width", pictolistWidth).attr("height", pictolistHeight)
+                .attr("id", "projectPictolistSvg");
+        }
 
         tags.forEach(function (d, i) {
 
@@ -243,12 +253,12 @@ let chartUtility = (function () {
             w = 493,
             h = 2 * radius + 2,
             hext = h + 55,
-            circleR = 1,
             center = {x: 197, y: h / 2},
-            startAngle = (Math.PI) -Math.PI / 3,
+            startAngle = (Math.PI) - Math.PI / 3,
             incrementAngle = 2 * Math.PI / 3,
             ranks = [+origRanks.visual, +origRanks.digital, +origRanks.textual],
-            data = [], axisData = [], labels = [];
+            data = [], axisData = [], labels = [],
+            textAnchor = "start";
 
         let xPositionAdjustment = (langParams.lang === 'en') ? 0 : 15;
 
@@ -268,6 +278,33 @@ let chartUtility = (function () {
         labels[0].lineLength = 75 - xPositionAdjustment;
         labels[1].lineLength = 75 - xPositionAdjustment;
         labels[2].lineLength = 42;
+        labels[0].txtAnchor = textAnchor;
+        labels[1].txtAnchor = textAnchor;
+        labels[2].txtAnchor = textAnchor;
+
+        let mobileYAdj = 0;
+
+        let lineH = 18, firstLine = 32;
+
+        if (window.matchMedia(mobileQuery).matches) {
+            radius = 90;
+            w = 360;
+            h = 250;
+            hext = h;
+            center = {x: w / 2, y: h / 2 - 25};
+
+            labels[2].txtAnchor = "end";
+            labels[2].yadj = -18;
+            labels[2].tx = w;
+            lineH = 20;
+            firstLine = 36;
+
+            labels[0].xLine = 65 + xPositionAdjustment;
+            labels[1].xLine = 65 + xPositionAdjustment;
+            labels[0].lineLength = 45 - xPositionAdjustment;
+            labels[1].lineLength = 45 - xPositionAdjustment;
+            labels[2].lineLength = 76;
+        }
 
         let p = {
             x: (t, r, cx) => r * Math.cos(t) + cx,
@@ -287,7 +324,6 @@ let chartUtility = (function () {
             let halfRank = 0.5;
             let yText = p.y(currentAngle, polarMap(4), center.y) - labels[i].yadj;
             let yLine = p.y(currentAngle, polarMap(4), center.y);
-            let lineH = 18, firstLine = 32;
             data[i] = {
                 x: p.x(currentAngle, polarMap(ranks[i]), center.x),
                 y: p.y(currentAngle, polarMap(ranks[i]), center.y),
@@ -300,8 +336,9 @@ let chartUtility = (function () {
                 tx2: labels[i].tx,
                 ty2: [firstLine + yText,
                     firstLine + lineH + yText,
-                    firstLine + 2*lineH + yText],
+                    firstLine + 2 * lineH + yText],
                 xLine: labels[i].xLine,
+                txtAnchor: labels[i].txtAnchor,
                 yLine: yLine,
                 lineLength: labels[i].lineLength
             };
@@ -358,7 +395,7 @@ let chartUtility = (function () {
             .attr("class", "text1")
             .attr("x", d => d.tx)
             .attr("y", d => d.ty)
-            .attr("text-anchor", "start")
+            .attr("text-anchor", d => d.txtAnchor)
             .text(d => d.label.head);
 
         for (let i = 0; i < labels.length; i++) {
@@ -366,7 +403,7 @@ let chartUtility = (function () {
                 .attr("class", "text2")
                 .attr("x", d => d.tx2)
                 .attr("y", d => d.ty2[i])
-                .attr("text-anchor", "start")
+                .attr("text-anchor", d => d.txtAnchor)
                 .text(d => d.label.sub[i]);
         }
 
@@ -377,32 +414,6 @@ let chartUtility = (function () {
             .attr("x2", d => d.xLine + d.lineLength)
             .attr("y2", d => d.yLine);
 
-        // let circlePath = function (myr, cx, cy, sign) {
-        //     return "M" + cx + "," + cy + " " +
-        //         "m" + -myr + ", 0 " +
-        //         "a" + myr + "," + myr + " 0 1," + sign + " " + myr * 2 + ",0 " +
-        //         "a" + myr + "," + myr + " 0 1," + sign + " " + -myr * 2 + ",0";
-        // };
-        // svgData.append("defs").append("path")
-        //     .attr("id", d => "curve-" + d.label)
-        //     .attr("transform", d => "rotate(" + d.textAngle + " " + center.x + " " + center.y + ")")
-        //     .attr("d", function (d, i) {
-        //         let sign = 1, ra = radius + 16;
-        //         if (i === 1) {
-        //             sign = 0;
-        //             ra = radius + 23;
-        //         }
-        //         return circlePath(ra, center.x, center.y, sign);
-        //     });
-        // svgData.append("text")
-        //     .attr("class", "curve-text")
-        //     .append("textPath")
-        //     .attr('startOffset', '50%')
-        //     .attr("xlink:href", d => "#curve-" + d.label)
-        //     .attr("text-anchor", "middle")
-        //     .attr("title", "title text")
-        //     .text(d => d.label);
-
     };
 
     // Flowerchart Section
@@ -410,19 +421,9 @@ let chartUtility = (function () {
     let flowerParamsIndex = {
 
         pictoMouseover: function (d) {
-            //console.log("OVDE JE");
-            // d3.select(this).classed("hover-pointer", true);
-            // parameters.tooltip.html(generalFlowerPictogram.name)
-            //     .style("visibility", "visible")
-            //     .style("left", (d3.event.pageX) + "px")
-            //     .style("top", (d3.event.pageY + 15) + "px");
         },
-
         pictoMouseout: function (d) {
-            // d3.select(this).classed("hover-pointer", false);
-            // parameters.tooltip.style("visibility", "hidden");
         },
-
         bgFillClass: "light-fill",
         dottedLineStrokeClass: "dark-stroke",
         pictomeSmallClass: "pictome-small-dark",
@@ -577,7 +578,7 @@ let chartUtility = (function () {
             .attr("transform", params.transformFn);
 
         pictogram.append("svg:title")
-          .text(params.tooltip);
+            .text(params.tooltip);
 
         pictogram.append("rect")
             .attr("class", params.rectClass)
@@ -848,7 +849,12 @@ let chartUtility = (function () {
 
     let linechartParamsIndex = {
         computeWidth: function () {
-            return 440;
+            if (window.matchMedia(mobileQuery).matches) {
+                return window.innerWidth - 40;
+            }
+            else {
+                return 440;
+            }
         },
         height: 70,
         class: ".linechart-index",

@@ -68,4 +68,8 @@ Napravili smo stazu za hodanje kao fizičku formu tzv. <a href='https://en.wikip
 
 Hodajući bosi, polaznici radionice i posetioci izložbe mogli su da osete dugoročne promene i trendove u kvalitetu vazduha duž perioda od 5 godina.
 
+<a href='https://www.oblakoder.org.rs/ivana-miljkovic-covek-ne-moze-da-izoluje-ono-sto-stvara-od-onoga-sto-jeste/' target='_blank'>Ivana Miljković</a>, polaznica radionice i moja tadašnja studentkinja, režirala je video o projektu.
+
 Ovakav pristup vizuelizaciji podataka prisutan je i u drugim projektima, poput <a href='/rad/projekti/physical-dataviz-workshops'>radionica fizičke vizuelizacije podataka</a> i projekta <a href='/rad/projekti/petnica-trees'>Petnička stabla</a>. <mark>&#9632;</mark>
+
+<iframe src="https://www.youtube.com/embed/PhuOr3hReg4?rel=0&amp;fs=0&amp;controls=0" frameborder="0" allow="accelerometer; autoplay; picture-in-picture" allowfullscreen></iframe>

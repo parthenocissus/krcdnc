@@ -52,6 +52,8 @@ img_data:
       caption: "Selected Frame"
     - size: "800x511"
       caption: "Selected Frame"
+    - size: "1600x1060"
+      caption: "<span class='italic-style'>ASIFA Diploma for Best Animation</span>, Balkanima Festival, Belgrade, Serbia"
 lead: "<span class='italic-style'>Self-portrait</span> (<span class='italic-style'>Autoportret</span>) is an animated short film about a painting of a face, whose parts — nose, eye, ear, mouth, tongue, hair — have a mind of their own, thus creating a portrait in motion and interaction."
 
 <span class='italic-style'>Self-portrait</span> is a story about an artist, who, while creating a potrait, realises that the painted parts of the face have a life of their own. Those parts, those little characters, start walking, jumping, loving, and fighting around, composing and decomposing a big picture. It is a story about a dynamic, interactive identity.  

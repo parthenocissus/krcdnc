@@ -4,6 +4,7 @@ id: writing
 layout: 1
 lead: "Books and texts. Academic research, prose, digital poetic experiments, travelogues, essays, encyclopedia articles."
 linechart_tooltip: "Publications Timeline"
+main_image: "media/projects/bantustan-book/img/bantustan-book03.jpg"
 data:
     - title: Digital Literature
       id: "diglit"

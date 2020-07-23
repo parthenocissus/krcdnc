@@ -47,6 +47,11 @@
             {{ page.lead|safe }}
         </div>
 
+        <div class="mobile-main-image">
+            <img src="{{ url_for('static', filename=page.img.link) }}">
+            <div class="photo-caption portrait-photo-caption-style">{{ page.img.caption|safe }}</div>
+        </div>
+
         <div class="article-container">
 
             <article class="article-text body-style">

@@ -3,6 +3,7 @@ title:
 id: teaching
 lead: "Akademski kursevi, javne radionice, predavanja, seminari. Mentorski rad. Studentski projekti."
 linechart_tooltip: "Vremenska linija edukativnih projekata"
+main_image: "media/pages/speaking_novaiskra04.jpg"
 layout: 2
 data:
     - title: Akademski kursevi
