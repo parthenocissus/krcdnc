@@ -48,7 +48,7 @@ data:
     - title: Academic Research in Affective Computing
       id: "research"
       images: 
-        - path: "media/pages/hci_writing.jpg"
+        - path: "media/pages/writing_synesketch.jpg"
       text: "<p>A body of academic software-related research in the fields of Affective Computing, Human-Computer Interaction, Generative Aesthetics, Textual Emotion Recognition, and Data Visualization.</p>
 <p>It is mostly related to <a href='/work/projects/synesketch/'>Synesketch</a>, a free open-source project I’ve started in 2008. Synesketch is a software library for textual emotion recognition and artistic visualization. A pioneering work in AI humanization and generative æsthetics, Synesketch was recognized by international art venues, scientific journals and conferences, as well as many organizations and individuals Web-wide.</p><p>In my academic research I’ve analysed the system’s textual emotion recognition accuracy as well as the quality of its generative visuals in the context of user æsthetical experience. Papers were published in two journals, <a href='https://ieeexplore.ieee.org/document/7358121' target='_blank'>IEEE Transactions on Human-Machine Systems</a> and <a href='https://ieeexplore.ieee.org/document/6589580' target='_blank'>IEEE Transactions on Affective Computing</a>.</p>
 <p>Another project I’ve written about is <a href='/work/projects/paperista/'>Paperista</a>, an interactive animated visual browser for semantically annotated research papers.</p>

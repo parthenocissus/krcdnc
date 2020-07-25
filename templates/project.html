@@ -330,12 +330,22 @@
     <script>
         (function () {
 
+            baseUtility.baseSetup();
+            chartUtility.setLangParams({{ params|tojson }});
+
             chartUtility.createProjectPictolist({{ project.category|safe }});
-            chartUtility.createLinechart(chartUtility.getLinechartParamsHeader({{ project.date|safe }}));
+            chartUtility.createLinechart(
+                chartUtility.getLinechartParamsHeader({{ project.date|safe }}));
             chartUtility.drawLineChartHeader({{ project.presentations|safe }});
             chartUtility.setPeriodicalAnimation();
             chartUtility.drawPolarChart({{ project.ranks|safe }});
             baseUtility.lightboxSetup();
+
+            window.onresize = function () {
+                baseUtility.resetMenu();
+                baseUtility.baseSetup();
+                chartUtility.setLangParams({{ params|tojson }});
+            };
 
         }());
     </script>

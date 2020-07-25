@@ -42,14 +42,6 @@
             }
 
             @font-face {
-                font-family: "Ambit-SemiBoldItalic";
-                src: url({{ url_for('static', filename='media/fonts/ambit/Ambit-SemiBoldItalic.eot') }});
-                src: url({{ url_for('static', filename='media/fonts/ambit/Ambit-SemiBoldItalic.eot?#iefix') }}) format('embedded-opentype'),
-                url({{ url_for('static', filename='media/fonts/ambit/Ambit-SemiBoldItalic.woff2') }}) format('woff2'),
-                url({{ url_for('static', filename='media/fonts/ambit/Ambit-SemiBoldItalic.woff') }}) format('woff');
-            }
-
-            @font-face {
                 font-family: "Ambit-BoldItalic";
                 src: url({{ url_for('static', filename='media/fonts/ambit/Ambit-BoldItalic.eot') }});
                 src: url({{ url_for('static', filename='media/fonts/ambit/Ambit-BoldItalic.eot?#iefix') }}) format('embedded-opentype'),
@@ -91,30 +83,6 @@
                 src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.eot?#iefix') }}) format('embedded-opentype'),
                 url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.woff2') }}) format('woff2'),
                 url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.woff') }}) format('woff');
-            }
-
-            @font-face {
-                font-family: "CartographSans-Bold";
-                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.eot') }});
-                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.eot?#iefix') }}) format('embedded-opentype'),
-                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.woff2') }}) format('woff2'),
-                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Bold.woff') }}) format('woff');
-            }
-
-            @font-face {
-                font-family: "CartographSans-MediumItalic";
-                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.eot') }});
-                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.eot?#iefix') }}) format('embedded-opentype'),
-                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.woff2') }}) format('woff2'),
-                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.woff') }}) format('woff');
-            }
-
-            @font-face {
-                font-family: "CartographSans-BoldItalic";
-                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFBoldItalic.eot') }});
-                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFBoldItalic.eot?#iefix') }}) format('embedded-opentype'),
-                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFBoldItalic.woff2') }}) format('woff2'),
-                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFBoldItalic.woff') }}) format('woff');
             }
 
             @font-face {
@@ -209,18 +177,15 @@
     {% block lightbox_section %}
     {% endblock %}
 
-    <script>
-
-        baseUtility.baseSetup();
-        chartUtility.setLangParams({{ params|tojson }});
-
-        window.onresize = function () {
-            baseUtility.resetMenu();
-            baseUtility.baseSetup();
-            chartUtility.setLangParams({{ params|tojson }});
-        };
-
-    </script>
+{#    <script>#}
+{#        baseUtility.baseSetup();#}
+{#        chartUtility.setLangParams({{ params|tojson }});#}
+{#        window.onresize = function () {#}
+{#            baseUtility.resetMenu();#}
+{#            baseUtility.baseSetup();#}
+{#            chartUtility.setLangParams({{ params|tojson }});#}
+{#        };#}
+{#    </script>#}
 
     {% block jscript %}
     {% endblock %}

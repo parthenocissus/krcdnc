@@ -92,11 +92,19 @@
     <script>
         (function () {
 
-            {#chartUtility.setPeriodicalAnimation();#}
+            baseUtility.baseSetup();
+            chartUtility.setLangParams({{ params|tojson }});
+
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
             chartUtility.drawLineChartHeaderProjectList({{ data.timeline|safe }});
             chartUtility.drawProjectListSymbol("{{ data.pictoid }}");
             chartUtility.metaAnimation("{{ data.pictoid }}");
+
+            window.onresize = function () {
+                baseUtility.resetMenu();
+                baseUtility.baseSetup();
+                chartUtility.setLangParams({{ params|tojson }});
+            };
 
         }());
     </script>

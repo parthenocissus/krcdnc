@@ -52,7 +52,7 @@ data:
       id: "contact"
       images: 
         - path: "media/pages/teaching03.jpg"
-      text: "<p>Objavljujem sadržaje i održavam kontakt sa saradnicima, studentima i prijateljima uz pomoć imejla i društvenih mreža kao što su <a href='https://www.facebook.com/uros.krcadinac' target='_blank'>Facebook</a>, <a href='https://www.youtube.com/user/uroskrcadinac' target='_blank'>YouTube</a>, <a href='https://vimeo.com/user11041734' target='_blank'>Vimeo</a> i <a href='https://github.com/parthenocissus' target='_blank'>GitHub</a>.</p>
+      text: "<p>Objavljujem sadržaje i održavam kontakt sa saradnicima, studentima i prijateljima uz pomoć imejla i društvenih mreža kao što su <a href='https://www.facebook.com/uros.krcadinac' target='_blank'>Facebook</a>, <a href='https://www.behance.net/krcadinac' target='_blank'>Behance</a>, <a href='https://www.youtube.com/user/uroskrcadinac' target='_blank'>YouTube</a>, <a href='https://vimeo.com/user11041734' target='_blank'>Vimeo</a> i <a href='https://github.com/parthenocissus' target='_blank'>GitHub</a>.</p>
 <p>Ukoliko su vas zainteresovale moje radionice, kursevi i uopšte transdisciplinarni pristup obrazovanju, možete me kontaktirati putem imejla.</p>"
 timeline:
     - year: 2008

@@ -6,7 +6,19 @@ let baseUtility = (function () {
 
     /* Base Functions */
 
-    let baseSetup = function () {
+    let baseSetup = function() {
+        baseSetupDefault();
+        setLogoEvents();
+    };
+
+    let baseSetupHomepage = function() {
+        baseSetupDefault();
+        menuSelect = "#pictome-logo, #left-margin";
+        d3.selectAll("#name-aside").style("pointer-events", "none");
+        setLogoEvents();
+    };
+
+    let baseSetupDefault = function () {
 
         parameters = {
             animationDurationLogo: 300,
@@ -58,16 +70,11 @@ let baseUtility = (function () {
             graphics: generalPictogram.graphics,
             onHover: generalPictogram.onHover
         };
-
-        setLogoEvents();
+        // setLogoEvents();
 
     };
 
-    let setLogoEvents = function (homepage = false) {
-
-        if (homepage) {
-            menuSelect = "#pictome-logo, #left-margin";
-        }
+    let setLogoEvents = function() {
 
         let pictomeLogo = d3.selectAll(menuSelect);
 
@@ -222,18 +229,6 @@ let baseUtility = (function () {
 
     };
 
-    // let moveLangMenu = function () {
-    //     parameters.langFlag = false;
-    //     d3.selectAll("#plus-logo-svg").attr('transform', "scale(0.9)rotate(45)");
-    //     d3.selectAll("#lang-choice").style("opacity", "1");
-    // }
-    //
-    // let moveBackLangMenu = function () {
-    //     parameters.langFlag = true;
-    //     d3.selectAll("#plus-logo-svg").attr('transform', "scale(1)rotate(0)");
-    //     d3.selectAll("#lang-choice").style("opacity", "0");
-    // }
-
     let hideNameAside = function () {
         d3.select("#name-aside").style("opacity", "0");
     };
@@ -318,8 +313,8 @@ let baseUtility = (function () {
         baseSetup: baseSetup,
         resetMenu: resetMenu,
         pathTween: pathTween,
-        openInNewTab: openInNewTab,
-        lightboxSetup: lightboxSetup
+        lightboxSetup: lightboxSetup,
+        baseSetupHomepage: baseSetupHomepage
     }
 
 }());

@@ -135,96 +135,6 @@
 
         {% endfor %}
 
-
-        {#        <div class="break-line-container">#}
-        {#            <div class="break-line dashed-right"></div>#}
-        {#        </div>#}
-        {#        <div class="section-container section-container-grid-areas2">#}
-        {##}
-        {#            <div class="section-image">#}
-        {#                <img src="{{ url_for('static', filename=page.data.img2) }}">#}
-        {#            </div>#}
-        {#            <h2 class="section-heading section-title-style">#}
-        {#                {{ page.data.title2|safe }}#}
-        {#            </h2>#}
-        {#            <article class="section-text body-style">#}
-        {#                {{ page.data.text2|safe }}#}
-        {#            </article>#}
-        {##}
-        {#            <div class="project-title interface-heading-style">#}
-        {#                {{ params.menu_items[1].title }}#}
-        {#            </div>#}
-        {#            <div class="section-projects">#}
-        {#                {% for project in data.prose %}#}
-        {#                    {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}#}
-        {#                    {% set thumb_path = "media/projects/" ~ project.id ~ "/"  ~ project.id ~ "-main-thumb.jpg" %}#}
-        {#                    {% set project_title = project.title.html|safe if project.title.html is defined else project.title.name %}#}
-        {#                    <div class="project">#}
-        {#                        <a href="{{ project_link }}">#}
-        {#                            <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">#}
-        {#                            <div class="project-name project-name-in-list-style">#}
-        {#                                {{ project_title }}#}
-        {#                            </div>#}
-        {#                        </a>#}
-        {#                    </div>#}
-        {#                {% endfor %}#}
-        {#            </div>#}
-        {##}
-        {#        </div>#}
-        {##}
-        {#        <div class="break-line-container">#}
-        {#            <div class="break-line dashed-right"></div>#}
-        {#        </div>#}
-        {#        <div id="research" class="section-container section-container-grid-areas1">#}
-        {##}
-        {#            <div class="section-image">#}
-        {#                <img src="{{ url_for('static', filename=page.data.img3) }}">#}
-        {#            </div>#}
-        {#            <h2 class="section-heading section-title-style">#}
-        {#                {{ page.data.title3|safe }}#}
-        {#            </h2>#}
-        {#            <article class="section-text body-style">#}
-        {#                {{ page.data.text3|safe }}#}
-        {#            </article>#}
-        {##}
-        {#            <div class="project-title interface-heading-style">#}
-        {#                {{ params.menu_items[1].title }}#}
-        {#            </div>#}
-        {#            <div class="section-projects">#}
-        {#                {% for project in data.research %}#}
-        {#                    {% set project_link = params.menu_items[1].link ~ "/" ~ project.id %}#}
-        {#                    {% set thumb_path = "media/projects/" ~ project.id ~ "/"  ~ project.id ~ "-main-thumb.jpg" %}#}
-        {#                    {% set project_title = project.title.html|safe if project.title.html is defined else project.title.name %}#}
-        {#                    <div class="project">#}
-        {#                        <a href="{{ project_link }}">#}
-        {#                            <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">#}
-        {#                            <div class="project-name project-name-in-list-style">#}
-        {#                                {{ project_title }}#}
-        {#                            </div>#}
-        {#                        </a>#}
-        {#                    </div>#}
-        {#                {% endfor %}#}
-        {#            </div>#}
-        {##}
-        {#        </div>#}
-        {##}
-        {#        <div class="break-line-container">#}
-        {#            <div class="break-line dashed-right"></div>#}
-        {#        </div>#}
-        {#        <div class="section-container section-container-grid-areas2">#}
-        {##}
-        {#            <div class="section-image">#}
-        {#                <img src="{{ url_for('static', filename=page.data.img4) }}">#}
-        {#            </div>#}
-        {#            <h2 class="section-heading section-title-style">#}
-        {#                {{ page.data.title4|safe }}#}
-        {#            </h2>#}
-        {#            <article class="section-text body-style">#}
-        {#                {{ page.data.text4|safe }}#}
-        {#            </article>#}
-        {##}
-        {#        </div>#}
-
     </div>
 
 {% endblock %}
@@ -233,9 +143,18 @@
     <script>
         (function () {
 
+            baseUtility.baseSetup();
+            chartUtility.setLangParams({{ params|tojson }});
+
             chartUtility.setPeriodicalAnimation();
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
             chartUtility.drawLineChartHeaderPage({{ page.timeline|safe }});
+
+            window.onresize = function () {
+                baseUtility.resetMenu();
+                baseUtility.baseSetup();
+                chartUtility.setLangParams({{ params|tojson }});
+            };
 
         }());
     </script>

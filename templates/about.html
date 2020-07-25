@@ -87,9 +87,18 @@
     <script>
         (function () {
 
+            baseUtility.baseSetup();
+            chartUtility.setLangParams({{ params|tojson }});
+
             chartUtility.setPeriodicalAnimation();
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
             chartUtility.drawLineChartHeaderProjectList({{ data.timeline|safe }});
+
+            window.onresize = function () {
+                baseUtility.resetMenu();
+                baseUtility.baseSetup();
+                chartUtility.setLangParams({{ params|tojson }});
+            };
 
         }());
     </script>

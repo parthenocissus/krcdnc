@@ -51,7 +51,7 @@ data:
       id: "contact"
       images: 
         - path: "media/pages/teaching03.jpg"
-      text: "<p>I publish content and communicate with collaborators, students, and friends via email and social networks, such as <a href='https://www.facebook.com/uros.krcadinac' target='_blank'>Facebook</a>, <a href='https://www.youtube.com/user/uroskrcadinac' target='_blank'>YouTube</a>, <a href='https://vimeo.com/user11041734' target='_blank'>Vimeo</a>, and <a href='https://github.com/parthenocissus' target='_blank'>GitHub</a>.</p>
+      text: "<p>I publish content and communicate with collaborators, students, and friends via email and social networks, such as <a href='https://www.facebook.com/uros.krcadinac' target='_blank'>Facebook</a>, <a href='https://www.behance.net/krcadinac' target='_blank'>Behance</a>, <a href='https://www.youtube.com/user/uroskrcadinac' target='_blank'>YouTube</a>, <a href='https://vimeo.com/user11041734' target='_blank'>Vimeo</a>, and <a href='https://github.com/parthenocissus' target='_blank'>GitHub</a>.</p>
 <p>If you find my workshops and courses interesting and my transdisciplinary approach to teaching appealing, feel free to contact me via email.</p>"
 timeline:
     - year: 2008
