@@ -2,6 +2,7 @@ let baseUtility = (function () {
 
     let parameters, generalPictogram, currentPictogram;
     let mobileQuery = "(max-width: 650px)";
+    let menuSelect = "#pictome-logo";
 
     /* Base Functions */
 
@@ -56,15 +57,19 @@ let baseUtility = (function () {
         currentPictogram = {
             graphics: generalPictogram.graphics,
             onHover: generalPictogram.onHover
-        }
+        };
 
         setLogoEvents();
 
     };
 
-    let setLogoEvents = function () {
+    let setLogoEvents = function (homepage = false) {
 
-        let pictomeLogo = d3.selectAll("#pictome-logo");
+        if (homepage) {
+            menuSelect = "#pictome-logo, #left-margin";
+        }
+
+        let pictomeLogo = d3.selectAll(menuSelect);
 
         let desktopEvents = {
             mouseover: function () {
