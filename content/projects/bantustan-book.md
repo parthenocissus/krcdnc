@@ -277,6 +277,6 @@ All maps and visuals have been meticulously drawn by hand, digitally, using a dr
  So far, <span class='italic-style'>Bantustan</span> was printed in 3 editions (3000 copies) and promoted via 30+ self-organized events in Belgrade, Zagreb, Sarajevo, Novi Sad, Rijeka, Banjaluka, Kragujevac, Pula, Mostar, Sombor, Sinj, Konjic, Trebinje, Pirot, Varaždin, Subotica, Čačak, Čakovec, Osijek, Istočno Sarajevo, Babušnica, Opatija, Vršac, Makarska, Pančevo and other Balkan towns. The journey of the book became <a href='/work/projects/bantustan-dataviz/'>a story in itself</a>. <mark>&#9632;</mark>
  <div class="quote-block">
  <div class="quote1 quote-upper-dash">Bantustan is read like a picaresque novel, but it is also an exciting and authentic testimony about the contemporary world.<p class="by">— Vasa Pavković, Serbian writer and literary critic</p></div>
- <div class="quote1 quote-upper-dash">A project of unintentional ethnography and experimental antropology.<p class="by">— Ildiko Erdei, professor of anthropology at the University of Belgrade</p></div>
+ <div class="quote1 quote-upper-dash">A project of unintentional ethnography and experimental anthropology.<p class="by">— Ildiko Erdei, professor of anthropology at the University of Belgrade</p></div>
  <div class="quote1 quote-upper-dash">This is top-notch literature. I dare to say that Bantustan is not only a travelogue but also a new form of the novel.<p class="by">— Elis Bektaš, Bosnian writer and poet</p></div>
  </div>
