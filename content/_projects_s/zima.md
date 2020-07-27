@@ -77,4 +77,4 @@ Autorski postupak u slučaju generativne umetnosti i književnosti podrazumeva k
 
 <span class='italic-style'>Ako vas pesma gane, sami ste krivi; računarski program nije inteligentan i nije ništa želeo da kaže</span>.
 
-Nazvavši ovu pesmu pozitivnim primerom <span class='italic-style'>kombinatornog plagijarizma</span>, kritičari su interpretirali pesmu kao ljubavno pismo epohe globalnih migracija i lokalne <a href='https://sh.wikipedia.org/wiki/D%C5%BEentrifikacija' target='_blank'>džentrifikacije</a> na obalama Beograda. <mark>&#9632;</mark>
+Nazvavši ovu pesmu pozitivnim primerom <span class='italic-style'>kombinatornog plagijarizma</span>, kritičari su interpretirali pesmu kao ljubavno pismo za epohu globalnih migracija i lokalne <a href='https://sh.wikipedia.org/wiki/D%C5%BEentrifikacija' target='_blank'>džentrifikacije</a> na obalama Beograda. <mark>&#9632;</mark>
