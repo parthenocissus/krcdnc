@@ -62,7 +62,7 @@ img_data:
       caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"
     - size: "1200x795"
       caption: "Workshop @ Nova Iskra, Belgrade, Serbia. Photo: Ivona Petrov"  
-lead: "Game design workshop for creating a simple 2D computer game out of drawing, photos, and a little bit of code. Participants are encouraged to focus on ideas, visuals, story, and mechanics instead of technology."
+lead: "Game design workshop for creating a simple 2D computer game out of drawings, photos, and a little bit of code. Participants are encouraged to focus on ideas, visuals, story, and mechanics instead of technology."
 
 The premise of the workshop is that not every video game should be a technically demanding 3D endeavor, and that the best digital works arise from a creative process that takes place in the physical world.
 

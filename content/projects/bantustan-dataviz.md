@@ -99,7 +99,7 @@ The term <span class='italic-style'>bantustan</span>, with its <a href='https://
 
 A series of visualizations show these spaces and connections. There are precise statistics: where the book was ordered from, to which places, cities, countries and continents the book went. There are also artistic depictions of the connections between these places, which are <a href='https://en.wikipedia.org/wiki/Algorithmic_art' target='_blank'>generated algorithmically</a> and are different each time. By changing the drawing parameters, users / readers / viewers can change the appearance of the map. Just as particles collide in a fluid, people and stories collide on these maps.
 
-These maps are also a visual analysis of the muddy cultural space of the <a href='https://en.wikipedia.org/wiki/Serbo-Croatian' target='_blank'>pluricentric Serbo-Croatian language</a>. Although it is not impossible to recognize the borders of former and current countries on these maps, data visualization creates a new and authentic geography of readers.
+These maps are also a visual analysis of the muddy cultural space of the <a href='https://en.wikipedia.org/wiki/Serbo-Croatian' target='_blank'>pluricentric Serbo-Croatian language</a>. Although it is not impossible to recognize the borders of former and current countries on these maps, data visualization creates a new and authentic geography of readership.
 
 Data visualizations were published on The Travel Club portal, in Serbo-Croatian, in the form of interactive articles or essays:
  
