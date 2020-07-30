@@ -11,7 +11,7 @@
       "title": "Eksperimentalna kartografija",
       "case": "eksperimentalnom kartografijom",
       "createsVerb": "se bavi",
-      "description": "Mape su jedan od centralnih medija našeg vremena. Ako se <a href='/rad/projekti/category/geography'>eksperimentalna geografija</a> odnosi na kreiranje ličnog odnosa sa Zemljom, eksperimentalna kartografija bavi se kreiranjem ličnih, umetničkih, književnih i eksperimentalnih mapa. Crpeći inspiraciju iz koncepta <a href='https://papress.com/products/the-map-as-art-contemporary-artists-explore-cartography' target='_blank'><span class='italic-style'>Mapa kao umetnost</span></a> K. Harmon, ova vrsta kartografije ne fokusira se na preciznost koliko na ekspresiju i priču."
+      "description": "Mape su jedan od centralnih medija našeg vremena. K. Harmon ih smatra <a href='https://papress.com/products/the-map-as-art-contemporary-artists-explore-cartography' target='_blank'>umetničkim medijem</a>. Ako se <a href='/rad/projekti/category/geography'>eksperimentalna geografija</a> odnosi na kreiranje ličnog odnosa sa Zemljom, eksperimentalna kartografija bavi se kreiranjem ličnih i društvenih, umetničkih, književnih i eksperimentalnih mapa."
     },
     "graphics": {
       "headcx": 8.527,
@@ -38,7 +38,7 @@
       "title": "Eksperimentalna geografija",
       "case": "eksperimentalnom geografijom",
       "createsVerb": "se bavi",
-      "description": "Naslednici nekadašnjih <a href='https://sr.wikipedia.org/sr-el/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%B3%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%98%D0%B0' target='_blank'>psihogeografa</a>, <a href='https://brooklynrail.org/2009/03/express/experimental-geography-from-cultural-production-to-the-production-of-space' target='_blank'>T. Paglen</a> i <a href='https://www.natothompson.com/' target='_blank'>N. Thompson</a>, definisali su eksperimentalnu geografiju kao <a href='https://www.mhpbooks.com/books/experimental-geography/' target='_blank'>presek između geografskog istraživanja i umetničkog doživljaja Zemlje</a>. Ovaj termin koristim u kontekstu putničkih i putopisnih projekata koje sam uglavnom kreirao sa <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klubom putnika</a>. Kao poetika hodanja i putovanja, eksperimentalna geografija vezana je za <a href='/rad/projekti/category/cartography'>eksperimentalnu kartografiju</a>, praksu crtanja čudnih mapa."
+      "description": "Naslednici nekadašnjih <a href='https://sr.wikipedia.org/sr-el/%D0%9F%D1%81%D0%B8%D1%85%D0%BE%D0%B3%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%98%D0%B0' target='_blank'>psihogeografa</a>, <a href='https://brooklynrail.org/2009/03/express/experimental-geography-from-cultural-production-to-the-production-of-space' target='_blank'>T. Paglen</a> i <a href='https://www.natothompson.com/' target='_blank'>N. Thompson</a>, definisali su eksperimentalnu geografiju kao <a href='https://www.mhpbooks.com/books/experimental-geography/' target='_blank'>presek između geografskog istraživanja i umetničkog doživljaja Zemlje</a>. Ovaj termin koristim uglavnom u kontekstu putničkih i putopisnih projekata koje sam kreirao sa <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klubom putnika</a>. Kao poetika hodanja i putovanja, eksperimentalna geografija vezana je za <a href='/rad/projekti/category/cartography'>eksperimentalnu kartografiju</a>, praksu crtanja čudnih mapa."
     },
     "graphics": {
       "headcx": 8.501,
@@ -59,13 +59,13 @@
       "title": "Animation",
       "case": "Animation",
       "createsVerb": "makes",
-      "description": "Before I studied <a href='/work/projects/category/software'>informatics</a> and got interested in <a href='/work/projects/category/dataart'>data art</a>, I was into cartoons and animation. These are my animation-related projects: animated digital art, visualizations, interfaces. Animated films. Also a physical animation machine that is <a href='/work/projects/cyclozoetrope/'>half-zoetrope, half-bicycle</a>."
+      "description": "Before I studied <a href='/work/projects/category/software'>informatics</a> and got interested in <a href='/work/projects/category/dataart'>data art</a>, I was into cartoons and animation. These are my animation-related projects: animated digital art, visualizations, interfaces, animated short films, and a physical animation machine that is <a href='/work/projects/cyclozoetrope/'>half-zoetrope, half-bicycle</a>."
     },
     "nameS": {
       "title": "Animacija",
       "case": "animacije i animirane filmove",
       "createsVerb": "kreira",
-      "description": "Pre nego što sam studirao <a href='/rad/projekti/category/software'>informatiku</a> i zainteresovao se za <a href='/rad/projekti/category/data-art'>data umetnost</a>, bavio sam se crtanim filmom. Ovde su nabrojani moji animatorski projekti: animirana digitalna umetnost, vizuelizacije podataka, interfejsi. Animirani filmovi. Kao i jedna fizička mašina za animaciju — <a href='/rad/projekti/category/cyclozoetrope/'>pola zoetrop, pola bicikl</a>."
+      "description": "Pre nego što sam studirao <a href='/rad/projekti/category/software'>informatiku</a> i zainteresovao se za <a href='/rad/projekti/category/data-art'>data umetnost</a>, bavio sam se crtanim filmom. Ovde su izlistani animatorski projekti: animirana digitalna umetnost, vizuelizacije podataka, interfejsi, animirani filmovi, kao i jedna fizička mašina za animaciju — <a href='/rad/projekti/cyclozoetrope/'>pola zoetrop, pola bicikl</a>."
     },
     "graphics": {
       "headcx": 9.54,
@@ -119,7 +119,7 @@
       "title": "Interaktivna umetnost + dizajn",
       "case": "interaktivne umetnosti + dizajna",
       "createsVerb": "kreira u oblasti",
-      "description": "Interaktivni projekti na kojima sam učestvovao kao <a href='/rad/projekti/role/designer'>dizajner</a>, <a href='/rad/projekti/role/programmer'>programer</a>, <a href='/rad/projekti/role/artist'>umetnik</a> ili <a href='/rad/projekti/role/educator'>kreator radionica</a>. Interaktivni tekst, novomedijski umetnički radovi, vizuelizacije, interfejsi, generativni radovi. Od <a href='https://en.wikipedia.org/wiki/Ergodic_literature' target='_blank'>ergodičke</a> književnosti do Veb sajtova i aplikacija."
+      "description": "Interaktivni projekti na kojima sam učestvovao kao <a href='/rad/projekti/role/designer'>dizajner</a>, <a href='/rad/projekti/role/programmer'>programer</a>, <a href='/rad/projekti/role/artist'>umetnik</a> ili <a href='/rad/projekti/role/educator'>edukator</a>. Interaktivni tekst, novomedijski umetnički radovi, vizuelizacije, interfejsi, generativni radovi. Od <a href='https://en.wikipedia.org/wiki/Ergodic_literature' target='_blank'>ergodičke</a> književnosti do Veb sajtova i aplikacija."
     },
     "graphics": {
       "headcx": 12.5,
@@ -147,7 +147,7 @@
       "title": "Istraživanje",
       "case": "akademskim istraživačkim radom",
       "createsVerb": "se bavi",
-      "description": "Za vreme doktorskih studija na Univerzitetu u Beogradu, u saradnji sa ekipom iz <a href='https://goodoldai.org/' target='_blank'>laboratorije Good Old AI</a>, napisao sam <a href='/rad/tekstovi/#research'>seriju naučno-istraživačkih radova</a> u oblastima afektivnog računarstva, interakcije čoveka i računara, generativne estetike, prepoznavanja emocija u tekstu i vizuelizacije podataka. Ovo su projekti vezani za ova istraživanja."
+      "description": "Za vreme doktorskih studija na Univerzitetu u Beogradu, u saradnji sa ekipom iz laboratorije <a href='https://goodoldai.org/' target='_blank'>Good Old AI</a>, napisao sam <a href='/rad/tekstovi/#research'>seriju naučno-istraživačkih radova</a> u oblastima afektivnog računarstva, interakcije čoveka i računara, generativne estetike, prepoznavanja emocija u tekstu i vizuelizacije podataka. Ovo su projekti vezani za ta istraživanja."
     },
     "graphics": {
       "headcx": 5.998,
@@ -174,7 +174,7 @@
       "title": "Digitalni crtež",
       "case": "digitalne crteže",
       "createsVerb": "smišlja i crta",
-      "description": "Crtam uz pomoć raznih alata  — flomastera, tableta za crtanje, <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS uređaja</a>, olovke ili softvera koje sam pišem. Naročito volim da crtam <a href='/rad/projekti/category/cartography'>mape</a>. Pre nego što počnem da programiram ili pišem, puno skiciram. U ovoj listi, ispod novih digitalnih projekata, nalaze se i neki od najstarijih crteža koje sam crtao kao dečak."
+      "description": "Crtam uz pomoć raznih alata  — flomastera, tableta za crtanje, <a href='https://en.wikipedia.org/wiki/GPS_drawing' target='_blank'>GPS uređaja</a>, olovke ili softvera koje sam pišem. Naročito volim da crtam <a href='/rad/projekti/category/cartography'>mape</a>. Pre nego što počnem da programiram ili pišem, puno skiciram. Među izlistanim projektima, ispod novih digitalnih radova, nalaze se i neki od najstarijih crteža koje sam crtao kao dečak."
     },
     "graphics": {
       "headcx": 10.4,
@@ -195,13 +195,13 @@
       "title": "Data Visualization",
       "case": "Data Visualization",
       "createsVerb": "makes",
-      "description": "While <a href='/work/projects/category/data-art'>Data Art</a> is personal and subjective, Data Visualization is communicative, informative, and useful. These are my dataviz projects — interactive visualizations, Web interfaces, physical maps, and workshops. Dataviz is an important medium because it makes abstract systems and power structures visible and sensible."
+      "description": "Dataviz as an <a href='/work/projects/category/data-art'>artistic language</a> of x- and y-axis. These are my dataviz projects: interactive visualizations, Web interfaces, physical maps, and workshops. Dataviz is an important medium because it makes abstract systems and power structures visible and sensible."
     },
     "nameS": {
       "title": "Vizuelizacija podataka",
       "case": "vizuelizacije podataka",
       "createsVerb": "kreira",
-      "description": "Dok je <a href='/rad/projekti/category/data-art'>data umetnost</a> lična i subjektivna, dizajn vizuelizacija podataka je komunikativan, informativan i koristan. Ovo su moji dataviz projekti — interaktivne vizuelizacije, Veb interfejsi, fizičke i analogne mape, kao i radionice na ove teme. Vizuelizacija podataka je moćan medij jer apstraktne sisteme i strukture čini vidljivim i doživljivim."
+      "description": "Vizuelizacija podataka kao <a href='/rad/projekti/category/data-art'>dizajnerski i umetnički</a> jezik apscise i ordinate. Ovo su moji dataviz projekti: interaktivne vizuelizacije, Veb interfejsi, fizičke i analogne mape, kao i radionice na ove teme. Vizuelizacija podataka je moćan medij jer apstraktne sisteme i strukture čini vidljivim i doživljivim."
     },
     "graphics": {
       "headcx": 4.67,
@@ -228,7 +228,7 @@
       "title": "Digitalna književnost",
       "case": "digitalnom književnošću",
       "createsVerb": "se bavi",
-      "description": "<a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>Digitalna ili elektronska književnost</a> obuhvata tekstualne radove čija estetika proizilazi iz računarskih procesa. Ovde su izlistani tekstualni projekti koje sam kreirao uz pomoć digitalnih tehnika kao što su računarski AI sistemi za generisanje teksta, poezija optimizovana pomoću Google Keyword Plannera i taktičko pisanje za prevaru programa koji prepoznaju emocije u tekstu. Dodatne informacije o ovim radovima nalaze se u sekciji <a href='/rad/tekstovi/'>Pisani radovi</a>."
+      "description": "<a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>Digitalna ili elektronska književnost</a> obuhvata tekstualne radove čija estetika proizilazi iz računarskih procesa. Ovde su izlistani tekstualni projekti koje sam kreirao uz pomoć digitalnih tehnika kao što su računarski AI sistemi za generisanje teksta, poezija optimizovana pomoću Google Keyword Plannera i taktičko pisanje za prevaru softvera koji prepoznaje emocije u tekstu. Dodatne informacije o ovim radovima nalaze se u sekciji <a href='/rad/tekstovi/'>Publikacije</a>."
     },
     "graphics": {
       "headcx": 8.5,
@@ -248,13 +248,13 @@
       "title": "Installations + Performances",
       "case": "Installations + Performances",
       "createsVerb": "makes",
-      "description": "Projects that involve <a href='/work/projects/medium/installation'>physical installations</a> and <a href='/work/projects/medium/performance'>performative elements</a>, often created during <a href='/work/projects/category/workshop'>workshops</a>. Media art pieces, physical data visualizations, combinations of data and land art, reading performances of generative poetry. Despite the variety of mediums, these projects are driven by the same æsthetic curiosity — is it possible to transform complex systems into something we can feel, grasp, touch, smell, or walk onto?"
+      "description": "Projects that involve <a href='/work/projects/medium/installation'>physical installations</a> and <a href='/work/projects/medium/performance'>performative elements</a>, often created during <a href='/work/projects/category/workshop'>workshops</a>. Here are media art pieces, physical data visualizations, combinations of data and land art, and reading performances of generative poetry. Despite the variety of mediums, these projects are driven by the same æsthetic curiosity — is it possible to transform complex systems into something we can feel, grasp, touch, smell, or <a href='/rad/projekti/60month-walk'>walk onto</a>?"
     },
     "nameS": {
       "title": "Instalacije + performansi",
       "case": "instalacije + performanse",
       "createsVerb": "kreira",
-      "description": "Projekti koji uključuju <a href='/rad/projekti/medium/installation'>fizičke instalacije</a> i <a href='/work/projects/medium/performance'>performativne elemente</a>, kreirani često u sklopu <a href='/rad/projekti/category/workshop'>radionica</a>. Fizičke vizuelizacije podataka, novomedijski radovi, performativna čitanja generativne poezije. Uprkos raznolikosti medija, ovi projekti vođeni su istom estetskom radoznalošću — da li je moguće transformisati složene digitalne sisteme u oblik koji možemo da osetimo, dodirnemo, omirišemo i po njemu hodamo?"
+      "description": "Projekti koji uključuju <a href='/rad/projekti/medium/installation'>fizičke instalacije</a> i <a href='/work/projects/medium/performance'>performativne elemente</a>, kreirani često u sklopu <a href='/rad/projekti/category/workshop'>radionica</a>. Tu su fizičke vizuelizacije podataka, novomedijski radovi i performativna čitanja generativne poezije. Uprkos raznolikosti medija, ovi projekti vođeni su istom estetskom radoznalošću — kako transformisati složene digitalne sisteme u oblik koji možemo da osetimo, dodirnemo, omirišemo i <a href='/rad/projekti/60month-walk'>po njemu hodamo</a>?"
     },
     "id": "installation",
     "graphics": {
@@ -282,7 +282,7 @@
       "title": "Data umetnost",
       "case": "data umetnost",
       "createsVerb": "smišlja i kreira",
-      "description": "Umetnički i dizajnerski projekti čiji su primarni medij – digitalni i statistički podaci. Na liniji sa <a href='https://monoskop.org/images/b/b7/Wright_Stephen_ed_Datasthetics_How_To_Do_Things_With_Data.pdf' target='_blank'><span class='italic-style'>Data estetikom</span></a> S. Wrighta i <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'><span class='italic-style'>Data humanizmom</span></a> G. Lupi, verujem da podatkovne pristupe društvu treba radikalno humanizovati, od <a href='http://127.0.0.1:5000/rad/projekti/category/ai'>veštačke inteligencije</a> do digitalne statistike i kartografije</a>. Kao što je <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>rekao</a> umetnik <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a>, vizuelizacija podataka može da nas anestezira pretvarajući ljude u brojeve. Data umetnost je mali lični odgovor na <span class='italic-style'>Big Data</span> fetišizam."
+      "description": "Umetnički i dizajnerski projekti čiji su primarni medij – digitalni i statistički podaci. Na liniji sa <a href='https://monoskop.org/images/b/b7/Wright_Stephen_ed_Datasthetics_How_To_Do_Things_With_Data.pdf' target='_blank'><span class='italic-style'>Data estetikom</span></a> S. Wrighta i <a href='http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold' target='_blank'><span class='italic-style'>Data humanizmom</span></a> G. Lupi, verujem da podatkovne pristupe društvu treba radikalno humanizovati, od <a href='http://127.0.0.1:5000/rad/projekti/category/ai'>veštačke inteligencije</a> do digitalne statistike i kartografije</a>. Kao što je <a href='https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data' target='_blank'>rekao</a> umetnik <a href='http://lukedubois.com/' target='_blank'>L. DuBois</a>, vizuelizacija podataka može da nas anestezira pretvarajući ljude u brojeve. Utoliko je data umetnost mali lični odgovor na <span class='italic-style'>Big Data</span> fetišizam."
     },
     "graphics": {
       "headcx": 4.674,
@@ -303,13 +303,13 @@
       "title": "Books",
       "case": "Texts + Books",
       "createsVerb": "writes",
-      "description": "Book projects I was involved in as a writer, artist, cartographer, or media programmer. From the infographic travel prose, such as <span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: The Atlas of a Journey</a></span>, to conceptual works of <a href='/work/writing#diglit'>generative poetic text</a> published in the form of artist books and poetry booklets. Apart from this, I also write <a href='/work/writing/'>academic research papers, essays, articles, and other stuff</a>."
+      "description": "Book projects I was involved in as a writer, artist, cartographer, or media programmer. From the infographic travel prose, such as <span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: The Atlas of a Journey</a></span>, to conceptual works of <a href='/work/writing#diglit'>generative poetic text</a> published in the form of artist books and poetry booklets. Apart from this, I also write <a href='/work/writing/'>academic research papers, essays and articles</a>."
     },
     "nameS": {
       "title": "Knjige",
       "case": "tekstove + knjige",
       "createsVerb": "piše i objavljuje",
-      "description": "Knjige na kojima sam radio kao pisac, ilustrator i programer. Od infografičke putopisne proze, kao što je <span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>, do konceptualnih radova <a href='/rad/tekstovi#diglit'>generativnog poetskog teksta</a> objavljenog u umetničkim knjigama i magazinima. Uporedo s ovim tekstovima, pišem <a href='/rad/tekstovi/'>akademske radove, eseje, članke i ostalo</a>."
+      "description": "Knjige na kojima sam radio kao pisac, ilustrator i programer. Od infografičke putopisne proze, kao što je <span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>, do konceptualnih radova <a href='/rad/tekstovi#diglit'>generativnog poetskog teksta</a> objavljenog u umetničkim knjigama i magazinima. Uporedo s ovim tekstovima, pišem <a href='/rad/tekstovi/'>akademske radove, eseje i članke</a>."
     },
     "graphics": {
       "headcx": 4.799,
@@ -336,7 +336,7 @@
       "title": "Softver",
       "case": "računarski softver",
       "createsVerb": "kreira",
-      "description": "Poput slikarstva, filma, književnosti, stripova i muzike, vidim softver kao pre svega izražajni medij. Kao inženjer informacionih tehnologija po formalnom obrazovanju, pišem kôd u jezicima kao što su JavaScript, Python, Processing, Java, HTML/CSS, itd. Ovo su radovi za koje sam pisao softver: interaktivni medijski umetnički radovi, Veb interfejsi, vizuelizacije podataka, generativni tekst i vizuali. Dobrodošli ste i na <a href='https://github.com/parthenocissus/' target='_blank'>moju GitHub stranicu</a>."
+      "description": "Poput slikarstva, filma, književnosti, stripova i muzike, vidim softver kao pre svega izražajni medij. Kao inženjer informacionih tehnologija po formalnom obrazovanju, pišem kôd u jezicima kao što su JavaScript, Python, Processing, Java, HTML/CSS, itd. Ovo su radovi za koje sam pisao softver: interaktivni medijski radovi, Web interfejsi, vizuelizacije podataka, generativni tekst i vizuali. Dobrodošli ste i na <a href='https://github.com/parthenocissus/' target='_blank'>moju GitHub stranicu</a>."
     },
     "graphics": {
       "headcx": 8.5,

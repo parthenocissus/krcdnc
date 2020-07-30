@@ -67,7 +67,7 @@ Za početak, definisali smo odrednice identiteta jedne kafane: vizuelni identite
 Podatke smo prikupili na terenu. Obišli smo sve Kišove toponime. Na nekima se i dalje nalaze iste kafane, na drugima ugostiteljski objekti drukčijeg imena, dok su mnoge zamenjene bankama, kladionicama, pekarama, apotekama – klasičnim tranzicionim biznisima – ili su naprosto srušene.
 
 U pogledu identiteta, izdvojili smo četiri tipa: kafane koje su 
-1zadržale identitet u odnosu na Kišovo vreme; one koje su ga drastično promenile; one između; i one koje više ne postoje, <span class='italic-style'>kafane-utvare</span>. U pogledu <a href='https://sh.wikipedia.org/wiki/Dru%C5%A1tvena_klasa' target='_blank'>društvene klase</a>, tu su kafane za višu, srednju i nižu klasu, kao i kafane za turiste. Kao dodatni sadržaj uvrstili smo isečke iz razgovora sa konobarima.
+zadržale identitet u odnosu na Kišovo vreme; one koje su ga drastično promenile; one između; i one koje više ne postoje, <span class='italic-style'>kafane-utvare</span>. U pogledu <a href='https://sh.wikipedia.org/wiki/Dru%C5%A1tvena_klasa' target='_blank'>društvene klase</a>, tu su kafane za višu, srednju i nižu klasu, kao i kafane za turiste. Kao dodatni sadržaj uvrstili smo isečke iz razgovora sa konobarima.
 
 Ocrtali smo i širi geografski prostor od Istre do Istanbula, koji se, poput akvarela, nazire u toponimskim vektorima: Stambol, Vidin, Boka, Brioni, Skadar, Drina, Obrenovac, Oplenac, Dušanov grad, Smederevo.
 

@@ -56,7 +56,7 @@ img_data:
       caption: "Petnica, 2017. Foto: Strahinja Jovanović"
     - size: "1300x732"
       caption: "Petnica, 2017. Foto: Sonja Jovanović"   
-lead: "Pola bicikl, pola <a href='https://en.wikipedia.org/wiki/Zoetrope' target='_blank'>zoetrop</a>, ciklozoetrop je kentaur mašina. Kinematografija na pedale. Isprva zamišljen kao interaktivni kinetički spomenik za beogradske bioskope koji nestaju, izrastao je u jedinstvenu alatku za instalacije i radionice rukom crtane 2D animacije i štampanih <a href='https://www.fastcompany.com/1671817/the-strange-allure-of-visual-loops-from-zoetropes-to-gifs-and-vine' target='_blanl'>GIF-ova</a>."
+lead: "Pola bicikl, pola <a href='https://en.wikipedia.org/wiki/Zoetrope' target='_blank'>zoetrop</a>, ciklozoetrop je kentaur-mašina. Kinematografija na pedale. Isprva zamišljen kao interaktivni kinetički spomenik za beogradske bioskope koji nestaju, izrastao je u jedinstvenu alatku za instalacije i radionice rukom crtane 2D animacije i štampanih <a href='https://www.fastcompany.com/1671817/the-strange-allure-of-visual-loops-from-zoetropes-to-gifs-and-vine' target='_blanl'>GIF-ova</a>."
 
 U 21. veku bioskopi u Srbiji zatvaraju se jedan po jedan. Dolazimo u situaciju da filmske slike pokrećemo kao u 19. veku – <a href='https://en.wikipedia.org/wiki/Precursors_of_film' target='_blank'>mehanički</a>. Ciklozoetrop je isprva zamišljen kao interaktivan fizički i kinetički spomenik ovom post-kinematografskom pejzažu.
 
