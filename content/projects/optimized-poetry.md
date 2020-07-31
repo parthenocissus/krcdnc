@@ -90,7 +90,7 @@ Another example of AI-driven poetics are <span class='italic-style'>tactical poe
 (recognised negative)</p>
 </div>  
 
-When text is put into the <a href='https://support.google.com/google-ads/answer/7337243?hl=en' target='_blank'>Google Keyword Planner</a>, the app suggests additional words and phrases you can use to improve and optimize the marketing utility of text. Instead of advertisements, we put various poems and reinterpreted the suggestions as <span class='italic-style'>optimized poetry</span>. Here is the optimised version of the poem <a href='https://sites.google.com/site/projectgoethe/Home/antun-branko-imi/pjesnici' target='_blank'><span class='italic-style'>Poets are eternal wonder in the world</span></a>, originally written by Antun Branko Šimić:
+When text is put into the <a href='https://support.google.com/google-ads/answer/7337243?hl=en' target='_blank'>Google Keyword Planner</a>, the app suggests additional words and phrases you can use to improve and optimize the marketing utility of text. Instead of advertisements, we put various poems and reinterpreted the suggestions as <span class='italic-style'>optimized poetry</span>. Here is the optimised version of the poem <a href='https://sites.google.com/site/projectgoethe/Home/antun-branko-imi/pjesnici' target='_blank'><span class='italic-style'>Poets</span></a>, originally written by Antun Branko Šimić:
 
 <div class='quoted-text tiny-quote-style'>
 <p>new year greeting cards in rhyme<br>

@@ -268,7 +268,7 @@ lead: "<span class='italic-style'>Bantustan: atlas jednog putovanja</span> je il
 
 Uz seriju rukom crtanih mapa, infografika i vizuelizacija podataka, svojevrsnih <span class='italic-style'>interfejsa</span> za nelinearno čitanje, <span class='italic-style'>Bantustan</span> je primer <a href='https://www.articleworld.org/index.php/Ergodic_literature' target='_blank'>ergodičke i interaktivne književnosti</a>. Čitaoci mogu da biraju kako će čitati knjigu: na tradicionalan linearan način ili kartografski, služeći se mapama kao vizuelnim interfejsima za skakanje od priče od priče. 
 
-Sve mape i vizuale crtao sam rukom, digitalno, služeći se tabletom za crtanje. Mape predstavljaju složene tapiserije piktograma, ideograma, različitih pisama, grbova, lavirinata, tajnih poruka i drugih skrivenih simbola. Na ovim crtežima radio sam godinu dana. 
+Sve mape i vizuale crtao sam rukom, digitalno, pomoću tableta za crtanje. Mape predstavljaju složene tapiserije piktograma, ideograma, različitih pisama, grbova, lavirinata, tajnih poruka i drugih skrivenih simbola. Na ovim crtežima radio sam godinu dana. 
 
  Napisan u 3 autorska glasa, <span class='italic-style'>Bantustan</span> je primer i <a href='https://en.wikipedia.org/wiki/Collaborative_fiction' target='_blank'>kolaborativnog književnog projekta</a>. Lazar Pašćanović, Marko Đedović i ja zajedno smo radili na tekstu nekoliko godina, pretvarajući putopisni blog u međužanrovski eksperiment.
  

@@ -55,7 +55,7 @@ img_data:
       caption: "Beograd, 2018"   
 lead: "Radionica <a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>digitalne književnosti</a> i čitanje poetskih tekstova kreiranih uz pomoć eksperimentalnih digitalnih i elektronskih tehnika. Radionica i performans bili su završni događaji konferencije <a href='https://elementarium.cpn.rs/u-centru/artneuroscience-susret-umetnosti-i-nauke/' target='_blank'>Art + Science</a> koju je organizovao beogradski <a href='https://www.cpn.edu.rs/' target='_blank'>Centar za promociju nauke</a>."  
 
-<a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>Digitalno-književni tekstovi</a> izvedeni su u Poletu, u sklopu konferencije <a href='https://elementarium.cpn.rs/u-centru/artneuroscience-susret-umetnosti-i-nauke/' target='_blank'>Art + Science</a>. U tekstove spada <span class='italic-style'>veštačka poezija</span> koju su generisali <a href='/rad/projekti/category/ai'>veštački inteligentni programi</a>, <span class='italic-style'>optimizovana poezija</span>, literarni tekstovi optimizovani uz pomoć softvera Google Keyword Planner, kao i <span class='italic-style'>taktička poezija</span>, tekstovi koji svoju poetiku crpe iz pokušaja da se prevare algoritmi za prepoznavanje tekstualnih emocija.
+<a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>Digitalno-književni tekstovi</a> izvedeni su u Poletu, u sklopu konferencije <a href='https://elementarium.cpn.rs/u-centru/artneuroscience-susret-umetnosti-i-nauke/' target='_blank'>Art + Science</a>. U tekstove spada <span class='italic-style'>veštačka poezija</span> (koju su generisali <a href='/rad/projekti/category/ai'>računarski programi</a>), <span class='italic-style'>optimizovana poezija</span> (literarni tekstovi optimizovani uz pomoć softvera Google Keyword Planner), kao i <span class='italic-style'>taktička poezija</span> (tekstovi koji svoju poetiku crpe iz pokušaja da se prevare algoritmi za prepoznavanje tekstualnih emocija).
 
 Ovo je primer <span class='italic-style'>veštačke pesme</span> koju je napisao AI sistem izgrađen uz pomoć <a href='https://en.wikipedia.org/wiki/Markov_chain' target='_blank'>markovljevih lanca</a> i <a href='https://en.wikipedia.org/wiki/Recurrent_neural_network' target='_blank'>rekurentnih neuralnih mreža</a>:
 
@@ -69,7 +69,7 @@ ni tišina<br>
 ali teško jeste</p>
 </div>
 
-Takođe smo kreirali, kurirali i čitali automatski generisane aforizme i slogane:
+Takođe smo kreirali, uređivali i čitali automatski generisane aforizme i slogane:
 
 <div class='quoted-text tiny-quote-style'>
 <p>preko reke pređe razum</p>
@@ -108,7 +108,7 @@ lepe poruke<br>
 pjesničke slike</p>
 </div>
 
-Mimo predloga ključnih reči, Google Keyword Planner takođe obezbeđuje informacije o cenama reči, za slučaj da želite da platite internet reklamu koja sadrži dati tekst. Evo verzije <a href='https://sites.google.com/site/projectgoethe/Home/miroslav-antic/plavi-cuperak' target='_blank'><span class='italic-style'>Plavog čuperka</span></a>, pesme Miroslava Antića, pretvorene u digitalnu robu:
+Uz predloge ključnih reči, Google Keyword Planner obezbeđuje i informacije o cenama reči, za slučaj da želite da platite internet reklamu koja sadrži dati tekst. Evo verzije <a href='https://sites.google.com/site/projectgoethe/Home/miroslav-antic/plavi-cuperak' target='_blank'><span class='italic-style'>Plavog čuperka</span></a>, pesme Miroslava Antića, pretvorene u digitalnu robu:
 
 <div class='quoted-text tiny-quote-style'>
 <div class='column-wrap'>
@@ -141,4 +141,4 @@ Pre radionice i performansa, ova pitanja otvorio sam <a href='https://www.youtub
 
 U epohi mreže bilo koji tekst pre svega je: 1) računarski podatak; i 2) digitalna roba. Za globalni tehno-lingvistički kapital, kako to <a href='https://infoscience.epfl.ch/record/200539?ln=en' target='_blank'>objašnjava prof. Frederic Kaplan</a>, reči su prosto indeksi roba i usluga.  Zašto ne bismo ova tehno-ekonomska ograničenja iskoristili kao umetnička ograničenja? Novi medijski režimi zazivaju nove poetske prakse – <span class='italic-style'>dataizam</span> umesto dadaizma.
 
-Radovi ovog tipa pozivaju se na raznolike prakse, od tekstova <a href='https://monoskop.org/Zenit' target='_blank'>zenitista</a> i grupe <a href='https://en.wikipedia.org/wiki/Oulipo' target='_blank'>Oulipo</a> do savremenih novomedijskih projekata <a href='https://monoskop.org/Kenneth_Goldsmith' target='_blank'>Kennetha Goldsmitha</a>, <a href='https://ahprojects.com/cvdazzle/' target='_blank'>Adama Harveya</a> i <a href='https://pipthornton.com/2019/03/12/language-in-the-age-of-algorithmic-reproduction-a-thesis/' target='_blank'>Pip Thornton</a>.  <mark>&#9632;</mark>
+Radovi ovog tipa pozivaju se na raznolike projekte, od tekstova <a href='https://monoskop.org/Zenit' target='_blank'>zenitista</a> i grupe <a href='https://en.wikipedia.org/wiki/Oulipo' target='_blank'>Oulipo</a> do savremenih novomedijskih projekata <a href='https://monoskop.org/Kenneth_Goldsmith' target='_blank'>Kennetha Goldsmitha</a>, <a href='https://ahprojects.com/cvdazzle/' target='_blank'>Adama Harveya</a> i <a href='https://pipthornton.com/2019/03/12/language-in-the-age-of-algorithmic-reproduction-a-thesis/' target='_blank'>Pip Thornton</a>.  <mark>&#9632;</mark>
