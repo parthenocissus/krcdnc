@@ -330,13 +330,13 @@
       "title": "Software",
       "case": "Software",
       "createsVerb": "builds",
-      "description": "Similar to painting, film, literature, comics, and music, I see software as an expressive medium. Being educated as an engineer, I write code in JavaScript, Python, Processing, Java, HTML/CSS, etc. Here are the things I’ve created by coding. Interactive media art pieces, Web interfaces, data visualizations, generative text and visuals. You are also welcome to visit <a href='https://github.com/parthenocissus/' target='_blank'>my GitHub</a>."
+      "description": "Similar to painting, film, literature, comics, and music, I see software as an expressive and critical medium. Being educated as an engineer, I write code in JavaScript, Python, Processing, Java, HTML/CSS, etc. Here are the things I’ve created by coding. Interactive media art pieces, Web interfaces, data visualizations, generative text and visuals. You are also welcome to visit <a href='https://github.com/parthenocissus/' target='_blank'>my GitHub</a>."
     },
     "nameS": {
       "title": "Softver",
       "case": "računarski softver",
       "createsVerb": "kreira",
-      "description": "Poput slikarstva, filma, književnosti, stripova i muzike, vidim softver kao pre svega izražajni medij. Kao inženjer informacionih tehnologija po formalnom obrazovanju, pišem kôd u jezicima kao što su JavaScript, Python, Processing, Java, HTML/CSS, itd. Ovo su radovi za koje sam pisao softver: interaktivni medijski radovi, Web interfejsi, vizuelizacije podataka, generativni tekst i vizuali. Dobrodošli ste i na <a href='https://github.com/parthenocissus/' target='_blank'>moju GitHub stranicu</a>."
+      "description": "Poput slikarstva, filma, književnosti, stripova i muzike, vidim softver kao pre svega izražajni i kritički medij. Kao inženjer informacionih tehnologija po formalnom obrazovanju, pišem kôd u jezicima kao što su JavaScript, Python, Processing, Java, HTML/CSS, itd. Ovo su radovi za koje sam pisao softver: interaktivni medijski radovi, Web interfejsi, vizuelizacije podataka, generativni tekst i vizuali. Dobrodošli ste i na <a href='https://github.com/parthenocissus/' target='_blank'>moju GitHub stranicu</a>."
     },
     "graphics": {
       "headcx": 8.5,

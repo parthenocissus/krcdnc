@@ -78,6 +78,19 @@ main a:hover {
     letter-spacing: 0.2pt;
 }
 
+.title-note-style {
+    font-family: Ambit-Bold, sans-serif;
+    font-size: 26pt;
+    letter-spacing: 0.2pt;
+}
+
+.note-date-style {
+    font-family: CartographMono-Heavy, sans-serif;
+    font-size: 10pt;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 0.2pt;*/
+}
+
 
 /* Lead, Main Description */
 
@@ -294,6 +307,14 @@ main a:hover {
     text-transform: uppercase;
 }
 
+.interface-share-button-style {
+    font-family: CartographMono-Heavy, monospace;
+    font-size: 8pt;
+    line-height: 1.7em;
+    color: var(--darkcolor);
+    text-transform: uppercase;
+}
+
 /* General Interface Text */
 
 .interface-text {
@@ -329,6 +350,13 @@ main a:hover {
 .interface-text-style a:hover {
     text-decoration: none;
     color: var(--suncolor);
+}
+
+.sidenote-text-style {
+    font-family: Ambit-Regular, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.5em;
+    letter-spacing: 0.2pt;
 }
 
 /* Interface Footer */

@@ -1,5 +1,6 @@
 import copy
 import json
+import time
 from datetime import date, datetime
 
 
@@ -12,6 +13,7 @@ class LangUtil:
         self.max_project_count = 0
         self.projects_dir = 'projects'
         self.pages_dir = 'pages'
+        self.notes_dir = 'notes'
         self.data = None
 
         base_path = 'static/data/'
@@ -34,6 +36,9 @@ class LangUtil:
     def pgdir(self):
         return self.pages_dir
 
+    def ntdir(self):
+        return self.notes_dir
+
     def get_category_description(self, category):
         category_item = [i for i in self.data["pictodata"] if i["id"] == category][0]
         return category_item["name"]["description"]
@@ -42,6 +47,12 @@ class LangUtil:
         item = [i for i in self.data[key] if i["id"] == id][0]
         name = item["title"] if key != "pictodata" else item["name"]["title"]
         return name
+
+    def note_date(self, note):
+        element = datetime.strptime(note.meta["date"], "%d/%m/%Y")
+        date_time = datetime.fromtimestamp(time.mktime(element.timetuple()))
+        # return date_time.strftime("%d.%m.%Y.")
+        return date_time.strftime("%d %B, %Y")
 
     def categories_html(self):
         return self.__tag_html("pictodata", "category", "anchor")
@@ -99,6 +110,7 @@ class LangUtilSh(LangUtil):
         super().__init__(flatpages)
         self.projects_dir = '_projects_s'
         self.pages_dir = '_pages_s'
+        self.pages_dir = '_notes_s'
         self.data = self.lang_data['sh_params']
         self.data['pictodata'] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)
         self.data['max'] = self.max_project_count
@@ -112,6 +124,11 @@ class LangUtilSh(LangUtil):
         if ((last_digit in spec_digits) and (images_length not in exceptions)):
             val = "slike"
         return val
+
+    def note_date(self, note):
+        element = datetime.strptime(note.meta["date"], "%d/%m/%Y")
+        date_time = datetime.fromtimestamp(time.mktime(element.timetuple()))
+        return date_time.strftime("%d. %m. %Y")
 
     @staticmethod
     def __fix_sh_pictodata(pictogram_data):

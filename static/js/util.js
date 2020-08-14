@@ -6,12 +6,12 @@ let baseUtility = (function () {
 
     /* Base Functions */
 
-    let baseSetup = function() {
+    let baseSetup = function () {
         baseSetupDefault();
         setLogoEvents();
     };
 
-    let baseSetupHomepage = function() {
+    let baseSetupHomepage = function () {
         baseSetupDefault();
         menuSelect = "#pictome-logo, #left-margin";
         d3.selectAll("#name-aside").style("pointer-events", "none");
@@ -74,7 +74,7 @@ let baseUtility = (function () {
 
     };
 
-    let setLogoEvents = function() {
+    let setLogoEvents = function () {
 
         let pictomeLogo = d3.selectAll(menuSelect);
 
@@ -298,14 +298,39 @@ let baseUtility = (function () {
 
         });
 
-    }
+    };
 
     /* Generals */
 
-    let openInNewTab = function (url) {
-        let win = window.open(url, '_blank');
-        win.focus();
+    let noteSetup = function () {
+
+        let threshold = 0;
+
+        /* Sidenote Position */
+        $(".sidenote").each(function (i) {
+            let index = i + 1;
+            let ref = $("#s" + index);
+            let pos = ref.position();
+            let exactPos = (pos.top > threshold) ? pos.top : threshold;
+            $(this).css("top", exactPos + "px");
+            $("#sidenote-symbol" + index).html(ref.text());
+            threshold = exactPos + $(this).innerHeight();
+        });
+
+        /* Facebook Button */
+        let fbButton = document.getElementById('fb-share-button');
+        let url = window.location.href;
+
+        fbButton.addEventListener('click', function () {
+            window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
+                'facebook-share-dialog',
+                'width=800,height=600'
+            );
+            return false;
+        });
+
     };
+
 
     /* Return */
 
@@ -314,7 +339,8 @@ let baseUtility = (function () {
         resetMenu: resetMenu,
         pathTween: pathTween,
         lightboxSetup: lightboxSetup,
-        baseSetupHomepage: baseSetupHomepage
+        baseSetupHomepage: baseSetupHomepage,
+        noteSetup: noteSetup
     }
 
 }());

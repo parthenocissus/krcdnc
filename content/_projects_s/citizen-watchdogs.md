@@ -52,7 +52,7 @@ img_data:
       caption: "Kadar iz videa"
     - size: "1081x611"
       caption: "Kadar iz videa"                  
-lead: "Animirana infografika, narativna vizuelizacija podatka i <span class='italic-style'>data-driven</span> crtani film koji sam kreirao za monitoring inicijatu beogradskog udruženja Crta."
+lead: "Animirana infografika, narativna vizuelizacija podatka i <span class='italic-style'>data-driven</span> crtani film koji sam kreirao za monitoring inicijativu beogradskog udruženja <a href='https://crta.rs/en/gradani-na-strazi' target='_blank'>Crta</a>."
 
 Pre kreiranja samog videa, načinjena je temeljna analiza digitalnih podataka Crte, kako bismo bolje razumeli prošle rezultate inicijative <span class='italic-style'>Građani na straži</span>.  Na osnovu ovih informacija, izgrađen je narativ, koji je kasnije transformisan u <span class='italic-style'>storyboard</span>.
 

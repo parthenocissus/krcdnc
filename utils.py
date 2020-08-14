@@ -4,8 +4,12 @@ from itertools import groupby
 def project(flatpages, lang, name):
     prj = flatpages.get_or_404('{}/{}'.format(lang.dir(), name))
     prj.meta["img_term"] = lang.img_term(prj)
-    print(prj.meta["img_term"])
     return prj
+
+def note(flatpages, lang, name):
+    nt = flatpages.get_or_404('{}/{}'.format(lang.ntdir(), name))
+    nt.meta["proper_date"] = lang.note_date(nt)
+    return nt
 
 def teaching(flatpages, lang):
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "teaching"))
