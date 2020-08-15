@@ -110,7 +110,7 @@ class LangUtilSh(LangUtil):
         super().__init__(flatpages)
         self.projects_dir = '_projects_s'
         self.pages_dir = '_pages_s'
-        self.pages_dir = '_notes_s'
+        self.notes_dir = '_notes_s'
         self.data = self.lang_data['sh_params']
         self.data['pictodata'] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)
         self.data['max'] = self.max_project_count
