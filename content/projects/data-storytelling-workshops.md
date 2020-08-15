@@ -61,7 +61,7 @@ img_data:
       caption: "<a href='https://www.youtube.com/watch?v=T2PH3liBbpo' target='_blank'>Information Video</a> for InvolvedNotInvalid Initiative, Belgrade"
 lead: "Workshops that combine storytelling and databases. Data-driven design as a narrative form. Journalists as cartographers, writers as chart makers, film directors as data communicators, poets as statisticians. In the network age, no narrative form stays untouched by data."
 
-Peter Turchi claims that <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>writers are similar to cartographers</a>. As a co-author and illustrator of <a href='/work/projects/bantustan-book'><span class='italic-style'>Bantustan: The Atlas of a Journey</span></a>, an interactive prose book with a lot of maps and infographics, I couldn't agree more.
+Peter Turchi claims that <a href='http://tupress.org/books/maps-of-the-imagination' target='_blank'>writers are similar to cartographers</a>. As a co-author and illustrator of <a href='/work/projects/bantustan-book'><span class='italic-style'>Bantustan: Atlas of a Journey</span></a>, an interactive prose book with a lot of maps and infographics, I couldn't agree more.
 
 This workshop is devoted to the narrative art of communicating insights gained from data analysis. We choose a data sourse, do the analysis, formulate insights, and than try to find the most effective way of communicating these insights. In other words, we're trying to tell a story that includes numbers and measurements.
 

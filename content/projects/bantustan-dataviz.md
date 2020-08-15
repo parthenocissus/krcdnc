@@ -87,7 +87,7 @@ img_data:
       caption: "Generative Data Visualization Example"
     - size: "782x605"
       caption: "Generative Data Visualization Example"
-lead: "Series of interactive data visualizations and generative infographics that track and show the readership of <a href='/work/projects/bantustan-book'><span class='italic-style'>Bantustan: The Atlas of a Journey</span> </a>, a book of travel prose written by Lazar Pašćanović, Marko Đedović, and me."
+lead: "Series of interactive data visualizations and generative infographics that track and show the readership of <a href='/work/projects/bantustan-book'><span class='italic-style'>Bantustan: Atlas of a Journey</span> </a>, a book of travel prose written by Lazar Pašćanović, Marko Đedović, and me."
 
 <a href='/work/projects/bantustan-book'><span class='italic-style'>Bantustan: atlas jednog putovanja</span></a> is a story about our 3-month travel across Serbia, Bulgaria, Turkey, Syria, Jordan, Egypt, Sudan, Kenya, Uganda, Rwanda, D. R. Congo, Tanzania, Zambia, and Namibia. The book is an infographic cross-genre narrative about fluid geographic identities, unlikely connections, <a href='/work/projects/kp-identity'>Brownian</a> motion of human particles. It is about trying to imagine new cartographies of human relationships on a shared globe.
 

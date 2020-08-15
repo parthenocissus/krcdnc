@@ -40,7 +40,7 @@ data:
     <span class='page-list-item-style'>
     <span class='italic-style'>
     <a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>Bantustan: Atlas jednog putovanja</a>
-    </span> (<span class='italic-style'>Bantustan: The Atlas of a Journey</span>), Pašćanović L., Krčadinac U., Đedović M., Klub putnika (The Travel Club), Novi Sad, Serbia</span>
+    </span> (<span class='italic-style'>Bantustan: Atlas of a Journey</span>), Pašćanović L., Krčadinac U., Đedović M., Klub putnika (The Travel Club), Novi Sad, Serbia</span>
     </li>
     <li><span class='year interface-subheading-style'>2009</span><span class='page-list-item-style'><span class='italic-style'>Neutabanim stazama</span> (<span class='italic-style'>Off the Beaten Path</span>), collaborative project, Klub putnika (The Travel Club), Novi Sad, Serbia</span>
     </li>

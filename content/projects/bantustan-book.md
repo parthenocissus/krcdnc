@@ -1,6 +1,6 @@
 title: 
-    name: "Bantustan: The Atlas of a Journey"
-    html: "Bantustan:<br>The Atlas of a Journey"
+    name: "Bantustan: Atlas of a Journey"
+    html: "Bantustan:<br>Atlas of a Journey"
     short: Bantustan
 id: bantustan-book
 date: 2015
@@ -186,12 +186,12 @@ publications:
     - year: 2015
       pubs:
         - link: 'http://www.klubputnika.org/tmp/Bantustan.pdf'
-          linked: "Bantustan: Atlas jednog putovanja (Bantustan: The Atlas of a Journey)" 
+          linked: "Bantustan: Atlas jednog putovanja (Bantustan: Atlas of a Journey)" 
           name: "L. Pašćanović, U. Krčadinac, M. Đedović, Klub putnika (The Travel Club), Novi Sad, Serbia"
 img_to_show: 7       
 img_data:
     - size: "1200x772"
-      caption: "Bantustan: The Atlas of a Journey. Book Photo by Ivona Petrov."
+      caption: "Bantustan: Atlas of a Journey. Book Photo by Ivona Petrov."
     - size: "1200x845"
       caption: "Lusaka and Zambia. Hand-Drawn Chapter Map. Digital Drawing."
     - size: "853x1200"
@@ -260,11 +260,11 @@ img_data:
       caption: "On the road, with Abbas Harun, our Sudanese friend. Photo: Lazar Pašćanović."
     - size: "720x450"
       caption: "On the road. Sudan. Photo: Lazar Pašćanović."
-lead: "<span class='italic-style'>Bantustan: The Atlas of a Journey</span> (<span class='italic-style'><a href='/rad/projekti/bantustan-book'>Bantustan: atlas jednog putovanja</a></span>) is a book of travel prose and hand-drawn maps created by <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a>, <a href='http://www.klubputnika.org/autori/chivitli' target='_blank'>Marko Đedović</a>, and me. Describing a 3-month journey from Serbia to Namibia, it is an infographic cross-genre narrative about fluid geographic identities and the <a href='/work/projects/kp-identity/'>Brownian motion</a> of human particles, about trying to imagine new cartographies of human relationships on a shared globe."
+lead: "<span class='italic-style'>Bantustan: Atlas of a Journey</span> (<span class='italic-style'><a href='/rad/projekti/bantustan-book'>Bantustan: atlas jednog putovanja</a></span>) is a book of travel prose and hand-drawn maps created by <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a>, <a href='http://www.klubputnika.org/autori/chivitli' target='_blank'>Marko Đedović</a>, and me. Describing a 3-month journey from Serbia to Namibia, it is an infographic cross-genre narrative about fluid geographic identities and the <a href='/work/projects/kp-identity/'>Brownian motion</a> of human particles, about trying to imagine new cartographies of human relationships on a shared globe."
 
-<span class='italic-style'>Bantustan: The Atlas of a Journey</span> is available as <a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>an openly licenced free electronic book</a> (currently only in <a href='https://en.wikipedia.org/wiki/Serbo-Croatian' target='_blank'>Serbo-Croatian</a>; we are working on the English version at the moment). The book was published as a community non-profit self-publishing project, via a crowdfunding campaign organized by <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), the main Balkan hub for independent travelers and travel writers. 
+<span class='italic-style'>Bantustan: Atlas of a Journey</span> is available as <a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>an openly licenced free electronic book</a> (currently only in <a href='https://en.wikipedia.org/wiki/Serbo-Croatian' target='_blank'>Serbo-Croatian</a>; we are working on the English version at the moment). The book was published as a community non-profit self-publishing project, via a crowdfunding campaign organized by <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), the main Balkan hub for independent travelers and travel writers. 
 
-It is a story about our 3-month travel across Serbia, Bulgaria, Turkey, Syria, Jordan, Egypt, Sudan, Kenya, Uganda, Rwanda, D. R. Congo, Tanzania, Zambia, and Namibia in 2010. The travel project itself could be viewed in the context of psychogeography and <a href='/work/projects/category/geography'>experimental geography</a>. Using hitch-hiking and digital hospitality platforms, we have tried to meet as diverse number of people as possible. Many of them we found thanks to the communitarian philosophy of early CouchSurfing. The question of physical experience of the connected world mediated via digital platforms plays an important role in the narrative.
+It is a story about our 3-month travel across Serbia, Bulgaria, Turkey, Syria, Jordan, Egypt, Sudan, Kenya, Uganda, Rwanda, D. R. Congo, Tanzania, Zambia, and Namibia in 2010. The travel project itself could be viewed in the context of psychogeography and <a href='/work/projects/category/geography'>experimental geography</a>. Using hitch-hiking and digital hospitality platforms, we have tried to meet as a diverse pool of people as possible. Many of them we found thanks to the communitarian philosophy of early CouchSurfing. The question of physical experience of the connected world mediated via digital platforms plays an important role in the narrative.
 
 Including a series of hand-illustrated maps, infographics, and data visualizations for non-linear reading, <span class='italic-style'>Bantustan</span> is an example of <a href='https://www.articleworld.org/index.php/Ergodic_literature' target='_blank'>ergodic and interactive literature</a>. Readers can choose how to read the book: in a traditional linear fashion or using maps as visual interfaces for jumping from one story to another.
 

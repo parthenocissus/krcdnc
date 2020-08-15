@@ -307,17 +307,36 @@ let baseUtility = (function () {
         let threshold = 0;
 
         /* Sidenote Position */
+
         $(".sidenote").each(function (i) {
-            let index = i + 1;
-            let ref = $("#s" + index);
-            let pos = ref.position();
-            let exactPos = (pos.top > threshold) ? pos.top : threshold;
-            $(this).css("top", exactPos + "px");
+
+            let index = i + 1,
+                ref = $("#s" + index),
+                sidenote = $(this),
+                pos = ref.position(),
+                // top = pos.top;
+                top = document.querySelector("#s" + index).offsetTop;
+
+            let exactPos = (top > threshold) ? top : threshold;
+
+            console.log(pos.top);
+
+            sidenote.css("top", exactPos + "px");
             $("#sidenote-symbol" + index).html(ref.text());
             threshold = exactPos + $(this).innerHeight();
+
+            ref.mouseover(function () {
+                sidenote.addClass("selected");
+            }).mouseout(function () {
+                sidenote.removeClass("selected");
+            }).click(function () {
+                let tp = sidenote.offset().top;
+                window.scroll({ top: tp - 10, left: 0, behavior: 'smooth' });
+            });
         });
 
         /* Facebook Button */
+
         let fbButton = document.getElementById('fb-share-button');
         let url = window.location.href;
 
@@ -330,7 +349,6 @@ let baseUtility = (function () {
         });
 
     };
-
 
     /* Return */
 

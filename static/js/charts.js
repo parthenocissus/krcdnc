@@ -930,7 +930,7 @@ let chartUtility = (function () {
                 let top = d3.select("#presentations").node().offsetTop;
                 console.log(top);
                 window.scroll({
-                    top: top - 20,
+                    top: top - 10,
                     left: 0,
                     behavior: 'smooth'
                 });
