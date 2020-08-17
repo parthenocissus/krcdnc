@@ -8,7 +8,7 @@ date: "12/08/2020"
 timeline:
     - year: 2020
       d: 1
-lead: "Priča o tome kako je nastao ovaj Web sajt, od grafičkih simbola za kategorije, preko samih kategorija i taksonomija, do pitanja artikulacije ličnog identiteta."
+lead: "Priča o tome kako je nastao ovaj Web sajt. Priča o crtanju, pisanju, programiranju i oblikovanju vlastitog identiteta."
 content:
     - type: "txt"
       html: "<p>Hulio Kortazar kaže u jednom tekstu: <span class='italic-style'>klasifikatorsko ludilo</span>. Ovaj sajt nastao je kao posledica takvog klasifikatorskog ludila, koje osećam još iz vremena kada sam kao dečak crtao detaljne mape svog dvorišta<sup id='s1'>✿</sup> u Pančevu.</p> 
