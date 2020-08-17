@@ -313,13 +313,9 @@ let baseUtility = (function () {
             let index = i + 1,
                 ref = $("#s" + index),
                 sidenote = $(this),
-                pos = ref.position(),
-                // top = pos.top;
                 top = document.querySelector("#s" + index).offsetTop;
 
             let exactPos = (top > threshold) ? top : threshold;
-
-            console.log(pos.top);
 
             sidenote.css("top", exactPos + "px");
             $("#sidenote-symbol" + index).html(ref.text());
@@ -331,6 +327,20 @@ let baseUtility = (function () {
                 sidenote.removeClass("selected");
             }).click(function () {
                 let tp = sidenote.offset().top;
+                window.scroll({ top: tp - 10, left: 0, behavior: 'smooth' });
+            });
+
+            sideref = $("#sidenote-symbol" + index);
+            sideref.mouseover(function () {
+                ref.addClass("selected");
+                sideref.addClass("selected-ref");
+                sidenote.addClass("selected");
+            }).mouseout(function () {
+                ref.removeClass("selected");
+                sideref.removeClass("selected-ref");
+                sidenote.removeClass("selected");
+            }).click(function () {
+                let tp = ref.offset().top;
                 window.scroll({ top: tp - 10, left: 0, behavior: 'smooth' });
             });
         });

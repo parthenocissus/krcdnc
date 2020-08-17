@@ -70,7 +70,8 @@ class LangUtil:
             link = self.data["paths"]["projects"] + self.data["paths"][tag] + item["id"]
             slash = " / " if i < l else ""
             title = item["title"] if tag != "category" else item["name"]["title"]
-            html += "<a id='" + item["id"] + "-" + anchor + "' class='anchors' href='" + link + "'>" + title + "</a>" + slash
+            html += "<a id='" + item[
+                "id"] + "-" + anchor + "' class='anchors' href='" + link + "'>" + title + "</a>" + slash
         html += "</div>"
         return html
 
@@ -127,8 +128,26 @@ class LangUtilSh(LangUtil):
 
     def note_date(self, note):
         element = datetime.strptime(note.meta["date"], "%d/%m/%Y")
+        month = self.month_map(element.month)
         date_time = datetime.fromtimestamp(time.mktime(element.timetuple()))
-        return date_time.strftime("%d. %m. %Y")
+        return date_time.strftime("%d. MMM %Y.").replace("MMM", month)
+
+    def month_map(self, n):
+        switcher = {
+            1: "januar",
+            2: "februar",
+            3: "mart",
+            4: "april",
+            5: "maj",
+            6: "jun",
+            7: "jul",
+            8: "avgust",
+            9: "septembar",
+            10: "oktobar",
+            11: "novembar",
+            12: "decembar"
+        }
+        return switcher.get(n, "")
 
     @staticmethod
     def __fix_sh_pictodata(pictogram_data):

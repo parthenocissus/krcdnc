@@ -118,12 +118,11 @@
                         {% else %}
 
                             <div class="thumbs">
-                                <div class="gallery" itemscope
-                                     itemtype="http://schema.org/ImageGallery">
+                                <div class="gallery"
+                                     style="{{ block.grid_rules }}"
+                                     itemscope itemtype="http://schema.org/ImageGallery">
                                     {% for d in block.img_data %}
                                         {% set i = loop.index - 1 %}
-                                        {% set x = "0" if i < 10 else "" %}
-{#                                        {% set thumb_path = "media/notes/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb" ~ x ~ i ~ ".jpg" %}#}
                                         {% set img_path =
                                         "media/notes/" ~ project.id ~ "/img/"  ~ d.file_name %}
                                         <figure class="{{ show ~ ' overburn-container' }}"
@@ -133,11 +132,9 @@
                                             <a href="{{ url_for('static', filename=img_path) }}"
                                                data-size="{{ d.size }}"
                                                itemprop="contentUrl" data-index="{{ i }}" caption="{{ d.caption }}">
-                                                {% if i < project.img_to_show %}
                                                     <img src="{{ url_for('static', filename=img_path) }}"
                                                          itemprop="thumbnail">
                                                     <div class="overburn"></div>
-                                                {% endif %}
                                             </a>
                                         </figure>
                                     {% endfor %}

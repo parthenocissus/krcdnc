@@ -49,6 +49,14 @@
                 url({{ url_for('static', filename='media/fonts/ambit/Ambit-BoldItalic.woff') }}) format('woff');
             }
 
+            @font-face {
+                font-family: "Ambit-SemiBoldItalic";
+                src: url({{ url_for('static', filename='media/fonts/ambit/Ambit-SemiBoldItalic.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/ambit/Ambit-SemiBoldItalic.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/ambit/Ambit-SemiBoldItalic.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/ambit/Ambit-SemiBoldItalic.woff') }}) format('woff');
+            }
+
             {# Cartograph Mono #}
 
             @font-face {

@@ -8,62 +8,96 @@ date: "12/08/2020"
 timeline:
     - year: 2020
       d: 1
-cowriters:
-    - link: 'http://www.skart.rs/'
-      name: Ime Prezime    
-img_to_show: 3      
-img_data:
-    - size: "1200x795"
-      caption: "Belgrade, 2019"
-      caption_s: "Beograd, 2019"
-    - size: "1200x795"
-      caption: "Belgrade, 2019"
-      caption_s: "Beograd, 2019"
-    - size: "1200x795"
-      caption: "Belgrade, 2019"
-      caption_s: "Beograd, 2019"
-    - size: "795x1200"
-      caption: "Belgrade, 2019"
-      caption_s: "Beograd, 2019"
-    - size: "1200x795"
-      caption: "Belgrade, 2019"
-      caption_s: "Beograd, 2019"
-    - size: "795x1200"
-      caption: "Belgrade, 2019" 
-      caption_s: "Beograd, 2019"  
-lead: "<span class='italic-style'>Zima</span> (<span class='italic-style'>Winter</span>) is a booklet of experimental and avant-garde poetry. A project, its editors and writers include the <a href='http://www.skart.rs/' target='_blank'>Škart Collective</a>, <a href='https://www.davidalbahari.com/' target='_blank'>David Albahari</a>, Ljiljana Ilić."
+lead: "Priča o tome kako je nastao ovaj Web sajt, od grafičkih simbola za kategorije, preko samih kategorija i taksonomija, do pitanja artikulacije ličnog identiteta."
 content:
     - type: "txt"
-      html: "<p>Morbi ultricies enim quis velit auctor molestie. Ut molestie neque sed sapien aliquet aliquet. Sed lacus massa, fringilla nec hendrerit sit amet, efficitur sit amet nulla.</p> 
-<p>Aenean vel <a href='#'>erat sed tellus</a> semper lacinia id sed turpis. Nam quis mi elementum, mattis elit in, molestie velit. Aliquam placerat sem velit, dictum molestie metus gravida vel. In iaculis magna id nunc dictum ornare<sup id='s1'>❤</sup>. Nunc eget fermentum nulla, sit amet malesuada dui<sup id='s2'>2</sup>. Ut ut purus est<sup id='s3'>3</sup>. Cras bibendum elit vel nibh ultricies ultrices. Quisque condimentum ligula nisl, ut consectetur nibh vulputate eget.</p>
-<p>Phasellus venenatis eros faucibus, facilisis urna et, efficitur libero.</p> 
-<p>Quisque pulvinar non enim eget dapibus. Ut gravida sapien eget egestas commodo. Phasellus vehicula quis sem nec ultrices. Quisque tristique nibh sed nunc efficitur, sit amet interdum orci malesuada. Nunc pellentesque velit vel rutrum laoreet. Curabitur lorem quam, cursus vel sapien sit amet, lacinia interdum diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
-<p>Donec non nisi sed velit ultrices molestie lacinia non quam.</p>
-<p>Cras bibendum elit vel nibh ultricies ultrices. Quisque condimentum ligula nisl, ut consectetur nibh vulputate eget.</p>
-<p>Aenean et ex nulla. Etiam dignissim leo gravida<sup id='s4'>♞</sup> facilisis finibus. Nam hendrerit scelerisque lectus<sup id='s5'>5</sup>, eu vestibulum eros gravida in. Nullam enim neque, sodales eu convallis et, tincidunt eu lorem. Donec eu lacinia nisl, et sollicitudin quam. Morbi commodo tortor sed pretium interdum. Morbi nec tempor elit, ac ullamcorper ligula. Nullam et nibh suscipit, fermentum sapien nec, egestas augue. Donec varius facilisis sem, eget tempus turpis dictum ut.</p> 
-<p>Ut gravida sapien eget egestas commodo. Phasellus vehicula quis sem nec ultrices. Quisque tristique nibh sed nunc efficitur, sit amet interdum orci malesuada. Nunc pellentesque velit vel rutrum laoreet. Curabitur lorem quam, cursus vel sapien sit amet, lacinia interdum diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec non nisi sed velit ultrices molestie lacinia non quam.</p>"
+      html: "<p>Kaže Hulio Kortazar u jednom tekstu: <span class='italic-style'>klasifikatorsko ludilo</span>. Ovaj sajt nastao je kao posledica takvog klasifikatorskog ludila, koje osećam još iz vremena kada sam kao dečak crtao detaljne mape svog dvorišta<sup id='s1'>✿</sup> u Pančevu.</p> 
+      <p>Zapadni čovek, <span class='italic-style'>homo occidentalis</span>, vazda ima potrebu da smišlja kategorije kojima će rezati svet oko sebe, da bi isečene režnjeve sveta potom organizovao u fioke svojih kabineta<sup id='s2'>♞</sup>. U mom slučaju, pak, prepoznajem dvostruku potrebu: da se u isti mah kategorije naprave i razmontiraju, učvrste i subvertraju, da se svet drži u lebdećem, drhtavom stanju između dva magnetna pola: reda i haosa.</p> 
+      <p>Kao dečak sam, izuzev mapa, voleo da crtam i komplikovane scene sa mnoštvom čiča-gliša ili čikica koje sam zvao »čovečuljkići«. Prvo bih crtao ove scene, zatim njihove taksonomije: kakve sve vrste čovečuljčića postoje, na koji se način mogu podeliti, kakve imaju moći, itd. Bila je to menažerija tipskih junaka: akrobata, gusar, fakir, snagator, padobranac, slikar, robot, rudar, mesečar. Igra umnožavanja identiteta.</p>
+      <p>Crteži koji slede nastali su 1996. godine. Crtani su tankim flomasterom na papirima A4 formata.</p>"
     - type: "img"
+      grid_rules: "grid-template-columns: 680fr 383fr 680fr;"
       img_data:
-        - file_name: "this00.jpg"
-          size: "1200x795"
-          caption: "Belgrade, 2019"
-        - file_name: "this01.jpg"
-          size: "1200x795"
-          caption: "Belgrade, 2019"
+        - file_name: "this001.jpg"
+          size: "680x960"
+          caption: "Čovečuljkići. Pančevo, 1996"
+        - file_name: "this003.jpg"
+          size: "383x960"
+          caption: "Vrste čovečuljkića. Pančevo, 1996"
+        - file_name: "this002.jpg"
+          size: "680x960"
+          caption: "Čovečuljkići. Pančevo, 1996"
     - type: "txt"
-      html: "<p>Quisque pulvinar non enim eget dapibus. Ut gravida sapien eget egestas commodo. Phasellus vehicula quis sem nec ultrices. Quisque tristique nibh sed nunc efficitur, sit amet interdum orci malesuada. Nunc pellentesque velit vel rutrum laoreet. Curabitur lorem quam, cursus vel sapien sit amet, lacinia interdum diam. Pellentesque habitant morbi tristique senectus et netus et malesuada<sup id='s6'>6</sup> fames ac turpis egestas.</p> 
-<p>Donec non nisi sed velit ultrices molestie lacinia non quam.</p>
-<p>Cras bibendum elit vel nibh ultricies ultrices. Quisque condimentum ligula nisl, ut consectetur nibh vulputate eget. <mark>&#9632;</mark></p>"
+      html: "<p>Bio je to analogni omaž arkadnoj estetici na kojoj smo odrasli, mi rođeni u Orvelovoj godini, omaž platformskim 8-bit igrama i staroračunarskoj ASCII umetnosti.<sup id='s3'>❥</sup></p>
+      <p>Prošle godine, kada sam počeo da radim na ovom sajtu, shvatio sam da će najteži posao biti upravo <span class='italic-style'>oblikovanje identiteta</span>. Sajt sam pisao maltene od nule i nije bilo lako izboriti se sa tehnologijama: Python Flask, Nginx server, YAML, čist HTML i CSS, SVG za grafiku, JavaScript i D3.JS za interakcije i animacije. Najteže od svega, međutim, bilo je organizovati svoj život i svoje projekte, klasifikovati ih, shvatiti šta ima smisla prikazati i kako, razumeti šta si ti šta nisi, šta imaš prava da napišeš šta nemaš, šta je egotrip šta legitimna lična arhiva, šta je nesigurnost šta konstruktivno preispitivanje, gde je sramota gde ambicija, gde je lično gde profesionalno. Najteže je bilo, kao i uvek, artikulisati svoj identitet. Svoju identitetsku pometnju.</p>
+      <p>Zato sam se vratio čovečuljkićima: zbog njihove jednostavnosti i gipkosti, fluidnosti i moći transformacije. Jedno telo u bezbroj oblika: pronalazač, pripovedač, predavač.</p>
+      <p>Najpre sam odredio kategorije za svoje projekte: data umetnost, animacija, knjige, vizuelizacija podataka, digitalna književnost, itd. Za svaku od njih nacrtao sam stotine alternativnih simbola, zasnovanih na telu čovečuljka.</p>
+      <p>Pritom sam sebi zadao dizajnersko ograničenje: svaki simbol mora da sadrži jedan krug i četiri linije, krive ili prave, mogućno preklopljene, uz opciono jednu tačku<sup id='s4'>✹</sup>. Za generičkog čovečuljka, onog u gornjem levom uglu, krug je glava, linije su ruke i noge, tačka je nevidljiva žiža tela. Za čovečuljka koji, primera radi, predstavlja knjige i publikacije, krug je kičma knjige iz profila, dok su linije – četiri razlistane stranice.</p>
+      <p>Vektorskim verzijama na sajtu prethodile su mnogobrojne rukom crtane skice. Crteži koji slede nastale su ove i prošle godine.</p>"
+    - type: "img"
+      grid_rules: "grid-template-columns: 1fr 1fr;
+      margin-bottom: 10px;"
+      img_data:
+        - file_name: "thisA01.jpg"
+          size: "1200x795"
+          caption: "Skice piktograma. Beograd, 2020"
+        - file_name: "thisA02.jpg"
+          size: "1200x795"
+          caption: "Skice piktograma. Beograd, 2020"
+    - type: "img"
+      grid_rules: "grid-template-columns: 1055fr 1200fr 1055fr;
+      margin-top: 0;"
+      img_data:
+        - file_name: "thisB01.jpg"
+          size: "1055x699"
+          caption: "Skice piktograma. Beograd, 2020"
+        - file_name: "thisB02.jpg"
+          size: "1200x699"
+          caption: "Skice piktograma. Beograd, 2020"
+        - file_name: "thisB03.jpg"
+          size: "1055x699"
+          caption: "Skice piktograma. Beograd, 2020"
+    - type: "txt"
+      html: "<p>Tako je nastalo 14 simbola za 14 kategorija. Simbole sam najpre crtao rukom, zatim u Adobe Ilustratoru, naposletku u SVG formatu, direktno u kodu, kako bi mogli da se transformišu i pretvaraju jedni u druge: digitalna glina za identitetsku fluidnost. Simbola ima 14 trenutno: sajt je napravljen generativno i ukoliko bih u nekom trenutku odlučio da dodam ili oduzmem kategoriju, sajt bi se u trenutku prilagodio.</p>
+      <p>U izvesnoj meri, simboli predstavljaju posvetu  kartografu nemogućih realnosti, Luiđiju Serafiniju.<sup id='s5'>☛</sup> Namerno sam ih crtao tako da budu apstraktni i kriptični, poput vanzemaljskog jezika. Najviše bih voleo da svako u njima nađe svoje značenje.</p>
+      <p>Evo par elemenata igre značenja kojima sa se rukovodio:</p>
+      <div class='all-pictocont'>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/data-art.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/data-art'>Data umetnost</a> — čovekov ples iznad data tačke u koordinatnom sistemu, ono ljudsko u digitalnom gridu.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/ai.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/ai'>Veštačka inteligencija</a> — oko mašine koja gleda svet i sa kojom delimo 21. vek, oko računara HAL 9000.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/diglit.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/digital-literature'>Digitalna književnost</a> — razlistane knjige, ptice, bitovi, bajtovi, vitičaste zagrade i znaci interpunkcije. </div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/dataviz.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/dataviz'>Vizuelizacija podataka</a> — estetika apscise i ordinate, šestara i sekstanta, teleskopa i plotera, piksela i krivuljara.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/interactive.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/interactive'>Interaktivna umetnost + dizajn</a> — Pac-Man kao simbol za oblikovanje digitalnih lavirinata, slika i tekstova.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/animation.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/animation'>Animacija</a> — figura u koraku, ciklus hoda kao prva ozbiljna vežba svakog animatora, i klasičnog i digitalnog.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/software.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/software'>Softver</a> — mašinska konstrukcija, sprava, algoritamska skalamerija A. Kaldera.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/books.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/book'>Knjige i publikacije</a> — razlistana knjiga iz profila, listovi kao zupčanik, listovi kao kometa ili Sputnjik.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/installation.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/installation'>Instalacije + performansi</a> — cvet, biljka, drvo, instalacija kao primenjeno vrtlarstvo, kao poljopriveda u kulturi.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/workshop.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/workshop'>Radionice</a> — polaznici orbitiraju oko edukatora, i obrnuto: nekad si u centru, nekad si tačka koja rotira, nekad si izvana.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/geo.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/geography'>Eksperimentalna geografija</a> — putovanje, orbita, planeta, osa rotacije, putanja, putovanje.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/carto.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/cartography'>Eksperimentalna kartografija</a> — pin ili pribadača na mapi, geotačka u geokoordinatnom sistemu.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/crtez.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/drawing'>Digitalni crtež</a> — ljuto oko ili gumeno telo, igra slobodnih linija uprkos nasilju digitalne matrice.</div></div>
+      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/research.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/research'>Akademsko istraživanje</a> — pogled astronoma koji gleda u nebo, beleži i pokušava da razume.</div></div>
+      </div>
+      <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>✦</sup>, popusti ego, popusti dominacija kompulzivnog uma, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja ni bez pisanja.</p>
+      <p>Klasifikatorsko ludilo se posle vrati, jer mora da se vrati, jer je magnet previše jak, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"
+    - type: "img"
+      grid_rules: "grid-template-columns: 1fr 1fr;"
+      img_data:
+        - file_name: "iskra02.jpg"
+          size: "960x640"
+          caption: "Autorsko predavanje u Novoj Iskri. Beograd, 2017"
+        - file_name: "iskra01.jpg"
+          size: "960x640"
+          caption: "Autorsko predavanje u Novoj Iskri. Beograd, 2017"
 sidenotes:
     - id: 1
-      html: "Nam quis mi elementum, mattis elit in, molestie velit. Curabitur lorem quam, cursus vel sapien sit amet, lacinia interdum diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec non nisi sed velit ultrices molestie lacinia non quam."
+      html: "<a href='/rad/projekti/early-data-art'><img src='/static/media/notes/this/img/map.jpg'></a>"
     - id: 2
-      html: "In iaculis magna id."
+      html: "Ovaj sajt zamislio sam i kao digitalni kabinet kurioziteta, kabinet čuda, <span class='italic-style'>ein Digitales Kunstkabinett</span>, <span class='italic-style'><a href='https://en.wikipedia.org/wiki/Cabinet_of_curiosities' target='_blank'>a cabinet of curiosities</a></span>."
     - id: 3
-      html: "Williams, S.T. (Ed.). (2015). Referencing: A guide to citation rules (3rd ed.). New York, NY: My Publisher"
+      html: "U svom najjednostavnijem obliku, <a href='https://en.wikipedia.org/wiki/ASCII_art' target='_blank'>ASCII art</a> javlja se kao tipografski emotikon :-)"
     - id: 4
-      html: "Massa <a href='#'>molestie</a> semper lacinia."
+      html: "<a href='/rad/'><img src='/static/media/notes/this/img/flowerchart.jpg'></a>"
     - id: 5
-      html: "Grady, J. S., Her, M., Moreno, G., Perez, C., & Yelinek, J. (2019). Emotions in storybooks: A comparison of storybooks that represent ethnic and racial groups in the United States. Psychology of Popular Media Culture, 8(3), 207–217."
+      html: "I njegovom čudesnom atlasu ili enciklopediji, knjizi <span class='italic-style'><a href='http://www.openculture.com/2017/09/an-introduction-to-the-codex-seraphinianus-the-strangest-book-ever-published.html' target='_blank'>Codex Seraphinianus</a></span>."
     - id: 6
-      html: "Nam quis mi elementum, mattis elit in, molestie velit."
+      html: "Digitalna <a href='https://docs.gimp.org/2.10/nl/gimp-view-snap-to-grid.html' target='_blank'>opcija za automatsko poravnanje objekata</a>, »Snap to Grid« može da posluži i kao metafora za život u digitalnom gridu, unutar društvene i jezičke matrice."

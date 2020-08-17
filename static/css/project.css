@@ -37,15 +37,15 @@
     pointer-events: none;
 }
 
+.pictome-dot {
+    stroke: none;
+    fill: var(--suncolor);
+}
+
 .light-fill {
     fill: var(--lightcolor);
     stroke: none;
     pointer-events: auto;
-}
-
-.pictome-dot {
-    stroke: none;
-    fill: var(--suncolor);
 }
 
 .sun-stroke-only {
