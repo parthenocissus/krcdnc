@@ -8,10 +8,10 @@
 
     <meta property="og:title" content="{{ 'Uroš Krčadinac → ' ~ project.title.name }}">
     <meta property="og:description" content="{{ project.lead|striptags }}">
-    {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main-thumb.jpg" %}
+    {% set main_img_path = "media/notes/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
     <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
     <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
-    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ params.paths.projects ~ project.id }}">
+    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ params.notes_data.path ~ project.id }}">
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@krcadinac"/>
