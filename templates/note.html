@@ -49,7 +49,8 @@
         <div title="{{ params.tooltip.linechart }}" id="header-linechart" class="linechart"></div>
 
         <div class="note-date-style note-date">
-            {{ project.proper_date }}
+            <a href='{{ params.notes_data.path }}'>{{ params.notes_data.name }}</a>
+            <span>| {{ project.proper_date }}</span>
         </div>
 
         <div class="project-title title-note-style">

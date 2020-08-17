@@ -16,13 +16,22 @@
     text-align: left;
     margin: 0 var(--inset) 15px var(--inset);
 }
+.note-date a {
+    background-size: 0 0;
+    color: var(--darkcolor);
+    transition: .13s;
+}
+.note-date a:hover {
+    color: var(--suncolor);
+    background-size: 0 0;
+}
 
 /* Title */
 
 .project-title {
     justify-self: left;
     text-align: left;
-    margin: 50px var(--inset) 15px var(--inset);
+    margin: 40px var(--inset) 15px var(--inset);
 }
 
 /* Lead Intro Text */

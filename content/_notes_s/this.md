@@ -59,7 +59,7 @@ content:
           caption: "Skice piktograma. Beograd, 2020"
     - type: "txt"
       html: "<p>Tako je nastalo 14 simbola za 14 kategorija. Simbole sam crtao najpre rukom, zatim u Adobe Ilustratoru, naposletku u SVG formatu, direktno u kodu, kako bi mogli da se transformišu i pretvaraju jedni u druge: digitalna glina za identitetsku fluidnost. Trenutnih simbola ima 14 a sajt je napravljen generativno i ukoliko bih u nekom trenutku odlučio da dodam ili oduzmem kategoriju, sajt bi se odmah prilagodio.</p>
-      <p>Ovi simboli u izvesnoj meri predstavljaju posvetu umetniku i dizajneru, Luiđiju Serafiniju<sup id='s5'>☛</sup> – kartografu nemogućih realnosti. Namerno sam ih crtao tako da budu apstraktni i kriptični, poput vanzemaljskog jezika. Nadam se da će svako u njima pokušati da pronađe svoje značenje.</p>
+      <p>Ovi simboli u izvesnoj meri predstavljaju posvetu umetniku, dizajneru i kartografu nemogućih realnosti, Luiđiju Serafiniju.<sup id='s5'>☛</sup> Namerno sam ih crtao tako da budu apstraktni i kriptični, poput vanzemaljskog jezika. Nadam se da će svako u njima pokušati da pronađe svoje značenje.</p>
       <p>Evo ipak nekoliko elemenata igre značenja kojima sa se rukovodio:</p>
       <div class='all-pictocont'>
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/data-art.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/data-art'>Data umetnost</a> — čovekov ples iznad data tačke u koordinatnom sistemu, ono ljudsko u digitalnom gridu.</div></div>
@@ -77,7 +77,7 @@ content:
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/crtez.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/drawing'>Digitalni crtež</a> — ljuto oko ili gumeno telo, igra slobodnih linija uprkos nasilju digitalne matrice.</div></div>
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/research.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/research'>Akademsko istraživanje</a> — pogled astronoma koji gleda u nebo, beleži i pokušava da razume.</div></div>
       </div>
-      <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>✦</sup>, popusti ego, dominacija kompulzivnog uma, matrica i magnet, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja, ni bez pisanja.</p>
+      <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>✦</sup>, popusti ego, dominacija kompulzivnog uma, popuste matrica i magnet, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja, ni bez pisanja.</p>
       <p>Klasifikatorsko ludilo se posle vrati, jer mora da se vrati, jer je magnet previše jak, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;"
