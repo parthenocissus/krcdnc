@@ -9,7 +9,7 @@
     <meta property="og:title" content="{{ 'Uroš Krčadinac → ' ~ project.title.name }}">
     <meta property="og:description" content="{{ project.lead|striptags }}">
     {% set main_img_path = "media/notes/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
-    {% set thumb_img_path = "media/notes/" ~ project.id ~ "/" ~ project.id ~ "-main-thumb.jpg" %}
+    {% set thumb_img_path = "https://krcadinac.com/static/media/notes/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
     <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
     <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
     <meta property="og:url" content="{{ 'https://krcadinac.com' ~ params.notes_data.path ~ project.id }}">
@@ -18,7 +18,7 @@
     <meta name="twitter:site" content="@krcadinac"/>
     <meta name="twitter:title" content="{{ 'Uroš Krčadinac → ' ~ project.title.name }}"/>
     <meta name="twitter:description" content="{{ project.lead|striptags }}"/>
-    <meta name="twitter:image" content="{{ url_for('static', filename=thumb_img_path) }}"/>
+    <meta name="twitter:image" content="{{ thumb_img_path }}"/>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/note.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
