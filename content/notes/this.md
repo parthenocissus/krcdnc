@@ -90,13 +90,13 @@ content:
           caption: "Autorsko predavanje u Novoj Iskri. Beograd, 2017"
 sidenotes:
     - id: 1
-      html: "<a href='/rad/projekti/early-data-art'><img src='/static/media/notes/this/img/map.jpg'></a>"
+      html: "<a href='/rad/projekti/early-data-art' target='_blank'><img src='/static/media/notes/this/img/map.jpg'></a>"
     - id: 2
       html: "Ovaj sajt zamislio sam i kao digitalni kabinet kurioziteta, kabinet čuda, <span class='italic-style'>ein Digitales Kunstkabinett</span>, <span class='italic-style'><a href='https://en.wikipedia.org/wiki/Cabinet_of_curiosities' target='_blank'>a cabinet of curiosities</a></span>."
     - id: 3
       html: "U svom najjednostavnijem obliku, <a href='https://en.wikipedia.org/wiki/ASCII_art' target='_blank'>ASCII art</a> javlja se kao tipografski emotikon :-)"
     - id: 4
-      html: "<a href='/rad/'><img src='/static/media/notes/this/img/flowerchart.jpg'></a>"
+      html: "<a href='/rad/' target='_blank'><img src='/static/media/notes/this/img/flowerchart.jpg'></a>"
     - id: 5
       html: "I njegovom čudesnom atlasu ili enciklopediji, knjizi <span class='italic-style'><a href='http://www.openculture.com/2017/09/an-introduction-to-the-codex-seraphinianus-the-strangest-book-ever-published.html' target='_blank'>Codex Seraphinianus</a></span>."
     - id: 6

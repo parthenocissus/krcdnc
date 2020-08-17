@@ -11,9 +11,9 @@ timeline:
 lead: "Priča o tome kako je nastao ovaj Web sajt, od grafičkih simbola za kategorije, preko samih kategorija i taksonomija, do pitanja artikulacije ličnog identiteta."
 content:
     - type: "txt"
-      html: "<p>Kaže Hulio Kortazar u jednom tekstu: <span class='italic-style'>klasifikatorsko ludilo</span>. Ovaj sajt nastao je kao posledica takvog klasifikatorskog ludila, koje osećam još iz vremena kada sam kao dečak crtao detaljne mape svog dvorišta<sup id='s1'>✿</sup> u Pančevu.</p> 
-      <p>Zapadni čovek, <span class='italic-style'>homo occidentalis</span>, vazda ima potrebu da smišlja kategorije kojima će rezati svet oko sebe, da bi isečene režnjeve sveta potom organizovao u fioke svojih kabineta<sup id='s2'>♞</sup>. U mom slučaju, pak, prepoznajem dvostruku potrebu: da se u isti mah kategorije naprave i razmontiraju, učvrste i subvertraju, da se svet drži u lebdećem, drhtavom stanju između dva magnetna pola: reda i haosa.</p> 
-      <p>Kao dečak sam, izuzev mapa, voleo da crtam i komplikovane scene sa mnoštvom čiča-gliša ili čikica koje sam zvao »čovečuljkići«. Prvo bih crtao ove scene, zatim njihove taksonomije: kakve sve vrste čovečuljčića postoje, na koji se način mogu podeliti, kakve imaju moći, itd. Bila je to menažerija tipskih junaka: akrobata, gusar, fakir, snagator, padobranac, slikar, robot, rudar, mesečar. Igra umnožavanja identiteta.</p>
+      html: "<p>Hulio Kortazar kaže u jednom tekstu: <span class='italic-style'>klasifikatorsko ludilo</span>. Ovaj sajt nastao je kao posledica takvog klasifikatorskog ludila, koje osećam još iz vremena kada sam kao dečak crtao detaljne mape svog dvorišta<sup id='s1'>✿</sup> u Pančevu.</p> 
+      <p>Zapadni čovek, <span class='italic-style'>homo occidentalis</span>, vazda ima potrebu da smišlja kategorije kojima će rezati svet oko sebe, da bi isečene režnjeve sveta potom organizovao u fioke svojih kabineta.<sup id='s2'>♞</sup> U mom slučaju, pak, prepoznajem dvostruku potrebu: da se u isti mah kategorije naprave i razmontiraju, učvrste i subvertraju, da se beži iz matrice i vraća u nju, da se svet drži u lebdećem, drhtavom stanju između dva magnetna pola: reda i haosa.</p> 
+      <p>Kao dečak sam, izuzev mapa, voleo da crtam i komplikovane scene sa mnoštvom čiča-gliša ili čikica koje sam zvao »čovečuljkići«. Prvo bih crtao ove scene, zatim njihove taksonomije: kakve sve vrste čovečuljaka postoje, na koji se način mogu podeliti, kakve imaju moći, itd. Radi se o menažeriji tipskih junaka: akrobata, gusar, fakir, snagator, pronalazač, padobranac, slikar, robot, rudar, mesečar. Igra umnožavanja identiteta.</p>
       <p>Crteži koji slede nastali su 1996. godine. Crtani su tankim flomasterom na papirima A4 formata.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 680fr 383fr 680fr;"
@@ -28,12 +28,12 @@ content:
           size: "680x960"
           caption: "Čovečuljkići. Pančevo, 1996"
     - type: "txt"
-      html: "<p>Bio je to analogni omaž arkadnoj estetici na kojoj smo odrasli, mi rođeni u Orvelovoj godini, omaž platformskim 8-bit igrama i staroračunarskoj ASCII umetnosti.<sup id='s3'>❥</sup></p>
-      <p>Prošle godine, kada sam počeo da radim na ovom sajtu, shvatio sam da će najteži posao biti upravo <span class='italic-style'>oblikovanje identiteta</span>. Sajt sam pisao maltene od nule i nije bilo lako izboriti se sa tehnologijama: Python Flask, Nginx server, YAML, čist HTML i CSS, SVG za grafiku, JavaScript i D3.JS za interakcije i animacije. Najteže od svega, međutim, bilo je organizovati svoj život i svoje projekte, klasifikovati ih, shvatiti šta ima smisla prikazati i kako, razumeti šta si ti šta nisi, šta imaš prava da napišeš šta nemaš, šta je egotrip šta legitimna lična arhiva, šta je nesigurnost šta konstruktivno preispitivanje, gde je sramota gde ambicija, gde je lično gde profesionalno. Najteže je bilo, kao i uvek, artikulisati svoj identitet. Svoju identitetsku pometnju.</p>
-      <p>Zato sam se vratio čovečuljkićima: zbog njihove jednostavnosti i gipkosti, fluidnosti i moći transformacije. Jedno telo u bezbroj oblika: pronalazač, pripovedač, predavač.</p>
+      html: "<p>Bio je to nesvesni omaž arkadnoj estetici na kojoj smo odrasli, mi rođeni u Orvelovoj godini, omaž platformskim 8-bit igrama i staroračunarskoj ASCII umetnosti.<sup id='s3'>❥</sup></p>
+      <p>Prošle godine, kada sam počeo da radim na svom sajtu, shvatio sam da će najteži posao biti upravo <span class='italic-style'>oblikovanje identiteta</span>. Sajt sam pisao maltene od nule i nije bilo lako izboriti se sa tehnologijama: Python Flask, Nginx server, YAML, čist HTML i CSS, SVG za grafiku, JavaScript i D3.JS za interakcije i animacije. Najteže od svega, međutim, bilo je organizovati svoj život i svoje projekte, klasifikovati ih, shvatiti šta ima smisla prikazati i kako, razumeti šta si ti šta nisi, šta imaš prava da napišeš šta nemaš, šta je egotrip šta legitimna lična arhiva, šta je nesigurnost šta konstruktivno preispitivanje, gde je sramota gde ambicija, gde je lično gde profesionalno. Najteže je bilo, kao i uvek, artikulisati svoj identitet. U stvari – svoju identitetsku pometnju.</p>
+      <p>Zato sam se vratio čovečuljcima: zbog njihove jednostavnosti i gipkosti, fluidnosti i moći transformacije. Jedno telo u više oblika: pronalazač, pripovedač, predavač.</p>
       <p>Najpre sam odredio kategorije za svoje projekte: data umetnost, animacija, knjige, vizuelizacija podataka, digitalna književnost, itd. Za svaku od njih nacrtao sam stotine alternativnih simbola, zasnovanih na telu čovečuljka.</p>
-      <p>Pritom sam sebi zadao dizajnersko ograničenje: svaki simbol mora da sadrži jedan krug i četiri linije, krive ili prave, mogućno preklopljene, uz opciono jednu tačku<sup id='s4'>✹</sup>. Za generičkog čovečuljka, onog u gornjem levom uglu, krug je glava, linije su ruke i noge, tačka je nevidljiva žiža tela. Za čovečuljka koji, primera radi, predstavlja knjige i publikacije, krug je kičma knjige iz profila, dok su linije – četiri razlistane stranice.</p>
-      <p>Vektorskim verzijama na sajtu prethodile su mnogobrojne rukom crtane skice. Crteži koji slede nastale su ove i prošle godine.</p>"
+      <p>Sebi sam zadao dizajnersko ograničenje: svaki simbol<sup id='s4'>✹</sup> mora da sadrži jedan krug i četiri linije, krive ili prave, mogućno preklopljene, plus opciono jednu tačku. Za generičkog čovečuljka, onog u gornjem levom uglu, krug je glava, linije su ruke i noge, tačka je nevidljiva žiža tela. Za čovečuljka koji, primera radi, predstavlja knjige i publikacije, krug je kičma knjige iz profila, dok su linije – četiri razlistane stranice.</p>
+      <p>Vektorskim verzijama na sajtu prethodile su mnogobrojne rukom crtane skice. Crteži koji slede nastali su ove i prošle godine.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;
       margin-bottom: 10px;"
@@ -58,9 +58,9 @@ content:
           size: "1055x699"
           caption: "Skice piktograma. Beograd, 2020"
     - type: "txt"
-      html: "<p>Tako je nastalo 14 simbola za 14 kategorija. Simbole sam najpre crtao rukom, zatim u Adobe Ilustratoru, naposletku u SVG formatu, direktno u kodu, kako bi mogli da se transformišu i pretvaraju jedni u druge: digitalna glina za identitetsku fluidnost. Simbola ima 14 trenutno: sajt je napravljen generativno i ukoliko bih u nekom trenutku odlučio da dodam ili oduzmem kategoriju, sajt bi se u trenutku prilagodio.</p>
-      <p>U izvesnoj meri, simboli predstavljaju posvetu  kartografu nemogućih realnosti, Luiđiju Serafiniju.<sup id='s5'>☛</sup> Namerno sam ih crtao tako da budu apstraktni i kriptični, poput vanzemaljskog jezika. Najviše bih voleo da svako u njima nađe svoje značenje.</p>
-      <p>Evo par elemenata igre značenja kojima sa se rukovodio:</p>
+      html: "<p>Tako je nastalo 14 simbola za 14 kategorija. Simbole sam crtao najpre rukom, zatim u Adobe Ilustratoru, naposletku u SVG formatu, direktno u kodu, kako bi mogli da se transformišu i pretvaraju jedni u druge: digitalna glina za identitetsku fluidnost. Trenutnih simbola ima 14 a sajt je napravljen generativno i ukoliko bih u nekom trenutku odlučio da dodam ili oduzmem kategoriju, sajt bi se odmah prilagodio.</p>
+      <p>Ovi simboli u izvesnoj meri predstavljaju posvetu umetniku i dizajneru, Luiđiju Serafiniju<sup id='s5'>☛</sup> – kartografu nemogućih realnosti. Namerno sam ih crtao tako da budu apstraktni i kriptični, poput vanzemaljskog jezika. Nadam se da će svako u njima pokušati da pronađe svoje značenje.</p>
+      <p>Evo ipak nekoliko elemenata igre značenja kojima sa se rukovodio:</p>
       <div class='all-pictocont'>
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/data-art.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/data-art'>Data umetnost</a> — čovekov ples iznad data tačke u koordinatnom sistemu, ono ljudsko u digitalnom gridu.</div></div>
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/ai.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/ai'>Veštačka inteligencija</a> — oko mašine koja gleda svet i sa kojom delimo 21. vek, oko računara HAL 9000.</div></div>
@@ -77,7 +77,7 @@ content:
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/crtez.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/drawing'>Digitalni crtež</a> — ljuto oko ili gumeno telo, igra slobodnih linija uprkos nasilju digitalne matrice.</div></div>
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/research.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/research'>Akademsko istraživanje</a> — pogled astronoma koji gleda u nebo, beleži i pokušava da razume.</div></div>
       </div>
-      <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>✦</sup>, popusti ego, popusti dominacija kompulzivnog uma, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja ni bez pisanja.</p>
+      <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>✦</sup>, popusti ego, dominacija kompulzivnog uma, matrica i magnet, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja, ni bez pisanja.</p>
       <p>Klasifikatorsko ludilo se posle vrati, jer mora da se vrati, jer je magnet previše jak, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;"
@@ -90,14 +90,14 @@ content:
           caption: "Autorsko predavanje u Novoj Iskri. Beograd, 2017"
 sidenotes:
     - id: 1
-      html: "<a href='/rad/projekti/early-data-art'><img src='/static/media/notes/this/img/map.jpg'></a>"
+      html: "<a href='/rad/projekti/early-data-art' target='_blank'><img src='/static/media/notes/this/img/map.jpg'></a>"
     - id: 2
       html: "Ovaj sajt zamislio sam i kao digitalni kabinet kurioziteta, kabinet čuda, <span class='italic-style'>ein Digitales Kunstkabinett</span>, <span class='italic-style'><a href='https://en.wikipedia.org/wiki/Cabinet_of_curiosities' target='_blank'>a cabinet of curiosities</a></span>."
     - id: 3
       html: "U svom najjednostavnijem obliku, <a href='https://en.wikipedia.org/wiki/ASCII_art' target='_blank'>ASCII art</a> javlja se kao tipografski emotikon :-)"
     - id: 4
-      html: "<a href='/rad/'><img src='/static/media/notes/this/img/flowerchart.jpg'></a>"
+      html: "<a href='/rad/' target='_blank'><img src='/static/media/notes/this/img/flowerchart.jpg'></a>"
     - id: 5
-      html: "I njegovom čudesnom atlasu ili enciklopediji, knjizi <span class='italic-style'><a href='http://www.openculture.com/2017/09/an-introduction-to-the-codex-seraphinianus-the-strangest-book-ever-published.html' target='_blank'>Codex Seraphinianus</a></span>."
+      html: "I njegovom atlasu ili enciklopediji, knjizi <span class='italic-style'><a href='http://www.openculture.com/2017/09/an-introduction-to-the-codex-seraphinianus-the-strangest-book-ever-published.html' target='_blank'>Codex Seraphinianus</a></span>."
     - id: 6
       html: "Digitalna <a href='https://docs.gimp.org/2.10/nl/gimp-view-snap-to-grid.html' target='_blank'>opcija za automatsko poravnanje objekata</a>, »Snap to Grid« može da posluži i kao metafora za život u digitalnom gridu, unutar društvene i jezičke matrice."
