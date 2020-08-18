@@ -144,8 +144,24 @@ def press_s():
     return render_template('page.html', params=sh.params(), page=page, data=data)
 
 
+# NOTE LIST SECTION
+# rendering note_list.html
+
+@app.route("/work/notebook/")
+def projects():
+    note_list, data = utils.projects(fp, en)
+    return render_template('note_list.html', projects=note_list, params=en.params(), data=data)
+
+
+@app.route("/rad/sveska/")
+def projects_s():
+    note_list, data = utils.projects(fp, sh)
+    return render_template('note_list.html', projects=note_list, params=sh.params(), data=data)
+
+
+
 # NOTES SECTION
-# rendering project.html
+# rendering note.html
 
 @app.route('/work/notebook/<name>/')
 def note(name):

@@ -16,7 +16,7 @@ lead: "Priča o tome kako je nastao ovaj Web sajt. Priča o crtanju, pisanju, pr
 content:
     - type: "txt"
       html: "<p>Hulio Kortazar kaže u jednom tekstu: <span class='italic-style'>klasifikatorsko ludilo</span>. Ovaj sajt nastao je kao posledica takvog klasifikatorskog ludila, koje osećam još iz vremena kada sam kao dečak crtao detaljne mape svog dvorišta<sup id='s1'>✿</sup> u Pančevu.</p> 
-      <p>Zapadni čovek, <span class='italic-style'>homo occidentalis</span>, vazda ima potrebu da smišlja kategorije kojima će rezati svet oko sebe, da bi isečene režnjeve sveta potom organizovao u fioke svojih kabineta.<sup id='s2'>♞</sup> Kod sebe, međutim, prepoznajem dvostruku potrebu: da se u isti mah kategorije naprave i razmontiraju, učvrste i subvertraju, da se beži iz matrice i vraća u nju, da se svet drži u lebdećem, drhtavom stanju između dva magnetna pola: reda i haosa.</p> 
+      <p>Zapadni čovek, <span class='italic-style'>homo occidentalis</span>, vazda ima potrebu da smišlja kategorije kojima će rezati svet oko sebe, da bi isečene režnjeve sveta potom organizovao u fioke svojih kabineta.<sup id='s2'>♞</sup> Kod sebe, međutim, prepoznajem dvostruku potrebu: da se u isti mah kategorije naprave i razmontiraju, da se beži iz matrice i vraća u nju, da se svet drži u lebdećem, drhtavom stanju između dva magnetna pola: reda i haosa.</p> 
       <p>Kao dečak sam, izuzev mapa, voleo da crtam i komplikovane scene sa mnoštvom čiča-gliša ili čikica koje sam zvao »čovečuljkići«. Prvo bih crtao ove scene, zatim njihove taksonomije: kakve sve vrste čovečuljaka postoje, na koji se način mogu podeliti, kakve imaju moći, itd. Radi se o menažeriji tipskih junaka: akrobata, gusar, fakir, snagator, pronalazač, padobranac, slikar, robot, rudar, mesečar. Igra umnožavanja identiteta.</p>
       <p>Crteži koji slede nastali su 1996. godine. Crtani su tankim flomasterom na papirima A4 formata.</p>"
     - type: "img"
@@ -82,7 +82,7 @@ content:
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/research.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/research'>Akademsko istraživanje</a> — pogled astronoma koji gleda u nebo, beleži i pokušava da razume.</div></div>
       </div>
       <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>✦</sup>, popusti ego, dominacija kompulzivnog uma, popuste matrica i magnet, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja, ni bez pisanja.</p>
-      <p>Klasifikatorsko ludilo se posle vrati, jer mora da se vrati, jer je magnet previše jak, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"
+      <p>Magnet se posle vrati, jer mora da se vrati, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;"
       img_data:
