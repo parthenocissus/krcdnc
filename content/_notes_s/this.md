@@ -82,7 +82,7 @@ content:
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/research.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/research'>Akademsko istraživanje</a> — pogled astronoma koji gleda u nebo, beleži i pokušava da razume.</div></div>
       </div>
       <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>✦</sup>, popusti ego, dominacija kompulzivnog uma, popuste matrica i magnet, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja, ni bez pisanja.</p>
-      <p>Magnet se posle vrati, jer mora da se vrati, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"
+      <p>Matrica i magnet posle se vrate, jer moraju da se vrate, jer su previše jaki, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;"
       img_data:
