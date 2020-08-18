@@ -1,6 +1,6 @@
 title: 
-    name: "Design Notes: Pictograms and the Classification Madness"
-    html1: "Design Notes: Pictograms and<br>the Classification Madness"
+    name: "Design Notes: This Website"
+    html1: "Design Notes: This Website"
     short: Design Notes
 id: this
 featured: 2

@@ -104,6 +104,25 @@ def projects(flatpages, lang):
     }
     return project_list_grouped, data
 
+def note_list(flatpages, lang):
+    lang_params = lang.params()
+    note_list = [p for p in flatpages if p.path.startswith(lang.dir())]
+    note_list.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
+    # project_list_grouped = [{"year": y, "projects": list(i)}
+    #                         for y, i in groupby(note_list, lambda item: item['date'])]
+    timeline_data = [{"year": y, "projects": len(list(i))}
+                     for y, i in groupby(note_list, lambda item: item['date'])]
+    data = {
+        "pictoid": "general",
+        "lang_link_path": "",
+        "tag_title": lang_params["tag_titles"]["all"],
+        "name_title": lang_params["tag_titles"]["all_title"],
+        "description": lang.categories_html(),
+        "timeline": timeline_data,
+        "projects": note_list
+    }
+    return data
+
 
 def projects_by_category(flatpages, lang, by, criteria):
     lang_params = lang.params()

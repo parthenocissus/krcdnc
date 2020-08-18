@@ -149,14 +149,14 @@ def press_s():
 
 @app.route("/work/notebook/")
 def note_list():
-    note_list, data = utils.projects(fp, en)
-    return render_template('note_list.html', projects=note_list, params=en.params(), data=data)
+    data = utils.note_list(fp, en)
+    return render_template('note_list.html', params=en.params(), data=data)
 
 
 @app.route("/rad/sveska/")
 def note_list_s():
-    note_list, data = utils.projects(fp, sh)
-    return render_template('note_list.html', projects=note_list, params=sh.params(), data=data)
+    data = utils.note_list(fp, sh)
+    return render_template('note_list.html', params=sh.params(), data=data)
 
 
 

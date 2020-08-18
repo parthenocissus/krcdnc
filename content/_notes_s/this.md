@@ -1,6 +1,6 @@
 title: 
-    name: "Beleške o dizajnu: Piktogrami i klasifikatorsko ludilo"
-    html: "Beleške o dizajnu: Piktogrami i<br>klasifikatorsko ludilo"
+    name: "Beleške o dizajnu ovog Web sajta"
+    html: "Beleške o dizajnu ovog Web sajta"
     short: Beleške o dizajnu
 id: this
 featured: 2
