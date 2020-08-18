@@ -69,8 +69,24 @@
                 <svg id="featured-svg" preserveAspectRatio="xMidYMin meet"></svg>
             {% else %}
                 {% set main_img_path = "media/notes/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
-                <img src="{{ url_for('static', filename=main_img_path) }}">
-                <!-- <div class="image-underline"></div> -->
+                <div class="gallery"
+                     itemscope itemtype="http://schema.org/ImageGallery">
+                    <figure class="overburn-container"
+                            itemprop="associatedMedia" itemscope
+                            itemtype="http://schema.org/ImageObject"
+                            title="{{ params.project_captions.gallery_tooltip.start }}">
+                        <a href="{{ url_for('static', filename=main_img_path) }}"
+                           data-size="{{ project.main_img_data.size }}"
+                           itemprop="contentUrl"
+                           data-index="1"
+                           caption="{{ project.main_img_data.caption }}">
+                            <img src="{{ url_for('static', filename=main_img_path) }}"
+                                 itemprop="thumbnail">
+                            <div class="overburn"></div>
+                        </a>
+                    </figure>
+                </div>
+                {# <img src="{{ url_for('static', filename=main_img_path) }}"> #}
             {% endif %}
         </div>
 
@@ -136,7 +152,7 @@
                                         {% set i = loop.index - 1 %}
                                         {% set img_path =
                                         "media/notes/" ~ project.id ~ "/img/"  ~ d.file_name %}
-                                        <figure class="{{ show ~ ' overburn-container' }}"
+                                        <figure class="overburn-container"
                                                 itemprop="associatedMedia" itemscope
                                                 itemtype="http://schema.org/ImageObject"
                                                 title="{{ params.project_captions.gallery_tooltip.start }}">

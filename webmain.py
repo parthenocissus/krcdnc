@@ -147,13 +147,13 @@ def press_s():
 # NOTES SECTION
 # rendering project.html
 
-@app.route('/work/notes/<name>/')
+@app.route('/work/notebook/<name>/')
 def note(name):
     this_note = utils.note(fp, en, name)
     return render_template('note.html', project=this_note, params=en.params())
 
 
-@app.route('/rad/notes/<name>/')
+@app.route('/rad/sveska/<name>/')
 def note_s(name):
     this_note = utils.note(fp, sh, name)
     return render_template('note.html', project=this_note, params=sh.params())

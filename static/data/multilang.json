@@ -103,7 +103,7 @@
       "teaching_lang_link": "/rad/edukacija/",
       "speaking_lang_link": "/rad/nastupi/",
       "press_lang_link": "/rad/mediji/",
-      "notes_lang_link": "/rad/notes/"
+      "notes_lang_link": "/rad/sveska/"
     },
     "roles": [
       {
@@ -201,8 +201,8 @@
       "all_title": "All Projects"
     },
     "notes_data": {
-      "name": "Notes",
-      "path": "/work/notes/"
+      "name": "Notebook",
+      "path": "/work/notebook/"
     }
   },
   "sh_params": {
@@ -315,7 +315,7 @@
       "teaching_lang_link": "/work/teaching/",
       "speaking_lang_link": "/work/speaking/",
       "press_lang_link": "/work/press/",
-      "notes_lang_link": "/work/notes/"
+      "notes_lang_link": "/work/notebook/"
     },
     "roles": [
       {
@@ -414,7 +414,7 @@
     },
     "notes_data": {
       "name": "Sveska",
-      "path": "/rad/notes/"
+      "path": "/rad/sveska/"
     }
   }
 }

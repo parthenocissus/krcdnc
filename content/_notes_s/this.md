@@ -8,6 +8,10 @@ date: "12/08/2020"
 timeline:
     - year: 2020
       d: 1
+main_img_data:
+    file_name: "this-main.jpg"
+    size: "1600x1017"
+    caption: "Skice piktograma. Beograd, 2020"
 lead: "Priča o tome kako je nastao ovaj Web sajt. Priča o crtanju, pisanju, programiranju i oblikovanju vlastitog identiteta u prostoru između reda i haosa."
 content:
     - type: "txt"
@@ -60,7 +64,7 @@ content:
     - type: "txt"
       html: "<p>Tako je nastalo 14 simbola za 14 kategorija. Simbole sam crtao najpre rukom, zatim u Adobe Ilustratoru, naposletku u SVG formatu, direktno u kodu, kako bi mogli da se transformišu i pretvaraju jedni u druge: digitalna glina za identitetsku fluidnost. Trenutnih simbola ima 14 a sajt je napravljen generativno i ukoliko bih u nekom trenutku odlučio da dodam ili oduzmem kategoriju, sajt bi se odmah prilagodio.</p>
       <p>Ovi simboli u izvesnoj meri predstavljaju posvetu umetniku i dizajneru, Luiđiju Serafiniju.<sup id='s5'>☛</sup> Namerno sam ih crtao tako da budu apstraktni i kriptični, poput vanzemaljskog jezika. Nadam se da će svako u njima pokušati da pronađe svoje značenje.</p>
-      <p>Evo ipak nekoliko elemenata igre značenja kojima sa se rukovodio:</p>
+      <p>Evo da ipak nešto nagovestim:</p>
       <div class='all-pictocont'>
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/data-art.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/data-art'>Data umetnost</a> — čovekov ples iznad data tačke u koordinatnom sistemu, ono ljudsko u digitalnom gridu.</div></div>
       <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/ai.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/ai'>Veštačka inteligencija</a> — oko mašine koja gleda svet i sa kojom delimo 21. vek, oko računara HAL 9000.</div></div>
