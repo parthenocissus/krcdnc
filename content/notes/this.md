@@ -8,6 +8,10 @@ date: "12/08/2020"
 timeline:
     - year: 2020
       d: 1
+main_img_data:
+    file_name: "this-main.jpg"
+    size: "1600x1017"
+    caption: "Pictogram sketches. Belgrade, 2020"
 lead: "Priča o tome kako je nastao ovaj Web sajt, od grafičkih simbola za kategorije, preko samih kategorija i taksonomija, do pitanja artikulacije ličnog identiteta."
 content:
     - type: "txt"
