@@ -1,3 +1,5 @@
+import time
+from datetime import datetime
 from itertools import groupby
 
 
@@ -6,10 +8,12 @@ def project(flatpages, lang, name):
     prj.meta["img_term"] = lang.img_term(prj)
     return prj
 
+
 def note(flatpages, lang, name):
     nt = flatpages.get_or_404('{}/{}'.format(lang.ntdir(), name))
     nt.meta["proper_date"] = lang.note_date(nt)
     return nt
+
 
 def teaching(flatpages, lang):
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "teaching"))
@@ -104,25 +108,6 @@ def projects(flatpages, lang):
     }
     return project_list_grouped, data
 
-def note_list(flatpages, lang):
-    lang_params = lang.params()
-    note_list = [p for p in flatpages if p.path.startswith(lang.dir())]
-    note_list.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
-    # project_list_grouped = [{"year": y, "projects": list(i)}
-    #                         for y, i in groupby(note_list, lambda item: item['date'])]
-    timeline_data = [{"year": y, "projects": len(list(i))}
-                     for y, i in groupby(note_list, lambda item: item['date'])]
-    data = {
-        "pictoid": "general",
-        "lang_link_path": "",
-        "tag_title": lang_params["tag_titles"]["all"],
-        "name_title": lang_params["tag_titles"]["all_title"],
-        "description": lang.categories_html(),
-        "timeline": timeline_data,
-        "projects": note_list
-    }
-    return data
-
 
 def projects_by_category(flatpages, lang, by, criteria):
     lang_params = lang.params()
@@ -154,3 +139,28 @@ def projects_by_category(flatpages, lang, by, criteria):
     }
     return project_list_grouped, data
 
+
+def note_list(flatpages, lang):
+
+    date_format = "%d/%m/%Y"
+
+    def timeof(date):
+        element = datetime.strptime(date, date_format)
+        return time.mktime(element.timetuple())
+
+    def yearof(date):
+        return datetime.strptime(date, date_format).year
+
+    note_list = [p for p in flatpages if p.path.startswith(lang.ntdir())]
+    note_list.sort(key=lambda item: (timeof(item['date'])), reverse=True)
+
+    for nt in note_list:
+        nt.meta["proper_date"] = lang.note_date_short(nt)
+
+    timeline_data = [{"year": y, "projects": len(list(i))}
+                     for y, i in groupby(note_list, lambda item: (yearof(item['date'])))]
+
+    return {
+        "timeline": timeline_data,
+        "projects": note_list
+    }

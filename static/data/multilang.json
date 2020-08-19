@@ -202,7 +202,9 @@
     },
     "notes_data": {
       "name": "Notebook",
-      "path": "/work/notebook/"
+      "path": "/work/notebook/",
+      "error": "Ova beleška ne postoji na engleskom. <br>This note doesn't exist in English. <br>Here are other notes in English:",
+      "desc": "A collection of texts, sketches and ideas not yet turned into <a href='/work/projects/'>projects</a> nor <a href='/work/writing/'>publications</a>. Not a blog."
     }
   },
   "sh_params": {
@@ -414,7 +416,9 @@
     },
     "notes_data": {
       "name": "Sveska",
-      "path": "/rad/sveska/"
+      "path": "/rad/sveska/",
+      "error": "This note exists only in English. <br>Ova beleška postoji samo na engleskom. <br>Evo beležaka na našem jeziku:",
+      "desc": "Zbirka tekstova, skica i ideja koje se još uvek nisu uobličile u <a href='/rad/projekti/'>projekte</a> ili <a href='/rad/tekstovi/'>publikacije</a>. Nije blog."
     }
   }
 }

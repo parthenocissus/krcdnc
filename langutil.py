@@ -51,8 +51,12 @@ class LangUtil:
     def note_date(self, note):
         element = datetime.strptime(note.meta["date"], "%d/%m/%Y")
         date_time = datetime.fromtimestamp(time.mktime(element.timetuple()))
-        # return date_time.strftime("%d.%m.%Y.")
         return date_time.strftime("%d %B, %Y")
+
+    def note_date_short(self, note):
+        element = datetime.strptime(note.meta["date"], "%d/%m/%Y")
+        date_time = datetime.fromtimestamp(time.mktime(element.timetuple()))
+        return date_time.strftime("%m/%d/%Y")
 
     def categories_html(self):
         return self.__tag_html("pictodata", "category", "anchor")
@@ -131,6 +135,11 @@ class LangUtilSh(LangUtil):
         month = self.month_map(element.month)
         date_time = datetime.fromtimestamp(time.mktime(element.timetuple()))
         return date_time.strftime("%d. MMM %Y.").replace("MMM", month)
+
+    def note_date_short(self, note):
+        element = datetime.strptime(note.meta["date"], "%d/%m/%Y")
+        date_time = datetime.fromtimestamp(time.mktime(element.timetuple()))
+        return date_time.strftime("%d.%m.%Y.")
 
     def month_map(self, n):
         switcher = {

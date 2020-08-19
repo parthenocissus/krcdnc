@@ -3,7 +3,7 @@ title:
     html1: "Design Notes: This Website"
     short: Design Notes
 id: this
-featured: 2
+featured: 3
 date: "12/08/2020"
 timeline:
     - year: 2020

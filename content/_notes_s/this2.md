@@ -1,10 +1,10 @@
 title: 
-    name: "Beleške o dizajnu ovog Web sajta"
-    html: "Beleške o dizajnu ovog Web sajta"
-    short: Beleške o dizajnu
-id: this
-featured: 3
-date: "12/08/2020"
+    name: "Priča o tome kako je nastao"
+    html: "Priča o tome kako je nastao"
+    short: Priča o tome kako je nastao
+id: this2
+featured: 2
+date: "20/09/1988"
 timeline:
     - year: 2020
       d: 1
@@ -13,7 +13,7 @@ main_img_data:
     size: "1600x1017"
     caption: "Skice piktograma. Beograd, 2020"
 lead: "Priča o tome kako je nastao ovaj sajt. Priča o crtanju, pisanju, programiranju i oblikovanju vlastitog identiteta u prostoru između reda i haosa."
-lead_short: "Priča o tome kako je nastao ovaj sajt"
+lead_short: "Podnaslov ovde"
 content:
     - type: "txt"
       html: "<p>Hulio Kortazar kaže u jednom tekstu: <span class='italic-style'>klasifikatorsko ludilo</span>. Ovaj sajt nastao je kao posledica takvog klasifikatorskog ludila, koje osećam još iz vremena kada sam kao dečak crtao detaljne mape svog dvorišta<sup id='s1'>✿</sup> u Pančevu.</p> 

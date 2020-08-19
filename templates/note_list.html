@@ -19,17 +19,17 @@
     <meta name="twitter:description" content="{{ data.description|striptags }}"/>
     <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}"/>
 
+{#    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">#}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/note_list.css') }}">
 
 {% endblock %}
 
 {% block breadcrumbs %}
-    {% set projects_path = params.paths.projects %}
     <mark>⟶</mark>
-    <a href="{{ projects_path }}">{{ params.menu_items[1].title }}</a>
+    <a href="{{ params.notes_data.path }}">{{ params.notes_data.name }}</a>
 {% endblock %}
 
-{% block lang_link %}{{ params.project_captions.lang_link ~ data.lang_link_path }}{% endblock %}
+{% block lang_link %}{{ params.pages_captions.notes_lang_link }}{% endblock %}
 
 {% block main_container %}
 
@@ -37,41 +37,58 @@
 
         <div id="header-linechart" class="linechart"></div>
 
-        <div class="list-heading">
-            <div class="title prj-list-style">
-                <div class="criteria">{{ data.tag_title|safe }} —</div>
-                <div class="name">{{ data.name_title|safe }}</div>
-                <div class="description">{{ data.description|safe }}</div>
-            </div>
-        </div>
+        {% if data.error is defined %}
 
-        {#        {% for p in projects %}#}
+            <article class="article-main-description-error">
+                {{ params.notes_data.error|safe }}
+            </article>
+
+        {% else %}
+
+            <h1 class="title title-style-notes">
+                {{ params.notes_data.name|safe }}
+            </h1>
+
+            <article class="article-main-description lead-style-notes">
+                {{ params.notes_data.desc|safe }}
+            </article>
+
+        {% endif %}
 
         <div class="year-container">
 
-{#            <div class="year-title dashed-top interface-year-style">{{ 2020 }}</div>#}
             <div class="year-projects">
 
-                {% for notes in data.projects %}
+                {% for note in data.projects %}
 
-                    {% set featured_class = " featured" if notes.featured == 3 else "" %}
+                    {% set featured_class = " featured" if note.featured == 3 else "" %}
+                    {% set subtitle = note.lead|striptags if note.featured == 3 else note.lead_short %}
+                    {% set subtitle_class = "invisible" if note.featured < 3 else "" %}
                     {% set project_class = "project" ~ featured_class %}
-                    {% set project_link = params.menu_items[1].link ~ "/" ~ notes.id %}
-
-                    {% set project_title = notes.title.html|safe if notes.title.html is defined else notes.title.name %}
-                    {% set project_title = notes.title.name_project_list|safe if notes.title.name_project_list is defined else project_title %}
+                    {% set project_link = params.notes_data.path ~ note.id %}
+                    {% set note_title = note.title.html|safe if note.title.html is defined else note.title.name %}
+                    {% set note_title = note.title.name_project_list|safe if note.title.name_project_list is defined else note_title %}
 
                     <div class="{{ project_class }}">
                         <a href="{{ project_link }}">
 
-                            <div class="overburn-container">
-                                <img src="{{ url_for('static', filename=thumb_path) }}" itemprop="thumbnail" alt="">
-                                <div class="overburn"></div>
+                            <div class="square">
+                                <div class="square-content project-title-in-list-style">
+                                    <div>
+                                        {{ note_title }}
+                                    </div>
+                                    <div class="date-subtitle">
+                                        <div class="date project-date-in-list-style">
+                                            {{ note.proper_date }}
+                                        </div>
+                                        <div class="subtitle project-subtitle-in-list-style {{ subtitle_class }}">
+                                            {# —<br> #}
+                                            {{ subtitle }}
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="project-name project-name-in-list-style">
-                                {{ project_title }}
-                            </div>
 
                         </a>
                     </div>
@@ -81,8 +98,6 @@
             </div>
 
         </div>
-
-        {#        {% endfor %}#}
 
     </div>
 {% endblock %}
@@ -96,7 +111,7 @@
 
             chartUtility.createLinechart(chartUtility.getLinechartParamsHeader());
             chartUtility.drawLineChartHeaderProjectList({{ data.timeline|safe }});
-            chartUtility.drawProjectListSymbol("{{ data.pictoid }}");
+            {#chartUtility.drawProjectListSymbol("{{ data.pictoid }}");#}
             chartUtility.metaAnimation("{{ data.pictoid }}");
 
             window.onresize = function () {
