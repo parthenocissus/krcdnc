@@ -39,6 +39,10 @@
         "link": "/work/press"
       },
       {
+        "title": "Notebook",
+        "link": "/work/notebook"
+      },
+      {
         "title": "About",
         "link": "/work/about"
       }
@@ -245,6 +249,10 @@
       {
         "title": "Mediji",
         "link": "/rad/mediji"
+      },
+      {
+        "title": "Sveska",
+        "link": "/rad/sveska"
       },
       {
         "title": "Biografija",
