@@ -40,6 +40,7 @@ data:
 <div class='list-title-first-page interface-heading-style'>2020</div>
 <ul>
 <li><span class='italic-style'>Autorsko predavanje</span>, MultiMadeira Artist Residency, Funšal, Madeira, Portugal</li>
+<li><span class='italic-style'>Algoritamska kultura i nova osećajnost</span> (javno predavanje), Nova Iskra, Beograd, Srbija</li>
 <li><span class='italic-style'>Etika i estetika veštačke inteligencije</span> (javno predavanje), Odsek za softversko inženjerstvo, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
 <li><span class='italic-style'>Poetika veštačke inteligencije</span> (javno predavanje), Beogradska otvorena škola, Beograd, Srbija</li>
 <li><span class='italic-style'>Nasleđe u digitalnom okruženju: Razgovor o prirodi neuspeha korišćenja novih medija u promociji i afirmaciji kulturnog nasleđa</span> (javna tribina), Kuća legata, Beograd, Srbija</li>
@@ -179,4 +180,4 @@ timeline:
     - year: 2019
       d: 15
     - year: 2020
-      d: 5
+      d: 6

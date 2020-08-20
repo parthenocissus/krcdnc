@@ -156,7 +156,7 @@ main a:hover {
 
 .project-title-in-list-style {
     font-family: Ambit-Regular, sans-serif;
-    font-size: 11pt;
+    font-size: 13pt;
     line-height: 1.4em;
     letter-spacing: 0.2pt;
     /*transition: .13s;*/
@@ -167,13 +167,13 @@ main a:hover {
 
 .project-subtitle-in-list-style {
     font-family: Ambit-Regular, sans-serif;
-    font-size: 10.5pt;
+    font-size: 11pt;
     line-height: 1.55em;
     letter-spacing: 0.26pt;
 }
 .project-date-in-list-style {
     font-family: CartographMono-Medium, monospace;
-    font-size: 7.5pt;
+    font-size: 8pt;
     line-height: 1.55em;
     letter-spacing: 0.18pt;
 }

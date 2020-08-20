@@ -1,6 +1,6 @@
 title: 
-    name: "Priča o tome kako je nastao"
-    html: "Priča o tome kako je nastao"
+    name: "Italo Kalvino i Veštačka inteligencija"
+    html: "Italo Kalvino i Veštačka inteligencija"
     short: Priča o tome kako je nastao
 id: this2
 featured: 2

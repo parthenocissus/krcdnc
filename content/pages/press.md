@@ -2,7 +2,7 @@ title:
     name: Press
 id: press
 linechart_tooltip: "Press Timeline"
-lead: "Press and media coverage. <br>Selected interviews. <br>Featured reviews."
+lead: "Press and media coverage. Selected<br>interviews. Featured reviews."
 layout: 2
 data:
     - title: 0
@@ -11,7 +11,11 @@ data:
         - path: "media/projects/bantustan-book/img/bantustan-book29.jpg"
         - path: "media/pages/teaching02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2019</div>
+      <div class='list-title-first-page interface-heading-style'>2020</div>
+    <ul>
+    <li><span class='italic-style'><a href='https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/4051571/uros-krcadinac.html' target='_blank'>Digital Icons</a></span> (Radio Interview), Radio Belgrade, author Tamara Vučenović, Belgrade, Serbia</li>
+    </ul>
+    <div class='list-title interface-heading-style'>2019</div>
     <ul>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=Cdme3hpsXXI' target='_blank'>Nivo 23</a></span> (TV Interview), Studio B, author Velja Pavlović, Belgrade, Serbia</li>
 <li><span class='italic-style'><a href='https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/3463023/stepenik.html' target='_blank'>Black Box Society</a></span> (Radio Interview), Stepenik, Radio Belgrade 2, Serbia</li>
@@ -53,3 +57,5 @@ timeline:
       d: 2
     - year: 2019
       d: 4
+    - year: 2020
+      d: 1

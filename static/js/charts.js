@@ -114,6 +114,59 @@ let chartUtility = (function () {
         }
     };
 
+    let drawSymbolArray = function () {
+
+        let params = projectPictolistParams,
+            scale = 1.16,
+            w = 17 * scale,
+            h = 35 * scale;
+
+        dataCopy.forEach(function (d, i) {
+
+            let symbolSvg = d3.select("#" + d.id + "-symbol").append("svg")
+                .attr("width", w).attr("height", h)
+                .attr("id", "symbolSvg");
+
+            let pictogramParams = {
+                data: d.graphics, id: d.id,
+                svg: symbolSvg, width: w, height: h, class: params.class,
+                rectClass: params.rectClass, dotClass: params.dotClass,
+                scale: scale, idPrefix: params.idPrefix,
+                rectMouseover: function () {
+                }, rectMouseout: function () {
+                }, transformFn: function () {
+                    return "translate(0, 0) scale(" + scale + " " + scale + ")";
+                }, rectClick: function () {
+                }
+            };
+            drawSinglePictogram(pictogramParams);
+
+        });
+
+        // let pctgrm = dataCopy.find(object => {
+        //     return object.id === "ai";
+        // });
+
+        // let symbolSvg = d3.select(".symbol").append("svg")
+        //     .attr("width", w).attr("height", h)
+        //     .attr("id", "symbolSvg");
+        //
+        // let pictogramParams = {
+        //     data: pctgrm.graphics, id: pctgrm.id,
+        //     svg: symbolSvg, width: w, height: h, class: params.class,
+        //     rectClass: params.rectClass, dotClass: params.dotClass,
+        //     scale: scale, idPrefix: params.idPrefix,
+        //     rectMouseover: function () {
+        //     }, rectMouseout: function () {
+        //     }, transformFn: function () {
+        //         return "translate(0, 0) scale(" + scale + " " + scale + ")";
+        //     }, rectClick: function () {
+        //     }
+        // };
+        // drawSinglePictogram(pictogramParams);
+
+    };
+
     let drawProjectListSymbol = function (pictogramId) {
 
         params = projectPictolistParams;
@@ -135,7 +188,7 @@ let chartUtility = (function () {
             h = 35 * scale;
 
         let symbolSvg = d3.select(".symbol").append("svg")
-        //.attr("viewBox", "0 0 " + w + " " + h).attr("preserveAspectRatio", "xMinYMin meet")
+            //.attr("viewBox", "0 0 " + w + " " + h).attr("preserveAspectRatio", "xMinYMin meet")
             .attr("width", w).attr("height", h)
             .attr("id", "symbolSvg");
 
@@ -851,8 +904,7 @@ let chartUtility = (function () {
         computeWidth: function () {
             if (window.matchMedia(mobileQuery).matches) {
                 return window.innerWidth - 40;
-            }
-            else {
+            } else {
                 return 440;
             }
         },
@@ -1082,7 +1134,8 @@ let chartUtility = (function () {
         drawProjectListSymbol: drawProjectListSymbol,
         getPeriodicalAnimationParamsIndex: getPeriodicalAnimationParamsIndex,
         drawPolarChart: drawPolarChart,
-        metaAnimation: metaAnimation
+        metaAnimation: metaAnimation,
+        drawSymbolArray: drawSymbolArray
     }
 
 }());

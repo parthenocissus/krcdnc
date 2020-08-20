@@ -5,9 +5,7 @@ title:
 id: this
 featured: 3
 date: "12/08/2020"
-timeline:
-    - year: 2020
-      d: 1
+extra_js: pictoarray
 main_img_data:
     file_name: "this-main.jpg"
     size: "1600x1017"
@@ -41,7 +39,7 @@ content:
       <p>Vektorskim verzijama na sajtu prethodile su mnogobrojne rukom crtane skice. Crteži koji slede nastali su ove i prošle godine.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;
-      margin-bottom: 10px;"
+      margin-bottom: 10px !important;"
       img_data:
         - file_name: "thisA01.jpg"
           size: "1200x795"
@@ -51,7 +49,7 @@ content:
           caption: "Skice piktograma. Beograd, 2020"
     - type: "img"
       grid_rules: "grid-template-columns: 1055fr 1200fr 1055fr;
-      margin-top: 0;"
+      margin-top: 0 !important;"
       img_data:
         - file_name: "thisB01.jpg"
           size: "1055x699"
@@ -66,21 +64,68 @@ content:
       html: "<p>Tako je nastalo 14 simbola za 14 kategorija. Simbole sam crtao najpre rukom, zatim u Adobe Ilustratoru, naposletku u SVG formatu, direktno u kodu, kako bi mogli da se transformišu i pretvaraju jedni u druge: digitalna glina za identitetsku fluidnost. Trenutnih simbola ima 14 a sajt je napravljen generativno i ukoliko bih u nekom trenutku odlučio da dodam ili oduzmem kategoriju, sajt bi se odmah prilagodio.</p>
       <p>Ovi simboli u izvesnoj meri predstavljaju posvetu umetniku i dizajneru, Luiđiju Serafiniju.<sup id='s5'>☛</sup> Namerno sam ih crtao tako da budu apstraktni i kriptični, poput vanzemaljskog jezika. Nadam se da će svako u njima pokušati da pronađe svoje značenje.</p>
       <p>Evo da ipak nešto nagovestim:</p>
-      <div class='all-pictocont'>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/data-art.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/data-art'>Data umetnost</a> — čovekov ples iznad data tačke u koordinatnom sistemu, ono ljudsko u digitalnom gridu.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/ai.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/ai'>Veštačka inteligencija</a> — oko mašine koja gleda svet i sa kojom delimo 21. vek, oko računara HAL 9000.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/diglit.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/digital-literature'>Digitalna književnost</a> — razlistane knjige, ptice, bitovi, bajtovi, vitičaste zagrade i znaci interpunkcije. </div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/dataviz.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/dataviz'>Vizuelizacija podataka</a> — estetika apscise i ordinate, šestara i sekstanta, teleskopa i plotera, piksela i krivuljara.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/interactive.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/interactive'>Interaktivna umetnost + dizajn</a> — Pac-Man kao simbol za oblikovanje digitalnih lavirinata, slika i tekstova.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/animation.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/animation'>Animacija</a> — figura u koraku, ciklus hoda kao prva ozbiljna vežba svakog animatora, i klasičnog i digitalnog.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/software.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/software'>Softver</a> — mašinska konstrukcija, sprava, algoritamska skalamerija A. Kaldera.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/books.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/book'>Knjige i publikacije</a> — razlistana knjiga iz profila, listovi kao zupčanik, listovi kao kometa ili Sputnjik.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/installation.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/installation'>Instalacije + performansi</a> — cvet, biljka, drvo, instalacija kao primenjeno vrtlarstvo, kao poljopriveda u kulturi.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/workshop.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/workshop'>Radionice</a> — polaznici orbitiraju oko edukatora, i obrnuto: nekad si u centru, nekad si tačka koja rotira, nekad si izvana.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/geo.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/geography'>Eksperimentalna geografija</a> — putovanje, orbita, planeta, osa rotacije, putanja, putovanje.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/carto.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/cartography'>Eksperimentalna kartografija</a> — pin ili pribadača na mapi, geotačka u geokoordinatnom sistemu.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/crtez.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/drawing'>Digitalni crtež</a> — ljuto oko ili gumeno telo, igra slobodnih linija uprkos nasilju digitalne matrice.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/research.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/research'>Akademsko istraživanje</a> — pogled astronoma koji gleda u nebo, beleži i pokušava da razume.</div></div>
+      <div class='all-pictocont'> 
+      <a href='/rad/projekti/category/data-art'>
+        <div class='pictocont'>
+            <div id='data-art-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Data umetnost</span> — čovekov ples iznad data tačke u koordinatnom sistemu, ono ljudsko u digitalnom gridu.</div>
+        </div>
+      </a>
+      <a href='/rad/projekti/category/ai'>
+        <div class='pictocont'>
+            <div id='ai-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Veštačka inteligencija</span> — oko mašine koja gleda svet i sa kojom delimo 21. vek, oko računara HAL 9000.</div>
+        </div>
+      </a>
+      <a href='/rad/projekti/category/digital-literature'>
+        <div class='pictocont'>
+            <div id='digital-literature-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Digitalna književnost</span> — razlistane knjige, ptice, bitovi, bajtovi, vitičaste zagrade i znaci interpunkcije </div>
+        </div>
+      </a>
+      <a href='/rad/projekti/category/dataviz'>
+        <div class='pictocont'>
+            <div id='dataviz-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Vizuelizacija podataka</span> — estetika apscise i ordinate, šestara i sekstanta, teleskopa i plotera, piksela i krivuljara.</div></div></a>
+      <a href='/rad/projekti/category/interactive'>
+        <div class='pictocont'>
+            <div id='interactive-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Interaktivna umetnost + dizajn</span> — Pac-Man kao simbol za oblikovanje digitalnih lavirinata, slika i tekstova.</div></div></a>
+      <a href='/rad/projekti/category/animation'>
+        <div class='pictocont'>
+            <div id='animation-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Animacija</span> — figura u koraku, ciklus hoda kao prva ozbiljna vežba svakog animatora, i klasičnog i digitalnog.</div></div></a>
+      <a href='/rad/projekti/category/software'>
+        <div class='pictocont'>
+            <div id='software-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Softver</span> — mašinska konstrukcija, sprava, algoritamska skalamerija A. Kaldera.</div></div></a>
+      <a href='/rad/projekti/category/book'><div class='pictocont'>
+        <div id='book-symbol' class='pictoimage symbol'></div>
+        <div class='pictotext'><span>Knjige + publikacije</span> — razlistana knjiga iz profila, listovi kao zupčanik, listovi kao kometa ili Sputnjik.</div></div></a>
+      <a href='/rad/projekti/category/installation'>
+        <div class='pictocont'>
+            <div id='installation-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Instalacije + performansi</span> — cvet, biljka, drvo, instalacija kao primenjeno vrtlarstvo, kao poljopriveda u kulturi.</div></div></a>
+      <a href='/rad/projekti/category/workshop'>
+        <div class='pictocont'>
+            <div id='workshop-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Radionice</span> — polaznici orbitiraju oko edukatora, i obrnuto: nekad si u centru, nekad si tačka koja rotira, nekad si izvana.</div></div></a>
+      <a href='/rad/projekti/category/geography'>
+        <div class='pictocont'>
+            <div id='geography-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Eksperimentalna geografija</span> — putovanje, orbita, planeta, osa rotacije, putanja, putovanje.</div></div></a>
+      <a href='/rad/projekti/category/cartography'>
+        <div class='pictocont'>
+            <div id='cartography-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Eksperimentalna kartografija</span> — pin ili pribadača na mapi, geotačka u geokoordinatnom sistemu.</div></div></a>
+      <a href='/rad/projekti/category/drawing'>
+        <div class='pictocont'>
+            <div id='drawing-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Digitalni crtež</span> — ljuto oko ili gumeno telo, igra slobodnih linija uprkos nasilju digitalne matrice.</div></div></a>
+      <a href='/rad/projekti/category/research'>
+        <div class='pictocont'>
+            <div id='research-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Akademsko istraživanje</span> — pogled astronoma koji gleda u nebo, beleži i pokušava da razume.</div></div></a>
       </div>
       <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>✦</sup>, popusti ego, dominacija kompulzivnog uma, popuste matrica i magnet, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja, ni bez pisanja.</p>
       <p>Matrica i magnet posle se vrate, jer moraju da se vrate, jer su previše jaki, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"

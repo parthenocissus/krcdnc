@@ -1,7 +1,7 @@
 title: 
     name: U medijima
 id: press
-lead: "Medijski izveštaji. Novinski <br>tekstovi. Izabrani invervjui. <br>Odabrane recenzije."
+lead: "Medijski izveštaji. Novinski tekstovi.<br>Izabrani invervjui. Odabrane recenzije."
 linechart_tooltip: "Vremenska linija izabranih pojavljivanja u medijima"
 layout: 2
 data:
@@ -11,7 +11,11 @@ data:
         - path: "media/projects/bantustan-book/img/bantustan-book29.jpg"
         - path: "media/pages/teaching02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2019</div>
+      <div class='list-title-first-page interface-heading-style'>2020</div>
+    <ul>
+    <li><span class='italic-style'><a href='https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/4051571/uros-krcadinac.html' target='_blank'>Digitalne ikone</a></span> (radio intervju), Radio Beograd, vodila Tamara Vučenović</li>
+    </ul>
+    <div class='list-title interface-heading-style'>2019</div>
     <ul>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=Cdme3hpsXXI' target='_blank'>Nivo 23</a></span> (TV intervju), Studio B, vodio Velja Pavlović</li>
 <li><span class='italic-style'><a href='https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/3463023/stepenik.html' target='_blank'>Društvo crne kutije</a></span> (radio intervju), Stepenik, Radio Beograd 2</li>
@@ -53,3 +57,5 @@ timeline:
       d: 2
     - year: 2019
       d: 4
+    - year: 2020
+      d: 1

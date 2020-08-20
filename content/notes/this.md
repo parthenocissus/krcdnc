@@ -5,103 +5,149 @@ title:
 id: this
 featured: 3
 date: "12/08/2020"
-timeline:
-    - year: 2020
-      d: 1
+extra_js: pictoarray
 main_img_data:
     file_name: "this-main.jpg"
     size: "1600x1017"
-    caption: "Pictogram sketches. Belgrade, 2020"
-lead: "Priča o tome kako je nastao ovaj Web sajt, od grafičkih simbola za kategorije, preko samih kategorija i taksonomija, do pitanja artikulacije ličnog identiteta."
+    caption: "Pictogram Sketches. Beograd, 2020"
+lead: "A story of how this Web site came to be. The story about drawing, writing, programming, and shaping one’s own identity between order and chaos."
+lead_short: "A story of how this Web site came to be"
 content:
     - type: "txt"
-      html: "<p>Kaže Hulio Kortazar u jednom tekstu: <span class='italic-style'>klasifikatorsko ludilo</span>. Ovaj sajt nastao je kao posledica takvog klasifikatorskog ludila, koje osećam još iz vremena kada sam kao dečak crtao detaljne mape svog dvorišta<sup id='s1'>1</sup> u Pančevu.</p> 
-      <p>Zapadni čovek, <span class='italic-style'>homo occidentalis</span>, vazda ima potrebu da smišlja kategorije kojima će rezati svet oko sebe, da bi isečene režnjeve sveta potom organizovao u fioke svojih kabineta<sup id='s2'>2</sup>. U mom slučaju, pak, prepoznajem dvostruku potrebu: da se u isti mah kategorije naprave i razmontiraju, učvrste i subvertraju, da se svet drži u lebdećem, drhtavom stanju između dva magnetna pola: reda i haosa.</p> 
-      <p>Kao dečak sam, izuzev mapa, voleo da crtam i komplikovane scene sa mnoštvom čiča-gliša ili čikica koje sam zvao »čovečuljkići«. Prvo bih crtao ove scene, zatim njihove taksonomije: kakve sve vrste čovečuljčića postoje, na koji se način mogu podeliti, kakve imaju moći, itd. Bila je to menažerija tipskih junaka: akrobata, gusar, fakir, snagator, padobranac, slikar, robot, rudar, mesečar. Igra umnožavanja identiteta.</p>
-      <p>Crteži koji slede nastali su 1996. godine. Crtani su tankim flomasterom na papirima A4 formata.</p>"
+      html: "<p>In one text, Julio Cortázar mentions a <span class='italic-style'>classifier's madness</span>. This Web site came to be as a result of a similar madness, that I feel ever since the time of my boyhood, when I was drawing detailed maps of my backyard.<sup id='s1'>✿</sup></p> 
+      <p>The Western Man, <span class='italic-style'>homo occidentalis</span>, always had the need to devise categories for cutting the world around him and to organize these cut pieces of the world into drawers of his cabinets.<sup id='s2'>♞</sup> In my case, however, I recognize a double need: to create the categories and dismantle them at the same time, to escape from the matrix and return to it, to keep the world in a floating, trembling state between two magnetic poles: order and chaos.</p> 
+      <p>Apart from maps, I liked to draw complicated scenes with a lot of minuscule stick figure characters that I called <span class='italic-style'>Minikin Men</span>. I would draw the scenes first, then their taxonomies: which kinds of Minikin Men exist, how can they be divided, what powers they have, etc. These menageries of stock characters – an acrobat, a pirate, a faqir, a strongman, an inventor, a parachutist, a painter, a robot, a miner, a sleepwalker – were a game of identity multiplication.</p>
+      <p>The following drawings were made in 1996. They were drawn with a thin felt-tip marker on A4 papers.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 680fr 383fr 680fr;"
       img_data:
         - file_name: "this001.jpg"
           size: "680x960"
-          caption: "Čovečuljkići. Pančevo, 1996"
+          caption: "Minikin Men. Pančevo, 1996"
         - file_name: "this003.jpg"
           size: "383x960"
-          caption: "Vrste čovečuljkića. Pančevo, 1996"
+          caption: "Types of Minikin Men. Pančevo, 1996"
         - file_name: "this002.jpg"
           size: "680x960"
-          caption: "Čovečuljkići. Pančevo, 1996"
+          caption: "Minikin Men. Pančevo, 1996"
     - type: "txt"
-      html: "<p>Bio je to analogni omaž arkadnoj estetici na kojoj smo odrasli, mi rođeni u Orvelovoj godini, omaž platformskim 8-bit igrama i staroračunarskoj ASCII umetnosti.<sup id='s3'>3</sup></p>
-      <p>Prošle godine, kada sam počeo da radim na ovom sajtu, shvatio sam da će najteži posao biti upravo <span class='italic-style'>oblikovanje identiteta</span>. Sajt sam pisao maltene od nule i nije bilo lako izboriti se sa tehnologijama: Python Flask, Nginx server, YAML, čist HTML i CSS, SVG za grafiku, JavaScript i D3.JS za interakcije i animacije. Najteže od svega, međutim, bilo je organizovati svoj život i svoje projekte, klasifikovati ih, shvatiti šta ima smisla prikazati i kako, razumeti šta si ti šta nisi, šta imaš prava da napišeš šta nemaš, šta je egotrip šta legitimna lična arhiva, šta je nesigurnost šta konstruktivno preispitivanje, gde je sramota gde ambicija, gde je lično gde profesionalno. Najteže je bilo, kao i uvek, artikulisati svoj identitet. Svoju identitetsku pometnju.</p>
-      <p>Zato sam se vratio čovečuljkićima: zbog njihove jednostavnosti i gipkosti, fluidnosti i moći transformacije. Jedno telo u bezbroj oblika: pronalazač, pripovedač, predavač.</p>
-      <p>Najpre sam odredio kategorije za svoje projekte: data umetnost, animacija, knjige, vizuelizacija podataka, digitalna književnost, itd. Za svaku od njih nacrtao sam stotine alternativnih simbola, zasnovanih na telu čovečuljka.</p>
-      <p>Pritom sam sebi zadao dizajnersko ograničenje: svaki simbol mora da sadrži jedan krug i četiri linije, krive ili prave, mogućno preklopljene, uz opciono jednu tačku<sup id='s4'>4</sup>. Za generičkog čovečuljka, onog u gornjem levom uglu, krug je glava, linije su ruke i noge, tačka je nevidljiva žiža tela. Za čovečuljka koji, primera radi, predstavlja knjige i publikacije, krug je kičma knjige iz profila, dok su linije – četiri razlistane stranice.</p>
-      <p>Vektorskim verzijama na sajtu prethodile su mnogobrojne rukom crtane skice. Crteži koji slede nastale su ove i prošle godine.</p>"
+      html: "<p>It was an unconscious homage to the arcade aesthetics us born in the Orwell year grew up with, an homage to platform 8-bit games and ASCII art.<sup id='s3'>❥</sup></p>
+      <p>Last year, when I started working on my Web site, I realized that the most difficult task will be to find the right shape – visual, textual, and interactive – for my fluid personal and professional identity. I wrote the site almost from scratch and it was not easy in technological terms: Python Flask, Nginx server, YAML, pure HTML and CSS, SVG for graphics, JavaScript and D3.JS for interactions and animations, etc. The most difficult thing, however, was to organize one's own life and projects, to classify them, to understand what makes sense to show publicly and in what way, to understand what you are and what you aren't, what is an egotrip and what is a legitimate personal archive, what is insecurity and what is constructive reconsideration, what is personal and what is professional. The most difficult thing was, as always, to articulate one's identity. In fact, one's identity confusion.</p>
+      <p>That is why I returned to the Minikin Men: because of their simplicity and flexibility, fluidity and the power of transformation. One minikin body could exist in many forms: as a storyteller, an inventor, a maker, a teacher.</p>
+      <p>First, I defined categories for my projects: data art, animation, books, data visualization, digital literature, etc. For each of them, I drew hundreds of alternative symbols, based on the minikin body.</p>
+      <p>I set myself a design constraint: each symbol<sup id = 's4'>✹</sup> must contain one circle and four lines, curved or straight, possibly overlapping, plus optionally one dot. For a generic minikin character, the one in the upper left corner, the circle is the head, the lines are the arms and legs, the point is the invisible crux of the body. For a character who, for example, represents books and publications, the circle is the book spine, while lines represent four pages.</p>
+      <p>The vector SVG pictograms were preceded by numerous hand-drawn sketches. The following drawings were made during 2020 and 2019.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;
-      margin-bottom: 10px;"
+      margin-bottom: 10px !important;"
       img_data:
         - file_name: "thisA01.jpg"
           size: "1200x795"
-          caption: "Skice piktograma. Beograd, 2020"
+          caption: "Pictogram Sketches. Belgrade, 2020"
         - file_name: "thisA02.jpg"
           size: "1200x795"
-          caption: "Skice piktograma. Beograd, 2020"
+          caption: "Pictogram Sketches. Belgrade, 2020"
     - type: "img"
       grid_rules: "grid-template-columns: 1055fr 1200fr 1055fr;
-      margin-top: 0;"
+      margin-top: 0 !important;"
       img_data:
         - file_name: "thisB01.jpg"
           size: "1055x699"
-          caption: "Skice piktograma. Beograd, 2020"
+          caption: "Pictogram Sketches. Belgrade, 2020"
         - file_name: "thisB02.jpg"
           size: "1200x699"
-          caption: "Skice piktograma. Beograd, 2020"
+          caption: "Pictogram Sketches. Belgrade, 2020"
         - file_name: "thisB03.jpg"
           size: "1055x699"
-          caption: "Skice piktograma. Beograd, 2020"
+          caption: "Pictogram Sketches. Belgrade, 2020"
     - type: "txt"
-      html: "<p>Tako je nastalo 14 simbola za 14 kategorija. Simbole sam najpre crtao rukom, zatim u Adobe Ilustratoru, naposletku u SVG formatu, direktno u kodu, kako bi mogli da se transformišu i pretvaraju jedni u druge: digitalna glina za identitetsku fluidnost. Simbola ima 14 trenutno: sajt je napravljen generativno i ukoliko bih u nekom trenutku odlučio da dodam ili oduzmem kategoriju, sajt bi se u trenutku prilagodio.</p>
-      <p>U izvesnoj meri, simboli predstavljaju posvetu  kartografu nemogućih realnosti, Luiđiju Serafiniju.<sup id='s5'>5</sup> Namerno sam ih crtao tako da budu apstraktni i kriptični, poput vanzemaljskog jezika. Najviše bih voleo da svako u njima nađe svoje značenje.</p>
-      <p>Evo par elemenata igre značenja kojima sa se rukovodio:</p>
-      <div class='all-pictocont'>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/data-art.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/data-art'>Data umetnost</a> — čovekov ples iznad data tačke u koordinatnom sistemu, ono ljudsko u digitalnom gridu.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/ai.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/ai'>Veštačka inteligencija</a> — oko mašine koja gleda svet i sa kojom delimo 21. vek, oko računara HAL 9000.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/diglit.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/digital-literature'>Digitalna književnost</a> — razlistane knjige, ptice, bitovi, bajtovi, vitičaste zagrade i znaci interpunkcije. </div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/dataviz.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/dataviz'>Vizuelizacija podataka</a> — estetika apscise i ordinate, šestara i sekstanta, teleskopa i plotera, piksela i krivuljara.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/interactive.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/interactive'>Interaktivna umetnost + dizajn</a> — Pac-Man kao simbol za oblikovanje digitalnih lavirinata, slika i tekstova.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/animation.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/animation'>Animacija</a> — figura u koraku, ciklus hoda kao prva ozbiljna vežba svakog animatora, i klasičnog i digitalnog.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/software.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/software'>Softver</a> — mašinska konstrukcija, sprava, algoritamska skalamerija A. Kaldera.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/books.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/book'>Knjige i publikacije</a> — razlistana knjiga iz profila, listovi kao zupčanik, listovi kao kometa ili Sputnjik.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/installation.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/installation'>Instalacije + performansi</a> — cvet, biljka, drvo, instalacija kao primenjeno vrtlarstvo, kao poljopriveda u kulturi.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/workshop.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/workshop'>Radionice</a> — polaznici orbitiraju oko edukatora, i obrnuto: nekad si u centru, nekad si tačka koja rotira, nekad si izvana.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/geo.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/geography'>Eksperimentalna geografija</a> — putovanje, orbita, planeta, osa rotacije, putanja, putovanje.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/carto.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/cartography'>Eksperimentalna kartografija</a> — pin ili pribadača na mapi, geotačka u geokoordinatnom sistemu.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/crtez.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/drawing'>Digitalni crtež</a> — ljuto oko ili gumeno telo, igra slobodnih linija uprkos nasilju digitalne matrice.</div></div>
-      <div class='pictocont'><div class='pictoimage'><img src='/static/media/notes/this/img/pictograms/research.jpg'></div><div class='pictotext'><a href='/rad/projekti/category/research'>Akademsko istraživanje</a> — pogled astronoma koji gleda u nebo, beleži i pokušava da razume.</div></div>
+      html: "<p>After drawing pictograms by hand, I drew then in Adobe Illustrator, finally in SVG format, directly in code, so any of them could be algorithmically transformed into any other, so they could become the digital clay for shaping the fluidity of one's identity. Currently, there are 14 symbols for 14 categories. The site is made in a generative manner, which mean that if at some point I decide to add or subtract a category, the site would adapt immediately.</p>
+      <p>These symbols are a small dedication to the artist and designer Luigi Serafini.<Sup id = 's5'>☛ </sup> I deliberately made them abstract and cryptic, like an alien language. I hope that everyone will try to find their own meaning in them.</p>
+      <p>Here's a hint though:</p>
+      <div class='all-pictocont'> 
+      <a href='/work/projects/category/data-art'>
+        <div class='pictocont'>
+            <div id='data-art-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Data Art</span> — a human dance above the data point in a coordinate system, a human element in the digital grid.</div>
+        </div>
+      </a>
+      <a href='/work/projects/category/ai'>
+        <div class='pictocont'>
+            <div id='ai-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Artificial Intelligence</span> — the eye of the machine with which we share the 21st century, the HAL 9000's eye.</div>
+        </div>
+      </a>
+      <a href='/work/projects/category/digital-literature'>
+        <div class='pictocont'>
+            <div id='digital-literature-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Digital Literature</span> — book pages, punctuation, birds, bits, bytes, curly braces</div>
+        </div>
+      </a>
+      <a href='/work/projects/category/dataviz'>
+        <div class='pictocont'>
+            <div id='dataviz-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Data Visualization</span> — aesthetics of the abscissa and the ordinate, of the compass and the sextant, of the telescope and the plotter.</div></div></a>
+      <a href='/work/projects/category/interactive'>
+        <div class='pictocont'>
+            <div id='interactive-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Interactive Art + Design</span> — Pac-Man as a symbol for designing digital labyrinths, images and texts.</div></div></a>
+      <a href='/work/projects/category/animation'>
+        <div class='pictocont'>
+            <div id='animation-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Animation</span> — a walking figure and a walking cycle as the first serious exercise of any animator, both classic and digital.</div></div></a>
+      <a href='/work/projects/category/software'>
+        <div class='pictocont'>
+            <div id='software-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Software</span> — a machine construction, an algorithmic device, a gadget, a Calderesque object.</div></div></a>
+      <a href='/work/projects/category/book'><div class='pictocont'>
+        <div id='book-symbol' class='pictoimage symbol'></div>
+        <div class='pictotext'><span>Books + Publications</span> — a book with pages that resembles a gear, a comet or a Sputnik satellite.</div></div></a>
+      <a href='/work/projects/category/installation'>
+        <div class='pictocont'>
+            <div id='installation-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Installations + Performances</span> — a flower, a plant, a tree, an installation as the applied gardening, as (agri)culture.</div></div></a>
+      <a href='/work/projects/category/workshop'>
+        <div class='pictocont'>
+            <div id='workshop-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Workshops</span> — students orbit around the teacher, and vice versa: sometimes you are in the center, sometimes you are a rotating point, sometimes you are outside.</div></div></a>
+      <a href='/work/projects/category/geography'>
+        <div class='pictocont'>
+            <div id='geography-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Experimental Geography</span> — a journey, an orbit, a planet, an axis of rotation, a trajectory, an act of travelling.</div></div></a>
+      <a href='/work/projects/category/cartography'>
+        <div class='pictocont'>
+            <div id='cartography-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Experimental Cartography</span> — a pin on a map, a geotag within a geocoordinate system.</div></div></a>
+      <a href='/work/projects/category/drawing'>
+        <div class='pictocont'>
+            <div id='drawing-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Digital Drawing</span> — an angry eye or a rubber body, a dance of free lines despite the oppression of the digital matrix.</div></div></a>
+      <a href='/work/projects/category/research'>
+        <div class='pictocont'>
+            <div id='research-symbol' class='pictoimage symbol'></div>
+            <div class='pictotext'><span>Academic Research</span> — the view of an astronomer who looks at the sky, takes notes and tries to make some sense of it.</div></div></a>
       </div>
-      <p>Sve ovo su, jasno, naknadne racionalizacije, učitavanja. Dok crtaš, nemaš pojma šta te linije znače. Zato crtanje toliko prija i zato je toliko važno čak i za striktno digitalne projekte – zato što popusti značenjski »Snap to Grid«<sup id='s6'>6</sup>, popusti ego, popusti dominacija kompulzivnog uma, popusti <span class='italic-style'>klasifikatorsko ludilo</span>. Digitalne umetnosti nema bez crtanja, kao što je nema ni bez programiranja ni bez pisanja.</p>
-      <p>Klasifikatorsko ludilo se posle vrati, jer mora da se vrati, jer je magnet previše jak, ali ima taj trenutak kada si slobodan, trenutak levitacije između reda i haosa. <mark>&#9632;</mark></p>"
+      <p>These are, of course, subsequent rationalizations. As you draw, you have no idea what is the meaning of the lines. That's why drawing is so enjoyable and why it's so important even for strictly digital projects – because it weakens the <span class='italic-style'>Snap to Grid</span> effect<sup id = 's6'>✦</sup>, weakens the ego, the dominance of the compulsive mind, weakens the matrix and the magnet, weakens the <span class = 'italic-style'>classifier's madness</span>. There is no digital art without drawing, just as there isn't one without programming or writing.</p>
+       <p> The matrix and the magnet come back afterwards, because they have to return, because they are too strong, but there is a moment when you are free, the moment of levitation between order and chaos. <mark>&#9632;</mark></p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;"
       img_data:
         - file_name: "iskra02.jpg"
           size: "960x640"
-          caption: "Autorsko predavanje u Novoj Iskri. Beograd, 2017"
+          caption: "Artist Talk, Nova Iskra, 2017"
         - file_name: "iskra01.jpg"
           size: "960x640"
-          caption: "Autorsko predavanje u Novoj Iskri. Beograd, 2017"
+          caption: "Artist Talk, Nova Iskra, 2017"
 sidenotes:
     - id: 1
-      html: "<a href='/rad/projekti/early-data-art' target='_blank'><img src='/static/media/notes/this/img/map.jpg'></a>"
+      html: "<a href='/work/projects/early-data-art' target='_blank'><img src='/static/media/notes/this/img/map.jpg'></a>"
     - id: 2
-      html: "Ovaj sajt zamislio sam i kao digitalni kabinet kurioziteta, kabinet čuda, <span class='italic-style'>ein Digitales Kunstkabinett</span>, <span class='italic-style'><a href='https://en.wikipedia.org/wiki/Cabinet_of_curiosities' target='_blank'>a cabinet of curiosities</a></span>."
+      html: "I also imagined this site as <span class='italic-style'>ein Digitales Kunstkabinett</span>, a digital <a href='https://en.wikipedia.org/wiki/Cabinet_of_curiosities' target='_blank'>cabinet of curiosities</a>."
     - id: 3
       html: "U svom najjednostavnijem obliku, <a href='https://en.wikipedia.org/wiki/ASCII_art' target='_blank'>ASCII art</a> javlja se kao tipografski emotikon :-)"
     - id: 4
       html: "<a href='/rad/' target='_blank'><img src='/static/media/notes/this/img/flowerchart.jpg'></a>"
     - id: 5
-      html: "I njegovom čudesnom atlasu ili enciklopediji, knjizi <span class='italic-style'><a href='http://www.openculture.com/2017/09/an-introduction-to-the-codex-seraphinianus-the-strangest-book-ever-published.html' target='_blank'>Codex Seraphinianus</a></span>."
+      html: "And to his otherworldly atlas or encyclopedia, the magnificent <span class='italic-style'><a href='http://www.openculture.com/2017/09/an-introduction-to-the-codex-seraphinianus-the-strangest-book-ever-published.html' target='_blank'>Codex Seraphinianus</a></span>."
     - id: 6
-      html: "Digitalna <a href='https://docs.gimp.org/2.10/nl/gimp-view-snap-to-grid.html' target='_blank'>opcija za automatsko poravnanje objekata</a>, »Snap to Grid« može da posluži i kao metafora za život u digitalnom gridu, unutar društvene i jezičke matrice."
+      html: "A digital <a href='https://docs.gimp.org/2.10/nl/gimp-view-snap-to-grid.html' target='_blank'>options for object alignment</a>, <span class='italic-style'>Snap to Grid</span> can also serve as a metaphor for contemporary life within the digital grid, within the social and linguistic matrix."

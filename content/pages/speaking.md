@@ -40,6 +40,7 @@ data:
       <div class='list-title-first-page interface-heading-style'>2020</div>
     <ul>
 <li><span class='italic-style'>Artist Talk</span>, MultiMadeira Artist Residency, Funchal, Madeira, Portugal</li>
+<li><span class='italic-style'>Algorithmic Culture and the New Sensibility</span> (Public Lecture), Nova Iskra, Belgrade, Serbia</li>
 <li><span class='italic-style'>Ethics and Æsthetics of Artificial Intelligence</span> (Public Lecture), Department of Software Engineering, Faculty of Organisational Sciences, University of Belgrade, Serbia</li>
 <li><span class='italic-style'>AI Poetics</span> (Public Lecture), Belgrade Open School, Belgrade, Serbia</li>
 <li><span class='italic-style'>Heritage in Digital Environments: Polemics About the Failure of New Media Platforms as Tools for Promoting Cultural Heritage</span> (Public Discussion), Heritage House, Belgrade, Serbia</li>
@@ -180,4 +181,4 @@ timeline:
     - year: 2019
       d: 15
     - year: 2020
-      d: 5
+      d: 6

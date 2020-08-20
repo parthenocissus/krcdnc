@@ -29,6 +29,11 @@
     <script src="{{ url_for('static', filename='js/lib/photoswipe-ui-default.min.js') }}"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+    {% if project.extra_js is defined %}
+        {% set js_path = "js/ext/" ~ project.extra_js ~ ".js" %}
+        <script src="{{ url_for('static', filename=js_path) }}"></script>
+    {% endif %}
+
 {% endblock %}
 
 {% block breadcrumbs %}
@@ -139,9 +144,7 @@
                     {% for block in project.content %}
 
                         {% if block.type == "txt" %}
-
                             {{ block.html|safe }}
-
                         {% else %}
 
                             <div class="thumbs">
@@ -255,7 +258,9 @@
                 baseUtility.resetMenu();
                 baseUtility.baseSetup();
                 chartUtility.setLangParams({{ params|tojson }});
-                baseUtility.noteSetup();
+                $(window).bind("load", function () {
+                    baseUtility.noteSetup();
+                });
             };
 
             $(window).bind("load", function () {

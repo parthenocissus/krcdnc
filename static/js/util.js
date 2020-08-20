@@ -327,7 +327,7 @@ let baseUtility = (function () {
                 sidenote.removeClass("selected");
             }).click(function () {
                 let tp = sidenote.offset().top;
-                window.scroll({ top: tp - 10, left: 0, behavior: 'smooth' });
+                window.scroll({top: tp - 10, left: 0, behavior: 'smooth'});
             });
 
             sideref = $("#sidenote-symbol" + index);
@@ -341,7 +341,7 @@ let baseUtility = (function () {
                 sidenote.removeClass("selected");
             }).click(function () {
                 let tp = ref.offset().top;
-                window.scroll({ top: tp - 10, left: 0, behavior: 'smooth' });
+                window.scroll({top: tp - 10, left: 0, behavior: 'smooth'});
             });
         });
 
@@ -357,6 +357,13 @@ let baseUtility = (function () {
             );
             return false;
         });
+
+        /* Mobile Queries */
+
+        if (window.matchMedia(mobileQuery).matches) {
+            $(".gallery").css("grid-template-columns", "1fr");
+            $(".overburn").remove();
+        }
 
     };
 
