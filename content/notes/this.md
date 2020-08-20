@@ -10,11 +10,11 @@ main_img_data:
     file_name: "this-main.jpg"
     size: "1600x1017"
     caption: "Pictogram Sketches. Beograd, 2020"
-lead: "A story of how this Web site came to be. The story about drawing, writing, programming, and shaping one’s own identity between order and chaos."
-lead_short: "A story of how this Web site came to be"
+lead: "A story of how this website came to be. The story about drawing, writing, programming, and shaping one’s own identity between order and chaos."
+lead_short: "A story of how this website came to be"
 content:
     - type: "txt"
-      html: "<p>In one text, Julio Cortázar mentions a <span class='italic-style'>classifier's madness</span>. This Web site came to be as a result of a similar madness, that I feel ever since the time of my boyhood, when I was drawing detailed maps of my backyard.<sup id='s1'>✿</sup></p> 
+      html: "<p>In one text, Julio Cortázar mentions a <span class='italic-style'>classifier's madness</span>. This website came to be as a result of a similar madness, that I've felt ever since the time of my boyhood, when I was drawing detailed maps of my backyard.<sup id='s1'>✿</sup></p> 
       <p>The Western Man, <span class='italic-style'>homo occidentalis</span>, always had the need to devise categories for cutting the world around him and to organize these cut pieces of the world into drawers of his cabinets.<sup id='s2'>♞</sup> In my case, however, I recognize a double need: to create the categories and dismantle them at the same time, to escape from the matrix and return to it, to keep the world in a floating, trembling state between two magnetic poles: order and chaos.</p> 
       <p>Apart from maps, I liked to draw complicated scenes with a lot of minuscule stick figure characters that I called <span class='italic-style'>Minikin Men</span>. I would draw the scenes first, then their taxonomies: which kinds of Minikin Men exist, how can they be divided, what powers they have, etc. These menageries of stock characters – an acrobat, a pirate, a faqir, a strongman, an inventor, a parachutist, a painter, a robot, a miner, a sleepwalker – were a game of identity multiplication.</p>
       <p>The following drawings were made in 1996. They were drawn with a thin felt-tip marker on A4 papers.</p>"
@@ -31,8 +31,8 @@ content:
           size: "680x960"
           caption: "Minikin Men. Pančevo, 1996"
     - type: "txt"
-      html: "<p>It was an unconscious homage to the arcade aesthetics us born in the Orwell year grew up with, an homage to platform 8-bit games and ASCII art.<sup id='s3'>❥</sup></p>
-      <p>Last year, when I started working on my Web site, I realized that the most difficult task will be to find the right shape – visual, textual, and interactive – for my fluid personal and professional identity. I wrote the site almost from scratch and it was not easy in technological terms: Python Flask, Nginx server, YAML, pure HTML and CSS, SVG for graphics, JavaScript and D3.JS for interactions and animations, etc. The most difficult thing, however, was to organize one's own life and projects, to classify them, to understand what makes sense to show publicly and in what way, to understand what you are and what you aren't, what is an egotrip and what is a legitimate personal archive, what is insecurity and what is constructive reconsideration, what is personal and what is professional. The most difficult thing was, as always, to articulate one's identity. In fact, one's identity confusion.</p>
+      html: "<p>It was an unconscious homage to the arcade aesthetics we born in the Orwell year grew up with, an homage to platform 8-bit games and ASCII art.<sup id='s3'>❥</sup></p>
+      <p>Last year, when I started working on my website, I realized that the most difficult task will be to find the right shape – visual, textual, and interactive – for my fluid personal and professional identity. I wrote the site almost from scratch and it was not easy in technological terms: Python Flask, Nginx server, YAML, pure HTML and CSS, SVG for graphics, JavaScript and D3.JS for interactions and animations, etc. The most difficult thing, however, was to organize one's own life and projects, to classify them, to understand what makes sense to show publicly and in what way, to understand what you are and what you aren't, what is an egotrip and what is a legitimate personal archive, what is insecurity and what is constructive reconsideration, what is personal and what is professional. The most difficult thing was, as always, to articulate one's identity. In fact, one's identity confusion.</p>
       <p>That is why I returned to the Minikin Men: because of their simplicity and flexibility, fluidity and the power of transformation. One minikin body could exist in many forms: as a storyteller, an inventor, a maker, a teacher.</p>
       <p>First, I defined categories for my projects: data art, animation, books, data visualization, digital literature, etc. For each of them, I drew hundreds of alternative symbols, based on the minikin body.</p>
       <p>I set myself a design constraint: each symbol<sup id = 's4'>✹</sup> must contain one circle and four lines, curved or straight, possibly overlapping, plus optionally one dot. For a generic minikin character, the one in the upper left corner, the circle is the head, the lines are the arms and legs, the point is the invisible crux of the body. For a character who, for example, represents books and publications, the circle is the book spine, while lines represent four pages.</p>
@@ -86,7 +86,7 @@ content:
       <a href='/work/projects/category/dataviz'>
         <div class='pictocont'>
             <div id='dataviz-symbol' class='pictoimage symbol'></div>
-            <div class='pictotext'><span>Data Visualization</span> — aesthetics of the abscissa and the ordinate, of the compass and the sextant, of the telescope and the plotter.</div></div></a>
+            <div class='pictotext'><span>Data Visualization</span> — aesthetics of the abscissa and the ordinate, of the compass and the sextant.</div></div></a>
       <a href='/work/projects/category/interactive'>
         <div class='pictocont'>
             <div id='interactive-symbol' class='pictoimage symbol'></div>
@@ -109,7 +109,7 @@ content:
       <a href='/work/projects/category/workshop'>
         <div class='pictocont'>
             <div id='workshop-symbol' class='pictoimage symbol'></div>
-            <div class='pictotext'><span>Workshops</span> — students orbit around the teacher, and vice versa: sometimes you are in the center, sometimes you are a rotating point, sometimes you are outside.</div></div></a>
+            <div class='pictotext'><span>Workshops</span> — students orbit around the teacher, and vice versa: sometimes you are in the center, sometimes outside.</div></div></a>
       <a href='/work/projects/category/geography'>
         <div class='pictocont'>
             <div id='geography-symbol' class='pictoimage symbol'></div>
