@@ -128,7 +128,7 @@ content:
             <div class='pictotext'><span>Academic Research</span> — the view of an astronomer who looks at the sky, takes notes and tries to make some sense of it.</div></div></a>
       </div>
       <p>These are, of course, subsequent rationalizations. As you draw, you have no idea what is the meaning of the lines. That's why drawing is so enjoyable and why it's so important even for strictly digital projects – because it weakens the ego, the dominance of the compulsive mind, weakens the matrix and the magnet, weakens the <span class='italic-style'>Snap to Grid</span> effect<sup id = 's6'>✦</sup>, weakens the <span class = 'italic-style'>classifier's madness</span>. There is no digital art without drawing, just as there isn't one without programming or writing.</p>
-       <p> The matrix and the magnet come back afterwards, because they have to return, because they are too strong, but there is a moment when you are free, the moment of levitation between order and chaos. <mark>&#9632;</mark></p>"
+       <p>The matrix and the magnet come back afterwards, because they have to return, because they are too strong, but there is a moment when you are free, the moment of levitation between order and chaos. <mark>&#9632;</mark></p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;"
       img_data:
