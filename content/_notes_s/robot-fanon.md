@@ -4,7 +4,7 @@ title:
     short: Fanon kao robot
 id: robot-fanon
 featured: 2
-date: "12/08/2020"
+date: "21/08/2020"
 extra_js: pictoarray
 main_img_data:
     file_name: "robot-fanon-main.jpg"
