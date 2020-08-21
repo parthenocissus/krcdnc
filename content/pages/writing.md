@@ -26,7 +26,7 @@ data:
       id: "prose"
       images: 
         - path: "media/projects/bantustan-book/img/bantustan-book00.jpg"
-        - path: "media/projects/bantustan-book/img/bantustan-book13.jpg"        
+        - path: "media/projects/bantustan-book/img/bantustan-book13.jpg"       
       text: "<p>Travel prose focused on human geographies, written in collaboration with <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazar Pašćanović</a> and <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), the main Balkan hub for independent travelers and travel writers.</p>
 <p>The most prominent work is <span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: Atlas of a Journey</a></span> (<span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>), a book of travel prose written by <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazar Pašćanović</a>, <a href='http://www.klubputnika.org/autori/chivitli' target='_blank'>Marko Đedović</a>, and me. Describing a 3-month journey from Serbia to Namibia, the book consists of conversations between us and the people we met. <span class='italic-style'>Bantustan</span> is a book about fluid geographic identities, unlikely connections, <a href='/work/projects/kp-identity/'>brownian motion</a> of human particles – about trying to imagine new and different cartographies of human relationships on a shared globe.</p>
 <p>Including a series of hand-illustrated maps and data visualizations for non-linear reading, <span class='italic-style'>Bantustan</span> is also an example of <a href='https://www.articleworld.org/index.php/Ergodic_literature' target='_blank'>ergodic and interactive literature</a>. Literary critics and writers <a href='https://sr.wikipedia.org/sr-el/%D0%92%D0%B0%D1%81%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B' target='_blank'>Vasa Pavković</a> and <a href='http://www.klubputnika.org/zbirka/blogovi/bantustan/3997-bantustan-kao-novi-oblik-romana' target='_blank'>Elis Bektaš</a> described it as a <span class='italic-style'>new form of the novel</span>.</p>
@@ -78,6 +78,12 @@ data:
     <li><span class='year interface-subheading-style'>2019</span><span class='page-list-item-style'><span class='italic-style'>Intelligent Software Agents with Applications in Focus</span> (Book Chapter), Janković-Romano, M., Stanković, M., Krčadinac, U., Encyclopedia of Artificial Intelligence 2009: 950-955, IGI Global. DOI: 10.4018/978-1-60566-060-8.ch082</span>
     </li>
     </ul>"
+    - title: Notebook
+      id: "notebook"
+      notebook: true
+      text: "<p>I also write notes for my <a href='/rad/sveska/'>Digital Notebook</a>.</p> 
+      <p>Notebook is a body of texts, sketches and ideas not yet turned into <a href='/work/projects/'>projects</a> nor <a href='/work/writing/'>publications</a>. More than a journal or a blog, it is a collection of curiosities, a database of textual, visual, and interactive miscellanea.</p>
+      <p>The first essay in the Notebook is a <a href='/work/notebook/this/'>story of how this website came to be</a>.</p>"
 timeline:
     - year: 2008
       d: 1

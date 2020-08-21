@@ -61,6 +61,7 @@ def writing(flatpages, lang):
     by = "category"
     params = lang.params()
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "writing"))
+
     projs = [p for p in flatpages if p.path.startswith(lang.dir())]
     bantu_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), bantu))
     prose_projects = [bantu_page]
@@ -68,12 +69,17 @@ def writing(flatpages, lang):
     diglit_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
     research_projs = list(filter(lambda x: (research in map(lambda d: d["id"], x[by])), projs))
     research_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
+
+    date_format = "%d/%m/%Y"
+    note_list = [p for p in flatpages if p.path.startswith(lang.ntdir())]
+    note_list.sort(key=lambda item: (__timeof(item['date'], date_format)), reverse=True)
+
     data = {
         "link": params["menu_items"][2]["link"],
         "title": params["menu_items"][2]["title"],
         "langlink": params["pages_captions"]["writing_lang_link"],
-        "projects": [diglit_projs, prose_projects, research_projs]
-        # "diglit": diglit_projs, "prose": prose_projects, "research": research_projs
+        "projects": [diglit_projs, prose_projects, research_projs],
+        "notes": note_list[0:6]
     }
     return page, data
 
@@ -141,26 +147,27 @@ def projects_by_category(flatpages, lang, by, criteria):
 
 
 def note_list(flatpages, lang):
-
     date_format = "%d/%m/%Y"
 
-    def timeof(date):
-        element = datetime.strptime(date, date_format)
-        return time.mktime(element.timetuple())
-
-    def yearof(date):
-        return datetime.strptime(date, date_format).year
-
     note_list = [p for p in flatpages if p.path.startswith(lang.ntdir())]
-    note_list.sort(key=lambda item: (timeof(item['date'])), reverse=True)
+    note_list.sort(key=lambda item: (__timeof(item['date'], date_format)), reverse=True)
 
     for nt in note_list:
         nt.meta["proper_date"] = lang.note_date_short(nt)
 
     timeline_data = [{"year": y, "projects": len(list(i))}
-                     for y, i in groupby(note_list, lambda item: (yearof(item['date'])))]
+                     for y, i in groupby(note_list, lambda item: (__yearof(item['date'], date_format)))]
 
     return {
         "timeline": timeline_data,
         "projects": note_list
     }
+
+
+def __timeof(date, date_format):
+    element = datetime.strptime(date, date_format)
+    return time.mktime(element.timetuple())
+
+
+def __yearof(date, date_format):
+    return datetime.strptime(date, date_format).year

@@ -74,6 +74,12 @@ data:
     <li><span class='year interface-subheading-style'>2019</span><span class='page-list-item-style'><span class='italic-style'>Intelligent Software Agents with Applications in Focus</span> (Book Chapter), Janković-Romano, M., Stanković, M., Krčadinac, U., Encyclopedia of Artificial Intelligence 2009: 950-955, IGI Global. DOI: 10.4018/978-1-60566-060-8.ch082</span>
     </li>
     </ul>"
+    - title: Sveska
+      id: "notebook"
+      notebook: true
+      text: "<p>Pišem i beleške u digitalnoj <a href='/work/notebook/'>Svesci</a>.</p> 
+      <p>Svesku čine tekstovi, skice i ideje koje još uvek nisu uobličene u <a href='/rad/projekti/'>projekte</a> ili <a href='/rad/tekstovi/'>publikacije</a>. Pre nego dnevnik ili blog, Sveska je kolekcija zapažanja, baza tekstualnih, vizuelnih i interaktivnih raznovrsnosti.</p>
+      <p>Prvi esej u Svesci je <a href='/rad/sveska/this/'>priča o tome kako je nastao ovaj sajt</a>.</p>"
 timeline:
     - year: 2008
       d: 1

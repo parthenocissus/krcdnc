@@ -85,8 +85,11 @@
                     <div class="section-list interface-page-li-style">
                         {{ d.list|safe }}
                     </div>
+
                     {% set i = loop.index - 1 %}
+
                     {% if data.projects is defined and data.projects[i] is defined and data.projects[i] != 0 %}
+
                         <div class="section-projects">
 
                             {% if d.images is defined %}
@@ -115,6 +118,36 @@
                                 {% endfor %}
                             </div>
                         </div>
+
+                    {% elif d.notebook is defined %}
+
+                        <div class="section-projects">
+
+                            <div class="section-projects-list">
+                                {% for note in data.notes %}
+
+                                    {% set note_link = params.notes_data.path ~ note.id %}
+                                    {% set note_title = note.title.html|safe if note.title.html is defined else note.title.name %}
+                                    {% set note_title = note.title.name_project_list|safe if note.title.name_project_list is defined else note_title %}
+
+                                    <div class="project">
+                                        <a href="{{ note_link }}">
+
+                                            <div class="square">
+                                                <div class="square-content project-name-in-list-style">
+                                                    <div>
+                                                        {{ note_title }}
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </a>
+                                    </div>
+
+                                {% endfor %}
+                            </div>
+                        </div>
+
                     {% endif %}
 
                 </div>

@@ -303,13 +303,13 @@
       "title": "Books",
       "case": "Texts + Books",
       "createsVerb": "writes",
-      "description": "Book projects I was involved in as a writer, artist, cartographer, or media programmer. From the infographic travel prose, such as <span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: The Atlas of a Journey</a></span>, to conceptual works of <a href='/work/writing#diglit'>generative poetic text</a> published in the form of artist books and poetry booklets. Apart from this, I also write <a href='/work/writing/'>academic research papers, essays and articles</a>."
+      "description": "Book projects I was involved in as a writer, artist, cartographer, or media programmer. From the infographic travel prose, such as <span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: The Atlas of a Journey</a></span>, to conceptual works of <a href='/work/writing#diglit'>generative poetic text</a> published in the form of artist books and poetry booklets. Apart from this, I also write <a href='/work/writing/'>academic research papers, essays and articles</a> and publish notes in my digital <a href='/work/notebook/'>notebook</a>."
     },
     "nameS": {
       "title": "Knjige",
       "case": "tekstove + knjige",
       "createsVerb": "piše i objavljuje",
-      "description": "Knjige na kojima sam radio kao pisac, ilustrator i programer. Od infografičke putopisne proze, kao što je <span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>, do konceptualnih radova <a href='/rad/tekstovi#diglit'>generativnog poetskog teksta</a> objavljenog u umetničkim knjigama i magazinima. Uporedo s ovim tekstovima, pišem <a href='/rad/tekstovi/'>akademske radove, eseje i članke</a>."
+      "description": "Knjige na kojima sam radio kao pisac, ilustrator i programer. Od infografičke putopisne proze, kao što je <span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>, do konceptualnih radova <a href='/rad/tekstovi#diglit'>generativnog poetskog teksta</a> objavljenog u umetničkim knjigama i magazinima. Uporedo s ovim tekstovima, pišem <a href='/rad/tekstovi/'>akademske radove, eseje i članke</a> i objavljujem beleške u svojoj digitalnoj <a href='/rad/sveska/'>svesci</a>."
     },
     "graphics": {
       "headcx": 4.799,
