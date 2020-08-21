@@ -144,7 +144,7 @@ sidenotes:
     - id: 2
       html: "I also imagined this site as <span class='italic-style'>ein Digitales Kunstkabinett</span>, a digital <a href='https://en.wikipedia.org/wiki/Cabinet_of_curiosities' target='_blank'>cabinet of curiosities</a>."
     - id: 3
-      html: "U svom najjednostavnijem obliku, <a href='https://en.wikipedia.org/wiki/ASCII_art' target='_blank'>ASCII art</a> javlja se kao tipografski emotikon :-)"
+      html: "In its simplest form, <a href='https://en.wikipedia.org/wiki/ASCII_art' target='_blank'>ASCII art</a> is a typographic emoticon :-)"
     - id: 4
       html: "<a href='/rad/' target='_blank'><img src='/static/media/notes/this/img/flowerchart.jpg'></a>"
     - id: 5
