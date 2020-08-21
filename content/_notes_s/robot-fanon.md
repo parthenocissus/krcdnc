@@ -10,7 +10,7 @@ main_img_data:
     file_name: "robot-fanon-main.jpg"
     size: "1800x1800"
     caption: "<span class='italic-style'>Fanon (Even the Dead Are Not Safe) Eigenface</span>. Digitalni rad umetnika Trevora Paglena, 2017"
-lead: "Beleška o mаšinskom portretu pisca Franca Fanona, koji je umetnik Trevor Paglen kreirao uz pomoć algoritama za mašinsko učenje"
+lead: "Beleška o algoritamskom portretu pisca Franca Fanona, koji je umetnik Trevor Paglen kreirao uz pomoć algoritama za mašinsko učenje"
 lead_short: "Priča o tome kako je nastao ovaj sajt"
 content:
     - type: "txt"
