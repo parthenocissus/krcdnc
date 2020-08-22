@@ -1,11 +1,10 @@
 title: 
-    name: "Franc Fanon kao besmrtni robot"
-    html: "Franc Fanon kao besmrtni robot"
-    short: Fanon kao robot
+    name: "Franc Fanon će ustati kao robot"
+    html: "Franc Fanon će ustati kao robot"
+    short: Fanon će ustati kao robot
 id: robot-fanon
 featured: 2
 date: "21/08/2020"
-extra_js: pictoarray
 main_img_data:
     file_name: "robot-fanon-main.jpg"
     size: "1800x1800"
@@ -22,7 +21,7 @@ content:
     <p>Pogled Fanonovog duha, pogled koji se radijalno rastače, pogled nežan i fokusiran, kao da govori: nisam otišao. <span class='italic-style'>Tu</span> sam. Mogu da nas ubiju, ali u stvari ne mogu. Šta čekate? Ustajte, prezreni na svetu. <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1
-      html: "<a href='https://www.phaidon.com/agenda/art/articles/2018/may/30/trevor-paglen-s-robot-revolutionary/' target='_blank'>Trevor Paglen's Robot Revolutionary</a>, Phaidon, 2017"
+      html: "<a href='https://www.phaidon.com/agenda/art/articles/2018/may/30/trevor-paglen-s-robot-revolutionary/' target='_blank'><em>Trevor Paglen's Robot Revolutionary</em></a>, Phaidon, 2017"
     - id: 2
       html: "<a href='https://library.memoryoftheworld.org/#/book/ab44920b-46f0-4b94-963f-fcf76323fc7c' target='_blank'><span class='italic-style'>The Wretched of the Earth</span></a>, Frantz Fanon, Grove Press, 2007 (original published in 1961)"
     - id: 3

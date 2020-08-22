@@ -472,7 +472,7 @@ main a:hover {
 
 /* Italic Style */
 
-.italic-style {
+em, .italic-style {
     font-family: Ambit-Italic, sans-serif;
 }
 

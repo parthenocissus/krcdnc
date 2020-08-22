@@ -9,9 +9,9 @@
     <meta property="og:title" content="{{ 'Uroš Krčadinac → ' ~ params.page_title.about }}">
     <meta property="og:description" content="{{ page.lead|striptags }}">
     {% set main_img_path = page.img.link %}
-    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
-    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}" />
-    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ params.menu_items[6].link }}">
+    <meta property="og:image" content="https://krcadinac.com {{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image:secure_url" content="https://krcadinac.com {{ url_for('static', filename=main_img_path) }}" />
+    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ params.menu_items[7].link }}">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@krcadinac" />
@@ -32,7 +32,7 @@
 
 {% block breadcrumbs %}
     <mark>⟶</mark>
-    <a href="{{ params.menu_items[6].link }}">{{ params.menu_items[6].title }}</a>
+    <a href="{{ params.menu_items[7].link }}">{{ params.menu_items[7].title }}</a>
 {% endblock %}
 
 {% block lang_link %}{{ params.pages_captions.about_lang_link }}{% endblock %}
