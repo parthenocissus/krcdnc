@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <style>
+
+        {# Roboto Mono #}
+
+        @font-face {
+            font-family: "RobotoMono-Regular";
+            url({{ url_for('static', filename='media/fonts/roboto/RobotoMono-Regular.woff') }}) format('woff');
+        }
+
+        @font-face {
+            font-family: "RobotoMono-Medium";
+            url({{ url_for('static', filename='media/fonts/roboto/RobotoMono-Medium.woff') }}) format('woff');
+        }
+
+    </style>
+
+    <link rel="shortcut icon" type="image/png"
+          href="{{ url_for('static', filename='media/favicon/favicon.ico') }}"/>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='space/ulus2020/styles.css') }}">
+
+    <script src="{{ url_for('static', filename='js/lib/p5.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='space/ulus2020/bracketbirds.js') }}"></script>
+
+    <title>ULUS Konkurs 2020</title>
+
+</head>
+<body>
+
+<main>
+
+    <article>
+        <h1> >> ULUS konkurs 2020</h1>
+        <p> >> Tekst konkursa.</p>
+    </article>
+
+    <section>
+        <div id="nest"></div>
+    </section>
+
+    <aside>
+        +
+    </aside>
+
+</main>
+
+</body>
+</html>

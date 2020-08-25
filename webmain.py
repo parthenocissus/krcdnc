@@ -203,6 +203,15 @@ def about_s():
 
 
 
+# SPACE ROUTE
+# for specific project pages
+
+@app.route('/space/<name>/')
+def space(name):
+    return render_template('/space/' + name + '.html')
+
+
+
 # ADDITIONAL ROUTES
 # synesketch, download, etc.
 
@@ -222,9 +231,9 @@ def download_file(args=None):
     return send_file(path)
 
 
-@app.route('/3/')
-def poem():
-    return render_template('test/3.html')
+# @app.route('/3/')
+# def poem():
+#     return render_template('test/3.html')
 
 
 # MAIN
