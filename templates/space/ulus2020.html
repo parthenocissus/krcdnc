@@ -12,12 +12,12 @@
 
         @font-face {
             font-family: "RobotoMono-Regular";
-            url({{ url_for('static', filename='media/fonts/roboto/RobotoMono-Regular.woff') }}) format('woff');
+        url({{ url_for('static', filename='media/fonts/roboto/RobotoMono-Regular.woff') }}) format('woff');
         }
 
         @font-face {
             font-family: "RobotoMono-Medium";
-            url({{ url_for('static', filename='media/fonts/roboto/RobotoMono-Medium.woff') }}) format('woff');
+        url({{ url_for('static', filename='media/fonts/roboto/RobotoMono-Medium.woff') }}) format('woff');
         }
 
     </style>
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='space/ulus2020/styles.css') }}">
 
     <script src="{{ url_for('static', filename='js/lib/p5.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='space/ulus2020/bracketbirds.js') }}"></script>
+    <script src="{{ url_for('static', filename='https://krcadinac.com/static/space/ulus2020/bracketbirds.js') }}"></script>
 
     <title>ULUS Konkurs 2020</title>
 
@@ -37,18 +37,9 @@
 
 <main>
 
-    <article>
-        <h1> >> ULUS konkurs 2020</h1>
-        <p> >> Tekst konkursa.</p>
-    </article>
-
-    <section>
+    <section id="bird-space">
         <div id="nest"></div>
     </section>
-
-    <aside>
-        +
-    </aside>
 
 </main>
 
