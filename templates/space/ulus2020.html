@@ -6,28 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <style>
-
-        {# Roboto Mono #}
-
-        @font-face {
-            font-family: "RobotoMono-Regular";
-        url({{ url_for('static', filename='media/fonts/roboto/RobotoMono-Regular.woff') }}) format('woff');
-        }
-
-        @font-face {
-            font-family: "RobotoMono-Medium";
-        url({{ url_for('static', filename='media/fonts/roboto/RobotoMono-Medium.woff') }}) format('woff');
-        }
-
-    </style>
-
     <link rel="shortcut icon" type="image/png"
           href="{{ url_for('static', filename='media/favicon/favicon.ico') }}"/>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='space/ulus2020/styles.css') }}">
 
-    <script src="{{ url_for('static', filename='js/lib/p5.min.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+
+{#    <script src="{{ url_for('static', filename='js/lib/p5.min.js') }}"></script>#}
 {#    <script src="https://krcadinac.com/static/space/ulus2020/bracketbirds.js"></script>#}
     <script src="{{ url_for('static', filename='space/ulus2020/bracketbirds.js') }}"></script>
 
@@ -38,9 +25,8 @@
 
 <main>
 
-    <section id="bird-space">
-        <div id="nest"></div>
-    </section>
+    <div id="bracket-bird-nest" width="880px" height="495px" special="krc">
+    </div>
 
 </main>
 

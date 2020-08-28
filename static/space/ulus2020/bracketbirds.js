@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     (function () {
 
-        let bracketflock = function(p) {
+        let bracketflock = function (p) {
 
             let birdFont, numFont, colors, rand,
                 matrix, size, margin, mtrxWidth, mtrxHeight,
@@ -24,35 +24,38 @@ document.addEventListener("DOMContentLoaded", function () {
             };
 
             p.preload = function () {
-
-                size = {
-                    w: window.innerWidth, // window.innerWidth * 0.75,
-                    h: window.innerHeight
-                };
-
+                let element = document.getElementById("bracket-bird-nest");
+                let elWidth = element.getAttribute("width")
+                    .replace('px', '');
+                let elHeight = element.getAttribute("height")
+                    .replace('px', '');
+                size = {w: elWidth, h: elHeight};
+                if (element.getAttribute("special") === "krc") {
+                    size = {w: window.innerWidth, h: window.innerHeight};
+                }
                 rand = new AdvancedRandom();
-
-                let fontsPath = "/static/media/fonts/roboto/";
-                let roboRegular = fontsPath + "RobotoMono-Regular.ttf",
-                    roboBold = fontsPath + "RobotoMono-Bold.ttf";
-
-                birdFont = p.loadFont(roboBold);
-                numFont = p.loadFont(roboRegular);
-
-                birdFont = p.loadFont("https://krcadinac.com//static/media/fonts/roboto/RobotoMono-Regular.ttf?raw=true");
-
                 matrix = [];
                 colors = [];
+                // let fontsPath = "/static/media/fonts/roboto/";
+                // let roboRegular = fontsPath + "RobotoMono-Regular.ttf",
+                //     roboBold = fontsPath + "RobotoMono-Bold.ttf";
+                // birdFont = p.loadFont(roboBold);
+                // numFont = p.loadFont(roboRegular);
             };
 
             p.setup = function () {
                 let canvas = p.createCanvas(size.w, size.h);
-                //canvas.parent('nest');
+                canvas.parent('bracket-bird-nest');
                 p.angleMode(p.DEGREES);
-                //p.textFont('Andale Mono');
+                p.textFont('Roboto Mono');
                 colors = ["#fccb4e", "#fccb4e", "#fccb4e", "#fccb4e",
                     "#b44c18", "#f3b82f", "#e26204",
                     "#ffffff", "#212121"];
+                colorsBack = ["#fccb4e", "#fccb4e",
+                    "#b44c18", "#b44c18",
+                    "#f3b82f", "#e26204",
+                    "#ffffff",
+                    "#212121", "#212121", "#212121", "#212121"];
                 fillMatrix();
                 p.frameRate(2);
             };
@@ -72,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 let flockSize = rand.getGaussianRandomInt(1, matrix.length * 0.7, 3);
 
-                p.background(colors[rand.getRandomInt(0, colors.length - 1)]);
+                p.background(colorsBack[rand.getRandomInt(0, colorsBack.length - 1)]);
                 p.translate(size.w / 2, size.h / 2);
                 p.push();
                 p.rotate(90);
@@ -109,6 +112,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 matrix = [];
                 p.pop();
+            };
+
+            p.mouseClicked = function () {
+                window.open("https://krcadinac.com", "_blank");
             };
 
         };
