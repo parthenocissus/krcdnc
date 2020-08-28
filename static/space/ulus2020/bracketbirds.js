@@ -36,8 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 let roboRegular = fontsPath + "RobotoMono-Regular.ttf",
                     roboBold = fontsPath + "RobotoMono-Bold.ttf";
 
-                birdFont = p.loadFont(roboBold);
-                numFont = p.loadFont(roboRegular);
+                // birdFont = p.loadFont(roboBold);
+                // numFont = p.loadFont(roboRegular);
+
                 matrix = [];
                 colors = [];
             };
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 let canvas = p.createCanvas(size.w, size.h);
                 //canvas.parent('nest');
                 p.angleMode(p.DEGREES);
+                p.textFont('Georgia');
                 colors = ["#fccb4e", "#fccb4e", "#fccb4e", "#fccb4e",
                     "#b44c18", "#f3b82f", "#e26204",
                     "#ffffff", "#212121"];
@@ -74,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 p.rotate(90);
 
                 p.fill(colors[rand.getRandomInt(0, colors.length - 1)]);
-                p.textFont(numFont);
+                // p.textFont(numFont);
                 p.textSize(factor * 1.3);
                 p.textAlign(p.RIGHT, p.CENTER);
                 if (p.random() > 0.7) {
@@ -85,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 }
 
-                p.textFont(birdFont);
+                // p.textFont(birdFont);
                 p.textSize(factor * 1.3);
                 p.textAlign(p.CENTER, p.CENTER);
                 for (let i = 0; i < flockSize; i++) {
