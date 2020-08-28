@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .replace('px', '');
                 let elHeight = element.getAttribute("height")
                     .replace('px', '');
+                element.style.cursor = 'pointer';
                 size = {w: elWidth, h: elHeight};
                 if (element.getAttribute("special") === "krc") {
                     size = {w: window.innerWidth, h: window.innerHeight};
