@@ -157,7 +157,7 @@ presentations:
         - name: <span class='italic-style'>Design Seminar</span>, Petnica Science Centre, Valjevo, Serbia
     - year: 2019
       events:
-        - name: <span class='italic-style'>Department of Digital Art</span>, FMK, Belgrade, Serbia
+        - name: <span class='italic-style'>Department of Digital Art</span>, Faculty of Media and Communications, Belgrade, Serbia
 press:
     - year: 2015
       events: 
