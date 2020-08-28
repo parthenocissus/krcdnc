@@ -36,8 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 let roboRegular = fontsPath + "RobotoMono-Regular.ttf",
                     roboBold = fontsPath + "RobotoMono-Bold.ttf";
 
-                // birdFont = p.loadFont(roboBold);
-                // numFont = p.loadFont(roboRegular);
+                birdFont = p.loadFont(roboBold);
+                numFont = p.loadFont(roboRegular);
+
+                birdFont = p.loadFont("https://krcadinac.com//static/media/fonts/roboto/RobotoMono-Regular.ttf?raw=true");
 
                 matrix = [];
                 colors = [];
@@ -47,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 let canvas = p.createCanvas(size.w, size.h);
                 //canvas.parent('nest');
                 p.angleMode(p.DEGREES);
-                p.textFont('Georgia');
+                //p.textFont('Andale Mono');
                 colors = ["#fccb4e", "#fccb4e", "#fccb4e", "#fccb4e",
                     "#b44c18", "#f3b82f", "#e26204",
                     "#ffffff", "#212121"];
