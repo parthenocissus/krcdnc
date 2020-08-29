@@ -44,6 +44,7 @@ data:
 <li><span class='italic-style'>Etika i estetika veštačke inteligencije</span> (javno predavanje), Odsek za softversko inženjerstvo, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
 <li><span class='italic-style'>Poetika veštačke inteligencije</span> (javno predavanje), Beogradska otvorena škola, Beograd, Srbija</li>
 <li><span class='italic-style'>Nasleđe u digitalnom okruženju: Razgovor o prirodi neuspeha korišćenja novih medija u promociji i afirmaciji kulturnog nasleđa</span> (javna tribina), Kuća legata, Beograd, Srbija</li>
+<li><span class='italic-style'>Razgovor o dizajnu</span> (javno predavanje), Istraživačka stanica Petnica, Srbija</li>
 <li><span class='italic-style'>Mašinsko učenje za umetnike</span> (javno predavanje), Co-Work Center, Funšal, Madeira, Portugal</li>
 </ul>
 <div class='list-title interface-heading-style'>2019</div>

@@ -44,6 +44,7 @@ data:
 <li><span class='italic-style'>Ethics and Æsthetics of Artificial Intelligence</span> (Public Lecture), Department of Software Engineering, Faculty of Organisational Sciences, University of Belgrade, Serbia</li>
 <li><span class='italic-style'>AI Poetics</span> (Public Lecture), Belgrade Open School, Belgrade, Serbia</li>
 <li><span class='italic-style'>Heritage in Digital Environments: Polemics About the Failure of New Media Platforms as Tools for Promoting Cultural Heritage</span> (Public Discussion), Heritage House, Belgrade, Serbia</li>
+<li><span class='italic-style'>Design Talk</span> (Public Lecture), Petnica Science Centre, Serbia</li>
 <li><span class='italic-style'>Machine Learning for Artists</span> (Public Lecture), Co-Work Center, Funchal, Madeira, Portugal</li>
     </ul>
     <div class='list-title interface-heading-style'>2019</div>
