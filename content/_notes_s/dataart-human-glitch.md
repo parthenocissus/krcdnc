@@ -111,7 +111,7 @@ sidenotes:
     - id: 11
       html: "<img src='/static/media/notes/dataart-human-glitch/img/ship-detail.jpg'>"
     - id: 12
-      html: "Autori igre <em><a href='https://www.latimes.com/entertainment/herocomplex/la-et-hc-played-slave-tetris-kids-20150904-htmlstory.html' target='_blank'>Slave Tetris</a></em> očigledno su bili inspirisani ovom infografikom. To je dobar primer ambisa u koji data umetnost može da padne ukoliko je lišena temeljitog razumevanja stvarnosti koju prikazuje."
+      html: "Autori igre <em><a href='https://www.latimes.com/entertainment/herocomplex/la-et-hc-played-slave-tetris-kids-20150904-htmlstory.html' target='_blank'>Slave Tetris</a></em> očigledno su bili inspirisani ovom infografikom. To je dobar primer ambisa u koji digitalna i data umetnost mogu da padnu ukoliko su lišene temeljnog razumevanja stvarnosti kojom se bave."
     - id: 13
       html: "<a href='http://libgen.rs/book/index.php?md5=CEF17DFA7107E83B541F57430D857855' target='_blank'><em>Vrata od utrobe</em></a>, Mirko Kovač, 1978"
     - id: 14
