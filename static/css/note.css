@@ -149,15 +149,16 @@
     transition: .13s;
 
     display: grid;
-    grid-template-columns: 17px 1fr;
+    grid-template-columns: 15px 1fr;
     grid-auto-rows: auto;
-    grid-gap: 0;
+    grid-gap: 6px;
 }
 
 .sidenote .side-symbol {
-    float: left;
+    /*float: left;*/
     font-family: CartographMono-Heavy, monospace;
     font-size: 8pt;
+    text-align: right;
     color: var(--suncolor);
     line-height: 1;
     padding: 0 4px 0 0;
@@ -175,6 +176,7 @@
     width: 100%;
     display: block;
     transition: .13s;
+    padding-bottom: 8px;
 }
 
 .sidenote a img:hover {
@@ -503,6 +505,12 @@ figure img:hover {
 }
 .all-pictocont a:hover .pictolist-item {
     stroke-width: 2.1;
+}
+
+/* Textuals */
+
+.indent {
+    padding: 7px 30px 7px 15px;
 }
 
 /* Pictogram Symbols */
