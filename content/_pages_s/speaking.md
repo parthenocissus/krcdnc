@@ -39,6 +39,7 @@ data:
       text: "<div class='section-list interface-page-li-style'>
 <div class='list-title-first-page interface-heading-style'>2020</div>
 <ul>
+<li><span class='italic-style'><a href='https://www.youtube.com/watch?v=MMUp1FtztGo' target='_blank'>Mogućnost Evrope 2.0: diskusija o novoj normalnosti</a></span> (moderacija javne debate), Književni festival <span class='italic-style'>Krokodil</span>, Amfiteatar ispred Muzeja Jugoslavije, Beograd, Srbija</li>
 <li><span class='italic-style'>Autorsko predavanje</span>, MultiMadeira Artist Residency, Funšal, Madeira, Portugal</li>
 <li><span class='italic-style'>Algoritamska kultura i nova osećajnost</span> (javno predavanje), Nova Iskra, Beograd, Srbija</li>
 <li><span class='italic-style'>Etika i estetika veštačke inteligencije</span> (javno predavanje), Odsek za softversko inženjerstvo, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
