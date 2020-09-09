@@ -8,7 +8,7 @@ date: "10/09/2020"
 main_img_data:
     file_name: "dataart-human-glitch-main.jpg"
     size: "1890x1260"
-    caption: "Digitalna molitva, izložba Art + Science Lab, Magacin MKM, Beograd, 2020."
+    caption: "Digitalna molitva, izložba Art + Science Lab, Magacin MKM, Beograd, 2020. Foto: CPN / Ivan Zupanc."
 lead: "Autorski tekst o novomedijskom projektu Kristine Tice, <a href='https://ticakristina.com/Digital-Prayer' target='_blank'><em>Digitalna molitva</em></a>, za koji sam bio akademski mentor na master programu u oblasti <a href='https://fmk.singidunum.ac.rs/departmani/digitalne-umetnosti/' target='_blank'>digitalnih umetnosti</a>. Tekst je napisan povodom nagrade koju je <em>Digitalna molitva</em> dobila na konkursu <a href='http://elementarium.cpn.rs/u-centru/peto-izdanje-art-science-programa/?script=lat' target='_blank'>Centra za promociju nauke</a> za najbolji umetnički projekat koji se tiče veštačke inteligencije."
 lead_short: "Autorski tekst o projektu Digitalna molitva"
 content:
@@ -23,20 +23,20 @@ content:
       img_data:
         - file_name: "mag01.jpg"
           size: "1200x800"
-          caption: "Marija Šumarac (kompozitorka) i Kristina Tica (umetnica). Art + Science Lab, Magacin MKM, Beograd, 2020"
+          caption: "Marija Šumarac (kompozitorka) i Kristina Tica (umetnica). Art + Science Lab, Magacin MKM, Beograd, 2020. Foto: CPN / Ivan Zupanc."
         - file_name: "mag02.jpg"
           size: "1200x800"
-          caption: "Kristina Tica (umetnica) i Marija Šumarac (kompozitorka). Art + Science Lab, Magacin MKM, Beograd, 2020"
+          caption: "Kristina Tica (umetnica) i Marija Šumarac (kompozitorka). Art + Science Lab, Magacin MKM, Beograd, 2020. Foto: CPN / Ivan Zupanc."
     - type: "img"
       grid_rules: "grid-template-columns: 2fr 3fr;
       margin-top: 0 !important;"
       img_data:
         - file_name: "dp06.jpg"
           size: "800x800"
-          caption: "Evolucija generativne slike koju generiše softver projekta Digitalna molitva. Art + Science Lab, Magacin MKM, Beograd, 2020"
+          caption: "Evolucija generativne slike koju generiše softver projekta Digitalna molitva."
         - file_name: "dp04.jpg"
           size: "1200x800"
-          caption: "Primer generativne slike koju generiše softver projekta Digitalna molitva. Art + Science Lab, Magacin MKM, Beograd, 2020"
+          caption: "Primer generativne slike koju generiše softver projekta Digitalna molitva."
     - type: "txt"
       html: "<p>To je srž projekta <em>Digitalna molitva (Digital Prayer)</em><sup id='s6'>6</sup>, koji se bavi automatskim generisanjem slika koje podsećaju na pravoslavne ikone. <em>Digitalna molitva</em> je master projekat Kristine Tice na Departmanu za digitalne umetnosti Fakulteta za medije i komunikacije<sup id='s7'>7</sup>, za koji sam bio mentor i supervizor. Projekat smo razvijali timski: Miloš Trifunović bio je glavni programer, Marija Šumarac kompozitorka, Žak Laroš (Jacques Laroche) tehnička podrška. Posebnu zahvalnost dugujemo kustoskinji Maji Ćirić i naučniku Milošu Milovanoviću. Digitalna molitva pobedila je na nacionalnom konkursu Centra za promociju nauke<sup id='s8'>8</sup> i izabrana je da predstavlja Srbiju u okviru projekta <em>European ARTifical Intelligence Lab</em> na čijem je čelu znamenita Ars Electronica<sup id='s9'>9</sup>. Projekat je do sada predstavljen u galeriji Remont, na festivalu S.U.T.R.A. i na manifestaciji <em>Art + Science Lab</em> u Beogradu.</p> 
     <p>Stojeći ispred Kristininog veličanstvenog tehnoikonostasa, sačinjenog od serverskih nosača (<em>server rack</em>) i ekrana različite veličine, na kojima se prikazuje proces automatskog generisanja slika svetaca, grimiznih i zelenkastih figura izobličenih čela i zamagljenih odora, osetio sam strahopoštovanje. Pojedini kritičari i saradnici na izložbama rad su interpretirali u tom ključu: kao strahopoštovanje prema veštačkoj inteligenciji. Bilo je i interpretacija koje su pozivale na digitalno oživotvorenje srpske tradicije. Neki su tražili vezu sa sakralnom geometrijom. Neki su rad shvatili kao poziv da se pronađe nova religioznost u posthumanoj epohi, koju bi zajedno i ravnopravno trebalo da grade ljudi, roboti, životinje, biljke, minerali, mašine i mikroorganizmi. U svojim površnijim oblicima, digitalna umetnost cilja na pseudomagijski efekat mađionarskog trika; tada je divljenje i strahopoštovanje koje izaziva slično onome ono što je Doroti osetila našavši se ispred Čarobnjaka iz Oza<sup id='s10'>10</sup>.</p>
@@ -46,10 +46,10 @@ content:
       img_data:
         - file_name: "dp01.jpg"
           size: "1890x1260"
-          caption: "Digitalna molitva, izložba Art + Science Lab, Magacin MKM, Beograd, 2020."
+          caption: "Digitalna molitva, izložba Art + Science Lab, Magacin MKM, Beograd, 2020. Foto: CPN / Ivan Zupanc."
         - file_name: "dp02.jpg"
           size: "1890x1260"
-          caption: "Digitalna molitva, izložba Art + Science Lab, Magacin MKM, Beograd, 2020."
+          caption: "Digitalna molitva, izložba Art + Science Lab, Magacin MKM, Beograd, 2020. Foto: CPN / Ivan Zupanc."
     - type: "txt"
       html: "<p>No, pre nego što otvorimo pitanje tehnologije i moći, hajde da vidimo kako <em>Digitalna molitva</em> radi. Hajde da uradimo ono što se od vernika ne očekuje: da zađemo iza ikonostasa i pogledamo od čega se sastoji oltar.</p>
     <p>Skriven blještavilom ekrana, naime, stoji običan kompjuter sa kojeg se pokreće program zasnovan na tzv. suprotstavljenim generativnim mrežama (<em>generative adversarial network</em>, GAN)<sup id='s11'>11</sup>. Program je treniran nad kolekcijom od nekoliko hiljada skeniranih ikona, koju je Kristina sastavila u sklopu svog master rada.</p>
@@ -76,10 +76,10 @@ content:
       img_data:
         - file_name: "magacin01.jpg"
           size: "1500x1000"
-          caption: "Predavanje Kristine Tice i mene u galeriji Magacina MKM, u okviru manifestacije Art + Science Lab beogradskog Centra za promociju nauke, 2020"
+          caption: "Predavanje Kristine Tice i mene u galeriji Magacina MKM, u okviru manifestacije Art + Science Lab beogradskog Centra za promociju nauke, 2020. Foto: CPN / Ivan Zupanc."
         - file_name: "magacin02.jpg"
           size: "1500x1000"
-          caption: "Predavanje Kristine Tice i mene u galeriji Magacina MKM, u okviru manifestacije Art + Science Lab beogradskog Centra za promociju nauke, 2020"
+          caption: "Predavanje Kristine Tice i mene u galeriji Magacina MKM, u okviru manifestacije Art + Science Lab beogradskog Centra za promociju nauke, 2020. Foto: CPN / Ivan Zupanc."
     - type: "txt"
       html: "<p>AI ideologija nužno je konzervativna. AI ne mašta nove svetove nego optimizuje postojeće, jer se – kao što sam maločas objasnio na primeru GAN mreža – trenira nad <em>postojećim</em> stanjem, nad postojećim slikama, tekstovima, klikovima i zapisima, to je jedino što AI poznaje i što uopšte <em>može</em> da poznaje. AI zavisi od statističkih značajnosti, od obrazaca koji se dovoljno puta ponavljaju, koje <em>ljudi</em> dovoljno puta ponavljaju, čime nužno postaje tehnologija opštih mesta i već postojećih klišea. Drugim rečima, alat za optimizaciju <em>statusa quo</em>.</p>
     <p>U eri digitalne kolonizacije svakodnevnog života<sup id='s20'>20</sup>, verujem da je kritička digitalna umetnost značajna, jer nam – za razliku od AI ideologije – otvara čula, misli i osećanja za radikalno drugačije. Digitalna umetnost počinje u trenutku kada se zapitamo da li je moguće da digitalnu tehnologiju koristimo onako kako ona nije predviđena da se koristi.</p>
