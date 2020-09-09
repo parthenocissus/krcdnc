@@ -115,8 +115,7 @@
 
 .image-row iframe {
     display: block;
-    width: calc(100% - 0px);
-!important;
+    width: calc(100% - 0px) !important;
     height: 100% !important;
     padding-bottom: 18px;
 }
@@ -434,8 +433,7 @@ figure img:hover {
 
 .article-text iframe {
     display: block;
-    width: 100%;
-!important;
+    width: 100% !important;
     height: 277px !important;
     padding: 32px 0 20px 0;
 }

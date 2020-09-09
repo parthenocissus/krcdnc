@@ -3,7 +3,7 @@ title:
     html: "Očajni ljudski glitch"
     short: Očajni ljudski glitch
 id: dataart-human-glitch
-featured: 3
+featured: 2
 date: "28/08/2020"
 main_img_data:
     file_name: "dataart-human-glitch-main.jpg"

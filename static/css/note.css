@@ -58,11 +58,11 @@
     width: 100%;
 }
 
-.image-row iframe {
+.sidenotes iframe {
     display: block;
-    width: calc(100% - 0px) !important;
-    height: 100% !important;
-    padding-bottom: 18px;
+    width: 100%;
+    height: 116px !important;
+    padding: 0;
 }
 
 /* Column Container */
@@ -542,6 +542,15 @@ figure img:hover {
     fill: var(--darkcolor);
 }
 
+/* Sidenote Videos */
+
+.article-text iframe {
+    display: block;
+    width: 100% !important;
+    height: 277px !important;
+    padding: 32px 0 20px 0;
+}
+
 
 /* Small Mobile */
 
@@ -688,9 +697,16 @@ figure img:hover {
         transition: .13s;
 
         display: grid;
-        grid-template-columns: 17px 1fr;
+        grid-template-columns: 15px 1fr;
         grid-auto-rows: auto;
-        grid-gap: 0;
+        grid-gap: 6px;
+    }
+
+    .sidenotes iframe {
+        display: block;
+        width: 100%;
+        height: calc(0.5357 * (100vw - 40px)) !important;
+        padding: 0;
     }
 
 

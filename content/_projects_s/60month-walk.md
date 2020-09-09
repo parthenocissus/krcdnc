@@ -54,7 +54,7 @@ img_data:
       caption: "Dizajner – Autor ili univerzalni vojnik (konferencija), Beograd, 2017."
     - size: "800x533"
       caption: "Dizajner – Autor ili univerzalni vojnik (konferencija), Beograd, 2017."
-lead: "Mapirajući podatke o zagađenju vazduha na 30 metara dugačku stazu za hodanje, ovaj kolaborativni rad istražuje mogućnosti fizičke <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka</a> u kontekstu <span class='italic-style'>dizajna iskustva</span>. Rad je kreiran tokom trodnevne radionice na konferenciji <a href='http://vojnik.net/2017/' target='_blank'><span class='italic-style'>(Grafički) dizajner – autor ili univerzalni vojnik</span></a>."
+lead: "Mapirajući podatke o zagađenju vazduha na 30 metara dugačku stazu za hodanje, ovaj kolaborativni rad istražuje mogućnosti fizičke <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka</a> u kontekstu dizajna iskustva. Rad je kreiran tokom trodnevne radionice na konferenciji <a href='http://vojnik.net/2017/' target='_blank'><span class='italic-style'>(Grafički) dizajner – autor ili univerzalni vojnik</span></a>."
 
 U društvu kojem se upravlja pomoću <a href='https://en.wikipedia.org/wiki/Big_data' target='_blank'>velikih baza podataka</a> (<span class='italic-style'>Big Data</span>) raste potreba za razvijanjem i ponovnim izmišljanjem <a href='/rad/projekti/category/dataviz'>vizuelizacije podataka kao medija</a>. Ovaj medij razvio se u pravi jezik kojim možemo govoriti o utvrđenim činjenicama i izmerenim brojkama. Međutim, u pokušaju da bude objektivan i univerzalan, medij vizuelizacije podataka nije u stanju da prihvati ličnu i emotivnu stranu ljudskog odnosa sa digitalnim podacima. 
 
