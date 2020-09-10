@@ -88,7 +88,7 @@ content:
     <p>Taj smeh biće katarzičan. Car je go a Čarobnjak iz Oza nije magično biće nego starčić iza zavese. <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1
-      html: "Apropo sekularnosti, postsekularnosti i svođenja vere na identitet, preporučujem <a href='https://pescanik.net/boris-buden-intervju-7/' target='_blank'>intervju</a> koji je 2017. Darko Vujica vodio sa filozofom Borisom Budenom."
+      html: "Apropo sekularnosti, postsekularnosti i svođenja vere na kulturni i nacionalni identitet, preporučujem <a href='https://pescanik.net/boris-buden-intervju-7/' target='_blank'>intervju</a> koji je 2017. Darko Vujica vodio sa filozofom Borisom Budenom."
     - id: 2
       html: "<a href='https://www.csus.edu/indiv/o/obriene/art206/onspiritualinart00kand.pdf' target='_blank'><em>O spiritualnom u umetnosti</em></a>, Vasilij Kandinski, 1912"
     - id: 3
@@ -110,7 +110,7 @@ sidenotes:
     - id: 11
       html: "<a href='https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf' target='_blank'><em>Generative Adversarial Nets</em></a>, Ian J. Goodfellow et al., NIPS, 2014, pp. 2672–2680</a>"
     - id: 12
-      html: "Kao vizuelni uvod u tehnologiju veštačkih neuralnih mreža preporučujem seriju <a href='https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&ab_channel=3Blue1Brown' target='_blank'><em>Deep Learning</em></a>, 3blue1brown, 2017"
+      html: "Kao vizuelni uvod u tehnologiju veštačkih neuralnih mreža preporučujem seriju <a href='https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&ab_channel=3Blue1Brown' target='_blank'><em>Deep Learning</em></a>, 3Blue1Brown, 2017"
     - id: 13
       html: "Više informacija o <a href='https://en.wikipedia.org/wiki/Acheiropoieta' target='_blank'>nerukotvorenim likovima</a>."
     - id: 14
