@@ -318,6 +318,7 @@ let baseUtility = (function () {
             let exactPos = (top > threshold) ? top : threshold;
 
             sidenote.css("top", exactPos + "px");
+            //sidenote.css("visibility", "visible");
             $("#sidenote-symbol" + index).html(ref.text());
             threshold = exactPos + $(this).innerHeight();
 
@@ -344,6 +345,8 @@ let baseUtility = (function () {
                 window.scroll({top: tp - 10, left: 0, behavior: 'smooth'});
             });
         });
+
+        $(".sidenote").css("visibility", "visible");
 
         /* Facebook Button */
 

@@ -101,7 +101,7 @@
 
 .article-text sup {
     font-family: CartographMono-Medium, monospace;
-    font-size: 9pt;
+    font-size: 8pt;
     color: var(--darkcolor);
     line-height: 1;
     padding: 0 0 0 1px;
@@ -700,6 +700,9 @@ figure img:hover {
         grid-template-columns: 15px 1fr;
         grid-auto-rows: auto;
         grid-gap: 6px;
+
+        /* default */
+        visibility: hidden;
     }
 
     .sidenotes iframe {
