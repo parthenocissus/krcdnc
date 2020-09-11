@@ -68,7 +68,7 @@ Everybody is talking about Artificial Intelligence, but what is it exactly? Is i
 
 When he was beaten by the Deep Blue, G. Kasparov came up with the concept of <a href='https://en.wikipedia.org/wiki/Advanced_chess' target='_blank'>Centaur Chess</a>: a chess variety in which a human and a computer play against another human-computer pair. Humans use computers to explore possible moves, but make final decisions themselves. This is an example of an AI that, instead of ruining human creativity, ends up enhancing it. I believe a similar approach is possible in the domain of art and culture. Robots mights help creatives to invent new kinds of creative and subversive practices.
 
-The workshop is dedicated to demystifying, democratizing, explaining, and subverting the AI paradigm, presenting new conceptual possibilities and programming tools for exploration and creation of a new media forms. We might call them <span class='italic-style'>Centaur Art</span>.
+The workshop is dedicated to demystifying, democratizing, explaining, and subverting the AI paradigm, presenting new conceptual possibilities and programming tools for exploration and creation of a new media forms. We might call them Centaur Art.
 
 Artists, writers, and technologists whose work we mention during the workshop include <a href='http://www.paglen.com/' target='_blank'>T. Paglen</a>, <a href='http://jamesbridle.com/' target='_blank'>J. Bridle</a>, <a href='http://www.memo.tv/works/' target='_blank'>M. Akten</a>, <a href='https://www.versobooks.com/books/2742-radical-technologies' target='_blank'>A. Greenfield</a>, <a href='https://yarden.github.io/' target='_blank'>Y. Katz</a>, <a href='https://anatomyof.ai/' target='_blank'>V. Joler</a>, and many others.  
 
