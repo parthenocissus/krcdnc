@@ -29,9 +29,11 @@
     <script src="{{ url_for('static', filename='js/lib/photoswipe-ui-default.min.js') }}"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    {% if project.extra_js is defined %}
-        {% set js_path = "js/ext/" ~ project.extra_js ~ ".js" %}
-        <script src="{{ url_for('static', filename=js_path) }}"></script>
+    {% if project.js is defined %}
+        {% for path in project.js %}
+            {% set full_path = "js/" ~ path %}
+            <script src="{{ url_for('static', filename=full_path) }}"></script>
+        {% endfor %}
     {% endif %}
 
 {% endblock %}
@@ -70,8 +72,8 @@
         <div class="image-row">
             {% if project.featured_video is defined %}
                 {{ project.featured_video|safe }}
-            {% elif project.featured_js is defined %}
-                <svg id="featured-svg" preserveAspectRatio="xMidYMin meet"></svg>
+            {% elif project.js is defined %}
+                <div id="js-cont"></div>
             {% else %}
                 {% set main_img_path = "media/notes/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
                 <div class="gallery"
