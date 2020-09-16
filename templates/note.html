@@ -72,7 +72,7 @@
         <div class="image-row">
             {% if project.featured_video is defined %}
                 {{ project.featured_video|safe }}
-            {% elif project.js is defined %}
+            {% elif project.js is defined and project.jsimage is defined %}
                 <div id="js-cont"></div>
             {% else %}
                 {% set main_img_path = "media/notes/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}

@@ -42,6 +42,7 @@ data:
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=MMUp1FtztGo' target='_blank'>The Possibility of Europe 2.0: The New Normal Debate</a></span> (Moderation of Public Debate), Literary Festival <span class='italic-style'>Krokodil Engaging Words</span>, Belgrade, Serbia</li>
 <li><span class='italic-style'>Artist Talk</span>, MultiMadeira Artist Residency, Funchal, Madeira, Portugal</li>
 <li><span class='italic-style'>Algorithmic Culture and the New Sensibility</span> (Public Lecture), Nova Iskra, Belgrade, Serbia</li>
+<li><span class='italic-style'>Contemporary Image and Neural Networks</span> (Public Lecture), Art + Science Lab, Centre for the Promotion of Science, Belgrade, Serbia</li>
 <li><span class='italic-style'>Ethics and Æsthetics of Artificial Intelligence</span> (Public Lecture), Department of Software Engineering, Faculty of Organisational Sciences, University of Belgrade, Serbia</li>
 <li><span class='italic-style'>AI Poetics</span> (Public Lecture), Belgrade Open School, Belgrade, Serbia</li>
 <li><span class='italic-style'>Heritage in Digital Environments: Polemics About the Failure of New Media Platforms as Tools for Promoting Cultural Heritage</span> (Public Discussion), Heritage House, Belgrade, Serbia</li>

@@ -5,6 +5,7 @@ title:
 id: nanoseagulls-ulus
 featured: 2
 date: "15/09/2020"
+jsimage: true
 js: 
     - lib/p5.min.js
     - ext/nanoseagulls.js

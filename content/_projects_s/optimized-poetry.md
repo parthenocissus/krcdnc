@@ -1,5 +1,5 @@
 title: 
-    name: Optimizovana poezija
+    name: Radionica optimizovane poezije
 id: optimized-poetry
 date: 2018
 featured: 2

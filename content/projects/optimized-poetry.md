@@ -1,5 +1,5 @@
 title: 
-    name: Optimized Poetry
+    name: Optimized Poetry Workshop
 id: optimized-poetry
 date: 2018
 featured: 2
