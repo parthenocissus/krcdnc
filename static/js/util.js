@@ -318,7 +318,7 @@ let baseUtility = (function () {
             let exactPos = (top > threshold) ? top : threshold;
 
             sidenote.css("top", exactPos + "px");
-            //sidenote.css("visibility", "visible");
+            // sidenote.css("visibility", "visible");
             $("#sidenote-symbol" + index).html(ref.text());
             threshold = exactPos + $(this).innerHeight();
 

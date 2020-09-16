@@ -152,6 +152,9 @@
     grid-template-columns: 15px 1fr;
     grid-auto-rows: auto;
     grid-gap: 6px;
+
+    /* default */
+    visibility: hidden;
 }
 
 .sidenote .side-symbol {
@@ -503,6 +506,7 @@ figure img:hover {
     color: var(--suncolor);
     background-size: 0 0;
 }
+
 .all-pictocont a:hover .pictolist-item {
     stroke-width: 2.1;
 }
@@ -518,6 +522,7 @@ figure img:hover {
 .symbol {
     margin-top: 2px;
 }
+
 .pictolist-item {
     fill: none;
     stroke: var(--suncolor);
@@ -525,19 +530,23 @@ figure img:hover {
     pointer-events: none;
     transition: .13s;
 }
+
 .light-fill {
     fill: var(--lightcolor);
     stroke: none;
     pointer-events: auto;
 }
+
 .pictome-dot {
     stroke: none;
     fill: var(--suncolor);
 }
+
 .sun-stroke-only {
     stroke: var(--darkcolor);
     stroke-width: 1.5;
 }
+
 .pictome-dot-sun {
     fill: var(--darkcolor);
 }
@@ -633,6 +642,7 @@ figure img:hover {
     .share-button svg:hover {
         color: var(--suncolor);
     }
+
     .share-button:hover {
         background-color: var(--lightcolor);
     }
@@ -700,9 +710,6 @@ figure img:hover {
         grid-template-columns: 15px 1fr;
         grid-auto-rows: auto;
         grid-gap: 6px;
-
-        /* default */
-        visibility: hidden;
     }
 
     .sidenotes iframe {
