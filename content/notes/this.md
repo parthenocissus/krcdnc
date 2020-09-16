@@ -5,7 +5,8 @@ title:
 id: this
 featured: 3
 date: "12/08/2020"
-extra_js: pictoarray
+js: 
+    - ext/pictoarray.js
 main_img_data:
     file_name: "this-main.jpg"
     size: "1600x1017"

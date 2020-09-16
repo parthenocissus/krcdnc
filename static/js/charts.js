@@ -143,28 +143,6 @@ let chartUtility = (function () {
 
         });
 
-        // let pctgrm = dataCopy.find(object => {
-        //     return object.id === "ai";
-        // });
-
-        // let symbolSvg = d3.select(".symbol").append("svg")
-        //     .attr("width", w).attr("height", h)
-        //     .attr("id", "symbolSvg");
-        //
-        // let pictogramParams = {
-        //     data: pctgrm.graphics, id: pctgrm.id,
-        //     svg: symbolSvg, width: w, height: h, class: params.class,
-        //     rectClass: params.rectClass, dotClass: params.dotClass,
-        //     scale: scale, idPrefix: params.idPrefix,
-        //     rectMouseover: function () {
-        //     }, rectMouseout: function () {
-        //     }, transformFn: function () {
-        //         return "translate(0, 0) scale(" + scale + " " + scale + ")";
-        //     }, rectClick: function () {
-        //     }
-        // };
-        // drawSinglePictogram(pictogramParams);
-
     };
 
     let drawProjectListSymbol = function (pictogramId) {
