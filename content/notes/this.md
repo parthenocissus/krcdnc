@@ -151,4 +151,4 @@ sidenotes:
     - id: 5
       html: "And to his otherworldly atlas or encyclopedia, the magnificent <span class='italic-style'><a href='http://www.openculture.com/2017/09/an-introduction-to-the-codex-seraphinianus-the-strangest-book-ever-published.html' target='_blank'>Codex Seraphinianus</a></span>."
     - id: 6
-      html: "A digital <a href='https://docs.gimp.org/2.10/nl/gimp-view-snap-to-grid.html' target='_blank'>options for object alignment</a>, <span class='italic-style'>Snap to Grid</span> can also serve as a metaphor for contemporary life within the digital grid, within the social and linguistic matrix."
+      html: "A digital <a href='https://docs.gimp.org/2.10/nl/gimp-view-snap-to-grid.html' target='_blank'>option for object alignment</a>, <span class='italic-style'>Snap to Grid</span> can also serve as a metaphor for contemporary life within the digital grid, within the social and linguistic matrix."
