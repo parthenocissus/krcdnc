@@ -1,7 +1,7 @@
 title: 
     name: "Nanogalebovi (generativna ilustracija)"
     html: "Nanogalebovi (generativna ilustracija)"
-    short: Nanogalebovi (generativna ilustracija)
+    short: Nanogalebovi (ilustracija)
 id: nanoseagulls-ulus
 featured: 2
 date: "15/09/2020"

@@ -1,7 +1,7 @@
 title: 
     name: "Nanoseagulls (generative illustration)"
     html: "Nanoseagulls (generative illustration)"
-    short: Nanoseagulls (generative illustration)
+    short: Nanoseagulls (illustration)
 id: nanoseagulls-ulus
 featured: 2
 date: "15/09/2020"
