@@ -15,6 +15,12 @@ def note(flatpages, lang, name):
     return nt
 
 
+def note_tmp(flatpages, lang, name):
+    nt = flatpages.get_or_404('{}/{}'.format(lang.ntdir_tmp(), name))
+    nt.meta["proper_date"] = lang.note_date(nt)
+    return nt
+
+
 def teaching(flatpages, lang):
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "teaching"))
     params = lang.params()

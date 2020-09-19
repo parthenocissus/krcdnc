@@ -187,6 +187,22 @@ def note_s(name):
         return render_template('note.html', project=this_note, params=sh.params())
 
 
+# TEMPORARY NOTES SECTION
+# rendering note.html
+
+@app.route('/work/notebook/tmp/<name>/')
+def note_tmp(name):
+    this_note = utils.note_tmp(fp, en, name)
+    return render_template('note.html', project=this_note, params=en.params())
+
+
+@app.route('/rad/sveska/tmp/<name>/')
+def note_tmp_s(name):
+    this_note = utils.note_tmp(fp, sh, name)
+    return render_template('note.html', project=this_note, params=sh.params())
+
+
+
 # ABOUT SECTION
 # biography
 

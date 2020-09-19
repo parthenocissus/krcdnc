@@ -14,6 +14,7 @@ class LangUtil:
         self.projects_dir = 'projects'
         self.pages_dir = 'pages'
         self.notes_dir = 'notes'
+        self.notes_tmp_dir = 'tmp/en'
         self.data = None
 
         base_path = 'static/data/'
@@ -38,6 +39,9 @@ class LangUtil:
 
     def ntdir(self):
         return self.notes_dir
+
+    def ntdir_tmp(self):
+        return self.notes_tmp_dir
 
     def get_category_description(self, category):
         category_item = [i for i in self.data["pictodata"] if i["id"] == category][0]
@@ -116,6 +120,7 @@ class LangUtilSh(LangUtil):
         self.projects_dir = '_projects_s'
         self.pages_dir = '_pages_s'
         self.notes_dir = '_notes_s'
+        self.notes_tmp_dir = 'tmp/sh'
         self.data = self.lang_data['sh_params']
         self.data['pictodata'] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)
         self.data['max'] = self.max_project_count

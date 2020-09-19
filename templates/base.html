@@ -86,6 +86,14 @@
             }
 
             @font-face {
+                font-family: "CartographSans-MediumItalic";
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.eot') }});
+                src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.eot?#iefix') }}) format('embedded-opentype'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.woff2') }}) format('woff2'),
+                url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.woff') }}) format('woff');
+            }
+
+            @font-face {
                 font-family: "CartographSans-DemiBold";
                 src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.eot') }});
                 src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.eot?#iefix') }}) format('embedded-opentype'),
