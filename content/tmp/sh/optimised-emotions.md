@@ -245,11 +245,18 @@ content:
                 25K Impressions
             </section>
         </div>  
-    </div>
-    <p>Dakle, kako Google tumači našu poeziju?<sup id='s12'>12</sup> Šta Google misli da naši klasici reklamiraju?</p>
+    </div>"
+    - type: "img"
+      grid_rules: "grid-template-columns: 1fr;"
+      img_data:
+        - file_name: "emojis.jpg"
+          size: "1000x369"
+          caption: "(C) NTT Docomo, Inc. Matrica emodžija. Za razliku od tipografskih emotikona, emodžiji su slikovni simboli čiji izgled ne određujemo mi nego IT korporacije."
+    - type: "txt"
+      html: "<p>Dakle, kako Google tumači našu poeziju?<sup id='s12'>12</sup> Šta Google misli da naši klasici reklamiraju?</p>
     <p>Mika Antić deo je industrije onlajn dejtinga i Tindera, kozmetike i astrologije; Vasko Popa oglašava stolariju i poljoprivredne proizvode; Abdulah Sidran reklamira lingvističke aplikacije; Miloš Crnjanski i Ljubomir Micić rade u turističkoj industriji; Milena Marković deo je sajber-pornografskog tržišta. Među odabranim pesnicima, jedini je Antun Branko Šimić taj čiju poeziju Google povezuje sa bilo čim u klasičnom smislu <em>poetičnim:</em> predlozi za optimizaciju njegovih pesama su, primera radi, »ljubavni stihovi« i »tužni citati«. Ko se usuđuje da kaže da poezija danas nema utilitarnu vrednost? Ljudima su potrebni tekstualni klišeji za rođendanske posvete i zdravice na venčanjima.</p>
     <p>Pišući o rokenrolu<sup id='s13'>13</sup>, Dragan Ambrozić problematizovao je generacije koje žele da budu objekti i u stanju su da sebe osete samo u klišejima. U kulturi emodžija i afektivnog računarstva, generativnih tekstova i optimizovanog sadržaja, to je pitanje za sve nas: da li ćemo biti objekti ili subjekti softvera? Hoćemo li razviti senzibilitet prema algoritamskim režimima, hoćemo li moći da ih osetimo i kako ćemo na njih kreativno da odgovorimo? Hoćemo li uopšte biti u stanju da prepoznamo sopstvene emocije ako nisu formulisane kao digitalno opšte mesto? </p>
-    <p>Katrin Hejls (Katherine Hayles)<sup id='s14'>14</sup> rekla je da »i sami postajemo kodovi koje ukucavamo« (»we become the codes we punch«). Ako razmislimo o transformativnom potencijalu otelovljenja svakodnevnih digitalnih praksi, shvatićemo da poezija nije samo način izražavanja. Ona postaje način preživljavanja. <mark>&#9632;</mark></p>"
+    <p>Katrin Hejls (Katherine Hayles)<sup id='s14'>14</sup> rekla je da »sami postajemo kodovi koje ukucavamo« (»we become the codes we punch«). Ako razmislimo o transformativnom potencijalu otelovljenja svakodnevnih digitalnih praksi, shvatićemo da poezija nije tek oblik izražavanja. Ona postaje oblik preživljavanja. <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1
       html: "Koncept za <em>Optimizovane emocije</em> osmišljen je 2018. na <a href='/rad/projekti/optimized-poetry/' target='_blank'><em>Radionici digitalne poezije</em></a> konferencije Art + Science, o čemu sam govorio i na <a href='https://www.ted.com/talks/uros_krcedinac_buducnost_jezika' target='_blank'>TEDxMokrin</a>. Ideje sam razradio 2020. zajedno sa <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darijom Medić</a> u knjigama <a href='#' target='_blank'><em>Optimizovana poetika</em> i <em>Taktička poetika</em></a>, koje je objavio zagrebački <a href='https://mi2.hr' target='_blank'>Multimedijalni institut</a>, u saradnji sa <a href='https://kuda.org/' target='_blank'>Kuda.org</a> iz Novog Sada."
@@ -276,6 +283,6 @@ sidenotes:
     - id: 12
       html: "Pesnici uključeni u projekat <em>Optimizovane emocije</em> su <a href='https://en.wikipedia.org/wiki/Abdulah_Sidran' target='_blank'>Abdulah Sidran</a>, <a href='https://sites.google.com/site/projectgoethe/Home/milos-crnjanski' target='_blank'>Miloš Crnjanski</a>, <a href='https://sites.google.com/site/projectgoethe/Home/antun-branko-imi' target='_blank'>Antun Branko Šimić</a>, <a href='https://sites.google.com/site/projectgoethe/Home/miroslav-antic' target='_blank'>Miroslav Antić</a>, <a href='https://www.lyrikline.org/en/poems/daj-mi-daj-mi-14060' target='_blank'>Milena Marković</a>, <a href='https://sites.google.com/site/projectgoethe/Home/vasko-popa' target='_blank'>Vasko Popa</a>, <a href='https://en.wikipedia.org/wiki/Ljubomir_Mici%C4%87' target='_blank'>Ljubomir Micić</a> i drugi."
     - id: 13
-      html: "Ambrozić, Dragan (2017). <a href='https://www.vreme.com/cms/view.php?id=1513944' target='_blank'><em>Rock’n’roll chick</em></a>. Vreme."
+      html: "Ambrozić, Dragan (2017) <a href='https://www.vreme.com/cms/view.php?id=1513944' target='_blank'><em>Rock’n’roll chick</em></a>. Vreme."
     - id: 14
-      html: "Hayles, Katherine (1999). <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'><em>How We Became Posthuman: Virtual Bodies in Cybernetics.</em></a> University of Chicago Press."
+      html: "Hayles, Katherine (1999) <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'><em>How We Became Posthuman: Virtual Bodies in Cybernetics.</em></a> University of Chicago Press."
