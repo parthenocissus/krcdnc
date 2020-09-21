@@ -5,11 +5,17 @@ title:
 id: optimised-emotions
 featured: 2
 date: "25/08/2020"
+ajsimage: true
+ajs: 
+    - lib/p5.min.js
+    - ext/optimised-emotions.js
+gif:
+    file_name: "optimised-emotions-main.gif"
 main_img_data:
     file_name: "optimised-emotions-main.jpg"
-    size: "1800x1800"
-    caption: "Belgrade, 2020"
-lead: "Engleska verzija ovog eseja objavljena je u knjizi <em><a href='#' target='_blank'>Optimizovana poetika</a></em> u izdanju <a href='https://mi2.hr/' target='_blank'>Multimedijalnog instituta</a>, koju smo napisali <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> i ja. Esej se bavi novim poetskim strategijama, koje smo razvili tako što smo alate za digitalni marketing <em>hakovali</em> u književnom i umetničkom smislu."
+    size: "1000x500"
+    caption: "Beograd, 2020"
+lead: "Engleska verzija ovog eseja objavljena je u knjizi <em><a href='#' target='_blank'>Optimizovana poetika</a></em>, koju smo napisali <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> i ja, u izdanju <a href='https://mi2.hr/' target='_blank'>Multimedijalnog instituta</a>. Esej se bavi novim poetskim strategijama, koje smo razvili tako što smo sisteme za digitalni marketing <em>hakovali</em> u književnom i umetničkom smislu."
 lead_short: "Esej iz knjige <em>Optimised Poetics</em>"
 content:
     - type: "txt"
@@ -22,11 +28,17 @@ content:
     <p>Ako bismo se zapitali koja to institucija najsnažnije određuje i definiše praktičnu upotrebu našeg mnogoimenog<sup id='s4'>4</sup> jezika, došli bismo do zaključka da to nije ni SANU ni HAZU, ni najvažniji univerziteti u Bosni i Hercegovini, Crnoj Gori, Hrvatskoj ili Srbiji, nego – Google.</p>
     <p>Primera ima puno: recimo, kad nam lokalni stručnjaci za digitalni marketing preporučuju da na svojim sajtovima nominativ koristimo češće nego ostale padeže, naročito u naslovima i podnaslovima, čak i kada to nije gramatički ispravno, jer će na taj način naše sajtove algoritmi uspešnije indeksirati<sup id='s5'>5</sup>. Ili kad kupujemo reči za oglas preko Google Ad sistema, ili kad nas Google Translate pita da li želimo da nam automatski prevede tekst sa srpskog na bosanski – sve su to primeri vlasništva nad lingvističkim i semantičkim bazama podataka kao sredstvom za proizvodnju značenja<sup id='s6'>6</sup>. A to je pre svega pitanje materijalnih kapaciteta za treniranje AI sistema, neuralnih mreža za klasifikaciju, prevođenje i generisanje teksta. Koji lokalni softver može da parira mogućnostima jednog Google Translate?</p>
     <p>Ovakvi novi medijski režimi zazivaju nove poetske i umetničke prakse, a novi dijalekti o kojima Kaplan govori, novi tehnomerkantilistički žargoni, možda nisu u potpunosti lišeni poetske vrednosti. Pip Tornton (Pip Thornton), istraživačica i umetnica iz Edinburga, kreirala je zbirku tekstualnih umetničkih radova<sup id='s7'>7</sup> koji preispituju lingvističku ekonomiju i digitalno-jezičke monopole<sup id='s8'>8</sup>. »Tako što se usresredio na eksploataciju jezika za novac«, kaže Tornton<sup id='s9'>9</sup>, »Google je efektivno dozvolio da novac kontroliše priču i pričanje.«</p>
-    <p>Na liniji Torntoninih istraživanja, moj projekat <em>Optimizovane emocije</em> služi se softverskom aplikacijom Google Ad Keyword Planner<sup id='s10'>10</sup>. U pitanju je aplikacija koja korisnicima pomaže da izaberu prave ključne reči za svoje Google oglase (Google Ads). Aplikacija navodi cene ključnih reči koje ste odlučili da upotrebite u oglasu; tako se, putem sistema licitiranja, određuje njegova tržišna vrednost. Cene reči neprestano se menjaju, ali ne drastično: reči povezane sa unosnim industrijama skuplje su od drugih, jer ih ljudi češće guglaju (termin »revizor«, na primer, skuplji je od termina »opančar«).</p>    
-    <p>Aplikacija vam nudi i dodatne predloge za ključne reči, predloge za <em>optimizaciju</em> teksta, na osnovu onoga što algoritmi utvrde da vi svojim tekstom prodajete. Čitajući predloge za optimizaciju možete da pogodite šta Google pretpostavlja da zadatim tekstom želite da prodate (jer naravno da prodajete <em>nešto</em>, tome služe reči, zar ne?).</p>
+    <p>Na liniji Torntoninih istraživanja, moj projekat <em>Optimizovane emocije</em> služi se softverskom aplikacijom Google Ad Keyword Planner<sup id='s10'>10</sup>. U pitanju je aplikacija koja korisnicima pomaže da izaberu prave ključne reči za svoje Google oglase (Google Ads). Aplikacija navodi cene ključnih reči koje ste odlučili da upotrebite u oglasu; tako se, putem sistema licitiranja, određuje njegova tržišna vrednost. Cene reči neprestano se menjaju, ali ne drastično: reči povezane sa unosnim industrijama skuplje su od drugih, jer ih ljudi češće guglaju (termin »revizor«, na primer, skuplji je od termina »opančar«). Aplikacija vam nudi i dodatne predloge za ključne reči, predloge za <em>optimizaciju</em> teksta, na osnovu onoga što algoritmi utvrde da vi svojim tekstom prodajete. Čitajući predloge za optimizaciju možete da pogodite šta Google pretpostavlja da zadatim tekstom želite da prodate (jer naravno da prodajete <em>nešto</em>, tome služe reči, zar ne?).</p>
     <p>Keyword Planner namenjen je za marketinške tekstove, oglase i reklame, ali ne postoji zakon koji vam zabranjuje da njegovom algoritmu date bilo koji tekst. Tako sam u planer ključnih reči – i to je suština projekta <em>Optimizovane emocije</em> – umesto teksta oglasa stavio klasike domaće poezije<sup id='s11'>11</sup>. Algoritam je utvrdio novčanu vrednost pesama (kao da su oglasi) i dao predloge za optimizaciju izbora reči (kako bi tekst bio marketinški učinkovitiji). Rezultate sam rekontekstualizovao, štampao i čitao kao novu poeziju.</p>
-    <p>Videćete i sami, predlozi za optimizaciju često dolaze u začudno skladnim ritmičkim varijacijama; ponekad se čak rimuju. Sledi nekoliko parova pesama. Svaki par sastoji se od originalne verzije i nove, <em>optimizovane</em> verzije.</p>
-    <div class='optimised-poetry-cont'>
+    <p>Videćete i sami, predlozi za optimizaciju često dolaze u začudno skladnim ritmičkim varijacijama; ponekad se čak rimuju. Sledi nekoliko parova pesama. Svaki par sastoji se od originalne verzije i nove, <em>optimizovane</em> verzije.</p>"
+    - type: "img"
+      grid_rules: "grid-template-columns: 1fr;"
+      img_data:
+        - file_name: "emoticons2.jpg"
+          size: "1000x280"
+          caption: "Matrica tekstualnih emodžija, kombinacija tipografskih simbola kojima se komuniciraju osećanja u digitalnom prostoru. Danas se emotikoni mahom automatski zamenjuju emodžijima, sličicama."
+    - type: "txt"
+      html: "<div class='optimised-poetry-cont'>
         <div class='ttl1'>
             <section>
                 <span class='title'>Sumatra</span><br>
@@ -254,7 +266,7 @@ content:
           caption: "(C) NTT Docomo, Inc. Matrica emodžija. Za razliku od tipografskih emotikona, emodžiji su slikovni simboli čiji izgled ne određujemo mi nego IT korporacije."
     - type: "txt"
       html: "<p>Dakle, kako Google tumači našu poeziju?<sup id='s12'>12</sup> Šta Google misli da naši klasici reklamiraju?</p>
-    <p>Mika Antić deo je industrije onlajn dejtinga i Tindera, kozmetike i astrologije; Vasko Popa oglašava stolariju i poljoprivredne proizvode; Abdulah Sidran reklamira lingvističke aplikacije; Miloš Crnjanski i Ljubomir Micić rade u turističkoj industriji; Milena Marković deo je sajber-pornografskog tržišta. Među odabranim pesnicima, jedini je Antun Branko Šimić taj čiju poeziju Google povezuje sa bilo čim u klasičnom smislu <em>poetičnim:</em> predlozi za optimizaciju njegovih pesama su, primera radi, »ljubavni stihovi« i »tužni citati«. Ko se usuđuje da kaže da poezija danas nema utilitarnu vrednost? Ljudima su potrebni tekstualni klišeji za rođendanske posvete i zdravice na venčanjima.</p>
+    <p>Mika Antić deo je industrije onlajn dejtinga i Tindera, kozmetike i astrologije; Vasko Popa oglašava stolariju i poljoprivredne proizvode; Abdulah Sidran reklamira lingvističke aplikacije; Miloš Crnjanski i Ljubomir Micić rade u turističkoj industriji; Milena Marković deo je sajber-pornografskog tržišta. Među odabranim pesnicima, jedini je Antun Branko Šimić taj čiju poeziju Google povezuje sa bilo čim u klasičnom smislu <em>poetičnim:</em> predlozi za optimizaciju njegovih pesama su, primera radi, »ljubavni stihovi« i »tužni citati«. Ko se usuđuje da kaže da poezija danas nema utilitarnu vrednost? Tržište traži tekstualne klišeje za rođendanske posvete i zdravice na venčanjima.</p>
     <p>Pišući o rokenrolu<sup id='s13'>13</sup>, Dragan Ambrozić problematizovao je generacije koje žele da budu objekti i u stanju su da sebe osete samo u klišejima. U kulturi emodžija i afektivnog računarstva, generativnih tekstova i optimizovanog sadržaja, to je pitanje za sve nas: da li ćemo biti objekti ili subjekti softvera? Hoćemo li razviti senzibilitet prema algoritamskim režimima, hoćemo li moći da ih osetimo i kako ćemo na njih kreativno da odgovorimo? Hoćemo li uopšte biti u stanju da prepoznamo sopstvene emocije ako nisu formulisane kao digitalno opšte mesto? </p>
     <p>Katrin Hejls (Katherine Hayles)<sup id='s14'>14</sup> rekla je da »sami postajemo kodovi koje ukucavamo« (»we become the codes we punch«). Ako razmislimo o transformativnom potencijalu otelovljenja svakodnevnih digitalnih praksi, shvatićemo da poezija nije tek oblik izražavanja. Ona postaje oblik preživljavanja. <mark>&#9632;</mark></p>"
 sidenotes:
@@ -269,13 +281,13 @@ sidenotes:
     - id: 5
       html: "Kao što u pekarama sve češće možemo da pročitamo »sir-burek« umesto »burek sa sirom«."
     - id: 6
-      html: "Tu bi se moglo štošta reći i o industriji političke korektnosti i problemima identitetskih politika na periferiji globalnog tehno-ekonomskog sistema, ali to prevazilazi okvire ovog eseja. Apropo društvenog aspekta našeg jezika, preporučujem esej <a href='https://pescanik.net/padaj-jezicna-silo-i-nepravdo/' target='_blank'><em>Padaj (jezična) silo i nepravdo!</em></a>, Boris Buden, 2018"
+      html: "Tu bi se moglo štošta reći i o industriji političke korektnosti i problemima identitetskih politika na periferiji globalnog tehnoekonomskog sistema, ali to prevazilazi okvire ovog teksta. Apropo društvenog aspekta našeg jezika, preporučujem Budenov esej <a href='http://slobodnifilozofski.com/2017/12/padaj-jezicna-silo-nepravdo-produktivni-paradoks-deklaracije-zajednickom-jeziku.html' target='_blank'><em>Padaj (jezična) silo i nepravdo!</em></a> Slobodni filozofski, 2017"
     - id: 7
-      html: "Thornton, Pip (2019) <a href='https://pipthornton.com/2016/06/12/poem-py-a-critique-of-linguistic-capitalism/' target='_blank'><em>{POEM}.PY</em></a>, in Balaam, M. and Hansen, L. K. (eds), <em>Wilful Technologies: Rage and Resilience</em>. Arhus Press."
+      html: "Thornton, Pip (2019) <a href='https://pipthornton.com/2016/06/12/poem-py-a-critique-of-linguistic-capitalism/' target='_blank'><em>{POEM}.PY</em></a>, <em>Wilful Technologies: Rage and Resilience</em>. Arhus Press."
     - id: 8
-      html: "Thornton, Pip (2019) <em>Words as Data: The Vulnerability of Language in an Age of Digital Capitalism</em>, Crest Security Review (Spring/09), pp.8-9."
+      html: "Thornton, Pip (2019) <em>Words as Data: The Vulnerability of Language in an Age of Digital Capitalism</em>, Crest Security Review."
     - id: 9
-      html: "Thornton, Pip (2018) <a href='https://medium.com/@pip.thornton.2013/politics-poetry-and-google-the-value-of-words-in-an-age-of-linguistic-capitalism-e559bf26c822' target='_blank'><em>Politics, Poetry and Google: The Value of Words in an Age of Linguistic Capitalism</em></a>. Medium / Linguistic Geographies."
+      html: "Thornton, Pip (2018) <a href='https://medium.com/@pip.thornton.2013/politics-poetry-and-google-the-value-of-words-in-an-age-of-linguistic-capitalism-e559bf26c822' target='_blank'><em>Politics, Poetry and Google</em></a>. Medium / Linguistic Geographies."
     - id: 10
       html: "<a href='https://support.google.com/google-ads/answer/6325025?hl=en' target='_blank'>Google Ad Keyword Planner</a>, Google podrška."
     - id: 11
