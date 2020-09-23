@@ -13,7 +13,8 @@ lead: "Esej o autorskoj <a href='/rad/projekti/category/cartography' target='_bl
 lead_short: "Vizuelizacija podataka kao autorski izraz"
 content:
     - type: "txt"
-      html: "<p><em>Dokumenta kojima se služimo govore strašnim jezikom činjenica i u njima reč duša ima prizvuk bogohuljenja.</em><br>— Danilo Kiš</p>
+      html: "<p class='start-quote'>Dokumenta kojima se služimo govore strašnim jezikom činjenica i u njima reč duša ima prizvuk bogohuljenja.<br>
+— <span class='quote-author'>Danilo Kiš</span></p>      
       <p>Povodom 70-godišnjice atomskog udara na Hirošimu, časopis »Popular Science« objavio je nekoliko atraktivnih grafikona o bombardovanju, autora Metjua Lukasa (Mathew Lucas)<sup id='s1'>1</sup>. Vizuelizacije podataka bile su toliko lepe da su se mnogi razbesneli. Tragedija je postala statistika, rekli su. Apstrakcija zločina. Estetizacija užasa.</p>
       <p>Dok sam čitao polemiku, setio sam se kako su istim ovim rečima – <em>estetizacija užasa</em> – napali Vernera Hercoga (Werner Herzog). Bilo je to početkom devedesetih, na filmskom festivalu u Milanu, gde je Hercog prikazao svoje »Lekcije tame«, dokumentarac o Kuvajtu snimljen nakon Zalivskog rata<sup id='s2'>2</sup>. Kadrovi negostoljubivih i strašnih pustinjskih pejzaža, istovremeno vanzemaljskih i prelepih, razljutili su publiku. Ni u jednom kadru, rekli su, ne može se prepoznati ni Planeta Zemlja, a kamoli bombardovanja i zločini. Na to im je Hercog odgovorio: »Kreteni jedni! Upravo je to Dante uradio u svom Paklu, kao i Goja, kao i Hjeronimus Boš!«</p>
       <p>Ukoliko je <em>Data Science</em>, nauka o podacima, određena spojem informatike i statistike, <em>Data Art</em><sup id='s3'>3</sup>, podatkovna umetnost – autorski postupak zasnovan na podacima – mogao bi se definisati kao mešavina informatike, statistike, umetnosti, dizajna, književnosti i dokumentaristike.</p>
