@@ -519,6 +519,25 @@ figure img:hover {
     padding: 7px 30px 7px 15px;
 }
 
+.heading1 {
+    /*color: var(--suncolor);*/
+    font-family: CartographMono-Heavy, monospace;
+    text-transform: uppercase;
+    font-size: 9pt !important;
+    /*line-height: 3em !important;*/
+    letter-spacing: 0.18pt !important;
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+    /*text-align: center;*/
+    left: 15px;
+}
+.heading1 .small {
+    font-size: 8pt !important;
+    padding-right: 7px;
+    /*position: relative;*/
+    /*top: -1px;*/
+}
+
 .start-quote {
     font-family: Ambit-Italic, sans-serif;
     /*font-size: 10.5pt !important;*/
@@ -530,6 +549,15 @@ figure img:hover {
     font-family: Ambit-Regular, sans-serif;
     letter-spacing: 0.3pt;
     /*font-size: 10.5pt !important;*/
+}
+
+.square {
+    /*font-size: 15pt;*/
+    padding-left: 1px;
+    padding-right: 2px;
+    position: relative;
+    top: 1px;
+    /*margin-bottom: 5em !important;*/
 }
 
 /* Optimised Poetry Styles */
