@@ -93,6 +93,4 @@ We documented this processes by drawing and writing diagrams. We created elabora
 
 We presented these visual materials during our Artist Talk at the MultiMadeira Centre in Funchal.
 
-By combining the micro-context of personal herbariums, plant collections, naturalist hand-drawn charts, notes, and diaries, with the macro-context of global migrations, border regulations, and economic and climate systems, we wish to reclaim and reintegrate the personal, the subjective and the micro-intimate into thinking about global processes. 
-
-The artist <a href='https://www.camillehenrot.fr/fr/work/61/est-il-possible-detre-revolutionnaire-et-daimer-les-fleurs' target='_blank'>Camille Henrot</a> posed a question: <span class='italic-style'>est-il possible d’être révolutionnaire et d’aimer les fleurs?</span> We are not sure is it possible, but it <span class='italic-style'>is</span> necessary. <mark>&#9632;</mark>
+By combining the micro-context of personal herbariums, plant collections, naturalist hand-drawn charts, notes, and diaries, with the macro-context of global migrations, border regulations, and economic and climate systems, we wish to reclaim and reintegrate the personal, the subjective and the micro-intimate into thinking about global processes. <mark>&#9632;</mark>

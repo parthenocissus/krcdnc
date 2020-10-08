@@ -93,6 +93,4 @@ Ovaj proces dokumentovali smo fotografijama, crtežima i dijagramima. Kreirali s
 
 Projekat smo predstavili tokom autorskog predavanja u centru MultiMadeire u Funšalu.
 
-Dovodeći u vezu mikro-kontekst ličnih herbarijuma, biljnih kolekcija, prirodnjačkih crteža, grafikona, mapa i dnevnika, sa makro-kontekstom globalnih migracija, graničnih regulativa, putničkih ograničenja i ekonomskih i klimatskih sistema, ovaj rad poziva nas da globalne procese mislimo i osećamo na ličan, subjektivan i mikro-intiman način. 
-
-Umetnica <a href='https://www.camillehenrot.fr/fr/work/61/est-il-possible-detre-revolutionnaire-et-daimer-les-fleurs' target='_blank'>Camille Henrot</a> postavila je pitanje: <span class='italic-style'>est-il possible d’être révolutionnaire et d’aimer les fleurs?</span> Ne znamo da li je moguće, ali <span class='italic-style'>jeste</span> nužno. <mark>&#9632;</mark>
+Dovodeći u vezu mikro-kontekst ličnih herbarijuma, biljnih kolekcija, prirodnjačkih crteža, grafikona, mapa i dnevnika, sa makro-kontekstom globalnih migracija, graničnih regulativa, putničkih ograničenja i ekonomskih i klimatskih sistema, ovaj rad poziva nas da globalne procese mislimo i osećamo na ličan, subjektivan i mikro-intiman način. <mark>&#9632;</mark>

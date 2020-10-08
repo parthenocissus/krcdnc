@@ -88,7 +88,7 @@
 }
 
 .article-text p,
-/*.article-text div,*/
+    /*.article-text div,*/
 .article-text .all-pictocont,
 .article-text .optimised-poetry-cont {
     margin: 0;
@@ -147,16 +147,24 @@
     top: 0;
     left: 0;
     margin: 0;
-    padding: 2px var(--inset) 12px 0;
+    padding: 2px calc(var(--inset) - 10px) 12px 0;
     transition: .13s;
 
     display: grid;
-    grid-template-columns: 15px 1fr;
+    grid-template-columns: 35px 1fr;
     grid-auto-rows: auto;
     grid-gap: 6px;
 
     /* default */
     visibility: hidden;
+}
+
+.sidenote p {
+    margin-block-start: 0;
+    margin-block-end: 0.8em;
+}
+.sidenote p:last-child {
+    margin-block-end: 0em;
 }
 
 .sidenote .side-symbol {
@@ -531,6 +539,7 @@ figure img:hover {
     /*text-align: center;*/
     left: 15px;
 }
+
 .heading1 .small {
     font-size: 8pt !important;
     padding-right: 7px;
@@ -545,6 +554,7 @@ figure img:hover {
     letter-spacing: 0.2pt;
     padding-bottom: 27px !important;
 }
+
 .quote-author {
     font-family: Ambit-Regular, sans-serif;
     letter-spacing: 0.3pt;
@@ -573,36 +583,40 @@ figure img:hover {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 15px;
-    grid-template-areas:
-            "ttl1 ttl1"
-            "orig orig"
-            "ttl2 ttl2"
-            "col1 col2";
+    grid-template-areas: "ttl1 ttl1" "orig orig" "ttl2 ttl2" "col1 col2";
 }
+
 .optimised-poetry-cont .ttl1 {
     grid-area: ttl1;
 }
+
 .optimised-poetry-cont .orig {
     font-family: CartographSans-Medium, monospace;
     grid-area: orig;
     margin-bottom: 20px !important;
 }
+
 .optimised-poetry-cont .ttl2 {
     grid-area: ttl2;
 }
+
 .optimised-poetry-cont .col1 {
     grid-area: col1;
 }
+
 .optimised-poetry-cont .col2 {
     grid-area: col2;
 }
+
 .optimised-poetry-cont section {
     padding-bottom: 10px !important;
 }
+
 .optimised-poetry-cont section .title {
     /*color: var(--suncolor);*/
     font-family: CartographSans-DemiBold, monospace;
 }
+
 .optimised-poetry-cont section .author {
     /*color: var(--suncolor);*/
     font-family: CartographSans-MediumItalic, monospace;
