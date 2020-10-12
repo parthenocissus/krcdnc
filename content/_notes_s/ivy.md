@@ -1,7 +1,7 @@
 title: 
     name: "O gajenju vrta"
 id: ivy
-featured: 2
+featured: 3
 date: "11/10/2020"
 main_img_data:
     file_name: "optimised-emotions-main.jpg"
