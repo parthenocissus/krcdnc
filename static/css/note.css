@@ -562,12 +562,10 @@ figure img:hover {
 }
 
 .square {
-    /*font-size: 15pt;*/
-    padding-left: 1px;
-    padding-right: 2px;
+    padding-left: 0px;
+    padding-right: 1px;
     position: relative;
     top: 1px;
-    /*margin-bottom: 5em !important;*/
 }
 
 /* Optimised Poetry Styles */
