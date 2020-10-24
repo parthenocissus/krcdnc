@@ -42,6 +42,7 @@ data:
 <div class='list-title-first-page interface-heading-style'>2020</div>
 <ul>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=MMUp1FtztGo' target='_blank'>Mogućnost Evrope 2.0: diskusija o novoj normalnosti</a></span> (moderacija javne debate), Književni festival <span class='italic-style'>Krokodil</span>, Amfiteatar ispred Muzeja Jugoslavije, Beograd, Srbija</li>
+<li><span class='italic-style'><a href='https://connectforcreativity.eu/conference/convergence-between-creative-and-cultural-sectors-and-digital-technologies/' target='_blank'>Making Art with AI</a></span> (javno predavanje), Creative Explorations: From Social Entities to Ubiquitous Systems, Connect for Creativity, Atina, Grčka</li>
 <li><span class='italic-style'>Autorsko predavanje</span>, MultiMadeira Artist Residency, Funšal, Madeira, Portugal</li>
 <li><span class='italic-style'>Algoritamska kultura i nova osećajnost</span> (javno predavanje), Nova Iskra, Beograd, Srbija</li>
 <li><span class='italic-style'>Savremena slika i neuralne mreže</span> (javno predavanje), Art + Science Lab, Centar za promociju nauke, Beograd, Srbija</li>

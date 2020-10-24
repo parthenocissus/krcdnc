@@ -42,6 +42,7 @@ data:
       <div class='list-title-first-page interface-heading-style'>2020</div>
     <ul>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=MMUp1FtztGo' target='_blank'>The Possibility of Europe 2.0: The New Normal Debate</a></span> (Moderation of Public Debate), Literary Festival <span class='italic-style'>Krokodil Engaging Words</span>, Belgrade, Serbia</li>
+<li><span class='italic-style'><a href='https://connectforcreativity.eu/conference/convergence-between-creative-and-cultural-sectors-and-digital-technologies/' target='_blank'>Making Art with AI</a></span> (Public Lecture), Creative Explorations: From Social Entities to Ubiquitous Systems, Connect for Creativity, Athens, Greece</li>
 <li><span class='italic-style'>Artist Talk</span>, MultiMadeira Artist Residency, Funchal, Madeira, Portugal</li>
 <li><span class='italic-style'>Algorithmic Culture and the New Sensibility</span> (Public Lecture), Nova Iskra, Belgrade, Serbia</li>
 <li><span class='italic-style'>Contemporary Image and Neural Networks</span> (Public Lecture), Art + Science Lab, Centre for the Promotion of Science, Belgrade, Serbia</li>
