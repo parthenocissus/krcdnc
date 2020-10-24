@@ -187,4 +187,4 @@ timeline:
     - year: 2019
       d: 15
     - year: 2020
-      d: 6
+      d: 10
