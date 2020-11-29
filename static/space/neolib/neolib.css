@@ -6,11 +6,11 @@
 }
 
 html, body {
-    /*overflow: hidden;*/
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 main {
@@ -283,9 +283,11 @@ main {
     /*width: calc(100vw - 20px);*/
     margin: 0;
     position: fixed;
-    top: 92%;
+    top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 10;
 }
 
 .scroll-interface div {
@@ -298,15 +300,20 @@ main {
 }
 
 .scroll-interface svg {
-    margin: 0 0 0 16px;
+    margin: 0;
     grid-area: c;
     fill: none;
     stroke: var(--pink);
-    stroke-width: 2.2;
+    stroke-width: 2.6;
     stroke-linecap: round;
+    transition: .2s;
     -webkit-animation: mover 0.5s infinite alternate;
     animation: mover 0.5s infinite alternate;
     animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.scroll-interface:hover svg {
+    stroke: white;
 }
 
 @-webkit-keyframes mover {

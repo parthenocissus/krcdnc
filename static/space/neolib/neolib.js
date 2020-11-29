@@ -4,6 +4,10 @@ $(document).ready(function () {
         $(this).toggleClass('open');
     });
 
+    $('.scroll-interface').click(function () {
+        window.scroll({top: 2000, left: 0, behavior: 'smooth'});
+    });
+
     $(this).scrollTop(0);
 
     let center = {"x": 311, "y": 437.5};
