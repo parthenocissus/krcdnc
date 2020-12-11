@@ -71,10 +71,12 @@
                 {{ project.featured_video|safe }}
             {% elif project.featured_js is defined %}
                 <svg id="featured-svg" preserveAspectRatio="xMidYMin meet"></svg>
+            {% elif project.featured_gif is defined %}
+                {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.gif" %}
+                <img src="{{ url_for('static', filename=main_img_path) }}">
             {% else %}
                 {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.jpg" %}
                 <img src="{{ url_for('static', filename=main_img_path) }}">
-                <!-- <div class="image-underline"></div> -->
             {% endif %}
         </div>
 
@@ -193,7 +195,8 @@
                                             {% if e.link is defined %}
                                                 {% set lnkd = e.linked if e.linked is defined else "Link" %}
                                                 <span class='italic-style'>
-                                                    <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
+                                                    <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>
+                                                {{ ", " }}
                                             {% endif %}{{ e.name|safe }}
                                         </span>
                                         </li>
