@@ -1,5 +1,5 @@
 title: 
-    name: 2020 Mutacije
+    name: 2020 mutacije
 id: 2020mutations
 date: 2020
 featured: 2

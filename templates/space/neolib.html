@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
+    <meta property="og:title" content="{{ 'Uroš Krčadinac → 2020 Mutations' }}">
+    {% set desc = "Interactive project made by Uroš Krčadinac with the help of his students. Belgrade, 2020." %}
+    <meta property="og:description" content="{{ desc }}">
+    {% set main_img_path = "media/projects/2020mutations/img/2020mutations00.jpg" %}
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
+    <meta property="og:url" content="{{ 'https://krcadinac.com/space/neolib' }}">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@krcadinac"/>
+    <meta name="twitter:title" content="{{ 'Uroš Krčadinac → 2020 Mutations' }}"/>
+    <meta name="twitter:description" content="{{ desc }}"/>
+    <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}"/>
+
     <style>
 
         {# Cartograph Sans #}
@@ -43,11 +57,11 @@
 
 <main>
 
-    <div id="nav-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+{#    <div id="nav-icon">#}
+{#        <span></span>#}
+{#        <span></span>#}
+{#        <span></span>#}
+{#    </div>#}
 
     <div class="share-interface">
 
