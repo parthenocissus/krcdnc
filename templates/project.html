@@ -32,6 +32,13 @@
         <script src="{{ url_for('static', filename=js_path) }}"></script>
     {% endif %}
 
+    {% if project.appendix_js is defined %}
+        {% for js in project.appendix_js %}
+            {% set js_path = "js/" ~ js.name %}
+            <script src="{{ url_for('static', filename=js_path) }}"></script>
+        {% endfor %}
+    {% endif %}
+
 {% endblock %}
 
 {% block breadcrumbs %}
