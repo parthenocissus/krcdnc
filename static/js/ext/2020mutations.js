@@ -78,7 +78,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 this.rtt = 0;
                 this.interactiveVersion = intv;
 
-                this.circleSize = new NoiseSeed(dim * sc, dim, 0.03);
+                let enlarge = (intv === 1) ? 0.9 : 0.6;
+                this.circleSize = new NoiseSeed(dim * sc, dim*enlarge, 0.03);
                 this.coreSize = new NoiseSeed(c1, c2, 0.06);
                 this.rayCount = new NoiseSeed(n1, n2, 0.01);
                 this.tipDistr = new NoiseSeed(1, td, 0.7);
@@ -119,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     rc = p.int(p.map(msY, 0, p.height, 2, this.rayMax - 2));
                 } else if (this.interactiveVersion === 2) {
                     coef1 = p.map(msX, 0, dim, -80, 50);
-                    coef2 = p.map(msY, 0, p.height, 0, 60);
+                    coef2 = p.map(msY, 0, p.height, 0, 30);
                 }
 
                 p.push();
