@@ -72,7 +72,7 @@ Grafičkih varijacija ima beskonačno, no sve mutacije zasnovane su na istom str
  
  Tu je i generator novih simbola, koji vam omogućuje da sami kreirate svoje oblike po uzoru na zajednički obrazac. Prevlačenjem miša preko slike menjaju se parametri, a klikom na sliku možete je sačuvati kao PNG fajl:
  
-<div id='mutation-parent' style='padding: 0 0 40px 0'></div>
+<div id='mutation-parent' style='padding: 0 0 25px 0'></div>
 
 Softver je napisan pomoću <a href='https://p5js.org/' target='_blank'>p5.js</a>, JavaScript biblioteke namenjene početnicima, neprogramerima, umetnicima, piscima i dizajnerima. Kôd <em>2020 mutacija</em> objavio sam na svom <a href='https://github.com/parthenocissus/2020mutations' target='_blank'>GitHubu</a> i u svojoj javnoj bazi <a href='https://editor.p5js.org/parthenocissus/sketches/' target='_blanl'>p5.js skica</a>, besplatno i otvoreno licencirano (GNU General Public License v3.0), za sve koji bi želeli da ga koriste u svojim edukativnim, dizajnerskim, umetničkim i drugim praksama.
 
