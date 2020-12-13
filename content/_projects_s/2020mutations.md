@@ -63,17 +63,23 @@ img_data:
     - size: "990x990"
       caption: "Algoritamska grafika, 2020."
     - size: "990x990"
-      caption: "Algoritamska grafika, 2020."                           
+      caption: "Algoritamska grafika, 2020."
+    - size: "940x470"
+      caption: "Animirane mutacije, 2020."
+      gif: true
+    - size: "940x470"
+      caption: "Animirane mutacije (varijacija), 2020."
+      gif: true
 lead: "Serija proceduralnih, generativnih, interaktivnih i animiranih vizuelnih eksperimenata inspirisanih oblikom virusa SARS-CoV-2. Vizuali su nastali kao prateći materijal za ovogodišnje radionice i <a href='/rad/edukacija/'>fakultetske predmete</a>, vođeni idejom da imaginaciju treba graditi <em>nad</em> biološkom, tehnološkom i materijalnom stvarnošću, ne <em>mimo</em> nje, naročito onda kad je nevidljiva."
 
-Grafičkih varijacija ima beskonačno, no sve mutacije zasnovane su na istom strukturnom obrascu, dizajniranom po uzoru na mikroskopske fotografije virusa <a href='https://www.nytimes.com/interactive/2020/health/coronavirus-unveiled.html' target='_blank'>SARS-CoV-2</a>. Tako nastali piktogrami formiraju novi jezik, novi sistem simbola, koji se može koristiti i tumačiti na razne načine. Jedan od ciljeva: razvijanje senzibiliteta, neke vrste estetkog razumevanja, spram složenih bioloških, klimatskih i materijalnih sistema koji određuju i tek će određivati 21. vek.
+Grafičkih varijacija ima beskonačno, no sve mutacije zasnovane su na istom strukturnom obrascu, dizajniranom po uzoru na mikroskopske fotografije virusa <a href='https://www.nytimes.com/interactive/2020/health/coronavirus-unveiled.html' target='_blank'>SARS-CoV-2</a>. Tako nastali piktogrami formiraju novi jezik, novi sistem simbola, koji se može koristiti i tumačiti na razne načine. Jedan od ciljeva: razvijanje senzibiliteta, neke vrste estetskog razumevanja, spram složenih bioloških, klimatskih i materijalnih sistema koji određuju i tek će određivati 21. vek.
 
-Šta se može napraviti na osnovu ovih glifova? Konkretan primer je <a href='/space/neolib' target='_blank'>interaktivni tipografski rad</a>, koji koristi ovaj sistem da bi prikazao slovo »o« kao jedinu vizuelnu razliku između termina »neoliberalni« i »neliberalni«. Rad sam napravio u okviru mojih ovogodišnjih radionica i akademskih kurseva. Ispirisan je esejem <a href='https://lareviewofbooks.org/article/neofeudalism-the-end-of-capitalism/' target='_blank'><em>Neofeudalizam: kraj kapitalizma?</em></a> (Jodi Dean, LARB), koji smo zajedno analizirali na časovima.
+Šta se može napraviti na osnovu ovih glifova? Konkretan primer je <a href='/space/neolib' target='_blank'>interaktivni tipografski rad</a>, koji koristi ovaj sistem da bi prikazao slovo »o« – jedinu vizuelnu razliku između termina »neoliberalni« i »neliberalni« – kao biološku ćeliju zaraženu virusom. Rad je nastao u okviru mojih ovogodišnjih radionica i akademskih kurseva. Ispirisan je esejem <a href='https://lareviewofbooks.org/article/neofeudalism-the-end-of-capitalism/' target='_blank'><em>Neofeudalizam: kraj kapitalizma?</em></a> (Jodi Dean, LARB), koji smo zajedno analizirali na časovima.
  
  Tu je i generator novih simbola, koji vam omogućuje da sami kreirate svoje oblike po uzoru na zajednički obrazac. Prevlačenjem miša preko slike menjaju se parametri, a klikom na sliku možete je sačuvati kao PNG fajl:
  
 <div id='mutation-parent' style='padding: 0 0 25px 0'></div>
 
-Softver je napisan pomoću <a href='https://p5js.org/' target='_blank'>p5.js</a>, JavaScript biblioteke namenjene početnicima, neprogramerima, umetnicima, piscima i dizajnerima. Kôd <em>2020 mutacija</em> objavio sam na svom <a href='https://github.com/parthenocissus/2020mutations' target='_blank'>GitHubu</a> i u svojoj javnoj bazi <a href='https://editor.p5js.org/parthenocissus/sketches/' target='_blanl'>p5.js skica</a>, besplatno i otvoreno licencirano (GNU General Public License v3.0), za sve koji bi želeli da ga koriste u svojim edukativnim, dizajnerskim, umetničkim i drugim praksama.
+Softver je napisan pomoću <a href='https://p5js.org/' target='_blank'>p5.js</a>, JavaScript biblioteke namenjene početnicima, neprogramerima, umetnicima, piscima i dizajnerima. Kôd <em>2020 mutacija</em> objavio sam na svom <a href='https://github.com/parthenocissus/2020mutations' target='_blank'>GitHubu</a> i u svojoj javnoj bazi <a href='https://editor.p5js.org/parthenocissus/sketches/' target='_blank'>p5.js skica</a>, besplatno i otvoreno licencirano (GNU General Public License v3.0), za sve koji bi želeli da ga koriste u svojim edukativnim, dizajnerskim, umetničkim i drugim praksama.
 
 <em>2020 mutacije</em> dosad su prikazane na <em>Fluid Design Forumu</em> Fakulteta likovnih umjetnosti na Cetinju i u okviru autorskog predavanja na Departmanu za digitalne umetnosti Fakulteta za medije i komunikacije u Beogradu, u jesen 2020.<mark>&#9632;</mark>

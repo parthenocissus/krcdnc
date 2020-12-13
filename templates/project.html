@@ -164,8 +164,9 @@
                             {% for d in project.img_data %}
                                 {% set i = loop.index - 1 %}
                                 {% set x = "0" if i < 10 else "" %}
+                                {% set exten = ".gif" if d.gif is defined else ".jpg" %}
                                 {% set thumb_path = "media/projects/" ~ project.id ~ "/thumbs/"  ~ project.id ~ "-thumb" ~ x ~ i ~ ".jpg" %}
-                                {% set img_path = "media/projects/" ~ project.id ~ "/img/"  ~ project.id ~ x ~ i ~ ".jpg" %}
+                                {% set img_path = "media/projects/" ~ project.id ~ "/img/"  ~ project.id ~ x ~ i ~ exten %}
                                 {% set show = "" if i < project.img_to_show else "hidden" %}
                                 <figure class="{{ show ~ ' overburn-container' }}" itemprop="associatedMedia" itemscope
                                         itemtype="http://schema.org/ImageObject"

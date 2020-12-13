@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 0, 70, 10, 10, 0, 20,
                 false, false, true, true, false, 1);
 
-            m2 = new Mutation(dim / 2 - xShift, -yShift, dim / 2, 0,
+            m2 = new Mutation(dim / 2 - xShift, -yShift, dim / 2, 0.5,
                 1, 12, 1, 0, 10, 0, 0,
                 0, 60, 10, 10, 0, 10,
                 false, false, true, true, false, 2);
