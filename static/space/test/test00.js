@@ -1,18 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const unit = 50, margin = 10,
-        col = 9, row = col, dim = col,
-        points = [],
-        num = {min: 7, max: 24},
-        vert = {min: 1, max: 5};
-
-    let randomInt = function (min, max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    };
-
-    const intrvl = 10000;
+    let unit = 50, margin = 10;
+    let col = 9, row = col, dim = col;
+    let points = [];
 
     for (let i = 0; i < col; i++) {
         for (let j = 0; j < row; j++) {
@@ -35,19 +25,19 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    let notUsed = function (point, wp) {
-        let value = false;
-        wp.forEach(function (item) {
+    let notUsed = function (point, usedP) {
+        let value = true;
+        usedP.forEach(function (item) {
             if (item === undefined) {
                 return pMatrix;
             } else if ((item.x === point.x) && (item.y === point.y)) {
-                value = true;
+                value = false;
             }
         });
         return value;
     };
 
-    let pointMatrix = function (p, wp) {
+    let pointMatrix = function (p, usedPoints) {
         let pMatrix = [];
         if (p === undefined) return pMatrix;
         genericMatrix.forEach(function (gp) {
@@ -55,11 +45,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 x: gp.x + p.x - dim,
                 y: gp.y + p.y - dim
             };
-            if ((a.x >= 0) && (a.y >= 0) && (a.x < dim) && (a.y < dim) && notUsed(a, wp)) {
+            if ((a.x >= 0) && (a.y >= 0) && (a.x < dim) && (a.y < dim) && notUsed(a, usedPoints)) {
                 pMatrix.push(a);
             }
         });
         return pMatrix;
+    };
+
+    let randomInt = function (min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
     };
 
     let cleanArray = function (array, p) {
@@ -74,26 +70,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let generateLines = function () {
 
-        let lines = [],
-            lineCount = randomInt(num.min, num.max),
-            workingPoints = JSON.parse(JSON.stringify(points));
+        let lines = [];
+        let lineCount = randomInt(7, 30),
+            workingPoints = JSON.parse(JSON.stringify(points)),
+            usedPoints = [];
 
         for (let i = 0; i < lineCount; i++) {
 
             let line = [];
-            let n = randomInt(vert.min, vert.max);
+            let n = randomInt(1, 3);
             let index = Math.floor(Math.random() * workingPoints.length);
             let current = workingPoints[index];
 
             workingPoints.splice(index, 1);
             line.push(current);
+            usedPoints.push(current);
 
             for (let j = 0; j < n; j++) {
-                let pMatrix = pointMatrix(current, workingPoints);
+                let pMatrix = pointMatrix(current, usedPoints);
                 let ind = Math.floor(Math.random() * pMatrix.length);
                 current = pMatrix[ind];
                 if (current !== undefined) {
                     line.push(current);
+                    usedPoints.push(current);
                     workingPoints = cleanArray(workingPoints, current);
                 }
             }
@@ -124,6 +123,8 @@ document.addEventListener("DOMContentLoaded", function () {
         //.attr("viewBox", "0 0 940 500")
         .attr("viewBox", "0 0 940 500")
         .attr("preserveAspectRatio", "xMinYMin meet");
+
+    let intrvl = 8000;
 
     let plotLines = function (lines) {
 
@@ -173,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     };
 
-    let main = function () {
+    let main = function() {
         plotLines(generateLines());
         setTimeout(main, intrvl);
     };

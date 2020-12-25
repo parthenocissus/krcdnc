@@ -1,0 +1,7 @@
+#js-cont svg path {
+    fill: none;
+    stroke: var(--darkcolor);
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}

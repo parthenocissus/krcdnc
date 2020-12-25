@@ -29,6 +29,13 @@
     <script src="{{ url_for('static', filename='js/lib/photoswipe-ui-default.min.js') }}"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+    {% if project.css is defined %}
+        {% for path in project.css %}
+            {% set full_path = "css/" ~ path %}
+            <link rel="stylesheet" href="{{ url_for('static', filename=full_path) }}">
+        {% endfor %}
+    {% endif %}
+
     {% if project.js is defined %}
         {% for path in project.js %}
             {% set full_path = "js/" ~ path %}
