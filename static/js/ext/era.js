@@ -155,7 +155,6 @@ let generativeEra = function () {
     let plotLines = function (gr) {
 
         d3.selectAll("#" + divName + " svg > path").remove();
-        // let gr = svg.append("g");
 
         let graphics = gr.g.append("g"), paths = [];
 
@@ -197,8 +196,6 @@ let generativeEra = function () {
                 .ease(d3.easePolyInOut)
                 .attr("stroke-dashoffset", totalLength)
                 .remove();
-
-            console.log(count + " " + gr.paths.length);
 
             count++;
             if (count === gr.paths.length) {
