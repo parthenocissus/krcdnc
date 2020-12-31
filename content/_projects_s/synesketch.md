@@ -4,7 +4,7 @@ id: synesketch
 date: 2008
 featured: 3
 goto:
-    link: "/download/synesketch/synesketch.zip"
+    link: "https://github.com/parthenocissus/synesketch_v2.1/"
     label: "Source Code"
 ranks:
     visual: 4
@@ -128,7 +128,7 @@ Naučno-istraživački radovi o Synesketchu objavljeni su u <a href='https://www
 
 Synesketch je dobio nagrade Međunarodne asocijacije za digitalne medije i umetnost iz Sjedinjenih država i Kanade, kao i Beogradske privredne komore. O njemu je pisao magazin <a href="https://www.creativereview.co.uk/about-subscribe/" target="_blank"><span class='italic-style'>Creative Review</span></a> i mnoge druge publikacije koje se bave digitalnom umetnošću i vizuelizacijama. Prikazan je na festivalima u Evropi, Kanadi i Kini, a koristili su ga dizajneri, umetnici, inženjeri i istraživači širom Veba.
  
- Synesketch je dostupan kao <a href="/download/synesketch/synesketch.zip" target="_blank">besplatna softverska biblioteka otvorenog kôda</a>. 
+ Synesketch je dostupan kao <a href="https://github.com/parthenocissus/synesketch_v2.1/" target="_blank">besplatna softverska biblioteka otvorenog kôda</a>. 
  
 Softver je otvoren za dalji razvoj u Java i Processing zajednicama. Objavljen je pod licencom <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GNU General Public License</a> (verzija 2 ili poznija). Ukoliko u svom radu referencirate Synesketch, molim vas da citirate jednu od referenci koje se nalaze u sekciji <span class='italic-style'>Publikacije</span> na ovoj stranici. <mark>&#9632;</mark>
 

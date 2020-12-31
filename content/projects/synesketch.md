@@ -4,7 +4,7 @@ id: synesketch
 date: 2008
 featured: 3
 goto:
-    link: "/download/synesketch/synesketch.zip"
+    link: "https://github.com/parthenocissus/synesketch_v2.1/"
     label: "Source Code"
 ranks:
     visual: 4
@@ -129,7 +129,7 @@ Research papers about Synesketch were published in the <a href="https://ieeexplo
 
 Synesketch was awarded by the International Digital Media and Arts Association, Canada, and the Belgrade Chamber of Commerce, Serbia. It was reviewed by <a href="https://www.creativereview.co.uk/about-subscribe/" target="_blank">Creative Review</a> and many other digital art and visualization publications, shown on festivals and conferences in Europe, Canada, and China, and used by designers, artists, engineers, and researchers world-wide.
  
- Synesketch is <a href="/download/synesketch/synesketch.zip" target="_blank">open and free to download</a>. 
+ Synesketch is <a href="https://github.com/parthenocissus/synesketch_v2.1/" target="_blank">open and free to download</a>. 
  
 The software is free and open for further development by Java and Processing communities. It is published under <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GNU General Public License (version 2 or later)</a>. When referencing Synesketch in your work, please use one of the citations from the Publications sections of this page. <mark>&#9632;</mark>
 

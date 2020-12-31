@@ -40,17 +40,14 @@ content:
       <p>Hoće li nas računari pokoriti? Ne.</p>
       <p>Dobra je šansa, međutim, da nas uz pomoć ovih tehnologija i ideologija pokore neki <em>ljudi</em>. Ko je danas vlasnik velikih baza podataka i algoritama, koji se mogu primeniti nad milijardama korisnika, u poziciji je nekadašnjeg feudalca.<sup id='s11'>♚</sup> I to na globalnoj razini. S jedne strane, dakle, stoje novi tehnofeudalci sa AI sistemima. Na drugoj, svi mi ostali – sa ili bez AI sistema.</p>"
     - type: "img"
-      grid_rules: "grid-template-columns: 512fr 245fr 512fr;"
+      grid_rules: "grid-template-columns: 1fr 1fr;"
       img_data:
-        - file_name: "era00.jpg"
-          size: "512x342"
-          caption: "Rematch Man versus Machine, Era Milivojević, BELEF, 2004."
-        - file_name: "era01.jpg"
-          size: "245x342"
-          caption: "Rematch Man versus Machine, Era Milivojević, BELEF, 2004."
-        - file_name: "era02.jpg"
-          size: "512x342"
-          caption: "Rematch Man versus Machine, Era Milivojević, BELEF, 2004."
+        - file_name: "genERA_001.png"
+          size: "1000x1378"
+          caption: "Generative Graphics, 2020."
+        - file_name: "genERA_002.png"
+          size: "1000x1378"
+          caption: "Generative Graphics, 2020."
     - type: "txt"
       html: "<p>Nakon što ga je Deep Blue pobedio, Kasparov je osmislio koncept <em>Kentaurskog šaha:</em> šahovske varijante u kojoj čovek i računar zajedno igraju protiv drugog para čovek-računar.<sup id='s12'>♞</sup> Ljudi-igrači koriste računar za istraživanje mogućih poteza, za brzo pretraživanje prostora mogućnosti, ali sami donose odluke. Umesto da uništi ljudsku kreativnost, u ovom slučaju AI se ponaša kao kreativno pojačalo.</p>
       <p>Voleo bih da ovakav pristup vidim u kulturi, dizajnu, umetnosti, književnosti i drugim oblastima čovekovog duha, intelekta i kreativnosti. Mogli bismo to nazvati <em>kentaurskom kulturom, kentaurskom književnošću</em> i <em>kentaurskom umetnošću</em>. Stvarati <em>zajedno sa</em> AI tehnologijama, poput recimo neuralnih mreža.</p>
@@ -77,7 +74,7 @@ sidenotes:
     - id: 8
       html: "O problemu mistifikacije AI tehnologija bavio sam se u eseju <em><a href='/rad/sveska/data-empire' target='_blank'>Data Vizantija</a></em>, 2020."
     - id: 9
-      html: "Kao uvod u ideološku pozadinu kibernetskih i AI narativa, preporučujem seriju video eseja Adama Kertisa (Curtis), <em><a href='https://vimeo.com/groups/96331/videos/80799353' target='_blank'>All Watched Over By Machines Of Loving Grace</a></em> (BBC, 2011), kao i članak <a href='https://anatomyof.ai' target='_blank'><em>AI is an Ideology, Not a Technology</em></a> (Jaron Lanier & Glen Weyl, Wired, 2020)."
+      html: "Kao uvod u ideološki kontekst kibernetskih i AI narativa, preporučujem seriju video eseja Adama Kertisa (Curtis), <em><a href='https://vimeo.com/groups/96331/videos/80799353' target='_blank'>All Watched Over By Machines Of Loving Grace</a></em> (BBC, 2011), kao i članak <a href='https://anatomyof.ai' target='_blank'><em>AI is an Ideology, Not a Technology</em></a> (Jaron Lanier & Glen Weyl, Wired, 2020)."
     - id: 10
       html: "<em><a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3078224' target='_blank'>Manufacturing an Artificial Intelligence Revolution</a></em>, Yarden Katz, SSRN, 2017."
     - id: 11

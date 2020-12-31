@@ -7,56 +7,27 @@
 
     <style>
 
-        {# Cartograph Mono #}
-
-        @font-face {
-            font-family: "CartographMono-Heavy";
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.eot') }});
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.eot?#iefix') }}) format('embedded-opentype'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.woff2') }}) format('woff2'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFHeavy.woff') }}) format('woff');
+        :root {
+            --suncolor: #FFB901;
+            --darkcolor: #1D1D1B;
         }
 
-        @font-face {
-            font-family: "CartographMono-Medium";
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFMedium.eot') }});
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFMedium.eot?#iefix') }}) format('embedded-opentype'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFMedium.woff2') }}) format('woff2'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographMonoCFMedium.woff') }}) format('woff');
+        svg g {
+            fill: none;
+            stroke: var(--darkcolor);
+            stroke-width: 5;
+            stroke-linecap: butt;
         }
 
-        {# Cartograph Sans #}
-
-        @font-face {
-            font-family: "CartographSans-Medium";
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Medium.eot') }});
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Medium.eot?#iefix') }}) format('embedded-opentype'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Medium.woff2') }}) format('woff2'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-Medium.woff') }}) format('woff');
-        }
-
-        @font-face {
-            font-family: "CartographSans-MediumItalic";
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.eot') }});
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.eot?#iefix') }}) format('embedded-opentype'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.woff2') }}) format('woff2'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFMediumItalic.woff') }}) format('woff');
-        }
-
-        @font-face {
-            font-family: "CartographSans-DemiBold";
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.eot') }});
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.eot?#iefix') }}) format('embedded-opentype'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.woff2') }}) format('woff2'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCF-DemiBold.woff') }}) format('woff');
-        }
-
-        @font-face {
-            font-family: "CartographSans-XBoldItalic";
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFExtraBoldItalic.eot') }});
-            src: url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFExtraBoldItalic.eot?#iefix') }}) format('embedded-opentype'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFExtraBoldItalic.woff2') }}) format('woff2'),
-            url({{ url_for('static', filename='media/fonts/cartograph/CartographSansCFExtraBoldItalic.woff') }}) format('woff');
+        svg path {
+            fill: none;
+            stroke: var(--darkcolor);
+            stroke-width: 8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            {#stroke-miterlimit: 2;#}
+            {#stroke-linecap: butt;#}
+            {#stroke-linejoin: round;#}
         }
 
     </style>
@@ -64,54 +35,21 @@
     <link rel="shortcut icon" type="image/png"
           href="{{ url_for('static', filename='media/favicon/favicon.ico') }}"/>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='space/coronaviruslogo/crn.css') }}">
-
     <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='space/coronaviruslogo/crn.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lib/p5.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='space/test/test.js') }}"></script>
 
-    <title>Coronavirus Logo Generator</title>
+    <title>rematch experiments</title>
 
 </head>
 <body>
 
-{#<aside>#}
-{#    <div id="circ" class="slider-cont">#}
-{#        <div>body size</div>#}
-{#        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">#}
-{#    </div>#}
-{#    <div id="circ" class="slider-cont">#}
-{#        <div>membrane width</div>#}
-{#        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">#}
-{#    </div>#}
-{#    <div id="circ" class="slider-cont">#}
-{#        <div>number of spikes</div>#}
-{#        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">#}
-{#    </div>#}
-{#    <div id="circ" class="slider-cont">#}
-{#        <div>spike size</div>#}
-{#        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">#}
-{#    </div>#}
-{#    <div id="circ" class="slider-cont">#}
-{#        <div>number of RNA<br>protein curves</div>#}
-{#        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">#}
-{#    </div>#}
-{#    <div id="circ" class="slider-cont">#}
-{#        <div>number of RNA<br>protein cells</div>#}
-{#        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">#}
-{#    </div>#}
-{#</aside>#}
-{##}
-{#<div id="title">#}
-{#    <div id="main">#}
-{#        Coronavirus<br>Logo Generator#}
-{#    </div>#}
-{#    <div id="sub">#}
-{#        Using our interface<br>#}
-{#        design a visual identity<br>#}
-{#        for the Covid-19 virus#}
-{#    </div>#}
-{#</div>#}
+<main>
+
+    <div id="ground"></div>
+
+</main>
 
 </body>
 </html>

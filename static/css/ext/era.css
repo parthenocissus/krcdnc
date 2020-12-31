@@ -1,3 +1,8 @@
+:root {
+    --suncolor: #FFB901;
+    --darkcolor: #1D1D1B;
+}
+
 #js-cont svg path {
     fill: none;
     stroke: var(--darkcolor);
