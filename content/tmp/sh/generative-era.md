@@ -44,18 +44,34 @@ content:
       img_data:
         - file_name: "genERA_001.png"
           size: "1000x1378"
-          caption: "Generative Graphics, 2020."
+          caption: "GenERAtive Graphics, 2020."
         - file_name: "genERA_002.png"
           size: "1000x1378"
-          caption: "Generative Graphics, 2020."
+          caption: "GenERAtive Graphics, 2020."
     - type: "txt"
       html: "<p>Nakon što ga je Deep Blue pobedio, Kasparov je osmislio koncept <em>Kentaurskog šaha:</em> šahovske varijante u kojoj čovek i računar zajedno igraju protiv drugog para čovek-računar.<sup id='s12'>♞</sup> Ljudi-igrači koriste računar za istraživanje mogućih poteza, za brzo pretraživanje prostora mogućnosti, ali sami donose odluke. Umesto da uništi ljudsku kreativnost, u ovom slučaju AI se ponaša kao kreativno pojačalo.</p>
       <p>Voleo bih da ovakav pristup vidim u kulturi, dizajnu, umetnosti, književnosti i drugim oblastima čovekovog duha, intelekta i kreativnosti. Mogli bismo to nazvati <em>kentaurskom kulturom, kentaurskom književnošću</em> i <em>kentaurskom umetnošću</em>. Stvarati <em>zajedno sa</em> AI tehnologijama, poput recimo neuralnih mreža.</p>
       <p>Ovakav pristup istraživao sam kroz radionice... Kentaurske linije<sup id='s13'>♜</sup></p>
       <p>Promenjeni uslovi percepcije, neoliberalna logika gejmifikacije</p>
-      <p>Svaki intelektualni posao neuralne mreže</p>
-      <p>Ideja veštačke inteligencije kao saveznika, ne protivnika, verujem da ne bi bila strana ni Eri Milivojeviću. Analizirajući njegov rad, profesor Čekić zaključuje: »Milivojević je jedan od retkih umetnika koji je ostao otvoren za neprekidne varijacije, što je za okoštale slike mišljenja, koje hrani važeći palanački dispozitiv umetnosti, na ivici podnošljivog. Iz te otvorenosti trebalo bi da nastane poverenje u novi svet u kojem čovek više neće stajati nasuprot mašine, već će zajedno sa mašinama graditi otvorene i glatke prostore za neke buduće umrežene singularnosti.«</p>
-      <p>Ove mreže neće biti lako ni stvarati, ni održavati, no treba početi: dodir po dodir, liniju po liniju, instrukciju po instrukciju. Strpljivo, otvorenog uma, bez tehnofetišizma i bez tehnofobije. Kao što reče Doris Lesing: okolnosti su uvek nemoguće. <mark>&#9632;</mark></p>"
+      <p>Svaki intelektualni posao neuralne mreže</p>"
+    - type: "img"
+      grid_rules: "grid-template-columns: 1fr 1fr;"
+      img_data:
+        - file_name: "genERA_005.png"
+          size: "1000x1000"
+          caption: "GenERAtive Graphics, 2020."
+        - file_name: "genERA_003.png"
+          size: "1000x1000"
+          caption: "GenERAtive Graphics, 2020."
+    - type: "txt"
+      html: "<p>Ideja veštačke inteligencije kao saveznika, ne protivnika, verujem da ne bi bila strana ni Eri Milivojeviću. Analizirajući njegov rad, profesor Čekić zaključuje: »Milivojević je jedan od retkih umetnika koji je ostao otvoren za neprekidne varijacije, što je za okoštale slike mišljenja, koje hrani važeći palanački dispozitiv umetnosti, na ivici podnošljivog. Iz te otvorenosti trebalo bi da nastane poverenje u novi svet u kojem čovek više neće stajati nasuprot mašine, već će zajedno sa mašinama graditi otvorene i glatke prostore za neke buduće umrežene singularnosti.«</p>
+      <p>Ove mreže neće biti lako ni stvarati, ni održavati, no treba početi: dodir po dodir, liniju po liniju, instrukciju po instrukciju. Strpljivo, otvorenog uma, bez tehnofetišizma i bez tehnofobije. Kao što reče Doris Lesing: okolnosti su uvek nemoguće. <mark>✖</mark></p>"
+    - type: "img"
+      grid_rules: "grid-template-columns: 1fr;"
+      img_data:
+        - file_name: "genERA_006.png"
+          size: "940x499"
+          caption: "GenERAtive Graphics, 2020."        
 sidenotes:
     - id: 1
       html: "<a href='https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov' target='_blank'>Kasparov vs. Deep Blue</a>, Wikipedia."
