@@ -3,7 +3,7 @@ title:
     short: "Androidi ne sanjaju ništa"
 id: generative-era
 featured: 2
-date: "31/12/2020"
+date: "5/1/2021"
 jsimage: true
 js: 
     - lib/d3.min.js
@@ -12,7 +12,7 @@ css:
     - ext/era.css
 lead_project: "Umetnički rad <a href='https://sr.wikipedia.org/wiki/%D0%95%D1%80%D0%B0_%D0%9C%D0%B8%D0%BB%D0%B8%D0%B2%D0%BE%D1%98%D0%B5%D0%B2%D0%B8%D1%9B' target='_blank'>Ere Milivojevića</a>, <em><a href='https://www.belef.rs/arhiva/2004/vizuelna/era_milivojevic.html' target='_blank'>Rematch Man versus Machine</a></em> (1999), predstavlja grafičke otiske 6 partija šaha koje je Kasparov odigrao protiv računara <a href='https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov' target='_blank'>Deep Blue</a>. Kao omaž Erinom radu, moj <em>Re:Rematch Man+Machine vs. Man+Machine</em> predstavlja generativni niz svih mogućih linija u šahu, koje se iscrtavaju do u nedogled. Umesto borbe čoveka protiv mašine, možemo li zamisliti <em>zajedničke</em> borbe ljudi i mašina protiv destrukcije koja nam preti iz budućnosti?"
 lead_short: "Autorski esej o digitalnom projektu <em>Re:Rematch Man+Machine vs. Man+Machine</em>."
-lead: "Autorski esej o digitalnom projektu <em><a href='#' target='_blank'>Re:Rematch Man+Machine vs. Man+Machine</a></em>, koji sam kreirao kao omaž umetniku Eri Milivojeviću i njegovom radu <em><a href='https://www.belef.rs/arhiva/2004/vizuelna/era_milivojevic.html' target='_blank'>Rematch Man versus Machine</a></em> (1999). Kao beskonačna generativna serija grafičkih otisaka mogućih partija šaha koje igraju ljudi i računari, projekat postavlja pitanje: možemo li, umesto borbe čoveka <em>protiv</em> mašine, zamisliti <em>zajedničke</em> borbe ljudi i mašina protiv destrukcije koja nam preti iz budućnosti?"
+lead: "Autorski esej o digitalnom projektu <em><a href='#' target='_blank'>Re:Rematch Man+Machine vs. Man+Machine</a></em> (2021), koji sam kreirao kao omaž umetniku Eri Milivojeviću i njegovom radu <em><a href='https://www.belef.rs/arhiva/2004/vizuelna/era_milivojevic.html' target='_blank'>Rematch Man versus Machine</a></em> (1999). Kao beskonačna generativna serija grafičkih otisaka mogućih partija šaha koje igraju ljudi i računari, projekat postavlja pitanje: možemo li, umesto borbe čoveka <em>protiv</em> mašine, zamisliti <em>zajedničke</em> borbe ljudi i mašina protiv destrukcije koja nam preti iz budućnosti?"
 content:
     - type: "txt"
       html: "<p>1999. godine, tokom bombardovanja Beograda, umetnik Era Milivojević<sup id='s1'>♚</sup> izveo je performans na Filozofskom fakultetu Univerziteta u Beogradu. Samolepljivim trakama, na velikim staklenim površinama, umetnik je iscrtao, takoreći <em>trejsovao</em>, poteze jednog šahovskog meča, skicirao je šest partija koje su dve godine ranije odigrali Gari Kasparov, tadašnji prvak sveta, i Deep Blue, veštačka šahovska inteligencija kompanije IBM.<sup id='s2'>♟</sup></p> 
