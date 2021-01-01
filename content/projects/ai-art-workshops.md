@@ -40,6 +40,9 @@ presentations:
     - year: 2020
       events:
         - name: "<span class='italic-style'>Machine Learning for Artists</span>, Workshop, MultiMadeira Centre + CoWork Centre, Madeira, Portugal"
+        - link: http://fluid-forum.me/program.pdf
+          linked: Centaur Lines
+          name: Workshop, Fluid Design Forum, Faculty of Fine Arts, University of Montenegro, Cetinje, Montenegro
 press:
     - year: 2019
       events:

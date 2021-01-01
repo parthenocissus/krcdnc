@@ -40,6 +40,9 @@ presentations:
     - year: 2020
       events:
         - name: "<span class='italic-style'>Mašinsko učenje za umetnike</span> (radionica), MultiMadeira + CoWork, Funšal, Madeira, Portugalija"
+        - link: http://fluid-forum.me/program.pdf
+          linked: Kentaurske linije
+          name: radionica, Fluid Design Forum, Fakultet likovnih umjetnost, Univerzitet Crne Gore, Cetinje, Crna Gora
 press:
     - year: 2019
       events:
