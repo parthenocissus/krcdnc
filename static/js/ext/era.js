@@ -1,6 +1,6 @@
 let generativeEra = function () {
 
-    const w = 940, margin = 10, gMargin = 62, vertMargin = 3,
+    const w = 940, margin = 14, gMargin = 62, vertMargin = 3,
         shiftAdd = ((w - 2 * margin - 2 * gMargin) / 3),
         shift = {g1: 0, g2: shiftAdd + gMargin, g3: 2 * (shiftAdd + gMargin)},
         col = 9, row = col, dim = col,
@@ -160,15 +160,14 @@ let generativeEra = function () {
             this.pos = startingPoint;
             this.white = white;
             this.g = board.g.append("g");
-            this.r = 5;
-            this.pieceStrokeWidth = 2;
+            this.r = 8;
+            this.pieceStrokeWidth = 3.7;
             let oldPurpleBlue = "#7301ff";
             this.pieceStrokeColor = white ? "#FFB901" : "#FF01C6";
-            this.lineStrokeWidth = 2.5;
-            board.addPiece(this);
-
+            this.lineStrokeWidth = 3.5;
             this.possibleG = this.g.append("g");
             this.lineG = this.g.append("g");
+            board.addPiece(this);
         }
 
         drawPiece() {
@@ -312,7 +311,13 @@ let generativeEra = function () {
             if ((this.board.has(forwRightPoint)) && (forwRightPoint.piece !== null)) {
                 possibleMatrix.push(forwRightPoint);
             }
-
+            const base = this.white ? 6 : 1;
+            if (currentPos.y === base) {
+                const forwardPoint2 = {x: currentPos.x, y: currentPos.y + (2 * inc)};
+                if ((this.board.has(forwardPoint2)) && (this.board.free(forwardPoint2))) {
+                    possibleMatrix.push(forwardPoint2);
+                }
+            }
             return this.chooseAndUpdate(possibleMatrix, line, delay, duration);
         }
 
@@ -449,12 +454,12 @@ let generativeEra = function () {
 
         pieceShapeData() {
             const x = this.r * 2 + 2; //(this.r / 2) + 3;
-            const h = x * (Math.sqrt(3)/2);
+            const h = x * (Math.sqrt(3) / 2);
             const p = {x: mapPoint(this.pos.x), y: mapPoint(this.pos.y)};
-            return [{x: p.x - x/2, y: p.y + h/2},
-                {x: p.x + x/2, y: p.y + h/2},
-                {x: p.x, y: p.y - h/2},
-                {x: p.x - x/2, y: p.y + h/2}];
+            return [{x: p.x - x / 2, y: p.y + h / 2},
+                {x: p.x + x / 2, y: p.y + h / 2},
+                {x: p.x, y: p.y - h / 2},
+                {x: p.x - x / 2, y: p.y + h / 2}];
         }
 
         middle(p, generalPoint, currentPoint) {
@@ -564,11 +569,12 @@ let generativeEra = function () {
         }
 
         pieceShapeData() {
+            const dim = this.r - 1;
             return [{
-                x: mapPoint(this.pos.x) - this.r,
-                y: mapPoint(this.pos.y) - this.r,
-                w: 2 * this.r,
-                h: 2 * this.r
+                x: mapPoint(this.pos.x) - dim,
+                y: mapPoint(this.pos.y) - dim,
+                w: 2 * dim,
+                h: 2 * dim
             }];
         }
     }
