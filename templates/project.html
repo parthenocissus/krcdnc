@@ -32,6 +32,13 @@
         <script src="{{ url_for('static', filename=js_path) }}"></script>
     {% endif %}
 
+    {% if project.css is defined %}
+        {% for path in project.css %}
+            {% set full_path = "css/" ~ path %}
+            <link rel="stylesheet" href="{{ url_for('static', filename=full_path) }}">
+        {% endfor %}
+    {% endif %}
+
     {% if project.appendix_js is defined %}
         {% for js in project.appendix_js %}
             {% set js_path = "js/" ~ js.name %}
@@ -78,6 +85,8 @@
                 {{ project.featured_video|safe }}
             {% elif project.featured_js is defined %}
                 <svg id="featured-svg" preserveAspectRatio="xMidYMin meet"></svg>
+            {% elif project.appendix_js is defined and project.appendix_js_featured is defined %}
+                <div id="js-cont"></div>
             {% elif project.featured_gif is defined %}
                 {% set main_img_path = "media/projects/" ~ project.id ~ "/" ~ project.id ~ "-main.gif" %}
                 <img src="{{ url_for('static', filename=main_img_path) }}">
@@ -203,8 +212,8 @@
                                             {% if e.link is defined %}
                                                 {% set lnkd = e.linked if e.linked is defined else "Link" %}
                                                 <span class='italic-style'>
-                                                    <a href='{{ e.link }}' target='_blank'>{{ lnkd }}</a></span>
-                                                {{ ", " }}
+                                                    <a href='{{ e.link }}'
+                                                       target='_blank'>{{ lnkd }}</a></span>{{ ", " }}
                                             {% endif %}{{ e.name|safe }}
                                         </span>
                                         </li>

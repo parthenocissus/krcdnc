@@ -11,7 +11,7 @@ js:
 css: 
     - ext/era.css
 lead_project: "Umetnički rad <a href='https://sr.wikipedia.org/wiki/%D0%95%D1%80%D0%B0_%D0%9C%D0%B8%D0%BB%D0%B8%D0%B2%D0%BE%D1%98%D0%B5%D0%B2%D0%B8%D1%9B' target='_blank'>Ere Milivojevića</a>, <em><a href='https://www.belef.rs/arhiva/2004/vizuelna/era_milivojevic.html' target='_blank'>Rematch Man versus Machine</a></em> (1999), predstavlja grafičke otiske 6 partija šaha koje je Kasparov odigrao protiv računara <a href='https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov' target='_blank'>Deep Blue</a>. Kao omaž Erinom radu, moj <em>Re:Rematch Man+Machine vs. Man+Machine</em> predstavlja generativni niz svih mogućih linija u šahu, koje se iscrtavaju do u nedogled. Umesto borbe čoveka protiv mašine, možemo li zamisliti <em>zajedničke</em> borbe ljudi i mašina protiv destrukcije koja nam preti iz budućnosti?"
-lead_short: "Autorski esej o digitalnom projektu <em>Re:Rematch Man+Machine vs. Man+Machine</em>."
+lead_short: "Esej o digitalnom projektu <em>Re:Rematch Man+Machine vs. Man+Machine</em>."
 lead: "Esej o digitalnom projektu <em><a href='#' target='_blank'>Re:Rematch Man+Machine vs. Man+Machine</a></em> (2021), koji sam kreirao kao omaž umetniku Eri Milivojeviću i njegovom radu <em><a href='https://www.belef.rs/arhiva/2004/vizuelna/era_milivojevic.html' target='_blank'>Rematch Man versus Machine</a></em> (1999). Kao beskonačna generativna serija grafičkih otisaka mogućih partija šaha koje igraju ljudi i računari, projekat postavlja pitanje: možemo li, umesto borbe čoveka <em>protiv</em> mašine, zamisliti <em>zajedničke</em> borbe ljudi i mašina protiv destrukcije koja nam preti iz budućnosti?"
 content:
     - type: "txt"
@@ -24,27 +24,27 @@ content:
       img_data:
         - file_name: "era00.jpg"
           size: "512x342"
-          caption: "Rematch Man versus Machine, Era Milivojević, BELEF, 2004."
+          caption: "<em>Rematch Man versus Machine</em>, Era Milivojević, BELEF, 2004."
         - file_name: "era01.jpg"
           size: "245x342"
-          caption: "Rematch Man versus Machine, Era Milivojević, BELEF, 2004."
+          caption: "<em>Rematch Man versus Machine</em>, Era Milivojević, BELEF, 2004."
         - file_name: "era02.jpg"
           size: "512x342"
-          caption: "Rematch Man versus Machine, Era Milivojević, BELEF, 2004."
+          caption: "<em>Rematch Man versus Machine</em>, Era Milivojević, BELEF, 2004."
     - type: "txt"
       html: "<p>Voleo bih da je ova priča razlog zašto sam poželeo da rad rekreiram digitalno. U Erin rad, međutim, zaljubio sam se sasvim slučajno, pre nekoliko godina, šetajući pored Opštine Zvezdara (čija je zastava takođe mapa, astronomska karta, dijagram sazvežđa Velikog medveda). Privukla me je njegova estetika. Ništa drugo. Tek kada sam isprogramirao prvu verziju, saznao sam kontekst i koncept. Je l' to bila intuicija? Prepoznavnje po infografičkoj srodnosti? Nije ni važno: lepota mape bila je dovoljna da me pokrene na istraživanje.</p>
       <p>Čekić dalje kaže: »Milivojevićeve neobične petlje su beleške nomada, razbacane po različitim mestima kojima je prolazio, od onih stvarnih do onih virtuelnih.« Uzete zajedno, one »generišu neobičnu <em>kartografiju mnoštva</em>, po kojoj će neki novi nomadi ucrtavati vlastite putanje.«</p>
-      <p>Šta za nas, za te <em>nove nomade</em>, znači pozicija čoveka protiv mašine? Za nas, koji smo naučili da programiramo u osnovnoj školi, koji smo odrasli uz algoritamske protivnike u video igrama, koji smo takve igre igrali, pa i dizajnirali, tokom Bombardovanja, šta znači taj veliki poraz Garija Kasparova?</p>
+      <p>Šta za nas, za te <em>nove nomade</em>, znači pozicija čoveka protiv mašine? Za nas, koji smo naučili da programiramo u osnovnoj školi, koji smo odrasli uz algoritamske protivnike u video igrama, koji smo takve igre igrali, pa i dizajnirali, tokom bombardovanja, šta znači taj veliki poraz Garija Kasparova?</p>
       <p>Istorija veštačke inteligencije u popularnoj kulturi vrvi od mistifikacija: čovek nasuprot kompjutera, ljudska protiv mašinske inteligencije. Ova istorija starija je od Marvelovih blokbastera i proteže se daleko unazad, preko Odiseje u svemiru, androida Filipa K. Dika (Philip K. Dick) i Karela Čapeka, sve do hebrejskih legendi o Golemu<sup id='s7'>♚</sup> i automatizovanih lutkarskih pozorišta u Antičkoj Grčkoj.<sup id='s8'>♞</sup> Dominacija informatičkih korporacija u poslednjih tridesetak godina, međutim, doprinela je tome da ovakav narativ postane opšteprihvaćena slika budućnosti. Razlog je umnogome banalan: popularni snovi o algoritamskoj superinteligeciji naprosto su korisni za privlačenje investitora i finansiranje proizvodnje softvera.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr 1fr;"
       img_data:
         - file_name: "genERA_001.png"
           size: "1000x1378"
-          caption: "GenERAtivna grafika, 2020."
+          caption: "<em>Re:Rematch Man+Machine vs. Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."
         - file_name: "genERA_002.png"
           size: "1000x1378"
-          caption: "GenERAtivna grafika, 2020."
+          caption: "<em>Re:Rematch Man+Machine vs. Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."
     - type: "txt"
       html: "<p>Kao informatičara po prvom obrazovanju, često bi me pitali: hoće li nas računari pokoriti? Mislim da su takva pitanja pogrešna. U stvari, već je termin »veštačka inteligencija« problematičan,<sup id='s9'>♝</sup> jer može da se odnosi na posve različite stvari: 1) <em>Weak AI</em>, slabu veštačku inteligenciju, algoritme koji podražavaju pojedinačne ljudske sposobnosti, precizno i usko definisane, recimo šahovske veštine, ali nikada ne stiču, niti mogu da steknu, opštu inteligenciju, samosvest, identitet, volju, emocije ili subjektivnost; 2) <em>Strong AI</em>, jaku veštačku inteligenciju, mašinu koja je uistinu svesna sebe, a takva ne postoji, možda će jednom postojati, ali ne možemo biti sigurni da hoće, takva mašina još uvek je u domenu ne samo inženjerske spekulacije, nego i filozofske; i 3) raznorazne komercijalne tehnologije koje nemaju mnogo veze sa kognicijom, ali ih je, prodaje radi, korisno brendirati kao AI.<sup id='s10'>♜</sup> Tako smo došli u komičnu situaciju da se bilo kakav statistički softver, čije funkcije ne dopiru dalje od obične linearne regresije, reklamira kao nekakva veštačka inteligencija.</p>
       <p>Razvetrivši mistifikacije, pak, videćemo da se jedan deo trans-humanističke retorike efektivno svodi na marketinšku strategiju industrije visokotehnološkog kiča. Šta je turbo-folk bio za lokalnu palanku devedesetih, to je <em>ilonmaskovski</em> turbo-futurizam za današnju globalnu palanku.</p>
@@ -56,15 +56,15 @@ content:
       img_data:
         - file_name: "genERA_007.png"
           size: "1000x1000"
-          caption: "GenERAtivna grafika, 2020."
+          caption: "<em>Re:Rematch Man+Machine vs. Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."
         - file_name: "genERA_003.png"
           size: "1000x1000"
-          caption: "GenERAtivna grafika, 2020."
+          caption: "<em>Re:Rematch Man+Machine vs. Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."
     - type: "txt"
       html: "<p>Šta raditi? Nakon što ga je Deep Blue pobedio (a IBM odlučio da proslavi rast cena svojih deonica), Kasparov je osmislio koncept <em>Kentaurskog šaha:</em> šahovske varijante u kojoj čovek i računar zajedno igraju protiv drugog para čovek-računar.<sup id='s14'>♞</sup> Ljudi-igrači koriste kompjuter za istraživanje mogućih poteza, za brzo pretraživanje prostora mogućnosti, ali sami donose odluke. Umesto da uništi ljudsku kreativnost, u ovom slučaju AI se ponaša kao kreativno pojačalo.</p>
       <p>Ovakav pristup ponekad se naziva <em>Augmented Creativity</em>. Očišćenog od tehnofetišizma, voleo bih da ga vidim u kulturi, dizajnu, umetnosti, književnosti, teoriji i drugim oblastima čovekovog duha, intelekta i kreativnosti. Mogli bismo ga nazvati i <em>kentaurskom kulturom, kentaurskom književnošću</em> i <em>kentaurskom umetnošću</em>. Da li je to jedan od lekova za antropocen, <em>kentaursko stvaralaštvo?</em> Umesto suparničkog ili gladijatorskog, zašto ne bismo zamišljali partnerski odnos ljudi, AI tehnologija i prirode?</p>
       <p>Kentaursko stvaralaštvo istraživao sam kroz seriju radionica <em>Veštačka inteligencija za pisce i umetnike</em>.<sup id='s15'>♜</sup> Poslednja takva radionica, održana na Akademiji umjetnosti na Cetinju, zvala se <em>Kentaurske linije</em>. Polaznici su učili kako da crtaju i pišu zajedno sa malim veštačkim neuralnim mrežama, kako da ih hakuju, menjaju, treniraju i koriste na neuobičajene načine, kako da kreiraju svoje maštovite taktike naspram velikih korporativnih strategija.<sup id='s16'>♟</sup> Iz ovih taktika nicale su nove estetike: novi oblici, nova značenja. Nove kartografije.</p>
-      <p>Digitalni projekat <em>Re:Rematch Man+Machine vs. Man+Machine</em>,<sup id='s17'>♚</sup> omaž Eri Milivojeviću, prati isti kentaurski trag. I ovde estetika nastaje kao posledica taktike, kao pokušaj da se obuhvati i mapira beskonačnost mogućih šahovskih partija i njihovih grafičkih tragova, koje mašina generiše kao na pokretnoj traci.</p>
+      <p>Digitalni projekat <em>Re:Rematch Man+Machine vs Man+Machine</em>,<sup id='s17'>♚</sup> omaž Eri Milivojeviću, prati isti kentaurski trag. I ovde estetika nastaje kao posledica taktike, kao pokušaj da se obuhvati i mapira beskonačnost mogućih šahovskih partija i njihovih grafičkih tragova, koje mašina generiše kao na pokretnoj traci.</p>
       <p>Šta je nekad kamera učinila za vizuelnu kulturu, danas AI tehnologije čine za sve oblasti ljudskog duha. Kentaursko stvaralaštvo, sviđalo nam se ili ne, mislim da je budućnost intelektualnog i kreativnog rada kao takvog. U distopiji <em>randomnessa</em>, u neprozirnom šumu znakova, oblika i mimova, potrebni su nam novi digitalni senzibiliteti, nove <em>osećajnosti</em>, da bismo sačuvali sposobnost da maštamo i proizvodimo značenja. Svakome ko se bavi intelektualnim i kreativnim radom, preporučio bih da nauči makar nešto o kibernetskim sistemima, podacima, mašinskom učenju, automatizaciji, generativnim modelima, a naročito o neuralnim mrežama. Tako ćemo, kao ljudsko društvo, biti u stanju da shvatimo šta mašina <em>ne može</em>, kako bismo tamo usmerili svoju imaginaciju. Kako ne bismo, po rečima Katrin Hejls (Katherine Hayles), »postali kodovi koje ukucavamo«.<sup id='s18'>♝</sup> Algoritmi ne treba da misle i sanjaju umesto nas. Poput šahiste kentaura, treba da ih koristimo za pretragu prostora mogućnosti, a da sami – kao urednici i kustosi – biramo šta od svega toga ima smisla.</p>
       <p>Ideja veštačke inteligencije kao saveznika, ne protivnika, verujem da ne bi bila strana ni Eri Milivojeviću. Analizirajući njegov rad, profesor Čekić zaključuje: »Milivojević je jedan od retkih umetnika koji je ostao otvoren za neprekidne varijacije, što je za okoštale slike mišljenja, koje hrani važeći palanački dispozitiv umetnosti, na ivici podnošljivog. Iz te otvorenosti trebalo bi da nastane poverenje u novi svet u kojem čovek više neće stajati nasuprot mašine, već će zajedno sa mašinama graditi otvorene i glatke prostore za neke buduće umrežene singularnosti.«</p>
       <p>Novi svet neće biti lako stvoriti, ali treba početi: dodir po dodir, liniju po liniju, instrukciju po instrukciju, koordinatu po koordinatu. Strpljivo, otvorenog uma, bez tehnofetišizma i bez tehnofobije, čišćenjem mistifikacija, svakovnednim učenjem, osećanjem, mapiranjem i radikalnim maštanjem. Pre više od pola veka, pisac Filip K. Dik zapitao se: da li androidi sanjaju električne ovce? Danas, u 2021. godini, odgovor glasi:</p>
@@ -74,7 +74,7 @@ content:
       img_data:
         - file_name: "genERA_006.png"
           size: "940x499"
-          caption: "GenERAtivna grafika, 2020."        
+          caption: "<em>Re:Rematch Man+Machine vs Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."        
 sidenotes:
     - id: 1
       html: "<a href='https://sr.wikipedia.org/sr-el/%D0%95%D1%80%D0%B0_%D0%9C%D0%B8%D0%BB%D0%B8%D0%B2%D0%BE%D1%98%D0%B5%D0%B2%D0%B8%D1%9B' target='_blank'>Slobodan Era Milivojević</a>, biografija, Wikipedia, 2020."
@@ -109,6 +109,6 @@ sidenotes:
     - id: 16
       html: "Poput taktika koje Mišel de Serto (Michel de Certeau) opisuje u <em><a href='https://monoskop.org/images/e/e4/De_Certeau_Michel_Invencija_svakodnevnice.pdf' target='_blank'>Invenciji svakodnevice</a></em> (Naklada MD, 1980/2002)."
     - id: 17
-      html: "<em><a href='#' target='_blank'>Re:Rematch Man+Machine vs. Man+Machine</a></em> (2020) sastoji se od računarskog programa koji proizvodi grafičke otiske svih mogućih partija šaha. Programski kôd je otvoren, besplatan i slobodno licenciran, i nalazi se na mom <a href='https://github.com/parthenocissus' target='_blank'>GitHubu</a>, među drugim <em>Open Source</em> projektima i skicama."
+      html: "<em><a href='#' target='_blank'>Re:Rematch Man+Machine vs Man+Machine</a></em> (2020) sastoji se od računarskog programa koji proizvodi grafičke otiske svih mogućih partija šaha. Programski kôd je otvoren, besplatan i slobodno licenciran, i nalazi se na mom <a href='https://github.com/parthenocissus' target='_blank'>GitHubu</a>, među drugim <em>Open Source</em> projektima i skicama."
     - id: 18
       html: "<a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'><em>How We Became Posthuman: Virtual Bodies in Cybernetics</em></a>, Katherine Hayles, UCP, 1999."
