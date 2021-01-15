@@ -88,11 +88,16 @@
 }
 
 .article-text p,
-    /*.article-text div,*/
+.article-text .illustration,
 .article-text .all-pictocont,
 .article-text .optimised-poetry-cont {
     margin: 0;
     padding: 0 calc(33% + 36px) 15px var(--inset);
+}
+
+.article-text .illustration {
+    padding-top: 25px;
+    padding-bottom: 30px;
 }
 
 .article-text p img {
@@ -390,8 +395,7 @@ figure img:hover {
 
 .article-text iframe {
     display: block;
-    width: 100%;
-!important;
+    width: 100% !important;
     height: 277px !important;
     padding: 32px 0 20px 0;
 }

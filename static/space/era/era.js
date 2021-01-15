@@ -1,6 +1,6 @@
 let generativeEra = function () {
 
-    const multiMatrix = {w: 5, h: 9}, shiftsHor = [], shiftsVert = [];
+    const multiMatrix = {w: 5, h: 7}, shiftsHor = [], shiftsVert = [];
 
     const w = 940, margin = 3, gMargin = 42, vertMargin = 3,
         shiftAdd = ((w - (2 * margin) - ((multiMatrix.w - 1) * gMargin)) / multiMatrix.w);
@@ -9,7 +9,7 @@ let generativeEra = function () {
         shiftsHor[i] = (i * (shiftAdd + gMargin));
     }
 
-    const col = 9, row = col, dim = col,
+    const col = 8, row = col, dim = col,
         unit = shiftAdd / (col - 1),
         gHeight = (2 * vertMargin) + (unit * (col - 1));
 
@@ -19,7 +19,7 @@ let generativeEra = function () {
 
     const h = (multiMatrix.h) * gHeight + (multiMatrix.h - 1) * gMargin + 10,
         points = [],
-        num = {min: 5, max: 30},
+        num = {min: 10, max: 18},
         vert = {min: 1, max: 5},
         divName = "js-cont";
 

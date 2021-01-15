@@ -1,0 +1,6 @@
+array cloning options:
+
+let pcs = JSON.parse(JSON.stringify(this.pieces));
+let pcs = this.pieces.map(a => Object.assign({}, a));
+let pcs = this.pieces.clone();
+let pcs = [...this.pieces];
