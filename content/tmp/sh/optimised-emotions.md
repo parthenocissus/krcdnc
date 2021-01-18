@@ -15,7 +15,7 @@ main_img_data:
     file_name: "optimised-emotions-main.jpg"
     size: "1000x500"
     caption: "Beograd, 2020"
-lead: "Engleska verzija ovog eseja objavljena je u knjizi <em><a href='#' target='_blank'>Optimizovana poetika</a></em>, koju smo napisali <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> i ja, u izdanju <a href='https://mi2.hr/' target='_blank'>Multimedijalnog instituta</a>. Esej se bavi novim poetskim strategijama, koje smo razvili tako što smo sisteme za digitalni marketing <em>hakovali</em> u književnom i umetničkom smislu."
+lead: "Engleska verzija ovog eseja objavljena je u knjizi <em><a href='#' target='_blank'>Optimizovana poetika</a></em>, zajedničkog projekta <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darije Medić</a> i Uroša Krčadinca, u izdanju <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics' target='_blank'>Multimedijalnog instituta</a>. Esej se bavi novim poetskim strategijama, razvijenih književnim i umetničkim hakovanjem sisteme za digitalni marketing."
 lead_short: "Esej iz knjige <em>Optimised Poetics</em>"
 content:
     - type: "txt"
@@ -36,7 +36,7 @@ content:
       img_data:
         - file_name: "emoticons2.jpg"
           size: "1000x280"
-          caption: "Matrica tekstualnih emodžija, kombinacija tipografskih simbola kojima se komuniciraju osećanja u digitalnom prostoru. Danas se emotikoni mahom automatski zamenjuju emodžijima, sličicama."
+          caption: "Matrica tekstualnih emotikona, kombinacija tipografskih simbola kojima se komuniciraju osećanja u digitalnom prostoru. Danas se emotikoni mahom automatski zamenjuju emodžijima, sličicama."
     - type: "txt"
       html: "<div class='optimised-poetry-cont'>
         <div class='ttl1'>
@@ -271,7 +271,7 @@ content:
     <p>Katrin Hejls (Katherine Hayles)<sup id='s13'>13</sup> rekla je da »sami postajemo kodovi koje ukucavamo« (»we become the codes we punch«). Ako razmislimo o transformativnom potencijalu otelovljenja svakodnevnih digitalnih praksi, shvatićemo da poezija nije tek oblik izražavanja. Ona postaje oblik preživljavanja. <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1
-      html: "Koncept za <em>Optimizovane emocije</em> osmišljen je 2018. na <a href='/rad/projekti/optimized-poetry/' target='_blank'><em>Radionici digitalne poezije</em></a> konferencije Art + Science, o čemu sam govorio i na <a href='https://www.ted.com/talks/uros_krcedinac_buducnost_jezika' target='_blank'>TEDxMokrin</a>. Ideje sam razradio 2020. zajedno sa <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darijom Medić</a> u knjigama <a href='#' target='_blank'><em>Optimizovana poetika</em> i <em>Taktička poetika</em></a>, koje je objavio zagrebački <a href='https://mi2.hr' target='_blank'>Multimedijalni institut</a>, u saradnji sa <a href='https://kuda.org/' target='_blank'>Kuda.org</a> iz Novog Sada."
+      html: "Koncept za <em>Optimizovane emocije</em> osmišljen je 2018. na <a href='/rad/projekti/optimized-poetry/' target='_blank'>Radionici digitalne poezije</a> konferencije Art + Science, o čemu sam govorio i na <a href='https://www.ted.com/talks/uros_krcedinac_buducnost_jezika' target='_blank'>TEDxMokrin</a>. Ideje sam razradio 2020. zajedno sa <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darijom Medić</a> u knjigama <a href='#' target='_blank'><em>Optimizovana poetika</em> i <em>Taktička poetika</em></a>, koje je objavio zagrebački <a href='https://mi2.hr' target='_blank'>Multimedijalni institut</a>, u saradnji sa <a href='https://kuda.org/' target='_blank'>Kuda.org</a> iz Novog Sada."
     - id: 2
       html: "<a href='https://en.wikipedia.org/wiki/Search_engine_optimization' target='_blank'>SEO</a> je proces optimizacije jednog vebsajta, uključujući i sadržaj sajta, kako bi se pojavio među prvim rezultatima Internet pretraživača."
     - id: 3
