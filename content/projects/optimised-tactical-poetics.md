@@ -1,6 +1,6 @@
 title: 
-    name: "Tactical Poetics & Optimised Poetics"
-    html: "Tactical Poetics & Optimised Poetics"
+    name: "Tactical Poetics and Optimised Poetics"
+    html: "Tactical Poetics and Optimised Poetics"
     short: "Tactical Poetics & Optimised Poetics"
 id: optimised-tactical-poetics
 date: 2020
@@ -36,7 +36,7 @@ team:
     - link: 'https://kuda.org/en'
       name: Kuda.org (Co-Publisher)
     - link: 'https://mi2.hr/en/'
-      name: Multimedijalni institut MAMA Zagreb (Co-Publisher)
+      name: Multimedijalni institut MaMa Zagreb (Co-Publisher)
 presentation_title: Presentations
 presentations:
     - year: 2020
@@ -55,10 +55,10 @@ publications:
           name: "Excerpt from <em>Optimised Poetics</em>, U. Krčadinac, Notebook, 2021."
     - year: 2020
       pubs:
-        - link: 'https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/'
+        - link: '/download/research/optimised_poetics_2020.pdf'
           linked: "Optimised Poetics" 
           name: "U. Krčadinac & D. Medić, Vectors of Collective Imagination, Multimedia Institute & Kuda.org, Zagreb & Novi Sad, 2020."
-        - link: 'https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/'
+        - link: '/download/research/tactical_poetics_2020.pdf'
           linked: "Tactical Poetics" 
           name: "D. Medić & U. Krčadinac, Vectors of Collective Imagination, Multimedia Institute & Kuda.org, Zagreb & Novi Sad, 2020."
 press:

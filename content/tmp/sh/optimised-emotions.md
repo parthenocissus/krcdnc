@@ -15,7 +15,7 @@ main_img_data:
     file_name: "optimised-emotions-main.jpg"
     size: "1000x500"
     caption: "Beograd, 2020"
-lead: "Engleska verzija ovog eseja objavljena je u knjizi <em><a href='#' target='_blank'>Optimizovana poetika</a></em>, zajedničkog projekta <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darije Medić</a> i Uroša Krčadinca, u izdanju <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics' target='_blank'>Multimedijalnog instituta</a>. Esej se bavi novim poetskim strategijama, razvijenih književnim i umetničkim hakovanjem sisteme za digitalni marketing."
+lead: "Engleska verzija ovog eseja objavljena je u knjizi <em><a href='/rad/projekti/optimised-tactical-poetics/' target='_blank'>Optimizovana poetika</a></em>, zajedničkog projekta <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darije Medić</a> i Uroša Krčadinca, u izdanju <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics' target='_blank'>Multimedijalnog instituta</a>. Esej se bavi novim poetskim strategijama, razvijenih književnim i umetničkim hakovanjem sisteme za digitalni marketing."
 lead_short: "Esej iz knjige <em>Optimised Poetics</em>"
 content:
     - type: "txt"
