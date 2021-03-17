@@ -1,11 +1,11 @@
 title: 
-    name: "Tactical Poetics and Optimised Poetics"
-    html: "Tactical Poetics and Optimised Poetics"
-    short: "Tactical Poetics & Optimised Poetics"
+    name: "Tactical Poetics + Optimised Poetics"
+    html: "Tactical Poetics +<br>Optimised Poetics"
+    short: "Tactical + Optimised Poetics"
 id: optimised-tactical-poetics
 date: 2020
 featured: 3
-goto:
+goto_ghost:
     link: "http://vinaware.krcadinac.com"
     label: "Download PDFs"
     text: "Download PDFs"

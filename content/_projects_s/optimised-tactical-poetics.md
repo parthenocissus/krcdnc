@@ -1,11 +1,11 @@
 title: 
-    name: "Taktička poetika i Optimizovana poetika"
-    html: "Taktička poetika i Optimizovana poetika"
-    short: "Taktička poetika & Optimizovana poetika"
+    name: "Taktička poetika + Optimizovana poetika"
+    html: "Taktička poetika +<br>Optimizovana poetika"
+    short: "Taktička poetika + Optimizovana poetika"
 id: optimised-tactical-poetics
 date: 2020
 featured: 3
-goto:
+goto_ghost:
     link: "http://vinaware.krcadinac.com"
     label: "Preuzmi knjige"
     text: "Preuzmi knjige"
@@ -82,14 +82,18 @@ img_data:
       caption: "Selected generative poem from the book. Photo: Ivona Petrov."
     - size: "1200x795"
       caption: "Artist Book. Photo: Ivona Petrov." 
-lead: "Zajednički digitalno-umetničko-književni projekat <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darije Medić</a> i Uroša Krčadinca, i zajednička publikacija <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalnog instituta</a> i <a href='https://kuda.org/' target='_blank'>Kuda.org</a>, sestrinski par knjiga <em>Tactical Poetics</em> i <em>Optimised Poetics</em> opisuje nove poetske prakse za digitalnu proizvodnju teksta u doba masovnog nadzora, veštačke inteligencije i digitalne komodifikacije."
+lead: "Dve sestrinske knjige, <em>Tactical Poetics</em> i <em>Optimised Poetics</em>, opisuju nove poetske prakse za proizvodnju teksta u doba masovnog nadzora, veštačke inteligencije i digitalne komodifikacije. Zajednički digitalno-književno-umetnički projekat <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darije Medić</a> i Uroša Krčadinca, i zajednička publikacija <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalnog instituta MaMa</a> i Centra za nove medije <a href='https://kuda.org/' target='_blank'>Kuda.org</a>."
 
-Koristeći tehnologije digitalne obrade prirodnog jezika na (ne)namenjene i (ne)subverzivne načine, kao što su aproprijacija marketinških alata i korekcija identiteta, autori su kreirali nove oblike digitalne literature. Ova književnost, upletena u tehničke protokole savremene algoritamske kulture, istovremena je i odgovor na ovu kulturu.
+Koristeći tehnologije digitalne obrade prirodnog jezika onako kako ove tehnologije nisu predviđene da se koriste, kreirali smo nove oblike digitalne književnosti. 
+
+Ova književnost, upletena u tehničke protokole savremene algoritamske kulture, polazi od pretpostavke da pisanje kao takvo u savremenom trenutku nužno podrazumeva i preispitivanje softverskih alata i društvenih, ekonomskih i tehnoloških sistema koji današnje pisanje omogućuju – od Google Ad Keyword Plannera do servisa za analizu sentimenata. Kao što je rekao <a href='https://monoskop.org/media/text/goldsmith_2011_uncreative_writing/' target='_blank'>Kenet Goldsmit</a> (Keneth Goldsmith): današnji pisac pre podseća na programera nego na namučenog genija.
  
 Kao dve sestrinske knjige, <em>Taktička poetika</em> (<em>Tactical Poetics</em>) i <em>Optimizovana poetika</em> (<em>Optimised Poetics</em>) uvode po dva projekta/pristupa oba autora. Ovi pristupi organizovani su po dvema metodama proizvodnje jezika i teksta kao izraza u računarskoj kulturi: optimizacije i taktike. Umesto da razdvajaju knjige po autorima, oba autora potpisuju obe knjige: na ovaj način, knjige prate strukturu svojih digitalnih pristupa, stvarajući prostor za razgovor između autora i čitalaca. Hijerarhija imenovanja je određena tako da oba autora imaju po jednu knjižicu na kojoj su predstavljeni kao »prvi« autor, a jednu za koju su »drugi«, sa idemom da se problematizuje klasičan akademski pristup autorstvu.
  
 Uzete zajedno, ove dve knjige čine predlog za razmišljanje o savremenim pejzažima kompjutacione i digitalne poetike. Predloženi pristupi nipošto ne iscrpljuju potencijal metoda u ovom prostoru, već predstavljaju eksperimentalnu kapsulu i poziv da im se pridruže druge rezonantne poetske niti.
  
-Ako uzmemo u obzir rečenicu Katrin Hejls (Katherine Hayles), da »postajemo kodovi koje ukucavamo«, i ako razmislimo o transformativnom potencijalu otelotvorenja svakodnevnih digitalnih praksi, videćemo da poezija – ili ono što bi Dona Haravej (Donna Haraway) nazvala spekulativnom fabulacijom – nije samo oblik izražavanja. Ona postaje oblik preživljavanja.
+Ako je <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'>Katrin Hejls</a> (Katherine Hayles) bila u pravu kada je rekla da »postajemo kodovi koje ukucavamo« i ako razmislimo o transformativnom potencijalu otelotvorenja svakodnevnih digitalnih praksi, videćemo da poezija – ili ono što bi Dona Haravej (Donna Haraway) nazvala <a href='https://www.youtube.com/watch?v=zFGXTQnJETg' target='_blank'>spekulativnom fabulacijom</a> – nije samo oblik izražavanja. Ona postaje oblik preživljavanja.
 
-<em>Taktičku poetiku</em> i <em>Optimizovanu poetiku</em> zajedno su objavili <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a> (Zagreb) i <a href='https://kuda.org/' target='_blank'>Kuda.org</a> (Novi Sad) u okviru edicije Vektori zajedničke imaginacije (Vectors of Collective Imagination) 2020/2021. Jedan od eseja iz <em>Optimizovane poetike</em>, <a href='/rad/sveska/optimised-emotions' target='_blank'><em>Optimizovane emocije</em></a>, objavljen je u Svesci na ovom sajtu.  <mark>&#9632;</mark>
+<em>Taktičku poetiku</em> i <em>Optimizovanu poetiku</em> zajedno su objavili <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a> (Zagreb) i <a href='https://kuda.org/' target='_blank'>Kuda.org</a> (Novi Sad) u okviru edicije Vektori zajedničke imaginacije (Vectors of Collective Imagination) 2020/2021. Jedan od eseja iz <em>Optimizovane poetike</em>, <a href='/rad/sveska/optimised-emotions' target='_blank'><em>Optimizovane emocije</em></a>, objavljen je u Svesci na ovom sajtu. 
+
+Knjige su slobodno i otvoreno licencirane. Možete ih preuzeti besplatno, pomoću linkova sa strane u sekciji Publikacije. <mark>&#9632;</mark>
