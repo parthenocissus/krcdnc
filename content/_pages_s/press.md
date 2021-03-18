@@ -14,6 +14,7 @@ data:
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2020</div>
     <ul>
+    <li><em>Podaci u umetnosti i umetnost podataka</em>, esej o data umetnosti, Elementarijum 23, autorka Katarina Popović, CPN</li>
     <li><span class='italic-style'><a href='https://www.oblakoder.org.rs/mladi-i-obrazovanje-uros-krcadinac-i-vojislav-klacar-salon-e05/' target='_blank'>Oblakoderov Salon: mladi i obrazovanje</a></span> (Internet emisija), Oblakoder, vodila Marina Zec</li>
     <li><span class='italic-style'><a href='https://www.mixcloud.com/Radioelementi/e-08-o-zelenijem-beogradu-linijskom-parku-ve%C5%A1ta%C4%8Dkoj-inteligenciji-umetnosti-i-nauci/' target='_blank'>Radio Elementi</a></span> (radio emisija), Centar za promociju nauke, vodio Petar Laušević</li>
     <li><span class='italic-style'><a href='https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/4051571/uros-krcadinac.html' target='_blank'>Digitalne ikone</a></span> (radio intervju), Radio Beograd, vodila Tamara Vučenović</li>
@@ -61,4 +62,4 @@ timeline:
     - year: 2019
       d: 4
     - year: 2020
-      d: 3
+      d: 4

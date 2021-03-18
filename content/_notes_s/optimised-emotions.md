@@ -3,8 +3,8 @@ title:
     html: "Optimizovane emocije"
     short: Optimizovane emocije
 id: optimised-emotions
-featured: 2
-date: "25/08/2020"
+featured: 3
+date: "18/03/2021"
 ajsimage: true
 ajs: 
     - lib/p5.min.js

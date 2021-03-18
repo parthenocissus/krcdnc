@@ -3,7 +3,7 @@ title:
     html: "Data Vizantija"
     short: Data Vizantija
 id: data-empire
-featured: 3
+featured: 2
 date: "10/09/2020"
 main_img_data:
     file_name: "dataart-human-glitch-main.jpg"

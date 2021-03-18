@@ -4,7 +4,7 @@ title:
     short: Optimised Emotions
 id: optimised-emotions
 featured: 3
-date: "25/08/2020"
+date: "18/03/2021"
 gif:
     file_name: "optimised-emotions-main.gif"
 main_img_data:
@@ -254,7 +254,7 @@ content:
       <p>Katherine Hayles said that “we become the codes we punch.”<sup id='s9'>9</sup> If we consider the transformative potential of the embodiment of everyday digital practices, we will realize that poetry is not just a form of expression. It becomes a form of survival. <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1
-      html: "The concept for <em>Optimized Emotions</em> was originally created in 2018, for the <a href='/work/projects/optimized-poetry/' target='_blank'>Digital Poetry Workshop</a> of the Art + Science conference in Belgrade. I've talked about similar ideas at <a href='https://www.ted.com/talks/uros_krcedinac_buducnost_jezika' target='_blank'>TEDxMokrin</a>. Together with <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darijom Medić</a>, in 2020, I've developed the books <a href='/work/projects/optimised-tactical-poetics/' target='_blank'><em>Optimized Poetics & Tactical Poetics</em></a>, published by the Zagreb-based <a href='https://mi2.hr' target='_blank'>Multimedia Institute</a>, in collaboration with <a href='https://kuda.org/' target='_blank'>Kuda.org</a> from Novi Sad."
+      html: "The concept for <em>Optimized Emotions</em> was originally created in 2018, for the <a href='/work/projects/optimized-poetry/' target='_blank'>Digital Poetry Workshop</a> of the Art + Science conference in Belgrade. I've talked about similar ideas at <a href='https://www.ted.com/talks/uros_krcedinac_buducnost_jezika' target='_blank'>TEDxMokrin</a>. Together with <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darijom Medić</a>, in 2020, I've developed the books <a href='/work/projects/optimised-tactical-poetics/' target='_blank'><em>Optimized Poetics & Tactical Poetics</em></a>, published by the Zagreb-based <a href='https://mi2.hr' target='_blank'>Multimedia Institute</a>, in collaboration with <a href='https://kuda.org/en/vectors-collective-imagination-darija-medi-uro-kr-adinac-tactical-poetics-optimised-poetics' target='_blank'>Kuda.org</a> from Novi Sad."
     - id: 2
       html: "<a href='https://en.wikipedia.org/wiki/Search_engine_optimization' target='_blank'>Search engine optimization</a> is the process of optimizing a website, including all the content on the website, so it will appear in prominent positions in the organic results of search engines."
     - id: 3

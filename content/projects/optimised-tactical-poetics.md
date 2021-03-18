@@ -72,24 +72,62 @@ press:
           name: Center for the Promotion of Science, Radio Aparat, Belgrade, Serbia
 img_to_show: 5
 img_data:
-    - size: "1200x795"
-      caption: "Installation. Photo: Ivona Petrov."
-    - size: "1200x795"
-      caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
-    - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov."
-    - size: "1200x795"
-      caption: "Selected generative poem from the book. Photo: Ivona Petrov."
-    - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov." 
-lead: "A collaborative writing project by <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> and Uroš Krčadinac, and a joint publication of <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedia Institute</a> and <a href='https://kuda.org/' target='_blank'>Kuda.org</a>, these two short books introduce poetic practices of co-creational textual production in the age of mass surveillance, artificial intelligence, and digital commodification."
+    - size: "1920x1153"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021." 
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1272x1920"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1272x1920"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> and <em>Optimised Poetics</em>. Photo: Ivona Petrov, 2021."
+lead: "The pair of books, <a href='/download/research/tactical_poetics_2020.pdf' target='_blank'><em>Tactical Poetics</em></a> and <a href='/download/research/optimised_poetics_2020.pdf' target='_blank'><em>Optimised Poetics</em></a>, introduce poetic practices of co-creational textual production in the age of mass surveillance, artificial intelligence, and digital commodification. It is a collaborative writing project by <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> and Uroš Krčadinac, and a joint publication of <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedia Institute</a> and <a href='https://kuda.org/en/vectors-collective-imagination-darija-medi-uro-kr-adinac-tactical-poetics-optimised-poetics' target='_blank'>Kuda.org</a>."
 
 Using natural language processing technologies in (un)intended and (non)subversive ways of reclaiming appropriation and identity correction, the authors create forms of digital literature weaved in and responding to technical protocols of contemporary algorithmic culture. 
  
-The booklets gather several approaches of both authors into two methods of producing language as expression in computational culture: that of optimization and of tactics. The books follow the structure of this method – creating a conversational space between the two authors through their individual computational poetic pieces in both books, rather than separating books by author. The hierarchy of naming is also distributed so that both authors have one booklet for which they are read as the “first” author and the other for which they are the “second” one, exploring the confines of intersectional norming.
+These two booklets, <a href='/download/research/tactical_poetics_2020.pdf' target='_blank'><em>Tactical Poetics</em></a> and <a href='/download/research/optimised_poetics_2020.pdf' target='_blank'><em>Optimised Poetics</em></a>, gather several approaches of both authors into two methods of producing language as expression in computational culture: that of optimization and of tactics. The books follow the structure of this method – creating a conversational space between the two authors through their individual computational poetic pieces in both books, rather than separating books by author. The hierarchy of naming is also distributed so that both authors have one booklet for which they are read as the “first” author and the other for which they are the “second” one, exploring the confines of intersectional norming.
  
 Together, these books form a proposal for thinking what could be today’s landscape of computational poetics. They are by no means exhausting the potentiality of methods in this space, but more so a capsule, in wish to be joined by other resonating poetic threads.
  
-If we consider Katherine Hayles's “We become the codes we punch” and think of the transformative potential of the embodiment of daily habitual practices, then poetry – or what Donna Haraway would call speculative fabulation – doesn’t just end in being a form of expression. It becomes a form of survival. 
+If we consider Katherine Hayles's <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'>“We become the codes we punch”</a> and think of the transformative potential of the embodiment of daily habitual practices, then poetry – or what Donna Haraway would call <a href='https://www.youtube.com/watch?v=zFGXTQnJETg' target='_blank'>speculative fabulation</a> – doesn’t just end in being a form of expression. It becomes a form of survival. 
 
-<em>Tactical Poetics</em> and <em>Optimised Poetics</em> are co-published by <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a> (Zagreb) and <a href='https://kuda.org/' target='_blank'>Kuda.org</a> (Novi Sad) within Vectors of Collective Imagination in 2020/2021. One of the essays from <em>Optimised Poetics</em>, <a href='/work/notebook/optimised-emotions' target='_blank'><em>Optimised Emotions</em></a>, is published in my Notebook. <mark>&#9632;</mark>
+<em>Tactical Poetics</em> and <em>Optimised Poetics</em> are co-published by <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a> (Zagreb) and <a href='https://kuda.org/en/vectors-collective-imagination-darija-medi-uro-kr-adinac-tactical-poetics-optimised-poetics' target='_blank'>Kuda.org</a> (Novi Sad) within Vectors of Collective Imagination in 2020/2021. One of the essays from <em>Optimised Poetics</em>, <a href='/work/notebook/optimised-emotions' target='_blank'><em>Optimised Emotions</em></a>, is published in my Notebook. 
+
+These books are under an open and free licenced. You are welcome to download them for free, from a link in the Publications section.<mark>&#9632;</mark>

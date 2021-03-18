@@ -9,14 +9,14 @@ data:
     - title: Digitalna književnost
       id: "diglit"
       images: 
+        - path: "media/pages/tactical00.jpg"
         - path: "media/projects/vinaware/img/vinaware19.jpg"
-      text: "<p>Serija konceptualnih književnih radova kreiranih uz pomoć niza <a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>digitalnih i elektronskih tehnika</a>, kao što su računarski <a href='/rad/projekti/category/ai'>AI sistemi</a> za generisanje teksta, poezija optimizovana pomoću Google Keyword Plannera i taktičko pisanje za prevaru programa koji prepoznaju emocije u tekstu.
-</p>
-<p>Među projektima izdvajam sestrinski par knjiga, <a href='/rad/projekti/optimised-tactical-poetics' target='_blank'><em>Tactical Poetics</em> i <em>Optimised Poetics</em></a>, koje opisuju nove poetske prakse za proizvodnju teksta u doba masovnog nadzora, veštačke inteligencije i digitalne komodifikacije. Knjige sam napisao u saradnji sa <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darijom Medić</a>. To je zajednička publikacija zagrebačkog <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalnog instituta MaMa</a> i novosadskog Centra za nove medije <a href='https://kuda.org/' target='_blank'>Kuda.org</a>. u okviru edicije <em>Vektori zajedničke imaginacije</em> (<em>Vectors of Collective Imagination</em>) 2020/2021. Knjige su slobodno i otvoreno licencirane. Možete ih preuzeti besplatno, pomoću linkova sa strane u sekciji Publikacije.
-</p>
+      text: "<p>Serija konceptualnih književnih radova kreiranih uz pomoć niza <a href='https://en.wikipedia.org/wiki/Electronic_literature' target='_blank'>digitalnih i elektronskih tehnika</a>, kao što su računarski <a href='/rad/projekti/category/ai'>AI sistemi</a> za generisanje teksta, poezija optimizovana pomoću Google Keyword Plannera i taktičko pisanje za prevaru programa koji prepoznaju emocije u tekstu.</p>
+<p>Među projektima izdvajam sestrinski par knjiga, <a href='/rad/projekti/optimised-tactical-poetics' target='_blank'><em>Tactical Poetics</em> i <em>Optimised Poetics</em></a>, koje opisuju nove poetske prakse za proizvodnju teksta u doba masovnog nadzora, veštačke inteligencije i digitalne komodifikacije. Svaka knjiga uvode po dva projekta/pristupa oba autora. Ovi pristupi organizovani su po dvema metodama proizvodnje jezika i teksta kao izraza u računarskoj kulturi: optimizacije i taktike.</p>
+<p>Ove knjige sam napisao u saradnji sa <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darijom Medić</a>. To je zajednička publikacija zagrebačkog <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalnog instituta MaMa</a> i novosadskog Centra za nove medije <a href='https://kuda.org/sr/vektori-kolektivne-imaginacije-darija-medi-uro-kr-adinac-tactical-poetics-optimised-poetics' target='_blank'>Kuda.org</a>. u okviru edicije <em>Vektori zajedničke imaginacije</em> (<em>Vectors of Collective Imagination</em>) 2020/2021. Knjige su slobodno i otvoreno licencirane. Možete ih preuzeti besplatno, pomoću linkova sa strane u sekciji Publikacije.</p>
 <p>Tu je, zatim, digitalni projekat <span class='italic-style'><a href='/rad/projekti/vinaware/'>Ja nisam željan da me ko voli, nego da svi zavole lišće</a></span>, interaktivna neuralna mrežu za generisanje i vizuelizaciju teksta u stilu Miloša Crnjanskog. Ovaj projekat prikazan je u beogradskom Muzeju nauke i tehnike, galeriji Srpske akademije nauka i umetnosti i pančevačkoj Galeriji savremene umetnosti. Dobitnik je nagrade ARTificial Belgrade, za novomedijsku umetničku instalaciju koja se bavi pitanjem veštačke inteligencije. 
 </p>
-<p>Tu je i <span class='italic-style'><a href='/rad/projekti/zima/'>Zima</a></span>, knjižica poezije u izdanju Kulturnog centra Albahari, koja sadrži pesmu koju sam napravio uz pomoć AI sistema, kao i <a href='/rad/projekti/optimized-poetry/'>Radionica optimizovane poezije</a>, čitački performans i radionica računarske književnosti.
+<p>Tu je i <span class='italic-style'><a href='/rad/projekti/zima/'>Zima</a></span>, knjižica poezije u izdanju Kulturnog centra Albahari i umetničkog kolektiva Škart, koja sadrži pesmu koju sam napravio/napisao uz pomoć AI sistema, kao i <a href='/rad/projekti/optimized-poetry/'>Radionica optimizovane poezije</a>, čitački performans i radionica računarske književnosti.
 </p>
 <p>U epohi mreže verujem da kreativno pisanje ne sme da ignoriše činjenicu da je bilo koji tekst pre svega: 1) računarski podatak; i 2) digitalna roba. Za globalni tehno-lingvistički kapital, kako to <a href='https://infoscience.epfl.ch/record/200539?ln=en' target='_blank'>objašnjava prof. Frederic Kaplan</a>, reči su prosto indeksi roba i usluga.  Zašto ne bismo ova tehno-ekonomska ograničenja iskoristili kao umetnička ograničenja? Novi medijski režimi zazivaju nove poetske prakse – <span class='italic-style'>dataizam</span> umesto dadaizma.
 </p>
@@ -109,3 +109,7 @@ timeline:
       d: 2
     - year: 2019
       d: 4
+    - year: 2020
+      d: 2
+    - year: 2021
+      d: 1

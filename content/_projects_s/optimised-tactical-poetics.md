@@ -1,7 +1,7 @@
 title: 
     name: "Taktička poetika + Optimizovana poetika"
     html: "Taktička poetika +<br>Optimizovana poetika"
-    short: "Taktička poetika + Optimizovana poetika"
+    short: "Taktička + Optimizovana poetika"
 id: optimised-tactical-poetics
 date: 2020
 featured: 3
@@ -72,28 +72,64 @@ press:
           name: Centar za promociju nauke, Radio Aparat, Beograd, Srbija
 img_to_show: 5
 img_data:
-    - size: "1200x795"
-      caption: "Installation. Photo: Ivona Petrov."
-    - size: "1200x795"
-      caption: "Artist Book that mimics the branching logic of RNN-based text generation. Photo: Ivona Petrov."
-    - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov."
-    - size: "1200x795"
-      caption: "Selected generative poem from the book. Photo: Ivona Petrov."
-    - size: "1200x795"
-      caption: "Artist Book. Photo: Ivona Petrov." 
-lead: "Dve sestrinske knjige, <em>Tactical Poetics</em> i <em>Optimised Poetics</em>, opisuju nove poetske prakse za proizvodnju teksta u doba masovnog nadzora, veštačke inteligencije i digitalne komodifikacije. Zajednički digitalno-književno-umetnički projekat <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darije Medić</a> i Uroša Krčadinca, i zajednička publikacija <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalnog instituta MaMa</a> i Centra za nove medije <a href='https://kuda.org/' target='_blank'>Kuda.org</a>."
+    - size: "1920x1153"
+      caption: "Knjige <em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021." 
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1272x1920"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1272x1920"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+    - size: "1600x1060"
+      caption: "<em>Tactical Poetics</em> i <em>Optimised Poetics</em>. Foto: Ivona Petrov, 2021."
+lead: "Dve sestrinske knjige, <a href='/download/research/tactical_poetics_2020.pdf' target='_blank'><em>Tactical Poetics</em></a> i <a href='/download/research/optimised_poetics_2020.pdf' target='_blank'><em>Optimised Poetics</em></a>, opisuju nove poetske prakse za proizvodnju teksta u doba masovnog nadzora, veštačke inteligencije i digitalne komodifikacije. To je zajednički digitalno-književno-umetnički projekat <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darije Medić</a> i Uroša Krčadinca, i zajednička publikacija Multimedijalnog instituta <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>MaMa</a> i Centra za nove medije <a href='https://kuda.org/sr/vektori-kolektivne-imaginacije-darija-medi-uro-kr-adinac-tactical-poetics-optimised-poetics' target='_blank'>Kuda.org</a>."
 
 Koristeći tehnologije digitalne obrade prirodnog jezika onako kako ove tehnologije nisu predviđene da se koriste, kreirali smo nove oblike digitalne književnosti. 
 
-Ova književnost, upletena u tehničke protokole savremene algoritamske kulture, polazi od pretpostavke da pisanje kao takvo u savremenom trenutku nužno podrazumeva i preispitivanje softverskih alata i društvenih, ekonomskih i tehnoloških sistema koji današnje pisanje omogućuju – od Google Ad Keyword Plannera do servisa za analizu sentimenata. Kao što je rekao <a href='https://monoskop.org/media/text/goldsmith_2011_uncreative_writing/' target='_blank'>Kenet Goldsmit</a> (Keneth Goldsmith): današnji pisac pre podseća na programera nego na namučenog genija.
+Ova književnost, upletena u tehničke protokole savremene algoritamske kulture, polazi od pretpostavke da u savremenom trenutku pisanje kao takvo nužno podrazumeva i preispitivanje softverskih alata i društvenih, ekonomskih i tehnoloških sistema koji to pisanje omogućuju – od Google Ad Keyword Plannera do servisa za analizu sentimenata. Kao što je rekao <a href='https://monoskop.org/media/text/goldsmith_2011_uncreative_writing/' target='_blank'>Kenet Goldsmit</a> (Keneth Goldsmith): današnji pisac pre podseća na programera nego na namučenog genija.
  
-Kao dve sestrinske knjige, <em>Taktička poetika</em> (<em>Tactical Poetics</em>) i <em>Optimizovana poetika</em> (<em>Optimised Poetics</em>) uvode po dva projekta/pristupa oba autora. Ovi pristupi organizovani su po dvema metodama proizvodnje jezika i teksta kao izraza u računarskoj kulturi: optimizacije i taktike. Umesto da razdvajaju knjige po autorima, oba autora potpisuju obe knjige: na ovaj način, knjige prate strukturu svojih digitalnih pristupa, stvarajući prostor za razgovor između autora i čitalaca. Hijerarhija imenovanja je određena tako da oba autora imaju po jednu knjižicu na kojoj su predstavljeni kao »prvi« autor, a jednu za koju su »drugi«, sa idemom da se problematizuje klasičan akademski pristup autorstvu.
+Kao dve sestrinske knjige, <a href='/download/research/tactical_poetics_2020.pdf' target='_blank'><em>Taktička poetika</em> (<em>Tactical Poetics</em>)</a> i <a href='/download/research/optimised_poetics_2020.pdf' target='_blank'><em>Optimizovana poetika</em> (<em>Optimised Poetics</em>)</a>, uvode po dva projekta/pristupa oba autora. Ovi pristupi organizovani su po dvema metodama proizvodnje jezika i teksta kao izraza u računarskoj kulturi: optimizacije i taktike. Umesto da razdvajaju knjige po autorima, oba autora potpisuju obe knjige: na ovaj način, knjige prate strukturu svojih digitalnih pristupa, stvarajući prostor za razgovor između autora i čitalaca. Hijerarhija imenovanja je određena tako da oba autora imaju po jednu knjižicu na kojoj su predstavljeni kao »prvi« autor, a jednu za koju su »drugi«, sa idemom da se problematizuje klasičan akademski pristup autorstvu.
  
 Uzete zajedno, ove dve knjige čine predlog za razmišljanje o savremenim pejzažima kompjutacione i digitalne poetike. Predloženi pristupi nipošto ne iscrpljuju potencijal metoda u ovom prostoru, već predstavljaju eksperimentalnu kapsulu i poziv da im se pridruže druge rezonantne poetske niti.
  
 Ako je <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Became_Posthuman_Virtual_Bodies_in_Cybernetics_Literature_and_Informatics.pdf' target='_blank'>Katrin Hejls</a> (Katherine Hayles) bila u pravu kada je rekla da »postajemo kodovi koje ukucavamo« i ako razmislimo o transformativnom potencijalu otelotvorenja svakodnevnih digitalnih praksi, videćemo da poezija – ili ono što bi Dona Haravej (Donna Haraway) nazvala <a href='https://www.youtube.com/watch?v=zFGXTQnJETg' target='_blank'>spekulativnom fabulacijom</a> – nije samo oblik izražavanja. Ona postaje oblik preživljavanja.
 
-<em>Taktičku poetiku</em> i <em>Optimizovanu poetiku</em> zajedno su objavili <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a> (Zagreb) i <a href='https://kuda.org/' target='_blank'>Kuda.org</a> (Novi Sad) u okviru edicije Vektori zajedničke imaginacije (Vectors of Collective Imagination) 2020/2021. Jedan od eseja iz <em>Optimizovane poetike</em>, <a href='/rad/sveska/optimised-emotions' target='_blank'><em>Optimizovane emocije</em></a>, objavljen je u Svesci na ovom sajtu. 
+<em>Taktičku poetiku</em> i <em>Optimizovanu poetiku</em> zajedno su objavili <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a> (Zagreb) i <a href='https://kuda.org/sr/vektori-kolektivne-imaginacije-darija-medi-uro-kr-adinac-tactical-poetics-optimised-poetics' target='_blank'>Kuda.org</a> (Novi Sad) u okviru edicije <em>Vektori zajedničke imaginacije</em> (<em>Vectors of Collective Imagination</em>) 2020/2021. Jedan od eseja iz <em>Optimizovane poetike</em>, <a href='/rad/sveska/optimised-emotions' target='_blank'><em>Optimizovane emocije</em></a>, objavljen je u Svesci na ovom sajtu. 
 
 Knjige su slobodno i otvoreno licencirane. Možete ih preuzeti besplatno, pomoću linkova sa strane u sekciji Publikacije. <mark>&#9632;</mark>

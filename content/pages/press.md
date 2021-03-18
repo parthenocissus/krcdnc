@@ -14,6 +14,7 @@ data:
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2020</div>
     <ul>
+    <li><em>Data in Art and the Art of Data</em>, Elementarium 23, writer Katarina Popović, CPN, Belgrade, Serbia</li>
     <li><span class='italic-style'><a href='https://www.oblakoder.org.rs/mladi-i-obrazovanje-uros-krcadinac-i-vojislav-klacar-salon-e05/' target='_blank'>Saloon: Youth and Education</a></span> (Internet Talk Show), Oblakoder, author Marina Zec, Belgrade, Serbia</li>
     <li><span class='italic-style'><a href='https://www.mixcloud.com/Radioelementi/e-08-o-zelenijem-beogradu-linijskom-parku-ve%C5%A1ta%C4%8Dkoj-inteligenciji-umetnosti-i-nauci/' target='_blank'>Radio Elementi</a></span> (Radio Show), Center for the Promotion of Science, author Petar Laušević, Belgrade, Serbia</li>
     <li><span class='italic-style'><a href='https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/4051571/uros-krcadinac.html' target='_blank'>Digital Icons</a></span> (Radio Interview), Radio Belgrade, author Tamara Vučenović, Belgrade, Serbia</li>
@@ -61,4 +62,4 @@ timeline:
     - year: 2019
       d: 4
     - year: 2020
-      d: 3
+      d: 4

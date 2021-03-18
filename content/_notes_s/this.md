@@ -3,7 +3,7 @@ title:
     html: "Beleške o dizajnu ovog Web sajta"
     short: Beleške o dizajnu
 id: this
-featured: 3
+featured: 2
 date: "12/08/2020"
 js: 
     - ext/pictoarray.js

@@ -63,6 +63,7 @@ def press(flatpages, lang):
 def writing(flatpages, lang):
     diglit = "digital-literature"
     bantu = "bantustan-book"
+    tactical = "optimised-tactical-poetics"
     research = "research"
     by = "category"
     params = lang.params()
@@ -70,10 +71,15 @@ def writing(flatpages, lang):
 
     projs = [p for p in flatpages if p.path.startswith(lang.dir())]
     bantu_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), bantu))
+    tactical_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), tactical))
+
     prose_projects = [bantu_page]
+
     diglit_projs = list(filter(lambda x: (x["id"] != bantu) and (diglit in map(lambda d: d["id"], x[by])), projs))
     diglit_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
-    research_projs = list(filter(lambda x: (research in map(lambda d: d["id"], x[by])), projs))
+
+    # research_projs = list(filter(lambda x: (research in map(lambda d: d["id"], x[by])), projs))
+    research_projs = list(filter(lambda x: (x["id"] != tactical) and (research in map(lambda d: d["id"], x[by])), projs))
     research_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
 
     date_format = "%d/%m/%Y"
