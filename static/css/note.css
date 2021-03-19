@@ -164,6 +164,7 @@
     margin-block-start: 0;
     margin-block-end: 0.8em;
 }
+
 .sidenote p:last-child {
     margin-block-end: 0em;
 }
@@ -828,6 +829,44 @@ figure img:hover {
         width: 100%;
         height: calc(0.5357 * (100vw - 40px)) !important;
         padding: 0;
+    }
+
+    /* Optimised Poetry Styles */
+    .optimised-poetry-cont {
+        font-family: CartographSans-Medium, monospace;
+        font-size: 11pt;
+        line-height: 1.55em;
+        letter-spacing: 0.18pt;
+
+        margin-top: 28px !important;
+        margin-bottom: 28px !important;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 15px;
+        grid-template-areas: "ttl1" "orig" "ttl2" "col1" "col2";
+    }
+
+    .optimised-poetry-cont .orig {
+        font-family: CartographSans-Medium, monospace;
+        grid-area: orig;
+        margin-bottom: 20px !important;
+    }
+
+    .optimised-poetry-cont .ttl2 {
+        grid-area: ttl2;
+    }
+
+    .optimised-poetry-cont .col1 {
+        grid-area: col1;
+    }
+
+    .optimised-poetry-cont .col2 {
+        grid-area: col2;
+    }
+
+    .optimised-poetry-cont section {
+        padding-top: 20px !important;
+        padding-bottom: 10px !important;
     }
 
 
