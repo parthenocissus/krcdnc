@@ -39,7 +39,11 @@ data:
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Serbian Academy of Arts and Sciences, Belgrade, 2019"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2020</div>
+      <div class='list-title-first-page interface-heading-style'>2021</div>
+<ul>
+<li><span class='italic-style'>Artist Talk</span>, AI Lab, Centre for the Promotion of Science, Belgrade, Serbia</li>
+</ul>
+<div class='list-title interface-heading-style'>2020</div>
     <ul>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=MMUp1FtztGo' target='_blank'>The Possibility of Europe 2.0: The New Normal Debate</a></span> (Moderation of Public Debate), Literary Festival <span class='italic-style'>Krokodil Engaging Words</span>, Belgrade, Serbia</li>
 <li><span class='italic-style'><a href='https://connectforcreativity.eu/conference/convergence-between-creative-and-cultural-sectors-and-digital-technologies/' target='_blank'>Making Art with AI</a></span> (Public Lecture), Creative Explorations: From Social Entities to Ubiquitous Systems, Connect for Creativity, Athens, Greece</li>
@@ -189,3 +193,5 @@ timeline:
       d: 15
     - year: 2020
       d: 10
+    - year: 2021
+      d: 1
