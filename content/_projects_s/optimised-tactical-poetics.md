@@ -24,9 +24,9 @@ category:
       name: Data umetnost
 role:
     - id: writer
-      name: Ko-autor
+      name: Pisac koautor
     - id: artist
-      name: Ko-umetnik
+      name: Umetnik koautor
 medium:
     - id: book
       name: Knjige
@@ -50,7 +50,7 @@ presentations:
 publications:
     - year: 2021
       pubs:
-        - link: '/work/notebook/optimised-emotions'
+        - link: '/rad/sveska/optimised-emotions'
           linked: "Optimizovane emocije" 
           name: "Esej iz knjige <em>Optimizovana poetika</em>, U. Krčadinac, Sveska, 2021."
     - year: 2020
