@@ -130,4 +130,4 @@ If we consider Katherine Hayles's <a href='https://monoskop.org/images/5/50/Hayl
 
 <em>Tactical Poetics</em> and <em>Optimised Poetics</em> are co-published by <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a> (Zagreb) and <a href='https://kuda.org/en/vectors-collective-imagination-darija-medi-uro-kr-adinac-tactical-poetics-optimised-poetics' target='_blank'>Kuda.org</a> (Novi Sad) within Vectors of Collective Imagination in 2020/2021. One of the essays from <em>Optimised Poetics</em>, <a href='/work/notebook/optimised-emotions' target='_blank'><em>Optimised Emotions</em></a>, is published in my Notebook. 
 
-These books are under an open and free licenced. You are welcome to download them for free, from a link in the Publications section.<mark>&#9632;</mark>
+These books are under an open and free licenced. They can be downloaded for free, from a link in the Publications section.<mark>&#9632;</mark>

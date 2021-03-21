@@ -37,7 +37,7 @@ data:
     - title: Proza + putopis
       id: "prose"
       images: 
-        - path: "media/projects/bantustan-book/img/bantustan-book00.jpg"
+        - path: "media/pages/bantustan00.jpg"
         - path: "media/projects/bantustan-book/img/bantustan-book13.jpg"
       text: "<p>Prozu o putovanjima i ljudskim geografijama pisao sam u saradnji sa <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazarom Pašćanovićem</a>, piscem i istraživačem, i <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klubom putnika</a>, glavnim nezavisnim okupljalištem za samostalne putnike i putopisce Balkana.</p>
 <p>U ovoj grupi radova izdvajam <span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>, infografički putopis <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazara Pašćanovića</a>, <a href='http://www.klubputnika.org/autori/chivitli' target='_blank'>Marka Đedovića</a> i mene. Opisujući tromesečno putovanje od Srbije do Namibije, knjiga se fokusira na razgovore između nas i ljudi koje srećemo.  <span class='italic-style'>Bantustan</span> je knjiga o fluidnim identitetima, neočekivanim vezama, <a href='/rad/projekti/kp-identity/'>braunovskom kretanju</a> ljudskih čestica i pokušaju da zamislimo nove i drugačije kartografije ljudskih odnosa na zajedničkoj planeti.</p>

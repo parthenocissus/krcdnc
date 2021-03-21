@@ -33,7 +33,7 @@ data:
     - title: Prose + Travelogue
       id: "prose"
       images: 
-        - path: "media/projects/bantustan-book/img/bantustan-book00.jpg"
+        - path: "media/pages/bantustan00.jpg"
         - path: "media/projects/bantustan-book/img/bantustan-book13.jpg"       
       text: "<p>Travel prose focused on human geographies, written in collaboration with <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazar Pašćanović</a> and <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), the main Balkan hub for independent travelers and travel writers.</p>
 <p>The most prominent work is <span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: Atlas of a Journey</a></span> (<span class='italic-style'><a href='/rad/projekti/bantustan-book/'>Bantustan: Atlas jednog putovanja</a></span>), a book of travel prose written by <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazar Pašćanović</a>, <a href='http://www.klubputnika.org/autori/chivitli' target='_blank'>Marko Đedović</a>, and me. Describing a 3-month journey from Serbia to Namibia, the book consists of conversations between us and the people we met. <span class='italic-style'>Bantustan</span> is a book about fluid geographic identities, unlikely connections, <a href='/work/projects/kp-identity/'>brownian motion</a> of human particles – about trying to imagine new and different cartographies of human relationships on a shared globe.</p>

@@ -132,4 +132,4 @@ Ako je <a href='https://monoskop.org/images/5/50/Hayles_N_Katherine_How_We_Becam
 
 <em>Taktičku poetiku</em> i <em>Optimizovanu poetiku</em> zajedno su objavili <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a> (Zagreb) i <a href='https://kuda.org/sr/vektori-kolektivne-imaginacije-darija-medi-uro-kr-adinac-tactical-poetics-optimised-poetics' target='_blank'>Kuda.org</a> (Novi Sad) u okviru edicije <em>Vektori zajedničke imaginacije</em> (<em>Vectors of Collective Imagination</em>) 2020/2021. Jedan od eseja iz <em>Optimizovane poetike</em>, <a href='/rad/sveska/optimised-emotions' target='_blank'><em>Optimizovane emocije</em></a>, objavljen je u Svesci na ovom sajtu. 
 
-Knjige su slobodno i otvoreno licencirane. Možete ih preuzeti besplatno, pomoću linkova sa strane u sekciji Publikacije. <mark>&#9632;</mark>
+Knjige su slobodno i otvoreno licencirane. Mogu se preuzeti besplatno, pomoću linkova u sekciji Publikacije. <mark>&#9632;</mark>
