@@ -106,7 +106,6 @@ class Simulation {
         let graphics = [
             {
                 g: svg.append("g")
-                    // .attr("id", "tosave")
                     .attr("transform",
                         "translate(" + params.shift.g1 + ", " + params.vertical.margin1 + ")")
             },
@@ -147,7 +146,7 @@ class Simulation {
         };
         let simulate = function () {
             let delay = 0;
-            let element = graphics[0];
+            let element = graphics[1];
             let game = new Game(element.g, params, delay, styles);
             delay = game.play();
         };
@@ -211,7 +210,7 @@ class Board {
         this.colors = params.colors;
         this.styles = styles;
         this.stepDelay = 0;
-        this.playSpeed = {min: 40, max: 40};
+        this.playSpeed = {min: 100, max: 240};
         this.double = false;
         let maxDelay = 0, dur = 0;
         this.alternativePieceStyle = {
