@@ -11,7 +11,7 @@ main_img_data:
     file_name: "optimised-emotions-main.jpg"
     size: "1800x1800"
     caption: "Belgrade, 2020"
-lead: "By subverting and recontextualizing SEO paradigms and digital marketing regimes, this essay proposes novel poetic strategies. It was orginally published in the book <span class=italic-style><a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Optimised Poetics</a></span>, written by <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> and Uroš Krčadinac (<a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedia Institute</a>, 2020)."
+lead: "By subverting and recontextualizing SEO paradigms and digital marketing regimes, this essay proposes novel poetic strategies. It was orginally published in the book <span class=italic-style><a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Optimised Poetics</a></span>, written by <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> and me (<a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedia Institute</a>, 2020)."
 lead_short: "Essay from the book <span class=italic-style>Optimised Poetics</span>"
 content:
     - type: "txt"

@@ -39,7 +39,11 @@ data:
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Srpska akademija nauka i umetnosti, Beograd, 2019"        
       text: "<div class='section-list interface-page-li-style'>
-<div class='list-title-first-page interface-heading-style'>2020</div>
+<div class='list-title-first-page interface-heading-style'>2021</div>
+<ul>
+<li><span class='italic-style'>Autorsko predavanje</span>, AI Lab, Centar za promociju nauke, Beograd, Srbija</li>
+</ul>
+<div class='list-title interface-heading-style'>2020</div>
 <ul>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=MMUp1FtztGo' target='_blank'>Mogućnost Evrope 2.0: diskusija o novoj normalnosti</a></span> (moderacija javne debate), Književni festival <span class='italic-style'>Krokodil</span>, Amfiteatar ispred Muzeja Jugoslavije, Beograd, Srbija</li>
 <li><span class='italic-style'><a href='https://connectforcreativity.eu/conference/convergence-between-creative-and-cultural-sectors-and-digital-technologies/' target='_blank'>Making Art with AI</a></span> (javno predavanje), Creative Explorations: From Social Entities to Ubiquitous Systems, Connect for Creativity, Atina, Grčka</li>
@@ -188,3 +192,5 @@ timeline:
       d: 15
     - year: 2020
       d: 10
+    - year: 2021
+      d: 1
