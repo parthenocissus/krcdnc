@@ -15,7 +15,7 @@ content:
     - type: "txt"
       html: "<p>Dnevnik sam započeo u januaru 2020. Pisan je i crtan običnim crnim flomasterom (0.2) i (ponekad) bojen drvenim bojama. Dnevnik je nenameran i uglavnom besmislen,<sup id='s1'>1</sup> ali mi je bio lekovit. Prijatelji su me ubedili da ga skeniram i okačim na sajt. Neki kažu da ih podseća na kriptovane tokove podataka, drugi ga čitaju kao opsesivne otiske epidemijske izolacije, treći su uzalud pokušavali da ga rastumače. Nema šta da se rastumači: zato sam ga i crtao, da ne bih morao da razmišljam.</p>"
     - type: "img"
-      grid_rules: "grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr;"
+      grid_rules: "grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; grid-column-gap: 5px;"
       img_data:
         - file_name: "001.jpg"
           size: "1000x1565"
