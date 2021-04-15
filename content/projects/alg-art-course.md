@@ -1,7 +1,7 @@
 title: 
     name: Algorithmic Art for High Schools
     html: "Algorithmic Art<br> for High Schools"
-    title_short: Algorithmic Art
+    short: Algorithmic Art
 id: alg-art-course
 date: 2021
 featured: 2

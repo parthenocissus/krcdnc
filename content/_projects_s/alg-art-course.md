@@ -1,7 +1,7 @@
 title: 
     name: Algoritamska umetnost za srednje škole
     html: "Algoritamska umetnost<br>za srednje škole"
-    title_short: Algoritamska umetnost
+    short: Algoritamska umetnost
 id: alg-art-course
 date: 2021
 featured: 2
