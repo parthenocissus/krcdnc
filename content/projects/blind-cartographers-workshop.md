@@ -31,7 +31,7 @@ medium:
     - id: map
       name: Experimental Cartography
 team:
-    - link: 'http://www.klubputnika.org/autori/Lazar'
+    - link: 'https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/'
       name: Lazar Pašćanović
     - link: 'http://www.thetravelclub.org/about-the-club'
       name: Klub putnika (The Travel Club)    

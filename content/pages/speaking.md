@@ -98,35 +98,35 @@ data:
 <li><span class='italic-style'>Data Sculptures</span> (Lecture and Workshop),  Designer – Author or Universal Soldier, Faculty of Media and Communications, Belgrade, Serbia</li>
 <li><span class='italic-style'>Propaganda Machines</span> (Public Lecture), S.U.T.R.A. Festival of Digital Art, Museum of Science and Technology, Belgrade, Serbia</li>
 <li><span class='italic-style'>Database Sculptors</span> (Public Lecture and Workshop), S.U.T.R.A. Festival of Digital Art, Museum of Science and Technology, Belgrade, Serbia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Faculty of Education, Jagodina, Serbia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Cultural Centre, Smederevo, Serbia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Faculty of Education, Jagodina, Serbia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Cultural Centre, Smederevo, Serbia</li>
 </ul>
 <div class='list-title interface-heading-style'>2016</div>
 <ul>
 <li><span class='italic-style'>Anthropology Conversations</span> (Public Discussion), Anthropology Student Club, Student Cultural Center (SKC), Belgrade, Serbia</li>
 <li><span class='italic-style'><a href='https://novaiskra.com/en/become-author-digital-era/' target='_blank'>How to Become an Author in the Digital Era?</a></span></span> (Public Lecture), Nova Iskra, Belgrade, Serbia</li>
-<li><span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: Atlas of a Journey</a></span> (Book Lecture), City Library, Pirot, Serbia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Danilo Kiš Foundation, Subotica, Serbia</li>
+<li><span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: Atlas of an African Journey</a></span> (Book Lecture), City Library, Pirot, Serbia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Danilo Kiš Foundation, Subotica, Serbia</li>
 <li><span class='italic-style'>Data Visualization as a Storytelling Medium</span> (Public Lecture), S.U.T.R.A. / Tomorrow Festival of Digital and New Media Art, Belgrade, Serbia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), City Library, Sombor, Serbia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Cultural Centre, Čačak, Serbia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), City Library, Sombor, Serbia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Cultural Centre, Čačak, Serbia</li>
 <li><span class='italic-style'>Subversive Data Visualization for Digital Activists</span> (Public Lecture), K-Monitor, Budapest, Hungary</li>
 </ul>
 <div class='list-title interface-heading-style'>2015</div>
 <ul>
-<li><span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: Atlas of a Journey</a></span> (Book Lecture), Museum of African Art, Belgrade, Serbia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Booksa, Zagreb, Croatia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Kriterion, Sarajevo, BiH</li>
+<li><span class='italic-style'><a href='/work/projects/bantustan-book/'>Bantustan: Atlas of an African Journey</a></span> (Book Lecture), Museum of African Art, Belgrade, Serbia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Booksa, Zagreb, Croatia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Kriterion, Sarajevo, BiH</li>
 <li><span class='italic-style'><a href='https://www.youtube.com/watch?v=lOW9IeYoEqo' target='_blank'>Personal Atlas of the World</a></span> (Public Talk), TEDx Opatija, Opatija, Croatia</li>
 <li><span class='italic-style'>Public Lecture</span>, Point Conference, Sarajevo, BiH</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Palach Center, Rijeka, Croatia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), OKC Abrašević, Mostar, BiH</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Sikirica Art Gallery, Sinj, Croatia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Alternative Youth Centre, Kragujevac, Serbia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Community Center Rojc, Pula, Croatia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), City Library, Trebinje, BiH</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture),  Apolo Theater, Pančevo, Serbia</li>
-<li><span class='italic-style'>Bantustan: Atlas of a Journey</span> (Book Lecture), Youth Centre, Varaždin, Croatia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Palach Center, Rijeka, Croatia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), OKC Abrašević, Mostar, BiH</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Sikirica Art Gallery, Sinj, Croatia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Alternative Youth Centre, Kragujevac, Serbia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Community Center Rojc, Pula, Croatia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), City Library, Trebinje, BiH</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture),  Apolo Theater, Pančevo, Serbia</li>
+<li><span class='italic-style'>Bantustan: Atlas of an African Journey</span> (Book Lecture), Youth Centre, Varaždin, Croatia</li>
 </ul>
 <div class='list-title interface-heading-style'>2014</div>
 <ul>

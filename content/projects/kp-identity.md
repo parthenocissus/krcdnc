@@ -32,7 +32,7 @@ medium:
 team:
     - link: 'http://fud.edu.rs/monika-lang/'
       name: Monika Lang
-    - link: 'http://www.klubputnika.org/autori/Lazar'
+    - link: 'https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/'
       name: Lazar Pašćanović
     - link: 'http://www.thetravelclub.org/about-the-club'
       name: Klub putnika (The Travel Club)    
@@ -70,7 +70,7 @@ img_data:
       caption: "Presentation with Lazar Pašćanović @ SHARE Conference, Belgrade, Serbia"
     - size: "960x638"
       caption: "Presentation @ SHARE Conference, Belgrade, Serbia"
-lead: "Generative identity design for <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), an independent Balkan centre for non-commodified travel culture. Identity was created by <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a>, <a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a>, and me. Lines are generated algorithmically, in real time, and every time are different. Endless variety of lines represent unique geographic paths that each human being draws by traversing the common planet."
+lead: "Generative identity design for <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), an independent Balkan centre for non-commodified travel culture. Identity was created by <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a>, <a href='https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/' target='_blank'>Lazar Pašćanović</a>, and me. Lines are generated algorithmically, in real time, and every time are different. Endless variety of lines represent unique geographic paths that each human being draws by traversing the common planet."
 
 By moving and travelling, every human draws lines. Whether one moves to another room or another continent, a new line is formed. These lines are invisible. We imagined what would happen if they were visible (for instance, if every human carried a <a href='/work/project/goai-gps'>GPS device</a> all the time). A collection of these geographic lines, unique for each individual, would form an encyclopedia of human geography, a multi-billion page atlas of migration footprints.
 
@@ -78,7 +78,7 @@ It is similar to <a href='https://en.wikipedia.org/wiki/Brownian_motion' target=
 
 This was the original concept for the visual identity of The Travel Club, a community that promotes individual, subjective, creative, and anti-industrial vision of traveling, where an act of traveling is not an act of tourism but an act of understanding and feeling the globe we share. An act of developing a deeper sensibility of geographical, climate, economic, production, and technological systems we live in. 
 
-<a href='http://www.klubputnika.org/autori/Lazar' target='_blank'>Lazar Pašćanović</a> and me conceptualized the identity, <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a> designed several visual examples, and I've made the algorithmic generative version.
+<a href='https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/' target='_blank'>Lazar Pašćanović</a> and me conceptualized the identity, <a href='http://fud.edu.rs/monika-lang/' target='_blank'>Monika Lang</a> designed several visual examples, and I've made the algorithmic generative version.
 
 Software creates a new logo design every time, honoring the idea of each person's uniqueness. Built with <a href='https://d3js.org/' target='_blank'>D3.js</a>, it extends the tradition of generative logos (for example, the ones of the Serbian <a href='https://www.cpn.edu.rs/en/' target='_blank'>Centre for the Promotion of Science</a> and <a href='https://vimeo.com/110380013' target='_blank'>MIT Media Lab</a>), recontextualizing it within travel culture.
 

@@ -6,7 +6,7 @@ id: bantustan-book
 date: 2015
 featured: 3
 goto:
-    link: "http://klubputnika.org/tmp/Bantustan.pdf"
+    link: "/download/books/Bantustan.pdf"
     label: "Preuzmi knjigu"
 ranks:
     visual: 4
@@ -42,9 +42,9 @@ medium:
     - id: map
       name: Rukom crtane mape i infografike
 team:
-    - link: 'http://www.klubputnika.org/autori/Lazar'
+    - link: 'https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/'
       name: Lazar Pašćanović (koautor)
-    - link: 'http://www.klubputnika.org/autori/chivitli'
+    - link: 'https://www.amazon.com/Marko-Djedovic/e/B0936V89ZF/'
       name: Marko Đedović (koautor)
     - link: 'http://www.klubputnika.org/o-klub-putnika'
       name: Klub putnika
@@ -260,9 +260,11 @@ img_data:
       caption: "Na putu, sa Abasom Harunom, našim prijateljem iz Sudane. Foto: Lazar Pašćanović."
     - size: "720x450"
       caption: "Na putu. Sudan. Foto: Lazar Pašćanović."
-lead: "<span class='italic-style'>Bantustan: atlas jednog putovanja</span> je ilustrovan putopis <a href='http://www.klubputnika.org/autori/lazar' target='_blank'>Lazara Pašćanovića</a>, <a href='http://www.klubputnika.org/autori/chivitli' target='_blank'>Marka Đedovića</a> i mene. Opisujući tromesečno putovanje od Srbije do Namibije, knjiga predstavlja infografički međužanrovski narativ o fluidnim geografskim identitetima, neočekivanim vezama, <a href='/rad/projekti/kp-identity/'>braunovskom kretanju</a> ljudskih čestica i pokušaju da zamislimo nove i drugačije kartografije ljudskih odnosa na zajedničkoj planeti."
+lead: "<span class='italic-style'>Bantustan: atlas jednog putovanja</span> je ilustrovan putopis <a href='https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/' target='_blank'>Lazara Pašćanovića</a>, <a href='https://www.amazon.com/Marko-Djedovic/e/B0936V89ZF/' target='_blank'>Marka Đedovića</a> i mene. Opisujući tromesečno putovanje od Srbije do Namibije, knjiga predstavlja infografički međužanrovski narativ o fluidnim geografskim identitetima, neočekivanim vezama, <a href='/rad/projekti/kp-identity/'>braunovskom kretanju</a> ljudskih čestica i pokušaju da zamislimo nove i drugačije kartografije ljudskih odnosa na zajedničkoj planeti."
 
-<span class='italic-style'>Bantustan: Atlas jednog putovanja</span> dostupan je kao <a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>otvoreno licencirana besplatna elektronska knjiga</a> (trenutno samo na našem jeziku; engleska verzija je u pripremi). Knjigu smo objavili kao neprofitni samizdat, uz pomoć <a href='https://en.wikipedia.org/wiki/Crowdfunding' target='_blank'><span class='italic-style'>crowdfunding</span></a> kampanje koju je organizovala zajednica <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Kluba putnika</a>, najvećeg nezavisnog okupljališta za samostalne putnike i putopisce Balkana.
+<span class='italic-style'>Bantustan: Atlas jednog putovanja</span> dostupan je kao <a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>otvoreno licencirana besplatna elektronska knjiga</a>. Domaće izdanje knjige objavili smo kao neprofitni samizdat, uz pomoć <a href='https://en.wikipedia.org/wiki/Crowdfunding' target='_blank'><span class='italic-style'>crowdfunding</span></a> kampanje koju je organizovala zajednica <a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Kluba putnika</a>, najvećeg nezavisnog okupljališta za samostalne putnike i putopisce Balkana.
+
+Englesko izdanje, <em><a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic-ebook/dp/B092YYWX6Z/' target='_blank'>Bantustan: Atlas of an African Journey</a></em>, objavili smo 2021. Izdanje je globalno dostupno.
 
 <span class='italic-style'>Bantustan</span> je priča o našem tromesečnom putovanju 2010. kroz Srbiju, Bugarsku, Tursku, Siriju, Jordan, Egipat, Sudan, Keniju, Ugandu, Ruandu, D. R. Kongo, Tanzaniju, Zambiju i Namibiju. Kontekst putovanja donekle je vezan za psihogeografiju i <a href='/rad/projekti/category/geography'>eksperimentalnu geografiju</a>. Stopirajući i koristeći digitalne platforme za razmenu gostoprimstva, pokušali smo da se povežemo sa različitim ljudima svih klasa, rasa, uzrasta, identiteta i uverenja. Mnoge od njih upoznali smo zahvaljući filozofiji zajednice koju je negovao rani CouchSurfing. Putovanje je pokušalo da odgovori na pitanje kako fizički i čulno doživeti digitalno globalizovan svet.
 
