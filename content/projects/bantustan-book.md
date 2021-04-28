@@ -183,11 +183,16 @@ press:
           linked: Literary Review 
           name: Elis Bektaš
 publications:
+    - year: 2021
+      pubs:
+        - link: 'https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic-ebook/dp/B092YYWX6Z/'
+          linked: 'Bantustan: Atlas of an African Journey'
+          name: 'L. Pašćanović, U. Krčadinac, M. Đedović, The Travel Club, Novi Sad, Serbia (English and global edition)'
     - year: 2015
       pubs:
-        - link: 'http://www.klubputnika.org/tmp/Bantustan.pdf'
-          linked: "Bantustan: Atlas jednog putovanja (Bantustan: Atlas of an African Journey)" 
-          name: "L. Pašćanović, U. Krčadinac, M. Đedović, Klub putnika (The Travel Club), Novi Sad, Serbia"
+        - link: '/download/books/Bantustan.pdf'
+          linked: "Bantustan: Atlas jednog putovanja" 
+          name: "L. Pašćanović, U. Krčadinac, M. Đedović, Klub putnika, Novi Sad, Serbia (Serbo-Croatian edition)"
 img_to_show: 7       
 img_data:
     - size: "1200x772"
