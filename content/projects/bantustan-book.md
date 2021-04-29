@@ -6,7 +6,7 @@ id: bantustan-book
 date: 2015
 featured: 3
 goto:
-    link: "https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic-ebook/dp/B092YYWX6Z/"
+    link: "https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/"
     label: "Get Bantustan"
 ranks:
     visual: 4
@@ -185,7 +185,7 @@ press:
 publications:
     - year: 2021
       pubs:
-        - link: 'https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic-ebook/dp/B092YYWX6Z/'
+        - link: 'https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/'
           linked: 'Bantustan: Atlas of an African Journey'
           name: 'L. Pašćanović, U. Krčadinac, M. Đedović, The Travel Club, Novi Sad, Serbia (English and global edition)'
     - year: 2015
@@ -267,7 +267,7 @@ img_data:
       caption: "On the road. Sudan. Photo: Lazar Pašćanović."
 lead: "<span class='italic-style'>Bantustan: Atlas of an African Journey</span> (<span class='italic-style'><a href='/rad/projekti/bantustan-book'>Bantustan: atlas jednog putovanja</a></span>) is a book of travel prose and hand-drawn maps created by <a href='https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/' target='_blank'>Lazar Pašćanović</a>, <a href='https://www.amazon.com/Marko-Djedovic/e/B0936V89ZF/' target='_blank'>Marko Đedović</a>, and me. Describing a 3-month journey from Serbia to Namibia, it is an infographic cross-genre narrative about fluid geographic identities and the <a href='/work/projects/kp-identity/'>Brownian motion</a> of human particles, about trying to imagine new cartographies of human relationships on a shared globe."
 
-The English version of the book is globally available via the <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic-ebook/dp/B092YYWX6Z/' target='_blank'>Amazon website</a>. It is available as a paperback and an electronic book. The chief translator was Lazar Pаšćanović.
+The English version of the book is globally available via the <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazon website</a>. It is available as a paperback and an electronic book. The chief translator was Lazar Pаšćanović.
 
 The <a href='https://en.wikipedia.org/wiki/Serbo-Croatian' target='_blank'>Serbo-Croatian</a> version is available as <a href='http://www.klubputnika.org/tmp/Bantustan.pdf' target='_blank'>an openly licenced free electronic book</a>. It was published as a community non-profit self-publishing project, via a crowdfunding campaign organized by <a href='http://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a> (<a href='http://www.klubputnika.org/o-klub-putnika' target='_blank'>Klub putnika</a>), the main Balkan hub for independent travelers and travel writers. 
 
