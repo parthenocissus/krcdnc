@@ -20,7 +20,7 @@ His work has been shown at festivals and conferences in Europe, Asia, and North 
 
 As an educator and regular public speaker, he gave 100+ public talks, lectures, and workshops on various occasions, including three TEDx events in Serbia and Croatia, a talk about physical data art at re:publica Festival at Thessaloniki's MOMus, a lecture on generative systems at Vancouver’s School of Interactive Arts + Technologies, SFU, a talk about affective computing at Guangzhou’s South China Normal University, a lecture on AI aesthetics at Belgrade’s Museum of Science and Technology, a discussion on new media at Belgrade’s Salon of the Museum of Contemporary Art, and many other talks about digital art, writing, creative coding, mapmaking, and travel culture, including ones at SKC Belgrade, Booksa Zagreb, and Kriterion Sarajevo. 
 
-As a creative digital consultant, he co-founded an information and interaction design studio Uzrok (2013–2016) and worked with diverse clients, including United Nations Development Fund, Creole Choir of Cuba, Care International, BIRN, Crta, and Goethe-Institut Serbien.
+As a creative digital consultant, he co-founded an information and interaction design studio Uzrok (2013–2016) and worked with diverse clients, including United Nations Development Fund, Unicef, Creole Choir of Cuba, Care International, BIRN, Crta, and Goethe-Institut Serbien.
 
 He holds a PhD in Informatics from the University of Belgrade.
 
