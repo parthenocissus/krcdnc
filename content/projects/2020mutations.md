@@ -80,6 +80,6 @@ How to use these glyphs? A concrete example is the <a href='/space/neolib' targe
 
 <div id='mutation-parent' style='padding: 0 0 25px 0'></div>
 
-The software is written in <a href='https://p5js.org/' target='_blank'> p5.js</a>, a JavaScript library for non-programmers, artists, writers and designers. The <em>2020 mutation</em> code is uploaded on my <a href='https://github.com/parthenocissus/2020mutations' target='_blank'>GitHub</a> and in my public database of <a href='https://editor.p5js.org/parthenocissus/sketches/' target ='_ blank'>p5.js sketch</a>, free and openly licensed (GNU General Public License v3.0), for anyone who would like to use it in their educational and design projects.
+The software is written in <a href='https://p5js.org/' target='_blank'> p5.js</a>, a JavaScript library for non-programmers, artists, writers and designers. The <em>2020 mutation</em> code is uploaded on my <a href='https://github.com/parthenocissus/2020mutations' target='_blank'>GitHub</a> and in my public database of <a href='https://editor.p5js.org/parthenocissus/sketches/' target ='_ blank'>p5.js sketches</a>, free and openly licensed (GNU General Public License v3.0), for anyone who would like to use it in their educational and design projects.
 
 So far, <em>2020 mutations</em> have been shown at the <em>Fluid Design Forum</em>, University of Montenegro Faculty of Fine Arts, Cetinje, and during the Artist Talk at the Department of Digital Art, Faculty of Media and Communications, Belgrade, in autumn 2020.<mark>&#9632;</mark>
