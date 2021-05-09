@@ -9,7 +9,7 @@ main_img_data:
     file_name: "sifrarnici-main.jpg"
     size: "1800x936"
     caption: "Notebooks, 2020/2021."
-lead: "Random graphic diary of the epidemic, started in January 2020. To-do lists. Sketches for this site and other projects. Asemic charts. Pieces of administration. Small life plans. Personal inventory. Redacted data. Diagram meditations. Crypto-scribbles. The entire sketchbook will be shown at the <em><a href='https://www.facebook.com/events/973479983395720' target='_blank'>6 Notebooks</a></em> exhibition in the Social Centre <a href='https://www.facebook.com/sc.krov/' target='_blank'><em>Krov</em></a> (<em>Roof</em>) in Belgrade, on May 15, 2021."
+lead: "Random graphic diary of the epidemic, started in January 2020. To-do lists. Sketches for this site and other projects. Asemic charts. Pieces of administration. Small life plans. Personal inventory. Redacted data. Diagram meditations. Crypto-scribbles. The entire sketchbook will be shown at the <em><a href='https://www.facebook.com/events/974039323339786/' target='_blank'>6 Notebooks</a></em> exhibition in the Social Centre <a href='https://www.facebook.com/sc.krov/' target='_blank'>Krov</a> (Roof) in Belgrade, on May 15, 2021."
 lead_short: "Random graphic diary of the epidemic"
 content:
     - type: "txt"
@@ -102,7 +102,8 @@ content:
           size: "1000x1565"
           caption: "Notebooks, 2020/2021."
     - type: "txt"
-      html: "<p>The entire sketchbook will be shown at the <em><a href='https://www.facebook.com/events/973479983395720' target='_blank'>6 Notebooks</a></em> exhibition in the Social Centre <a href='https://www.facebook.com/sc.krov/' target='_blank'><em>Krov</em></a> (<em>Roof</em>) in Belgrade, on May 15, 2021. <mark>&#9632;</mark></p>"
+      html: "<p>The entire sketchbook will be shown at the <em><a href='https://www.facebook.com/events/974039323339786/' target='_blank'>6 Notebooks</a></em> exhibition in the Social Centre <a href='https://www.facebook.com/sc.krov/' target='_blank'><em>Krov</em></a> (<em>Roof</em>) in Belgrade, on May 15, 2021. The exhibition was curated by Srđan Tunić and Aleksandar Jevtić. Artists include David Debeljević, Jelena Ilić, Dunavski Buzukije, Endo, Ivana Arandjelović and me.</p>
+       <p>Curators said: “The exhibition shows the works of six authors who employ the form of an art sketchbook. Some of these works were created spontaneously, some were carefully planned, as autonomous works. Art sketchbooks are not something that the audience often has the opportunity to see, they are not packaged so that they have maximum exhibition or commercial potential, but they allow us to peek into the personal, sometimes obsessive, thought process of the author. Each of these notebooks, in addition to being a work of art, is also a diary. So we see how the authors talk to themselves and we see how concentrated, transcendent, dynamic, meaningful and performative that conversation can be.” <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1
       html: "There are, for instance, <a href='/work/notebook/this/' target='_blank'>design notes for this Website</a>, as well as sketches for <a href='/work/projects/2020mutations/' target='_blank'>some experiments for students</a>."
