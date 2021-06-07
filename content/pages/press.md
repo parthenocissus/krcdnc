@@ -14,7 +14,7 @@ data:
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2021</div>
     <ul>
-    <li><em><a href='https://podcast.rs/jedan-pisac-jedna-knjiga-2-james-bridle-novo-mracno-doba-26-01-2021/' target='_blank'>One Writer, One Book</em>, Radio Galaxy, host Dušan Pavlović, Belgrade, Serbia</li>
+    <li><em><a href='https://podcast.rs/jedan-pisac-jedna-knjiga-2-james-bridle-novo-mracno-doba-26-01-2021/' target='_blank'>One Writer, One Book</a></em> (Podcast Interview), Radio Galaxy, host Dušan Pavlović, Belgrade, Serbia</li>
     </ul>
       <div class='list-title interface-heading-style'>2020</div>
     <ul>
