@@ -41,6 +41,10 @@ data:
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2021</div>
 <ul>
+<li><span class='italic-style'>Artist Talk</span>, Visualizing Knowledge Conference, Aalto University, Finland</li>
+<li><span class='italic-style'>AI and Culture</span> (Public Lecture), Department of Software Engineering, Faculty of Organisational Sciences, University of Belgrade, Serbia</li>
+<li><span class='italic-style'>Algoritmic Culture</span> (Public Lecture), Belgrade Open School, Belgrade, Serbia</li>
+<li><span class='italic-style'>How I Spent the Pandemic</span> (Public Lecture), Petnica Science Centre, Serbia</li>
 <li><span class='italic-style'>Artist Talk</span>, AI Lab, Centre for the Promotion of Science, Belgrade, Serbia</li>
 </ul>
 <div class='list-title interface-heading-style'>2020</div>

@@ -12,7 +12,11 @@ data:
         - path: "media/pages/teaching02.jpg"
         - path: "media/pages/krokodil02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2020</div>
+      <div class='list-title-first-page interface-heading-style'>2021</div>
+    <ul>
+    <li><em><a href='https://podcast.rs/jedan-pisac-jedna-knjiga-2-james-bridle-novo-mracno-doba-26-01-2021/' target='_blank'>One Writer, One Book</em>, Radio Galaxy, host Dušan Pavlović, Belgrade, Serbia</li>
+    </ul>
+      <div class='list-title interface-heading-style'>2020</div>
     <ul>
     <li><em>Data in Art and the Art of Data</em>, Elementarium 23, writer Katarina Popović, CPN, Belgrade, Serbia</li>
     <li><span class='italic-style'><a href='https://www.oblakoder.org.rs/mladi-i-obrazovanje-uros-krcadinac-i-vojislav-klacar-salon-e05/' target='_blank'>Saloon: Youth and Education</a></span> (Internet Talk Show), Oblakoder, author Marina Zec, Belgrade, Serbia</li>

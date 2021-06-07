@@ -41,7 +41,11 @@ data:
       text: "<div class='section-list interface-page-li-style'>
 <div class='list-title-first-page interface-heading-style'>2021</div>
 <ul>
+<li><span class='italic-style'>Prezentacija umetničkog i dizajnerskog rada</span>, Visualizing Knowledge Conference, Aalto University, Helsinki, Finska</li>
 <li><span class='italic-style'>Autorsko predavanje</span>, AI Lab, Centar za promociju nauke, Beograd, Srbija</li>
+<li><span class='italic-style'>Mašinsko učenje, umetnost i kultura</span> (javno predavanje), Odsek za softversko inženjerstvo, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
+<li><span class='italic-style'>Kritička novomedijska umetnost</span> (javno predavanje), Beogradska otvorena škola, Beograd, Srbija</li>
+<li><span class='italic-style'>Kako sam proveo pandemiju</span> (javno predavanje), Seminar dizajna, Istraživačka stanica Petnica, Srbija</li>
 </ul>
 <div class='list-title interface-heading-style'>2020</div>
 <ul>

@@ -12,7 +12,11 @@ data:
         - path: "media/pages/teaching02.jpg"
         - path: "media/pages/krokodil02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2020</div>
+      <div class='list-title-first-page interface-heading-style'>2021</div>
+    <ul>
+    <li><em><a href='https://podcast.rs/jedan-pisac-jedna-knjiga-2-james-bridle-novo-mracno-doba-26-01-2021/' target='_blank'>Jedan pisac, jedna knjiga</em>, Radio Galaksija, vodio Dušan Pavlović</li>
+    </ul>
+      <div class='list-title interface-heading-style'>2020</div>
     <ul>
     <li><em>Podaci u umetnosti i umetnost podataka</em>, esej o data umetnosti, Elementarijum 23, autorka Katarina Popović, CPN</li>
     <li><span class='italic-style'><a href='https://www.oblakoder.org.rs/mladi-i-obrazovanje-uros-krcadinac-i-vojislav-klacar-salon-e05/' target='_blank'>Oblakoderov Salon: mladi i obrazovanje</a></span> (Internet emisija), Oblakoder, vodila Marina Zec</li>
