@@ -277,7 +277,7 @@ main {
     .main-container {
         width: calc(100vw - 40px);
         padding: 120px 0 0 0;
-        height: calc(100vh - 120px);
+        height: calc(100vh - 200px);
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -305,7 +305,7 @@ main {
     .linechart-index {
         grid-area: tre;
         align-self: end;
-        padding: 25px 0 20px 0;
+        padding: 10px 0 20px 0;
         margin: 0;
     }
 
