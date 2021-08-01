@@ -76,7 +76,7 @@ publications:
     - year: 2013
       pubs:
         - link: "/download/synesketch/research/2013-Synesketch_An_Open_Source_Library_for_Sentence-based_Emotion_Recognition-Krcadinac_Pasquier_Jovanovic_and_Devedzic.pdf"
-          linked: "Synesketch: An Open Source Library for SentenceBased Emotion Recognition"
+          linked: "Synesketch: An Open Source Library for Sentence-Based Emotion Recognition"
           name: "Krcadinac U., Pasquier P., Jovanovic J. & Devedzic V., IEEE Transactions on Affective Computing 4(3): 312-325, 2013, doi: 10.1109 / T-AFFC.2013.18 (Preprint PDF)"
 awards:
     - year: 2008

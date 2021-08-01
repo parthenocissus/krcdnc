@@ -584,6 +584,16 @@ figure img:hover {
     grid-template-areas: "ttl1 ttl1" "orig orig" "ttl2 ttl2" "col1 col2";
 }
 
+.tactical {
+    grid-template-columns: 12fr 10fr;
+    grid-column-gap: 50px;
+}
+
+.tact-margin {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
 .optimised-poetry-cont .ttl1 {
     grid-area: ttl1;
 }
@@ -608,6 +618,13 @@ figure img:hover {
 
 .optimised-poetry-cont section {
     padding-bottom: 10px !important;
+}
+
+.xbold {
+    font-family: CartographSans-XBoldItalic, monospace;
+}
+.optimised-poetry-cont section.xbold {
+    padding-bottom: 4px !important;
 }
 
 .optimised-poetry-cont section .title {
