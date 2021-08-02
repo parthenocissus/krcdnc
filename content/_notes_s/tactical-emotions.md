@@ -8,65 +8,65 @@ date: "01/07/2021"
 main_img_data:
     file_name: "tactical-emotions-main.jpg"
     size: "1600x1000"
-    caption: "Foto: Ivona Petrov. Belgrade, 2021."
-lead: "Tretirajući beletristiku i umetničko pisanje kao tehnike koje se mogu koristiti protiv automatskog nadzora (i obrnuto, tretirajući tehnike protiv nadzora kao oblik tekstualne umetnosti), ovaj esej predlaže nove poetske strategije za algoritamsko i algokratsko društvo. Originalna verzija eseja objavljena je u knjizi <em><a href='/download/research/tactical_poetics_2020.pdf' target='_blank'>Tactical Poetics</a></em>, koju smo napisali <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> i ja (<a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a>, 2020)."
+    caption: "Foto: Ivona Petrov. Beograd, 2021."
+lead: "Tretirajući beletristiku i umetničko pisanje kao tehnike koje se mogu koristiti protiv automatskog nadzora (i obrnuto, tretirajući tehnike protiv nadzora kao oblik pisane umetnosti), ovaj esej predlaže nove poetske strategije za algoritamsko i algokratsko društvo. Originalna verzija eseja objavljena je u knjizi <em><a href='/download/research/tactical_poetics_2020.pdf' target='_blank'>Tactical Poetics</a></em>, koju smo napisali <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a> i ja (<a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a>, 2020)."
 lead_short: "Esej iz knjige <em>Tactical Poetics</em>"
 content:
     - type: "txt"
-      html: "<p>2008. godine, zajedno sa partnerima iz beogradske laboratorije za primenjenu veštačku inteligenciju Good Old AI, započeo sam rad na softverskom projektu u oblasti afektivnog računarstva, oblasti koje povezuje računarske sisteme sa ljudskim emocijama. Projekat se zvao Synesketch.<sup id='s1'>1</sup> U pitanju je softverska biblioteka otvorenog koda za prepoznavanje i generativnu vizuelizaciju emocija u tekstu.<sup id='s2'>2</sup> Inspirisan konceptom sinestezije, Synesketch je zamišljen kao veštački sinesteta,<sup id='s3'>3</sup> softver koji mapira tekst na apstraktne animirane vizuale koji predstavljaju osećanja. Projekat je započet u doba pre post-istine, pre globalne krize, kada su afektivne AI tehnologije smatrane relativno nevinim, naročito u zajednicama programera i kreativnih tehnologa.</p>
-      <p>Kako Synesketch radi? Ukoliko, primera radi, ukucate »ja sam srećan«, dobićte vizuelni vrtlog čestica jarkih boja; ukoliko ukucate »nisam srećan« ili »srce mi je slomljeno«, dobićete plavičasti okean sačinjen od svetlucavih tačaka.<sup id='s4'>4</sup> Tehnika prepoznavanja emocija u tekstu zasniva se na metodi uočavanja ključnih reči, koja koristi skup heurističkih pravila, leksikon reči baziran na WordNetu, i leksikon emotikona i uobičajenih skraćenica.</p>
+      html: "<p>2008. godine, zajedno sa partnerima iz beogradske laboratorije za primenjenu veštačku inteligenciju Good Old AI, započeo sam rad na softverskom projektu u oblasti afektivnog računarstva, oblasti koje povezuje računarske sisteme sa ljudskim emocijama. Projekat se zvao Synesketch.<sup id='s1'>1</sup> U pitanju je softverska biblioteka otvorenog koda za prepoznavanje i generativnu vizuelizaciju emocija u tekstu.<sup id='s2'>2</sup> Inspirisan konceptom sinestezije, Synesketch sam zamislio kao veštačkog sinestetu,<sup id='s3'>3</sup> softver koji mapira tekst na apstraktne animirane vizuale koji predstavljaju osećanja. Projekat je započet u doba pre post-istine, pre globalne krize, kada su afektivne AI tehnologije smatrane relativno nevinim, naročito u zajednicama programera i kreativnih tehnologa.</p>
+      <p>Kako Synesketch radi? Ukoliko, primera radi, ukucate »ja sam srećan«, dobićete vizuelni vrtlog čestica jarkih boja; ukoliko ukucate »nisam srećan« ili »srce mi je slomljeno«, dobićete plavičasti okean sačinjen od svetlucavih tačaka.<sup id='s4'>4</sup> Tehnika prepoznavanja emocija u tekstu zasniva se na metodi uočavanja ključnih reči, koja koristi skup heurističkih pravila, leksikon reči baziran na WordNetu, i leksikon emotikona i uobičajenih skraćenica.</p>
       <p>Dvanaest godina kasnije, pak, kada pogledam ovaj projekat, vidim ga kao apstraktni portret data naivnosti. Teško je poreći da je afektivna tehnologija postala još jedno oruđe za digitalnu kontrolu, propagandu, upravljanje masovnim osećanjima i eksploataciju emocionalnog rada.</p>
-      <p>Adam Grinfild (Greenfield), na primer, u svojim »Radikalnim tehnologijama«<sup id='s5'>5</sup> piše o japanskoj korporaciji Kejkju, koja meri kvalitet osmeha svojih zaposlenih.<sup id='s6'>6</sup> Kejkjuov softver skenira pokrete očiju radnika, obline usana i bore, i ocenjuje ih na skali od 0 do 100. »Za one sa nižim ocenama«, Grinfild citira članak u časopisu Foreign Policy koji govori o ovom sistemu, »na ekranu će biti prikazani saveti poput ‘Izgledate preozbiljno’ or ‘Podignite uglove svojih usana’. Radnici će odštampati i nositi sliku svog najboljeg osmeha u pokušaju da to zapamte.”</p>
-      <p>Iako Synesketch nema konkretne veze sa ovakvim algoritmima, nalazi se u istoj kategoriji tehnologija za kvantifikaciju osećanja. Ono što sam smatrao eksperimentom u oblasti digitalnih umetnosti efektivno je postalo političko-ekonomsko oružje. Synesketch, drugim rečima, nije bio samo umetnička spravica, bio je i maleni bojni brod – istovremeno i estetski i taktički objekat. Zato sam, deceniju kasnije, odlučio da mu pristupim upravo na taj način.</p>"
+      <p>Adam Grinfild (Greenfield), na primer, u svojim »Radikalnim tehnologijama«<sup id='s5'>5</sup> piše o japanskoj korporaciji Kejkju, koja meri kvalitet osmeha svojih zaposlenih.<sup id='s6'>6</sup> Kejkjuov softver skenira pokrete očiju radnika, obline usana i bore, i ocenjuje ih na skali od 0 do 100. »Za one sa nižim ocenama«, Grinfild citira članak u časopisu Foreign Policy koji govori o ovom sistemu, »na ekranu će biti prikazani saveti poput ‘Izgledate preozbiljno’ ili ‘Podignite uglove svojih usana’. Radnici će odštampati i nositi sliku svog najboljeg osmeha u pokušaju da ga zapamte.”</p>
+      <p>Iako Synesketch nema konkretne veze sa ovakvim algoritmima, nalazi se u istoj kategoriji tehnologija za kvantifikaciju osećanja. Ono što sam smatrao eksperimentom u polju digitalne umetnosti efektivno je postalo političko-ekonomsko oružje. Synesketch, drugim rečima, nije bio samo umetnička spravica, bio je i maleni bojni brod – istovremeno i estetski i taktički objekat. Zato sam, deceniju kasnije, odlučio da mu pristupim upravo na taj način.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr; margin-bottom: 10px !important;"
       img_data:
         - file_name: "dazzle002.png"
           size: "812x276"
-          caption: "Dazzle war ships and how they work. Photograph of the USS West Mahomet in Dazzle camouflage, 1918. Courtesy US Naval Historical and Heritage Command, NH 1733."
+          caption: "Bojni brodovi iz projekta Zasena (Dazzle). Fotografija kamufliranog broda USS West Mahomet, 1918. Izvor: US Naval Historical and Heritage Command, NH 1733."
     - type: "img"
       grid_rules: "grid-template-columns: 49fr 142fr; margin-top: 0 !important;"
       img_data:
         - file_name: "dazzle003.png"
           size: "490x800"
-          caption: "Official report on a camouflaged ship in 1918."
+          caption: "Zvanični izvor o mornaričkoj kamuflaži iz 1918."
         - file_name: "dazzle004.png"
           size: "1420x800"
-          caption: "Artistic rendering of a camouflaged ship. Via <a href='https://99percentinvisible.org/episode/episode-65-razzle-dazzle/' target='_blank'>Roman Mars</a>, 99% Invisible."
+          caption: "Crtež brodova iz projekta Zasena. Izvor: <a href='https://99percentinvisible.org/episode/episode-65-razzle-dazzle/' target='_blank'>Roman Mars</a>, 99% Invisible."
     - type: "txt"
-      html: "<p>There is an intriguing example from technological history, that combines visual æsthetics and military tactics. Before the First World War, the British and US military started to paint its ships in strange – and rather beautiful – black-and-white zebra-like shapes, in order to confuse German torpedo-equipped U-Boats. This naval camouflage tactics was called Dazzle.<sup id='s7'>7</sup></p>
-      <p>«This camouflage was not about invisibility”, said the writer and producer Roman Mars.<sup id='s8'>8</sup> «It was about disruption. Confusion.” Artists such as Picasso considered these ships æsthetic objects, even claiming such artistic camouflage was invented by cubists.</p>
-      <p>In 2010 artist and technologist Adam Harvey initiated a media art project called CV Dazzle.<sup id='s9'>9</sup> It is a set of fashion strategies for making your face unrecognizable by face recognition algorithms. These strategies have an exciting visual flair (including eccentric make-up and hairdos), showing again that a style driven by tactics can indeed be æsthetically significant.</p>"
+      html: "<p>Postoji intrigantan primer iz tehnološke istorije, koji kombinuje vizuelnu estetiku i vojnu taktiku. Pre Prvog svetskog rata, naime, britanska i američka mornarice počele su da oslikavaju svoje brodove u neobične – i začudno lepe – zebraste oblike. Optičkom varkom, to je bio cilj, trebalo je zbuniti nemačke podmornice opremljene torpedima. Ova pomorsko-maskirna taktika nazvana je Zasena ili <em>Dazzle</em>.<sup id='s7'>7</sup>.</p>
+      <p>»Poenta ovakve vrste kamuflaže nije bila u nevidljivosti«, tvrdi pisac i producent Roman Mars.<sup id='s8'>8</sup> »Poenta je bila – smetnja. Šum. Konfuzija. Zbunjivanje.« Umetnici poput Pikasa (Picasso) smatrali su ove brodove estetskim predmetima, čak tvrdeći da su takvu umetničku kamuflažu izmislili kubisti.</p>
+      <p>2010. godine, umetnik i programer Adam Harvi (Harvey) pokrenuo je novomedijski umetnički projekat pod nazivom <em>CV Dazzle</em>.<sup id='s9'>9</sup> U pitanju je skup modnih strategija, koje služe tome da vaše lice učinite neprepoznatljivim za AI algoritme koji prepoznaju lica. Harvijeve strategije imaju uzbudljiv vizuelni šmek, uključujući ekscentričnu šminku i frizuru: stil koji je nastao zbog taktike uistinu može biti i estetski relevantan.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 656fr 1211fr;"
       img_data:
         - file_name: "cv-dazzle2.jpg"
           size: "656x656"
-          caption: "Anti-surveillance make-up, <a href='https://cvdazzle.com/' target='_blank'>CV Dazzle</a>, concept by Adam Harvey, 2010-2021."
+          caption: "Šminka protiv algoritama za prepoznavanje lica, <a href='https://cvdazzle.com/' target='_blank'>CV Dazzle</a>, autor koncepta Adam Harvi (Harvey), 2010-2021."
         - file_name: "cv-dazzle1.jpg"
           size: "1211x656"
-          caption: "Anti-surveillance make-up, <a href='https://cvdazzle.com/' target='_blank'>CV Dazzle</a>, concept by Adam Harvey, 2010-2021."
+          caption: "Šminka protiv algoritama za prepoznavanje lica, <a href='https://cvdazzle.com/' target='_blank'>CV Dazzle</a>, autor koncepta Adam Harvi (Harvey), 2010-2021."
     - type: "txt"
-      html: "<p>If we apply the same logic to textual instead of visual media, we get a version of textual expression embedded as playful encryption. That is the core concept of the <em>Tactical Emotions</em><sup id='s10'>10</sup> project: to reapproach Synesketch only to use it in a game of contemporary dazzle.</p>
-      <p>Similar to Dazzle battleships and their artistic camouflage, the intention behind <em>Tactical Emotions</em> is to deliberately confuse and fool textual emotion recognition systems and software tools for sentiment analysis. Not only Synesketch, but also Python NLTK<sup id='s11'>11</sup> (for English) and Inspiratron<sup id='s12'>12</sup> (for Serbo-Croatian). This is done by searching for phrases, sentences, styles, verses, and text fragments whose emotional meaning these systems couldn’t interpret – yet humans can. For example, if you type in «I am happy but”, Synesketch will recognize a positive emotion. We as humans, however, know this «but” changes everything. This offers a novel way of looking at literary æsthetics.</p>
-      <p>Take this sentence, for instace: «It is meaningless to love.” It would not be hard to agree that it is not a very positive proposition, however Python NLTK recognized it as such, probably because the affective weight of the word «love” (which is positive) outweights the word «meaningless” (which is negative). A line from Oskar Davičo's poem, «love is a beacon and saved sailors,” turns out negative. Is it because it alludes to a shipwreck? If John Lennon's «a working class hero is something to be” gets recognised as negative, does it mean that algorithms perceive «working class” itself as something negative? Banal statistical vulgarity of sentiment analysis algorithms, when read and experienced by humans, turns into fine poetic irony.
-      <p>Metaphors and allegories have always been, at least in part, a form of strategic encryption of meaning. What makes it new is the computational aspect of contemporary surveillance, control, and machine-mediated power. Tactical Emotion is, thus, writing against the machine, recontextualized as poetry.</p>
-      <p>One could say that poetry – by this very definition – is something computers cannot recognize. Instead, poetry becomes digital camouflage. ↓</p>"
+      html: "<p>Ako istu logiku primenimo na tekstualni umesto na vizuelni medij, dobićemo tekstualni izraz u obliku razigrane enkripcije. To je osnovni koncept projekta <em>Tactical Emotions</em><sup id='s10'>10</sup> ponovo uzeti Synesketch i upotrebiti ga u igri savremenih zasena.</p>
+      <p>Slično bojnim brodovima projekta Zasena i njihovoj umetničkoj kamuflaži, Taktičkim emocijama nastojimo da namerno zbunimo, zavaramo i zasenimo sisteme za prepoznavanje tekstualnih emocija i softverske alate za analizu sentimenata. Ne samo Synesketch, nego i Python NLTK<sup id='s11'>11</sup> (za engleski) i Inspiratron<sup id='s12'>12</sup> (za naš jezik). To postižemo tako što smišljamo fraze, rečenice, stilove, stihove i fragmente teksta čije emocionalno značenje ovi sistemi ne mogu da rastumače – iako ljudi mogu. Ukoliko, primera radi, ukucate »srećan sam, ali«, Synesketch će prepoznati pozitivnu emociju. Mi, ljudi, međutim, znamo da ovo »ali« menja sve. Otuda koncept Taktički emocija nudi nov način sagledavanja pisane estetike.</p>
+      <p>Uzmimo sledeću rečenicu: »besmisleno je voleti«. Da li je ova rečenica izražava nedvosmislenu pozitivnu emociju? Sudeći po izlazu iz sistema Python NLTK, rečenica jeste pozitivna – verovatno zato što afektivna težina reči »voleti« (koja je pozitivna) nadmašuje reč »besmisleno« (koja je negativna). Rečenicu Oskara Daviča, »ljubav je svetionik i spaseni mornari«, Python NLTK vidi kao negativnu. Da li je to otud što iskaz aludira na brodolom? »A working class hero is something to be«, stih Džona Lenona (John Lennon), takođe je prepoznat kao negativan. Sam koncept radničke klase algoritmi vide kao nešto negativno? Ne znam. Ali, ovo znam: banalna statistička vulgarnost algoritama za analizu sentimenata, kada je pročitaju ljudi koji su sačuvali sposobnost čuđenja, pretvara se u finu poetsku ironiju.</p>
+      <p>Metafore i alegorije oduvek su bile, makar delimično, oblik strateške enkripcije značenja. Ono što savremeno stanje čini novim jeste račun(ar)ski aspekt savremenog nadzora, kontrole i mašinski posredovane moći. Taktičke emocije su, dakle, pisanje protiv mašine, <em>writing against the machine</em>, rekontekstualizovano kao poezija.</p>
+      <p>Moglo bi se reći da poezija – po ovoj samoj definiciji – predstavlja nešto što računari ne mogu da prepoznaju. Na ovaj način poezija postaje digitalna kamuflaža. ↓</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 628fr 948fr 628fr 948fr;"
       img_data:
         - file_name: "tactical-poetics00XB.jpg"
           size: "628x948"
-          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Photo: Ivona Petrov, 2021."
+          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Foto: Ivona Petrov, 2021."
         - file_name: "tactical-poetics002B.jpg"
           size: "948x948"
-          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Photo: Ivona Petrov, 2021."
+          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Foto: Ivona Petrov, 2021."
         - file_name: "tactical-poetics001B.jpg"
           size: "628x948"
-          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Photo: Ivona Petrov, 2021."
+          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Foto: Ivona Petrov, 2021."
         - file_name: "tactical-poetics003B.jpg"
           size: "948x948"
-          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Photo: Ivona Petrov, 2021."
+          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Foto: Ivona Petrov, 2021."
     - type: "txt"
       html: "<div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
@@ -76,7 +76,7 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ Python NLTK: pozitivna emocija
+                ☜ Python NLTK:<br>pozitivna emocija
             </section>
         </div>  
     </div>
@@ -88,20 +88,21 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ Python NLTK: pozitivna emocija
+                ☜ Python NLTK:<br>pozitivna emocija
             </section>
         </div>  
     </div>
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                Reci mi, kako je to biti
-                lepa mladost u ružnoj državi?
+                Reci mi, kako je to biti<br>
+                lepa mladost<br>
+                u ružnoj državi?
             </section>
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised positive by Inspiratron
+                ☜ Inspiratron:<br>pozitivna emocija
             </section>
         </div>  
     </div>
@@ -114,7 +115,7 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised positive by Inspiratron
+                ☜ Inspiratron:<br>pozitivna emocija
             </section>
         </div>  
     </div>
@@ -129,7 +130,7 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised neutral by Synesketch
+                ☜ Synesketch:<br>neutralna emocija
             </section>
         </div>  
     </div>
@@ -144,7 +145,7 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised neutral by Synesketch
+                ☜ Synesketch:<br>neutralna emocija
             </section>
         </div>  
     </div>
@@ -160,7 +161,7 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised negative by Synesketch
+                ☜ Synesketch:<br>negativna emocija
             </section>
         </div>  
     </div>
@@ -172,7 +173,7 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised neutral by Python NLTK
+                ☜ Python NLTK:<br>neutralna emocija
             </section>
         </div>  
     </div>
@@ -188,15 +189,14 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised negative by Inspiratron
+                ☜ Inspiratron:<br>negativna emocija
             </section>
         </div>  
     </div>
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                While history was happening, what did I do?<br>
-                Just loved you.
+                Dok je istorija trajala šta sam ja radio? Prosto volio tebe.
             </section>
             <section>
                 – Izet Sarajlić
@@ -204,14 +204,14 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised negative by Inspiratron
+                ☜ Inspiratron:<br>negativna emocija
             </section>
         </div>  
     </div>
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                A box of lead letters, and that’s not much... but it’s the only thing man has invented to this day as a weapon in defense of his human pride.
+                Kutija olovnih slova, a to nije mnogo... ali je jedino što je čovjek do danas izumio kao oružje u obranu svog ljudskog ponosa.
             </section>
             <section>
                 – Miroslav Krleža
@@ -219,28 +219,28 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised negative by Inspiratron
+                ☜ Inspiratron:<br>negativna emocija
             </section>
         </div>  
     </div>
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                Put an empty space<br> 
-                Between a colon<br> 
-                And a closed bracket,<br> 
-                And your textual symbol<br> 
-                Your textual emoticon<br>
-                Such as this one : )<br>
-                Will not be turned<br>
-                Automatically<br>
-                Into an artificial emoji<br>
-                Such as this one 🙂<br>
+                Stavi razmak<br> 
+                Između dvotačke<br> 
+                I zatvorene zagrade,<br> 
+                I tvoj tekstualni simbol<br> 
+                Tekstualni emotikon<br>
+                Poput ovoga : )<br>
+                Neće biti pretvoren<br>
+                Automatski<br>
+                U veštački emodži<br>
+                Poput ovoga 🙂
             </section>
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised negative by Python NLTK
+                ☜ Python NLTK:<br>negativna emocija
             </section>
         </div>  
     </div>
@@ -255,7 +255,7 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised negative by Inspiratron
+                ☜ Inspiratron:<br>negativna emocija
             </section>
         </div>  
     </div>
@@ -267,7 +267,7 @@ content:
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised negative by Inspiratron
+                ☜ Inspiratron:<br>negativna emocija
             </section>
         </div>  
     </div>"
@@ -276,15 +276,15 @@ content:
       img_data:
         - file_name: "tactical-poetics005.jpg"
           size: "1600x1060"
-          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Photo: Ivona Petrov, 2021."
+          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Foto: Ivona Petrov, 2021."
         - file_name: "tactical-poetics004.jpg"
           size: "1600x1060"
-          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Photo: Ivona Petrov, 2021."
+          caption: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'>Tactical Emotions</a>. Foto: Ivona Petrov, 2021."
     - type: "txt"
-      html: "<p>↑ The original concept for Tactical Poetics was conceived in 2018 for the <a href='/work/projects/optimized-poetry/' target='_blank'>Digital Poetry Workshop</a>, organized as a part of the Art + Science conference in Belgrade. The concept was also presented at <a href='https://www.ted.com/talks/uros_krcedinac_buducnost_jezika' target='_blank'>TEDxMokrin</a>. Eventually, it grew into a collaboration with artist and researcher <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a>, with whom I've co-written a pair of books, <a href='/work/projects/optimised-tactical-poetics/' target='_blank'><em>Optimized Poetics & Tactical Poetics</em></a>, published by the <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedia Institute</a> in 2020. <mark>&#9632;</mark></p>"
+      html: "<p>↑ Originalni koncept za Taktičke emocije i Taktičku poetiku osmislio sam 2018. godine za <a href='/rad/projekti/optimized-poetry/' target='_blank'>Radionicu digitalne poezije</a>, organizovanu u okviru konferencije Art + Science u Beogradu. Koncept je predstavljen i na konferenciji <a href='https://www.ted.com/talks/uros_krcedinac_buducnost_jezika' target='_blank'>TEDxMokrin</a>, kao i na nekoliko konferencija i festivala u Atini, Beogradu, Helsinkiju i na Cetinju. U međuvremenu, projekat je prerastao u saradnju sa umetnicom i istraživačicom <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darijom Medić</a>, sa kojom sam zajedno napisao dve knjige, <a href='/rad/projekti/optimised-tactical-poetics/' target='_blank'><em>Optimizovana poetika</em> i <em>Taktička poetika</em></a>, u okviru kojih je objavljena i prvobitna verzija ovog eseja (<a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedijalni institut</a>, 2020). <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1
-      html: "<a href='/work/projects/synesketch'>Projekat Synesketch</a>, Krcadinac.com"
+      html: "<a href='/rad/projekti/synesketch'>Projekat Synesketch</a>, Krcadinac.com"
     - id: 2
       html: "<p>Synesketch vizuali:</p><p><img src='/static/media/notes/tactical-emotions/img/synesketch-example.jpg'></p>"
     - id: 3
