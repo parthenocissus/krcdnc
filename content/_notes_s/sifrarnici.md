@@ -102,7 +102,7 @@ content:
           size: "1000x1565"
           caption: "Notebooks, 2020/2021."
     - type: "txt"
-      html: "<p>Ceo skečbuk biće prikazan na izložbi <em><a href='https://www.facebook.com/events/974039323339786/' target='_blank'>6 svezaka</a></em> u Društvenom centru <a href='https://www.facebook.com/sc.krov/' target='_blank'>Krov</a>, 15. maja 2021. u Beogradu. Izložbu su priredili Srđan Tunić i Aleksandar Jevtić. Radove izlažu: David Debeljević, Jelena Ilić, Dunavski Buzukije, Endo, Ivana Aranđelović i ja.</p>      
+      html: "<p>Skečbuk je prikazan na izložbi <em><a href='https://www.facebook.com/events/974039323339786/' target='_blank'>6 svezaka</a></em> u Društvenom centru <a href='https://www.facebook.com/sc.krov/' target='_blank'>Krov</a>, 15. maja 2021. u Beogradu. Izložbu su priredili Srđan Tunić i Aleksandar Jevtić. Radove izlažu: David Debeljević, Jelena Ilić, Dunavski Buzukije, Endo, Ivana Aranđelović i ja.</p>      
       <p>Reč kustosa: »Izložba u Društvenom centru Krov prikazuje radove šest autora koji obrađuju formu umetničke sveske. Neke od ovih svezaka nastale su spontano, neke su pažljivo planirane, kao autonomna dela. Umetničke sveske nisu nešto što publika često ima priliku da vidi, one nisu spakovane tako da imaju maksimalan izlagački niti komercijalni potencijal, ali nam dopuštaju da zavirimo u lični, nekad opsesivni, misaoni proces autora. Svaka ova sveska, osim što je umetničko delo, predstavlja i dnevnik. Vidimo, dakle, kako autori razgovaraju sami sa sobom i vidimo koliko taj razgovor može da bude koncetrisan, transcendentan, dinamičan, smislen i performativan.« <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1

@@ -14,10 +14,10 @@ lead_short: "Esej iz knjige <em>Tactical Poetics</em>"
 content:
     - type: "txt"
       html: "<p>2008. godine, zajedno sa partnerima iz beogradske laboratorije za primenjenu veštačku inteligenciju Good Old AI, započeo sam rad na softverskom projektu u oblasti afektivnog računarstva, oblasti koje povezuje računarske sisteme sa ljudskim emocijama. Projekat se zvao Synesketch.<sup id='s1'>1</sup> U pitanju je softverska biblioteka otvorenog koda za prepoznavanje i generativnu vizuelizaciju emocija u tekstu.<sup id='s2'>2</sup> Inspirisan konceptom sinestezije, Synesketch je zamišljen kao veštački sinesteta,<sup id='s3'>3</sup> softver koji mapira tekst na apstraktne animirane vizuale koji predstavljaju osećanja. Projekat je započet u doba pre post-istine, pre globalne krize, kada su afektivne AI tehnologije smatrane relativno nevinim, naročito u zajednicama programera i kreativnih tehnologa.</p>
-      <p>Kako Synesketch radi? You could, for instance, type in “I am happy” and get a visual swirl of brightly colored particles; or type in “I am not happy” or “I feel heartsick” and get a bluish ocean of twinkling dots.<sup id='s4'>4</sup> Its recognition technique is grounded on a refined keyword spotting method which employs a set of heuristic rules, a WordNet-based word lexicon, and a lexicon of emoticons and common abbreviations.</p>
-      <p>Twelve years later, however, when I look at the project, I see it as an abstract portrait of data naïveté. It is hard to deny that affective tech has become another tool for digital control, propaganda, affect management, and the exploitation of emotional labor.</p>
-      <p>For example, in his “Radical Technologies”<sup id='s5'>5</sup> Adam Greenfield writes about Japan’s Keikyu Corporation, which measures the quality of its frontline employees’ smiles.<sup id='s6'>6</sup> Keikyu’s software scans the workers’ eye movements, lip curves and wrinkles, and rates them on a 0-100 scale. “For those with low scores,” Greenfield quotes a Foreign Policy article about the system, “advice like ‘You still look too serious,’ or ‘Lift up your mouth corners,’ will be displayed on the screen. Workers will print out and carry around an image of their best smile in an attempt to remember it.”</p>
-      <p>Although it has nothing to do with these exact algorithms, Synesketch exists within the same category of affect quantification technologies. What was treated as a digital art experiment effectively became a political-economic weapon. In other words, Synesketch was not only an artsy gadget, it was a small battleship – both an æsthetic object and a tactical object. That is why, a decade later, I decided to reapproach it as such.</p>"
+      <p>Kako Synesketch radi? Ukoliko, primera radi, ukucate »ja sam srećan«, dobićte vizuelni vrtlog čestica jarkih boja; ukoliko ukucate »nisam srećan« ili »srce mi je slomljeno«, dobićete plavičasti okean sačinjen od svetlucavih tačaka.<sup id='s4'>4</sup> Tehnika prepoznavanja emocija u tekstu zasniva se na metodi uočavanja ključnih reči, koja koristi skup heurističkih pravila, leksikon reči baziran na WordNetu, i leksikon emotikona i uobičajenih skraćenica.</p>
+      <p>Dvanaest godina kasnije, pak, kada pogledam ovaj projekat, vidim ga kao apstraktni portret data naivnosti. Teško je poreći da je afektivna tehnologija postala još jedno oruđe za digitalnu kontrolu, propagandu, upravljanje masovnim osećanjima i eksploataciju emocionalnog rada.</p>
+      <p>Adam Grinfild (Greenfield), na primer, u svojim »Radikalnim tehnologijama«<sup id='s5'>5</sup> piše o japanskoj korporaciji Kejkju, koja meri kvalitet osmeha svojih zaposlenih.<sup id='s6'>6</sup> Kejkjuov softver skenira pokrete očiju radnika, obline usana i bore, i ocenjuje ih na skali od 0 do 100. »Za one sa nižim ocenama«, Grinfild citira članak u časopisu Foreign Policy koji govori o ovom sistemu, »na ekranu će biti prikazani saveti poput ‘Izgledate preozbiljno’ or ‘Podignite uglove svojih usana’. Radnici će odštampati i nositi sliku svog najboljeg osmeha u pokušaju da to zapamte.”</p>
+      <p>Iako Synesketch nema konkretne veze sa ovakvim algoritmima, nalazi se u istoj kategoriji tehnologija za kvantifikaciju osećanja. Ono što sam smatrao eksperimentom u oblasti digitalnih umetnosti efektivno je postalo političko-ekonomsko oružje. Synesketch, drugim rečima, nije bio samo umetnička spravica, bio je i maleni bojni brod – istovremeno i estetski i taktički objekat. Zato sam, deceniju kasnije, odlučio da mu pristupim upravo na taj način.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1fr; margin-bottom: 10px !important;"
       img_data:
@@ -35,7 +35,7 @@ content:
           caption: "Artistic rendering of a camouflaged ship. Via <a href='https://99percentinvisible.org/episode/episode-65-razzle-dazzle/' target='_blank'>Roman Mars</a>, 99% Invisible."
     - type: "txt"
       html: "<p>There is an intriguing example from technological history, that combines visual æsthetics and military tactics. Before the First World War, the British and US military started to paint its ships in strange – and rather beautiful – black-and-white zebra-like shapes, in order to confuse German torpedo-equipped U-Boats. This naval camouflage tactics was called Dazzle.<sup id='s7'>7</sup></p>
-      <p>“This camouflage was not about invisibility”, said the writer and producer Roman Mars.<sup id='s8'>8</sup> “It was about disruption. Confusion.” Artists such as Picasso considered these ships æsthetic objects, even claiming such artistic camouflage was invented by cubists.</p>
+      <p>«This camouflage was not about invisibility”, said the writer and producer Roman Mars.<sup id='s8'>8</sup> «It was about disruption. Confusion.” Artists such as Picasso considered these ships æsthetic objects, even claiming such artistic camouflage was invented by cubists.</p>
       <p>In 2010 artist and technologist Adam Harvey initiated a media art project called CV Dazzle.<sup id='s9'>9</sup> It is a set of fashion strategies for making your face unrecognizable by face recognition algorithms. These strategies have an exciting visual flair (including eccentric make-up and hairdos), showing again that a style driven by tactics can indeed be æsthetically significant.</p>"
     - type: "img"
       grid_rules: "grid-template-columns: 656fr 1211fr;"
@@ -48,8 +48,8 @@ content:
           caption: "Anti-surveillance make-up, <a href='https://cvdazzle.com/' target='_blank'>CV Dazzle</a>, concept by Adam Harvey, 2010-2021."
     - type: "txt"
       html: "<p>If we apply the same logic to textual instead of visual media, we get a version of textual expression embedded as playful encryption. That is the core concept of the <em>Tactical Emotions</em><sup id='s10'>10</sup> project: to reapproach Synesketch only to use it in a game of contemporary dazzle.</p>
-      <p>Similar to Dazzle battleships and their artistic camouflage, the intention behind <em>Tactical Emotions</em> is to deliberately confuse and fool textual emotion recognition systems and software tools for sentiment analysis. Not only Synesketch, but also Python NLTK<sup id='s11'>11</sup> (for English) and Inspiratron<sup id='s12'>12</sup> (for Serbo-Croatian). This is done by searching for phrases, sentences, styles, verses, and text fragments whose emotional meaning these systems couldn’t interpret – yet humans can. For example, if you type in “I am happy but”, Synesketch will recognize a positive emotion. We as humans, however, know this “but” changes everything. This offers a novel way of looking at literary æsthetics.</p>
-      <p>Take this sentence, for instace: “It is meaningless to love.” It would not be hard to agree that it is not a very positive proposition, however Python NLTK recognized it as such, probably because the affective weight of the word “love” (which is positive) outweights the word “meaningless” (which is negative). A line from Oskar Davičo's poem, “love is a beacon and saved sailors,” turns out negative. Is it because it alludes to a shipwreck? If John Lennon's “a working class hero is something to be” gets recognised as negative, does it mean that algorithms perceive “working class” itself as something negative? Banal statistical vulgarity of sentiment analysis algorithms, when read and experienced by humans, turns into fine poetic irony.
+      <p>Similar to Dazzle battleships and their artistic camouflage, the intention behind <em>Tactical Emotions</em> is to deliberately confuse and fool textual emotion recognition systems and software tools for sentiment analysis. Not only Synesketch, but also Python NLTK<sup id='s11'>11</sup> (for English) and Inspiratron<sup id='s12'>12</sup> (for Serbo-Croatian). This is done by searching for phrases, sentences, styles, verses, and text fragments whose emotional meaning these systems couldn’t interpret – yet humans can. For example, if you type in «I am happy but”, Synesketch will recognize a positive emotion. We as humans, however, know this «but” changes everything. This offers a novel way of looking at literary æsthetics.</p>
+      <p>Take this sentence, for instace: «It is meaningless to love.” It would not be hard to agree that it is not a very positive proposition, however Python NLTK recognized it as such, probably because the affective weight of the word «love” (which is positive) outweights the word «meaningless” (which is negative). A line from Oskar Davičo's poem, «love is a beacon and saved sailors,” turns out negative. Is it because it alludes to a shipwreck? If John Lennon's «a working class hero is something to be” gets recognised as negative, does it mean that algorithms perceive «working class” itself as something negative? Banal statistical vulgarity of sentiment analysis algorithms, when read and experienced by humans, turns into fine poetic irony.
       <p>Metaphors and allegories have always been, at least in part, a form of strategic encryption of meaning. What makes it new is the computational aspect of contemporary surveillance, control, and machine-mediated power. Tactical Emotion is, thus, writing against the machine, recontextualized as poetry.</p>
       <p>One could say that poetry – by this very definition – is something computers cannot recognize. Instead, poetry becomes digital camouflage. ↓</p>"
     - type: "img"
@@ -71,32 +71,32 @@ content:
       html: "<div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                It’s not you, it’s me.
+                Nije do tebe, do mene je.
             </section>
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised positive by Python NLTK
+                ☜ Python NLTK: pozitivna emocija
             </section>
         </div>  
     </div>
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                You are my post-truth.
+                Ti si moja post-istina.
             </section>
         </div>
         <div class='col2'>
             <section>
-                ☜ recognised positive by Python NLTK
+                ☜ Python NLTK: pozitivna emocija
             </section>
         </div>  
     </div>
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                Tell me, how is it to be
-                young and beautiful in an ugly country?
+                Reci mi, kako je to biti
+                lepa mladost u ružnoj državi?
             </section>
         </div>
         <div class='col2'>
@@ -108,8 +108,8 @@ content:
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                It is futile, my dear,<br>
-                it is meaningless to love.
+                Uzaludno je, draga,<br>
+                i besmisleno voleti.
             </section>
         </div>
         <div class='col2'>
@@ -179,10 +179,11 @@ content:
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                Caressing the distant hills and icy mountains, tenderly, with our hand.
+                Milujući daleka brda i ledene gore,<br>
+                blago, rukom.
             </section>
             <section>
-            – Miloš Crnjanski
+                – Miloš Crnjanski
             </section>
         </div>
         <div class='col2'>
@@ -246,7 +247,7 @@ content:
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                Love is a beacon and saved sailors.
+                Ljubav je svetionik i spaseni pomorci.
             </section>
             <section>
                 – Oskar Davičo
@@ -261,7 +262,7 @@ content:
     <div class='optimised-poetry-cont tactical tact-margin'>
         <div class='col1'>
             <section class='xbold'>
-                Poetry is not dead.
+                Poezija nije mrtva.
             </section>
         </div>
         <div class='col2'>
@@ -283,9 +284,9 @@ content:
       html: "<p>↑ The original concept for Tactical Poetics was conceived in 2018 for the <a href='/work/projects/optimized-poetry/' target='_blank'>Digital Poetry Workshop</a>, organized as a part of the Art + Science conference in Belgrade. The concept was also presented at <a href='https://www.ted.com/talks/uros_krcedinac_buducnost_jezika' target='_blank'>TEDxMokrin</a>. Eventually, it grew into a collaboration with artist and researcher <a href='https://monoskop.org/Darija_Medi%C4%87' target='_blank'>Darija Medić</a>, with whom I've co-written a pair of books, <a href='/work/projects/optimised-tactical-poetics/' target='_blank'><em>Optimized Poetics & Tactical Poetics</em></a>, published by the <a href='https://mi2.hr/en/2021/01/english-darija-medic-uros-krcadinac-tactical-poetics-optimised-poetics/' target='_blank'>Multimedia Institute</a> in 2020. <mark>&#9632;</mark></p>"
 sidenotes:
     - id: 1
-      html: "<a href='/work/projects/synesketch'>The Synesketch Project</a>, Krcadinac.com"
+      html: "<a href='/work/projects/synesketch'>Projekat Synesketch</a>, Krcadinac.com"
     - id: 2
-      html: "<p>Synesketch visuals:</p><p><img src='/static/media/notes/tactical-emotions/img/synesketch-example.jpg'></p>"
+      html: "<p>Synesketch vizuali:</p><p><img src='/static/media/notes/tactical-emotions/img/synesketch-example.jpg'></p>"
     - id: 3
       html: "<a href='/download/synesketch/research/2013-Synesketch_An_Open_Source_Library_for_Sentence-based_Emotion_Recognition-Krcadinac_Pasquier_Jovanovic_and_Devedzic.pdf' target='_blank'><em>Synesketch: An Open Source Library for Sentence-Based Emotion Recognition</em></a>, Uroš Krčadinac et al., IEEE Transactions on Affective Computing, 2013."
     - id: 4
@@ -303,6 +304,6 @@ sidenotes:
     - id: 10
       html: "<a href='/work/projects/optimised-tactical-poetics/' target='_blank'><em>Optimized Poetics & Tactical Poetics</em></a>, Uroš Krčadinac & Darija Medić, Multimedia Institute, 2020."
     - id: 11
-      html: "<a href='https://www.nltk.org/' target='_blank'><em>NLTK</em></a>, a free open-source Python library for Natural Language Processing."
+      html: "<a href='https://www.nltk.org/' target='_blank'><em>NLTK</em></a>, slobodna otvorena Python biblioteka za procesiranje prirodnog jezika (NLP)."
     - id: 12
-      html: "<a href='https://www.inspiratron.org/SerbianSentiment.php' target='_blank'><em>Inspiratron</em></a>, Sentiment Analysis for Serbian and related languages."
+      html: "<a href='https://www.inspiratron.org/SerbianSentiment.php' target='_blank'><em>Inspiratron</em></a>, analiza sentimenata (Sentiment Analysis) za srpski i srodne jezike."
