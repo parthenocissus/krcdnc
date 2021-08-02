@@ -7,7 +7,7 @@ ranks:
     visual: 4
     digital: 4
     textual: 1
-featured_js: kplogo
+featured_js: kplogo-single
 category:
     - id: drawing
       name: Digitalni crtež

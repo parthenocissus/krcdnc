@@ -226,15 +226,15 @@ content:
         <div class='col1'>
             <section class='xbold'>
                 Put an empty space<br> 
-                Between a colon<br> 
-                And a closed bracket,<br> 
-                And your textual symbol<br> 
-                Your textual emoticon<br>
-                Such as this one : )<br>
-                Will not be turned<br>
-                Automatically<br>
-                Into an artificial emoji<br>
-                Such as this one 🙂<br>
+                between a colon<br> 
+                and a closed bracket,<br> 
+                and your textual symbol<br> 
+                your textual emoticon<br>
+                such as this one : )<br>
+                will not be turned<br>
+                automatically<br>
+                into an artificial emoji<br>
+                such as this one 🙂<br>
             </section>
         </div>
         <div class='col2'>

@@ -227,15 +227,15 @@ content:
         <div class='col1'>
             <section class='xbold'>
                 Stavi razmak<br> 
-                Između dvotačke<br> 
-                I zatvorene zagrade,<br> 
-                I tvoj tekstualni simbol<br> 
-                Tekstualni emotikon<br>
-                Poput ovoga : )<br>
-                Neće biti pretvoren<br>
-                Automatski<br>
-                U veštački emodži<br>
-                Poput ovoga 🙂
+                između dvotačke<br> 
+                i zatvorene zagrade,<br> 
+                i tvoj tekstualni simbol<br> 
+                tekstualni emotikon<br>
+                poput ovoga : )<br>
+                neće biti pretvoren<br>
+                automatski<br>
+                u veštački emodži<br>
+                poput ovoga 🙂
             </section>
         </div>
         <div class='col2'>
