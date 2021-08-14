@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let d = 500,
         h = 500,
         adj = (d - h) / 2,
-        r = d / 2 - adj,
+        // r = d / 2 - adj,
+        r = d / 2 - adj - 30,
         centerX = d / 2,
         centerY = h / 2,
         k = d / 10,
@@ -80,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .attr("cx", centerX)
             .attr("cy", centerY)
             .attr("r", r);
-        
+
         currentDots = dots[0];
 
         dt.x1 = set.x(currentDots[0][0]);
