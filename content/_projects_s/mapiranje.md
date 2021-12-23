@@ -53,7 +53,7 @@ img_data:
       caption: "Mapiranje: prostranstva prirode, 2021."
     - size: "1800x831"
       caption: "Mapiranje: prostranstva prirode, 2021."
-lead: "<em>Mapiranje</em> je umetnička i obrazovna publikacija, zbirka eseja i intervjua, nastala sa ciljem da se predstave neobične autorske inicijative i DIY scena. Moj doprinos sastoji se u autorskom eseju <em><a href='/rad/sveska/ivy/' target='_blank'>O gajenju vrta</a></em>, kao i intervjuu koji je sa mnom vodila urednica publikacije, Mina Nenadović."
+lead: "<em>Mapiranje</em> je umetnička i obrazovna publikacija, zbirka eseja i intervjua, nastala sa ciljem da se predstave neobične autorske inicijative i DIY scena. Moj doprinos čine autorski esej <em><a href='/rad/sveska/ivy/' target='_blank'>O gajenju vrta</a></em>, kao i intervju koji je sa mnom vodila urednica publikacije, Mina Nenadović."
 
 Publikacija <em>Mapiranje: prostranstva prirode</em> nastala je sa idejom da se predstave neobični autori, umetnici i kolektivi, čija se stvaralačka praksa dešava izvan, mimo ili na margini zvaničnih institucionalnih okvira. Ovakve prakse najčešće su pokrenute sopstvenom snagom i entuzijazmom. 
 
