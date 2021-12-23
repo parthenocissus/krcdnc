@@ -5,9 +5,6 @@ title:
 id: vinaware
 date: 2019
 featured: 3
-goto:
-    link: "http://vinaware.krcadinac.com"
-    label: "Vebsajt projekta"
 ranks:
     visual: 4
     digital: 4

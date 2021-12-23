@@ -5,10 +5,6 @@ title:
 id: vinaware
 date: 2019
 featured: 3
-goto:
-    link: "http://vinaware.krcadinac.com"
-    label: "Open Project"
-    text: "Official project page"
 ranks:
     visual: 4
     digital: 4
