@@ -1,20 +1,26 @@
 $(document).ready(function () {
 
-    let setSize = () => {
-        let h = window.innerHeight;
-        // let wSvg = h * 1.401;
-        let wSvg = h * 1.45;
-        let wAside = window.innerWidth - wSvg;
+    let widthBase = 0.238;
+    let idealRatio = 1.45;
 
-        $("#test-svg")
-            .attr("height", h)
-            .attr("width", wSvg);
-        // $("#aside-main").css("width", wAside);
+    let setSize = () => {
+
+        let h = window.innerHeight;
+        let w = window.innerWidth;
+        let wSvg = h * idealRatio;
+        let wAside = w - wSvg;
+
+        if (wAside < w * widthBase) {
+            wAside = w * widthBase;
+            wSvg = window.innerWidth - wAside;
+        }
+
+        $("#main-map").attr("height", h).attr("width", wSvg);
         $(".side-content").css("width", wAside);
     }
 
     let zoomSettings = () => {
-        let panZoom = svgPanZoom('#test-svg', {
+        let panZoom = svgPanZoom('#main-map', {
             zoomEnabled: true,
             controlIconsEnabled: false
         });
@@ -52,15 +58,14 @@ $(document).ready(function () {
         "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
 
     $(".mark").click(() => {
-        let n = $(".note"),
+        console.log("mark clicked...");
+        let note = $(".note"),
             noteTxtCont = $(".note-text");
-        n.css({"visibility": "hidden"});
+        note.css({"visibility": "hidden"});
         noteTxtCont.html(noteTxt);
         let noteH = noteTxtCont.height();
-        n.height(noteH + 16);
-        n.css({"visibility": "visible"});
-        console.log(noteH);
-        console.log(noteTxtCont.height());
+        note.height(noteH + 16);
+        note.css({"visibility": "visible"});
     });
 
     $("#note-x").click(() => {

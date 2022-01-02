@@ -141,12 +141,20 @@
         </p>
     </footer>
 
-    <svg id="test-svg" x="0px" y="0px" viewBox="0 0 1076 768" xml:space="preserve">
+    <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768" xml:space="preserve">
         <image xlink:href="{{ url_for('static', filename='space/afroatlas/maps/tanz000.jpg') }}"
                transform="matrix(0.1736 0 0 0.1736 35.077 29.5)"></image>
-        <circle class="chapter" pointer-events="visible" fill="none" stroke-miterlimit="10" cx="374" cy="335.5" r="13"></circle>
-        <circle class="mark" cx="624.7" cy="582.1" r="8"></circle>
-        <circle class="mark" cx="673.3" cy="612" r="8"></circle>
+        <a href="/download/books/Bantustan.pdf#page=294" target="_blank">
+            <circle class="chapter" pointer-events="visible" cx="374" cy="335.5" r="13">
+                <title>Otvori PDF knjige i priču 7L u poglavlju XVI</title>
+            </circle>
+        </a>
+        <circle class="mark" cx="624.7" cy="582.1" r="8">
+            <title>Šta predstavlja ovaj deo mape? Vidi belešku.</title>
+        </circle>
+        <circle class="mark" cx="673.3" cy="612" r="8">
+            <title>Šta predstavlja ovaj deo mape? Vidi belešku.</title>
+        </circle>
     </svg>
 
     <div class="lang">
@@ -156,12 +164,12 @@
 
     <div class="controls">
 
-        <svg id="zoom-in" x="0px" y="0px" width="11" height="11" viewBox="0 0 11 11">
+        <svg id="zoom-in" x="0px" y="0px" viewBox="0 0 11 11">
             <rect x="4" width="3" height="11"></rect>
             <rect y="4" width="11" height="3"></rect>
         </svg>
 
-        <svg id="zoom-out" x="0px" y="0px" width="11" height="11" viewBox="0 0 11 11">
+        <svg id="zoom-out" x="0px" y="0px" viewBox="0 0 11 11">
             <rect y="4" width="11" height="3"></rect>
         </svg>
 
@@ -172,11 +180,11 @@
             <path d="M0.1,10.6L4,6.8L0.1,3l2.8-2.8L6.8,4l3.8-3.8l2.6,2.6L9.3,6.6l3.8,3.8l-2.8,2.8L6.5,9.4l-3.8,3.8L0.1,10.6z"></path>
         </svg>
         <div class="note-text">
-{#            <p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se#}
-{#                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.#}
-{#                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak#}
-{#                    gladi</em>.«</p>#}
-{#            <p>Stomak gladi. Ulica <a href="#">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>#}
+            <p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se
+                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.
+                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak
+                    gladi</em>.«</p>
+            <p>Stomak gladi. Ulica <a href="#">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>
         </div>
     </div>
 
