@@ -1,0 +1,265 @@
+:root {
+    /* Colors */
+    --suncolor: #FFB901;
+    --main: #FFB901; /* red; */
+}
+
+::-moz-selection {
+  background: var(--main);
+}
+::selection {
+  background: var(--main);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    font-size: 100%;
+    letter-spacing: normal;
+    line-height: 1.6;
+}
+
+.side-content {
+    background-color: black;
+    color: white;
+    letter-spacing: 0.045em;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+aside {
+    height: 100%;
+    padding: 5vh 5vh;
+    z-index: 5;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    box-shadow: 0 0 20px black;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    padding: 4vh 5vh;
+    font-family: "TTNorms-Regular", sans-serif;
+    font-size: 0.75em;
+    z-index: 10;
+}
+
+#menu {
+    position: relative;
+    width: .7em;
+    margin: 0 0 .3em 0;
+    cursor: pointer;
+}
+
+#menu rect {
+    fill: var(--main);
+}
+
+#menu:hover rect {
+    fill: white;
+}
+
+h1 {
+    color: var(--main);
+    font-family: "MonumentExtended-Ultrabold", sans-serif;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+    margin: 0;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: white;
+}
+
+h2 {
+    font-family: "MonumentExtended-Regular", sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.0625em;
+    margin: 0 0 .1em 0;
+}
+
+h3, h4 {
+    font-family: "TTNorms-Regular", sans-serif;
+    font-size: 0.75em;
+    font-weight: normal;
+    letter-spacing: 0.045em;
+}
+h3 {
+    text-transform: uppercase;
+    margin: 1em 0 0 0;
+}
+h4 {
+    margin: 0 0 1em 0;
+}
+
+/* Africa Map SVG */
+
+#africa-map {
+    position: relative;
+    width: 50%;
+    margin: 0.5em 0 0 0;
+}
+
+#africa-map-base polyline, line, path {
+    stroke: var(--main);
+}
+
+#africa-outline {
+    stroke: white;
+}
+
+/* Footer */
+
+footer p a {
+    color: white;
+    border-bottom: 1px solid darkgray;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    /*color: lightgray;*/
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+
+/* Main SVG with the Map */
+
+#test-svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+#test-svg image {
+    cursor: grab;
+}
+
+#test-svg .mark {
+    fill: var(--main);
+    cursor: pointer;
+}
+
+#test-svg .chapter {
+    stroke: var(--main);
+    stroke-width: 3;
+    cursor: pointer;
+}
+
+/* Language Controls */
+
+.lang {
+    position: absolute;
+    right: 0;
+    top: 4.5vh;
+    padding: .8vh;
+    margin: 0;
+    background-color: black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.lang div {
+    color: white;
+    font-family: "TTNorms-Bold", sans-serif;
+    font-size: 0.5em;
+    font-weight: normal;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    padding: .5vh;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.lang div:hover {
+    color: var(--main);
+}
+
+/* Zoom Controls */
+
+.controls {
+    position: absolute;
+    right: 2vh;
+    bottom: 2vh;
+    display: flex;
+}
+
+.controls svg {
+    position: relative;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.controls svg rect {
+    fill: white;
+}
+
+.controls svg:hover {
+    background-color: var(--main);
+}
+
+/* Notes */
+
+.note {
+    /*box-sizing: content-box;*/
+    position: absolute;
+    top: 8vh;
+    right: 20vh;
+    width: 20vw;
+    height: 320px;
+    background-color: var(--main);
+    padding: 30px 50px 30px 24px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    /*opacity: 0;*/
+    visibility: hidden;
+}
+
+.note p::-moz-selection {
+  background: white;
+}
+.note p::selection {
+  background: white;
+}
+
+.note p {
+    color: black;
+    font-family: "TTNorms-Medium", sans-serif;
+    font-size: 1em;
+    /*letter-spacing: 0.045em;*/
+    padding: .5vh;
+    line-height: 1.5;
+}
+
+.note p a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.note p a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.note #note-x {
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    width: 14px;
+    fill: white;
+    stroke: none;
+    cursor: pointer;
+}
+
+.note #note-x:hover {
+    fill: black;
+}

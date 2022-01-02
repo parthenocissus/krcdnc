@@ -243,13 +243,18 @@ def download_file(args=None):
     for i in items:
         path = path + "/" + i
     print(path)
-    # return send_file(path, as_attachment=True)
-    return send_file(path)
+    return send_file(path, as_attachment=False, mimetype='application/pdf')
+    # return send_file(path)
 
 
 # @app.route('/3/')
 # def poem():
 #     return render_template('test/3.html')
+
+
+@app.route("/google1bdd97353f81ca5c.html")
+def google_site_verf():
+    return render_template("test/google1bdd97353f81ca5c.html")
 
 
 # MAIN
