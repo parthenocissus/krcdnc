@@ -130,23 +130,17 @@
 
     </aside>
 
-    <footer class="side-content">
-        <p>Dopada vam se ova mapa?<br>
-            Možete je naručiti kao <a href="#">print velikog formata</a>.<br>
-            {# </p><p> #}
-            Knjiga? Tu su <a href="#">domaće</a> i <a href="#">englesko</a> izdanje knjige<br>
-            <em>Bantustan: atlas jednog putovanja</em>.
-        </p>
-        <p><a href="https://krcadinac.com" target="_blank">Uroš Krčadinac</a>, 2015—2022.
-        </p>
-    </footer>
+    <div class="lang">
+        <div id="nas">Naš</div>
+        <div id="eng">Eng</div>
+    </div>
 
-    <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768" xml:space="preserve">
+    <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768">
         <image xlink:href="{{ url_for('static', filename='space/afroatlas/maps/tanz000.jpg') }}"
                transform="matrix(0.1736 0 0 0.1736 35.077 29.5)"></image>
         <a href="/download/books/Bantustan.pdf#page=294" target="_blank">
             <circle class="chapter" pointer-events="visible" cx="374" cy="335.5" r="13">
-                <title>Otvori PDF knjige i priču 7L u poglavlju XVI</title>
+                <title>Učitaj knjigu u PDFu i otvori priču 7L u poglavlju XIV</title>
             </circle>
         </a>
         <circle class="mark" cx="624.7" cy="582.1" r="8">
@@ -156,11 +150,6 @@
             <title>Šta predstavlja ovaj deo mape? Vidi belešku.</title>
         </circle>
     </svg>
-
-    <div class="lang">
-        <div id="nas">Naš</div>
-        <div id="eng">Eng</div>
-    </div>
 
     <div class="controls">
 
@@ -174,6 +163,16 @@
         </svg>
 
     </div>
+
+    <footer class="side-content">
+        <p>Dopada vam se ova mapa?<br>
+            Možete je naručiti kao <a href="#">print velikog formata</a>.<br>
+            Knjiga? Tu su <a href="#">domaće</a> i <a href="#">englesko</a> izdanje knjige<br>
+            <em>Bantustan: atlas jednog putovanja</em>.
+        </p>
+        <p><a href="https://krcadinac.com" target="_blank">Uroš Krčadinac</a>, 2015—2022.
+        </p>
+    </footer>
 
     <div class="note">
         <svg id="note-x" x="0px" y="0px" viewBox="0 0 13.4 13.4">

@@ -1,12 +1,16 @@
 $(document).ready(function () {
 
+    /* Setting Dimensions */
+
     let widthBase = 0.238;
     let idealRatio = 1.45;
+    let origRatio = 1.401;
 
     let setSize = () => {
 
         let h = window.innerHeight;
         let w = window.innerWidth;
+        let hSvg = h;
         let wSvg = h * idealRatio;
         let wAside = w - wSvg;
 
@@ -15,9 +19,31 @@ $(document).ready(function () {
             wSvg = window.innerWidth - wAside;
         }
 
-        $("#main-map").attr("height", h).attr("width", wSvg);
+        const mediaQuery = window.matchMedia('(max-width: 768px)')
+        if (mediaQuery.matches) {
+            wAside = w;
+            wSvg = w;
+            // hSvg = w / origRatio;
+            hSvg = w / 1.3 - 10;
+
+            let topControls = "calc(" + $("footer").offset().top + "px - 6vw)";
+            $(".controls").css({
+                top: topControls,
+                bottom: 'auto'
+            });
+
+            let topNote = "calc(" + $("#main-map").offset().top + "px - 10vw)";
+            $(".note").css({
+                top: topNote,
+                bottom: 'auto'
+            });
+        }
+
+        $("#main-map").attr("height", hSvg).attr("width", wSvg);
         $(".side-content").css("width", wAside);
     }
+
+    /* Zoom Settings */
 
     let zoomSettings = () => {
         let panZoom = svgPanZoom('#main-map', {
@@ -36,20 +62,16 @@ $(document).ready(function () {
         });
     }
 
+    /* Main */
 
     setSize();
     zoomSettings();
 
-    // $(window).resize(() => {
-    //     setSize();
-    // });
+    $(window).resize(() => {
+        setSize();
+    });
 
-    // document.getElementById('reset').addEventListener('click', function (ev) {
-    //     ev.preventDefault()
-    //     panZoom.resetZoom()
-    // });
-
-
+    /* Notes Functionality */
 
     let noteTxt = "<p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se\n" +
         "                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.\n" +
