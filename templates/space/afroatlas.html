@@ -143,10 +143,10 @@
                 <title>Učitaj knjigu u PDFu i otvori priču 7L u poglavlju XIV</title>
             </circle>
         </a>
-        <circle onclick="alert('hey');" ontouchend="alert('hey');" class="mark" cx="624.7" cy="582.1" r="8">
+        <circle class="mark" onclick="noteOnClick();" ontouchend="noteOnClick();" cx="624.7" cy="582.1" r="8">
             <title>Šta predstavlja ovaj deo mape? Vidi belešku.</title>
         </circle>
-        <circle class="mark" cx="673.3" cy="612" r="8">
+        <circle class="mark" onclick="noteOnClick();" ontouchend="noteOnClick();"  cx="673.3" cy="612" r="8">
             <title>Šta predstavlja ovaj deo mape? Vidi belešku.</title>
         </circle>
     </svg>
@@ -188,6 +188,26 @@
     </div>
 
 </main>
+
+<script type="text/javascript">
+
+    let noteTxt = "<p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se\n" +
+        "                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.\n" +
+        "                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak\n" +
+        "                    gladi</em>.«</p>\n" +
+        "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
+
+    let noteOnClick = () => {
+        let note = $(".note"),
+            noteTxtCont = $(".note-text");
+        note.css({"visibility": "hidden"});
+        noteTxtCont.html(noteTxt);
+        let noteH = noteTxtCont.height();
+        note.height(noteH + 16);
+        note.css({"visibility": "visible"});
+    }
+
+</script>
 
 </body>
 </html>

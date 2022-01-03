@@ -79,16 +79,15 @@ $(document).ready(function () {
         "                    gladi</em>.«</p>\n" +
         "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
 
-    $(".mark").on('click tap touchstart touchend', () => {
-        console.log("mark clicked...");
-        let note = $(".note"),
-            noteTxtCont = $(".note-text");
-        note.css({"visibility": "hidden"});
-        noteTxtCont.html(noteTxt);
-        let noteH = noteTxtCont.height();
-        note.height(noteH + 16);
-        note.css({"visibility": "visible"});
-    });
+    // $(".mark").on('click tap touchstart touchend', () => {
+    //     let note = $(".note"),
+    //         noteTxtCont = $(".note-text");
+    //     note.css({"visibility": "hidden"});
+    //     noteTxtCont.html(noteTxt);
+    //     let noteH = noteTxtCont.height();
+    //     note.height(noteH + 16);
+    //     note.css({"visibility": "visible"});
+    // });
 
     $("#note-x").on('click tap touchstart touchend', () => {
         $(".note").css({"visibility": "hidden"});
