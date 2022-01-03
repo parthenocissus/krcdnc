@@ -79,7 +79,7 @@ $(document).ready(function () {
         "                    gladi</em>.«</p>\n" +
         "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
 
-    $(".mark").click(() => {
+    $(".mark").on('click tap touchstart', () => {
         console.log("mark clicked...");
         let note = $(".note"),
             noteTxtCont = $(".note-text");
@@ -90,7 +90,7 @@ $(document).ready(function () {
         note.css({"visibility": "visible"});
     });
 
-    $("#note-x").click(() => {
+    $("#note-x").on('click tap touchstart', () => {
         $(".note").css({"visibility": "hidden"});
     });
 
