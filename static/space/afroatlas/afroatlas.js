@@ -97,8 +97,8 @@ $(document).ready(function () {
                     // On pinch start remember initial zoom
                     if (ev.type === 'pinchstart') {
                         initialScale = instance.getZoom();
-                        // instance.zoomAtPoint(initialScale * ev.scale, {x: ev.center.x, y: ev.center.y});
-                        instance.zoomAtPoint(initialScale * ev.scale, {x: pos.x, y: pos.y});
+                        instance.zoomAtPoint(initialScale * ev.scale, {x: ev.center.x, y: ev.center.y});
+                        // instance.zoomAtPoint(initialScale * ev.scale, {x: pos.x, y: pos.y});
                     }
 
                     instance.zoomAtPoint(initialScale * ev.scale, {x: pos.x, y: pos.y})
