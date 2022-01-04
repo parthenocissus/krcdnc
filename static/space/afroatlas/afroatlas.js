@@ -26,11 +26,11 @@ $(document).ready(function () {
             // hSvg = w / origRatio;
             hSvg = w / 1.3 - 10;
 
-            let topControls = "calc(" + $("footer").offset().top + "px - 6vw)";
-            $(".controls").css({
-                top: topControls,
-                bottom: 'auto'
-            });
+            // let topControls = "calc(" + $("footer").offset().top + "px - 6vw)";
+            // $(".controls").css({
+            //     top: topControls,
+            //     bottom: 'auto'
+            // });
 
             let topNote = "calc(" + $("#main-map").offset().top + "px - 10vw)";
             $(".note").css({
