@@ -50,16 +50,17 @@ $(document).ready(function () {
         let eventsHandler = {
             haltEventListeners: ['touchstart', 'touchend', 'touchmove', 'touchleave', 'touchcancel'],
             init: function (options) {
+
                 let instance = options.instance,
                     initialScale = 1,
                     pannedX = 0,
-                    pannedY = 0
+                    pannedY = 0;
 
                 // Init Hammer
                 // Listen only for pointer and touch events
                 this.hammer = Hammer(options.svgElement, {
                     inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput
-                })
+                });
 
                 // Enable pinch
                 this.hammer.get('pinch').set({enable: true})
@@ -67,7 +68,7 @@ $(document).ready(function () {
                 // Handle double tap
                 this.hammer.on('doubletap', function (ev) {
                     instance.zoomIn()
-                })
+                });
 
                 // Handle pan
                 this.hammer.on('panstart panmove', function (ev) {
@@ -81,7 +82,7 @@ $(document).ready(function () {
                     instance.panBy({x: ev.deltaX - pannedX, y: ev.deltaY - pannedY})
                     pannedX = ev.deltaX
                     pannedY = ev.deltaY
-                })
+                });
 
                 // Handle pinch
                 this.hammer.on('pinchstart pinchmove', function (ev) {
@@ -92,7 +93,7 @@ $(document).ready(function () {
                     }
 
                     instance.zoomAtPoint(initialScale * ev.scale, {x: ev.center.x, y: ev.center.y})
-                })
+                });
 
                 // Prevent moving the page on some devices when panning over SVG
                 options.svgElement.addEventListener('touchmove', function (e) {
@@ -116,7 +117,8 @@ $(document).ready(function () {
         window.panZoom = svgPanZoom('#main-map', {
             zoomEnabled: true,
             controlIconsEnabled: true,
-            fit: 1, center: 1,
+            fit: 1,
+            // center: 1,
             customEventsHandler: eventsHandler
         });
 
@@ -142,11 +144,11 @@ $(document).ready(function () {
 
     /* Notes Functionality */
 
-    let noteTxt = "<p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se\n" +
-        "                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.\n" +
-        "                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak\n" +
-        "                    gladi</em>.«</p>\n" +
-        "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
+    // let noteTxt = "<p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se\n" +
+    //     "                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.\n" +
+    //     "                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak\n" +
+    //     "                    gladi</em>.«</p>\n" +
+    //     "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
 
     // $(".mark").on('click tap touchstart touchend', () => {
     //     let note = $(".note"),
