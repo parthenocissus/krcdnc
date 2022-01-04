@@ -98,6 +98,7 @@ $(document).ready(function () {
                 options.svgElement.addEventListener('touchmove', function (e) {
                     e.preventDefault();
                 });
+
             }, destroy: function () {
                 this.hammer.destroy()
             }
@@ -112,11 +113,11 @@ $(document).ready(function () {
         //     customEventsHandler: eventsHandler
         // });
 
-        let panZoom = svgPanZoom('#main-map', {
+        window.panZoom = svgPanZoom('#main-map', {
             zoomEnabled: true,
+            controlIconsEnabled: true,
             fit: 1, center: 1,
-            customEventsHandler: eventsHandler,
-            controlIconsEnabled: true
+            customEventsHandler: eventsHandler
         });
 
         // document.getElementById('zoom-in').addEventListener('click', function (ev) {
