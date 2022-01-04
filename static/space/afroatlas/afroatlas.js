@@ -24,7 +24,8 @@ $(document).ready(function () {
             wAside = w;
             wSvg = w;
             // hSvg = w / origRatio;
-            hSvg = w / 1.3 - 10;
+            // hSvg = w / 1.3 - 10;
+            hSvg = h;
 
             // let topControls = "calc(" + $("footer").offset().top + "px - 6vw)";
             // $(".controls").css({
@@ -127,10 +128,12 @@ $(document).ready(function () {
         window.panZoom = svgPanZoom('#main-map', {
             zoomEnabled: true,
             controlIconsEnabled: true,
-            fit: 1,
-            center: 1,
+            // fit: 1,
+            // center: 1,
             customEventsHandler: eventsHandler
         });
+
+        panZoom.zoom(3);
 
         // document.getElementById('zoom-in').addEventListener('click', function (ev) {
         //     ev.preventDefault()
