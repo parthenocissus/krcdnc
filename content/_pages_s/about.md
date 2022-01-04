@@ -24,4 +24,4 @@ Bio je jedan od osnivača Uzroka, studija za dizajn informacija i interakcija (2
 
 Doktorirao je informatiku na Univerzitetu u Beogradu.
 
-Radi kao docent digitalne umetnosti i računarstva na Fakultetu za medije i komunikacije, Univerzitet Singidunum, Beograd. Docent je u dve oblasti: umetničkoj i naučnoj. Takođe radi kao stručni saradnik na Seminaru dizajna u Istraživačkoj stanici Petnica i kao naučni saradnik Good Old AI laboratorije Univerziteta u Beogradu. <mark>&#9632;</mark>
+Radi kao docent digitalne umetnosti i računarstva na Fakultetu za medije i komunikacije, Univerzitet Singidunum, Beograd. Docent je u dve oblasti: umetničkoj i naučnoj. Takođe radi kao naučni saradnik Good Old AI laboratorije Univerziteta u Beogradu. <mark>&#9632;</mark>

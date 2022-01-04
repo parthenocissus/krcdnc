@@ -9,7 +9,7 @@ main_img_data:
     file_name: "bantustan-english-main.jpg"
     size: "1800x1269"
     caption: "Rukom nacrtana interaktivna mapa zambijskog poglavlja u <em><a href='https://www.amazon.com/Bantustn-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Bantustanu</a></em>. Mapa omogućava čitaocu da se kreće kroz različite priče unutar poglavlja. Svako poglavlje ima svoju mapu, svoj interfejs za čitanje. Uroš Krčadinac, 2021."
-lead: "Nakon nekoliko godina rada, <em>Bantustan: Atlas afričkog putovanja</em>, infografički putopisni roman Lazara Pašćanovića, Marko Đedovića i mene, napokon je dostupan na engleskom jeziku. <a href='https://www.amazon.com/Bantustn-African-Journei-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Papirno i elektronsko globalno izdanje, <em>Bantustan: Atlas of an African Journey</em>, može se naručiti odakle god, u bilo kom trenutku.</a>."
+lead: "Nakon nekoliko godina rada, <em>Bantustan: Atlas afričkog putovanja</em>, infografički putopisni roman Lazara Pašćanovića, Marko Đedovića i mene, napokon je dostupan na engleskom jeziku. <a href='https://www.amazon.com/Bantustn-African-Journei-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Papirno i elektronsko globalno izdanje, <em>Bantustan: Atlas of an African Journey</em>, može se naručiti odakle god, u bilo kom trenutku</a>."
 lead_short: "Bantustan: Atlas jednog putovanja dostupan je na engleskom."
 content:
     - type: "txt"
