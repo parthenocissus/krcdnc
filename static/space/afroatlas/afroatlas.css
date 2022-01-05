@@ -164,7 +164,8 @@ footer p a:hover {
 }
 
 #main-map .chapter:hover {
-    stroke-width: 4.5;
+    stroke-width: 4;
+    r: 12;
 }
 
 /* Language Controls */
@@ -281,107 +282,129 @@ footer p a:hover {
     fill: black;
 }
 
+/* Flags */
+
+.mobile {
+    visibility: hidden;
+}
+
+.desktop {
+    visibility: visible;
+}
+
 /* ___________________________________________________ */
 /* MEDIA QUERIES */
 /* Mobile */
 
 @media only screen and (max-width: 768px) {
 
+    /* Flags */
+    .mobile {
+        visibility: visible;
+    }
+
+    .desktop {
+        visibility: hidden;
+        display: none;
+    }
+
+    /* Rules */
     html, body {
         overflow: auto;
     }
 
     .side-content {
         width: 100vw;
-        position: relative;
+        position: absolute;
     }
 
     aside {
-        height: auto;
-        padding: 10vw;
-        display: block;
+        top: 0;
+        left: 0;
+        height: 48px;
+        padding: 15px;
     }
 
     footer {
-        padding: 10vw;
-        font-family: "TTNorms-Regular", sans-serif;
-        font-size: 3vw;
+        height: 35px;
+        left: 0;
+        bottom: 0;
+        padding: 7px 15px 0 15px;
+        font-size: 11px;
         box-shadow: 0 0 1.4vw black;
     }
 
+    footer p {
+        margin: 0;
+        padding: 0;
+    }
+
+    aside #top {
+        height: 10px;
+        display: grid;
+        grid-template-columns: 10vw 1fr 10vw;
+    }
+
     #menu {
-        width: 2.5vw;
-        margin: 0 0 2vw 0;
+        width: 14px;
+        height: 14px;
+        margin: 0;
     }
 
     h1 {
-        font-size: 3vw;
+        text-align: center;
+        font-size: 11px;
         text-transform: uppercase;
-        margin: 0 0 5vh 0;
+        padding-top: 3px;
+        margin: 0;
+        /*color: white;*/
     }
 
-    h2 {
-        font-size: 6vw;
-        margin: 0 0 1.5vh 0;
-    }
-
-    h3, h4 {
-        font-size: 3vw;
-    }
-
-    #africa-map {
-        position: relative;
-        width: 44vw;
-        margin: 7vw 0 0 0;
+    aside #middle {
+        visibility: hidden;
     }
 
     #main-map {
-        position: relative;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 
     /* Lang Controls */
     .lang {
-        background-color: white;
-        position: absolute;
-        right: 0;
-        top: 10vw;
-        padding: 1.8vw 2.8vw 1.8vw 2.3vw;
-        z-index: 15;
-    }
-
-    .lang div {
-        color: black;
-        font-size: 2.5vw;
-        padding: .3vw 0 .3vw 0;
+        display: none;
     }
 
     /* Zoom Controls */
     .controls {
         position: absolute;
-        right: 2vw;
+        right: 10px;
+        bottom: 16px;
         display: flex;
+        z-index: 100;
     }
 
     .controls svg {
         position: relative;
-        padding: 2vw;
-        margin: .5vw;
-        width: 2.5vw;
+        padding: 10px;
+        margin: 4px;
+        width: 16px;
     }
 
     /* Notes */
     .note {
         position: absolute;
-        left: 4vw;
-        width: 54vw;
+        top: 75px;
+        left: 15px;
+        width: 70vw;
         height: 200px;
-        padding: 6vw 10vw 5vw 5vw;
+        padding: 28px 40px 26px 26px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
 
     .note p {
-        font-size: 3.5vw;
+        font-size: 4vw;
         padding: .3vw;
-        line-height: 1.5;
+        line-height: 1.4;
     }
 }

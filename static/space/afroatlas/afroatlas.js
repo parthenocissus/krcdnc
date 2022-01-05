@@ -2,9 +2,9 @@ $(document).ready(function () {
 
     /* Setting Dimensions */
 
-    let widthBase = 0.238;
-    let idealRatio = 1.45;
-    let origRatio = 1.401;
+    const widthBase = 0.238,
+        idealRatio = 1.45,
+        origRatio = 1.401;
 
     let setSize = () => {
 
@@ -19,25 +19,10 @@ $(document).ready(function () {
             wSvg = window.innerWidth - wAside;
         }
 
-        const mediaQuery = window.matchMedia('(max-width: 768px)')
         if (mediaQuery.matches) {
             wAside = w;
             wSvg = w;
-            // hSvg = w / origRatio;
-            // hSvg = w / 1.3 - 10;
             hSvg = h;
-
-            // let topControls = "calc(" + $("footer").offset().top + "px - 6vw)";
-            // $(".controls").css({
-            //     top: topControls,
-            //     bottom: 'auto'
-            // });
-
-            let topNote = "calc(" + $("#main-map").offset().top + "px - 10vw)";
-            $(".note").css({
-                top: topNote,
-                bottom: 'auto'
-            });
         }
 
         $("#main-map").attr("height", hSvg).attr("width", wSvg);
@@ -127,23 +112,25 @@ $(document).ready(function () {
 
         window.panZoom = svgPanZoom('#main-map', {
             zoomEnabled: true,
-            controlIconsEnabled: true,
+            controlIconsEnabled: false,
             // fit: 1,
             // center: 1,
             customEventsHandler: eventsHandler
         });
 
-        panZoom.zoom(3);
+        if (mediaQuery.matches) {
+            panZoom.zoom(2.4);
+        }
 
-        // document.getElementById('zoom-in').addEventListener('click', function (ev) {
-        //     ev.preventDefault()
-        //     panZoom.zoomIn()
-        // });
-        //
-        // document.getElementById('zoom-out').addEventListener('click', function (ev) {
-        //     ev.preventDefault()
-        //     panZoom.zoomOut()
-        // });
+        document.getElementById('zoom-in').addEventListener('click', function (ev) {
+            ev.preventDefault()
+            panZoom.zoomIn()
+        });
+
+        document.getElementById('zoom-out').addEventListener('click', function (ev) {
+            ev.preventDefault()
+            panZoom.zoomOut()
+        });
     }
 
     /* Main */
