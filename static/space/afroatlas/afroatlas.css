@@ -296,7 +296,7 @@ footer p a:hover {
 /* MEDIA QUERIES */
 /* Mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 950px) {
 
     /* Flags */
     .mobile {
