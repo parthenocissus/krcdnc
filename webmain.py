@@ -217,8 +217,6 @@ def about_s():
     page, data = utils.about(fp, sh)
     return render_template('about.html', params=sh.params(), page=page, data=data)
 
-
-
 # SPACE ROUTE
 # for specific project pages
 
@@ -226,6 +224,31 @@ def about_s():
 def space(name):
     return render_template('/space/' + name + '.html')
 
+
+# BANTUSTAN INTERACTIVE ATLAS
+# a special website for interactive maps
+
+@app.route('/bantustan-interactive-atlas/home/')
+@app.route('/bantustan-interactive-atlas/')
+def bntstn_atlas():
+    return render_template('bntstn-atlas/bantustan_map.html')
+
+
+@app.route('/bantustan-interactive-atlas/pocetna/')
+def bntstn_atlas_s():
+    return render_template('bntstn-atlas/bantustan_map.html')
+
+
+@app.route('/bantustan-interactive-atlas/map/<name>/')
+def bntstn_map(name):
+    this_map = utils.bntstn_map(fp, en, name)
+    return render_template('bntstn-atlas/bantustan_map.html', map=this_map, params=en.params())
+
+
+@app.route('/bantustan-interactive-atlas/mapa/<name>/')
+def bntstn_map_s(name):
+    this_map = utils.bntstn_map(fp, sh, name)
+    return render_template('bntstn-atlas/bantustan_map.html', map=this_map, params=sh.params())
 
 
 # ADDITIONAL ROUTES

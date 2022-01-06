@@ -15,6 +15,7 @@ class LangUtil:
         self.pages_dir = 'pages'
         self.notes_dir = 'notes'
         self.notes_tmp_dir = 'tmp/en'
+        self.bntstn_atlas_dir = 'bntstn_atlas/en'
         self.data = None
 
         base_path = 'static/data/'
@@ -33,6 +34,9 @@ class LangUtil:
 
     def dir(self):
         return self.projects_dir
+
+    def get_bntstn_atlas_dir(self):
+        return self.bntstn_atlas_dir
 
     def pgdir(self):
         return self.pages_dir
@@ -121,6 +125,7 @@ class LangUtilSh(LangUtil):
         self.pages_dir = '_pages_s'
         self.notes_dir = '_notes_s'
         self.notes_tmp_dir = 'tmp/sh'
+        self.bntstn_atlas_dir = 'bntstn_atlas/rs'
         self.data = self.lang_data['sh_params']
         self.data['pictodata'] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)
         self.data['max'] = self.max_project_count

@@ -1,5 +1,19 @@
 {
   "en_params": {
+    "bntstn": {
+      "title": "Interactive Atlas",
+      "chapter": "Chapter",
+      "h3_chapter": {
+        "part1": "Chapter ",
+        "part2": ""
+      },
+      "footer_txt": "You like the map?<br>You can order it as a <a href='/bantustan-interactive-atlas/info/'>print velikog formata</a>.<br>Knjiga? There are <a href='https://krcadinac.com/rad/projekti/bantustan-book/' target='_blank'>domaće</a> i <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>englesko</a> izdanje knjige<br><em>Bantustan: atlas jednog putovanja</em>.",
+      "note_tooltip": "What does this part of the mape mean? Read the artist note.",
+      "chapter_tooltip": {
+        "part1": "Load the PDF of the book and open the ",
+        "part2": " story in the chapter "
+      }
+    },
     "lang": "en",
     "paths": {
       "home": "/work/",
@@ -213,6 +227,20 @@
     }
   },
   "sh_params": {
+    "bntstn": {
+      "title": "Interaktivni atlas",
+      "chapter": "poglavlje",
+      "h3_chapter": {
+        "part1": "",
+        "part2": " poglavlje"
+      },
+      "footer_txt": "Dopada vam se ova mapa?<br>Možete je naručiti kao <a href='/bantustan-interactive-atlas/info/'>print velikog formata</a>.<br>Knjiga? Tu su <a href='https://krcadinac.com/rad/projekti/bantustan-book/' target='_blank'>domaće</a> i <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>englesko</a> izdanje knjige<br><em>Bantustan: atlas jednog putovanja</em>.",
+      "note_tooltip": "Šta predstavlja ovaj deo mape? Vidi belešku.",
+      "chapter_tooltip": {
+        "part1": "Učitaj knjigu u PDFu i otvori priču ",
+        "part2": " u poglavlju "
+      }
+    },
     "lang": "sh",
     "paths": {
       "home": "/rad/",

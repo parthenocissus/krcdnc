@@ -54,7 +54,7 @@
     <script src="{{ url_for('static', filename='js/lib/hammer.min.js') }}"></script>
     <script src="{{ url_for('static', filename='space/afroatlas/afroatlas.js') }}"></script>
 
-    <title>Bantustan Interactive Atlas</title>
+    <title>Bantustan {{ params.bntstn.title ~ " → " ~ params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 }}</title>
 
 </head>
 <body>
@@ -70,16 +70,15 @@
                 <rect y="4" width="11" height="3"></rect>
             </svg>
             <h1>Bantustan
-                <span class="mobile"> — XIV Tanzanija</span>
-                <span class="desktop"><br>Interaktivni atlas</span>
+                <span class="mobile"> — {{ map.title.chapter }} {{ map.title.name }}</span>
+                <span class="desktop"><br>{{ params.bntstn.title}}</span>
             </h1>
         </div>
 
         <div id="middle">
-            <h3>XIV poglavlje</h3>
-            <h2>Tanzanija</h2>
-            <h4>Lazar (L) i Marko (M) došli su u jugozapadnu<br>
-                Tanzaniju, stigavši do granice sa Zambijom.</h4>
+            <h3>{{ params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 }}</h3>
+            <h2>{{ map.title.name }}</h2>
+            <h4>{{ map.lead|safe }}</h4>
 
             <svg id="africa-map" x="0px" y="0px" viewBox="0 0 187 228">
                 <g id="africa-map-legend">
@@ -135,23 +134,28 @@
     </aside>
 
     <div class="lang">
-        <div id="nas">Naš</div>
-        <div id="eng">Eng</div>
+        <div id="nas"><a href="{{'/bantustan-interactive-atlas/mapa/' ~ map.id}}">Naš</a></div>
+        <div id="eng"><a href="{{'/bantustan-interactive-atlas/map/' ~ map.id}}">Eng</a></div>
     </div>
 
-    <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768">
+    <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <image id="map-image" xlink:href="{{ url_for('static', filename='space/afroatlas/maps/tanz000.jpg') }}"
                transform="matrix(0.1736 0 0 0.1736 35.077 29.5)"></image>
-        <circle class="chapter" onclick="chapterOnClick();" ontouchend="chapterOnClick();"
-                pointer-events="visible" cx="374" cy="335.5" r="13">
-            <title>Učitaj knjigu u PDFu i otvori priču 7L u poglavlju XIV</title>
-        </circle>
-        <circle class="mark" onclick="noteOnClick();" ontouchend="noteOnClick();" cx="624.7" cy="582.1" r="8">
-            <title>Šta predstavlja ovaj deo mape? Vidi belešku.</title>
-        </circle>
-        <circle class="mark" onclick="noteOnClick();" ontouchend="noteOnClick();"  cx="673.3" cy="612" r="8">
-            <title>Šta predstavlja ovaj deo mape? Vidi belešku.</title>
-        </circle>
+
+        {% for ch in map.chapters %}
+            <circle class="chapter" onclick="chapterOnClick('{{ ch.page }}');" ontouchend="chapterOnClick('{{ ch.page }}');"
+                    pointer-events="visible" cx="{{ ch.x }}" cy="{{ ch.y }}" r="13">
+                <title>{{ params.bntstn.chapter_tooltip.part1 ~ ch.id ~ params.bntstn.chapter_tooltip.part2 ~ map.title.chapter }}</title>
+            </circle>
+        {% endfor %}
+
+        {% for nt in map.notes %}
+            <circle class="mark" onclick="noteOnClick('{{ nt.txt }}');" ontouchend="noteOnClick('{{ nt.txt }}');"
+                    cx="{{ nt.x }}" cy="{{ nt.y }}" r="8">
+                <title>{{ params.bntstn.note_tooltip }}</title>
+            </circle>
+        {% endfor %}
+
     </svg>
 
     <div class="controls">
@@ -168,13 +172,8 @@
     </div>
 
     <footer class="side-content">
-        <p class="desktop">Dopada vam se ova mapa?<br>
-            Možete je naručiti kao <a href="#">print velikog formata</a>.<br>
-            Knjiga? Tu su <a href="#">domaće</a> i <a href="#">englesko</a> izdanje knjige<br>
-            <em>Bantustan: atlas jednog putovanja</em>.
-        </p>
-        <p><a href="https://krcadinac.com" target="_blank">Uroš Krčadinac</a>, 2015—2022.
-        </p>
+        <p class="desktop">{{ params.bntstn.footer_txt|safe }}</p>
+        <p><a href="https://krcadinac.com" target="_blank">Uroš Krčadinac</a>, 2015—2022.</p>
     </footer>
 
     <div class="note">
@@ -220,14 +219,14 @@
         $(".note").css({"visibility": "hidden"});
     });
 
-    let chapterOnClick = () => {
-        const url = "/download/books/Bantustan.pdf#page=294";
+    let chapterOnClick = (page) => {
+        const url = "/download/books/Bantustan.pdf#page=" + page;
         window.open(url, '_blank');
     }
 
     if (mediaQuery.matches) {
-        chapterOnClick = () => {
-            const txt = "<p>Da biste automatski otvorili PDF knjige na str. 294 i pročitali priču 7L u poglavlju XIV, molim vas da sajt otvorite u desktop brauzeru. Domaće elektronsko izdanje <em>Bantustana</em> je <a href='/download/books/Bantustan.pdf#page=294' target='_blank'>otvoreno licencirano i besplatno</a>.</p>";
+        chapterOnClick = (page) => {
+            const txt = "<p>Da biste automatski otvorili PDF knjige na str. " + page + " i pročitali priču 7L u poglavlju XIV, molim vas da sajt otvorite u desktop brauzeru. Domaće elektronsko izdanje <em>Bantustana</em> je <a href='/download/books/Bantustan.pdf#page=294' target='_blank'>otvoreno licencirano i besplatno</a>.</p>";
             noteOnClick(txt);
         }
     }

@@ -182,19 +182,26 @@ footer p a:hover {
 }
 
 .lang div {
-    color: white;
+
     font-family: "TTNorms-Bold", sans-serif;
     font-size: .55vw;
     font-weight: normal;
     letter-spacing: 0.045em;
     text-transform: uppercase;
+    text-decoration: none;
     padding: .3vw;
     margin-right: 0;
     cursor: pointer;
 }
 
-.lang div:hover {
+.lang div a {
+    color: white;
+    text-decoration: none;
+}
+
+.lang div a:hover {
     color: var(--main);
+    text-decoration: none;
 }
 
 /* Zoom Controls */

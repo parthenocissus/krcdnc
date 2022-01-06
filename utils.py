@@ -183,3 +183,10 @@ def __timeof(date, date_format):
 
 def __yearof(date, date_format):
     return datetime.strptime(date, date_format).year
+
+
+# Bantustan Interactive Atlas
+
+def bntstn_map(flatpages, lang, name):
+    prj = flatpages.get_or_404(f'{lang.get_bntstn_atlas_dir()}/{name}')
+    return prj
