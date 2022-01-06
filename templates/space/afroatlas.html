@@ -140,7 +140,7 @@
     </div>
 
     <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768">
-        <image xlink:href="{{ url_for('static', filename='space/afroatlas/maps/tanz000.jpg') }}"
+        <image id="map-image" xlink:href="{{ url_for('static', filename='space/afroatlas/maps/tanz000.jpg') }}"
                transform="matrix(0.1736 0 0 0.1736 35.077 29.5)"></image>
         <circle class="chapter" onclick="chapterOnClick();" ontouchend="chapterOnClick();"
                 pointer-events="visible" cx="374" cy="335.5" r="13">
@@ -196,6 +196,10 @@
 
     const mediaQuery = window.matchMedia('(max-width: 950px)');
 
+    $("#map-image").on('click tap touchstart touchend', (event) => {
+        $(".note").css({"visibility": "hidden"});
+    });
+
     let noteTxt = "<p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se\n" +
         "                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.\n" +
         "                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak\n" +
@@ -211,6 +215,10 @@
         note.height(noteH + 16);
         note.css({"visibility": "visible"});
     }
+
+    $("#note-x").on('click tap touchstart touchend', () => {
+        $(".note").css({"visibility": "hidden"});
+    });
 
     let chapterOnClick = () => {
         const url = "/download/books/Bantustan.pdf#page=294";
