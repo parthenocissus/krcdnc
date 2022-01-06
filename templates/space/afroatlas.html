@@ -196,7 +196,7 @@
 
     const mediaQuery = window.matchMedia('(max-width: 950px)');
 
-    $("#map-image").on('click tap touchstart touchend', (event) => {
+    $("#map-image,aside,footer,.controls,.lang").on('click tap touchstart touchend', (event) => {
         $(".note").css({"visibility": "hidden"});
     });
 
