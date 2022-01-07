@@ -69,9 +69,7 @@
                 <rect y="8" width="11" height="3"></rect>
                 <rect y="4" width="11" height="3"></rect>
             </svg>
-            <h1>Bantustan
-                <span class="mobile"> — {{ map.title.chapter }} {{ map.title.name }}</span>
-                <span class="desktop"><br>{{ params.bntstn.title}}</span>
+            <h1>Bantustan<span class="mobile"> — {{ map.title.chapter }} {{ map.title.name }}</span><span class="desktop"><br>{{ params.bntstn.title}}</span>
             </h1>
         </div>
 
@@ -200,6 +198,10 @@
 
     if ("{{ map.color is defined }}" === "True") {
         $("#main-map").css("background-color", "#1a1a1a");
+    }
+
+    if ("{{ map.title.long is defined }}" === "True") {
+        $("h2").css("font-size", "1.67vw");
     }
 
     $("#map-image,aside,footer,.controls,.lang").on('click tap touchstart touchend', (event) => {

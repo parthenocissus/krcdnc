@@ -1,7 +1,8 @@
 title: 
     name: "Maasai Village"
     chapter: "VII"
+    long: true
 id: maasai
 vertical: true
 color: black
-lead: "A Maasai village in Kenya, near the town of Narok.<br>The shape of the village resembles an enclosed cell."
+lead: "A village in South Kenya, near the<br>town of Narok, where Maasai live."
