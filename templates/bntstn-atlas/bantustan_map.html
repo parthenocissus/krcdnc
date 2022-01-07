@@ -54,7 +54,7 @@
     <script src="{{ url_for('static', filename='js/lib/hammer.min.js') }}"></script>
     <script src="{{ url_for('static', filename='space/afroatlas/afroatlas.js') }}"></script>
 
-    <title>Bantustan {{ params.bntstn.title ~ " → " ~ params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 }}</title>
+    <title>Bantustan {{ params.bntstn.title ~ " → " ~ params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 ~ " " ~ map.title.name }}</title>
 
 </head>
 <body>
@@ -138,9 +138,12 @@
         <div id="eng"><a href="{{'/bantustan-interactive-atlas/map/' ~ map.id}}">Eng</a></div>
     </div>
 
+    {% set v = map.vertical is defined %}
+    {% set transMat = "(0.1239 0 0 0.1239 285.1105 25.1702)" if v else "(0.1736 0 0 0.1736 35.077 29.5)" %}
+
     <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <image id="map-image" xlink:href="{{ url_for('static', filename='space/afroatlas/maps/tanz000.jpg') }}"
-               transform="matrix(0.1736 0 0 0.1736 35.077 29.5)"></image>
+
+        <image id="map-image" xlink:href="{{ url_for('static', filename='space/afroatlas/maps/' ~ params.bntstn.lang ~ '_' ~ map.id ~ '.jpg') }}" transform="matrix{{ transMat }}"></image>
 
         {% for ch in map.chapters %}
             <circle class="chapter" onclick="chapterOnClick('{{ ch.page }}');" ontouchend="chapterOnClick('{{ ch.page }}');"
@@ -194,6 +197,10 @@
 <script type="text/javascript">
 
     const mediaQuery = window.matchMedia('(max-width: 950px)');
+
+    if ("{{ map.color is defined }}" === "True") {
+        $("#main-map").css("background-color", "#1a1a1a");
+    }
 
     $("#map-image,aside,footer,.controls,.lang").on('click tap touchstart touchend', (event) => {
         $(".note").css({"visibility": "hidden"});

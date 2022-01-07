@@ -2,6 +2,7 @@
   "en_params": {
     "bntstn": {
       "title": "Interactive Atlas",
+      "lang": "e",
       "chapter": "Chapter",
       "h3_chapter": {
         "part1": "Chapter ",
@@ -229,6 +230,7 @@
   "sh_params": {
     "bntstn": {
       "title": "Interaktivni atlas",
+      "lang": "s",
       "chapter": "poglavlje",
       "h3_chapter": {
         "part1": "",
