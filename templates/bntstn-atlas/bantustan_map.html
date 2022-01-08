@@ -54,7 +54,8 @@
     <script src="{{ url_for('static', filename='js/lib/hammer.min.js') }}"></script>
     <script src="{{ url_for('static', filename='space/afroatlas/afroatlas.js') }}"></script>
 
-    <title>Bantustan {{ params.bntstn.title ~ " → " ~ params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 ~ ": " ~ map.title.name }}</title>
+    <title>
+        Bantustan {{ params.bntstn.title ~ " → " ~ params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 ~ ": " ~ map.title.name }}</title>
 
 </head>
 <body>
@@ -64,12 +65,13 @@
     <aside id="aside-main" class="side-content">
 
         <div id="top">
-            <svg id="menu" x="0px" y="0px" viewBox="0 0 11 11">
+            <svg id="menu-hamburger" class="hamburger" x="0px" y="0px" viewBox="0 0 11 11">
                 <rect width="11" height="3"></rect>
                 <rect y="8" width="11" height="3"></rect>
                 <rect y="4" width="11" height="3"></rect>
             </svg>
-            <h1>Bantustan<span class="mobile"> — {{ map.title.chapter }} {{ map.title.name }}</span><span class="desktop"><br>{{ params.bntstn.title}}</span>
+            <h1>Bantustan<span class="mobile"> — {{ map.title.chapter }} {{ map.title.name }}</span><span
+                    class="desktop"><br>{{ params.bntstn.title }}</span>
             </h1>
         </div>
 
@@ -132,19 +134,23 @@
     </aside>
 
     <div class="lang">
-        <div id="nas"><a href="{{'/bantustan-interactive-atlas/mapa/' ~ map.id}}">Naš</a></div>
-        <div id="eng"><a href="{{'/bantustan-interactive-atlas/map/' ~ map.id}}">Eng</a></div>
+        <div id="nas"><a href="{{ '/bantustan-interactive-atlas/mapa/' ~ map.id }}">Naš</a></div>
+        <div id="eng"><a href="{{ '/bantustan-interactive-atlas/map/' ~ map.id }}">Eng</a></div>
     </div>
 
     {% set v = map.vertical is defined %}
     {% set transMat = "(0.1239 0 0 0.1239 285.1105 25.1702)" if v else "(0.1736 0 0 0.1736 35.077 29.5)" %}
 
-    <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768" xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
 
-        <image id="map-image" xlink:href="{{ url_for('static', filename='space/afroatlas/maps/' ~ params.bntstn.lang ~ '_' ~ map.id ~ '.jpg') }}" transform="matrix{{ transMat }}"></image>
+        <image id="map-image"
+               xlink:href="{{ url_for('static', filename='space/afroatlas/maps/' ~ params.bntstn.lang ~ '_' ~ map.id ~ '.jpg') }}"
+               transform="matrix{{ transMat }}"></image>
 
         {% for ch in map.chapters %}
-            <circle class="chapter" onclick="chapterOnClick('{{ ch.page }}');" ontouchend="chapterOnClick('{{ ch.page }}');"
+            <circle class="chapter" onclick="chapterOnClick('{{ ch.page }}');"
+                    ontouchend="chapterOnClick('{{ ch.page }}');"
                     pointer-events="visible" cx="{{ ch.x }}" cy="{{ ch.y }}" r="13">
                 <title>{{ params.bntstn.chapter_tooltip.part1 ~ ch.id ~ params.bntstn.chapter_tooltip.part2 ~ map.title.chapter }}</title>
             </circle>
@@ -190,6 +196,75 @@
         </div>
     </div>
 
+    <div class="main-menu">
+
+        <div class="menu-header">
+            <svg id="menu-x" x="0px" y="0px" viewBox="0 0 13.4 13.4">
+                <path d="M0.1,10.6L4,6.8L0.1,3l2.8-2.8L6.8,4l3.8-3.8l2.6,2.6L9.3,6.6l3.8,3.8l-2.8,2.8L6.5,9.4l-3.8,3.8L0.1,10.6z"></path>
+            </svg>
+            <h1>Bantustan {{ params.bntstn.title }}</h1>
+            <div class="lang">
+                <div id="nas"><a href="{{ '/bantustan-interactive-atlas/mapa/' ~ map.id }}">Naš</a></div>
+                <div id="eng"><a href="{{ '/bantustan-interactive-atlas/map/' ~ map.id }}">Eng</a></div>
+            </div>
+        </div>
+
+        <div class="menu-body">
+
+            <div class="menu-upper menu-block">
+                <div class="menu-section home-prints">
+                    <div class="menu-h to-right">Main Menu</div>
+                    <ul class="menu-items to-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Prints</a></li>
+                    </ul>
+                </div>
+                <div class="menu-section book-editions">
+                    <div class="menu-h">Bantustan Book Editions</div>
+                    <ul class="menu-items">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Serbocroatian</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu-lower menu-block">
+                <div class="menu-section chapters">
+                    <div class="menu-h to-right">Available Chapters</div>
+                    <ul class="menu-items">
+                        <li><span class="ch">I</span><a href="#">Balkan-Africa</a></li>
+                        <li><span class="ch">II</span><a href="#">Cairo</a></li>
+                        <li><span class="ch">III</span><a href="#">Nasser Lake</a></li>
+                        <li><span class="ch">XIV</span><a href="#">Sudan</a></li>
+                        <li><span class="ch">V</span><a href="#">Khartoum</a></li>
+                        <li><span class="ch">VIII</span><a href="#">Nairobi</a></li>
+{#                        <li><a href="#">Maasai Village</a></li>#}
+{#                        <li><a href="#">Uganda</a></li>#}
+{#                        <li><a href="#">Mombasa</a></li>#}
+{#                        <li><a href="#">Rwanda</a></li>#}
+{#                        <li><a href="#">Tanzania</a></li>#}
+{#                        <li><a href="#">Congo</a></li>#}
+{#                        <li><a href="#">Tanganyika</a></li>#}
+{#                        <li><a href="#">Zambia</a></li>#}
+{#                        <li><a href="#">Namibia</a></li>#}
+                    </ul>
+                </div>
+                <div class="menu-section others">
+                    <div class="menu-h">Other Maps & Visuals</div>
+                    <ul class="menu-items">
+                        <li><a href="#">Bahá'u'lláh's Roads</a></li>
+                        <li><a href="#">The Nose Chart</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <img src="{{ url_for('static', filename='space/afroatlas/maps/africa_map_menu.svg') }}"
+             id="africa-map-with-legend" alt="Africa Map with Chapter Legend">
+
+        </div>
+
+    </div>
+
 </main>
 
 <script type="text/javascript">
@@ -204,6 +279,16 @@
         $("h2").css("font-size", "1.67vw");
     }
 
+    $("#menu-hamburger").on('click tap touchstart touchend', (event) => {
+        {#$(".main-menu").css({"visibility": "hidden"});#}
+        $(".main-menu").show();
+    });
+
+    $("#menu-x").on('click tap touchstart touchend', (event) => {
+        {#$(".main-menu").css({"visibility": "hidden"});#}
+        $(".main-menu").hide();
+    });
+
     $("#map-image,aside,footer,.controls,.lang").on('click tap touchstart touchend', (event) => {
         $(".note").css({"visibility": "hidden"});
     });
@@ -214,7 +299,7 @@
         "                    gladi</em>.«</p>\n" +
         "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
 
-    let noteOnClick = (txt=noteTxt) => {
+    let noteOnClick = (txt = noteTxt) => {
         let note = $(".note"),
             noteTxtCont = $(".note-text");
         note.css({"visibility": "hidden"});

@@ -22,6 +22,14 @@ html, body {
     line-height: 1.6;
 }
 
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
 .side-content {
     background-color: black;
     color: white;
@@ -32,7 +40,7 @@ html, body {
 
 aside {
     height: 100%;
-    padding: 2.5vw;
+    padding: 2vw 1.8vw;
     z-index: 5;
     display: grid;
     grid-template-columns: 1fr;
@@ -43,24 +51,24 @@ aside {
 footer {
     left: 0;
     bottom: 0;
-    padding: 2vw 2.5vw;
+    padding: 1.8vw 1.8vw;
     font-family: "TTNorms-Regular", sans-serif;
     font-size: 0.8vw;
     z-index: 10;
 }
 
-#menu {
+.hamburger {
     position: relative;
     width: .7vw;
     margin: 0 0 .3vw 0;
     cursor: pointer;
 }
 
-#menu rect {
+.hamburger rect {
     fill: var(--main);
 }
 
-#menu:hover rect {
+.hamburger:hover rect {
     fill: white;
 }
 
@@ -289,6 +297,181 @@ footer p a:hover {
     fill: black;
 }
 
+/* Main Menu */
+
+.main-menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 50;
+
+    display: none;
+}
+
+/* Menu Header */
+
+.main-menu .menu-header {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    z-index: 101;
+    height: 5vw;
+    width: 100vw;
+    padding: 2vw 1.8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu .menu-header #menu-x {
+    position: relative;
+    width: .9vw;
+    text-align: end;
+    cursor: pointer;
+}
+
+.main-menu .menu-header #menu-x path {
+    fill: var(--main);
+    stroke: none;
+}
+
+.main-menu .menu-header #menu-x:hover path {
+    fill: white;
+    stroke: none;
+}
+
+.main-menu .menu-header h1 {
+    padding: 2px 0 0 0;
+}
+
+.main-menu .menu-header .lang {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 2px 0 0 0;
+}
+
+.main-menu .menu-header .lang div {
+    font-size: .7vw;
+    padding: 0 .3vw 0 .8vw;
+}
+
+.main-menu .menu-header .lang div a {
+    color: var(--main);
+}
+
+.main-menu .menu-header .lang div a:hover {
+    color: white;
+}
+
+/* Menu Body */
+
+.main-menu .menu-body {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main);
+    text-align: center;
+    padding-top: 5vw;
+    z-index: 60;
+    align-self: center;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto 6vw auto auto;
+    grid-gap: 1.2vw;
+    grid-template-areas:
+        "map ."
+        "map mn1"
+        "map mn2"
+        "map .";
+}
+
+#africa-map-with-legend {
+    grid-area: map;
+    width: 25vw;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 3vw;
+}
+
+/* Menu Blocks & Sections */
+
+.menu-body .menu-upper {
+    grid-area: mn1;
+}
+
+.menu-body .menu-lower {
+    grid-area: mn2;
+}
+
+.menu-body .menu-block {
+    width: 37vw;
+    box-sizing: border-box;
+    text-align: left;
+    justify-self: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu-section {
+    box-sizing: border-box;
+    padding: 2vw;
+    line-height: 1.4;
+}
+
+.menu-h {
+    color: black;
+    font-family: "TTNorms-Bold", sans-serif;
+    font-size: .7vw;
+    font-weight: normal;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 0 .8vw 0;
+    text-align: left;
+}
+
+.menu-items li a {
+    text-align: left;
+    color: white;
+    font-size: 1vw;
+    font-family: "MonumentExtended-Regular", sans-serif;
+    letter-spacing: 0.0625em;
+    text-decoration: none;
+}
+
+.menu-items li:hover a {
+    color: black;
+}
+
+.menu-items li .ch {
+    box-sizing: border-box;
+    text-align: right;
+    display: inline-block;
+    color: white;
+    width: 2.6vw;
+    padding-right: 1vw;
+    font-family: "TTNorms-Medium", sans-serif;
+    font-size: .8vw;
+}
+
+.menu-items li:hover .ch {
+    color: black;
+}
+
+.menu-body .to-right {
+    padding-left: 2.6vw;
+}
+
 /* Flags */
 
 .mobile {
@@ -309,6 +492,7 @@ footer p a:hover {
     /* Flags */
     .mobile {
         visibility: visible;
+        display: inline;
     }
 
     .desktop {
@@ -353,7 +537,7 @@ footer p a:hover {
         grid-template-columns: 10vw 1fr 10vw;
     }
 
-    #menu {
+    .hamburger {
         width: 14px;
         height: 14px;
         margin: 0;
