@@ -318,13 +318,15 @@ footer p a:hover {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: black;
+    /*background-color: white;*/
     z-index: 101;
     height: 5vw;
     width: 100vw;
     padding: 2vw 1.8vw;
     display: flex;
     justify-content: space-between;
+    /*border-bottom: 3px black solid;*/
+    /*box-shadow: 0 0 1.4vw white;*/
 }
 
 .main-menu .menu-header #menu-x {
@@ -335,17 +337,22 @@ footer p a:hover {
 }
 
 .main-menu .menu-header #menu-x path {
-    fill: var(--main);
+    fill: white; /* var(--main); */
     stroke: none;
 }
 
 .main-menu .menu-header #menu-x:hover path {
-    fill: white;
+    fill: black;
     stroke: none;
 }
 
 .main-menu .menu-header h1 {
-    padding: 2px 0 0 0;
+    font-size: 1.1vw;
+    /*padding: 2px 0 0 0;*/
+}
+
+.main-menu .menu-header h1:hover {
+    color: black;
 }
 
 .main-menu .menu-header .lang {
@@ -354,6 +361,8 @@ footer p a:hover {
     top: 0;
     left: 0;
     padding: 2px 0 0 0;
+    background-color: var(--main);
+    box-shadow: none;
 }
 
 .main-menu .menu-header .lang div {
@@ -362,11 +371,11 @@ footer p a:hover {
 }
 
 .main-menu .menu-header .lang div a {
-    color: var(--main);
+    color: white; /* var(--main); */
 }
 
 .main-menu .menu-header .lang div a:hover {
-    color: white;
+    color: black;
 }
 
 /* Menu Body */
@@ -380,7 +389,7 @@ footer p a:hover {
     height: 100vh;
     background-color: var(--main);
     text-align: center;
-    padding-top: 5vw;
+    padding-top: 1vw;
     z-index: 60;
     align-self: center;
 
