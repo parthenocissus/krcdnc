@@ -519,8 +519,6 @@ footer p a:hover {
     padding: 2vw 2.3vw 2vw 1.8vw;
     display: flex;
     justify-content: space-between;
-    /*border-bottom: 3px black solid;*/
-    /*box-shadow: 0 0 1.4vw white;*/
 }
 
 .main-menu .menu-header #menu-x {
@@ -542,7 +540,6 @@ footer p a:hover {
 
 .main-menu .menu-header h1 {
     font-size: 1.1vw;
-    /*padding: 2px 0 0 0;*/
 }
 
 .main-menu .menu-header h1:hover {
@@ -811,6 +808,30 @@ footer p a:hover {
     }
 
     /* Main Menu */
+
+    .main-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        /*height: auto;*/
+        overflow-x: hidden;
+        overflow-y: visible;
+    }
+
+    .main-menu::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .main-menu::-webkit-scrollbar-track {
+        background: white;
+    }
+
+    .main-menu::-webkit-scrollbar-thumb,
+    .main-menu::-webkit-scrollbar-thumb:hover {
+        background: var(--main);
+    }
+
     .main-menu .menu-header {
         height: 48px;
         padding: 15px;
@@ -820,7 +841,68 @@ footer p a:hover {
         width: 15px;
     }
 
+    /* Menu Body */
+    .main-menu .menu-body {
+        padding: 30px;
+        display: grid;
+        overflow-y: visible;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10px repeat(3, auto) 10px; /*auto auto auto auto auto;*/
+        grid-gap: 15px;
+        grid-template-areas:
+            "."
+            "mn1"
+            "map"
+            "mn2"
+            ".";
+    }
+
+    #africa-map-with-legend {
+        grid-area: map;
+        width: 90%;
+        justify-self: left;
+        padding: 15px 0 35px 0;
+    }
+
+    .menu-body .menu-block {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .menu-section {
+        /*padding: 2vw;*/
+        line-height: 1.6;
+    }
+
+    .menu-h {
+        font-size: 14px;
+        font-weight: normal;
+        padding: 0 0 10px 0;
+    }
+
+    .menu-items li a {
+        font-size: 19px;
+    }
+
+    .menu-items li:hover a {
+        color: black;
+    }
+
+    .menu-items li .ch {
+        width: 36px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+
+    .menu-body .to-right {
+        padding-left: 0;
+    }
+
     /* Home Page and Prints Page */
+
     .main-menu .menu-header {
         height: 48px;
         padding: 15px;
