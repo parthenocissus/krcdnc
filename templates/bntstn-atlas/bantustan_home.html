@@ -15,7 +15,7 @@
         }
 
         .map-background {
-            background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback.jpg') }});
+            background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback.jpg') }}) !important;
             background-repeat: repeat-y;
             background-size: 100%;
         }
@@ -111,13 +111,13 @@
         const topOnBegin = -900;
         let mapBack = $(".map-background");
 
-        {#mapBack.css({"top": topOnBegin + "px"});#}
-        {##}
-        {#$(window).scroll(function() {#}
-        {#    mapBack.css({#}
-        {#        "top": (topOnBegin - ($(window).scrollTop() * 2)) + "px"#}
-        {#    });#}
-        {# });#}
+        mapBack.css({"top": topOnBegin + "px"});
+
+        $(window).scroll(function() {
+            mapBack.css({
+                "top": (topOnBegin - ($(window).scrollTop() * 2)) + "px"
+            });
+         });
 
     </script>
 {% endblock %}
