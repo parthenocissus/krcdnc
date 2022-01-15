@@ -14,18 +14,22 @@
             background-color: black;
         }
 
-        {#.map-background {#}
-        {#    background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback.jpg') }}) !important;#}
-        {#    background-repeat: repeat-y;#}
-        {#    background-size: 100%;#}
-        {# }#}
-        {##}
-        {#@media only screen and (max-width: 950px) {#}
-        {#    .map-background {#}
-        {#        background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback_smaller.jpg') }});#}
-        {#        background-attachment: scroll;#}
-        {#    }#}
-        {# }#}
+        .map-background {
+            background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback.jpg') }});
+            background-repeat: repeat-y;
+            background-size: 100%;
+         }
+
+        @media only screen and (max-width: 950px) {
+            .map-background {
+                background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback_smaller.jpg') }}) !important;
+                background-attachment: scroll;
+                width: 100%;
+                min-height: 1000%;
+                z-index: 1;
+                {#background-size: 100% 100%;#}
+            }
+         }
 
         /* width */
         ::-webkit-scrollbar {
@@ -93,7 +97,7 @@
     </div>
 
     <div class="map-background">
-        <img src="{{ url_for('static', filename='/space/afroatlas/maps/afroback.jpg') }}"/>
+{#        <img src="{{ url_for('static', filename='/space/afroatlas/maps/afroback.jpg') }}"/>#}
     </div>
 
 {% endblock %}
