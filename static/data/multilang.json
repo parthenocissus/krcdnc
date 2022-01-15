@@ -3,6 +3,21 @@
     "bntstn": {
       "title": "Interactive Atlas",
       "lang": "e",
+      "menu": {
+        "main": "Main Menu",
+        "editions": "Bantustan Book Editions",
+        "chapters": "Available Chapters",
+        "others": "Other Maps & Graphics",
+        "submenu": {
+          "home": "Home",
+          "home_link": "home",
+          "prints": "Prints",
+          "prints_link": "prints",
+          "eng_ed": "English",
+          "srb_ed": "Serbian"
+        },
+        "map_link": "map"
+      },
       "chapter": "Chapter",
       "h3_chapter": {
         "part1": "Chapter ",
@@ -71,7 +86,7 @@
       "homepage": "<a href='/work/about/'>Uroš Krčadinac</a> (b. 1984) is a Belgrade-based <br class='bio-break'>digital artist, technologist, writer, and educator <br class='bio-break'>who <span id='creates-verb'>creates</span> <span id='creates-what'>multidisciplinary projects</span>."
     },
     "page_title": {
-      "homepage": " ← Data Art, Writing, Teaching",
+      "homepage": " → Digital Art, Writing, Teaching",
       "about": "About"
     },
     "tooltip": {
@@ -231,6 +246,21 @@
     "bntstn": {
       "title": "Interaktivni atlas",
       "lang": "s",
+      "menu": {
+        "main": "Glavni meni",
+        "editions": "Izdanja knjige Bantustan",
+        "chapters": "Izabrana poglavlja",
+        "others": "Ostale mape i grafike",
+        "submenu": {
+          "home": "Početna",
+          "home_link": "pocetna",
+          "prints": "Printovi",
+          "prints_link": "printovi",
+          "eng_ed": "Englesko",
+          "srb_ed": "Domaće"
+        },
+        "map_link": "mapa"
+      },
       "chapter": "poglavlje",
       "h3_chapter": {
         "part1": "",
@@ -299,7 +329,7 @@
       "homepage": "<a href='/rad/bio/'>Uroš Krčadinac</a> (1984) je <br class='bio-break-footer-sh'>digitalni umetnik, <br class='bio-break'> programer, autor <br class='bio-break-footer-sh'>i edukator koji <span id='creates-verb'>kreira</span> <br class='bio-break'><span id='creates-what'>transdisciplinarne projekte</span>."
     },
     "page_title": {
-      "homepage": " ← digitalni umetnik, programer, autor i edukator",
+      "homepage": " → digitalni umetnik, programer, autor i edukator",
       "about": "Biografija"
     },
     "tooltip": {

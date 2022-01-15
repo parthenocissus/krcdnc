@@ -1,70 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<title>
+{% extends "bntstn-atlas/bantustan_base.html" %}
 
-    <meta charset="UTF-8">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+{% block title %}
+
+    {% set sbttl = map.title.name if map.title.chapter == "other" else params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 ~ ": " ~ map.title.name %}
+    Bantustan {{ params.bntstn.title ~ " → " ~ sbttl }}
+
+{% endblock %}
+
+{% block head %}
+
+    {{ super() }}
 
     <style>
-
-    {# Monument Extended #}
-
-    @font-face {
-    font-family: "MonumentExtended-Regular";
-    src: url({{ url_for('static', filename='media/fonts/monument/MonumentExtended-Regular.woff2') }}) format('woff2');
-    }
-
-    @font-face {
-    font-family: "MonumentExtended-Ultrabold";
-    src: url({{ url_for('static', filename='media/fonts/monument/MonumentExtended-Ultrabold.woff2') }}) format('woff2');
-    }
-
-    {# TT Norms Pro #}
-
-    @font-face {
-    font-family: "TTNorms-Regular";
-    src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Regular.woff2') }}) format('woff2');
-    }
-
-    @font-face {
-    font-family: "TTNorms-Medium";
-    src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Medium.woff2') }}) format('woff2');
-    }
-
-    @font-face {
-    font-family: "TTNorms-Italic";
-    src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Regular.woff2') }}) format('woff2');
-    }
-
-    @font-face {
-    font-family: "TTNorms-Bold";
-    src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Bold.woff2') }}) format('woff2');
-    }
-
+        html, body {
+            overflow: hidden;
+        }
     </style>
 
-    <link rel="shortcut icon" type="image/png"
-    href="{{ url_for('static', filename='space/afroatlas/maps/afrovicon.ico') }}"/>
+{% endblock %}
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='space/afroatlas/afroatlas.css') }}">
-
-    <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/lib/svg-pan-zoom.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/lib/hammer.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='space/afroatlas/afroatlas.js') }}"></script>
-
-
-    {% if map.title.chapter == "other" %}
-        <title>Bantustan {{ params.bntstn.title ~ " → " ~ map.title.name }}</title>
-    {% else %}
-        <title>Bantustan {{ params.bntstn.title ~ " → " ~ params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 ~ ": " ~ map.title.name }}</title>
-    {% endif %}
-
-</head>
-<body>
-
-<main>
+{% block main %}
 
     <aside id="aside-main" class="side-content">
 
@@ -74,20 +29,27 @@
                 <rect y="8" width="11" height="3"></rect>
                 <rect y="4" width="11" height="3"></rect>
             </svg>
-            <h1>Bantustan<span class="mobile"> — {{ map.title.chapter }} {{ map.title.name }}</span><span
+
+            {% set mobile_subtitle = map.title.name if map.title.chapter == "other" else map.title.chapter ~ " " ~ map.title.name %}
+            <h1>Bantustan<span class="mobile"> — {{ mobile_subtitle }}</span><span
                     class="desktop"><br>{{ params.bntstn.title }}</span>
             </h1>
+
         </div>
 
         <div id="middle">
-            <h3>{{ params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 }}</h3>
+            {% set up_h3 = params.bntstn.menu.others if map.title.chapter == "other" else params.bntstn.h3_chapter.part1 ~ map.title.chapter ~ params.bntstn.h3_chapter.part2 %}
+            <h3>{{ up_h3 }}</h3>
             <h2>{{ map.title.name }}</h2>
             <h4>{{ map.lead|safe }}</h4>
 
             <svg id="africa-map" x="0px" y="0px" viewBox="0 0 187 228">
-                <g id="africa-map-legend">
-                    <rect x="122.8" y="148.6" fill="#FFFFFF" width="16.7" height="11.4"></rect>
-                </g>
+                {% if map.legend is defined %}
+                    <g id="africa-map-legend">
+                        <rect fill="#FFFFFF" x="{{ map.legend.x }}" y="{{ map.legend.y }}"
+                              width="{{ map.legend.w }}" height="{{ map.legend.h }}"></rect>
+                    </g>
+                {% endif %}
                 <g id="africa-map-base">
                     <path id="africa-outline" fill="none" stroke="#FFFFFF" stroke-linejoin="bevel"
                           stroke-miterlimit="10" d="M74.6,33.5l-4.2,1.1l-1.1-0.6l-0.4,0.4
@@ -192,145 +154,66 @@
             <path d="M0.1,10.6L4,6.8L0.1,3l2.8-2.8L6.8,4l3.8-3.8l2.6,2.6L9.3,6.6l3.8,3.8l-2.8,2.8L6.5,9.4l-3.8,3.8L0.1,10.6z"></path>
         </svg>
         <div class="note-text">
-            <p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se
-                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.
-                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak
-                    gladi</em>.«</p>
-            <p>Stomak gladi. Ulica <a href="#">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>
         </div>
     </div>
 
-    <div class="main-menu">
+{% endblock %}
 
-        <div class="menu-header">
-            <svg id="menu-x" x="0px" y="0px" viewBox="0 0 13.4 13.4">
-                <path d="M0.1,10.6L4,6.8L0.1,3l2.8-2.8L6.8,4l3.8-3.8l2.6,2.6L9.3,6.6l3.8,3.8l-2.8,2.8L6.5,9.4l-3.8,3.8L0.1,10.6z"></path>
-            </svg>
-            {#            <h1>Bantustan {{ params.bntstn.title }}</h1>#}
-            <h1></h1>
-            <div class="lang">
-                <div id="nas"><a href="{{ '/bantustan-interactive-atlas/mapa/' ~ map.id }}">Naš</a></div>
-                <div id="eng"><a href="{{ '/bantustan-interactive-atlas/map/' ~ map.id }}">Eng</a></div>
-            </div>
-        </div>
+{% block menulang %}
+    <div id="nas"><a href="{{ '/bantustan-interactive-atlas/mapa/' ~ map.id }}">Naš</a></div>
+    <div id="eng"><a href="{{ '/bantustan-interactive-atlas/map/' ~ map.id }}">Eng</a></div>
+{% endblock %}
 
-        <div class="menu-body">
+{% block js %}
 
-            <div class="menu-upper menu-block">
-                <div class="menu-section home-prints">
-                    <div class="menu-h to-right">Main Menu</div>
-                    <ul class="menu-items to-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Prints</a></li>
-                    </ul>
-                </div>
-                <div class="menu-section book-editions">
-                    <div class="menu-h">Bantustan Book Editions</div>
-                    <ul class="menu-items">
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Serbian</a></li>
-                    </ul>
-                </div>
-            </div>
+    <script type="text/javascript">
 
-            <div class="menu-lower menu-block">
-                <div class="menu-section chapters">
-                    <div class="menu-h to-right">Available Chapters</div>
-                    <ul class="menu-items">
-                        <li><span class="ch">I</span><a href="#">Balkan-Africa</a></li>
-                        <li><span class="ch">II</span><a href="#">Cairo</a></li>
-                        <li><span class="ch">III</span><a href="#">Nasser Lake</a></li>
-                        <li><span class="ch">XIV</span><a href="#">Sudan</a></li>
-                        <li><span class="ch">V</span><a href="#">Khartoum</a></li>
-                        <li><span class="ch">VIII</span><a href="#">Nairobi</a></li>
-                        {#                        <li><a href="#">Maasai Village</a></li>#}
-                        {#                        <li><a href="#">Uganda</a></li>#}
-                        {#                        <li><a href="#">Mombasa</a></li>#}
-                        {#                        <li><a href="#">Rwanda</a></li>#}
-                        {#                        <li><a href="#">Tanzania</a></li>#}
-                        {#                        <li><a href="#">Congo</a></li>#}
-                        {#                        <li><a href="#">Tanganyika</a></li>#}
-                        {#                        <li><a href="#">Zambia</a></li>#}
-                        {#                        <li><a href="#">Namibia</a></li>#}
-                    </ul>
-                </div>
-                <div class="menu-section others">
-                    <div class="menu-h">Other Maps & Visuals</div>
-                    <ul class="menu-items">
-                        <li><a href="#">Bahá'u'lláh's Roads</a></li>
-                        <li><a href="#">The Nose Chart</a></li>
-                    </ul>
-                </div>
-            </div>
+        const mediaQuery = window.matchMedia('(max-width: 950px)');
 
-            <img src="{{ url_for('static', filename='space/afroatlas/maps/africa_map_menu.svg') }}"
-                 id="africa-map-with-legend" alt="Africa Map with Chapter Legend">
-
-        </div>
-
-    </div>
-
-</main>
-
-<script type="text/javascript">
-
-    const mediaQuery = window.matchMedia('(max-width: 950px)');
-
-    if ("{{ map.color is defined }}" === "True") {
-        $("#main-map").css("background-color", "#1a1a1a");
-    }
-
-    if ("{{ map.title.long is defined }}" === "True") {
-        $("h2").css("font-size", "1.67vw");
-    }
-
-    $("#menu-hamburger").on('click tap touchstart touchend', (event) => {
-        {#$(".main-menu").css({"visibility": "hidden"});#}
-        $(".main-menu").show();
-    });
-
-    $("#menu-x").on('click tap touchstart touchend', (event) => {
-        {#$(".main-menu").css({"visibility": "hidden"});#}
-        $(".main-menu").hide();
-    });
-
-    $("#map-image,aside,footer,.controls,.lang").on('click tap touchstart touchend', (event) => {
-        $(".note").css({"visibility": "hidden"});
-    });
-
-    let noteTxt = "<p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se\n" +
-        "                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.\n" +
-        "                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak\n" +
-        "                    gladi</em>.«</p>\n" +
-        "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
-
-    let noteOnClick = (txt = noteTxt) => {
-        let note = $(".note"),
-            noteTxtCont = $(".note-text");
-        note.css({"visibility": "hidden"});
-        noteTxtCont.html(txt);
-        let noteH = noteTxtCont.height();
-        note.height(noteH + 16);
-        note.css({"visibility": "visible"});
-    }
-
-    $("#note-x").on('click tap touchstart touchend', () => {
-        $(".note").css({"visibility": "hidden"});
-    });
-
-    let chapterOnClick = (page) => {
-        const url = "/download/books/Bantustan.pdf#page=" + page;
-        window.open(url, '_blank');
-    }
-
-    if (mediaQuery.matches) {
-        chapterOnClick = (page) => {
-            const txt = "<p>Da biste automatski otvorili PDF knjige na str. " + page + " i pročitali priču 7L u poglavlju XIV, molim vas da sajt otvorite u desktop brauzeru. Domaće elektronsko izdanje <em>Bantustana</em> je <a href='/download/books/Bantustan.pdf#page=294' target='_blank'>otvoreno licencirano i besplatno</a>.</p>";
-            noteOnClick(txt);
+        if ("{{ map.color is defined }}" === "True") {
+            $("#main-map").css("background-color", "#1a1a1a");
         }
-    }
 
-</script>
+        if ("{{ map.title.long is defined }}" === "True") {
+            $("h2").css("font-size", "1.67vw");
+        }
 
-</body>
-</html>
+        $("#map-image,aside,footer,.controls,.lang").on('click tap touchstart touchend', (event) => {
+            $(".note").css({"visibility": "hidden"});
+        });
+
+        let noteTxt = "<p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se\n" +
+            "                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.\n" +
+            "                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak\n" +
+            "                    gladi</em>.«</p>\n" +
+            "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
+
+        let noteOnClick = (txt = noteTxt) => {
+            let note = $(".note"),
+                noteTxtCont = $(".note-text");
+            note.css({"visibility": "hidden"});
+            noteTxtCont.html(txt);
+            let noteH = noteTxtCont.height();
+            note.height(noteH + 16);
+            note.css({"visibility": "visible"});
+        }
+
+        $("#note-x").on('click tap touchstart touchend', () => {
+            $(".note").css({"visibility": "hidden"});
+        });
+
+        let chapterOnClick = (page) => {
+            const url = "/download/books/Bantustan.pdf#page=" + page;
+            window.open(url, '_blank');
+        }
+
+        if (mediaQuery.matches) {
+            chapterOnClick = (page) => {
+                const txt = "<p>Da biste automatski otvorili PDF knjige na str. " + page + " i pročitali priču 7L u poglavlju XIV, molim vas da sajt otvorite u desktop brauzeru. Domaće elektronsko izdanje <em>Bantustana</em> je <a href='/download/books/Bantustan.pdf#page=294' target='_blank'>otvoreno licencirano i besplatno</a>.</p>";
+                noteOnClick(txt);
+            }
+        }
+
+    </script>
+
+{% endblock %}

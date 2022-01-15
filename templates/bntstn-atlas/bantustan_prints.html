@@ -1,0 +1,100 @@
+{% extends "bntstn-atlas/bantustan_base.html" %}
+
+{% block title %}
+    Bantustan {{ params.bntstn.title }}
+{% endblock %}
+
+{% block head %}
+
+    {{ super() }}
+
+    <style>
+
+        html, body {
+            background-color: white;
+            overflow-y: auto;
+        }
+
+        .home-header .hamburger rect {
+            fill: black;
+        }
+
+        .home-header .hamburger:hover rect {
+            fill: var(--main);
+        }
+
+        .home-header .lang div a {
+            color: black;
+        }
+
+        .home-header .lang div a:hover {
+            color: var(--main);
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: white;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #1D1D1D;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: black;
+        }
+
+    </style>
+
+{% endblock %}
+
+{% block main %}
+
+    <div class="home-header">
+
+        <svg id="menu-hamburger" class="home-hamburger hamburger" x="0px" y="0px" viewBox="0 0 11 11">
+            <rect width="11" height="3"></rect>
+            <rect y="8" width="11" height="3"></rect>
+            <rect y="4" width="11" height="3"></rect>
+        </svg>
+
+        <div class="lang">
+            <div id="nas"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.rs }}">Naš</a></div>
+            <div id="eng"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.en }}">Eng</a></div>
+        </div>
+
+    </div>
+
+    <div class="prints-maps">
+        {% for m in map.map_list %}
+            {% set lnk = 'space/afroatlas/maps/' ~ params.bntstn.lang ~ '_' ~ m ~ '.jpg' %}
+            <img src="{{ url_for('static', filename=lnk) }}" alt="{{ 'uroš krčadinac' ~ m }}"/>
+        {% endfor %}
+    </div>
+
+    <div class="prints-content">
+        <div class="inner">{{ map.page.txt|safe }}</div>
+    </div>
+
+
+{% endblock %}
+
+{% block menulang %}
+    <div id="nas"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.rs }}">Naš</a></div>
+    <div id="eng"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.en }}">Eng</a></div>
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript">
+
+        const mediaQuery = window.matchMedia('(max-width: 950px)');
+
+    </script>
+{% endblock %}

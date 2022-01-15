@@ -6,6 +6,7 @@ from flask import Flask, render_template, send_file, redirect
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 import utils
+import random
 from langutil import LangUtilEn, LangUtilSh
 
 app = Flask(__name__)
@@ -231,14 +232,30 @@ def space(name):
 @app.route('/bantustan-interactive-atlas/home/')
 @app.route('/bantustan-interactive-atlas/')
 def bntstn_atlas():
-    return render_template('bntstn-atlas/bantustan_map.html')
+    this_page = utils.bntstn_home(fp, en)
+    return render_template('bntstn-atlas/bantustan_home.html', map=this_page, params=en.params())
 
 
 @app.route('/bantustan-interactive-atlas/pocetna/')
 def bntstn_atlas_s():
-    return render_template('bntstn-atlas/bantustan_map.html')
+    this_page = utils.bntstn_home(fp, sh)
+    return render_template('bntstn-atlas/bantustan_home.html', map=this_page, params=sh.params())
 
 
+# prints
+@app.route('/bantustan-interactive-atlas/prints/')
+def bntstn_atlas_prints():
+    this_page = utils.bntstn_home(fp, en, "_prints")
+    return render_template('bntstn-atlas/bantustan_prints.html', map=this_page, params=en.params())
+
+
+@app.route('/bantustan-interactive-atlas/printovi/')
+def bntstn_atlas_prints_s():
+    this_page = utils.bntstn_home(fp, sh, "_prints")
+    return render_template('bntstn-atlas/bantustan_prints.html', map=this_page, params=sh.params())
+
+
+# maps
 @app.route('/bantustan-interactive-atlas/map/<name>/')
 def bntstn_map(name):
     this_map = utils.bntstn_map(fp, en, name)

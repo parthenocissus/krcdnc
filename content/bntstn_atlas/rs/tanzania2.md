@@ -2,6 +2,12 @@ title:
     name: "Tanganjika"
     chapter: "XIII"
 id: tanzania2
+index: 13
+legend:
+    x: 122.8 
+    y: 148.6
+    w: 16.7 
+    h: 11.4
 lead: "Lazar (L) i Marko (M) došli su u jugozapadnu<br>Tanzaniju, stigavši do granice sa Zambijom."
 chapters: 
     - id: 7L

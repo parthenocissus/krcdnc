@@ -1,3 +1,4 @@
+import random
 import time
 from datetime import datetime
 from itertools import groupby
@@ -187,6 +188,28 @@ def __yearof(date, date_format):
 
 # Bantustan Interactive Atlas
 
+def bntstn_home(flatpages, lang, name="_home"):
+    page = flatpages.get_or_404(f'{lang.get_bntstn_atlas_dir()}/{name}')
+    return __add_map_data(flatpages, lang, page)
+
+
 def bntstn_map(flatpages, lang, name):
-    prj = flatpages.get_or_404(f'{lang.get_bntstn_atlas_dir()}/{name}')
-    return prj
+    map = flatpages.get_or_404(f'{lang.get_bntstn_atlas_dir()}/{name}')
+    return __add_map_data(flatpages, lang, map)
+
+
+def __add_map_data(flatpages, lang, page_data):
+    maps = [m for m in flatpages if m.path.startswith(lang.get_bntstn_atlas_dir())]
+    other_maps, chapter_maps, map_list = [], [], []
+    for m in maps:
+        if m["title"]["chapter"] != "page_type":
+            other_maps.append(m) if m["title"]["chapter"] == "other" else chapter_maps.append(m)
+            map_list.append(m["id"])
+    chapter_maps.sort(key=lambda item: item["index"], reverse=False)
+    other_maps.sort(key=lambda item: item["index"], reverse=False)
+    page_data.meta["chapter_maps"] = chapter_maps
+    page_data.meta["other_maps"] = other_maps
+    random.shuffle(map_list)
+    page_data.meta["map_list"] = map_list
+    return page_data
+
