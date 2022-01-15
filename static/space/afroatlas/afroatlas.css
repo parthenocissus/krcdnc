@@ -335,6 +335,7 @@ footer p a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 .home-content .inner {
@@ -414,7 +415,7 @@ footer p a:hover {
     top: 0;
     left: 0;
     background-color: transparent;
-    z-index: 1;
+    z-index: 10;
 }
 
 /* Home Background */
@@ -426,7 +427,7 @@ footer p a:hover {
     left: 0;
     width: 100%;
     min-height: 10000%;
-    z-index: -10;
+    z-index: 0;
 }
 
 .map-background img {
@@ -780,7 +781,7 @@ footer p a:hover {
         right: 10px;
         bottom: 16px;
         display: flex;
-        z-index: 100;
+        z-index: 50;
     }
 
     .controls svg {
@@ -863,6 +864,11 @@ footer p a:hover {
         width: 90%;
         justify-self: left;
         padding: 15px 0 35px 0;
+    }
+
+    .menu-body .menu-lower {
+        grid-area: mn2;
+        padding-bottom: 50px;
     }
 
     .menu-body .menu-block {

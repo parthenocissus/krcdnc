@@ -141,12 +141,15 @@
 
 <script type="text/javascript">
 
-    $("#menu-hamburger").on('click tap touchstart touchend', (event) => {
+    let eventRule = 'click tap touchstart touchend';
+    eventRule = 'click tap';
+
+    $("#menu-hamburger").on(eventRule, (event) => {
         $(".main-menu").show();
         $("html,body").css("overflow-y", "hidden");
     });
 
-    $("#menu-x").on('click tap touchstart touchend', (event) => {
+    $("#menu-x").on(eventRule, (event) => {
         $(".main-menu").hide();
         $("html,body").css("overflow-y", "visible");
     });
