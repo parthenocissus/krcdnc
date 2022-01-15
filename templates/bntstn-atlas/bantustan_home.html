@@ -20,6 +20,12 @@
             background-size: 100%;
         }
 
+        @media only screen and (max-width: 950px) {
+            .map-background {
+                background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback_small.jpg') }});
+            }
+        }
+
         /* width */
         ::-webkit-scrollbar {
             width: 10px;
