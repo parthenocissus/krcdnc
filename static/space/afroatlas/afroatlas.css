@@ -867,7 +867,7 @@ footer p a:hover {
 
     .menu-body .menu-lower {
         grid-area: mn2;
-        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 
     .menu-body .menu-block {
