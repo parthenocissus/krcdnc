@@ -111,13 +111,13 @@
         const topOnBegin = -900;
         let mapBack = $(".map-background");
 
-        mapBack.css({"top": topOnBegin + "px"});
-
-        $(window).scroll(function() {
-            mapBack.css({
-                "top": (topOnBegin - ($(window).scrollTop() * 2)) + "px"
-            });
-         });
+        {#mapBack.css({"top": topOnBegin + "px"});#}
+        {##}
+        {#$(window).scroll(function() {#}
+        {#    mapBack.css({#}
+        {#        "top": (topOnBegin - ($(window).scrollTop() * 2)) + "px"#}
+        {#    });#}
+        {# });#}
 
     </script>
 {% endblock %}
