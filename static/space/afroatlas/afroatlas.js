@@ -101,15 +101,6 @@ $(document).ready(function () {
             }
         }
 
-        // Expose to window namespace for testing purposes
-        // window.panZoom = svgPanZoom('#mobile-svg', {
-        //     zoomEnabled: true,
-        //     controlIconsEnabled: true,
-        //     fit: 1,
-        //     center: 1,
-        //     customEventsHandler: eventsHandler
-        // });
-
         window.panZoom = svgPanZoom('#main-map', {
             zoomEnabled: true,
             controlIconsEnabled: false,
@@ -141,7 +132,5 @@ $(document).ready(function () {
     $(window).resize(() => {
         setSize();
     });
-
-    /* Notes Functionality */
 
 });

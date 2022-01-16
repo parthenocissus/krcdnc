@@ -53,7 +53,7 @@ footer {
     bottom: 0;
     padding: 1.8vw 1.8vw;
     font-family: "TTNorms-Regular", sans-serif;
-    font-size: 0.8vw;
+    font-size: .9vw;
     z-index: 10;
 }
 
@@ -72,7 +72,7 @@ footer {
     fill: white;
 }
 
-h1 {
+h1, h1 a {
     color: var(--main);
     font-family: "MonumentExtended-Ultrabold", sans-serif;
     font-size: 0.8vw;
@@ -81,9 +81,10 @@ h1 {
     margin: 0;
     line-height: 1.4;
     cursor: pointer;
+    text-decoration: none;
 }
 
-h1:hover {
+h1 a:hover {
     color: white;
 }
 
@@ -97,7 +98,7 @@ h2 {
 
 h3, h4 {
     font-family: "TTNorms-Regular", sans-serif;
-    font-size: .8vw;
+    font-size: .9vw;
     font-weight: normal;
     letter-spacing: 0.045em;
 }
@@ -752,7 +753,7 @@ footer p a:hover {
         margin: 0;
     }
 
-    h1 {
+    h1, h1 a {
         text-align: center;
         font-size: 10px;
         text-transform: uppercase;
@@ -966,7 +967,7 @@ footer p a:hover {
     }
 
     .prints-content .inner p {
-        font-size: 14px;
+        font-size: 15px;
         padding: 0;
     }
 

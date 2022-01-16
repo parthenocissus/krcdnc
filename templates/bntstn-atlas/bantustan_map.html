@@ -13,7 +13,7 @@
 
     <style>
         html, body {
-            overflow: hidden;
+            overflow: hidden !important;
         }
     </style>
 
@@ -31,8 +31,8 @@
             </svg>
 
             {% set mobile_subtitle = map.title.name if map.title.chapter == "other" else map.title.chapter ~ " " ~ map.title.name %}
-            <h1>Bantustan<span class="mobile"> — {{ mobile_subtitle }}</span><span
-                    class="desktop"><br>{{ params.bntstn.title }}</span>
+            <h1><a href="/bantustan-interactive-atlas/{{ params.bntstn.menu.submenu.home_link }}">Bantustan<span class="mobile"> — {{ mobile_subtitle }}</span><span
+                    class="desktop"><br>{{ params.bntstn.title }}</span></a>
             </h1>
 
         </div>
@@ -124,7 +124,7 @@
 
         {% for nt in map.notes %}
             <circle class="mark" onclick="noteOnClick('{{ nt.txt }}');" ontouchend="noteOnClick('{{ nt.txt }}');"
-                    cx="{{ nt.x }}" cy="{{ nt.y }}" r="8">
+                    cx="{{ nt.x }}" cy="{{ nt.y }}" r="7">
                 <title>{{ params.bntstn.note_tooltip }}</title>
             </circle>
         {% endfor %}
@@ -182,13 +182,7 @@
             $(".note").css({"visibility": "hidden"});
         });
 
-        let noteTxt = "<p>Lazar i Marko putuju do vulkana. »Pogled mi klizne kroz prozor, u baruštine i sirotinjska sela. Krave se\n" +
-            "                vuku kroz blato kao tužni, olindrali kosturi. Pogrbljena baka tegli na leđima divovski naramak drva.\n" +
-            "                Mršava deca naduvenih trbuha, u poderanim gaćama, stoje kraj puta i mašu. Kvašiorkor, <em>stomak\n" +
-            "                    gladi</em>.«</p>\n" +
-            "            <p>Stomak gladi. Ulica <a href=\"#\">Nezavisnosti</a>. Tugaljiv kurati ponos.</p>";
-
-        let noteOnClick = (txt = noteTxt) => {
+        let noteOnClick = (txt) => {
             let note = $(".note"),
                 noteTxtCont = $(".note-text");
             note.css({"visibility": "hidden"});
