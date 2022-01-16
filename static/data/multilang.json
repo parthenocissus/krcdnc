@@ -23,7 +23,7 @@
         "part1": "Chapter ",
         "part2": ""
       },
-      "footer_txt": "You like the map?<br>You can order it as a <a href='/bantustan-interactive-atlas/info/'>print velikog formata</a>.<br>Knjiga? There are <a href='https://krcadinac.com/rad/projekti/bantustan-book/' target='_blank'>domaće</a> i <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>englesko</a> izdanje<br><em>Bantustan: atlas jednog putovanja</em>.",
+      "footer_txt": "You like the map?<br>You can order it as a <a href='/bantustan-interactive-atlas/info/'>graphic print</a>.<br>The map is a part of the book <em>Bantustan</em>,<br>published in <a href='https://krcadinac.com/rad/projekti/bantustan-book/' target='_blank'>Serbocroatian</a> and <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>English</a>.",
       "note_tooltip": "What does this part of the mape mean? Read the artist note.",
       "chapter_tooltip": {
         "part1": "Load the PDF of the book and open the ",
