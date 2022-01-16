@@ -759,8 +759,8 @@ footer p a:hover {
         text-transform: uppercase;
         padding-top: 3px;
         margin: 0;
-        color: var(--main);
-        text-decoration: none;
+        color: var(--main) !important;
+        text-decoration: none !important;
     }
 
     aside #middle {
