@@ -5,6 +5,8 @@ identity:
     en: prints
     rs: printovi
 page:
-    txt: "<h6>Printovi su trenutno...</h6>
-<p>Možete me kontaktirati putem Fejsbuka/Mesindžera ili imejla:</p>
-<p>uros @ krcadinac.com"
+    txt: "<h6>Grafike i printovi biće spremni od aprila 2022.</h6>
+<p>Prva samostalna izložba ilustrovanih mapa koje sam kreirao za putopisni roman <a href='/rad/projekti/bantustan-book' target='_blank'>Bantustan: atlas jednog putovanja</a> biće organizovana u aprilu 2022. u Beogradu. Printove će biti spremni nakon otvaranja.</p>
+<p>Ukoliko imate pitanje ili komentar, možete te kontaktirati direktnom, putem <a href='https://www.facebook.com/uros.krcadinac/' target='_blank'>Fejsbuka ili Mesindžera</a>, ili još bolje, putem imejla:</p>
+<p class='email'>uros@krcadinac.com</p>
+<p>Vidimo se uskoro!</p>"

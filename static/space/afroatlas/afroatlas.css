@@ -446,12 +446,13 @@ footer p a:hover {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0 8vw 0 43vw;
+    padding: 0 8vw 0 50vw;
 }
 
 .prints-content .inner h6 {
     padding: 0 0 1vw 0;
     font-size: 1.5vw;
+    line-height: 1.4;
 }
 
 .prints-content .inner p {
@@ -459,11 +460,12 @@ footer p a:hover {
     font-weight: normal;
     font-size: 1.3vw;
     padding: 0;
+    line-height: 1.5;
 }
 
 .prints-content .inner p a {
     color: black;
-    border-bottom: 2px black solid;
+    border-bottom: 1px black solid;
 }
 
 .prints-content .inner .email {
@@ -487,7 +489,7 @@ footer p a:hover {
 .prints-maps img {
     position: relative;
     margin: 1vw 0;
-    width: 35vw;
+    width: 43vw;
     display: block;
 }
 
@@ -780,7 +782,7 @@ footer p a:hover {
         right: 10px;
         bottom: 16px;
         display: flex;
-        z-index: 50;
+        z-index: 40;
     }
 
     .controls svg {
@@ -808,7 +810,6 @@ footer p a:hover {
     }
 
     /* Main Menu */
-
     .main-menu {
         position: fixed;
         left: 0;
@@ -849,7 +850,7 @@ footer p a:hover {
         height: auto;
         grid-template-columns: 1fr;
         grid-template-rows: 10px repeat(3, auto) 10px; /*auto auto auto auto auto;*/
-        grid-gap: 15px;
+        grid-gap: 7px;
         grid-template-areas:
             "."
             "mn1"
@@ -867,29 +868,28 @@ footer p a:hover {
 
     .menu-body .menu-lower {
         grid-area: mn2;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .menu-body .menu-block {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 15px;
+        grid-gap: 7px;
     }
 
     .menu-section {
-        /*padding: 2vw;*/
         line-height: 1.6;
     }
 
     .menu-h {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: normal;
-        padding: 0 0 10px 0;
+        padding: 0 0 7px 0;
     }
 
     .menu-items li a {
-        font-size: 19px;
+        font-size: 16px;
     }
 
     .menu-items li:hover a {
@@ -907,7 +907,6 @@ footer p a:hover {
     }
 
     /* Home Page and Prints Page */
-
     .main-menu .menu-header {
         height: 48px;
         padding: 15px;
@@ -949,6 +948,47 @@ footer p a:hover {
         font-family: "TTNorms-Regular", sans-serif;
         font-size: 14px;
         padding: 0;
+    }
+
+    /* Prints Page */
+
+    .prints-content {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        margin: 0;
+        padding: 160px 12vw 100px 12vw;
+    }
+
+    .prints-content .inner h6 {
+        padding: 0 0 1vw 0;
+        font-size: 16px;
+    }
+
+    .prints-content .inner p {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .prints-content .inner .email {
+        font-size: 13px;
+        padding-top: 4px;
+    }
+
+    .prints-maps {
+        position: relative;
+        padding: 1vw 4vw 30px 4vw;
+        width: 100vw;
+    }
+
+    .prints-maps img {
+        position: relative;
+        width: 100%;
+    }
+
+    .white-back-mobile {
+        background-color: white;
+        box-shadow: 0 0 25px white;
     }
 
 }
