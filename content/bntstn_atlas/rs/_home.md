@@ -6,7 +6,7 @@ identity:
     rs: pocetna
 lead_alt: "<a href='/bantustan-interactive-atlas/home'>Bantustan Interactive Atlas</a><br>"
 page1:
-    txt: "<h5><em>Bantustan Interaktivni Atlas</em> <br>je digitalni tumač za ilustrovane mape koje je <a href='/work/about/' target='_blank'>Uroš Krčadinac</a> nacrtao za putopisni roman <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Bantustan: atlas jednog putovanja</a>.</h5>"
+    txt: "<h5><em>Bantustan Interaktivni Atlas</em> <br>je digitalni tumač za ilustrovane mape koje je <a href='/work/about/' target='_blank'>Uroš Krčadinac</a> nacrtao za putopisni roman <a href='/rad/projekti/bantustan-book/' target='_blank'>Bantustan: atlas jednog putovanja</a>.</h5>"
 page2:
     txt: "<h6>2010. Lazar Pašćanović, Marko Đedović i Uroš Krčadinac su 3 meseca putovali Afrikom.</h6>
 <p>Bilo je to niskobudžetno stopersko putovanje kroz Srbiju, Bugarsku, Tursku, Siriju, Jordan, Egipat, Sudan, Keniju, Ugandu, Ruandu, Kongo, Tanzaniju, Zambiju i Namibiju.</p>
