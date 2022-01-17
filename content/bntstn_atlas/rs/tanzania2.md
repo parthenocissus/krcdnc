@@ -146,7 +146,7 @@ notes:
 <p>»Postao sam znak!«</p>"
     - x: 631
       y: 306
-      txt: "<p>Tu je i kinesko pismo. Duž cele knjige provlači se motiv zastrašujuće Kine. Na kineskom piše: »Afrika je naša«.</p>
+      txt: "<p>Tu je i kinesko pismo. Duž cele knjige provlači se motiv Kine koja dolazi u Afriku. Na kineskom piše: »Afrika je naša«.</p>
 <p>Iznad pisma vidi se obod table za Monopol.</p>"
     - x: 652
       y: 108
