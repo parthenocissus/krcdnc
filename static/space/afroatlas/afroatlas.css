@@ -416,7 +416,7 @@ footer p a:hover {
     top: 0;
     left: 0;
     background-color: transparent;
-    z-index: 10;
+    z-index: 20;
 }
 
 /* Home Background */
@@ -448,6 +448,7 @@ footer p a:hover {
     justify-content: center;
     margin: 0;
     padding: 0 8vw 0 50vw;
+    z-index: 10;
 }
 
 .prints-content .inner h6 {
