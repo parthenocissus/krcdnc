@@ -3,6 +3,7 @@ title:
     chapter: "XIII"
 id: tanzania2
 index: 13
+vertical: false
 legend:
     x: 122.8 
     y: 148.6

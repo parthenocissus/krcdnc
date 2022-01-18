@@ -13,7 +13,7 @@ page2:
 <p>It was a low-budget hitchhiking journey across Serbia, Bulgaria, Turkey, Syria, Jordan, Egypt, Sudan, Kenya, Uganda, Rwanda, Congo, Tanzania, Zambia, and Namibia.</p>
 <p>By changing their lives, the adventure turned into a documentary, literary, and artistic project.</p>
 <p>In 2015 they published a travel novel in <a href='/rad/projekti/bantustan-book/' target='_blank'>Serbocroatian</a>. In 2021, they published it in <a href='https://www.bantustanbook.com/' target='_blank'>English</a>. Books were published by <a href='https://www.thetravelclub.org/about-the-club' target='_blank'>The Travel Club</a>, the main Balkan hub for independent travelers and travel writers, via crowdfunding campaigns.</p>
-<p>At once a travel nove, an illustrated atlas, a collection of life stories, an intimate confession, Bantustan is a story of division, isolation, contact, and imagining new cartographies of human relationships on a shared globe.</p>"
+<p>At once a travel novel, an illustrated atlas, a collection of life stories, an intimate confession, Bantustan is a story of division, isolation, contact, and imagining new cartographies of human relationships on a shared globe.</p>"
 image1:
     src: '/media/projects/bantustan-book/img/bantustan-book01.jpg'
 page4:

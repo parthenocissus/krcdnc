@@ -21,7 +21,7 @@
 
 {% block main %}
 
-    <aside id="aside-main" class="side-content">
+    <aside id="aside-main" class="side-content no-select">
 
         <div id="top">
             <svg id="menu-hamburger" class="hamburger" x="0px" y="0px" viewBox="0 0 11 11">
@@ -99,12 +99,12 @@
 
     </aside>
 
-    <div class="lang">
+    <div class="lang no-select">
         <div id="nas"><a href="{{ '/bantustan-interactive-atlas/mapa/' ~ map.id }}">Naš</a></div>
         <div id="eng"><a href="{{ '/bantustan-interactive-atlas/map/' ~ map.id }}">Eng</a></div>
     </div>
 
-    {% set v = map.vertical is defined %}
+    {% set v = map.vertical is defined and map.vertical == True %}
     {% set transMat = "(0.1239 0 0 0.1239 285.1105 25.1702)" if v else "(0.1736 0 0 0.1736 35.077 29.5)" %}
 
     <svg id="main-map" x="0px" y="0px" viewBox="0 0 1076 768" xmlns="http://www.w3.org/2000/svg"
@@ -115,9 +115,9 @@
                transform="matrix{{ transMat }}"></image>
 
         {% for ch in map.chapters %}
-            <circle class="chapter" onclick="chapterOnClick('{{ ch.page }}');"
+            <circle class="chapter vertical-{{ map.vertical }}" onclick="chapterOnClick('{{ ch.page }}');"
                     ontouchend="chapterOnClick('{{ ch.page }}');"
-                    pointer-events="visible" cx="{{ ch.x }}" cy="{{ ch.y }}" r="13">
+                    pointer-events="visible" cx="{{ ch.x }}" cy="{{ ch.y }}">
                 <title>{{ params.bntstn.chapter_tooltip.part1 ~ ch.id ~ params.bntstn.chapter_tooltip.part2 ~ map.title.chapter }}</title>
             </circle>
         {% endfor %}
@@ -144,7 +144,7 @@
 
     </div>
 
-    <footer class="side-content">
+    <footer class="side-content no-select">
         <p class="desktop">{{ params.bntstn.footer_txt|safe }}</p>
         <p><a href="https://krcadinac.com" target="_blank">Uroš Krčadinac</a>, 2015—2022.</p>
     </footer>

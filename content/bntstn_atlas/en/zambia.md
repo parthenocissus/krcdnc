@@ -3,6 +3,7 @@ title:
     chapter: "XIV"
 id: zambia
 index: 14
+vertical: false
 legend:
     x: 116
     y: 166

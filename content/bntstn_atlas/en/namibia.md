@@ -3,6 +3,7 @@ title:
     chapter: "XV"
 id: namibia
 index: 15
+vertical: false
 legend:
     x: 75.5
     y: 172.6
