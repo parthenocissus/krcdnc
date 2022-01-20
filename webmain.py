@@ -230,13 +230,13 @@ def space(name):
 # a special website for interactive maps
 
 @app.route('/bantustan-interactive-atlas/home/')
-@app.route('/bantustan-interactive-atlas/')
 def bntstn_atlas():
     this_page = utils.bntstn_home(fp, en)
     return render_template('bntstn-atlas/bantustan_home.html', map=this_page, params=en.params())
 
 
 @app.route('/bantustan-interactive-atlas/pocetna/')
+@app.route('/bantustan-interactive-atlas/')
 def bntstn_atlas_s():
     this_page = utils.bntstn_home(fp, sh)
     return render_template('bntstn-atlas/bantustan_home.html', map=this_page, params=sh.params())
