@@ -6,7 +6,7 @@
       "menu": {
         "main": "Main Menu",
         "editions": "Bantustan Book Editions",
-        "chapters": "Available Chapters",
+        "chapters": "Available Chapter Maps",
         "others": "Other Maps & Graphics",
         "submenu": {
           "home": "Home",
@@ -249,7 +249,7 @@
       "menu": {
         "main": "Glavni meni",
         "editions": "Izdanja knjige Bantustan",
-        "chapters": "Izabrana poglavlja",
+        "chapters": "Mape izabranih poglavlja",
         "others": "Ostale mape i grafike",
         "submenu": {
           "home": "Početna",

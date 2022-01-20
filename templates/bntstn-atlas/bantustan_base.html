@@ -54,7 +54,7 @@
         <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/lib/svg-pan-zoom.js') }}"></script>
         <script src="{{ url_for('static', filename='js/lib/hammer.min.js') }}"></script>
-        <script src="{{ url_for('static', filename='space/afroatlas/afroatlas.js') }}"></script>
+        {#        <script src="{{ url_for('static', filename='space/afroatlas/afroatlas.js') }}"></script>#}
 
         <title>{% block title %}{% endblock %}</title>
 
@@ -139,20 +139,40 @@
 
 </main>
 
-<script type="text/javascript">
+<script>
 
-    let eventRule = 'click tap touchstart touchend';
-    eventRule = 'click tap';
+    let menuShow = () => {
+        $(".yellower").animate({
+            width: "250vw"
+        }, 500, () => {
+            $(".main-menu").show();
+        });
+        setTimeout(() => {
+            $("html,body").css("overflow-y", "hidden");
+        }, 250);
+    };
 
-    $("#menu-hamburger").on(eventRule, (event) => {
+    let menuShowMobile = () => {
         $(".main-menu").show();
         $("html,body").css("overflow-y", "hidden");
-    });
+    }
 
-    $("#menu-x").on(eventRule, (event) => {
+    let menuHide = () => {
         $(".main-menu").hide();
+        $(".yellower").css("width", "0");
         $("html,body").css("overflow-y", "visible");
-    });
+    };
+
+    const eventRule = 'click tap';
+    const mediaQuery = window.matchMedia('(max-width: 950px)');
+
+    if (mediaQuery.matches) {
+        $("#menu-hamburger").on(eventRule, menuShowMobile);
+    } else {
+        $("#menu-hamburger").on(eventRule, menuShow);
+    }
+
+    $("#menu-x").on(eventRule, menuHide);
 
 </script>
 

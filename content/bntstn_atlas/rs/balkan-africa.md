@@ -113,8 +113,8 @@ notes:
       y: 620
       txt: "<p>Trajekt <em>Šeherezada</em>. Prelezak Crvenog mora. Granica Jordan-Egipat.</p>
 <p>Stupanje na tle Afrike.</p>"
-    - x: 686
-      y: 511
+    - x: 685
+      y: 554
       txt: "<p>Priča o Sueckoj krizi. Priča je Murat iz 2U. U balončićima su slova hebrejskog i arapskog alfabeta, još jedna jezička pometnja, ali je simbol za dolar veći od svakog pojedinačnog slova.</p>"
     - x: 665 
       y: 501
@@ -131,7 +131,7 @@ linijom senke.«</p>"
       txt: "<p>Pored latinice, ćirilice, arabice, hebrejskog, tu je još jedno pismo: stari egipatski hijeroglifi.</p>"
     - x: 331
       y: 700
-      txt: "<p>Svaka mapa u seriji ima naslovnu tablu na više jezika (engleski, naš, jezici koji se koriste u tom delu sveta). Takođe ima i razmernik (za kilometre i za milje), kao i kompasovu ružu (koja pokazuje sever, N).</p>"
+      txt: "<p>Svaka mapa u seriji ima naslovnu tablu na više jezika (engleski, srpski, hrvatski, arapski, svahili, drugi jezici koji se koriste u tom delu sveta). Takođe ima i razmernik (za kilometre i za milje), kao i kompasovu ružu (koja pokazuje sever, N).</p>"
     - x: 498
       y: 723
       txt: "<p>Čovečuljak meri svet, pokušavajući da ga shvati i oseti. Mera mu je vlastita ruka.</p>"

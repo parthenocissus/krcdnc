@@ -17,9 +17,17 @@
         }
     </style>
 
+    <script src="{{ url_for('static', filename='space/afroatlas/afroatlas.js') }}"></script>
+
 {% endblock %}
 
 {% block main %}
+
+    <div class="yellower">
+        <svg x="0px" y="0px" viewBox="0 0 100 100">
+            <circle cx="0px" cy="0px" r="50"></circle>
+        </svg>
+    </div>
 
     <aside id="aside-main" class="side-content no-select">
 
@@ -167,8 +175,6 @@
 {% block js %}
 
     <script type="text/javascript">
-
-        const mediaQuery = window.matchMedia('(max-width: 950px)');
 
         if ("{{ map.color is defined }}" === "True") {
             $("#main-map").css("background-color", "#1a1a1a");

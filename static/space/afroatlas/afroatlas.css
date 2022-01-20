@@ -72,6 +72,8 @@ footer {
     fill: white;
 }
 
+/* Map Page Heading Styles */
+
 h1, h1 a {
     color: var(--main);
     font-family: "MonumentExtended-Ultrabold", sans-serif;
@@ -196,7 +198,6 @@ footer p a:hover {
     stroke-width: 3;
     r: 8.5;
 }
-
 
 
 /* Language Controls */
@@ -334,15 +335,21 @@ footer p a:hover {
     padding: 2vw 2.3vw 2vw 1.8vw;
     display: flex;
     justify-content: space-between;
+    pointer-events: none;
+}
+
+.hamburger {
+    pointer-events: all;
 }
 
 .home-header .hamburger rect {
     fill: white;
 }
 
-.home-header .hamburger:hover rect {
-    fill: var(--main);
-}
+/*.home-header .hamburger.hovered rect,*/
+/*.home-header .hamburger:hover rect {*/
+/*    fill: var(--main);*/
+/*}*/
 
 /* Home Content */
 
@@ -358,12 +365,43 @@ footer p a:hover {
     align-items: center;
     justify-content: center;
     z-index: 2;
+
+    pointer-events: none;
 }
 
 .home-content .inner {
     box-sizing: border-box;
     width: 80vw;
     padding: 0 18vw 0 0;
+    pointer-events: all;
+}
+
+.home-content .inner h4 {
+    margin: 0;
+    font-family: "MonumentExtended-Regular", sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: 0.0625em;
+    line-height: 1.6;
+    padding: 3vw 5vw 1.4vw 0;
+}
+
+.home-content .inner .last-h4 {
+    padding: 0 20vw 1.4vw 0;
+}
+
+.home-content .inner h4 a,
+.home-content .inner h4 span {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-bottom: .4vw solid var(--main);
+    transition: .15s;
+}
+
+.home-content .inner h4 a:hover,
+.home-content .inner h4 span:hover {
+    color: var(--main);
+    border-bottom: .7vw solid var(--main);
 }
 
 .prints-content .inner h6,
@@ -393,7 +431,7 @@ footer p a:hover {
 
 .home-content .inner h6 a:hover,
 .home-content .inner h5 a:hover {
-    border-bottom: 3px solid var(--main);
+    border-bottom: 4px solid var(--main);
 }
 
 .home-content .inner h6 {
@@ -423,11 +461,18 @@ footer p a:hover {
     color: white;
     border-bottom: 2px solid white;
     text-decoration: none;
+    transition: .1s;
 }
 
 .prints-content .inner p a:hover,
 .home-content .inner p a:hover {
     border-bottom: 2px solid var(--main);
+}
+
+.home-content .inner p b {
+    /*color: var(--main);*/
+    font-family: "TTNorms-Bold", sans-serif;
+    font-weight: 900;
 }
 
 /* Home Header */
@@ -516,6 +561,23 @@ footer p a:hover {
     display: block;
 }
 
+/* Menu Yellower */
+
+.yellower {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: 19; /*49*/
+    transition: .15s;
+    pointer-events: none;
+}
+
+.yellower svg circle {
+    fill: var(--main);
+    stroke: none;
+}
+
 /* ________________________________ */
 /* Main Menu */
 
@@ -580,6 +642,7 @@ footer p a:hover {
     padding: 2px 0 0 0;
     background-color: transparent; /* var(--main); */
     box-shadow: none;
+    pointer-events: all;
 }
 
 .home-header .lang div,
@@ -957,6 +1020,26 @@ footer p a:hover {
         box-sizing: border-box;
         width: 100vw;
         padding: 0 5vw;
+    }
+
+    .home-content .inner h4 {
+        font-size: 16px;
+        line-height: 1.7;
+        padding: 36px 0 0 0;
+    }
+
+    .home-content .inner .last-h4 {
+        padding: 0;
+    }
+
+    .home-content .inner h4 a,
+    .home-content .inner h4 span {
+        border-bottom: 2px solid var(--main);
+    }
+
+    .home-content .inner h4 a:hover,
+    .home-content .inner h4 span:hover {
+        border-bottom: 3px solid var(--main);
     }
 
     .home-content .inner h5 {

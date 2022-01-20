@@ -14,19 +14,7 @@
             background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback.jpg') }});
             background-repeat: repeat-y;
             background-size: 100%;
-         }
-
-        @media only screen and (max-width: 950px) {
-            .map-background {
-                background-color: black;
-                background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback_small.jpg') }}) !important;
-                background-attachment: scroll;
-                width: 100%;
-                min-height: 3000%;
-                z-index: -1;
-                {#background-size: 100% 100%;#}
-            }
-         }
+        }
 
         /* width */
         ::-webkit-scrollbar {
@@ -48,12 +36,45 @@
             background: white;
         }
 
+        /* Menu Sticker Marker */
+        .sticker {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 8vw;
+            z-index: 18;
+            cursor: pointer;
+        }
+
+        .sticker svg circle {
+            fill: transparent;
+            stroke: none;
+        }
+
+        @media only screen and (max-width: 950px) {
+
+            .map-background {
+                background-color: black;
+                background-image: url({{ url_for('static', filename='space/afroatlas/maps/afroback_small.jpg') }}) !important;
+                background-attachment: scroll;
+                width: 100%;
+                min-height: 3000%;
+                z-index: -1;
+            }
+
+            .sticker {
+                width: 0;
+                display: none;
+            }
+        }
+
     </style>
 
 {% endblock %}
 
 {% block main %}
 
+    {#    <div class="home-header dot-special">#}
     <div class="home-header">
 
         <svg id="menu-hamburger" class="home-hamburger hamburger" x="0px" y="0px" viewBox="0 0 11 11">
@@ -69,12 +90,28 @@
 
     </div>
 
+    <div class="yellower">
+        <svg x="0px" y="0px" viewBox="0 0 100 100">
+            <circle cx="0px" cy="0px" r="50"></circle>
+        </svg>
+    </div>
+
+    <div class="sticker">
+        <svg x="0px" y="0px" viewBox="0 0 100 100">
+            <circle pointer-events="visible" cx="0px" cy="0px" r="50"></circle>
+        </svg>
+    </div>
+
     <div class="home-content">
         <div class="inner">{{ map.page1.txt|safe }}</div>
     </div>
 
     <div class="home-content">
         <div class="inner">{{ map.page2.txt|safe }}</div>
+    </div>
+
+    <div class="home-content">
+        <div class="inner">{{ map.page3.txt|safe }}</div>
     </div>
 
     <div class="home-content">
@@ -94,7 +131,7 @@
     </div>
 
     <div class="map-background">
-{#        <img src="{{ url_for('static', filename='/space/afroatlas/maps/afroback.jpg') }}"/>#}
+        {# <img src="{{ url_for('static', filename='/space/afroatlas/maps/afroback.jpg') }}"/>#}
     </div>
 
 {% endblock %}
@@ -107,18 +144,52 @@
 {% block js %}
     <script type="text/javascript">
 
-        const mediaQuery = window.matchMedia('(max-width: 950px)');
+        let menuShowThis = menuShow;
+        if (mediaQuery.matches) {
+            menuShowThis = menuShowMobile;
+        }
+
+        let yellowerBase = "0";
+
+        $("#menu-hamburger,.sticker,.all-maps-link").mouseenter((e) => {
+            e.stopPropagation();
+            $(".yellower").css("width", "16vw");
+        }).mouseleave((e) => {
+            e.stopPropagation();
+            $(".yellower").css("width", yellowerBase);
+        }).on(eventRule, menuShowThis);
+
+        let maps = {{ map.map_list|tojson }};
+
+        let mapLink = "{{ params.bntstn.menu.map_link }}";
+
+        $(".random-map-link").on(eventRule, () => {
+            let randomId = maps[Math.floor(Math.random() * maps.length)];
+            let url = "/bantustan-interactive-atlas/" + mapLink + "/" + randomId;
+            window.open(url, "_self");
+        });
 
         const topOnBegin = -900;
         let mapBack = $(".map-background");
+        let main = $("main");
 
         mapBack.css({"top": topOnBegin + "px"});
 
-        $(window).scroll(function() {
+        $(window).scroll(() => {
             mapBack.css({
                 "top": (topOnBegin - ($(window).scrollTop() * 2)) + "px"
             });
-         });
+
+            let scroll = $(window).scrollTop();
+            let height = main.height() - $(window).height();
+
+            if (scroll >= height - 100) {
+                yellowerBase = "14vw";
+            } else {
+                yellowerBase = 0;
+            }
+            $(".yellower").css("width", yellowerBase);
+        });
 
     </script>
 {% endblock %}

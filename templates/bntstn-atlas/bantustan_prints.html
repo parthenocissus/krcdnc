@@ -57,6 +57,12 @@
 
 {% block main %}
 
+    <div class="yellower">
+        <svg x="0px" y="0px" viewBox="0 0 100 100">
+            <circle cx="0px" cy="0px" r="50"></circle>
+        </svg>
+    </div>
+
     <div class="home-header white-back-mobile">
 
         <svg id="menu-hamburger" class="home-hamburger hamburger" x="0px" y="0px" viewBox="0 0 11 11">
@@ -89,12 +95,4 @@
 {% block menulang %}
     <div id="nas"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.rs }}">Naš</a></div>
     <div id="eng"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.en }}">Eng</a></div>
-{% endblock %}
-
-{% block js %}
-    <script type="text/javascript">
-
-        const mediaQuery = window.matchMedia('(max-width: 950px)');
-
-    </script>
 {% endblock %}
