@@ -900,6 +900,17 @@ footer p a:hover {
         padding: 10px;
         margin: 4px;
         width: 16px;
+        height: 16px;
+    }
+
+    .controls #eye {
+        padding: 5px;
+        height: 26px;
+        width: auto;
+    }
+
+    .controls #eye path {
+        stroke-width: 1px;
     }
 
     /* Notes */
