@@ -250,6 +250,7 @@ footer p a:hover {
     padding: .7vw;
     margin: .2vw;
     width: .7vw;
+    height: .7vw;
     cursor: pointer;
     background-color: black;
     box-shadow: 0 0 .2vw rgba(0, 0, 0, 0.8);
@@ -261,6 +262,27 @@ footer p a:hover {
 
 .controls svg:hover {
     background-color: var(--main);
+}
+
+.controls #eye {
+    padding: .4vw;
+    height: 1.3vw;
+    width: auto;
+}
+
+.controls #eye path {
+    fill: none;
+    stroke: white;
+    stroke-width: .08vw;
+}
+
+.controls #eye circle {
+    fill: white;
+    stroke: none;
+}
+
+.controls #eye #eye-closed {
+    display: none;
 }
 
 /* Notes */
