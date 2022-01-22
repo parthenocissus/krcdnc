@@ -204,15 +204,16 @@ def __add_map_data(flatpages, lang, page_data):
     for m in maps:
         if m["title"]["chapter"] != "page_type":
             other_maps.append(m) if m["title"]["chapter"] == "other" else chapter_maps.append(m)
-            map_list.append(m["id"])
+            map_list.append({"id": m["id"],
+                             "title": m["title"]["name"],
+                             "chapter": m["title"]["chapter"]})
 
     chapter_maps.sort(key=lambda item: item["index"], reverse=False)
     other_maps.sort(key=lambda item: item["index"], reverse=False)
     page_data.meta["chapter_maps"] = chapter_maps
     page_data.meta["other_maps"] = other_maps
 
-    map_list.sort(key=lambda item: item, reverse=True)
-    # random.shuffle(map_list)
+    map_list.sort(key=lambda item: item["id"], reverse=True)
     page_data.meta["map_list"] = map_list
 
     return page_data

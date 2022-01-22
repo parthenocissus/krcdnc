@@ -537,6 +537,12 @@ footer p a:hover {
     margin: 0;
     padding: 0 8vw 0 50vw;
     z-index: 10;
+    pointer-events: none;
+}
+
+.prints-content .inner {
+    pointer-events: all;
+    padding: 0 0 0 1vw;
 }
 
 .prints-content .inner h6 {
@@ -574,13 +580,42 @@ footer p a:hover {
     height: auto;
     display: block;
     overflow-y: auto;
+    pointer-events: none;
 }
 
-.prints-maps img {
+.prints-maps .map-img {
     position: relative;
     margin: 1vw 0;
     width: 43vw;
     display: block;
+    pointer-events: all;
+}
+
+.prints-maps a {
+    color: black;
+    text-decoration: none;
+}
+
+.prints-maps .map-img img {
+    position: relative;
+    width: 100%;
+    transition: .15s;
+}
+
+.prints-maps a .map-img .map-caption {
+    font-family: "TTNorms-Regular", sans-serif;
+    font-weight: normal;
+    font-size: 1vw;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.prints-maps .map-img:hover .map-caption {
+    color: var(--main);
+}
+
+.prints-maps .map-img:hover img {
+    opacity: .8;
 }
 
 /* Menu Yellower */
@@ -953,7 +988,7 @@ footer p a:hover {
     }
 
     .main-menu::-webkit-scrollbar {
-        width: 6px;
+        width: 5px;
     }
 
     .main-menu::-webkit-scrollbar-track {
@@ -962,7 +997,7 @@ footer p a:hover {
 
     .main-menu::-webkit-scrollbar-thumb,
     .main-menu::-webkit-scrollbar-thumb:hover {
-        background: var(--main);
+        background: #e0a400;
     }
 
     .main-menu .menu-header {
@@ -993,9 +1028,9 @@ footer p a:hover {
 
     #africa-map-with-legend {
         grid-area: map;
-        width: 90%;
+        width: 70%;
         justify-self: left;
-        padding: 15px 0 35px 0;
+        padding: 7px 0 28px 0;
     }
 
     .menu-body .menu-lower {
@@ -1007,11 +1042,11 @@ footer p a:hover {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 7px;
+        grid-gap: 4px;
     }
 
     .menu-section {
-        line-height: 1.6;
+        line-height: 1.5;
     }
 
     .menu-h {
@@ -1111,13 +1146,17 @@ footer p a:hover {
         padding: 160px 12vw 100px 12vw;
     }
 
+    .prints-content .inner {
+        padding: 0;
+    }
+
     .prints-content .inner h6 {
         padding: 0 0 1vw 0;
         font-size: 16px;
     }
 
     .prints-content .inner p {
-        font-size: 15px;
+        font-size: 17px;
         padding: 0;
     }
 
@@ -1135,6 +1174,23 @@ footer p a:hover {
     .prints-maps img {
         position: relative;
         width: 100%;
+    }
+
+    .prints-maps .map-img {
+        position: relative;
+        margin: 0 0 15px 0;
+        width: 100%;
+    }
+
+    /*.prints-maps .map-img img {*/
+    /*    position: relative;*/
+    /*    width: 100%;*/
+    /*    transition: .15s;*/
+    /*}*/
+
+    .prints-maps a .map-img .map-caption {
+        font-size: 14px;
+        padding: 0;
     }
 
     .white-back-mobile {

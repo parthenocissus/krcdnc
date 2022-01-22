@@ -84,8 +84,19 @@
 
     <div class="prints-maps">
         {% for m in map.map_list %}
-            {% set lnk = 'space/afroatlas/maps/' ~ params.bntstn.lang ~ '_' ~ m ~ '.jpg' %}
-            <img src="{{ url_for('static', filename=lnk) }}" alt="{{ 'uroš krčadinac' ~ m }}"/>
+            {% set lnk = 'space/afroatlas/maps/small/' ~ params.bntstn.lang ~ '_' ~ m.id ~ '.jpg' %}
+            {% set goto = '/bantustan-interactive-atlas/' ~ params.bntstn.menu.map_link ~ '/' ~ m.id %}
+            {% set realchapter = params.bntstn.chapter ~ " " ~ m.chapter ~ ", " %}
+            {% set chapter = "" if m.chapter == "other" else realchapter %}
+            {% set capt = m.title ~ ", " ~ chapter ~ "2015–2022." %}
+            <a href='{{ goto }}'>
+                <div class="map-img">
+                    <img src="{{ url_for('static', filename=lnk) }}"
+                         alt="{{ 'uroš krčadinac ' ~ m.id }}"
+                         title="{{ params.bntstn.menu.prints_tooltip ~ ' → ' ~ m.title }}"/>
+                    <div class="map-caption">{{ capt }}</div>
+                </div>
+            </a>
         {% endfor %}
     </div>
 

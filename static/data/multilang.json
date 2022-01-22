@@ -8,6 +8,7 @@
         "editions": "Bantustan Book Editions",
         "chapters": "Available Chapter Maps",
         "others": "Other Maps & Graphics",
+        "prints_tooltip": "Explore this map",
         "submenu": {
           "home": "Home",
           "home_link": "home",
@@ -251,6 +252,7 @@
         "editions": "Izdanja knjige Bantustan",
         "chapters": "Mape izabranih poglavlja",
         "others": "Ostale mape i grafike",
+        "prints_tooltip": "Istraži mapu",
         "submenu": {
           "home": "Početna",
           "home_link": "pocetna",

@@ -169,7 +169,7 @@
 
         $(".random-map-link").on(eventRule, () => {
             let randomId = maps[Math.floor(Math.random() * maps.length)];
-            let url = "/bantustan-interactive-atlas/" + mapLink + "/" + randomId;
+            let url = "/bantustan-interactive-atlas/" + mapLink + "/" + randomId.id;
             window.open(url, "_self");
         });
 
