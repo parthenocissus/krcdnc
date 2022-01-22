@@ -64,11 +64,13 @@ footer {
     cursor: pointer;
 }
 
-.hamburger rect {
+.hamburger rect,
+.hamburger circle {
     fill: var(--main);
 }
 
-.hamburger:hover rect {
+.hamburger:hover rect,
+.hamburger:hover circle {
     fill: white;
 }
 
@@ -635,6 +637,12 @@ footer p a:hover {
     stroke: none;
 }
 
+/* Mobile Info */
+
+#mobile-info-svg {
+    display: none;
+}
+
 /* ________________________________ */
 /* Main Menu */
 
@@ -887,6 +895,11 @@ footer p a:hover {
         height: 10px;
         display: grid;
         grid-template-columns: 10vw 1fr 10vw;
+    }
+
+    #mobile-info-svg {
+        display: flex;
+        justify-self: end;
     }
 
     .hamburger {
