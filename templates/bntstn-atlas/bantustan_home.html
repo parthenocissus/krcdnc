@@ -8,6 +8,19 @@
 
     {{ super() }}
 
+    <meta property="og:title" content="{{ 'Uroš Krčadinac → Bantustan ' ~ params.bntstn.title }}">
+    <meta property="og:description" content="{{ map.desc }}">
+    {% set main_img_path = "space/afroatlas/maps/extras/" ~ params.bntstn.lang ~ "_home.jpg" %}
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
+    <meta property="og:url" content="{{ 'https://krcadinac.com/bantustan-interactive-atlas/' ~ params.bntstn.menu.submenu.home_link }}">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@krcadinac"/>
+    <meta name="twitter:title" content="{{ 'Uroš Krčadinac → Bantustan ' ~ params.bntstn.title }}"/>
+    <meta name="twitter:description" content="{{ map.desc }}"/>
+    <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}"/>
+
     <style>
 
         .map-background {
