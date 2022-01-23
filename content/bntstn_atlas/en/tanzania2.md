@@ -9,4 +9,4 @@ legend:
     y: 148.6
     w: 16.7 
     h: 11.4
-lead: "Lazar (L) and Marko (M) came to southeastern<br>Tanzania, reaching the border with Zambia."
+lead: "Lazar (L) and Marko (M) came to southeastern <br>Tanzania, reaching the border with Zambia."

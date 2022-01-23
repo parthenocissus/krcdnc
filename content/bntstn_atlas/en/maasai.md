@@ -11,4 +11,4 @@ legend:
     h: 10
 vertical: true
 color: black
-lead: "A village in South Kenya, near the<br>town of Narok, where Maasai live."
+lead: "A village in South Kenya, near the <br>town of Narok, where Maasai live."

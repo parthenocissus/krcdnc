@@ -5,4 +5,4 @@ title:
 id: bahaullah
 index: 101
 vertical: true
-lead: "Putovanja i hodočašća Bahaule,<br>osnivača sinkretističke Bahai vere."
+lead: "Putovanja i hodočašća Bahaule, <br>osnivača sinkretističke Bahai vere."

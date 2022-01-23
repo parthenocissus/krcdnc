@@ -5,4 +5,4 @@ title:
 id: al-idrisi
 index: 102
 vertical: true
-lead: "Visual homage to al-Idrisi, a medieval<br>cartographer who made cartography an art form."
+lead: "Visual homage to al-Idrisi, a medieval <br>cartographer who made cartography an art form."

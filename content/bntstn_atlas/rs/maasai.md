@@ -11,7 +11,7 @@ legend:
     h: 10
 vertical: true
 color: black
-lead: "Selo u Keniji, nedaleko od gradića<br>Narok, gde živi narod Masaji."
+lead: "Selo u Keniji, nedaleko od gradića <br>Narok, gde živi narod Masaji."
 chapters: 
     - id: 1L
       x: 361.1

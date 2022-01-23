@@ -9,7 +9,7 @@ legend:
     w: 10 
     h: 10
 vertical: false
-lead: "U Lusaki, glavnom gradu Zambije, Uroš (U),<br>Marko (M) i Lazar (L) napokon se ponovo sastaju."
+lead: "U Lusaki, glavnom gradu Zambije, Uroš (U),<br> Marko (M) i Lazar (L) napokon se ponovo sastaju."
 chapters: 
     - id: 1M
       x: 363

@@ -10,7 +10,7 @@ legend:
     w: 52.3
     h: 66.4
 vertical: true
-lead: "Prvo poglavlje. Uroš (U), Lazar (L) i Marko (M)<br>kopnom putuju od Srbije do Egipta."
+lead: "Prvo poglavlje. Uroš (U), Lazar (L) i Marko (M) <br>kopnom putuju od Srbije do Egipta."
 chapters: 
     - id: 1L
       x: 388.5

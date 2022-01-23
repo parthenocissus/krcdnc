@@ -4,4 +4,4 @@ title:
 id: nose-chart
 index: 103
 vertical: true
-lead: "Oblici nosa svih važnih junaka, koje smo<br>usput sreli, od Srbije do Ruande."
+lead: "Oblici nosa svih važnih junaka, koje smo <br>usput sreli, od Srbije do Ruande."
