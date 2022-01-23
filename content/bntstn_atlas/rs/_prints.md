@@ -4,6 +4,7 @@ title:
 identity:
     en: prints
     rs: printovi
+desc: "Grafike, printovi i mape koje je Uroš Krčadinac nacrtao za putopisni roman Bantustan: atlas jednog putovanja"
 page:
     txt: "<h6>Grafike i printovi biće spremni od aprila 2022.</h6>
 <p>Prva samostalna izložba ilustrovanih mapa koje sam kreirao za putopisni roman Bantustan: atlas jednog putovanja biće organizovana u aprilu 2022. u Beogradu. Štampane grafike će biti spremne nakon otvaranja.</p>

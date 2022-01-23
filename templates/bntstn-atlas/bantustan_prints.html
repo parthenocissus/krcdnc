@@ -8,6 +8,23 @@
 
     {{ super() }}
 
+    {% set main_img_path = "space/afroatlas/maps/small/" ~ params.bntstn.lang ~ "_" ~ "zambia" ~ ".jpg" %}
+    {% set main_title = 'Uroš Krčadinac → Bantustan Atlas ' ~ params.bntstn.menu.submenu.prints %}
+    {% set main_description = map.desc %}
+    {% set main_url = 'https://krcadinac.com/bantustan-interactive-atlas/' ~ params.bntstn.menu.submenu.prints_link %}
+
+    <meta property="og:title" content="{{ main_title }}">
+    <meta property="og:description" content="{{ main_description }}">
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
+    <meta property="og:url" content="{{ main_url }}">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@krcadinac"/>
+    <meta name="twitter:title" content="{{ main_title }}"/>
+    <meta name="twitter:description" content="{{ main_description }}"/>
+    <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}"/>
+
     <style>
 
         html, body {
