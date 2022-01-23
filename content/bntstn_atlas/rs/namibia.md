@@ -9,7 +9,7 @@ legend:
     y: 172.6
     w: 46.5
     h: 32.7
-lead: "Poslednje poglavlje <em>Bantustana</em><br>dešava se u Namibiji."
+lead: "Poslednje poglavlje <em>Bantustana</em> <br>dešava se u Namibiji."
 chapters: 
     - id: 1L
       x: 657.1
