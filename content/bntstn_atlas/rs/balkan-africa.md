@@ -40,19 +40,20 @@ notes:
     - x: 362
       y: 135.4
       txt: "<p>Putovanje se rađa kao dete. Na ničijoj zemlji, između ništavila i života, između država, jezika, zastava, odvojenih stvarnosti. Ruta putovanja odvija se kao pupčana vrpca.</p>
-<p>U prvom pasusu knjige, Lazar se seća priče koju je napisao kao dečak.</p>
+<p>U prvom pasusu knjige, Lazar se priseća priče koju je napisao kao dečak.</p>
 <p>»Ničija zemlja. Trepnuvši farovima, autobus pređe granicu i stane. Dok gledam u susnežicu i mrak, napetost popusti a uzbuđenje umine. Putovanje je počelo; kao da ga tek sada mogu osetiti čulima. Kad sam bio klinac, sećam se, napisao sam priču o čoveku koji nema čula ali oseća strane sveta. I taj čovek bez čula polazi na put prateći linije Zemljine magnetne sile, koje ga vode kao tanki, končasti dodiri na koži.«</p>"
     - x: 351
       y: 54
       txt: "<p>Na putovanje Uroš je poneo papriku. Kao u pesmi Ljubivoja Ršumovića: »Išli smo u Afriku, da sadimo papriku.«</p>
 <p>Otuda paprika u središtu kompasove ruže.</p>
-<p>Paprika i njeno seme pratiće Uroša, Marka i Lazara do samog kraja puta. Kako putovanje bude odmicalo, simbol semena postajaće sve važniji. Ono što je počelo kao avantura, kao dečački san, pretvoriće se u dokumentarni projekat koji menja njihov život.</p>
+<p>Paprika i njeno seme pratiće Uroša, Marka i Lazara do samog kraja puta. Kako putovanje bude odmicalo, simbol semena postajaće sve važniji. Ono što je počelo kao avantura, kao dečački san, pretvoriće se u dokumentarni i umetnički projekat koji menja njihov život.</p>
 <p>Na mapi Tanganjike, u poglavlju XIII, piše: »Ova knjiga je naše seme.«</p>"
     - x: 645 
       y: 26
-      txt: "<p>Jedinice mere ove geo karte nisu samo geografska širina i dužina, nego i pisma i jezici. U Bantustanu, pisma igraju važnu ulogu. Pre svega pisma Balkana i Afrike.</p>
-<p>Ova mapa, prva mapa, koja povezuje Evropu, Aziju i Afriku, oivičena je trima pismima našeg mnogoimenog jezika: latinicom, ćirilicom i arabicom. Šta je arabica? Arapsko pismo prilagođeno za Južne Slovene.</p>
-<p>Uz ova pisma, srpski-hrvatski-bosanski-crnogorski jezik se može pisati i glagoljicom, bosančicom i staromađarskim rovaškim pismom.</p>"
+      txt: "<p>Jedinice mere ove geokarte nisu samo geografska širina i dužina, nego i pisma i jezici. U Bantustanu, pisma igraju važnu ulogu. Pre svega pisma Balkana i Afrike.</p>
+<p>Ova mapa, prva mapa, koja povezuje Evropu, Aziju i Afriku, oivičena je trima pismima našeg mnogoimenog jezika: latinicom, ćirilicom i arabicom.</p> 
+<p>(Šta je arabica? Arapsko pismo prilagođeno za Južne Slovene.</p>
+<p>Uz ova pisma, srpski-hrvatski-bosanski-crnogorski jezik se može pisati i glagoljicom, bosančicom i staromađarskim rovaškim pismom.)</p>"
     - x: 392.9
       y: 215.3
       txt: "<p>Crne planine i mračna balkanska noć. Aveti orijentalizma i balkanizma. Prvi nagoveštaji povezanosti Afrike i Balkana.</p>"
@@ -60,10 +61,10 @@ notes:
       y: 156.6
       txt: "<p>Oko konduktera Murata. Murat priča o svom ocu, koji je bio u Africi za vreme Suecke krize 1957.</p>
 <p>»Jugosloveni dali većinu trupa.«</p>
-<p>Jugoslovenska petokraka iz Muratove priče projektuje se na Egipat, Suecki kanal i Sinajsko poluostrvo. To su ničije zemlje između Izraela, Egipta i Palestine, gde su jugoslovenski vojnici nekad bili smešteni.</p>"
+<p>Jugoslovenska petokraka iz Muratove priče projektuje se na Egipat, Suecki kanal i Sinajsko poluostrvo. To su ničije zemlje između Izraela, Egipta i Palestine, gde su jugoslovenski mirotvorci nekad bili smešteni.</p>"
     - x: 491
       y: 247
-      txt: "<p>Stambolski mostovi, hramovi, džamije, kuće, lampe i galebovi. Ovde, u Istanbulu, Uroš i Lazar sastaju se sa Markom.</p>"
+      txt: "<p>Stambolski mostovi, hramovi, džamije, kuće, svetiljke i galebovi. Ovde, u Istanbulu, Uroš i Lazar sastaju se sa Markom.</p>"
     - x: 734
       y: 150
       txt: "<p>Bantustanske mape igraju se estetikom ilustrovanih turističkih mapa. Na ovakvim mapama česti su ornamenti poput jedrenjaka i šarenih egzotičnih simbola. Bantustan, međutim, ovakvim simbolima pristupa ironično, praveći od njih jezik kojim se može govoriti o savremenoj globalnoj stvarnosti.</p>
@@ -72,8 +73,8 @@ notes:
 <p>U poglavlju IV, koje se dešava u Kartumu, u Sudanu, Uroš kaže: »Onda porasteš i mape postanu strašne.«</p>"
     - x: 717.6
       y: 293.7
-      txt: "<p>Slojevi čaura unutar kojih živimo: ego, rasa, klasa, nacionalnost, vera, jezik, pismo.</p>
-<p>Bantustani su bili aparthejdski rezervati za crne Afrikance. U našoj knjizi, bantustani se odnose i na čaure unutar kojih živimo. Bantusan kao čaura, kao samica. Nametnuta ili samonametnuta.</p>
+      txt: "<p>Slojevi izolovanih čaura unutar kojih živimo: ego, rasa, klasa, nacionalnost, vera, jezik, pismo.</p>
+<p>Bantustani su bili aparthejdski rezervati za crne Afrikance. U našoj knjizi, bantustani se odnose i na ove druge, naše čaure. Bantusan kao ograđena pojedinačnost, kao samica. Nametnuta ili samonametnuta.</p>
 <p>Kad je bio dečak, Lazar je napisao priču o čoveku koji se rađa bez čula, zarobljen u vlastitom bantustanu. To je čovek »koji nema čula ali oseća strane sveta. I taj čovek bez čula polazi na put prateći linije Zemljine magnetne sile, koje ga vode kao tanki, končasti dodiri na koži.«</p>
 <p>Ove magnetne sile počinju od severa. Otuda linija ka zvezdi Severnjači, Polarisu, i veza sa sazvežđem Malog medveda, Ursa Minor.</p>"
     - x: 367
@@ -95,7 +96,7 @@ notes:
     - x: 629.4 
       y: 373.2
       txt: "<p>Persijske, arapske i turske minijature. Naučnici proučavaju noćno nebo. Veliki broj zvezda i danas nosi stare arapske nazive. Aldebaran, Altair, Nihal, Algol.</p>
-<p>U mapama se krije puno referenci na stare islamske minijature i srednjovekovnu kartografiju.</p>"
+<p>U mapama se kriju reference na stare islamske minijature i srednjovekovnu kartografiju.</p>"
     - x: 768
       y: 362
       txt: "<p>Spuštanje u Siriju, u pustinjske krajeve. Jezička pometnja: latinica, ćirilica, arabica. Pisma kao pesak teku preko granice.</p>
@@ -115,7 +116,7 @@ notes:
 <p>Stupanje na tle Afrike.</p>"
     - x: 685
       y: 554
-      txt: "<p>Priča o Sueckoj krizi. Priča je Murat iz 2U. U balončićima su slova hebrejskog i arapskog alfabeta, još jedna jezička pometnja, ali je simbol za dolar veći od svakog pojedinačnog slova.</p>"
+      txt: "<p>Priča o Sueckoj krizi. Priča je Murat iz priče 2U. U balončićima su slova hebrejskog i arapskog alfabeta, još jedna jezička pometnja. Simbol za dolar, pak, veći je od svakog pojedinačnog slova.</p>"
     - x: 665 
       y: 501
       txt: "<p>Kada je izbila Suecka kriza, Ujedinjene nacije poslale su mirotvorce. Među njima većinu su činili jugoslovenski vojnici. O tome govori Murat u priči 2U. Otuda isprekidana linija između ove zvezde i one gore, na granici Srbije i Bugarske.</p>"
@@ -124,18 +125,21 @@ notes:
       txt: "<p>Ko je Muhamed, neobični domaćin iz Kaira?</p>"
     - x: 547 
       y: 536
-      txt: "<p>Kairo, Egipat. Satelitske antene, galebovi, džamije, knjige i kamile. I dine, »narandžaste dine raspolućena crnom
-linijom senke.«</p>"
+      txt: "<p>Kairo, Egipat. Satelitske antene, galebovi, džamije, knjige i kamile. Kao i dine, »narandžaste dine raspolućene crnom linijom senke.«</p>"
     - x: 571
       y: 616
       txt: "<p>Pored latinice, ćirilice, arabice, hebrejskog, tu je još jedno pismo: stari egipatski hijeroglifi.</p>"
     - x: 331
       y: 700
-      txt: "<p>Svaka mapa u seriji ima naslovnu tablu na više jezika (engleski, srpski, hrvatski, arapski, svahili, drugi jezici koji se koriste u tom delu sveta). Takođe ima i razmernik (za kilometre i za milje), kao i kompasovu ružu (koja pokazuje sever, N).</p>"
+      txt: "<p>Svaka mapa u seriji ima naslovnu tablu na više jezika (engleski, srpski, hrvatski, arapski, svahili, plus drugi jezici koji se koriste u tom delu sveta). Takođe ima i razmernik (za kilometre i za milje), kao i kompasovu ružu (koja pokazuje sever, N).</p>"
     - x: 498
       y: 723
-      txt: "<p>Čovečuljak meri svet, pokušavajući da ga shvati i oseti. Mera mu je vlastita ruka.</p>"
+      txt: "<p>Čovečuljak meri svet, pokušavajući da ga shvati i oseti. Mera mu je šta drugo nego vlastita ruka.</p>"
     - x: 646
       y: 685
       txt: "<p>Jedine dve reke označene na ovoj mapi su Dunav i Nil. Njima je oivičeno poglavlje: putujemo od Dunava do Nila.</p>
 <p>Jedno putovanje, dve reke i tri kontinenta: Evropa, Azija i Afrika.</p>"
+    - x: 574 
+      y: 741
+      txt: "<p>Donji obod mape oivičena je slovima arabice, kao što su gornji i desni obod oivičeni latinicom i ćirilicom. Arabica je arapsko pismo prilagođeno za Južne Slovene. Naš mnogoimeni jezik, srpski-hrvatski-bosanski-crnogorski, može se pisati latinicom i ćirilicom, ali i arabicom, glagoljicom, bosančicom i staromađarskim rovaškim pismom.</p>
+<p>Sva ova pisma deo su velike jezičko-tipografske tapiserije, koja istovremeno deli i povezuje čitav svet i sve njegove pojedinačne bantustane.</p>"

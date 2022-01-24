@@ -135,7 +135,7 @@ notes:
       y: 47
       txt: "<p>Deo estetike i poetike Bantustana sastoji se u istraživanju različitih pisama Balkana, Afrike i sveta, kao i načina na koji se ona prepliću. Ova pisma deo su jedne prećutane povezanosti, koja se proteže daleko unazad, od Nesvrstanih do Sudana-sevdaha.</p> 
 <p>U gornjoj šlajfni, konkretno, nalazi se ispis na glagoljici (koja neobično podseća na afričko pismo mandombe). Na glagoljici piše:</p>
-<p>»Posejao sam sebe i ono će klijati, rekao je Kvame Nkrumah, prvi predsednik Gane. Ova knjiga je naše seme.«</p>"
+<p>»Posejao sam sebe i ono će klijati, rekao je Kvame Nkruma, prvi predsednik Gane. Ova knjiga je naše seme.«</p>"
     - x: 1013
       y: 408
       txt: "<p>Može li pismo biti nezavisno od ideologije? Da li je svaki serif u stvari — krst, dolar, srp, polumesec?</p>
@@ -158,7 +158,8 @@ notes:
       txt: "<p>Oko kao deo mašine. Horusovo oko iz poglavlja IV. Simbol nerazumevanja. Igra mistifikacije.</p>"
     - x: 515
       y: 353
-      txt: "<p>Supermen kao još jedan simbol ideološke mašine, jer šta su superheroji ako ne romantični prikaz privatizacije vojske i policije? A gde je Supermen, tu je i naivni simbol mira.</p>"
+      txt: "<p>Supermen kao još jedan simbol ideološke mašine (jer šta su superheroji ako ne romantični prikaz privatizacije vojske i policije?)</p>
+<p>Gde je Supermen, tu je i naivni simbol mira.</p>"
     - x: 1003
       y: 700
       txt: "<p>Potpis autora kao deo mašine. Knjiga Bantustan kao deo mašine. Može li se izvan izama?</p>"

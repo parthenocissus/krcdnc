@@ -318,8 +318,9 @@
                transform="matrix{{ transMat }}"></image>
 
         {% for ch in map.chapters %}
-            <circle class="chapter vertical-{{ map.vertical }}" onclick="chapterOnClick('{{ ch.page }}');"
-                    ontouchend="chapterOnClick('{{ ch.page }}');"
+            <circle class="chapter vertical-{{ map.vertical }}"
+                    onclick="chapterOnClick('{{ ch.page }}', '{{ ch.id }}');"
+                    ontouchend="chapterOnClick('{{ ch.page }}', '{{ ch.id }}');"
                     pointer-events="visible" cx="{{ ch.x }}" cy="{{ ch.y }}">
                 <title>{{ params.bntstn.chapter_tooltip.part1 ~ ch.id ~ params.bntstn.chapter_tooltip.part2 ~ map.title.chapter }}</title>
             </circle>
@@ -427,18 +428,25 @@
             $(".note").css({"visibility": "hidden"});
         });
 
-        let chapterOnClick = (page) => {
+        let chapterOnClick = (page, title) => {
             const url = "/download/books/Bantustan.pdf#page=" + page;
             window.open(url, '_blank');
         }
 
-        if (mediaQuery.matches) {
-            chapterOnClick = (page) => {
-                const txt = "<p>Da biste automatski otvorili PDF knjige na str. " + page + " i pročitali priču 7L u poglavlju XIV, molim vas da sajt otvorite u desktop brauzeru. Domaće elektronsko izdanje <em>Bantustana</em> je <a href='/download/books/Bantustan.pdf#page=294' target='_blank'>otvoreno licencirano i besplatno</a>.</p>";
+        let language = "{{ params.bntstn.lang }}";
+
+        if (language === 'e') {
+            chapterOnClick = (page, title) => {
+                const txt = "<p>Interactive reading of the book is available only for the Serbocroatian edition, which is published as a free open source e-book. The English edition is available globally on <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazon</a>.</p><p>If you wish to read the story " + title + " in Serbian/Croatian/Bosnian/Montenegrin, you are welcome to automatically open the <a href='/download/books/Bantustan.pdf#page=" + page + "' target='_blank'>page " + page + " of the Serbocroatian Bantustan PDF</a>.";
+                noteOnClick(txt);
+            }
+        } else if (mediaQuery.matches) {
+            chapterOnClick = (page, title) => {
+                const txt = "<p>Ukoliko želite da pročitate priču " + title + ", možete automatski otvoriti <a href='/download/books/Bantustan.pdf#page=" + page + "' target='_blank'>PDF knjige na stranicu " + page + "</a>.</p><p>Za kvalitetnije iskustvo interaktivnog čitanja, preporučujemo vam da ovaj vebsajt otvorite u desktop brauzeru. Domaće elektronsko izdanje <em>Bantustana</em> je otvoreno licencirano i besplatno. Englesko je globalno dostupno na <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazonu</a>.";
                 noteOnClick(txt);
             }
         }
-
+0
     </script>
 
 {% endblock %}

@@ -31,7 +31,7 @@ page5:
 image2:
     src: '/media/projects/bantustan-book/img/bantustan-book06.jpg'
 page6:
-    txt: "<h6>Napisan u 3 autorska glasa, Bantustan je primer i kolaborativnog književnog projekta.</h6>
+    txt: "<h6>Napisan u 3 autorska glasa, Bantustan je primer kolaborativnog književnog projekta.</h6>
 <p><a href='https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/' target='_blank'>Lazar Pašćanović</a>, <a href='https://www.amazon.com/Marko-Djedovic/e/B0936V89ZF/' target='_blank'>Marko Đedović</a> i <a href='/rad/bio/' target='_blank'>Uroš Krčadinac</a> zajedno su radili na tekstu nekoliko godina, pretvarajući putopisni blog u međužanrovski eksperiment.</p>
 <p>Svako poglavlje sastoji se iz priča označenih sa <b>U</b>, <b>M</b> ili <b>L</b>, što znači da su ih napisali Uroš, Marko ili Lazar. Ukoliko se priča, primera radi, zove <b>1M</b>, to znači da je to prva priča u poglavlju i da ju je napisao Marko.</p>"
 page7:
