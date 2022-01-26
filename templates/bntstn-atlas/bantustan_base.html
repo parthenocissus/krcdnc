@@ -19,7 +19,7 @@
 
             @font-face {
                 font-family: "MonumentExtended-Ultrabold";
-                {#src: url({{ url_for('static', filename='media/fonts/monument/MonumentExtended-Regular.woff2') }}) format('woff2');#}
+            {#src: url({{ url_for('static', filename='media/fonts/monument/MonumentExtended-Regular.woff2') }}) format('woff2');#}
                 src: url({{ url_for('static', filename='media/fonts/monument/MonumentExtended-Ultrabold.woff2') }}) format('woff2');
             }
 
@@ -115,7 +115,8 @@
                     <ul class="menu-items">
                         {% for m in map.chapter_maps %}
                             {% set lnk = "/bantustan-interactive-atlas/" ~ params.bntstn.menu.map_link ~ "/" ~ m.id %}
-                            <li><span class="ch">{{ m.title.chapter }}</span><a href="{{ lnk }}">{{ m.title.name }}</a>
+                            <li id="mchlnk{{ m.index }}"><span class="ch">{{ m.title.chapter }}</span><a
+                                    href="{{ lnk }}">{{ m.title.name }}</a>
                             </li>
                         {% endfor %}
                     </ul>
@@ -131,8 +132,186 @@
                 </div>
             </div>
 
-            <img src="{{ url_for('static', filename='space/afroatlas/maps/africa_map_menu.svg') }}"
-                 id="africa-map-with-legend" alt="Africa Map with Chapter Legend">
+            {# <img src="{{ url_for('static', filename='space/afroatlas/maps/africa_map_menu.svg') }}"#}
+            {#  id="africa-map-with-legend" alt="Africa Map with Chapter Legend">#}
+
+            <svg id="africa-map-with-legend" x="0px" y="0px" viewBox="0 0 357 425">
+                <g id="menu-chapters">
+                    <path id="mch1" d="M308.9,18h2.6v9.8h-2.6V18z"></path>
+                    <path id="mch2" d="M227.3,58h2.6v9.8h-2.6V58z M233.1,58h2.6v9.8h-2.6V58z"></path>
+                    <path id="mch3"
+                          d="M189.7,129.8h2.6v9.8h-2.6V129.8z M195.5,129.8h2.6v9.8h-2.6V129.8z M201.3,129.8h2.6v9.8h-2.6V129.8z"></path>
+                    <path id="mch4"
+                          d="M305.3,143.2h2.6v9.8h-2.6V143.2z M309.8,143.2h2.8l3.1,7.3l3.2-7.3h2.8l-4.6,9.8h-2.8L309.8,143.2z"></path>
+                    <path id="mch5" d="M215.1,168.8h2.8l3.1,7.3l3.2-7.3h2.8l-4.6,9.8h-2.8L215.1,168.8z"></path>
+                    <path id="mch6"
+                          d="M334.5,229.6h2.8l3.1,7.3l3.2-7.3h2.8l-4.6,9.8H339L334.5,229.6z M348.3,229.6h2.6v9.8h-2.6V229.6z"></path>
+                    <path id="mch7" d="M186.6,193.2h2.8l3.1,7.3l3.2-7.3h2.8l-4.6,9.8h-2.8L186.6,193.2z M200.4,193.2h2.6v9.8h-2.6V193.2z
+			 M206.1,193.2h2.6v9.8h-2.6V193.2z"></path>
+                    <path id="mch8" d="M179.3,209.7h2.8l3.1,7.3l3.2-7.3h2.8l-4.6,9.8h-2.8L179.3,209.7z M193.1,209.7h2.6v9.8h-2.6V209.7z
+			 M198.9,209.7h2.6v9.8h-2.6V209.7z M204.6,209.7h2.6v9.8h-2.6V209.7z"></path>
+                    <path id="mch9"
+                          d="M332.1,260.4h2.6v9.8h-2.6V260.4z M339.5,270.2h-3l4.3-5.1l-3.9-4.7h3l2.6,3.2l2.6-3.2h3l-3.9,4.7l4.3,5.1h-3l-3-3.6L339.5,270.2z"></path>
+                    <path id="mch10"
+                          d="M187.7,236.4h-3l4.3-5.1l-3.9-4.7h3l2.6,3.2l2.6-3.2h3l-3.9,4.7l4.3,5.1h-3l-3-3.6L187.7,236.4z"></path>
+                    <path id="mch11"
+                          d="M321.8,319.5h-3l4.3-5.1l-3.9-4.7h3l2.6,3.2l2.6-3.2h3l-3.9,4.7l4.3,5.1h-3l-3-3.6L321.8,319.5z M332.5,309.7h2.6v9.8h-2.6V309.7z"></path>
+                    <path id="mch12"
+                          d="M173.5,254.4h-3l4.3-5.1l-3.9-4.7h3l2.6,3.2l2.6-3.2h3l-3.9,4.7l4.3,5.1h-3l-3-3.6L173.5,254.4z M184.1,244.6h2.6v9.8h-2.6V244.6z M189.9,244.6h2.6v9.8h-2.6V244.6z"></path>
+                    <path id="mch13"
+                          d="M310,344.3h-3l4.3-5.1l-3.9-4.7h3l2.6,3.2l2.6-3.2h3l-3.9,4.7l4.3,5.1h-3l-3-3.6L310,344.3z M320.6,334.5h2.6v9.8h-2.6V334.5z M326.4,334.5h2.6v9.8h-2.6V334.5z M332.2,334.5h2.6v9.8h-2.6V334.5z"></path>
+                    <path id="mch14"
+                          d="M280.1,375.1h-3l4.3-5.1l-3.9-4.7h3l2.6,3.2l2.6-3.2h3l-3.9,4.7l4.3,5.1h-3l-3-3.6L280.1,375.1z M290.7,365.3h2.6v9.8h-2.6V365.3z M295.3,365.3h2.8l3.1,7.3l3.2-7.3h2.8l-4.6,9.8h-2.8L295.3,365.3z"></path>
+                    <path id="mch15"
+                          d="M138.8,412.2h-3l4.3-5.1l-3.9-4.7h3l2.6,3.2l2.6-3.2h3l-3.9,4.7l4.3,5.1h-3l-3-3.6L138.8,412.2z M148.3,402.4h2.8l3.1,7.3l3.2-7.3h2.8l-4.6,9.8h-2.8L148.3,402.4z"></path>
+                </g>
+
+                <path id="menu-continent" stroke-linejoin="bevel" stroke-miterlimit="10" d="
+		M138.5,64.3l-7.8,2.1l-2.1-1.1l-0.7,0.7l-3.2-1.1l-0.7,0.7l-37.8,6L85.1,71l-9.2-0.4l-1.1-2.1L73,68.9L51.5,89.4l-0.4,7.1
+		l-34.3,31.8l-2.1,4.2l-1.1,0.4l-2.1,6h0.7l1.1,2.5H14l0.7,1.8l-1.4,4.2l1.4,3.2l-8.5,20.9l4.2,7.1l-2.1-1.1l-0.7,5.7l3.5,3.9
+		l4.2-1.1l-2.5,1.4v2.1l1.4,0.7v1.8l1.4-1.1l7.4,14.5l1.1,0.7v1.1l7.4,5.7l0.4,1.1l17,11.3l19.4-4.6l7.8,2.1l12.7-5.3l2.1,0.4
+		l1.4-1.4l15.9-1.4l4.9,4.9v3.2l2.1,2.1h1.4l0.4,0.7l2.8-0.7l1.4-1.4l5.3,0.7l0.4-1.8h0.7l0.7,1.4l1.4,0.4l0.7,2.1l1.8,0.7l1.4-0.4
+		v1.8l1.4,2.1l-3.2,10.3l1.4,0.7l-0.4,2.1l-1.4,2.5l-0.4,3.2l-2.1,1.4l18,27.2l3.5-0.7l-4.2,1.4l5.3,12.7l-1.1,1.4l2.5,15.6
+		l-1.8,2.5l-3.5,2.8l-3.9,16.6l-0.4-0.4l2.1,9.2l0.7,0.4l28.3,66.5l-0.7,1.1l-1.1-0.4l-0.4,1.1l2.8,4.2l-0.4,2.5h0.4l0.7-0.7h1.1
+		v1.4h1.8l0.4,0.7l1.8,0.7l2.1-0.4l0.7-0.7l6.4-0.4l0.4-0.7h12.4l0.7-1.1l3.2,0.4l0.4-1.8h4.2l27.2-25.1l3.5-10.6l-0.7,0.7l-1.1-1.4
+		l13.8-8.1l2.5-9.9h-0.7l-2.1-11.3l7.1-6.4l0.4,0.7h0.7l2.1-2.1l-0.4-0.7l1.4-0.4l0.4-1.1l14.1-6.7l0.4-1.4l4.2-3.5l0.4-1.4
+		l-0.4-0.4l1.8-2.5v-0.7l-0.4-0.4l0.4-0.7h-0.4l1.4-18.4l-0.7-1.1l-1.1-0.4l-1.1-1.8V295l-0.7-0.7V283l0.7-0.7l-0.4-1.4l-2.8-2.5
+		l-0.4-1.4l2.5-7.1l1.4-0.7l4.6-9.5l2.1-1.1l1.1-2.1l1.8-0.4l6-8.1h-0.4l30.4-34.6l0,0l7.1-19.8l1.4-0.4l-0.7-0.4l-0.7-6.4l-2.1-1.1
+		l-2.8,2.8l-7.1,1.8l-1.4,2.5v-1.8l-3.9-0.4l-3.2,3.2l-7.4-2.5l-3.5,2.5l-3.9-0.7l-4.6-4.6h-3.2l3.5-3.5L285,171.9l-1.4-0.4
+		l-0.4-0.7l-2.1-0.4l-1.8-2.5l-0.4,2.1l-6.7-14.5l-0.7-0.4l-0.4-0.7l-4.9-2.5l-2.8-12l-1.4-1.4l-0.7-2.8l-4.9-3.5l-2.1-4.9h1.1
+		l-21.9-35.7H230l-0.4,0.7l-1.1-0.4l-4.6,2.5l-20.2-2.1l-0.7-1.1l-8.5-1.8l-0.4-1.4l-6.7-1.4l-6.4,3.9l0.7,4.6l-4.2,3.9l-17-6.7
+		l-0.7-2.1l-18-4.6l-0.7-1.8l-1.8-0.4l-2.5-2.1l6.7-7.4l-0.4-1.4l-1.4-1.4l-0.4-2.1l2.8-2.8l-0.4-0.7l-2.5,1.4l-0.7-1.8L138.5,64.3
+		L138.5,64.3L138.5,64.3z"></path>
+
+                <g id="menu-lines">
+
+                    <line id="mpth1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                          stroke-dasharray="0,5" x1="270.6" y1="65.8" x2="307" y2="29.4"></line>
+
+                    <line id="mpth2" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="231.6" y1="71.9"
+                          x2="231.6" y2="101.6"></line>
+
+                    <line id="mpth3" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="208" y1="135.2"
+                          x2="244.6" y2="135.2"></line>
+
+                    <line id="mpth4" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="300.8"
+                          y1="148.1" x2="238" y2="148.1"></line>
+
+                    <line id="mpth5" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="245.1"
+                          y1="174.3" x2="230" y2="174.3"></line>
+
+                    <polyline id="mpth6" stroke-linecap="round"
+                              stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" points="
+			331.8,237.2 317.7,251.3 273.7,251.3"></polyline>
+
+                    <line id="mpth7" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="264" y1="249.9"
+                          x2="211.8" y2="197.7"></line>
+
+                    <line id="mpth8" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="241.7" y1="243"
+                          x2="211.1" y2="212.4"></line>
+
+                    <line id="mpth9" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="286" y1="265.1"
+                          x2="330.2" y2="265.1"></line>
+
+                    <polyline id="mpth10" stroke-linecap="round"
+                              stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5"
+                              points="237.4,251.4 217.3,231.2 196.9,231.2"></polyline>
+
+                    <line id="mpth11" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="280.5"
+                          y1="278.7" x2="315.9" y2="314.1"></line>
+
+                    <line id="mpth12" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="227.7"
+                          y1="249.9" x2="196.1" y2="249.9"></line>
+
+                    <line id="mpth13" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="250.9"
+                          y1="286.2" x2="305.5" y2="340.8"></line>
+
+                    <line id="mpth14" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="225" y1="320.6"
+                          x2="274.9" y2="370.5"></line>
+
+                    <line id="mpth15" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="173.5"
+                          y1="366.5" x2="140.8" y2="399"></line>
+                </g>
+
+                <g id="menu-travelpath">
+                    <g>
+                        <line stroke-linecap="round" stroke-linejoin="round" x1="245.7" y1="174" x2="245.7"
+                              y2="174"></line>
+                        <polyline stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,7.7498"
+                                  points="250.7,180 262.7,194.4 272.1,217.3 274.2,237 272.9,247.2"></polyline>
+                        <line stroke-linecap="round" stroke-linejoin="round" x1="272.4" y1="251" x2="272.4"
+                              y2="251"></line>
+                    </g>
+                    <path stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M187.3,11l18.9,17l25.1,8.8l13.2,1.8l19.1,20.9l2.4,4.7l4.7,1.5l-7.4,23.2l-6.9,16.3l-4.7-3.4l-9.7-6l-5.4,0.5l-4.4,1.4l-1.5,4.4
+			l12.5,22.6l1.3,11.3l-6.9,8.2l-1.3,8.8l8.8,5.6l6.3,2.5l-5,12 M270.8,251.1l-5,0.2l-6.6-3.8l-8.1-3.8l-7.2-3.2l-5.7,5.4l-1.9,10.1
+			l-8.8-5.7l8.8,5l-9.4,7l9.4-7l6.3,7l13.2,3.7l3.4,5.7l9.8,8.1l12.3-1.2l-22.1,2.5l-9.4,6.3l-6.6,12.2l-8.8,9.1l-7.5,3.8l-1.9,8.8
+			l-8.4,4l-2.9,4.2l-13.1,1.5l-15.8,2.9l-15.1,9.4l1.3,13.5l-11.6,3.8l-5.5-3.7l-1.9-4.6 M171,356.8l1.6,11h8.8 M267.4,252.3
+			l3.8,4.3L287,265l-4.2,2.3h-12.6l2.9,6.6l8.2,4.7 M251.3,286.4l-7-4.7l-7.4,1.3l3.2,9.4l-5.7,14.5"></path>
+                </g>
+
+                {% set tt = params.bntstn.map_tooltip_txt %}
+                <g id="menu-marks">
+                    <rect id="mmm1" pointer-events="visible" x="296.6" y="7.6" width="28.1" height="31.1">
+                        <title id="menu-mark-title1">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm2" pointer-events="visible" x="221.1" y="51.3" width="21.8" height="21.8">
+                        <title id="menu-mark-title2">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm3" pointer-events="visible" x="182.5" y="121.8" width="29.4" height="26.3">
+                        <title id="menu-mark-title3">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm4" pointer-events="visible" x="296.6" y="134.7" width="31.1" height="26.4">
+                        <title id="menu-mark-title4">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm5" pointer-events="visible" x="208" y="161.1" width="26.4" height="21.4">
+                        <title id="menu-mark-title5">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm6" pointer-events="visible" x="329" y="223.8" width="25.3" height="20.8">
+                        <title id="menu-mark-title6">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm7" pointer-events="visible" x="181.4" y="188.1" width="30.5" height="16.3">
+                        <title id=menu-"mark-title7">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm8" pointer-events="visible" x="172.3" y="207.6" width="38.8" height="14.3">
+                        <title id="menu-mark-title8">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm9" pointer-events="visible" x="324.7" y="252.3" width="26.2" height="23.2">
+                        <title id="menu-mark-title9">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm10" pointer-events="visible" x="176.2" y="226.6" width="31" height="10.6">
+                        <title id="menu-mark-title10">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm11" pointer-events="visible" x="313" y="303.6" width="28.7" height="19.9">
+                        <title id="menu-mark-title11">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm12" pointer-events="visible" x="166.9" y="240.6" width="31.2" height="19.8">
+                        <title id="menu-mark-title12">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm13" pointer-events="visible" x="301.3" y="326.5" width="40.4" height="24">
+                        <title id="menu-mark-title13">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm14" pointer-events="visible" x="272.4" y="356.8" width="38.3" height="26">
+                        <title id="menu-mark-title14">{{ tt }}</title>
+                    </rect>
+                    <rect id="mmm15" pointer-events="visible" x="131.7" y="396" width="32.2" height="23">
+                        <title id="menu-mark-title15">{{ tt }}</title>
+                    </rect>
+                </g>
+            </svg>
+
 
         </div>
 
@@ -175,6 +354,39 @@
     }
 
     $("#menu-x").on(eventRule, menuHide);
+
+    /* Menu Map Hover Events */
+
+    let mapDataMenu = {{ map.map_list|tojson }};
+    const mapLinkMenu = "{{ params.bntstn.menu.map_link }}",
+        openSentenceMenu = "{{ params.bntstn.open_txt }}",
+        chapterMenu = "{{ params.bntstn.chapter }}";
+
+    for (let i = 1; i <= 15; i++) {
+
+        let mark = $("#mmm" + i);
+        mark.attr("cursor", "pointer")
+            .hover(() => {
+                $("#mch" + i).toggleClass("selected");
+                $("#mpth" + i).toggleClass("selected");
+                $("#mchlnk" + i).toggleClass("hovered");
+            });
+
+        const iMap = mapDataMenu.find(m => parseInt(m.index) === i);
+        if (iMap !== undefined) {
+            let htmlTxt = openSentenceMenu + iMap.title + ", " + chapterMenu + " " + iMap.chapter;
+            $("#menu-mark-title" + i).html(htmlTxt);
+            mark.on(eventRule, () => {
+                let url = "/bantustan-interactive-atlas/" + mapLinkMenu + "/" + iMap.id;
+                window.open(url, "_self");
+            });
+            $("#mchlnk" + i).hover(() => {
+                $("#mch" + i).toggleClass("selected");
+                $("#mpth" + i).toggleClass("selected");
+            })
+        }
+
+    }
 
 </script>
 

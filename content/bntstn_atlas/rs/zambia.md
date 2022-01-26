@@ -170,7 +170,7 @@ razveje.«</p>"
       y: 54
       txt: "<p>Ova mapa oblikovana je kao lavirint, pravi enigmatski korektan lavirint koji se može rešiti.</p>
 <p>Ukoliko čitaoci reše lavirint, saznaće u koju će zemlju Lazar, Marko i Uroš otići posle Zambije. To će, naravno, saznati i ako otvore sledeće poglavlje (otići će u Namibiju), ali je ovako igra graničnih regulacija, birokratskih čvorova i strukturnih čaura i bantustana prikazana na još jedan način: gejmerski, interaktivan.</p>
-<p>Izlazak iz bantustana – iz čaure rase, klase, nacije, jezika, ograđene teritorije čaure vlastitog ega – podseća na izlazak iz lavirinta.</p>"
+<p>Izlazak iz bantustana – iz čaure rase, klase, nacije, jezika, ograđene teritorije, čaure vlastitog ega – podseća na izlazak iz lavirinta.</p>"
     - x: 903 
       y: 196
       txt: "<p>Lavirint počinje ovde. Završava se u zemlji u koju će Marko, Lazar i Uroš otići posle Zambije. Lavirint je enigmatski korektan i može se rešiti.</p>

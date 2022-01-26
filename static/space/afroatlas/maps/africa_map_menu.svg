@@ -153,4 +153,7 @@
 			251.3,286.4 244.3,281.7 236.9,283 240.1,292.4 234.4,306.9 		"/>
 	</g>
 </g>
+<g id="menu-map-marks">
+	<rect id="menu-map-mark1" pointer-events="visible"  x="296.6" y="7.6" width="28.1" height="31.1"/>
+</g>
 </svg>

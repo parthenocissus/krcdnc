@@ -19,16 +19,19 @@ $(document).ready(function () {
             wSvg = window.innerWidth - wAside;
         }
 
+        let prevArrowLeft = wAside + (w / 100);
+
         if (mediaQuery.matches) {
             wAside = w;
             wSvg = w;
             hSvg = h;
+            prevArrowLeft = w / 100;
         }
 
         $("#main-map").attr("height", hSvg).attr("width", wSvg);
         $(".side-content").css("width", wAside);
 
-        let prevArrowLeft = wAside + (w / 100); /* wAside + 1vw */
+         /* wAside + 1vw */
         $("#arrow-prev").css("left", prevArrowLeft);
     }
 

@@ -120,13 +120,18 @@ h4 {
 
 #africa-map {
     position: relative;
-    width: 18vw;
+    width: 17vw;
     margin: 1vw 0 0 0;
+}
+
+#africa-outline {
+    stroke: white;
 }
 
 #africa-map-base polyline, line, path {
     stroke: var(--main);
 }
+
 
 #africa-map #lines line,
 #africa-map #lines polyline {
@@ -170,10 +175,10 @@ h4 {
     display: none;
 }
 
-#africa-map #marks rect {
+#africa-map #marks rect,
+#menu-map-marks rect {
     fill: white;
     opacity: 0;
-    /*cursor: pointer;*/
 }
 
 /* Footer */
@@ -839,12 +844,61 @@ footer p a:hover {
         "map .";
 }
 
+/* Africa Map on the Menu */
+
 #africa-map-with-legend {
     grid-area: map;
     width: 25vw;
     justify-self: center;
     align-self: center;
     padding-bottom: 3vw;
+}
+
+#africa-map-with-legend #menu-chapters path {
+    fill: black;
+    stroke: none;
+}
+
+#africa-map-with-legend #menu-lines line,
+#africa-map-with-legend #menu-lines polyline {
+    fill: none;
+    stroke: black;
+    stroke-width: 1.5;
+}
+
+#africa-map-with-legend #menu-lines line.selected,
+#africa-map-with-legend #menu-lines polyline.selected {
+    stroke: white;
+    stroke-width: 2.5;
+}
+
+#menu-continent {
+    stroke: black;
+    fill: none;
+    stroke-width: 2;
+}
+
+#menu-travelpath,
+#menu-travelpath path,
+#menu-travelpath g line,
+#menu-travelpath g polyline {
+    stroke: white;
+    fill: none;
+    stroke-width: 4;
+}
+
+#africa-map-with-legend #menu-chapters path {
+    stroke: none;
+    fill: black;
+}
+
+#africa-map-with-legend #menu-chapters path.selected {
+    fill: white;
+}
+
+#africa-map-with-legend #menu-marks rect {
+    fill: white;
+    opacity: 0;
 }
 
 /* Menu Blocks & Sections */
@@ -893,7 +947,8 @@ footer p a:hover {
     text-decoration: none;
 }
 
-.menu-items li:hover a {
+.menu-items li:hover a,
+.menu-items li.hovered a {
     color: black;
 }
 
@@ -908,7 +963,8 @@ footer p a:hover {
     font-size: .8vw;
 }
 
-.menu-items li:hover .ch {
+.menu-items li:hover .ch,
+.menu-items li.hovered .ch {
     color: black;
 }
 

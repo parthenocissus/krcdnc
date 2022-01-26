@@ -113,8 +113,8 @@
 
             .mobile-info-panel #africa-map {
                 position: relative;
-                width: 50vw;
-                margin: 9px 0 18px 0;
+                width: 75vw;
+                margin: 9px 0 30px 0;
             }
 
             .mobile-info-panel h4 a {
@@ -591,9 +591,6 @@
         const mapLink = "{{ params.bntstn.menu.map_link }}",
             openSentence = "{{ params.bntstn.open_txt }}",
             chap = "{{ params.bntstn.chapter }}";
-
-        const found = mapData.find(m => parseInt(m.index) === 13);
-        console.log(found);
 
         for (let i = 1; i <= 15; i++) {
             if (i !== index) {

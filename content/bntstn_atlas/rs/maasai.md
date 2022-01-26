@@ -13,6 +13,10 @@ vertical: true
 color: black
 lead: "Selo u Keniji, nedaleko od gradića <br>Narok, gde živi narod Masaji."
 chapters: 
+    - id: XX
+      x: 440.882
+      y: 693.053 
+      page: 1
     - id: 1L
       x: 361.1
       y: 566.2
