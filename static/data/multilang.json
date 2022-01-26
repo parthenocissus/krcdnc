@@ -24,7 +24,11 @@
         "part1": "Chapter ",
         "part2": ""
       },
-      "footer_txt": "You like the map?<br>You can order it as a <a href='/bantustan-interactive-atlas/info/'>graphic print</a>.<br>The map is a part of the book <em>Bantustan</em>,<br>published in <a href='https://krcadinac.com/rad/projekti/bantustan-book/' target='_blank'>Serbocroatian</a> and <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>English</a>.",
+      "open_txt": "Open the map: ",
+      "open_next_txt": "Next map: ",
+      "open_prev_txt": "Previous map: ",
+      "map_tooltip_txt": "This chapter is still not available",
+      "footer_txt": "You like the map? See how <a href='/bantustan-interactive-atlas/prints/'>you can get it</a>.",
       "note_tooltip": "What does this part of the mape mean? Read the artist note.",
       "chapter_tooltip": {
         "part1": "Load the PDF of the book and open the ",
@@ -268,7 +272,12 @@
         "part1": "",
         "part2": " poglavlje"
       },
-      "footer_txt": "Dopada vam se ova mapa?<br>Možete je naručiti kao <a href='/bantustan-interactive-atlas/printovi/'>štampanu grafiku</a>.<br>Ona je deo knjige <em>Bantustan: atlas jednog</em><br><em>putovanja</em> (<a href='https://krcadinac.com/rad/projekti/bantustan-book/' target='_blank'>domaće</a> i <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>englesko</a> izdanje).",
+      "open_txt": "Otvori mapu: ",
+      "open_next_txt": "Sledeća mapa: ",
+      "open_prev_txt": "Prethodna mapa: ",
+      "map_tooltip_txt": "Ovo poglavlje još uvek nije dostupno",
+      "footer_txt": "Dopada vam se mapa? Možete je <a href='/bantustan-interactive-atlas/printovi/'>naručiti</a>.",
+      "footer_txt_orig": "Dopada vam se ova mapa?<br>Možete je naručiti kao <a href='/bantustan-interactive-atlas/printovi/'>štampanu grafiku</a>.<br>Ona je deo knjige <em>Bantustan: atlas jednog</em><br><em>putovanja</em> (<a href='https://krcadinac.com/rad/projekti/bantustan-book/' target='_blank'>domaće</a> i <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>englesko</a> izdanje).",
       "note_tooltip": "Šta predstavlja ovaj deo mape? Vidi belešku.",
       "chapter_tooltip": {
         "part1": "Učitaj knjigu u PDFu i otvori priču ",

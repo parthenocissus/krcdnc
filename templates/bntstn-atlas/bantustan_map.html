@@ -173,55 +173,211 @@
             <h2>{{ map.title.name }}</h2>
             <h4>{{ map.lead|safe }}</h4>
 
-            <svg id="africa-map" x="0px" y="0px" viewBox="0 0 187 228">
-                {% if map.legend is defined %}
-                    <g id="africa-map-legend">
-                        <rect fill="#FFFFFF" x="{{ map.legend.x }}" y="{{ map.legend.y }}"
-                              width="{{ map.legend.w }}" height="{{ map.legend.h }}"></rect>
+            <svg id="africa-map" x="0px" y="0px" viewBox="0 0 357 425">
+
+                <g id="lines">
+
+                    <line id="ln1" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="270.6" y1="65.8"
+                          x2="307" y2="29.4"></line>
+
+                    <line id="ln2" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="231.6" y1="71.9"
+                          x2="231.6" y2="101.6"></line>
+
+                    <line id="ln3" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="208.8" y1="135.2"
+                          x2="245.4" y2="135.2"></line>
+
+                    <line id="ln4" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="300.8" y1="148.1"
+                          x2="238" y2="148.1"></line>
+
+                    <line id="ln5" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="245.1" y1="174.3"
+                          x2="230" y2="174.3"></line>
+
+                    <line id="ln6" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="272.5" y1="251"
+                          x2="317.9" y2="251"></line>
+
+                    <line id="ln7" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="264" y1="249.9"
+                          x2="200.5" y2="186.4"></line>
+
+                    <polyline id="ln8" stroke-linecap="round"
+                              stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" points="
+			241.7,243 212.2,213.6 202.1,213.6 		"></polyline>
+
+                    <polyline id="ln9" stroke-linecap="round"
+                              stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" points="
+			319.9,280 305.7,265.8 286.1,265.8 		"></polyline>
+
+                    <polyline id="ln10" stroke-linecap="round"
+                              stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" points="
+			237.4,251.4 217.3,231.2 196.9,231.2 		"></polyline>
+
+                    <line id="ln11" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="280.5" y1="278.7"
+                          x2="313.7" y2="311.9"></line>
+
+                    <line id="ln12" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="227.7" y1="249.9"
+                          x2="203.4" y2="274.2"></line>
+
+                    <line id="ln13" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="250.9" y1="286.2"
+                          x2="305.5" y2="340.8"></line>
+
+                    <line id="ln14" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="225" y1="320.6"
+                          x2="274.9" y2="370.5"></line>
+
+                    <line id="ln15" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="0,5" x1="173.5" y1="366.5"
+                          x2="140.8" y2="399"></line>
+                </g>
+
+                <path id="continent" stroke-linejoin="bevel" stroke-miterlimit="10" d="M138.5,64.3l-7.8,2.1l-2.1-1.1l-0.7,0.7l-3.2-1.1l-0.7,0.7l-37.8,6L85.1,71l-9.2-0.4l-1.1-2.1l-1.8,0.4L51.5,89.4l-0.4,7.1
+		l-34.3,31.8l-2.1,4.2l-1.1,0.4l-2.1,6h0.7l1.1,2.5H14l0.7,1.8l-1.4,4.2l1.4,3.2l-8.5,20.9l4.2,7.1l-2.1-1.1l-0.7,5.7l3.5,3.9
+		l4.2-1.1l-2.5,1.4v2.1l1.4,0.7v1.8l1.4-1.1l7.4,14.5l1.1,0.7v1.1l7.4,5.7l0.4,1.1l17,11.3l19.4-4.6l7.8,2.1l12.7-5.3l2.1,0.4
+		l1.4-1.4l15.9-1.4l4.9,4.9v3.2l2.1,2.1h1.4l0.4,0.7l2.8-0.7l1.4-1.4l5.3,0.7l0.4-1.8h0.7l0.7,1.4l1.4,0.4l0.7,2.1l1.8,0.7l1.4-0.4
+		v1.8l1.4,2.1l-3.2,10.3l1.4,0.7l-0.4,2.1l-1.4,2.5l-0.4,3.2l-2.1,1.4l18,27.2l3.5-0.7l-4.2,1.4l5.3,12.7l-1.1,1.4l2.5,15.6
+		l-1.8,2.5l-3.5,2.8l-3.9,16.6l-0.4-0.4l2.1,9.2l0.7,0.4l28.3,66.5l-0.7,1.1l-1.1-0.4l-0.4,1.1l2.8,4.2l-0.4,2.5h0.4l0.7-0.7h1.1
+		v1.4h1.8l0.4,0.7l1.8,0.7l2.1-0.4l0.7-0.7l6.4-0.4l0.4-0.7h12.4l0.7-1.1l3.2,0.4l0.4-1.8h4.2l27.2-25.1l3.5-10.6l-0.7,0.7l-1.1-1.4
+		l13.8-8.1l2.5-9.9h-0.7l-2.1-11.3l7.1-6.4l0.4,0.7h0.7l2.1-2.1l-0.4-0.7l1.4-0.4l0.4-1.1l14.1-6.7l0.4-1.4l4.2-3.5l0.4-1.4
+		l-0.4-0.4l1.8-2.5v-0.7l-0.4-0.4l0.4-0.7h-0.4l1.4-18.4l-0.7-1.1l-1.1-0.4l-1.1-1.8v-2.1l-0.7-0.7v-11.3l0.7-0.7l-0.4-1.4l-2.8-2.5
+		l-0.4-1.4l2.5-7.1l1.4-0.7l4.6-9.5l2.1-1.1l1.1-2.1l1.8-0.4l6-8.1h-0.4l30.4-34.6l0,0l7.1-19.8l1.4-0.4l-0.7-0.4l-0.7-6.4l-2.1-1.1
+		l-2.8,2.8l-7.1,1.8l-1.4,2.5v-1.8l-3.9-0.4l-3.2,3.2l-7.4-2.5l-3.5,2.5l-3.9-0.7l-4.6-4.6h-3.2l3.5-3.5l-12.4-12.7l-1.4-0.4
+		l-0.4-0.7l-2.1-0.4l-1.8-2.5l-0.4,2.1l-6.7-14.5l-0.7-0.4l-0.4-0.7l-4.9-2.5l-2.8-12l-1.4-1.4l-0.7-2.8l-4.9-3.5l-2.1-4.9h1.1
+		l-21.9-35.7H230l-0.4,0.7l-1.1-0.4l-4.6,2.5l-20.2-2.1l-0.7-1.1l-8.5-1.8l-0.4-1.4l-6.7-1.4l-6.4,3.9l0.7,4.6l-4.2,3.9l-17-6.7
+		l-0.7-2.1l-18-4.6l-0.7-1.8l-1.8-0.4l-2.5-2.1l6.7-7.4l-0.4-1.4l-1.4-1.4l-0.4-2.1l2.8-2.8l-0.4-0.7l-2.5,1.4l-0.7-1.8L138.5,64.3
+		L138.5,64.3L138.5,64.3z"></path>
+
+                <g id="travelpath">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M187.3,11l18.8,17l25.1,8.8l13.2,1.9l19.2,20.9l2.4,4.7l4.7,1.4l-7.4,23.2l-6.9,16.3l-4.7-3.4l-9.7-6l-5.3,0.5l-4.4,1.4l-1.6,4.4
+			l12.6,22.6l1.3,11.3l-6.9,8.2l-1.3,8.8l8.8,5.7l6.3,2.5l-5,11.9 M152,352.3l1.9,4.6l5.5,3.7l11.6-3.8l-1.3-13.5l15.1-9.4l15.8-2.9
+			l13.1-1.5l2.9-4.2l8.4-4l1.9-8.8l7.5-3.8l8.8-9.1l6.6-12.2l9.4-6.3l22.1-2.5l-12.3,1.3l-9.7-8.2l-3.5-5.7l-13.2-3.8l-6.3-6.9
+			l-7.6,6.4l7.6-6.4l-8.8-5l8.8,5.7l1.9-10.1l5.7-5.4l7.2,3.2l8.2,3.8l6.6,3.8l5-0.1 M171,356.8l1.6,11h8.8 M281.3,278.6l-8.3-4.7
+			l-2.8-6.6h12.6l4.2-2.3l-15.8-8.4l-3.8-4.3 M251.3,286.4l-7-4.7l-7.4,1.3l3.1,9.4l-5.7,14.4"></path>
+                    <g>
+                        <line stroke-linecap="round" stroke-linejoin="round" x1="245.7" y1="174" x2="245.7"
+                              y2="174"></line>
+                        <polyline stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,7.7498"
+                                  points="250.7,180 262.7,194.4 272.1,217.3 274.2,237 272.9,247.2"></polyline>
+                        <line stroke-linecap="round" stroke-linejoin="round" x1="272.4" y1="251" x2="272.4"
+                              y2="251"></line>
                     </g>
-                {% endif %}
-                <g id="africa-map-base">
-                    <path id="africa-outline" fill="none" stroke="#FFFFFF" stroke-linejoin="bevel"
-                          stroke-miterlimit="10" d="M74.6,33.5l-4.2,1.1l-1.1-0.6l-0.4,0.4
-		l-1.7-0.6l-0.4,0.4l-20.5,3.3l-0.6-0.4l-5-0.2l-0.6-1.1l-1,0.2L27.4,47.1L27.2,51L8.6,68.2l-1.1,2.3l-0.6,0.2L5.8,74h0.4l0.6,1.3
-		h0.4l0.4,1l-0.8,2.3l0.8,1.7L2.9,91.6l2.3,3.8L4,94.9l-0.4,3.1l1.9,2.1l2.3-0.6l-1.3,0.8v1.1l0.8,0.4v1l0.8-0.6l4,7.9l0.6,0.4v0.6
-		l4,3.1l0.2,0.6l9.2,6.1l10.5-2.5l4.2,1.1l6.9-2.9l1.1,0.2l0.8-0.8l8.6-0.8l2.7,2.7v1.7l1.1,1.1h0.8l0.2,0.4l1.5-0.4l0.8-0.8
-		l2.9,0.4l0.2-1h0.4l0.4,0.8l0.8,0.2l0.4,1.1l1,0.4l0.8-0.2v1l0.8,1.1l-1.7,5.6l0.8,0.4l-0.2,1.1l-0.8,1.3l-0.2,1.7l-1.1,0.8
-		l9.8,14.8l1.9-0.4l-2.3,0.8l2.9,6.9l-0.6,0.8l1.3,8.4l-1,1.3l-1.9,1.5l-2.1,9l-0.2-0.2l1.1,5l0.4,0.2l15.3,36l-0.4,0.6l-0.6-0.2
-		l-0.2,0.6l1.5,2.3l-0.2,1.3h0.2l0.4-0.4h0.6v0.8h1l0.2,0.4l1,0.4l1.1-0.2l0.4-0.4l3.4-0.2l0.2-0.4h6.7l0.4-0.6l1.7,0.2l0.2-1h2.3
-		l14.8-13.6l1.9-5.7l-0.4,0.4l-0.6-0.8l7.5-4.4l1.3-5.4h-0.4l-1.1-6.1l3.8-3.4l0.2,0.4h0.4l1.1-1.1l-0.2-0.4l0.8-0.2l0.2-0.6
-		l7.7-3.6l0.2-0.8l2.3-1.9l0.2-0.8l-0.2-0.2l1-1.3v-0.4l-0.2-0.2l0.2-0.4h-0.2l0.8-10l-0.4-0.6l-0.6-0.2l-0.6-1v-1.1l-0.4-0.4v-6.1
-		l0.4-0.4l-0.2-0.8l-1.5-1.3l-0.2-0.8l1.3-3.8l0.8-0.4l2.5-5.2l1.1-0.6l0.6-1.1l1-0.2l3.3-4.4h-0.2l16.5-18.8l0,0l3.8-10.7l0.8-0.2
-		l-0.4-0.2l-0.4-3.4l-1.1-0.6l-1.5,1.5l-3.8,1l-0.8,1.3v-1L173,102l-1.7,1.7l-4-1.3l-1.9,1.3l-2.1-0.4l-2.5-2.5h-1.7l1.9-1.9
-		l-6.7-6.9l-0.8-0.2l-0.2-0.4l-1.1-0.2l-1-1.3L151,91l-3.6-7.9L147,83l-0.2-0.4l-2.7-1.3l-1.5-6.5l-0.8-0.8l-0.4-1.5l-2.7-1.9
-		l-1.1-2.7h0.6l-11.9-19.4h-2.1l-0.2,0.4l-0.6-0.2l-2.5,1.3L110,48.9l-0.4-0.6l-4.6-1l-0.2-0.8l-3.6-0.8l-3.4,2.1l0.4,2.5l-2.3,2.1
-		l-9.2-3.6l-0.4-1.1l-9.8-2.5l-0.4-1l-1-0.2l-1.3-1.1l3.6-4l-0.2-0.8l-0.8-0.8l-0.2-1.1l1.5-1.5l-0.2-0.4l-1.3,0.8l-0.4-1L74.6,33.5
-		L74.6,33.5L74.6,33.5z"></path>
-                    <polyline fill="none" stroke-width="2" stroke-linecap="square"
-                              stroke-linejoin="round" stroke-miterlimit="10" points="
-		101,4.7 111.2,13.9 124.9,18.6 132,19.6 142.4,31 143.7,33.5 146.2,34.3 142.2,46.9 138.5,55.7 135.9,53.9 130.6,50.6 127.8,50.9
-		125.4,51.6 124.5,54 131.3,66.3 132,72.4 128.3,76.8 127.6,81.6 132.3,84.7 135.7,86 133,92.5 	"></polyline>
-                    <polyline fill="none" stroke-width="2" stroke-linecap="square"
-                              stroke-linejoin="round" stroke-miterlimit="10" points="
-		146.3,134.8 143.6,134.9 140,132.8 135.6,130.8 131.7,129.1 128.6,132 127.6,137.4 122.8,134.4 127.6,137.1 122.5,140.8
-		127.6,137.1 131,140.8 138.1,142.9 140,145.9 145.3,150.4 152,149.7 140,151 134.9,154.4 131.3,161.1 126.6,166 122.5,168.1
-		121.4,172.8 116.9,175 115.3,177.3 108.2,178.1 99.7,179.6 91.5,184.7 92.2,192.1 85.9,194.1 82.9,192.1 81.9,189.6 	"></polyline>
-                    <polyline fill="none" stroke-width="2" stroke-linecap="square"
-                              stroke-linejoin="round" stroke-miterlimit="10" points="
-		92.2,192.1 93,198 97.8,198 	"></polyline>
-                    <polyline fill="none" stroke-width="2" stroke-linecap="square"
-                              stroke-linejoin="round" stroke-miterlimit="10" points="
-		144.4,135.4 146.5,137.8 155,142.3 152.8,143.6 146,143.6 147.5,147.1 152,149.7 	"></polyline>
-                    <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                          x1="132.7" y1="93" x2="132.7" y2="93"></line>
-                    <polyline fill="none" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round" stroke-dasharray="0,3.8503" points="
-			135.1,96 141.9,104.1 147,116.5 148.1,127.1 147.4,132.8 		"></polyline>
-                    <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                          x1="147.1" y1="134.7" x2="147.1" y2="134.7"></line>
-                    <polyline fill="none" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"
-                              stroke-miterlimit="10" points="
-	134.7,154.5 130.9,152 126.9,152.7 128.6,157.8 125.6,165.6 "></polyline>
+                </g>
+
+                <g id="chapters">
+                    <path id="ch1" d="M311.5,13.7h3.4v12.6h-3.4V13.7z"></path>
+                    <path id="ch2" d="M226,53.9h3.4v12.6H226V53.9z M233.4,53.9h3.4v12.6h-3.4V53.9z"></path>
+                    <path id="ch3"
+                          d="M184,128.4h3.4V141H184V128.4z M191.4,128.4h3.4V141h-3.4V128.4z M198.8,128.4h3.4V141h-3.4V128.4z"></path>
+                    <path id="ch4"
+                          d="M307.9,141.3h3.4v12.6h-3.4V141.3z M313.8,141.3h3.6l4,9.4l4.1-9.4h3.6l-5.9,12.6h-3.6L313.8,141.3z"></path>
+                    <path id="ch5" d="M211.4,166.2h3.6l4,9.4l4.1-9.4h3.6l-5.9,12.6h-3.6L211.4,166.2z"></path>
+                    <path id="ch6"
+                          d="M321.6,243h3.6l4,9.4l4.1-9.4h3.6l-5.9,12.6h-3.6L321.6,243z M339.3,243h3.4v12.6h-3.4V243z"></path>
+                    <path id="ch7" d="M169.3,182.9h3.6l4,9.4l4.1-9.4h3.6l-5.9,12.6h-3.6L169.3,182.9z M187,182.9h3.4v12.6H187V182.9z
+			 M194.5,182.9h3.4v12.6h-3.4V182.9z"></path>
+                    <path id="ch8"
+                          d="M161.9,206.7h3.6l4,9.4l4.1-9.4h3.6l-5.9,12.6h-3.6L161.9,206.7z M179.7,206.7h3.4v12.6h-3.4V206.7z M187.1,206.7h3.4v12.6h-3.4V206.7z M194.5,206.7h3.4v12.6h-3.4V206.7z"></path>
+                    <path id="ch9"
+                          d="M325.9,274.6h3.4v12.6h-3.4V274.6z M335.4,287.2h-3.8l5.5-6.6l-5.1-6h3.8l3.4,4.1l3.4-4.1h3.8l-5.1,6l5.5,6.6H343l-3.8-4.6L335.4,287.2z"></path>
+                    <path id="ch10"
+                          d="M184.4,242.9h-3.8l5.5-6.6l-5.1-6h3.8l3.4,4.1l3.4-4.1h3.8l-5.1,6l5.5,6.6H192l-3.8-4.6L184.4,242.9z"></path>
+                    <path id="ch11"
+                          d="M320.1,317.5h-3.8l5.5-6.6l-5.1-6h3.8l3.4,4.1l3.4-4.1h3.8l-5.1,6l5.5,6.6h-3.8l-3.8-4.6L320.1,317.5z M333.8,304.9h3.4v12.6h-3.4V304.9z"></path>
+                    <path id="ch12"
+                          d="M176.7,289.1h-3.8l5.5-6.6l-5.1-6h3.8l3.4,4.1l3.4-4.1h3.8l-5.1,6l5.5,6.6h-3.8l-3.8-4.6L176.7,289.1z M190.4,276.5h3.4v12.6h-3.4V276.5z M197.8,276.5h3.4v12.6h-3.4V276.5z"></path>
+                    <path id="ch13"
+                          d="M311.6,346.1h-3.8l5.5-6.6l-5.1-6h3.8l3.4,4.1l3.4-4.1h3.8l-5.1,6l5.5,6.6h-3.8l-3.8-4.6L311.6,346.1z M325.3,333.5h3.4v12.6h-3.4V333.5z M332.7,333.5h3.4v12.6h-3.4V333.5z M340.1,333.5h3.4v12.6h-3.4V333.5z"></path>
+                    <path id="ch14"
+                          d="M282.2,376.7h-3.8l5.5-6.6l-5.1-6h3.8l3.4,4.1l3.4-4.1h3.8l-5.1,6l5.5,6.6h-3.8l-3.8-4.6L282.2,376.7z M295.9,364.1h3.4v12.6h-3.4V364.1z M301.7,364.1h3.6l4,9.4l4.1-9.4h3.6l-5.9,12.6h-3.6L301.7,364.1z"></path>
+                    <path id="ch15"
+                          d="M121.3,415h-3.8l5.5-6.6l-5.1-6h3.8l3.4,4.1l3.4-4.1h3.8l-5.1,6l5.5,6.6H129l-3.8-4.6L121.3,415z M133.5,402.4h3.6l4,9.4l4.1-9.4h3.6l-5.9,12.6h-3.6L133.5,402.4z"></path>
+                </g>
+
+                <g id="chapters-big">
+                    <path id="chbig1" d="M312.8,8.8h4.5v16.8h-4.5V8.8z"></path>
+                    <path id="chbig2" d="M224.5,50.7h4.5v16.8h-4.5V50.7z M234.4,50.7h4.5v16.8h-4.5V50.7z"></path>
+                    <path id="chbig3"
+                          d="M177.3,127.5h4.5v16.8h-4.5V127.5z M187.2,127.5h4.5v16.8h-4.5V127.5zM197,127.5h4.5v16.8H197V127.5z"></path>
+                    <path id="chbig4"
+                          d="M309.2,139.8h4.5v16.8h-4.5V139.8z M317,139.8h4.8l5.4,12.5l5.4-12.5h4.8l-7.8,16.8h-4.8L317,139.8z"></path>
+                    <path id="chbig5" d="M208.4,163h4.8l5.4,12.5L224,163h4.8l-7.8,16.8h-4.8L208.4,163z"></path>
+                    <path id="chbig6"
+                          d="M319.3,242.3h4.8l5.4,12.5l5.4-12.5h4.8l-7.8,16.8h-4.8L319.3,242.3zM343,242.3h4.5v16.8H343V242.3z"></path>
+                    <path id="chbig7"
+                          d="M159.2,175.1h4.8l5.4,12.5l5.4-12.5h4.8l-7.8,16.8H167L159.2,175.1zM182.9,175.1h4.5v16.8h-4.5V175.1z M192.8,175.1h4.5v16.8h-4.5V175.1z"></path>
+                    <path id="chbig8"
+                          d="M149.2,204.2h4.8l5.4,12.5l5.4-12.5h4.8l-7.8,16.8h-4.8L149.2,204.2zM172.8,204.2h4.5V221h-4.5V204.2z M182.7,204.2h4.5V221h-4.5V204.2z M192.6,204.2h4.5V221h-4.5V204.2z"></path>
+                    <path id="chbig9"
+                          d="M326.5,273.1h4.5v16.8h-4.5V273.1z M339.1,289.9H334l7.4-8.8l-6.8-8h5.1l4.5,5.4l4.5-5.4h5.1l-6.8,8l7.4,8.8h-5.1l-5.1-6.1L339.1,289.9z"></path>
+                    <path id="chbig10"
+                          d="M179.5,247.5h-5.1l7.4-8.8l-6.8-8h5.1l4.5,5.4l4.5-5.4h5.1l-6.8,8l7.4,8.8h-5.1l-5.1-6.1L179.5,247.5z"></path>
+                    <path id="chbig11"
+                          d="M321.7,320.6h-5.1l7.4-8.8l-6.8-8h5.1l4.5,5.4l4.5-5.4h5.1l-6.8,8l7.4,8.8h-5.1l-5.1-6.1L321.7,320.6z M340,303.8h4.5v16.8H340V303.8z"></path>
+                    <path id="chbig12"
+                          d="M175.9,294h-5.1l7.4-8.8l-6.8-8h5.1l4.5,5.4l4.5-5.4h5.1l-6.8,8l7.4,8.8h-5.1l-5.1-6.1L175.9,294z M194.2,277.2h4.5V294h-4.5V277.2z M204.1,277.2h4.5V294h-4.5V277.2z"></path>
+                    <path id="chbig13"
+                          d="M311.5,349.3h-5.1l7.4-8.8l-6.8-8h5.1l4.5,5.4l4.5-5.4h5.1l-6.8,8l7.4,8.8h-5.1l-5.1-6.1L311.5,349.3z M329.8,332.5h4.5v16.8h-4.5V332.5z M339.7,332.5h4.5v16.8h-4.5V332.5z M349.6,332.5h4.5v16.8h-4.5V332.5z"></path>
+                    <path id="chbig14"
+                          d="M283.5,382.1h-5.1l7.4-8.8l-6.8-8h5.1l4.5,5.4l4.5-5.4h5.1l-6.8,8l7.4,8.8h-5.1l-5.1-6.1L283.5,382.1z M301.8,365.3h4.5v16.8h-4.5V365.3z M309.6,365.3h4.8l5.4,12.5l5.4-12.5h4.8l-7.8,16.8h-4.8L309.6,365.3z"></path>
+                    <path id="chbig15" display="inline" fill="#FFFFFF"
+                          d="M114.1,419.2H109l7.4-8.8l-6.8-8h5.1l4.5,5.4l4.5-5.4h5.1l-6.8,8l7.4,8.8h-5.1l-5.1-6.1L114.1,419.2z M130.3,402.4h4.8l5.4,12.5l5.4-12.5h4.8l-7.8,16.8h-4.8L130.3,402.4z"></path>
+                </g>
+
+                {% set tt = params.bntstn.map_tooltip_txt %}
+                <g id="marks">
+                    <rect id="mark1" pointer-events="visible" x="301.7" y="7.8" width="24.7" height="24.7">
+                        <title id="mark-title1">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark2" pointer-events="visible" x="217.2" y="47.6" width="28.2" height="24.3">
+                        <title id="mark-title2">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark3" pointer-events="visible" x="176.2" y="119.7" width="30.8" height="30.8">
+                        <title id="mark-title3">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark4" pointer-events="visible" x="300.8" y="132.4" width="33.6" height="28.6">
+                        <title id="mark-title4">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark5" pointer-events="visible" x="206.9" y="158.5" width="27.9" height="27.9">
+                        <title id="mark-title5">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark6" pointer-events="visible" x="314.9" y="236.6" width="36.1" height="25.5">
+                        <title id="mark-title6">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark7" pointer-events="visible" x="164.2" y="178.8" width="38" height="20">
+                        <title id="mark-title7">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark8" pointer-events="visible" x="154.5" y="201.9" width="50" height="21.4">
+                        <title id="mark-title8">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark9" pointer-events="visible" x="319.9" y="265.8" width="33.8" height="28.5">
+                        <title id="mark-title9">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark10" pointer-events="visible" x="169.6" y="225.4" width="32.5" height="24.5"><
+                        <title id="mark-title10">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark11" pointer-events="visible" x="311.5" y="295.3" width="32" height="28.1">
+                        <title id="mark-title11">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark12" pointer-events="visible" x="167.2" y="268.8" width="39.7" height="26.5">
+                        <title id="mark-title12">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark13" pointer-events="visible" x="303" y="328" width="48.1" height="24.5">
+                        <title id="mark-title13">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark14" pointer-events="visible" x="272.5" y="356.8" width="50.5" height="28.9">
+                        <title id="mark-title14">{{ tt }}</title>
+                    </rect>
+                    <rect id="mark15" pointer-events="visible" x="111.1" y="396.4" width="43.4" height="24">
+                        <title id="mark-title15">{{ tt }}</title>
+                    </rect>
                 </g>
             </svg>
 
@@ -335,6 +491,24 @@
 
     </svg>
 
+    <div id="arrow-prev"  class="arrows">
+        {% set prev_link = '/bantustan-interactive-atlas/' ~ params.bntstn.menu.map_link  ~ '/' ~  map.prev.id %}
+        <a href="{{ prev_link }}" title="{{ map.prev.title }}">
+            <svg x="0px" y="0px" viewBox="0 0 10 20">
+                <path d="M1.2,10l7.6-9v18L1.2,10z"></path>
+            </svg>
+        </a>
+    </div>
+
+    <div id="arrow-next" class="arrows">
+        {% set next_link = '/bantustan-interactive-atlas/' ~ params.bntstn.menu.map_link  ~ '/' ~  map.next.id %}
+        <a href="{{ next_link }}" title="{{ map.next.title }}">
+            <svg x="0px" y="0px" viewBox="0 0 10 20">
+                <path d="M0.5,19V1l7.6,9L0.5,19z"></path>
+            </svg>
+        </a>
+    </div>
+
     <div class="controls">
 
         <svg id="eye" x="0px" y="0px" viewBox="0 -2 20 15" xml:space="preserve">
@@ -389,7 +563,7 @@
             $("#main-map").css("background-color", "#1a1a1a");
         }
 
-        if ("{{ map.title.long is defined }}" === "True") {
+        if (("{{ map.title.long is defined }}" === "True") && !(mediaQuery.matches)) {
             $("h2").css("font-size", "1.67vw");
         }
 
@@ -402,6 +576,47 @@
             $("#eye-open").toggle();
             $(".mark,.chapter").toggle();
         });
+
+        /* Africa Map with Chapters and a Legend */
+
+        let index = +{{ map.index }};
+        $("#ch" + index).hide();
+        $("#chbig" + index)
+            .attr("class", "selected")
+            .show();
+        $("#ln" + index).attr("class", "selected");
+        $("#mark-title" + index).html("");
+
+        let mapData = {{ map.map_list|tojson }};
+        const mapLink = "{{ params.bntstn.menu.map_link }}",
+            openSentence = "{{ params.bntstn.open_txt }}",
+            chap = "{{ params.bntstn.chapter }}";
+
+        const found = mapData.find(m => parseInt(m.index) === 13);
+        console.log(found);
+
+        for (let i = 1; i <= 15; i++) {
+            if (i !== index) {
+
+                let mark = $("#mark" + i);
+                mark.attr("cursor", "pointer")
+                    .hover(() => {
+                        $("#ch" + i).toggleClass("selected");
+                        $("#ln" + i).toggleClass("selected");
+                    });
+
+                const iMap = mapData.find(m => parseInt(m.index) === i);
+                if (iMap !== undefined) {
+                    let htmlTxt = openSentence + iMap.title + ", " + chap + " " + iMap.chapter;
+                    $("#mark-title" + i).html(htmlTxt);
+                    mark.on(eventRule, () => {
+                        let url = "/bantustan-interactive-atlas/" + mapLink + "/" + iMap.id;
+                        window.open(url, "_self");
+                    });
+                }
+
+            }
+        }
 
         /* Mobile Info Panel */
 
@@ -437,7 +652,7 @@
 
         if (language === 'e') {
             chapterOnClick = (page, title) => {
-                const txt = "<p>Interactive reading of the book is available only for the Serbocroatian edition, which is published as a free open source e-book. The English edition is available globally on <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazon</a>.</p><p>If you wish to read the story " + title + " in Serbian/Croatian/Bosnian/Montenegrin, you are welcome to automatically open the <a href='/download/books/Bantustan.pdf#page=" + page + "' target='_blank'>page " + page + " of the Serbocroatian Bantustan PDF</a>.";
+                const txt = "<p>Interactive reading of the book is available only for the Serbocroatian edition, which is published as a free open source e-book. The English edition is available globally on <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazon</a>.</p><p>If you wish to read the story " + title + " in Serbocroatian, you are welcome to automatically open the <a href='/download/books/Bantustan.pdf#page=" + page + "' target='_blank'>page " + page + " of the Serbocroatian Bantustan PDF</a>.";
                 noteOnClick(txt);
             }
         } else if (mediaQuery.matches) {
@@ -446,7 +661,7 @@
                 noteOnClick(txt);
             }
         }
-0
+        0
     </script>
 
 {% endblock %}

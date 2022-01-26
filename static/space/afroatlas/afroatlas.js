@@ -27,6 +27,9 @@ $(document).ready(function () {
 
         $("#main-map").attr("height", hSvg).attr("width", wSvg);
         $(".side-content").css("width", wAside);
+
+        let prevArrowLeft = wAside + (w / 100); /* wAside + 1vw */
+        $("#arrow-prev").css("left", prevArrowLeft);
     }
 
     /* Zoom Settings */

@@ -170,23 +170,16 @@ razveje.«</p>"
       y: 54
       txt: "<p>Ova mapa oblikovana je kao lavirint, pravi enigmatski korektan lavirint koji se može rešiti.</p>
 <p>Ukoliko čitaoci reše lavirint, saznaće u koju će zemlju Lazar, Marko i Uroš otići posle Zambije. To će, naravno, saznati i ako otvore sledeće poglavlje (otići će u Namibiju), ali je ovako igra graničnih regulacija, birokratskih čvorova i strukturnih čaura i bantustana prikazana na još jedan način: gejmerski, interaktivan.</p>
-<p>Izlazak iz bantustana – iz čaure rase, klase, nacije, jezika, ograđene teritorije, iz čaure vlastitog ega – podseća na izlazak iz lavirinta.</p>"
+<p>Izlazak iz bantustana – iz čaure rase, klase, nacije, jezika, ograđene teritorije čaure vlastitog ega – podseća na izlazak iz lavirinta.</p>"
     - x: 903 
       y: 196
       txt: "<p>Lavirint počinje ovde. Završava se u zemlji u koju će Marko, Lazar i Uroš otići posle Zambije. Lavirint je enigmatski korektan i može se rešiti.</p>
-<p>Zašto je mapa dizajnirana kao lavirint? Jer emancipacija, izlazak iz bantustana – iz čaure rase, klase, nacije, jezika, ograđene teritorije, iz čaure vlastitog ega – podseća, zar ne, na izlazak iz lavirinta.</p>"
-    - x: 
-      y: 
-      txt: "<p></p>
-<p></p>
-<p>»«</p>"
-    - x: 
-      y: 
-      txt: "<p></p>
-<p></p>
-<p>»«</p>"
-    - x: 
-      y: 
-      txt: "<p></p>
-<p></p>
-<p>»«</p>"
+<p>Zašto je mapa dizajnirana kao lavirint? Jer emancipacija, izlazak iz bantustana – iz čaure rase, klase, nacije, jezika, ograđene teritorije, čaure vlastitog ega – podseća, zar ne, na izlazak iz lavirinta.</p>"
+    - x: 784
+      y: 129
+      txt: "<p>Identitetske maske kao estetizacija strukturnih sila.</p>"
+    - x: 447
+      y: 385
+      txt: "<p>Na granici Tanzanije i Zambije, u gradiću Tunduma, Uroš doživljava svoje crtačko oslobađanje. Otuda seme iz kojeg olovke niču kao paprike.</p>
+<p>Afrikanci okružuju Uroša, dok im on, stavivši beležnicu na kolena, crta jedan natovareni bicikl. U tom trenutku, kao da više ne postoji jaz između njega i Afrikanaca, između ega i sveta. Kao da puca čaura bantustana.</p>
+<p>Ovim crtežom završava se priča 2U.</p>"

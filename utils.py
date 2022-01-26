@@ -80,7 +80,8 @@ def writing(flatpages, lang):
     diglit_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
 
     # research_projs = list(filter(lambda x: (research in map(lambda d: d["id"], x[by])), projs))
-    research_projs = list(filter(lambda x: (x["id"] != tactical) and (research in map(lambda d: d["id"], x[by])), projs))
+    research_projs = list(
+        filter(lambda x: (x["id"] != tactical) and (research in map(lambda d: d["id"], x[by])), projs))
     research_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
 
     date_format = "%d/%m/%Y"
@@ -205,6 +206,7 @@ def __add_map_data(flatpages, lang, page_data):
         if m["title"]["chapter"] != "page_type":
             other_maps.append(m) if m["title"]["chapter"] == "other" else chapter_maps.append(m)
             map_list.append({"id": m["id"],
+                             "index": m["index"],
                              "title": m["title"]["name"],
                              "chapter": m["title"]["chapter"]})
 
@@ -213,8 +215,44 @@ def __add_map_data(flatpages, lang, page_data):
     page_data.meta["chapter_maps"] = chapter_maps
     page_data.meta["other_maps"] = other_maps
 
+    if page_data.meta["title"]["chapter"] != "page_type":
+        page_data = __find_prev_and_next(page_data, map_list, lang.params())
+
     map_list.sort(key=lambda item: item["id"], reverse=True)
     page_data.meta["map_list"] = map_list
 
     return page_data
 
+
+def __find_prev_and_next(page_data, map_list, lp):
+    map_list.sort(key=lambda item: item["index"], reverse=False)
+    index = page_data.meta["index"]
+    last = len(map_list) - 1
+
+    if index == map_list[0]["index"]:
+        page_data = __set_prev_next(page_data, map_list, lp, last, 1)
+    elif index == map_list[last]["index"]:
+        page_data = __set_prev_next(page_data, map_list, lp, last - 1, 0)
+    else:
+        for i in range(1, last):
+            if index == map_list[i]["index"]:
+                page_data = __set_prev_next(page_data, map_list, lp, i - 1, i + 1)
+                break
+
+    return page_data
+
+
+def __set_prev_next(page_data, map_list, lp, prev, next):
+    def set_one(mapid, k):
+        m = map_list[mapid]
+        key = f"open_{k}_txt"
+        title = lp["bntstn"][key] + m["title"]
+        if m["chapter"] != "other":
+            title += ", " + lp["bntstn"]["chapter"] + " " + m["chapter"]
+        return {
+            "id": m["id"],
+            "title": title
+        }
+    page_data.meta["prev"] = set_one(prev, "prev")
+    page_data.meta["next"] = set_one(next, "next")
+    return page_data
