@@ -621,13 +621,13 @@
             const basePath = '/bantustan-interactive-atlas/';
             const mapLink = "{{ params.bntstn.menu.map_link }}";
             if (e.keyCode === 37) { // left
-                const mapId = "{{ map.next.id }}";
+                const mapId = "{{ map.prev.id }}";
                 const prevURL = basePath + mapLink + "/" + mapId;
-                window.open(prevURL);
+                window.open(prevURL, "_self");
             } else if (e.keyCode === 39) { // right
                 const mapId = "{{ map.next.id }}";
                 const nextURL = basePath + mapLink + "/" + mapId;
-                window.open(nextURL);
+                window.open(nextURL, "_self");
             }
         });
 
