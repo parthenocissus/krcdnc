@@ -570,15 +570,18 @@ footer p a:hover {
 }
 
 .prints-content .inner p a,
-.home-content .inner p a {
+.home-content .inner p a,
+.home-content .inner p span {
     color: white;
     border-bottom: 2px solid white;
     text-decoration: none;
     transition: .1s;
+    cursor: pointer;
 }
 
 .prints-content .inner p a:hover,
-.home-content .inner p a:hover {
+.home-content .inner p a:hover,
+.home-content .inner p span:hover {
     border-bottom: 2px solid var(--main);
 }
 

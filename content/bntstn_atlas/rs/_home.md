@@ -35,7 +35,7 @@ page6:
 <p><a href='https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/' target='_blank'>Lazar Pašćanović</a>, <a href='https://www.amazon.com/Marko-Djedovic/e/B0936V89ZF/' target='_blank'>Marko Đedović</a> i <a href='/rad/bio/' target='_blank'>Uroš Krčadinac</a> zajedno su radili na tekstu nekoliko godina, pretvarajući putopisni blog u međužanrovski eksperiment.</p>
 <p>Svako poglavlje sastoji se iz priča označenih sa <b>U</b>, <b>M</b> ili <b>L</b>, što znači da su ih napisali Uroš, Marko ili Lazar. Ukoliko se priča, primera radi, zove <b>1M</b>, to znači da je to prva priča u poglavlju i da ju je napisao Marko.</p>"
 page7:
-    txt: "<h4 class='last-h4'>Odakle početi? Istražite <span class='all-maps-link'>sve mape</span> ili otvorite <span class='random-map-link'>bilo koju</span>.</h4>
-<p>Ili počnite od prve mape u knjizi, koja povezuje <a href='/bantustan-interactive-atlas/mapa/balkan-africa'>Balkan i Afriku</a>. Ili, ukoliko knjige volite da čitate otpozadi, počnite od poslednje mape, koja prikazuje obale <a href='/bantustan-interactive-atlas/mapa/namibia'>Atlantskog okeana u Namibiji</a>.</p>
+    txt: "<h4 class='last-h4'>Sada možete istražiti <span class='all-maps-link'>sve mape</span>.</h4>
+<p>Ili otvorite <span class='random-map-link'>jednu nasumično</span>. Ili počnite od prve mape u knjizi, koja povezuje <a href='/bantustan-interactive-atlas/mapa/balkan-africa'>Balkan i Afriku</a>. Ili, ukoliko knjige volite da čitate otpozadi, počnite od poslednje mape, koja prikazuje obale <a href='/bantustan-interactive-atlas/mapa/namibia'>Atlantskog okeana u Namibiji</a>.</p>
 <p><a href='/bantustan-interactive-atlas/printovi'>Grafike i printovi</a> biće spremni nakon beogradske izložbe u aprilu 2022.</p>
 <p><br><br><a href='/rad/bio/'>Uroš Krčadinac</a>, 2022.</p>"
