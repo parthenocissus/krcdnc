@@ -424,7 +424,7 @@ footer p a:hover {
     position: absolute;
     top: 2vh;
     right: 2vh;
-    width: 14px;
+    width: 1vw;
     fill: white;
     stroke: none;
     cursor: pointer;

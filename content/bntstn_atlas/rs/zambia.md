@@ -183,3 +183,10 @@ razveje.«</p>"
       txt: "<p>Na granici Tanzanije i Zambije, u gradiću Tunduma, Uroš doživljava svoje crtačko oslobađanje. Otuda seme iz kojeg olovke niču kao paprike.</p>
 <p>Afrikanci okružuju Uroša, dok im on, stavivši beležnicu na kolena, crta jedan natovareni bicikl. U tom trenutku, kao da više ne postoji jaz između njega i Afrikanaca, između ega i sveta. Kao da puca čaura bantustana.</p>
 <p>Ovim crtežom završava se priča 2U.</p>"
+    - x: 298
+      y: 484
+      txt: "<p>Paprika koja niče iz semena paprike, cveta i daje plodove. Uroš je na put poneo seme paprike. Seme je važan simbol u knjizi.</p>"
+    - x: 267
+      y: 530
+      txt: "<p>Mufulira. Ozloglašeni rudnik na granici Zambije i Konga. Simbol eksploatacije Afrike.</p>
+<p>Sa druge strane granice, u Kongu, nalazi se Lumumbaši, mesto gde je ubijen Patris Lumumba.</p>"
