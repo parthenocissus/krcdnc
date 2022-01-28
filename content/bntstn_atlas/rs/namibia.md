@@ -124,10 +124,11 @@ vrapca. Unutra žive desetine ptica, stotine, generacijama, kao grad.«</p>
 <p>Da li je i Fantom, iako na strani Afrikanaca, takođe neka vrsta kolonizatora? Da li je to svako ko dođe u Afriku?</p>"
     - x: 255
       y: 281
-      txt: "<p>Čudni stari naučni aparati profesora Radheša. Astrolabi, orerije. Alati za crtanje mapa. Snovi o merenju i prikazivanju zajedničkog sveta. Da li je svaka mapa, kako kaže Judita Šalanski, »vežba kolonijalnog nasilja«?</p>"
+      txt: "<p>Čudni stari naučni aparati profesora Radheša. Astrolabi, orerije. Alati za crtanje mapa. Snovi o merenju i prikazivanju zajedničkog sveta.</p>
+<p>Da li je svaka mapa, kako kaže Judita Šalanski, »vežba kolonijalnog nasilja«?</p>"
     - x: 150
       y: 274
-      txt: "<p>Evropljani dolaze brodovima u Afriku. Sa jedne strane su belci sa pištoljima i mačevima, sa druge Afrikanci koji jašu Kišnu zver iz kojsanske mitologije</p>
+      txt: "<p>Evropljani dolaze brodovima u Afriku. Sa jedne strane su belci sa pištoljima i mačevima, sa druge Afrikanci koji jašu Kišnu zver iz kojsanske mitologije.</p>
 <p>Iza njih je astrokarta, koja je istovremeno i 1) mapa materijalne stvarnosti i 2) mapa mitova. Takve i ove ilustrovane mape: istovremeno i stvarnost, i mit.</p>"
     - x: 227 
       y: 446
@@ -164,17 +165,17 @@ raseku taj veo, da prođu kroz njega</em>.«</p>
 <p>Da li je cela naša knjiga, pa i ovaj sajt, jedna <em>mapa spajanja?</em></p>"
     - x: 122 
       y: 632
-      txt: "<p>Totalitet stvarnosti i njegovi slojevi: Svemir, Sunčev sistem, naša galaksija, naša planeta Zemlja, afrički kontinent, država Namibija, grad Vinduk, Botanička bašta u Vindhuku, seme paprike, mikroskopski delovi semena.</p>
+      txt: "<p>Totalitet stvarnosti i njegovi slojevi: Svemir, Sunčev sistem, naša galaksija, naša planeta, afrički kontinent, država Namibija, grad Vindhuk, Botanička bašta u Vindhuku, seme paprike, mikroskopski delovi semena.</p>
 <p>Totalitet stvarnosti ne poznaje granice i pojedinačnosti. Njegovi slojevi – galaksija, planeta, država, grad, bašta, seme – formiraju luk, koji se pruža od donje leve ivice (∞) do donje desne ivice (–∞).</p>"
     - x: 30
       y: 733
-      txt: "<p>Totalitet stvarnosti i njegovi slojevi: Svemir, Sunčev sistem, naša galaksija, naša planeta Zemlja, afrički kontinent, država Namibija, grad Vinduk, Botanička bašta u Vindhuku, seme paprike, mikroskopski delovi semena.</p>
+      txt: "<p>Totalitet stvarnosti i njegovi slojevi: Svemir, Sunčev sistem, naša galaksija, naša planeta, afrički kontinent, država Namibija, grad Vindhuk, Botanička bašta u Vindhuku, seme paprike, mikroskopski delovi semena.</p>
 <p>Totalitet stvarnosti ne poznaje granice i pojedinačnosti. Njegovi slojevi – galaksija, planeta, država, grad, bašta, seme – formiraju luk ili dugu, koja se pruža od donje leve ivice do donje desne ivice.</p>
 <p>Donja ivica mape oivičena je redovima veličina ovih slojeva, od najveće do najmanje razdaljine: ∞, 1Em, 1Tm, 1Mm, 1km, 1m, 1mm, 1μm, 1am, –∞. </p>"
     - x: 218 
       y: 691
       txt: "<p>Skriveno uskršnje jaje, <em>an Easter egg:</em> Ajnštajnova jednačina polja koja opisuje širenje svemira. U opštoj teoriji relativnosti, ova tenzorska diferencijalna jednačina određuje dinamiku prostorvremena.</p>
-<p>Razumevanju i osećanju totaliteta stvarnosti, teže kojsanski vračevi, sufijski derviši, naučnici, pesnici, umetnici, kartografi, putopisci.</p>"
+<p>Razumevanju i osećanju totaliteta stvarnosti teže kojsanski vračevi, sufijski derviši, naučnici, pesnici, umetnici, kartografi, putopisci.</p>"
     - x: 122 
       y: 84
       txt: "<p>Urošev potpis povezan je sa mapom zvezda.</p>"
