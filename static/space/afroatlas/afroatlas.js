@@ -19,13 +19,14 @@ $(document).ready(function () {
             wSvg = window.innerWidth - wAside;
         }
 
-        let prevArrowLeft = wAside + (w / 100);
+        const arrowLeftShift = w * 0.008;
+        let prevArrowLeft = wAside + arrowLeftShift;
 
         if (mediaQuery.matches) {
             wAside = w;
             wSvg = w;
             hSvg = h;
-            prevArrowLeft = w / 100;
+            prevArrowLeft = arrowLeftShift;
         }
 
         $("#main-map").attr("height", hSvg).attr("width", wSvg);

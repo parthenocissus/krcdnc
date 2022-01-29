@@ -13,7 +13,8 @@
     {% set main_img_path = "space/afroatlas/maps/extras/" ~ params.bntstn.lang ~ "_home.jpg" %}
     <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
     <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
-    <meta property="og:url" content="{{ 'https://krcadinac.com/bantustan-interactive-atlas/' ~ params.bntstn.menu.submenu.home_link }}">
+    <meta property="og:url"
+          content="{{ 'https://krcadinac.com/bantustan-interactive-atlas/' ~ params.bntstn.menu.submenu.home_link }}">
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@krcadinac"/>
@@ -170,14 +171,23 @@
 
         $("#menu-hamburger,.sticker,.all-maps-link").mouseenter((e) => {
             e.stopPropagation();
-            $(".yellower").css("width", "16vw");
+            {#$(".yellower").css("width", "16vw");#}
+            if (menuOff) {
+                $(".yellower").animate({
+                    width: "16vw"
+                }, 150);
+            }
         }).mouseleave((e) => {
             e.stopPropagation();
-            $(".yellower").css("width", yellowerBase);
+            {#$(".yellower").css("width", yellowerBase);#}
+            if (menuOff) {
+                $(".yellower").animate({
+                    width: yellowerBase
+                }, 150);
+            }
         }).on(eventRule, menuShowThis);
 
         let maps = {{ map.map_list|tojson }};
-
         let mapLink = "{{ params.bntstn.menu.map_link }}";
 
         $(".random-map-link").on(eventRule, () => {
@@ -203,7 +213,7 @@
             if (scroll >= height - 100) {
                 yellowerBase = "14vw";
             } else {
-                yellowerBase = 0;
+                yellowerBase = "0";
             }
             $(".yellower").css("width", yellowerBase);
         });
