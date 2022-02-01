@@ -101,7 +101,3 @@ $(document).ready(function () {
     zoomSettings();
 
 });
-
-$(window).on("load", () => {
-   alert("loaded baby");
-});
