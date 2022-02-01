@@ -5,11 +5,11 @@ identity:
     en: home
     rs: pocetna
 lead_alt: "<a href='/bantustan-interactive-atlas/home'>Bantustan Interactive Atlas</a><br>"
-desc: "Bantustan Interactive Atlas is a digital explainer of illustrated maps created by Uroš Krčadinac for the travel novel Bantustan: Atlas of an African Journey."
+desc: "Bantustan Interactive Atlas is a digital commentary of illustrated maps created by Uroš Krčadinac for the travel novel Bantustan: Atlas of an African Journey."
 page1:
-    txt: "<h5><em>Bantustan Interactive Atlas</em> <br>is a digital explainer of illustrated maps created by Uroš Krčadinac for the travel novel Bantustan: Atlas of an African Journey.</h5>
+    txt: "<h5><em>Bantustan Interactive Atlas</em> <br>is a digital commentary of illustrated maps created by Uroš Krčadinac for the travel novel Bantustan: Atlas of an African Journey.</h5>
 <h4>➤ Explore <span class='all-maps-link'>all maps</span> or open a <span class='random-map-link'>random one</span>.</h4>"
-    txt_alt: "<h5><em>Bantustan Interactive Atlas</em> <br>is a digital explainer of illustrated maps created by <a href='/work/about/' target='_blank'>Uroš Krčadinac</a> for the travel novel <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Bantustan: Atlas of an African Journey</a>.</h5>"
+    txt_alt: "<h5><em>Bantustan Interactive Atlas</em> <br>is a digital commentary of illustrated maps created by <a href='/work/about/' target='_blank'>Uroš Krčadinac</a> for the travel novel <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Bantustan: Atlas of an African Journey</a>.</h5>"
 page2:
     txt: "<h6>In 2010 Lazar Pašćanović, Marko Đedović and Uroš Krčadinac, 3 authors from the Balkans, spent 3 months travelling through Africa.</h6>
 <p>It was a low-budget hitchhiking journey across Serbia, Bulgaria, Turkey, Syria, Jordan, Egypt, Sudan, Kenya, Uganda, Rwanda, Congo, Tanzania, Zambia, and Namibia.</p>
