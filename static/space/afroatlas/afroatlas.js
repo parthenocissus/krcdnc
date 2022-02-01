@@ -1,40 +1,5 @@
 $(document).ready(function () {
 
-    /* Setting Dimensions */
-
-    const widthBase = 0.238,
-        idealRatio = 1.45,
-        origRatio = 1.401;
-
-    let setSize = () => {
-
-        let h = window.innerHeight;
-        let w = window.innerWidth;
-        let hSvg = h;
-        let wSvg = h * idealRatio;
-        let wAside = w - wSvg;
-
-        if (wAside < w * widthBase) {
-            wAside = w * widthBase;
-            wSvg = window.innerWidth - wAside;
-        }
-
-        const arrowLeftShift = w * 0.008;
-        let prevArrowLeft = wAside + arrowLeftShift;
-
-        if (mediaQuery.matches) {
-            wAside = w;
-            wSvg = w;
-            hSvg = h;
-            prevArrowLeft = arrowLeftShift;
-        }
-
-        $("#main-map").attr("height", hSvg).attr("width", wSvg);
-        $(".side-content").css("width", wAside);
-
-         /* wAside + 1vw */
-        $("#arrow-prev").css("left", prevArrowLeft);
-    }
 
     /* Zoom Settings */
 
@@ -133,11 +98,10 @@ $(document).ready(function () {
 
     /* Main */
 
-    setSize();
     zoomSettings();
 
-    $(window).resize(() => {
-        setSize();
-    });
+});
 
+$(window).on("load", () => {
+   alert("loaded baby");
 });

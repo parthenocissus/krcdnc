@@ -491,7 +491,7 @@
 
     </svg>
 
-    <div id="arrow-prev"  class="arrows">
+    <div id="arrow-prev" class="arrows">
         {% set prev_link = '/bantustan-interactive-atlas/' ~ params.bntstn.menu.map_link  ~ '/' ~  map.prev.id %}
         <a href="{{ prev_link }}" title="{{ map.prev.title }}">
             <svg x="0px" y="0px" viewBox="0 0 10 20">
@@ -577,6 +577,47 @@
             $(".mark,.chapter").toggle();
         });
 
+        /* Setting Dimensions */
+
+        const widthBase = 0.238,
+            idealRatio = 1.45,
+            origRatio = 1.401;
+
+        let setSize = () => {
+
+            let h = window.innerHeight;
+            let w = window.innerWidth;
+            let hSvg = h;
+            let wSvg = h * idealRatio;
+            let wAside = w - wSvg;
+
+            if (wAside < w * widthBase) {
+                wAside = w * widthBase;
+                wSvg = window.innerWidth - wAside;
+            }
+
+            const arrowLeftShift = w * 0.008;
+            let prevArrowLeft = wAside + arrowLeftShift;
+
+            if (mediaQuery.matches) {
+                wAside = w;
+                wSvg = w;
+                hSvg = h;
+                prevArrowLeft = arrowLeftShift;
+            }
+
+            $("#main-map").attr("height", hSvg).attr("width", wSvg);
+            $(".side-content").css("width", wAside);
+
+            /* wAside + 1vw */
+            $("#arrow-prev").css("left", prevArrowLeft);
+        }
+
+        setSize();
+        $(window).resize(() => {
+            setSize();
+        });
+
         /* Africa Map with Chapters and a Legend */
 
         let index = +{{ map.index }};
@@ -617,7 +658,7 @@
 
         /* Keyboard next and prev  */
 
-        $("body").keydown(function(e) {
+        $("body").keydown(function (e) {
             const basePath = '/bantustan-interactive-atlas/';
             const mapLink = "{{ params.bntstn.menu.map_link }}";
             if (e.keyCode === 37) { // left
@@ -674,7 +715,7 @@
                 noteOnClick(txt);
             }
         }
-        0
+
     </script>
 
 {% endblock %}

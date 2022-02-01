@@ -56,9 +56,3 @@ chapters:
       x: 715.02
       y: 499.9
       page: 235
-notes: 
-    - x: 
-      y: 
-      txt: "<p></p>
-<p></p>
-<p>»«</p>"
