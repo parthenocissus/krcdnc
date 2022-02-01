@@ -220,13 +220,22 @@ footer p a:hover {
     cursor: grab;
 }
 
-#main-map .mark {
-    fill: var(--main);
+#main-map .mark-group {
     cursor: pointer;
     transition: .15s;
 }
 
-#main-map .mark:hover {
+#main-map .mark-group .mark {
+    fill: var(--main);
+    pointer-events: none;
+}
+
+#main-map .mark-group .invisible-button {
+    fill: none;
+    stroke: none;
+}
+
+#main-map .mark-group:hover .mark {
     r: 8;
 }
 
@@ -1113,6 +1122,12 @@ footer p a:hover {
 
     .controls #eye #eye-closed {
         display: none;
+    }
+
+    /* Note X */
+
+    .note #note-x {
+        width: 16px;
     }
 
     /* Notes */

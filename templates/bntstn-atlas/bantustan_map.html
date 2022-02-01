@@ -51,14 +51,116 @@
             align-content: center;
         }
 
-        .loading-panel img {
-            align-self: center;
+        @keyframes anim-main {
+            0% {
+                transform: translate(13.5px, 64.5px) scale(0);
+            }
+            25% {
+                transform: translate(13.5px, 64.5px) scale(0);
+            }
+            50% {
+                transform: translate(13.5px, 64.5px) scale(1);
+            }
+            75% {
+                transform: translate(64.5px, 64.5px) scale(1);
+            }
+            100% {
+                transform: translate(115.5px, 64.5px) scale(1);
+            }
+        }
+
+        @keyframes anim-scale {
+            0% {
+                transform: translate(115.5px, 64.5px) scale(1):
+            }
+            100% {
+                transform: translate(115.5px, 64.5px) scale(0);
+            }
+        }
+
+        @keyframes anim-back {
+            0% {
+                background: #ffb901
+            }
+            25% {
+                background: #ffb901
+            }
+            50% {
+                background: #ffb901
+            }
+            75% {
+                background: #ffb901
+            }
+            100% {
+                background: #ffb901
+            }
+        }
+
+        .loading-spinner {
             justify-self: center;
-            width: 100px;
-            height: 100px;
+            align-self: center;
+            padding-right: 10vw;
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            overflow: hidden;
+            background: #000000;
+        }
+
+        .spinner-inner div {
+            position: absolute;
+            width: 21px;
+            height: 21px;
+            border-radius: 50%;
+            transform: translate(64.5px, 64.5px) scale(1);
+            background: #ffb901;
+            animation: anim-main 2.272727272727273s infinite cubic-bezier(0, 0.5, 0.5, 1);
+        }
+
+        .spinner-inner div:nth-child(1) {
+            background: #ffb901;
+            transform: translate(115.5px, 64.5px) scale(1);
+            animation: anim-scale 0.5681818181818182s infinite cubic-bezier(0, 0.5, 0.5, 1), anim-back 2.272727272727273s infinite step-start;
+        }
+
+        .spinner-inner div:nth-child(2) {
+            animation-delay: -0.5681818181818182s;
+            background: #ffb901;
+        }
+
+        .spinner-inner div:nth-child(3) {
+            animation-delay: -1.1363636363636365s;
+            background: #ffb901;
+        }
+
+        .spinner-inner div:nth-child(4) {
+            animation-delay: -1.7045454545454546s;
+            background: #ffb901;
+        }
+
+        .spinner-inner div:nth-child(5) {
+            animation-delay: -2.272727272727273s;
+            background: #ffb901;
+        }
+
+        .spinner-inner {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform: translateZ(0) scale(1);
+            backface-visibility: hidden;
+            transform-origin: 0 0; /* see note above */
+        }
+
+        .spinner-inner div {
+            box-sizing: content-box;
         }
 
         @media only screen and (max-width: 950px) {
+
+            .loading-spinner {
+                padding-right: 0;
+            }
 
             .mobile-info-panel {
                 display: none;
@@ -148,110 +250,6 @@
                 text-decoration: none;
             }
 
-        }
-
-        @keyframes ldio-rqrhnygd1r {
-            0% {
-                transform: translate(13.5px, 64.5px) scale(0);
-            }
-            25% {
-                transform: translate(13.5px, 64.5px) scale(0);
-            }
-            50% {
-                transform: translate(13.5px, 64.5px) scale(1);
-            }
-            75% {
-                transform: translate(64.5px, 64.5px) scale(1);
-            }
-            100% {
-                transform: translate(115.5px, 64.5px) scale(1);
-            }
-        }
-
-        @keyframes ldio-rqrhnygd1r-r {
-            0% {
-                transform: translate(115.5px, 64.5px) scale(1):
-            }
-            100% {
-                transform: translate(115.5px, 64.5px) scale(0);
-            }
-        }
-
-        @keyframes ldio-rqrhnygd1r-c {
-            0% {
-                background: #ffb901
-            }
-            25% {
-                background: #ffb901
-            }
-            50% {
-                background: #ffb901
-            }
-            75% {
-                background: #ffb901
-            }
-            100% {
-                background: #ffb901
-            }
-        }
-
-        .loading-spinner {
-            justify-self: center;
-            align-self: center;
-            width: 150px;
-            height: 150px;
-            display: inline-block;
-            overflow: hidden;
-            background: #000000;
-        }
-
-        .spinner-inner div {
-            position: absolute;
-            width: 21px;
-            height: 21px;
-            border-radius: 50%;
-            transform: translate(64.5px, 64.5px) scale(1);
-            background: #ffb901;
-            animation: ldio-rqrhnygd1r 2.272727272727273s infinite cubic-bezier(0, 0.5, 0.5, 1);
-        }
-
-        .spinner-inner div:nth-child(1) {
-            background: #ffb901;
-            transform: translate(115.5px, 64.5px) scale(1);
-            animation: ldio-rqrhnygd1r-r 0.5681818181818182s infinite cubic-bezier(0, 0.5, 0.5, 1), ldio-rqrhnygd1r-c 2.272727272727273s infinite step-start;
-        }
-
-        .spinner-inner div:nth-child(2) {
-            animation-delay: -0.5681818181818182s;
-            background: #ffb901;
-        }
-
-        .spinner-inner div:nth-child(3) {
-            animation-delay: -1.1363636363636365s;
-            background: #ffb901;
-        }
-
-        .spinner-inner div:nth-child(4) {
-            animation-delay: -1.7045454545454546s;
-            background: #ffb901;
-        }
-
-        .spinner-inner div:nth-child(5) {
-            animation-delay: -2.272727272727273s;
-            background: #ffb901;
-        }
-
-        .spinner-inner {
-            width: 100%;
-            height: 100%;
-            position: relative;
-            transform: translateZ(0) scale(1);
-            backface-visibility: hidden;
-            transform-origin: 0 0; /* see note above */
-        }
-
-        .spinner-inner div {
-            box-sizing: content-box;
         }
 
     </style>
@@ -621,10 +619,18 @@
         {% endfor %}
 
         {% for nt in map.notes %}
-            <circle class="mark" onclick="noteOnClick('{{ nt.txt }}');" ontouchend="noteOnClick('{{ nt.txt }}');"
-                    cx="{{ nt.x }}" cy="{{ nt.y }}" r="6">
+            <g class="mark-group" pointer-events="visible"
+               onclick="noteOnClick('{{ nt.txt }}');" ontouchend="noteOnClick('{{ nt.txt }}');">
+                <circle class="invisible-button" pointer-events="visible" cx="{{ nt.x }}" cy="{{ nt.y }}" r="18"></circle>
+                <circle class="mark" cx="{{ nt.x }}" cy="{{ nt.y }}" r="6"></circle>
                 <title>{{ params.bntstn.note_tooltip }}</title>
-            </circle>
+            </g>
+
+            {#            <circle class="mark" onclick="noteOnClick('{{ nt.txt }}');" ontouchend="noteOnClick('{{ nt.txt }}');"#}
+            {#                    cx="{{ nt.x }}" cy="{{ nt.y }}" r="6">#}
+            {#                <title>{{ params.bntstn.note_tooltip }}</title>#}
+            {#            </circle>#}
+
         {% endfor %}
 
     </svg>
@@ -867,6 +873,10 @@
         let onLoadMap = () => {
             $(".loading-panel").hide();
         };
+
+        setTimeout(() => {
+            $(".loading-panel").hide();
+        }, 10000);
 
     </script>
 
