@@ -207,6 +207,11 @@
         mapBack.css({"top": topOnBegin + "px"});
 
         $(window).scroll(() => {
+
+            let scale = (number, inMin, inMax, outMin, outMax) => {
+                return (number - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
+            };
+
             mapBack.css({
                 "top": (topOnBegin - ($(window).scrollTop() * 2)) + "px"
             });
@@ -215,11 +220,15 @@
             let height = main.height() - $(window).height();
 
             if (scroll >= height - 100) {
-                yellowerBase = "14vw";
+                let n = scroll - (height - 100);
+                let b = scale(n, 0, 100, 0, 14);
+                console.log(b);
+                yellowerBase = b + "vw";
             } else {
                 yellowerBase = "0";
             }
             $(".yellower").css("width", yellowerBase);
+            {#$(".yellower").animate({width: yellowerBase}, 150);#}
         });
 
     </script>
