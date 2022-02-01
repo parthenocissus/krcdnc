@@ -228,6 +228,7 @@ footer p a:hover {
 #main-map .mark-group .mark {
     fill: var(--main);
     pointer-events: none;
+    transition: .15s;
 }
 
 #main-map .mark-group .invisible-button {
