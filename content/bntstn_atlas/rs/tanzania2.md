@@ -9,7 +9,7 @@ legend:
     w: 16.7 
     h: 11.4
 vertical: false
-lead: "Lazar (L) i Marko (M) došli su u jugozapadnu <br>Tanzaniju, stigavši do granice sa Zambijom."
+lead: "Lazar i Marko dolaze u jugozapadnu <br>Tanzaniju, stigavši do granice sa Zambijom."
 chapters:
     - id: 1M
       x: 934

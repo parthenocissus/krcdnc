@@ -79,7 +79,7 @@ Tuts.</p>"
 <p>Na kraju poglavlja, Uroš odlazi u D. R. Kongo, u Gomu, grad podno vulkana Njiragongo.</p>"
     - x: 787 
       y: 227
-      txt: "<p>Mapa Ruande osmišljena je kao nervnog sistema. Ideologije, nacije, rase kao kolektivne halucinacije.</p>
+      txt: "<p>Mapa Ruande osmišljena je kao mapa nervnog sistema. Ideologije, nacije, rase kao kolektivne halucinacije.</p>
 <p>Zato je glavni grad Kigali mozak, a putevi koji vode ka njemu izduženi aksoni neurona.</p>"
     - x: 836 
       y: 300
