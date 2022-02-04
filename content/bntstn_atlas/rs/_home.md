@@ -21,7 +21,7 @@ image1:
 page3:
     txt: "<h6>Uz seriju rukom crtanih mapa, infografika, interfejsa i vizuelizacija podataka, Bantustan je primer <a href='https://www.articleworld.org/index.php/Ergodic_literature' target='_blank'>ergodičke interaktivne književnosti</a>.</h6>
 <p>Čitaoci mogu da biraju kako će čitati knjigu: na tradicionalan linearan način ili kartografski, služeći se mapama kao vizuelnim interfejsima za skakanje od priče od priče. Sve mape i vizuale Uroš Krčadinac nacrtao je rukom, digitalno, pomoću tableta za crtanje.</p>
-<p>Mape predstavljaju složene tapiserije piktograma, ideograma, različitih pisama, grbova, lavirinata, tajnih poruka i skrivenih simbola. Crtanje je trajalo godinu dana.</p>"
+<p>Mape predstavljaju složene tapiserije piktograma, ideograma, različitih pisama, grbova, lavirinata, tajnih poruka i skrivenih simbola. Crtanje je trajalo oko godinu i po dana.</p>"
 page4:
     txt: "<h5>Ovaj interaktivni atlas posvećen je dešifrovanju simbola i priča skrivenih u Uroševim mapama.</h5>"
 page5:
@@ -38,4 +38,4 @@ page7:
     txt: "<h4 class='last-h4'>Sada možete istražiti <span class='all-maps-link'>sve mape</span>.</h4>
 <p>Ili otvorite <span class='random-map-link'>jednu nasumično</span>. Ili počnite od prve mape u knjizi, koja povezuje <a href='/bantustan-interactive-atlas/mapa/balkan-africa'>Balkan i Afriku</a>. Ili, ukoliko knjige volite da čitate otpozadi, počnite od poslednje mape, koja prikazuje obale <a href='/bantustan-interactive-atlas/mapa/namibia'>Atlantskog okeana u Namibiji</a>.</p>
 <p><a href='/bantustan-interactive-atlas/printovi'>Grafike i printovi</a> biće spremni nakon beogradske izložbe u aprilu 2022.</p>
-<p><br><br><a href='/rad/bio/'>Uroš Krčadinac</a>, 2022.</p>"
+<p><br><br><a href='/rad/bio/' target='_blank'>Uroš Krčadinac</a>, 2015–2022.</p>"

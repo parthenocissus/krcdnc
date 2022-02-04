@@ -21,7 +21,7 @@ image1:
 page3:
     txt: "<h6>Including a series of hand-illustrated maps, infographics, and data visualizations for non-linear reading, Bantustan is an example of <a href='https://www.articleworld.org/index.php/Ergodic_literature' target='_blank'>ergodic and interactive literature</a>.</h6>
 <p>Readers can choose how to read the book: in a traditional linear fashion or using maps as visual interfaces for jumping from one story to another. All maps and visuals have been drawn by Uroš Krčadinac, meticulously, by hand, using a digital drawing tablet.</p>
-<p>Maps represent a tapestry of pictograms, ideograms, different writing systems, coats of arms, labyrinths, secret messages, and other hidden symbols for readers to discover and decypher. The drawing process lasted a year.</p>"
+<p>Maps represent a tapestry of pictograms, ideograms, different writing systems, coats of arms, labyrinths, secret messages, and other hidden symbols for readers to discover and decypher. The drawing process lasted a year and a half.</p>"
 page4:
     txt: "<h5>This interactive atlas is devoted to deshiphering all symbols and stories hidden in Uroš's maps.</h5>"
 page5:
@@ -31,11 +31,11 @@ page5:
 page6:
     txt: "<h6>Written in 3 separate voices, Bantustan is also an example of a collaborative writing project.</h6>
 <p><a href='https://www.amazon.com/Lazar-Pascanovic/e/B0933FH8RS/' target='_blank'>Lazar Pašćanović</a>, <a href='https://www.amazon.com/Marko-Djedovic/e/B0936V89ZF/' target='_blank'>Marko Đedović</a>, and <a href='/work/about/' target='_blank'>Uroš Krčadinac</a> have collaborated on the final text for several years, turning a travel blog into a cross-genre experiment.</p>
-<p>Each chapter is composed of stories marked by U, M, and L, respectively written by Uroš, Marko, and Lazar. For example, if a story is called 1M, it means it is the first story in a chapter and it was written by Marko.</p>"
+<p>Each chapter is composed of stories marked by <b>U</b>, <b>M</b>, and <b>L</b>, respectively written by Uroš, Marko, and Lazar. For example, if a story is called <b>1M</b>, it means it is the first story in a chapter and it was written by Marko.</p>"
 image2:
     src: '/media/projects/bantustan-book/img/bantustan-book06.jpg'
 page7:
     txt: "<h4 class='last-h4'>Now you can explore <span class='all-maps-link'>all maps</span>.</h4>
 <p>Or, choose <span class='random-map-link'>one map at random</span>. Or, start with the first map in the series, which <a href='/bantustan-interactive-atlas/map/balkan-africa'>connects the Balkans with Africa</a>. Or, if you prefer reading books backwards, start with the last map, which depicts the shores of <a href='/bantustan-interactive-atlas/map/namibia'>Atlantic Ocean in Namibia</a>.</p>
 <p><a href='/bantustan-interactive-atlas/prints'>Graphic prints</a> will be available after the Belgrade exhibition in April, 2022.</p>
-<p><br><br><a href='/work/about/'>Uroš Krčadinac</a>, 2022.</p>"
+<p><br><br><a href='/work/about/' target='_blank'>Uroš Krčadinac</a>, 2015–2022.</p>"

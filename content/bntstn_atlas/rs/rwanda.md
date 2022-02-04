@@ -139,13 +139,13 @@ Tuts.</p>"
 <p>Tako zajedno, oni formiraju kompasovu ružu, bez koje mapa nije mapa.</p>"
     - x: 37
       y: 153
-      txt: "<p>Mapa Ruanda je sa leve i desne strane oivičena nosevima. Prostor se meri oblicima nosa. Otkud nosevi?</p>
+      txt: "<p>Mapa Ruande je sa leve i desne strane oivičena nosevima. Prostor se meri oblicima nosa. Otkud nosevi?</p>
 <p>Belci kolonizatori klasifikovali su Hute i Tutse, dva najveća plemena u Ruandi, shodno svojim rasnim teorijama. Ključni faktor bio je oblik nosa. Posebnim mernim instrumentima meren je nos ljudima iz Ruande da bi se utvrdilo kom plemenu pripadaju, kom bantustanu. Nekoliko decenija kasnije, 1994. godine, tadašnja vlada Ruande pobila je 500-800 hiljada ljudi pogrešnog oblika nosa.</p>
 <p>Nos: najkarakterističniji detalj na licu; podići nos; nosem namirisati zlo.</p>
 <p>Među dodatnim grafikama u Bantustanu, nalazi se i Karta noseva, grafička kartoteka noseva svih glavnih junaka u knjizi.</p>"
     - x: 1038 
       y: 48
-      txt: "<p>Mapa Ruanda je sa leve i desne strane oivičena nosevima. Prostor se meri oblicima nosa. Otkud nosevi?</p>
+      txt: "<p>Mapa Ruande je sa leve i desne strane oivičena nosevima. Prostor se meri oblicima nosa. Otkud nosevi?</p>
 <p>Belci kolonizatori klasifikovali su Hute i Tutse, dva najveća plemena u Ruandi, shodno svojim rasnim teorijama. Ključni faktor bio je oblik nosa. Posebnim mernim instrumentima meren je nos ljudima iz Ruande da bi se utvrdilo kom plemenu pripadaju, kom bantustanu. Nekoliko decenija kasnije, 1994. godine, tadašnja vlada Ruande pobila je 500-800 hiljada ljudi pogrešnog oblika nosa.</p>
 <p>Nos: najkarakterističniji detalj na licu; podići nos; nosem namirisati zlo.</p>
 <p>Među dodatnim grafikama u Bantustanu, nalazi se i Karta noseva, grafička kartoteka noseva svih glavnih junaka u knjizi.</p>"

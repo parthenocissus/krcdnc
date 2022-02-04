@@ -113,7 +113,7 @@ notes:
     - x: 355
       y: 250
       txt: "<p>Masajska sela po pravilu su omeđenom <em>enkangom</em>, kružnom ogradom od visokog kolja i suvih trnovitih grana. Gledana iz vazduha, ova sela podsećaju na ćelije ili čaure.</p>
-<p>Shodno metafori ćelije, tu je i membranski potencijal. Sa jedne strane ćelije veća je koncentracija jona nego sa druge. Otuda plusevi ⊕ i minusi ⊖: napetost između spolja i unutra kao dijalektičkih polova.</p>"
+<p>Shodno metafori ćelije, tu je i membranski potencijal. Sa jedne strane ćelije veća je koncentracija jona nego sa druge. Otuda plusevi ⊕ i minusi ⊖: napetost između spolja i unutra, između dijalektičkih polova.</p>"
     - x: 604
       y: 156
       txt: "<p>Noćni razgovori oko vatre. Kuko, Tonkej, Lazar, Lovre, Marko, Uroš i drugi domaćini. Vatra im boji kožu: ne zna se ko je crn, ko beo.</p>

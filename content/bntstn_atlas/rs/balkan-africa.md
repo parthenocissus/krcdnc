@@ -44,8 +44,7 @@ notes:
 <p>»Ničija zemlja. Trepnuvši farovima, autobus pređe granicu i stane. Dok gledam u susnežicu i mrak, napetost popusti a uzbuđenje umine. Putovanje je počelo; kao da ga tek sada mogu osetiti čulima. Kad sam bio klinac, sećam se, napisao sam priču o čoveku koji nema čula ali oseća strane sveta. I taj čovek bez čula polazi na put prateći linije Zemljine magnetne sile, koje ga vode kao tanki, končasti dodiri na koži.«</p>"
     - x: 351
       y: 54
-      txt: "<p>Na putovanje Uroš je poneo papriku. Kao u pesmi Ljubivoja Ršumovića: »Išli smo u Afriku, da sadimo papriku.«</p>
-<p>Otuda paprika u središtu kompasove ruže.</p>
+      txt: "<p>Na putovanje Uroš je poneo papriku. Kao u pesmi Ljubivoja Ršumovića: »Išli smo u Afriku, da sadimo papriku.« Otuda paprika u središtu kompasove ruže.</p>
 <p>Paprika i njeno seme pratiće Uroša, Marka i Lazara do samog kraja puta. Kako putovanje bude odmicalo, simbol semena postajaće sve važniji. Ono što je počelo kao avantura, kao dečački san, pretvoriće se u dokumentarni i umetnički projekat koji menja njihov život.</p>
 <p>Na mapi Tanganjike, u poglavlju XIII, piše: »Ova knjiga je naše seme.«</p>"
     - x: 645 

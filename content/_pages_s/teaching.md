@@ -12,8 +12,8 @@ data:
         - path: "media/pages/teaching01.jpg"
         - path: "media/projects/dataviz-workshops/img/dataviz-workshops01.jpg"
         - path: "media/pages/speaking_novaiskra02.jpg"
-      text: "<p>Trenutno radim kao <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Docent digitalne umetnosti i računarstva</a> na Departmanu za digitalne umetnosti Fakulteta za medije i komunikacije Univerziteta Singidunum. Docent sam u dve oblasti: umetničkoj i naučnoj. U saradnji sa <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidorom Nikolić</a> i <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borutom Vildom</a> nastojim da negujem transdisciplinarnu studijsku atmosferu.</p> 
-<p>Uporedo s nastavom, osmislio sam grupu predmeta koji se bave interaktivnom umetnošću, jednu od prvih takvih u obrazovnom sistemu Srbije. Predmeti uključuju:</p>
+      text: "<p>Trenutno radim kao <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Docent digitalne umetnosti i računarstva</a> na Departmanu za digitalne umetnosti Fakulteta za medije i komunikacije Univerziteta Singidunum. Docent sam u dve oblasti: umetničkoj i naučnoj. Takođe radim kao <a href='http://goodoldai.org/' target='_blank'>naučni saradnik i gostujući predavač laboratorije Good Old AI</a> na Departmanu za softversko inženjerstvo Fakulteta organizacionih nauka Univerziteta u Beogradu.</p> 
+<p>U saradnji sa <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidorom Nikolić</a>, <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borutom Vildom</a> i <a href='https://www.colorado.edu/lab/medlab/darija-medic' target='_blank'>Darijom Medić</a>, na Fakultetu za medije i komunikacije nastojim da negujem transdisciplinarnu studijsku atmosferu. Uporedo s nastavom, osmislio sam grupu predmeta koji se bave interaktivnom umetnošću, jednu od prvih takvih u obrazovnom sistemu Srbije. Predmeti uključuju:</p>
 <p><span class='italic-style'>
 <span class='bullet-padding'>•</span> Programiranje za umetnike, dizajnere i pisce<br>
 <span class='bullet-padding'>•</span> Kreativno programiranje: Algoritam, slika i tekst<br>
@@ -26,8 +26,8 @@ data:
       id: "petnica"
       images: 
         - path: "media/projects/petnica-trees/img/petnica-trees00.jpg"
-      text: "<p>U okviru Seminara dizajna <a href='http://petnica.rs/' target='_blank'>Istraživačke stanice Petnica</a> radim kao stručni saradnik. Petnica je obrazovni centar za domaće i strane srednjoškolce i studente, koji se nalazi nadomak Valjeva, između šume, pećine i jezera. Program dizajna obuhvata nekoliko seminara tokom godine, na kojima 15-30 izabranih srednjoškolaca zajedno uči o dizajnu i drugim kreativnim disciplinama kroz samostalni i grupni rad na projektima. Teme obuhvataju grafički, industrijski i digitalni dizajn, vizuelne umetnosti, interaktivnost, kreativno pisanje, kreativno kodiranje, video i animaciju.</p>
-<p>Seminar dizajna osmislili su i razvili <a href='https://www.designed.rs/intervju/borut_vild' target='_blank'>Borut Vild</a>, <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'>Isidora Nikolić</a> i <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a>. Program trenutno vode Saša Mitrović i Igor Rajković zajedno sa grupom izuzetnih mlađih saradnika, među kojima su Miloš Nikolić, Jelena Pejović, Tijana Radovanović, Nada Todorović, Una Korica, Sonja Jovanović, Miloš Desko Ćosović, Boban Živanović, Marija Pilčević, Teodora Ćirić, Ivan Avdić i drugi. Ovom timu pridružio sam se 2016.</p>
+      text: "<p>S vremena na vreme predajem na Seminaru dizajna <a href='http://petnica.rs/' target='_blank'>Istraživačke stanice Petnica</a>. Petnica je obrazovni centar za domaće i strane srednjoškolce i studente, koji se nalazi nadomak Valjeva, između šume, pećine i jezera. Program dizajna obuhvata nekoliko seminara tokom godine, na kojima 15-30 izabranih srednjoškolaca zajedno uči o dizajnu i drugim kreativnim disciplinama kroz samostalni i grupni rad na projektima. Teme obuhvataju grafički, industrijski i digitalni dizajn, vizuelne umetnosti, interaktivnost, kreativno pisanje, kreativno kodiranje, video i animaciju.</p>
+<p>Seminar dizajna osmislili su i razvili <a href='https://www.designed.rs/intervju/borut_vild' target='_blank'>Borut Vild</a>, <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'>Isidora Nikolić</a> i <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a>. Program trenutno vode Igor Rajković i Teodora Ćirić zajedno sa grupom izuzetnih mlađih saradnika, među kojima su Miloš Nikolić, Jelena Pejović, Saša Mitrović, Tijana Radovanović, Nada Todorović, Una Korica, Sonja Jovanović, Miloš Desko Ćosović, Boban Živanović, Marija Pilčević, Teodora Ćirić, Ivan Avdić i drugi.</p>
 <p>Davno pre toga bio sam i sam polaznik Petnice na programu astronomije. Sada mi ovo iskustvo pomaže da zajedno sa saradnicama kreiram nove rizome znanja koje povezuje dizajn, umetnost, nauku i tehnologiju.</p>"
     - title: Radionice
       id: "workshops"
@@ -80,3 +80,7 @@ timeline:
       d: 20
     - year: 2020
       d: 12
+    - year: 2021
+      d: 13
+    - year: 2022
+      d: 2

@@ -154,7 +154,7 @@ notes:
       txt: "<p>Tu je i simbol Kluba putnika, izukrštana strelica.</p>"
     - x: 602
       y: 741
-      txt: "<p>Besni čovečuljak pokušava da izađe iz svog simboličkog zatvora, simboličkog bantustana. Nažalost, njegovo beksto takođe je deo trake.</p>"
+      txt: "<p>Besni čovečuljak pokušava da izađe iz svog simboličkog zatvora, simboličkog bantustana. Nažalost, njegovo bekstvo takođe je deo trake.</p>"
     - x: 766
       y: 113
       txt: "<p>Kairo je premrežen drumovima i autoputevima, koji se drže na visokim stubovima, maltene iznad grada. Saobraćaj je toliko haotičan da je nemoguće sačuvati osećaj za ravnotežu.</p>"
@@ -164,7 +164,7 @@ notes:
 <p>I Marko koji okleva da okači blog.</p>"
     - x: 1010 
       y: 155
-      txt: "<p>Marko – glavni programer u ekipi – kači putopisni blog na sajt Kluba putnika. Računarski jezici mešaju se sa ostalim jezicima: latinicom, arapskim, hijeroglifika, emotikonima, logotipima. Globalna jezička pometnja zahvata i koptski krst, i kursorsku strelicu, i arapske kvačice, i vitičaste zagrade u for petlji.</p>"
+      txt: "<p>Marko – glavni programer u ekipi – kači putopisni blog na sajt Kluba putnika. Računarski jezici mešaju se sa ostalim jezicima: latinicom, arapskim, hijeroglifima, emotikonima, logotipima. Globalna jezička pometnja zahvata i koptski krst, i kursorsku strelicu, i arapske kvačice, i vitičaste zagrade u for petlji.</p>"
     - x: 931 
       y: 289
       txt: "<p>Koptski krst i islamska kaligrafija: zajedno, upleteni.</p>

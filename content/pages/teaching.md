@@ -12,21 +12,22 @@ data:
         - path: "media/pages/teaching01.jpg"
         - path: "media/projects/dataviz-workshops/img/dataviz-workshops01.jpg"
         - path: "media/pages/speaking_novaiskra02.jpg"
-      text: "<p>Currently, I work as an <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Assistant Professor of Digital Art and Computing</a> at the Department of Digital Art, Faculty of Media and Communications, Singidunum University, Belgrade, Serbia. I try to foster an transdisciplinary studio environment in collaboration with <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidora Nikolić</a> and <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borut Vild</a>.</p> 
+      text: "<p>Currently, I work as an <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Assistant Professor of Digital Art and Computing</a> at the Department of Digital Art, Faculty of Media and Communications, Singidunum University, Belgrade, Serbia. I also work as a <a href='http://goodoldai.org/' target='_blank'>Research Associate and Visiting Lecturer at the Good Old AI Lab</a>, Department of Software Engineering, Faculty of Organizational Sciences, University of Belgrade, Serbia.</p> 
+<p>At the Faculty of Media and Communications, I try to foster a transdisciplinary studio environment in collaboration with <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidora Nikolić</a>, <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borut Vild</a>, and <a href='https://www.colorado.edu/lab/medlab/darija-medic' target='_blank'>Darija Medić</a>.</p> 
 <p>Along with teaching, I have created a group of interactive art courses for the Department of Digital Art, which was seen as a pioneering effort within Serbian high education system. Courses include:</p>
 <p><span class='italic-style'><span class='bullet-padding'>•</span> Creative Coding: Algorithm, Image, and Text<br>
 <span class='bullet-padding'>•</span> Programming for Artists, Designers, and Writers<br>
 <span class='bullet-padding'>•</span> Data Visualization and Data Art<br>
 <span class='bullet-padding'>•</span> Interactive Narrative and Ergodic Literature<br>
 <span class='bullet-padding'>•</span> Interaction Design and Critical Making</span></p>
-<p>I am also a <a href='http://goodoldai.org/' target='_blank'>Research Associate and Visiting Lecturer at the Good Old AI Lab</a>, Department of Software Engineering, Faculty of Organizational Sciences, University of Belgrade, Serbia. I lecture on data visualization and AI-related poetics, æsthetics, and ethics. My regular collaborators are <a href='https://jelenajovanovic.net/' target='_blank'>Jelena Jovanović</a> and <a href='http://devedzic.fon.bg.ac.rs/' target='_blank'>Vladan Devedžić</a>.</p>
+<p>At the University of Belgrade, I lecture on data visualization and AI-related poetics, æsthetics, and ethics. My regular collaborators are <a href='https://jelenajovanovic.net/' target='_blank'>Jelena Jovanović</a> and <a href='http://devedzic.fon.bg.ac.rs/' target='_blank'>Vladan Devedžić</a>.</p>
 <p>My past academic experience include research work at the <a href='http://metacreation.net/' target='_blank'>Metacreation Lab</a>, <a href='http://www.sfu.ca/siat.html' target='_blank'>School of Interactive Arts + Technology, SFU</a>, Vancouver, Canada, and a residency at the <a href='http://mi-lab.org/' target='_blank'>Media Interaction Lab,  School of Informatics, Communication and Media</a>, University of Applied Sciences Upper Austria, Hagenberg, Austria.</p>" 
     - title: Petnica Design Programme
       id: "petnica"
       images: 
         - path: "media/projects/petnica-trees/img/petnica-trees00.jpg"
-      text: "<p>I am a Senior Associate at <a href='https://en.wikipedia.org/wiki/Petnica_Science_Center' target='_blank'>Petnica Science Center</a> Design Programme. Petnica is a talent campus for high school students from Serbia and the Balkans, located between a forest, a lake, and a cave near the city of Valjevo. Yearly design programme in Petnica consists of several one- and two-week seminars, where 15-30 selected students learn about basics of design and other creative endeavours by making their own projects. Topics range from graphic, industrial, and interactive design to visual art, creative writing, creative coding, video and animation.</p>
-<p>Design Programme was founded by <a href='https://www.designed.rs/intervju/borut_vild' target='_blank'>Borut Vild</a> and developed by <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'> Isidora Nikolić</a> and <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a>. It is currently led by Saša Mitrović and Igor Rajković, with a group of exceptional junior assistants, including Miloš Nikolić, Jelena Pejović, Tijana Radovanović, Nada Todorović, Una Korica, Sonja Jovanović, Miloš Desko Ćosović, Boban Živanović, Marija Pilčević, Teodora Ćirić, Ivan Avdić, and others. I have joined the team in 2016.</p>
+      text: "<p>Occasionally, I teach at the <a href='https://en.wikipedia.org/wiki/Petnica_Science_Center' target='_blank'>Petnica Science Center</a> Design Programme. Petnica is a talent campus for high school students from Serbia and the Balkans, located between a forest, a lake, and a cave near the city of Valjevo. Yearly design programme in Petnica consists of several one- and two-week seminars, where 15-30 selected students learn about basics of design and other creative endeavours by making their own projects. Topics range from graphic, industrial, and interactive design to visual art, creative writing, creative coding, video and animation.</p>
+<p>Design Programme was founded by <a href='https://www.designed.rs/intervju/borut_vild' target='_blank'>Borut Vild</a> and developed by <a href='https://www.designed.rs/intervju/isidora_nikolic' target='_blank'> Isidora Nikolić</a> and <a href='https://www.fsu.edu.rs/en/professor-vesna-pejovic/' target='_blank'>Vesna Pejović</a>. It is currently led by Igor Rajković and Teodora Ćirić, with a group of exceptional junior assistants, including Miloš Nikolić, Jelena Pejović, Saša Mitrović, Tijana Radovanović, Nada Todorović, Una Korica, Sonja Jovanović, Miloš Desko Ćosović, Boban Živanović, Marija Pilčević, Ivan Avdić, and others.</p>
 <p>A long time ago, I was a young astronomy student in Petnica. I find this experience valuable for our common goal of creating new constellations of anti-disciplinary knowledge across design, art, science, and tech.</p>"
     - title: Workshops
       id: "workshops"
@@ -79,3 +80,7 @@ timeline:
       d: 20
     - year: 2020
       d: 12
+    - year: 2021
+      d: 13
+    - year: 2022
+      d: 2
