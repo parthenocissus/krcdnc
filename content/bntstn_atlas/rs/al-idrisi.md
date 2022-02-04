@@ -13,7 +13,7 @@ notes:
 <p>Prvi istorijski dokument u kojem se pominje Pančevo, Urošev rodni grad, putopis je el Idrisija.</p>"
     - x: 651 
       y: 420
-      txt: "<p>El Idiisijeva mora (Sredozemlje, Crveno more, Persijski zaliv) podsećaju na slonove. U našoj verziji, slonovi su dodatno naglašeni. Nalik na ljude i njihove zajednice, narode i kolektive, slonovi su važan simbol u knjizi.</p>"
+      txt: "<p>El Idrisijeva mora (Sredozemlje, Crveno more, Persijski zaliv) podsećaju na slonove. U našoj verziji, slonovi su dodatno naglašeni. Nalik na ljude i njihove zajednice, narode i kolektive, slonovi su važan simbol u knjizi.</p>"
     - x: 306
       y: 468
       txt: "<p>Originalnoj el Idrisijevoj mapi dodali smo arapske baze podataka, mape zvezda i okvir sa figurama-minijaturama.</p>"
