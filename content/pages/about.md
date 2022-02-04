@@ -11,10 +11,10 @@ quote: "Data Art is not about innovation. It is about beauty, intimacy, and resi
 download:
     lead: "Biography (short and long versions) and images (selection of openly licenced headshots and project visuals) for press, media, festivals, conferences, and other events:"
     label: Download Images and Biographies
-    path: "/download/uros-krcadinac-bio-photo.zip"
+    path: "/download-direct/uros-krcadinac-bio-photo.zip"
 lead: "<span>Uroš Krčadinac</span> (b. 1984) is a Belgrade-based digital artist, technologist, writer, and educator interested in new ways of sensing and feeling the shared world of humans, networks, and data."
 
-Spanning data art, computer science, writing, mapmaking, digital drawing, and animation, his transdisciplinary media projects include AI systems for generating visuals and literary text, an infographic prose book about human geographies, travel, Balkan and Africa, several interactive data visualization and animation projects, a physical machine that is half-bicycle, half-zoetrope, and a 64 km long GPS drawing.
+Spanning data art, computer science, writing, mapmaking, digital drawing, and animation, his transdisciplinary media projects include AI systems for generating visuals and literary text, an infographic travel novel about Balkan and Africa, several interactive digital art, data visualization and animation projects, and a 64 km long GPS drawing.
 
 His work has been shown at festivals and conferences in Europe, Asia, and North America, such as re:publica, International Digital Media and Arts Association Conference, Plan D, Designer – Author or Universal Soldier, as well as Art + Science organized by the Serbian CPN. His academic research was published in scientific journals including IEEE Transactions on Affective Computing and IEEE Transaction on Human-Machine Systems. He exhibited his artworks at Vancouver’s Emily Carr University Gallery, Belgrade’s Museum of Applied Art, Serbian Academy of Sciences and Arts Gallery, and Pančevo’s Gallery of Contemporary Art. His projects were covered by Creative Review, Vizkultura, and VisualComplexity, and awarded by iDMAa, University of Belgrade, Belgrade Chamber of Commerce, and Belgrade Documentary and Short Film Festival. 
 

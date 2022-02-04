@@ -287,6 +287,16 @@ def download_file(args=None):
     # return send_file(path)
 
 
+@app.route('/download-direct/<path:args>')
+def download_file_direct(args=None):
+    items = args.split("/")
+    path = '{}/{}'.format("static", "download")
+    for i in items:
+        path = path + "/" + i
+    print(path)
+    return send_file(path, as_attachment=True)
+
+
 # @app.route('/3/')
 # def poem():
 #     return render_template('test/3.html')

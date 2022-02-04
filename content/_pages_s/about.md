@@ -11,10 +11,10 @@ quote: "Data umetnost za cilj nema inovaciju, nego lepotu, razumevanje, slobodu 
 download:
     lead: "Biografije (kratka i duga verzija) i slike (izbor otvoreno licenciranih foto portreta i slika projekata) za medije, festivale, konferencije i druge događaje:"
     label: Preuzmi slike i biografije
-    path: "/download/uros-krcadinac-bio-photo.zip"
+    path: "/download-direct/uros-krcadinac-bio-photo.zip"
 lead: "<span>Uroš Krčadinac</span> (1984) je digitalni umetnik, programer, autor i edukator koji se bavi novim načinima opažanja i osećanja zajedničkog sveta ljudi, mreža i podataka."
 
-Obuhvatajući digitalnu umetnost, računarske nauke, pisanje, mapiranje i animaciju, njegovi transdisciplinarni projekti uključuju računarske programe za automatsko generisanje vizuala i književnog teksta, proznu knjigu o putovanju, Balkanu i Africi, nekoliko interaktivnih i animiranih vizuelizacija podataka, fizičku mašinu koja je pola bicikl, pola zoetrop, kao i 64 km dug GPS crtež.
+Obuhvatajući digitalnu umetnost, računarske nauke, pisanje, mapiranje i animaciju, njegovi transdisciplinarni projekti uključuju računarske programe za automatsko generisanje vizuala i književnog teksta, infografički putopisni roman o Balkanu i Africi, nekoliko interaktivnih i animiranih vizuelizacija podataka i umetničkih interfejsa, kao i 64 km dug GPS crtež.
 
 Njegov rad prikazan je na festivalima i konferencijama u Evropi, Kini i Severnoj Americi, kao što su re:publica, International Digital Media and Arts Association Conference, Plan D, Dizajner – autor ili unverzalni vojnik, kao i Art + Science beogradskog Centra za promociju nauke. Njegova akademska istraživanja objavljena su u M21 naučnim časopisima poput IEEE Transactions on Affective Computing i IEEE Transaction on Human-Machine Systems. Svoje umetničke radove izlagao je u salonu kanadskog Univerziteta za umetnost i dizajn Emily Carr, beogradskom Muzeju primenjenih umetnosti, beogradskoj Galeriji SANU i pančevačkoj Galeriji savremene umetnosti. O njegovim projektima pisali su Creative Review, Vizkultura i Visual Complexity. Dobio je nagrade institucija poput američke iDMAa, Univerziteta u Beogradu, Beogradske privredne komore, Martovskog festivala i Grada Pančeva. 
 
