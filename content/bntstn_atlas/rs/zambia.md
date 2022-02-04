@@ -96,7 +96,7 @@ Afrikanci uvek kasne! Lako јe doći do takvih zaključaka, ali su ta prosuđiva
 koјe vidiš da sede, u stvari ne gube vreme, već ili čekaјu vreme ili su u procesu ‘pravljenja’ vremena.«<br><br>— Mbiti Džon, Eseji, časopis Koraci, Svetlost, Kragujevac, 1983.</p>"
     - x: 596
       y: 326
-      txt: "<p>Bulevar nacionalizma seče avenija nezavisnosti.</p>
+      txt: "<p>Bulevar nacionalizma seče Aveniju nezavisnosti.</p>
 <p>Sablasti snova o suverenitetu.</p>"
     - x: 540
       y: 159
