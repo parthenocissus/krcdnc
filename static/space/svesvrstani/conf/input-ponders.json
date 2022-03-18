@@ -92,7 +92,7 @@
     }
   },
   "complex": {
-    "meta_data": {"label": "Simple/complex", "label_sr": "Jednostavna/složena", "type": "bipolar"},
+    "meta_data": {"label": "Simple/complex", "label_sr": "Laka/teška", "type": "bipolar"},
     "direct_rules": {
       "complexity": 1,
       "symbol_chance": 1
@@ -177,7 +177,7 @@
     }
   },
   "queer": {
-    "meta_data": {"label": "Queer", "label_sr": "Kvir", "type": "unipolar"},
+    "meta_data": {"label": "Queer", "label_sr": "Kvir-LGBT", "type": "unipolar"},
     "colors": {
       "purple": 1,
       "pink": 1,
@@ -348,7 +348,7 @@
     }
   },
   "antivax": {
-    "meta_data": {"label": "Antivax", "label_sr": "Vaks-skeptična", "type": "unipolar"},
+    "meta_data": {"label": "Antivax", "label_sr": "Antivakserska", "type": "unipolar"},
     "symbols": {
       "antivax": 1,
       "covid": 1

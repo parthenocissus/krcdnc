@@ -46,11 +46,11 @@
 </head>
 <body>
 
-<header>
-    <h1>Moja Zastava</h1>
-</header>
-
 <main>
+
+    <img id="gif-logo" src="{{ url_for('static', filename='space/svesvrstani/img/mojazastava-flaggif.gif') }}">
+
+    <h1>Moja Zastava</h1>
 
     <p class="small-margin">Hej! Pravimo izložbu zastava studenata.</p>
 
@@ -58,15 +58,31 @@
 
     <p class="small-margin">Napravi je pomoću našeg programa.</p>
 
-    <br>
-    <br>
-    <br>
+    <img id="gif-illustration" src="{{ url_for('static', filename='space/svesvrstani/img/mojazastava-humans.gif') }}">
 
     <p class="smaller">Možeš da izabereš parametre koji utiču na izgled zastave. Možeš i da ostaviš neutralno, po difoltu. Za bilo koje parametre, program generiše beskonačno različitih zastava.</p>
 
     <div id="slider-group"></div>
 
     <button id="gen-prime" class="generate">Generiši zastavu</button>
+
+    <div id="flag">
+        <svg id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet">
+            <defs>
+                <clipPath id="mask0">
+                    <rect height="100" width="150" x="0" y="0"/>
+                </clipPath>
+            </defs>
+            <g clip-path="url(#mask0)">
+                <path d="M0,100 L150,0 L150,100 z" fill="#003897" stroke="none"/>
+                <path d="M0,100 L150,0 L0,0 z" fill="#ffffff" stroke="none"/>
+            </g>
+            <g transform="translate(9.08695097795441, 9.08695097795441) scale(0.2182609804409118) rotate(0, 50.0, 50.0)">
+                <path d="M 50.0,1.9 L 61.8,38.199999999999996 L 100.0,38.199999999999996 L 69.1,60.7 L 80.9,97.0 L 50.0,74.5 L 19.1,97.0 L 30.900000000000002,60.7 L 0.0,38.2 L 38.2,38.2 L 50.0,1.9"
+                      fill="#ff0000" stroke="none" stroke-width="2.0"/>
+            </g>
+        </svg>
+    </div>
 
     <div id="under-buttons">
         <div id="grid">
@@ -90,26 +106,28 @@
 
         <p class="small-margin-bottom">1. Zašto je baš ova zastava tvoja?</p>
 
-        <textarea id="q1" rows="5" cols="60" name="description"></textarea>
+        <textarea id="q1" rows="5" cols="60" class="required" name="description"></textarea>
 
         <p class="small-margin-bottom">2. Šta te trenutno nervira? A šta te raduje?</p>
 
-        <textarea id="q2" rows="5" cols="60" name="description"></textarea>
+        <textarea id="q2" rows="5" cols="60" class="required" name="description"></textarea>
 
         <p class="small-margin-bottom">3. Šta želiš da postaneš?</p>
 
-        <textarea id="q3" rows="5" cols="60" name="description"></textarea>
+        <textarea id="q3" rows="5" cols="60" class="required" name="description"></textarea>
 
         <p class="small-margin-bottom">Na kraju, reci nam kako se zoveš.</p>
 
-        <input class="txt-input" type="text" autocomplete="off" id="name" name="name" required minlength="4" size="10">
+        <input class="txt-input required" type="text" autocomplete="off" id="name" name="name" required minlength="4" size="10">
 
         <p class="small-margin-bottom">Unesi svoju imejl adresu.</p>
 
-        <input class="txt-input" type="text" autocomplete="off" id="email" name="email" required minlength="4"
+        <input class="txt-input required" type="text" autocomplete="off" id="email" name="email" required minlength="4"
                size="10">
 
         <button class="get-flag">Preuzmi svoju zastavu</button>
+
+        <p class="failed">Molimo te da popuniš sva polja!<br>Makar jednom rečju.</p>
 
         <div class="form-group">
             <input type="checkbox" id="saglasan" checked>
@@ -118,9 +136,8 @@
 
     </div>
 
-    <hr>
-
     <footer>
+        <hr>
         <p class="smaller">Produkcija: Dom kulture Studentski grad, 2022.</p>
     </footer>
 

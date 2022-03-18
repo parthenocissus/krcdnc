@@ -1,14 +1,36 @@
 body {
-    /*background-color: #f5f5f5;*/
-    /*background-color: #adadad;*/
     background-color: #ededed;
-    margin: 10vh 8vw;
+    margin: 8vw;
 }
+
+/* Images */
+
+#gif-logo {
+    width: 30%;
+    margin: 0;
+}
+
+#gif-illustration {
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+
+#flag {
+    width: 100%;
+    margin: 15px 0;
+    display: none;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Text */
 
 h1 {
     font-family: "noe-display-bold", sans-serif;
     font-size: 2.5em;
-    /*text-transform: uppercase;*/
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -45,7 +67,7 @@ p {
 /* Continued, 2nd part of interface */
 
 #continued {
-    /*display: none;*/
+    display: none;
 }
 
 /* Buttons */
@@ -89,7 +111,7 @@ button:focus {
 }
 
 #under-buttons {
-    /*display: none;*/
+    display: none;
 }
 
 #under-buttons #grid {
@@ -100,6 +122,13 @@ button:focus {
 
 .get-flag {
     margin: 50px 0;
+}
+
+/* Failed Info */
+
+.failed {
+    display: none;
+    margin: 0 0 60px 0;
 }
 
 /* Inputs and Text Fields */
