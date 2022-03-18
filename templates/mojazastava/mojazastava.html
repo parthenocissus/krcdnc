@@ -34,9 +34,10 @@
         let flagMappings = JSON.parse({{ params|tojson }});
     </script>
 
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
+
 {#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>#}
 {#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>#}
     <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/mojazastava.js') }}"></script>
@@ -52,15 +53,17 @@
 
     <h1>Moja Zastava</h1>
 
-    <p class="small-margin">Hej! Pravimo izložbu zastava studenata.</p>
+{#    <p class="small-margin">Hej! Pravimo izložbu zastava studenata u Domu kulture studentski grad.</p>#}
+{#    <p class="small-margin">Kako izgleda baš tvoja zastava?</p>#}
+{#    <p class="small-margin">Napravi je pomoću našeg programa.</p>#}
 
-    <p class="small-margin">Kako izgleda baš tvoja zastava?</p>
-
-    <p class="small-margin">Napravi je pomoću našeg programa.</p>
+    <p class="small-margin">Hej! Pravimo izložbu zastava studenata u Domu kulture studentski grad. Kako izgleda baš tvoja zastava? Napravi je pomoću našeg programa.</p>
 
     <img id="gif-illustration" src="{{ url_for('static', filename='space/svesvrstani/img/mojazastava-humans.gif') }}">
 
-    <p class="smaller">Možeš da izabereš parametre koji utiču na izgled zastave. Možeš i da ostaviš neutralno, po difoltu. Za bilo koje parametre, program generiše beskonačno različitih zastava.</p>
+    <p class="smaller">Možeš da izabereš parametre čije vrednosti utiču na izgled zastave. Možeš i da ostaviš neutralno, po difoltu. Za bilo koje parametre, program generiše beskonačno različitih zastava.</p>
+
+    <p class="smaller small-margin">Slajderi za parametre:</p>
 
     <div id="slider-group"></div>
 
@@ -116,11 +119,11 @@
 
         <textarea id="q3" rows="5" cols="60" class="required" name="description"></textarea>
 
-        <p class="small-margin-bottom">Na kraju, reci nam kako se zoveš.</p>
+{#        <p class="small-margin-bottom">Na kraju, reci nam kako se zoveš.</p>#}
+{##}
+{#        <input class="txt-input required" type="text" autocomplete="off" id="name" name="name" required minlength="4" size="10">#}
 
-        <input class="txt-input required" type="text" autocomplete="off" id="name" name="name" required minlength="4" size="10">
-
-        <p class="small-margin-bottom">Unesi svoju imejl adresu.</p>
+        <p class="small-margin-bottom">Unesi svoju imejl adresu da bismo mogli da te pozovemo na radionicu i izložbu.</p>
 
         <input class="txt-input required" type="text" autocomplete="off" id="email" name="email" required minlength="4"
                size="10">
@@ -131,7 +134,7 @@
 
         <div class="form-group">
             <input type="checkbox" id="saglasan" checked>
-            <label class="smaller" for="html">Saglasan sam da se fotografija mene sa zastavom upotrebi za izložbu u Domu kulture Studentski grad. (Ovo važi samo za one koji upitnik popunjavaju na licu mesta, u saradnji sa našom ekipom.)</label>
+            <label class="smaller" for="html">Saglasan sam da se fotografija mene sa zastavom upotrebi za izložbu. (Ovo važi samo za one koji upitnik popunjavaju na licu mesta, u saradnji sa našom ekipom.)</label>
         </div>
 
     </div>

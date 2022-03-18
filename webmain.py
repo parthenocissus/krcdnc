@@ -294,7 +294,6 @@ def flag_mappings():
             "type": md['type'],
             "data": data_for_type(md['type'])
         }
-        print(md['label_sr'])
     return json.dumps(mappings)
 
 

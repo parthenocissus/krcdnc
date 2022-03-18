@@ -117,7 +117,7 @@
     }
   },
   "symbolic": {
-    "meta_data": {"label": "Symbolic", "label_sr": "Sa/bez simbola", "type": "bipolar"},
+    "meta_data": {"label": "Symbolic", "label_sr": "Nema/ima simbola", "type": "bipolar"},
     "direct_rules": {
       "symbol_chance": 1
     }

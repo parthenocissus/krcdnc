@@ -40,6 +40,7 @@ $(document).ready(function () {
 
     $(".continue").click(() => {
         $("#continued").show();
+        window.scrollTo(0, $(".continue").offset().top - 30);
     });
 
     let svg2pngDownloader = () => {
@@ -51,10 +52,8 @@ $(document).ready(function () {
             "height": "100px"
         });
 
-        let svg = $("#flag").html();
-
-        flagSvg.removeAttr("width");
-        flagSvg.removeAttr("height");
+        // let svg = $("#flag").html();
+        let svg = flagSvg.get(0).outerHTML;
 
         let canvas = document.createElement("canvas");
         canvas.width = s.w;
@@ -75,6 +74,10 @@ $(document).ready(function () {
         link.download = 'flag.png';
         link.href = canvas.toDataURL("image/png");
         link.click();
+
+        flagSvg.removeAttr("width");
+        flagSvg.removeAttr("height");
+
     }
 
     $(".get-flag").click(() => {
