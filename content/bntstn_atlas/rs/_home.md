@@ -5,7 +5,7 @@ identity:
     en: home
     rs: pocetna
 lead_alt: "<a href='/bantustan-interactive-atlas/home'>Bantustan Interactive Atlas</a><br>"
-desc: "Bantustan Interaktivni Atlas je digitalni tumač za ilustrovane mape koje je Uroš Krčadinac nacrtao za putopisni roman Bantustan: atlas jednog putovanja."
+desc: "Bantustan Interaktivni atlas je digitalni tumač za ilustrovane mape koje je Uroš Krčadinac nacrtao za putopisni roman Bantustan: atlas jednog putovanja."
 page1:
     txt: "<h5><em>Bantustan Interaktivni Atlas</em> <br>je digitalni tumač za ilustrovane mape koje je Uroš Krčadinac nacrtao za putopisni roman Bantustan: atlas jednog putovanja.</h5>
 <h4>➤ Istražite <span class='all-maps-link'>sve mape</span> ili otvorite <span class='random-map-link'>nasumičnu</span>.</h4>"

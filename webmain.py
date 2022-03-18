@@ -160,7 +160,6 @@ def note_list_s():
     return render_template('note_list.html', params=sh.params(), data=data)
 
 
-
 # NOTES SECTION
 # rendering note.html
 
@@ -203,7 +202,6 @@ def note_tmp_s(name):
     return render_template('note.html', project=this_note, params=sh.params())
 
 
-
 # ABOUT SECTION
 # biography
 
@@ -217,6 +215,7 @@ def about():
 def about_s():
     page, data = utils.about(fp, sh)
     return render_template('about.html', params=sh.params(), page=page, data=data)
+
 
 # SPACE ROUTE
 # for specific project pages
@@ -266,6 +265,47 @@ def bntstn_map(name):
 def bntstn_map_s(name):
     this_map = utils.bntstn_map(fp, sh, name)
     return render_template('bntstn-atlas/bantustan_map.html', map=this_map, params=sh.params())
+
+
+# SVESVRSTANI
+# a special web app for generating flags in studenjak
+
+
+import json
+
+
+def flag_mappings():
+    input_ponders_path = 'static/space/svesvrstani/conf/input-ponders.json'
+    with open(input_ponders_path, encoding="utf8") as json_file:
+        input_ponders = json.load(json_file)
+    mappings = {}
+
+    def data_for_type(t):
+        if t == "unipolar":
+            return {"min": 0, "max": 1, "step": 0.1, "value": 0}
+        else:
+            return {"min": -1, "max": 1, "step": 0.2, "value": 0}
+
+    for p in input_ponders:
+        md = input_ponders[p]['meta_data']
+        mappings[p] = {
+            "label": md['label'],
+            "label_sr": md['label_sr'],
+            "type": md['type'],
+            "data": data_for_type(md['type'])
+        }
+        print(md['label_sr'])
+    return json.dumps(mappings)
+
+
+@app.route("/mojazastava")
+def mojazastava():
+    return render_template('mojazastava/mojazastava.html', params=flag_mappings())
+
+
+@app.route("/myflag")
+def myflag():
+    return render_template('mojazastava/mojazastava.html', params=flag_mappings())
 
 
 # ADDITIONAL ROUTES

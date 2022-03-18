@@ -67,7 +67,7 @@ notes:
       txt: "<p>Ispod Karafe, Grada mrtvih, nalaze se slojevi grobalja. Stoleće za stolećem, živi su živeli nad umrlima, zajedno sa umrlima, sve dok im se i sami ne bi pridružili.</p>
 <p>Otuda slojevi kostura, svaki sledeći stariji od prethodnog. Osmanski kostur, faraonski kostur, kostur afričkog primata od kojeg svi ljudi, svi mi, vodimo poreklo.</p>
 <p>Tu je i vremenska linija (t→), koja ide na dole, ka prošlosti, u dubinu Zemlje.</p>
-<p>Zar kairske piramide nisu dokaz da mrtvi ne ostavljaju na miru žive?</p>"
+<p>Zar kairske piramide nisu dokaz da mrtvi žive ne ostavljaju na miru?</p>"
     - x: 624 
       y: 340 
       txt: "<p>Arsani vodi Uroša u Karafu, Grad mrtvih, kairsko naselje podignuto na groblju, gde živi i mrtvi dele zemlju, prošlost i budućnost.</p>
@@ -144,11 +144,11 @@ notes:
     - x: 248 
       y: 708
       txt: "<p>U piktografskom okviru karte mešaju se stari i novi hijeroglifi, simboli drevnog sveta i simboli ovog savremenog. Svi oni žive naporedo, na mapi kao i u stvarnosti.</p>
-<p>Računar, piramida, staroegipatska figura, Epl, dolar, kapitalizam, anarhizam, komunizam, staroegipatska mačka, kursorska strelica, Betmen, ptica koja sere, brkati nos i cigareta</p>"
+<p>Računar, piramida, staroegipatska figura, Epl, dolar, kapitalizam, anarhizam, komunizam, staroegipatska mačka, kursorska strelica, Betmen, ptica koja sere, brkati nos i cigareta.</p>"
     - x: 741 
       y: 741
       txt: "<p>U piktografskom okviru karte mešaju se stari i novi hijeroglifi, simboli drevnog sveta i simboli ovog savremenog. Svi oni žive naporedo, na mapi kao i u stvarnosti.</p>
-<p>Računar, piramida, staroegipatska figura, Epl, dolar, kapitalizam, anarhizam, komunizam, staroegipatska mačka, kursorska strelica, Betmen, ptica koja sere, brkati nos i cigareta</p>"
+<p>Računar, piramida, staroegipatska figura, Epl, dolar, kapitalizam, anarhizam, komunizam, staroegipatska mačka, kursorska strelica, Betmen, ptica koja sere, brkati nos i cigareta.</p>"
     - x: 883
       y: 709
       txt: "<p>Tu je i simbol Kluba putnika, izukrštana strelica.</p>"
