@@ -32,7 +32,7 @@ class MyFlagFacadeUtil:
         path = self.database_path + "*"
         db = []
         for file_name in glob.iglob(path):
-            d = open(file_name, "r").read()
+            d = open(file_name, "r", encoding="utf8").read()
             d = json.loads(d)
             d["file_name"] = file_name
             d = json.dumps(d)

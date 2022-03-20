@@ -27,7 +27,7 @@
 
         body {
             margin: 0;
-            padding: 40px;
+            padding: 40px 40px 20px 40px;
             background-color: #ededed;
         }
 
@@ -87,25 +87,25 @@
             font-size: .9em;
             line-height: 1.5em;
 
-            background-color: black;
+            background-color: white;
             width: 100%;
-            color: white;
+            color: black;
             padding: 5px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             border: 0;
-        {#box-shadow: 1px 1px 2px #000000;#}
         }
 
         button:hover {
-            background-color: #303030;
+            background-color: black;
+            color: white;
             cursor: pointer;
         }
 
         button:focus {
-            background-color: white;
-            color: black;
+            background-color: black;
+            color: white;
         }
 
         @media only screen and (max-width: 600px) {
@@ -130,7 +130,7 @@
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
 
-    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/mojazastava.js') }}"></script>
+{#    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/mojazastava.js') }}"></script>#}
 
     <title>Baza prikupljenih zastava</title>
 
@@ -166,8 +166,8 @@
 
         return "<div class='flag-record'>" +
             "<div id='flag" + i + "' class='single-flag'>" + d.flag + "</div>" +
-            buttonGroup +
             "<p class='email'>" + d.email + "</p>" +
+            buttonGroup +
             "<p class='question'>" + appText.quest1 + "</p>" +
             "<p class='answer'>" + d.q1 + "</p>" +
             "<p class='question'>" + appText.quest2 + "</p>" +
@@ -183,7 +183,7 @@
         flagDB.append(template(d, i));
     });
 
-    $(".delete").click(function() {
+    $(".delete").click(function () {
         let fileName = $(this).attr("data-field");
         let delAPI = "_myflagdelete";
         let urlDel = $SCRIPT_ROOT + delAPI;
@@ -192,6 +192,65 @@
             window.location.reload();
             console.log("flag record deleted.");
         });
+    });
+
+    let svg2pngDownloader = (index) => {
+        let s = {w: 600, h: 400};
+
+        let flagSvg = $("#flag" + index + " > #flag-svg");
+        flagSvg.attr({
+            "width": "150px",
+            "height": "100px"
+        });
+
+        let svg = flagSvg.get(0).outerHTML;
+
+        let canvas = document.createElement("canvas");
+        canvas.width = s.w;
+        canvas.height = s.h;
+        let context = canvas.getContext('2d');
+
+        let v = canvg.Canvg.fromString(context, svg, {
+            ignoreDimensions: true,
+            scaleWidth: s.w,
+            scaleHeight: s.h,
+            offsetX: 56.25,
+            offsetY: 37.5
+        });
+        v.start();
+
+        let img = canvas.toDataURL("image/png");
+        const link = document.createElement('a');
+        link.download = 'flag.png';
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+
+        flagSvg.removeAttr("width");
+        flagSvg.removeAttr("height");
+
+    }
+
+    $(".png").click(function () {
+        let index = $(this).attr("data-index");
+        svg2pngDownloader(index);
+    });
+
+    $(".svg").click(function () {
+        let index = $(this).attr("data-index");
+        let flagSvg = $("#flag" + index + " > #flag-svg");
+        flagSvg.attr({
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink"
+        });
+        let svgData = flagSvg.get(0).outerHTML;
+        let svgBlob = new Blob([svgData], {type: "image/svg+xml;charset=utf-8"});
+        let svgUrl = URL.createObjectURL(svgBlob);
+        let downloadLink = document.createElement("a");
+        downloadLink.href = svgUrl;
+        downloadLink.download = "flag.svg";
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
     });
 
 </script>
