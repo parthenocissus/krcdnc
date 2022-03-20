@@ -1,6 +1,66 @@
+html, body {
+    overflow-x: hidden;
+}
+
 body {
+    margin: 0;
+    padding: 0;
     background-color: #ededed;
-    margin: 8vw;
+}
+
+main {
+    margin: 0;
+    padding: 78px 40px 50px 40px;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 22px;
+    background-color: black;
+    color: white;
+    padding: 8px 40px;
+    z-index: 10;
+    /*box-shadow: 1px 1px 2px black;*/
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 12px 40px;
+    color: white;
+}
+
+h3 {
+    font-family: "roboto-regular", sans-serif;
+    /*font-family: "noe-display-bold", sans-serif;*/
+    /*font-family: "apercu-mono-regular", monospace;*/
+    font-weight: normal;
+    font-size: .86em;
+    line-height: 1.5em;
+    padding-top: 2px;
+    margin: 0;
+}
+
+h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 a:hover {
+    color: lightgray;
+}
+
+h3 a:first-child {
+    padding-right: 3px;
+}
+
+h3 a:last-child {
+    padding-left: 3px;
 }
 
 /* Images */
@@ -21,15 +81,11 @@ body {
     display: none;
 }
 
-footer {
-    margin-top: 50px;
-}
-
 /* Text */
 
 h1 {
     font-family: "noe-display-bold", sans-serif;
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 10px;
 }
 
@@ -127,6 +183,7 @@ button:focus {
 /* Failed Info */
 
 .failed {
+    font-family: "roboto-bold", sans-serif;
     display: none;
     margin: 0 0 60px 0;
 }
@@ -196,7 +253,7 @@ input[type="checkbox"] { /* change "blue" browser chrome to yellow */
 }
 
 .form-group {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 /* Slider Interface */
@@ -326,4 +383,12 @@ input[type=range]:focus::-ms-fill-lower {
 
 input[type=range]:focus::-ms-fill-upper {
     background: #000;
+}
+
+/* Larger Screens */
+
+@media only screen and (min-width : 540px) {
+    main {
+        padding-right: calc(100vw - 500px);
+    }
 }

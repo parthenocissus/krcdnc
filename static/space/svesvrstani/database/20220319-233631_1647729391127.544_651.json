@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\">\n            <defs>\n                <clipPath id=\"mask0\">\n                    <rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect>\n                </clipPath>\n            </defs>\n            <g clip-path=\"url(#mask0)\">\n                <path d=\"M0,100 L150,0 L150,100 z\" fill=\"#003897\" stroke=\"none\"></path>\n                <path d=\"M0,100 L150,0 L0,0 z\" fill=\"#ffffff\" stroke=\"none\"></path>\n            </g>\n            <g transform=\"translate(9.08695097795441, 9.08695097795441) scale(0.2182609804409118) rotate(0, 50.0, 50.0)\">\n                <path d=\"M 50.0,1.9 L 61.8,38.199999999999996 L 100.0,38.199999999999996 L 69.1,60.7 L 80.9,97.0 L 50.0,74.5 L 19.1,97.0 L 30.900000000000002,60.7 L 0.0,38.2 L 38.2,38.2 L 50.0,1.9\" fill=\"#ff0000\" stroke=\"none\" stroke-width=\"2.0\"></path>\n            </g>\n        </svg>",
+    "q1": "dsdas",
+    "q2": "dsada",
+    "q3": "dsadasda",
+    "email": "dsadas",
+    "checked": true
+}

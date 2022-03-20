@@ -2,7 +2,8 @@
 # Main App
 
 import sys
-from flask import Flask, render_template, send_file, redirect
+import json
+from flask import Flask, render_template, send_file, redirect, request
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 import utils
@@ -267,44 +268,44 @@ def bntstn_map_s(name):
     return render_template('bntstn-atlas/bantustan_map.html', map=this_map, params=sh.params())
 
 
-# SVESVRSTANI
-# a special web app for generating flags in studenjak
+# SVESVRSTANI / ALL-ALIGNED
+# a special web app for generating flags
 
+from bin.allaligned.allaligned_facade import MyFlagFacadeUtil
 
-import json
-
-
-def flag_mappings():
-    input_ponders_path = 'static/space/svesvrstani/conf/input-ponders.json'
-    with open(input_ponders_path, encoding="utf8") as json_file:
-        input_ponders = json.load(json_file)
-    mappings = {}
-
-    def data_for_type(t):
-        if t == "unipolar":
-            return {"min": 0, "max": 1, "step": 0.1, "value": 0}
-        else:
-            return {"min": -1, "max": 1, "step": 0.2, "value": 0}
-
-    for p in input_ponders:
-        md = input_ponders[p]['meta_data']
-        mappings[p] = {
-            "label": md['label'],
-            "label_sr": md['label_sr'],
-            "type": md['type'],
-            "data": data_for_type(md['type'])
-        }
-    return json.dumps(mappings)
+mf = MyFlagFacadeUtil()
 
 
 @app.route("/mojazastava")
 def mojazastava():
-    return render_template('mojazastava/mojazastava.html', params=flag_mappings())
+    lp, params = mf.flag_mappings("sr")
+    return render_template('mojazastava/mojazastava.html', params=params, lp=lp)
 
 
 @app.route("/myflag")
 def myflag():
-    return render_template('mojazastava/mojazastava.html', params=flag_mappings())
+    lp, params = mf.flag_mappings("en")
+    return render_template('mojazastava/mojazastava.html', params=params, lp=lp)
+
+
+@app.route("/bazazastava")
+def bazazastava():
+    lp, params = mf.flag_mappings("sr")
+    db = json.dumps(mf.read_data())
+    return render_template('mojazastava/mojazastava-database.html', params=params, lp=lp, db=db)
+
+
+@app.route('/_myflagsave')
+def myflagsave():
+    mf.save_data(request.args.get('vector'))
+    return json.dumps({"info": "success"})
+
+
+@app.route('/_myflagdelete')
+def myflagread():
+    mf.delete_data(request.args.get('vector'))
+    return json.dumps({"info": "success"})
+
 
 
 # ADDITIONAL ROUTES

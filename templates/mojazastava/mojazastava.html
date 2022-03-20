@@ -13,14 +13,19 @@
             src: url({{ url_for('static', filename='media/fonts/noe-display/noe-display-bold.woff') }}) format("woff");
         }
 
-        @font-face {
-            font-family: "apercu-mono-regular";
-            src: url({{ url_for('static', filename='media/fonts/apercu/apercu-mono-regular-pro.woff') }}) format("woff");
-        }
+        {#@font-face {#}
+        {#    font-family: "apercu-mono-regular";#}
+        {#    src: url({{ url_for('static', filename='media/fonts/apercu/apercu-mono-regular-pro.woff') }}) format("woff");#}
+        {# }#}
 
         @font-face {
             font-family: "roboto-regular";
             src: url({{ url_for('static', filename='media/fonts/roboto/roboto-v29-latin-regular.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "roboto-bold";
+            src: url({{ url_for('static', filename='media/fonts/roboto/Roboto-Bold.woff') }}) format("woff");
         }
 
     </style>
@@ -31,43 +36,43 @@
 
     <script type=text/javascript>
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-        let flagMappings = JSON.parse({{ params|tojson }});
+        let parameters = JSON.parse({{ params|tojson }});
     </script>
 
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
 
-{#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>#}
-{#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>#}
     <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/mojazastava.js') }}"></script>
 
-    <title>Moja zastava</title>
+    <title>{{ lp.title }}</title>
 
 </head>
 <body>
+
+<header>
+    <h3><a href="/mojazastava">Srpski</a> / <a href="/myflag">English</a></h3>
+</header>
 
 <main>
 
     <img id="gif-logo" src="{{ url_for('static', filename='space/svesvrstani/img/mojazastava-flaggif.gif') }}">
 
-    <h1>Moja Zastava</h1>
+    <h1>{{ lp.title }}</h1>
 
-{#    <p class="small-margin">Hej! Pravimo izložbu zastava studenata u Domu kulture studentski grad.</p>#}
-{#    <p class="small-margin">Kako izgleda baš tvoja zastava?</p>#}
-{#    <p class="small-margin">Napravi je pomoću našeg programa.</p>#}
-
-    <p class="small-margin">Hej! Pravimo izložbu zastava studenata u Domu kulture studentski grad. Kako izgleda baš tvoja zastava? Napravi je pomoću našeg programa.</p>
+    <p class="small-margin">{{ lp.subtitle }}</p>
 
     <img id="gif-illustration" src="{{ url_for('static', filename='space/svesvrstani/img/mojazastava-humans.gif') }}">
 
-    <p class="smaller">Možeš da izabereš parametre čije vrednosti utiču na izgled zastave. Možeš i da ostaviš neutralno, po difoltu. Za bilo koje parametre, program generiše beskonačno različitih zastava.</p>
+    <p class="smaller">{{ lp.params_desc }}</p>
 
-    <p class="smaller small-margin">Slajderi za parametre:</p>
+    <p class="smaller small-margin">{{ lp.params_title }}</p>
 
     <div id="slider-group"></div>
 
-    <button id="gen-prime" class="generate">Generiši zastavu</button>
+    <button id="gen-prime" class="generate">{{ lp.generate_button }}</button>
 
     <div id="flag">
         <svg id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet">
@@ -90,10 +95,10 @@
     <div id="under-buttons">
         <div id="grid">
             <div>
-                <button id="gen-secundum" class="generate">Generiši novu,<br>ova nije moja.</button>
+                <button id="gen-secundum" class="generate">{{ lp.generate_again_button|safe }}</button>
             </div>
             <div>
-                <button class="continue">To je to!<br>Moja zastava.</button>
+                <button class="continue">{{ lp.continue_button|safe }}</button>
             </div>
         </div>
     </div>
@@ -102,49 +107,41 @@
 
         <br>
 
-        <p>Čestitamo!</p><p>Sada imaš svoju zastavu.</p>
+        <p>{{ lp.congrats1 }}</p>
+        <p>{{ lp.congrats2 }}</p>
+        <p>{{ lp.quest_intro }}</p>
 
-        <p>Pre nego što preuzmeš zastavu, molimo te da odgovoriš na 3 pitanja. Možeš da napišeš jednu reč, možeš i
-            kratku priču.</p>
-
-        <p class="small-margin-bottom">1. Zašto je baš ova zastava tvoja?</p>
-
+        <p class="small-margin-bottom">{{ lp.quest1 }}</p>
         <textarea id="q1" rows="5" cols="60" class="required" name="description"></textarea>
 
-        <p class="small-margin-bottom">2. Šta te trenutno nervira? A šta te raduje?</p>
-
+        <p class="small-margin-bottom">{{ lp.quest2 }}</p>
         <textarea id="q2" rows="5" cols="60" class="required" name="description"></textarea>
 
-        <p class="small-margin-bottom">3. Šta želiš da postaneš?</p>
-
+        <p class="small-margin-bottom">{{ lp.quest3 }}</p>
         <textarea id="q3" rows="5" cols="60" class="required" name="description"></textarea>
 
-{#        <p class="small-margin-bottom">Na kraju, reci nam kako se zoveš.</p>#}
-{##}
-{#        <input class="txt-input required" type="text" autocomplete="off" id="name" name="name" required minlength="4" size="10">#}
-
-        <p class="small-margin-bottom">Unesi svoju imejl adresu da bismo mogli da te pozovemo na radionicu i izložbu.</p>
-
-        <input class="txt-input required" type="text" autocomplete="off" id="email" name="email" required minlength="4"
+        <p class="small-margin-bottom">{{ lp.quest_email }}</p>
+        <input id="q4" class="txt-input required" type="text" autocomplete="off" id="email" name="email" required minlength="4"
                size="10">
 
-        <button class="get-flag">Preuzmi svoju zastavu</button>
+        <button class="get-flag">{{ lp.download_button }}</button>
 
-        <p class="failed">Molimo te da popuniš sva polja!<br>Makar jednom rečju.</p>
+        <p class="failed">{{ lp.failed|safe }}</p>
 
         <div class="form-group">
             <input type="checkbox" id="saglasan" checked>
-            <label class="smaller" for="html">Saglasan sam da se fotografija mene sa zastavom upotrebi za izložbu. (Ovo važi samo za one koji upitnik popunjavaju na licu mesta, u saradnji sa našom ekipom.)</label>
+            <label class="smaller" for="html">{{ lp.checkbox_note }}</label>
         </div>
 
     </div>
 
-    <footer>
-        <hr>
-        <p class="smaller">Produkcija: Dom kulture Studentski grad, 2022.</p>
-    </footer>
-
 </main>
+
+<footer>
+{#    <p class="smaller">{{ lp.production }}</p>#}
+    <h3>{{ lp.production }}</h3>
+</footer>
+
 
 </body>
 </html>

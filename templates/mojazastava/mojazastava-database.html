@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {#    <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/mojazastava.css') }}">#}
+
+    <style>
+
+        @font-face {
+            font-family: "noe-display-bold";
+            src: url({{ url_for('static', filename='media/fonts/noe-display/noe-display-bold.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "roboto-regular";
+            src: url({{ url_for('static', filename='media/fonts/roboto/roboto-v29-latin-regular.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "roboto-bold";
+            src: url({{ url_for('static', filename='media/fonts/roboto/Roboto-Bold.woff') }}) format("woff");
+        }
+
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: #ededed;
+        }
+
+        h1 {
+            font-family: "noe-display-bold", sans-serif;
+            font-size: 1.6em;
+            margin: 0 0 40px 0;
+        }
+
+        h3 {
+            font-family: "noe-display-bold", sans-serif;
+            font-size: 1.1em;
+            line-height: 1.5em;
+            margin: 70px 0 0 0;
+        }
+
+        #flag-db {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 30px;
+        }
+
+        .flag-record {
+            margin: 0;
+        }
+
+        p {
+            font-family: "roboto-regular", sans-serif;
+            font-weight: normal;
+            font-size: .9em;
+            line-height: 1.5em;
+            margin: 5px 0;
+        }
+
+        p.question {
+            font-family: "roboto-bold", sans-serif;
+        }
+
+        p.email {
+            font-family: "roboto-regular", sans-serif;
+            font-size: 1.1em;
+            margin: 10px 0 14px 0;
+        }
+
+        /* Buttons */
+
+        .button-group {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 5px;
+        }
+
+        button {
+            margin: 10px 0;
+            font-family: "noe-display-bold", sans-serif;
+            font-weight: normal;
+            font-size: .9em;
+            line-height: 1.5em;
+
+            background-color: black;
+            width: 100%;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: 0;
+        {#box-shadow: 1px 1px 2px #000000;#}
+        }
+
+        button:hover {
+            background-color: #303030;
+            cursor: pointer;
+        }
+
+        button:focus {
+            background-color: white;
+            color: black;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #flag-db {
+                grid-template-columns: 1fr;
+            }
+        }
+
+
+    </style>
+
+    <link rel="shortcut icon" href="#">
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        let parameters = JSON.parse({{ params|tojson }});
+        let appText = {{ lp|tojson }};
+        let database = JSON.parse({{ db|tojson }});
+    </script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/mojazastava.js') }}"></script>
+
+    <title>Baza prikupljenih zastava</title>
+
+</head>
+<body>
+
+<main>
+
+    <h1>Baza prikupljenih zastava</h1>
+
+    <div id="flag-db"></div>
+
+</main>
+
+<footer>
+    <h3>{{ lp.production }}</h3>
+</footer>
+
+<script>
+
+    let flagDB = $("#flag-db");
+
+    let template = (d, i) => {
+
+        let saglasnost = (checked) => {
+            return (checked) ? "Da." : "Ne.";
+        }
+
+        const buttonGroup = "<div class='button-group'>" +
+            "<button data-index='" + i + "' class='delete' data-field='" + d.file_name + "'>Delete</button>" +
+            "<button data-index='" + i + "' class='png'>PNG</button>" +
+            "<button data-index='" + i + "' class='svg'>SVG</button></div>";
+
+        return "<div class='flag-record'>" +
+            "<div id='flag" + i + "' class='single-flag'>" + d.flag + "</div>" +
+            buttonGroup +
+            "<p class='email'>" + d.email + "</p>" +
+            "<p class='question'>" + appText.quest1 + "</p>" +
+            "<p class='answer'>" + d.q1 + "</p>" +
+            "<p class='question'>" + appText.quest2 + "</p>" +
+            "<p class='answer'>" + d.q2 + "</p>" +
+            "<p class='question'>" + appText.quest3 + "</p>" +
+            "<p class='answer'>" + d.q3 + "</p>" +
+            "<p class='question'>Saglasnost za fotku? " + saglasnost(d.checked) + "</p>" +
+            "</div>";
+    }
+
+    database.forEach((item, i) => {
+        let d = JSON.parse(item);
+        flagDB.append(template(d, i));
+    });
+
+    $(".delete").click(function() {
+        let fileName = $(this).attr("data-field");
+        let delAPI = "_myflagdelete";
+        let urlDel = $SCRIPT_ROOT + delAPI;
+        let delParams = {vector: fileName};
+        $.getJSON(urlDel, delParams).done(() => {
+            window.location.reload();
+            console.log("flag record deleted.");
+        });
+    });
+
+</script>
+
+</body>
+</html>

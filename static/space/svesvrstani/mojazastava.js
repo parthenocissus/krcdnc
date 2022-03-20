@@ -10,13 +10,15 @@ $(document).ready(function () {
     };
 
     let sliderGroup = $('#slider-group');
+    // let flagMap = parameters["mappings"];
+    let flagMap = parameters;
 
-    for (let key in flagMappings) {
-        let type = flagMappings[key]["type"];
-        let label = flagMappings[key]["label"];
-        let labelSr = flagMappings[key]["label_sr"];
-        let data = flagMappings[key]["data"];
-        sliderGroup.append(sliderHtml(key, labelSr, type, data));
+    for (let key in flagMap) {
+        let type = flagMap[key]["type"];
+        let label = flagMap[key]["label"];
+        // let labelSr = flagMappings[key]["label_sr"];
+        let data = flagMap[key]["data"];
+        sliderGroup.append(sliderHtml(key, label, type, data));
     }
 
     /* Buttons */
@@ -34,13 +36,14 @@ $(document).ready(function () {
 
     let generate = () => {
         console.log("generating...");
-        $("#flag").show();
-        window.scrollTo(0, $("#flag").offset().top - 30);
+        let flg = $("#flag");
+        flg.show();
+        window.scrollTo(0, flg.offset().top - 70);
     };
 
     $(".continue").click(() => {
         $("#continued").show();
-        window.scrollTo(0, $(".continue").offset().top - 30);
+        window.scrollTo(0, $(".continue").offset().top - 70);
     });
 
     let svg2pngDownloader = () => {
@@ -80,6 +83,39 @@ $(document).ready(function () {
 
     }
 
+    let saveData = () => {
+        let a1 = $("#q1").val();
+        let a2 = $("#q2").val();
+        let a3 = $("#q3").val();
+        let email = $("#q4").val();
+        // let checked = $("#saglasan:checked").val();
+        let checked = $("#saglasan").is(":checked");
+
+        let flagSvg = $("#flag-svg");
+        let svg = flagSvg.get(0).outerHTML;
+
+        let dataPoint = {
+            flag: svg, q1: a1, q2: a2, q3: a3, email: email, checked: checked
+        };
+        dataPoint = JSON.stringify(dataPoint);
+
+        let saveAPI = "_myflagsave";
+        let urlSave = $SCRIPT_ROOT + saveAPI;
+        let saveParams = {vector: dataPoint};
+        $.getJSON(urlSave, saveParams, (result) => {
+            result.forEach((i) => {
+                d = JSON.parse(i);
+                console.log(d);
+                console.log(d.q1);
+                console.log(d.flag);
+                // $("#testing-flag").html(d.flag);
+            });
+        }).done(() => {
+            console.log("flag saved.");
+        });
+
+    }
+
     $(".get-flag").click(() => {
 
         let failed = $(".failed");
@@ -95,6 +131,7 @@ $(document).ready(function () {
 
         if (valid) {
             svg2pngDownloader();
+            saveData();
         } else {
             failed.show();
         }
