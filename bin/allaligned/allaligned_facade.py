@@ -23,13 +23,12 @@ class MyFlagFacadeUtil:
         svg = gf.svg_string()
         svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
         svg = svg.replace('height="100px"', '').replace('width="150px"', '')
-        self.current_flag_svg = svg
+        # self.current_flag_svg = svg
         return svg
 
     def save_data(self, data):
         data = json.loads(data)
-        print(data)
-        data['flag'] = self.current_flag_svg
+        # data['flag'] = self.current_flag_svg
         time_stamp = time.strftime("%Y%m%d-%H%M%S") + "_" + str(time.time() * 1000)
         time_stamp = time_stamp + '_' + str(randint(100, 1000))
         file_name = self.database_path + time_stamp + '.json'

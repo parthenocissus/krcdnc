@@ -295,9 +295,10 @@ def bazazastava():
     return render_template('mojazastava/mojazastava-database.html', params=params, lp=lp, db=db)
 
 
-@app.route('/_myflagsave')
+@app.route('/_myflagsave', methods=['POST'])
 def myflagsave():
-    mf.save_data(request.args.get('vector'))
+    print(request.form['vector'])
+    mf.save_data(request.form['vector'])
     return json.dumps({"info": "success"})
 
 
