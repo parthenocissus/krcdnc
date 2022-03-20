@@ -37,8 +37,32 @@ $(document).ready(function () {
     let generate = () => {
         console.log("generating...");
         let flg = $("#flag");
-        flg.show();
-        window.scrollTo(0, flg.offset().top - 70);
+        flg.empty();
+
+        let data = [];
+        $("input[type=range]").each(function () {
+            let input = $(this);
+            let d = {
+                "value": +input.val(),
+                "key": input.attr("name"),
+                "type": input.attr("data-input-type")
+            };
+            data.push(d);
+        });
+        let genParams = {vector: JSON.stringify(data)};
+
+        let genAPI = "_myflaggenerate";
+        let urlGen = $SCRIPT_ROOT + genAPI;
+        $.getJSON(urlGen, genParams, (result) => {
+            flg.append(result.svg);
+            let flagSvg = $("#flag-svg");
+            flagSvg.removeAttr("width");
+            flagSvg.removeAttr("height");
+            flg.show();
+            window.scrollTo(0, flg.offset().top - 70);
+        }).done(() => {
+            console.log("flag generated.");
+        });
     };
 
     $(".continue").click(() => {
@@ -88,12 +112,10 @@ $(document).ready(function () {
         let a2 = $("#q2").val();
         let a3 = $("#q3").val();
         let email = $("#q4").val();
-        // let checked = $("#saglasan:checked").val();
         let checked = $("#saglasan").is(":checked");
 
         let flagSvg = $("#flag-svg");
         let svg = flagSvg.get(0).outerHTML;
-
         let dataPoint = {
             flag: svg, q1: a1, q2: a2, q3: a3, email: email, checked: checked
         };
@@ -102,15 +124,7 @@ $(document).ready(function () {
         let saveAPI = "_myflagsave";
         let urlSave = $SCRIPT_ROOT + saveAPI;
         let saveParams = {vector: dataPoint};
-        $.getJSON(urlSave, saveParams, (result) => {
-            result.forEach((i) => {
-                d = JSON.parse(i);
-                console.log(d);
-                console.log(d.q1);
-                console.log(d.flag);
-                // $("#testing-flag").html(d.flag);
-            });
-        }).done(() => {
+        $.getJSON(urlSave, saveParams).done(() => {
             console.log("flag saved.");
         });
 

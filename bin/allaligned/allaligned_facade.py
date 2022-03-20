@@ -4,6 +4,7 @@ import time
 import glob
 from random import randint
 
+from bin.allaligned.flag_generator import GenFlag
 
 class MyFlagFacadeUtil:
 
@@ -14,6 +15,13 @@ class MyFlagFacadeUtil:
 
         with open(self.lang_path, encoding="utf8") as json_file:
             self.lang = json.load(json_file)
+
+    def generate_flag(self, data_txt):
+        data = json.loads(data_txt)
+        gf = GenFlag(raw_input=data, raw=True)
+        svg = gf.svg_string()
+        svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
+        return svg
 
     def save_data(self, data):
         data = json.loads(data)

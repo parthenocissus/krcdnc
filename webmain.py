@@ -307,6 +307,11 @@ def myflagread():
     return json.dumps({"info": "success"})
 
 
+@app.route('/_myflaggenerate')
+def myflaggenerate():
+    svg = mf.generate_flag(request.args.get('vector'))
+    return json.dumps({"svg": svg})
+
 
 # ADDITIONAL ROUTES
 # synesketch, download, etc.
