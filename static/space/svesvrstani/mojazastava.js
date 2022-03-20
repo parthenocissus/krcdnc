@@ -118,10 +118,14 @@ $(document).ready(function () {
         let email = $("#q4").val();
         let checked = $("#saglasan").is(":checked");
 
-        let flagSvg = $("#flag-svg");
-        let svg = flagSvg.get(0).outerHTML;
+        // let flagSvg = $("#flag-svg");
+        // let svg = flagSvg.get(0).outerHTML;
+        // let dataPoint = {
+        //     flag: svg, q1: a1, q2: a2, q3: a3, email: email, checked: checked
+        // };
+
         let dataPoint = {
-            flag: svg, q1: a1, q2: a2, q3: a3, email: email, checked: checked
+            q1: a1, q2: a2, q3: a3, email: email, checked: checked
         };
         dataPoint = JSON.stringify(dataPoint);
 

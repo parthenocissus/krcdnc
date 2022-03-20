@@ -12,6 +12,7 @@ class MyFlagFacadeUtil:
         self.input_ponders_path = 'static/space/svesvrstani/conf/input-ponders.json'
         self.lang_path = 'static/space/svesvrstani/conf/allaligned-multilang.json'
         self.database_path = 'static/space/svesvrstani/database/'
+        self.current_flag_svg = ""
 
         with open(self.lang_path, encoding="utf8") as json_file:
             self.lang = json.load(json_file)
@@ -21,10 +22,14 @@ class MyFlagFacadeUtil:
         gf = GenFlag(raw_input=data, raw=True)
         svg = gf.svg_string()
         svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
+        svg = svg.replace('height="100px"', '').replace('width="150px"', '')
+        self.current_flag_svg = svg
         return svg
 
     def save_data(self, data):
         data = json.loads(data)
+        print(data)
+        data['flag'] = self.current_flag_svg
         time_stamp = time.strftime("%Y%m%d-%H%M%S") + "_" + str(time.time() * 1000)
         time_stamp = time_stamp + '_' + str(randint(100, 1000))
         file_name = self.database_path + time_stamp + '.json'
@@ -44,7 +49,6 @@ class MyFlagFacadeUtil:
             d = json.loads(d)
             d["file_name"] = file_name
             d = json.dumps(d)
-            print(d)
             db.append(d)
         return db
 
