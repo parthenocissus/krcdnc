@@ -39,6 +39,9 @@ $(document).ready(function () {
         let flg = $("#flag");
         flg.empty();
 
+        let spinner = $("#spinner");
+        spinner.show();
+
         let data = [];
         $("input[type=range]").each(function () {
             let input = $(this);
@@ -58,6 +61,7 @@ $(document).ready(function () {
             let flagSvg = $("#flag-svg");
             flagSvg.removeAttr("width");
             flagSvg.removeAttr("height");
+            spinner.hide();
             flg.show();
             window.scrollTo(0, flg.offset().top - 70);
         }).done(() => {
