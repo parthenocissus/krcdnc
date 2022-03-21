@@ -103,6 +103,7 @@ $(document).ready(function () {
         let img = canvas.toDataURL("image/png");
         const link = document.createElement('a');
         link.download = 'flag.png';
+        link.target = "_blank";
         link.href = canvas.toDataURL("image/png");
         link.click();
 
@@ -123,7 +124,6 @@ $(document).ready(function () {
         let dataPoint = {
             flag: svg, q1: a1, q2: a2, q3: a3, email: email, checked: checked
         };
-
         // let dataPoint = {
         //     q1: a1, q2: a2, q3: a3, email: email, checked: checked
         // };
