@@ -211,6 +211,12 @@
       "crypto": 0.5
     }
   },
+  "zodiac": {
+    "meta_data": {"label": "Zodiac", "label_sr": "Horoskopska", "type": "unipolar"},
+    "symbols": {
+      "zodiac": 1
+    }
+  },
   "socialist": {
     "meta_data": {"label": "Socialist", "label_sr": "Socijalistička", "type": "unipolar"},
     "layout": {
@@ -288,6 +294,12 @@
       "yugoslav": 0.5
     }
   },
+  "belgrade": {
+    "meta_data": {"label": "Belgrade", "label_sr": "Beogradska", "type": "unipolar"},
+    "symbols": {
+      "belgrade": 1
+    }
+  },
   "croatian": {
     "meta_data": {"label": "Croatian", "label_sr": "Hrvatska", "type": "unipolar"},
     "layout": {
@@ -325,6 +337,18 @@
     },
     "direct_rules": {
       "alternating_colors_chance": 0.6
+    }
+  },
+  "love": {
+    "meta_data": {"label": "Love", "label_sr": "Ljubavna", "type": "unipolar"},
+    "symbols": {
+      "love": 1
+    }
+  },
+  "student": {
+    "meta_data": {"label": "Student", "label_sr": "Studentska", "type": "unipolar"},
+    "symbols": {
+      "student": 1
     }
   },
   "scandinavian": {
