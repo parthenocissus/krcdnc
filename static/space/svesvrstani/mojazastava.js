@@ -72,6 +72,8 @@ $(document).ready(function () {
     $(".continue").click(() => {
         $("#continued").show();
         window.scrollTo(0, $(".continue").offset().top - 70);
+
+        saveData("{rezerva}", "{rezerva}", "{rezerva}", "{rezerva}", $("#saglasan").is(":checked"));
     });
 
     let svg2pngDownloader = () => {
@@ -112,12 +114,12 @@ $(document).ready(function () {
 
     }
 
-    let saveData = () => {
-        let a1 = $("#q1").val();
-        let a2 = $("#q2").val();
-        let a3 = $("#q3").val();
-        let email = $("#q4").val();
-        let checked = $("#saglasan").is(":checked");
+    let saveData = (a1, a2, a3, email, checked) => {
+        // let a1 = $("#q1").val();
+        // let a2 = $("#q2").val();
+        // let a3 = $("#q3").val();
+        // let email = $("#q4").val();
+        // let checked = $("#saglasan").is(":checked");
 
         let flagSvg = $("#flag-svg");
         let svg = flagSvg.get(0).outerHTML;
@@ -157,8 +159,16 @@ $(document).ready(function () {
         });
 
         if (valid) {
+
             svg2pngDownloader();
-            saveData();
+
+            let a1 = $("#q1").val();
+            let a2 = $("#q2").val();
+            let a3 = $("#q3").val();
+            let email = $("#q4").val();
+            let checked = $("#saglasan").is(":checked");
+            saveData(a1, a2, a3, email, checked);
+
         } else {
             failed.show();
         }
