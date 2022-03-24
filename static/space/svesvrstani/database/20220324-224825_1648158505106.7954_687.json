@@ -1,8 +1,0 @@
-{
-    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#006600\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect><rect fill=\"#006699\" height=\"31.471747680356803\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect></g><circle cx=\"75.0\" cy=\"65.7358738401784\" fill=\"#ff0032\" r=\"23.346952535255756\" stroke=\"none\"></circle></svg>",
-    "q1": "a",
-    "q2": "a",
-    "q3": "a",
-    "email": "a",
-    "checked": true
-}
