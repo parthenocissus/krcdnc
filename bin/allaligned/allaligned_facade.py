@@ -12,6 +12,7 @@ class MyFlagFacadeUtil:
         self.input_ponders_path = 'static/space/svesvrstani/conf/input-ponders.json'
         self.lang_path = 'static/space/svesvrstani/conf/allaligned-multilang.json'
         self.database_path = 'static/space/svesvrstani/database/'
+        self.database2_path = 'static/space/svesvrstani/database2/'
         self.current_flag_svg = ""
 
         with open(self.lang_path, encoding="utf8") as json_file:
@@ -32,7 +33,10 @@ class MyFlagFacadeUtil:
         time_stamp = time.strftime("%Y%m%d-%H%M%S") + "_" + str(time.time() * 1000)
         time_stamp = time_stamp + '_' + str(randint(100, 1000))
         file_name = self.database_path + time_stamp + '.json'
+        file_name2 = self.database2_path + time_stamp + '.json'
         with open(file_name, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+        with open(file_name2, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
     def delete_data(self, file_name):
