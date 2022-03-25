@@ -296,6 +296,9 @@
   },
   "belgrade": {
     "meta_data": {"label": "Belgrade", "label_sr": "Beogradska", "type": "unipolar"},
+    "direct_rules": {
+      "symbol_chance": 1
+    },
     "symbols": {
       "belgrade": 1
     }
@@ -341,12 +344,18 @@
   },
   "love": {
     "meta_data": {"label": "Love", "label_sr": "Ljubavna", "type": "unipolar"},
+    "direct_rules": {
+      "symbol_chance": 1
+    },
     "symbols": {
       "love": 1
     }
   },
   "student": {
     "meta_data": {"label": "Student", "label_sr": "Studentska", "type": "unipolar"},
+    "direct_rules": {
+      "symbol_chance": 1
+    },
     "symbols": {
       "student": 1
     }
@@ -612,6 +621,18 @@
     },
      "direct_rules": {
       "symbol_chance": 0.8
+    }
+  },
+  "meme": {
+    "meta_data": {"label": "Meme", "label_sr": "Internet-mimovska", "type": "unipolar"},
+    "direct_rules": {
+      "symbol_chance": 1
+    },
+    "symbols": {
+      "memetic": 1,
+      "internet": 1,
+      "meme": 1,
+      "fun": 1
     }
   }
 }
