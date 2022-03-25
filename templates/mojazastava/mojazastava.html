@@ -37,6 +37,7 @@
     <script type=text/javascript>
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
         let parameters = JSON.parse({{ params|tojson }});
+        let appText = {{ lp|tojson }};
     </script>
 
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>

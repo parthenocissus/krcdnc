@@ -14,11 +14,15 @@ $(document).ready(function () {
     let flagMap = parameters;
 
     for (let key in flagMap) {
-        let type = flagMap[key]["type"];
-        let label = flagMap[key]["label"];
-        // let labelSr = flagMappings[key]["label_sr"];
-        let data = flagMap[key]["data"];
-        sliderGroup.append(sliderHtml(key, label, type, data));
+        if ((appText.slider_label === "label_sr") && ((key === "croatian") || (key === "islamic"))) {
+            // skip
+        } else {
+            let type = flagMap[key]["type"];
+            let label = flagMap[key]["label"];
+            // let labelSr = flagMappings[key]["label_sr"];
+            let data = flagMap[key]["data"];
+            sliderGroup.append(sliderHtml(key, label, type, data));
+        }
     }
 
     /* Buttons */
@@ -135,11 +139,11 @@ $(document).ready(function () {
         let saveAPI = "_myflagsave";
         let urlSave = $SCRIPT_ROOT + saveAPI;
         let saveParams = {vector: dataPoint};
-        $.post(urlSave, saveParams, function(data, status) {
+        $.post(urlSave, saveParams, function (data, status) {
             console.log(data);
             console.log(status);
         }).done(() => {
-        // $.getJSON(urlSave, saveParams).done(() => {
+            // $.getJSON(urlSave, saveParams).done(() => {
             console.log("flag saved.");
         });
 
@@ -159,15 +163,14 @@ $(document).ready(function () {
         });
 
         if (valid) {
-
-            svg2pngDownloader();
-
             let a1 = $("#q1").val();
             let a2 = $("#q2").val();
             let a3 = $("#q3").val();
             let email = $("#q4").val();
             let checked = $("#saglasan").is(":checked");
             saveData(a1, a2, a3, email, checked);
+
+            svg2pngDownloader();
 
         } else {
             failed.show();
