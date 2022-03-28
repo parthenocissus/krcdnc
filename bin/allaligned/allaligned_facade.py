@@ -1,10 +1,18 @@
 import os
 import json
 import time
-import glob
+# import glob
 from random import randint
 
+from flask import send_file
+
 from bin.allaligned.flag_generator import GenFlag
+
+from glob import glob, iglob
+from io import BytesIO
+from zipfile import ZipFile
+import os
+
 
 class MyFlagFacadeUtil:
 
@@ -13,6 +21,7 @@ class MyFlagFacadeUtil:
         self.lang_path = 'static/space/svesvrstani/conf/allaligned-multilang.json'
         self.database_path = 'static/space/svesvrstani/database/'
         self.database2_path = 'static/space/svesvrstani/database2/'
+        self.database_final_path = 'static/space/svesvrstani/database_final/'
         self.current_flag_svg = ""
 
         with open(self.lang_path, encoding="utf8") as json_file:
@@ -47,13 +56,33 @@ class MyFlagFacadeUtil:
     def read_data(self):
         path = self.database_path + "*"
         db = []
-        for file_name in glob.iglob(path):
+        for file_name in iglob(path):
             d = open(file_name, "r", encoding="utf8").read()
             d = json.loads(d)
             d["file_name"] = file_name
             d = json.dumps(d)
             db.append(d)
         return db
+
+    def read_data_final(self):
+        path = self.database_final_path + "*"
+        db = []
+        for file_name in iglob(path):
+            d = open(file_name, "r", encoding="utf8").read()
+            d = json.loads(d)
+            d["file_name"] = file_name
+            d = json.dumps(d)
+            db.append(d)
+        return db
+
+    def download_data(self):
+        stream = BytesIO()
+        target = self.database_path
+        with ZipFile(stream, 'w') as zf:
+            for file in glob(os.path.join(target, '*.json')):
+                zf.write(file, os.path.basename(file))
+        stream.seek(0)
+        return send_file(stream, as_attachment=True, attachment_filename='archive.zip')
 
     def flag_mappings(self, language):
         lang_key = language + "_params"

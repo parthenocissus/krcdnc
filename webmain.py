@@ -288,11 +288,23 @@ def myflag():
     return render_template('mojazastava/mojazastava.html', params=params, lp=lp)
 
 
-@app.route("/bazazastava")
+@app.route("/radnabazazastava")
 def bazazastava():
     lp, params = mf.flag_mappings("sr")
     db = json.dumps(mf.read_data())
-    return render_template('mojazastava/mojazastava-database.html', params=params, lp=lp, db=db)
+    return render_template('mojazastava/mojazastava-working-database.html', params=params, lp=lp, db=db)
+
+
+@app.route("/konacnabazazastava")
+def konacnabazazastava():
+    lp, params = mf.flag_mappings("sr")
+    db = json.dumps(mf.read_data_final())
+    return render_template('mojazastava/mojazastava-final-database.html', params=params, lp=lp, db=db)
+
+
+@app.route("/downloadflags")
+def downloadflags():
+    return mf.download_data()
 
 
 @app.route('/_myflagsave', methods=['POST'])
