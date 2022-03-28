@@ -37,6 +37,18 @@
             margin: 0 0 40px 0;
         }
 
+        h2 {
+            font-family: "roboto-regular", sans-serif;
+            font-weight: normal;
+            font-size: 1.1em;
+            line-height: 1.5em;
+            margin: 5px 0;
+        }
+
+        h2.last {
+            margin-bottom: 30px;
+        }
+
         h3 {
             font-family: "noe-display-bold", sans-serif;
             font-size: 1.1em;
@@ -141,6 +153,9 @@
 
     <h1>Baza očišćenih, sređenih i potvrđenih zastava</h1>
 
+    <h2>Ukupno zastava: <span id="nflags"></span></h2>
+    <h2 class="last">Ukupno studenata: <span id="nstudents"></span></h2>
+
     <div id="flag-db"></div>
 
 </main>
@@ -178,10 +193,24 @@
             "</div>";
     }
 
+    uniques = [];
+
     database.forEach((item, i) => {
         let d = JSON.parse(item);
         flagDB.append(template(d, i));
+
+        if (d.email === "{rezerva}" || d.email === "{rekonstrukcija}") {
+            uniques.push(d.email);
+        } else {
+            if (!uniques.includes(d.email)) {
+               uniques.push(d.email);
+            }
+        }
+
     });
+
+    $("#nflags").html(database.length);
+    $("#nstudents").html(uniques.length);
 
     $(".delete").click(function () {
         let fileName = $(this).attr("data-field");
@@ -192,7 +221,7 @@
             window.location.reload();
             console.log("flag record deleted.");
         });
-    });
+     });
 
     let svg2pngDownloader = (index) => {
         let s = {w: 600, h: 400};

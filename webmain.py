@@ -315,8 +315,13 @@ def myflagsave():
 
 
 @app.route('/_myflagdelete')
-def myflagread():
+def myflagdelete():
     mf.delete_data(request.args.get('vector'))
+    return json.dumps({"info": "success"})
+
+@app.route('/_myflagdeleteall')
+def myflagdeleteall():
+    mf.delete_all_data()
     return json.dumps({"info": "success"})
 
 

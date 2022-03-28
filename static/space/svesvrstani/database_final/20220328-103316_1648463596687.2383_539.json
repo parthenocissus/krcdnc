@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#993332\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect><rect fill=\"#fcdc04\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"70.17145559976986\"></rect></g><circle cx=\"75.0\" cy=\"35.08572779988493\" fill=\"#cc6600\" r=\"14.714895138428714\" stroke=\"none\"></circle></svg>",
+    "q1": "Zato što me podseća na nekakav pejzaž.",
+    "q2": ".",
+    "q3": ".",
+    "email": "mashanedeljkovic@gmail.com",
+    "checked": true
+}

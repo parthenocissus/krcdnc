@@ -49,9 +49,12 @@ class MyFlagFacadeUtil:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
     def delete_data(self, file_name):
-        # file_name = json.loads(data)
-        # os.remove(self.database_path + file_name)
         os.remove(file_name)
+
+    def delete_all_data(self):
+        path = self.database_path + "*"
+        for file_name in iglob(path):
+            os.remove(file_name)
 
     def read_data(self):
         path = self.database_path + "*"
@@ -62,6 +65,7 @@ class MyFlagFacadeUtil:
             d["file_name"] = file_name
             d = json.dumps(d)
             db.append(d)
+        db.sort()
         return db
 
     def read_data_final(self):
@@ -73,6 +77,7 @@ class MyFlagFacadeUtil:
             d["file_name"] = file_name
             d = json.dumps(d)
             db.append(d)
+        db.sort()
         return db
 
     def download_data(self):

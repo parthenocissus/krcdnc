@@ -143,6 +143,8 @@
 
     <div id="flag-db"></div>
 
+    <button id="delete-all" style="margin-top:40px;">Delete All Working Flags</button>
+
 </main>
 
 <footer>
@@ -191,6 +193,16 @@
         $.getJSON(urlDel, delParams).done(() => {
             window.location.reload();
             console.log("flag record deleted.");
+        });
+    });
+
+    $("#delete-all").click(function () {
+        let delAPI = "_myflagdeleteall";
+        let urlDel = $SCRIPT_ROOT + delAPI;
+        let delParams = {vector: ""};
+        $.getJSON(urlDel, delParams).done(() => {
+            window.location.reload();
+            console.log("flag records deleted.");
         });
     });
 
