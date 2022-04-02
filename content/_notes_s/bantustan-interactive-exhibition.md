@@ -165,7 +165,7 @@ content:
     <p>Zeldine reči ne treba shvatiti doslovno nego kao metaforu jedne nove poetike. Kad sam čuo da šamani, nakon što se vrate sa psihodeličnog putovanja, <em>crtaju</em>, i to šta drugo nego <em>mape</em>, ushitio sam se. <em>Mape spajanja</em>. Da, pomislio sam. To je ono što treba izmisliti.</p>
     <p>Poslednja mapa u knjizi zove se »Sazvežđe ljudi«.<sup id='s26'>26</sup> Tu sam ucrtao sve ljude koji se pominju u Bantustanu, sve koje smo sreli putujući od Beograda do juga Afrike, svih nekoliko stotina – kao zvezde na astronomskoj karti. Ljudi su povezani horizontalno, od tačke do tačke, mimo velikih sistema, država, korporacija, imperija, običnim malim gestom prijateljstva. Umesto turiste, putnik postaje glasnik, katalizator novih relacija. Braunovo kretanje u fluidu sveta. Svaki je čovek »zvezda za sebe«,<sup id='s27'>27</sup> ali ne sama, izolovana, nego povezana, deo <em>jednog</em> sveta.</p>
     <p>Ponekad zamišljam praljude kako se sele iz Afrike, gde se čovekova svest rađala iz besvesti, i nastanjuju planetu. Putuju preko Sinaja, Levanta, Balkana, Indije, Skandinavije, Kamčatke, Floride. Prelaze Crveno more, Jangce, Beringov moreuz, ostrva Polinezije, Darijenski rascep. Putujući, za sobom ostavljaju tragove. Šta bi bilo kad bi svi ovi tragovi bili vidljivi? Kako bi izgledala ta ukupna linija čoveka i sveta, ta umnožena a opet jedinstvena linija?</p>
-    <p>Evo šta su mape u Bantustanu: deo, tek mali deo ove linije. <mark>&#9632;</mark></p>"
+    <p>Evo šta su bantustanske mape: deo, tek mali deo ove linije. <mark>&#9632;</mark></p>"
     - type: "img"
       grid_rules: "grid-template-columns: 1812fr 846fr;"
       img_data:
