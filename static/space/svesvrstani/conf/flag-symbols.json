@@ -122,22 +122,22 @@
     { "name": "triangle1", "weight": 1.5, "file_name": "triangle1", "color": "full",
       "tags": ["memetic"]
     },
-    { "name": "ginkgo", "weight": 1000, "file_name": "ginkgo", "color": "simple",
+    { "name": "ginkgo", "weight": 1.5, "file_name": "ginkgo", "color": "simple",
       "tags": ["eco", "nature", "plant"]
     },
-    { "name": "paths", "weight": 1000, "file_name": "paths", "color": "simple",
+    { "name": "paths", "weight": 1.5, "file_name": "paths", "color": "simple",
       "tags": ["science", "ornament"]
     },
-    { "name": "plant1", "weight": 1000, "file_name": "plant1", "color": "simple",
+    { "name": "plant1", "weight": 1.5, "file_name": "plant1", "color": "simple",
       "tags": ["eco", "nature", "plant"]
     },
-    { "name": "sun_half", "weight": 1000, "file_name": "sun_half", "color": "simple",
+    { "name": "sun_half", "weight": 1.5, "file_name": "sun_half", "color": "simple",
       "tags": ["sun", "nature", "eco"]
     },
-    { "name": "triangle2", "weight": 1000, "file_name": "triangle2", "color": "simple",
+    { "name": "triangle2", "weight": 1.5, "file_name": "triangle2", "color": "simple",
       "tags": ["memetic"]
     },
-    { "name": "wave2", "weight": 1000, "file_name": "wave2", "color": "simple",
+    { "name": "wave2", "weight": 1.5, "file_name": "wave2", "color": "simple",
       "tags": ["eco", "nature"]
     },
 
