@@ -177,7 +177,7 @@ content:
           caption: "Ilustrovana mapa <a href='/bantustan-interactive-atlas/mapa/constellation/' target='_blank'><em>Sazvežđe ljudi</em></a>. Digitalni crtež, Uroš Krčadinac, 2015-2022."
     - type: "txt"
       html: "<p><em>Prva samostalna izložba mapa iz <a href='/rad/projekti/bantustan-book/' target='_blank'>Bantustana</a>, uz premijerno predstavljanje digitalnog tumača <a href='/bantustan-interactive-atlas/' target='_blank'><em>Bantustan: interaktivni atlas</em></a>, biće otvorena 18. aprila u 19 časova, u galeriji <a href='https://www.dksg.rs/cir/onda-porastes-a-mape-postanu-strasne/' target='_blank'>Doma kulture Studentski grad (DKSG)</a> u Beogradu.</em></p>
-    <p><em>Posetioci izložbe moći će da kupe printove mapa izrađenih u tehnici sitoštampe na kvalitetnom papiru. Printovi su dimenzija 70 x 50 cm. Svaki je štampan u ograničenom tiražu od 50 primeraka, numerisan i potpisan, sa unikatnim docrtanim detaljem. Više informacija uskoro.</em> <mark>&#9632;</mark></p>"
+    <p><em>Posetioci izložbe moći će da kupe printove mapa izrađenih u tehnici sitoštampe na kvalitetnom papiru. Printovi su dimenzija 70 x 50 cm. Svaki je štampan u ograničenom tiražu od 50 primeraka, numerisan i potpisan, sa unikatnim docrtanim detaljem. Više informacija uskoro.</em> <mark>&#9633;</mark></p>"
 sidenotes:
     - id: 1
       html: "<a href='https://www.klubputnika.org/zbirka/vremeplov/3797-snezni-covek-odabrani-odlomci' target='_blank'><em>Snežni čovek</em></a>, D. Albahari, Stubovi kulture, 1995."
