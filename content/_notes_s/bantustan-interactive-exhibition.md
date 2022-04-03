@@ -15,7 +15,7 @@ content:
     <p class='start-quote' style='font-size: 11.8pt; padding-bottom: 37px !important;'>Mape su izvor bola, a bekstvo od njih je nemoguće.<br>— <span class='quote-author'>Vladimir Tasić, Snežni čovek i paralaksa</span><sup id='s2'>2</sup></p>   
     <p>Dostopiravši u Kartum, glavni grad Sudana, Lazar, Marko i ja smestili smo se kod Džesike, profesorke i spisateljice iz Engleske. Upoznali smo je preko Kaučsurfinga. Pre nego što se preselila u Sudan, Džes je putovala po Balkanu, Srbiji, Bosni, Rumuniji, izučavala je Austrougarsku i Osmansko carstvo.</p>
     <p>»Da li znaš«, pitao sam je, »da su Beograd i Kartum pre samo 150 godina bili deo iste zemlje? Čak i mape Beograda i Kartuma izgledaju kao brat i sestra.«</p>
-    <p style='text-align: center !important;'><img style='text-align: center !important; padding: 10px 40px 5px 0; display: inline; height: 80px; width: 188px;' src='/static/media/notes/bantustan-interactive-exhibition/img/bg-kartum.jpg'></p>
+    <p style='text-align: center !important;'><img style='text-align: center !important; padding: 10px 60px 5px 0; display: inline; height: 80px; width: 169px;' src='/static/media/notes/bantustan-interactive-exhibition/img/bg-kartum.jpg'></p>
     <p>Oba grada izgrađena su na ušću reka: Save i Dunava, Plavog i Belog Nila. Oba grada, iako prestonice, leže na istorijskoj granici: Mitteleurope i Balkana, Arapskog i Podsaharskog sveta. Oba grada šire se oko rečnog ostrva u obliku suze: Veliko ratno, Tuti.</p>
     <p>Na polici svoje radne sobe Džes je držala mape Pirija Reisa, osmanskog kartografa, i el Idirisija, arapskog kartografa, dvojice polimata koji su od kartografije načinili osebujan umetnički jezik. Pored ovih mapa stajale su knjige Džozefa Konrada, anglo-poljskog pisca i mornara.<sup id='s3'>3</sup> Znao sam da ćemo imati o čemu da razgovaramo. »Kad sam još bila mala«, Džes je recitovala Konradovo Srce tame,<sup id='s4'>4</sup> »strasno sam volela mape. Satima bih gledala u kartu Južne Amerike ili Australije … U to vreme na zemlji je bilo mnogo neispitanih oblasti, i kad bih ugledala neku takvu … stavila bih tu prst i rekla: kad porastem, otići ću tamo.«</p>
     <p>I otišla je, ali nije ostala ista. Putovanja su je promenila. Ono što je počelo kao avantura, završilo se kao opsesivni projekat: književni, umetnički, dokumentarni, životni. Tako je bilo i sa našom Afrikom.</p>
@@ -116,11 +116,11 @@ content:
     <p>S maskama je bilo teže, rekao je Džomo, pošto ljudi iz našeg kraja ne koriste maske. To je kultura Zapadne Afrike: Togo, Benin, Gana, Nigerija. Mi to nemamo. Ali, moramo da zaradimo, da preživimo, pa smo izmislili. Uzeli smo te njihove pa smo ih malo izmenili i počeli da ih prodajemo. E, onda su ušle kineske firme. Krenule su da prodaju iste takve, te naše izmišljene, besmislene, samo triput jeftinije. Dovoze ih iz Kine, idu kao alva. Sad moramo da izmislimo nešto novo.</p>
     <p>Ali – Džomo me je pogledao – znaš šta mi je najtužnije? Par klinaca iz kraja dizajniralo je svoje simbole od tih naših izmišljenih maski. To su klinci koji se bore protiv neokolonijalizma, koji maštaju o samostalnoj i ponosnoj Africi. Šaraju grafite sa tim lažnim maskama koje smo izmislili, koje smo u neku ruku bili prinuđeni da izmislimo, i pišu: »Naša tradicija! Afrički ponos! Crna sloboda!«</p>"
     - type: "img"
-      grid_rules: "grid-template-columns: 1333fr 1778fr;"
+      grid_rules: "grid-template-columns: 1000fr 1778fr;"
       img_data:
-        - file_name: "sudan_uros.jpg"
-          size: "1333x1200"
-          caption: "Uroš sa prijateljima u Sudanu. Meroe, Sahara, Sudan. 2010."
+        - file_name: "malisa.jpg"
+          size: "1000x1000"
+          caption: "Dečak iz slamova u Najrobiju. Fotografija: Uroš Krčadinac, 2010."
         - file_name: "matatu.jpg"
           size: "1778x1000"
           caption: "Ilustrovani autobusi, <em>matatui</em>, u Najrobiju u Keniji. Užarena postmoderna matatu kultura bila je jedna od inspiracija za mape u <em>Bantustanu</em>. Fotografija: Lazar Pašćanović, 2010."
