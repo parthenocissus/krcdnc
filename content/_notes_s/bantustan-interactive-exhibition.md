@@ -6,7 +6,7 @@ date: "31/3/2022"
 main_img_data:
     file_name: "bantustan-interactive-exhibition-main.jpg"
     size: "2000x1090"
-    caption: "Detalj sa <a href='https://krcadinac.com/bantustan-interactive-atlas/mapa/namibia/' target='_blank'>mape Namibije</a>, <em>Bantustan: interaktivni atlas</em>, Uroš Krčadinac, 2015-2022."
+    caption: "Detalj sa <a href='https://krcadinac.com/bantustan-interactive-atlas/mapa/namibia/' target='_blank'>mape Namibije</a>. Levo: aparthejdska tvrđava sa belim kraljem unutar zidina i crnim pešacima i skakačem izvan zidina. Desno: Lazar, Marko i Uroš spajaju kojsanske kliktave znake i srpska ćirilična slova. <em>Bantustan: interaktivni atlas</em>, Uroš Krčadinac, 2015-2022."
 lead: "Esej Uroša Krčadinca, napisan povodom prve samostalne izložbe ilustrovanih mapa iz putopisnog romana <a href='/rad/projekti/bantustan-book/' target='_blank'><em>Bantustan</em></a>. Uz štampane grafike velikog formata, na izložbi će biti premijerno predstavljen i digitalni umetnički projekat <a href='/bantustan-interactive-atlas/' target='_blank'><em>Bantustan: interaktivni atlas</em></a>. Izložba će biti otvorena 18. aprila u 19 časova, u galeriji Doma kulture Studentski grad u Beogradu."
 lead_short: "Esej napisan povodom prve samostalne izložbe mapa i grafika iz Bantustana."
 content:
@@ -177,7 +177,7 @@ content:
           caption: "Ilustrovana mapa <a href='/bantustan-interactive-atlas/mapa/constellation/' target='_blank'><em>Sazvežđe ljudi</em></a>. Digitalni crtež, Uroš Krčadinac, 2015-2022."
     - type: "txt"
       html: "<p><em>Prva samostalna izložba mapa iz <a href='/rad/projekti/bantustan-book/' target='_blank'>Bantustana</a>, uz premijerno predstavljanje digitalnog tumača <a href='/bantustan-interactive-atlas/' target='_blank'><em>Bantustan: interaktivni atlas</em></a>, biće otvorena 18. aprila u 19 časova, u galeriji <a href='https://www.dksg.rs/cir/onda-porastes-a-mape-postanu-strasne/' target='_blank'>Doma kulture Studentski grad (DKSG)</a> u Beogradu.</em></p>
-    <p><em>Posetioci izložbe moći će da kupe printove mapa izrađenih u tehnici sitoštampe na kvalitetnom papiru. Printovi su dimenzija 70 x 50 cm. Svaki je štampan u ograničenom tiražu od 50 primeraka, numerisan i potpisan, sa unikatnim docrtanim detaljem. Više informacija uskoro.</em> <mark>&#9633;</mark></p>"
+    <p><em>Posetioci izložbe moći će da kupe printove mapa izrađenih u tehnici sitoštampe, na kvalitetnom papiru. Mape su štampane u ograničenim serijama od po 50 primeraka. Printovi su dimenzija 70 x 50 cm. Numerisani su i potpisani.</em> <mark>&#9633;</mark></p>"
 sidenotes:
     - id: 1
       html: "<a href='https://www.klubputnika.org/zbirka/vremeplov/3797-snezni-covek-odabrani-odlomci' target='_blank'><em>Snežni čovek</em></a>, D. Albahari, Stubovi kulture, 1995."
