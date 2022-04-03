@@ -7,7 +7,7 @@ main_img_data:
     file_name: "bantustan-interactive-exhibition-main.jpg"
     size: "2000x1090"
     caption: "Detalj sa <a href='https://krcadinac.com/bantustan-interactive-atlas/mapa/namibia/' target='_blank'>mape Namibije</a>. Levo: aparthejdska tvrđava sa belim kraljem unutar zidina i crnim pešacima i skakačem izvan zidina. Desno: Lazar, Marko i Uroš spajaju kojsanske kliktave znake i srpska ćirilična slova. <em>Bantustan: interaktivni atlas</em>, Uroš Krčadinac, 2015-2022."
-lead: "Esej Uroša Krčadinca, napisan povodom prve samostalne izložbe ilustrovanih mapa iz putopisnog romana <a href='/rad/projekti/bantustan-book/' target='_blank'><em>Bantustan</em></a>. Uz štampane grafike velikog formata, na izložbi će biti premijerno predstavljen i digitalni umetnički projekat <a href='/bantustan-interactive-atlas/' target='_blank'><em>Bantustan: interaktivni atlas</em></a>. Izložba će biti otvorena 18. aprila u 19 časova, u galeriji Doma kulture Studentski grad u Beogradu."
+lead: "Autorski tekst Uroša Krčadinca, napisan povodom prve samostalne izložbe ilustrovanih mapa iz putopisnog romana <a href='/rad/projekti/bantustan-book/' target='_blank'><em>Bantustan</em></a>. Uz štampane grafike velikog formata, na izložbi će biti premijerno predstavljen i digitalni umetnički projekat <a href='/bantustan-interactive-atlas/' target='_blank'><em>Bantustan: interaktivni atlas</em></a>. Izložba će biti otvorena 18. aprila u 19 časova, u galeriji Doma kulture Studentski grad u Beogradu."
 lead_short: "Esej napisan povodom prve samostalne izložbe mapa i grafika iz Bantustana."
 content:
     - type: "txt"
