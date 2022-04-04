@@ -36,13 +36,23 @@
             }
 
             @font-face {
+                font-family: "TTNorms-Medium-Italic";
+                src: url({{ url_for('static', filename='media/fonts/ttnorms/TT-Norms-Pro-Medium-Italic.woff') }}) format('woff2');
+            }
+
+            @font-face {
                 font-family: "TTNorms-Italic";
-                src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Regular.woff2') }}) format('woff2');
+                src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Italic.woff2') }}) format('woff2');
             }
 
             @font-face {
                 font-family: "TTNorms-Bold";
                 src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Bold.woff2') }}) format('woff2');
+            }
+
+            h4 em,
+            p em {
+                font-family: "TTNorms-Italic", sans-serif !important;
             }
 
         </style>

@@ -419,6 +419,10 @@ footer p a:hover {
     line-height: 1.5;
 }
 
+.note p em {
+    font-family: "TTNorms-Medium-Italic", sans-serif !important;
+}
+
 .note p a {
     color: black;
     text-decoration: none;
@@ -656,7 +660,6 @@ footer p a:hover {
 }
 
 .prints-content .inner p {
-    /*font-family: "TTNorms-Medium", sans-serif;*/
     font-weight: normal;
     font-size: 1.3vw;
     padding: 0;
