@@ -37,5 +37,6 @@ page6:
 page7:
     txt: "<h4 class='last-h4'>Sada možete istražiti <span class='all-maps-link'>sve mape</span>.</h4>
 <p>Ili otvorite <span class='random-map-link'>jednu nasumično</span>. Ili počnite od prve mape u knjizi, koja povezuje <a href='/bantustan-interactive-atlas/mapa/balkan-africa'>Balkan i Afriku</a>. Ili, ukoliko knjige volite da čitate otpozadi, počnite od poslednje mape, koja prikazuje obale <a href='/bantustan-interactive-atlas/mapa/namibia'>Atlantskog okeana u Namibiji</a>.</p>
-<p><a href='/bantustan-interactive-atlas/printovi'>Grafike i printovi</a> biće spremni nakon beogradske izložbe u aprilu 2022.</p>
+<p><a href='/bantustan-interactive-atlas/printovi'>Grafike i printovi</a> moći će da se kupe nakon otvaranja beogradske izložbe. Mesto i vreme izložbe: Dom kulture Studentski grad, Beograd, 18. april, 19:00.</p>
+<p>Povodom izložbe napisao sam autorski esej <a href='/rad/sveska/bantustan-interactive-exhibition/'><em>Onda porasteš a mape postanu strašne</em></a>, koji sumira poetiku i estetiku bantustanskih mapa. Izložba se zove isto kao i esej.</p>
 <p><br><br><a href='/rad/bio/' target='_blank'>Uroš Krčadinac</a>, 2015–2022.</p>"
