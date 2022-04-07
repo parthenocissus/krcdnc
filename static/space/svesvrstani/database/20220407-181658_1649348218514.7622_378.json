@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#339933\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect><path d=\"M75.0,4.312861889609636 L129.36083585174063,50.0 L75.0,95.68713811039036 L20.63916414825936,50.0 z\" fill=\"#003897\" stroke=\"none\"></path></g><g transform=\"translate(56.09300315242579, 31.093003152425787) scale(0.3781399369514843) rotate(0, 50.0, 50.0)\"><path d=\"M 50.0,0.0 C 26.26,0.0 20.53,33.28 20.53,60.89 C 20.53,88.51 33.72,100.0 50.0,100.0 C 66.28,100.0 79.47,88.51 79.47,60.89 C 79.47,33.28 69.83,0.0 50.0,0.0 M 50.0,92.54 C 39.37,92.54 30.76,83.92 30.76,73.30000000000001 C 30.76,62.67000000000001 39.370000000000005,54.06000000000002 50.0,54.06000000000002 C 60.629999999999995,54.06000000000002 69.24,62.670000000000016 69.24,73.30000000000001 C 69.24,83.92 60.63,92.54 50.0,92.54\" fill=\"#ff3333\" stroke=\"none\" stroke-width=\"3.0px\"></path></g></svg>",
+    "q1": "{rezerva}",
+    "q2": "{rezerva}",
+    "q3": "{rezerva}",
+    "email": "{rezerva}",
+    "checked": true
+}
