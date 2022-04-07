@@ -27,7 +27,7 @@ page4:
 page5:
     txt: "<h6>Pojam bantustana, sa svojim aparthejdskim značenjem i lokalnim konotacijama, koristimo kao simbol lične i kolektivne odvojenosti i zatvorenosti.</h6>
 <p>Bantustani su bili rezervati za crne Afrikance, koje je uspostavio aparthejdski režim u Južnoj Africi. U knjizi, bantustani se odnose na zatvorene mehure u kojima svi živimo svoje živote. Trojica protagonista, kao i ljudi koje susreću na svom putu, neprestano se bore da pobegnu od ovih višeslojnih zatvorenih mehura – ega, porodice, društvenog kruga, klase, rase, vere, etničke pripadnosti, jezika, itd. – i uspostave kontakt sa ostatkom sveta.</p>
-<p>Takvi pokušaji su često bolni, a ponekad i sasvim pogubni, dovode do niza sukoba, razočaranja i kriza, ali na kraju potvrđuju mogućnosti i važnost ljudskih veza.</p>"
+<p>Takvi su pokušaji često bolni, a ponekad i sasvim pogubni, dovode do niza sukoba, razočaranja i kriza, ali na kraju potvrđuju važnost ljudskih veza.</p>"
 image2:
     src: '/media/projects/bantustan-book/img/bantustan-book06.jpg'
 page6:
@@ -38,5 +38,5 @@ page7:
     txt: "<h4 class='last-h4'>Sada možete istražiti <span class='all-maps-link'>sve mape</span>.</h4>
 <p>Ili otvorite <span class='random-map-link'>jednu nasumično</span>. Ili počnite od prve mape u knjizi, koja povezuje <a href='/bantustan-interactive-atlas/mapa/balkan-africa'>Balkan i Afriku</a>. Ili, ukoliko knjige volite da čitate otpozadi, počnite od poslednje mape, koja prikazuje obale <a href='/bantustan-interactive-atlas/mapa/namibia'>Atlantskog okeana u Namibiji</a>.</p>
 <p><a href='/bantustan-interactive-atlas/printovi'>Grafike i printovi</a> moći će da se kupe nakon otvaranja beogradske izložbe. Mesto i vreme izložbe: Dom kulture Studentski grad, Beograd, 18. april, 19:00.</p>
-<p>Povodom izložbe napisao sam autorski esej <a href='/rad/sveska/bantustan-interactive-exhibition/'><em>Onda porasteš a mape postanu strašne</em></a>, koji sumira poetiku i estetiku bantustanskih mapa. Izložba se zove isto kao i esej.</p>
+<p>Povodom izložbe napisao sam autorski esej <a href='/rad/sveska/bantustan-interactive-exhibition/' target='_blank'><em>Onda porasteš a mape postanu strašne</em></a>, koji sumira poetiku i estetiku bantustanskih mapa. Izložba se zove isto kao i esej.</p>
 <p><br><br><a href='/rad/bio/' target='_blank'>Uroš Krčadinac</a>, 2015–2022.</p>"
