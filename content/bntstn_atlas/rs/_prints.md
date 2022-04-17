@@ -16,15 +16,17 @@ page:
 <li>specijalno, za sve koji dođu na izložbu, deo paketa biće i potpisana publikacija sa izložbe, knjižica koja ima 20 strana i sadrži recenzije dr Ildiko Erdei, Emilije Epštajn, Maneta Radmanovića i Ane Knežević, kao i moj autorski tekst <a href='/rad/sveska/bantustan-interactive-exhibition/' target='_blank'>»Onda porasteš a mape postanu strašne«</a>.</li>
 </ul></p>
 <p>Jedan paket: <span class='email'>6.000 RSD</span>. Dva paketa: <span class='email'>10.000 RSD</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>18.000 RSD</span>.</p>
+<p>Ukoliko ne možete da stignete na izložbu, postoji mogućnost da vam paket pošaljemo poštom. U tom slučaju na osnovni iznos treba doplatiti <span class='email'>200 RSD</span> za poštarinu. Tada jedan paket iznosi <span class='email'>6.200 RSD</span>, dva <span class='email'>10.400 RSD</span>, a četiri <span class='email'>18.800 RSD</span>.</p>
 <p>Kako izvršiti uplatu? Prva opcija: gotovinski, nakon otvaranja izložbe. Druga opcija: preko računa. Podaci za uplatu preko računa:</p>
 <p><span class='email'>Uroš Krčadinac</span><br>
 <span class='email'>250115003467150031</span><br>
-<span class='email'>Eurobank</span></p>
-<p>Ukoliko ne možete da stignete na izložbu, postoji mogućnost da vam paket pošaljemo poštom. U tom slučaju na osnovni iznos treba doplatiti <span class='email'>200 RSD</span> za poštarinu. Tada jedan paket iznosi <span class='email'>6.200 RSD</span>, dva <span class='email'>10.400 RSD</span>, a četiri <span class='email'>18.800 RSD</span>.</p>
-<p>Kao svrhu uplate navedite ime primaoca paketa. Na primer: <span class='email'>Na ime: Petar Petrović</span>. Nakon što uplatite, pošaljite mi mejl sa detaljima narudžbine (koju mapu uzimate), adresom na koju treba poslati paket i brojem telefona. Moja imejl adresa: <span class='email'>uros@krcadinac.com</span>. </p>
-<p>Nakon što uplata bude proknjižena, mi ćemo vam poslati paket.</p>"
+<span class='email'>Eurobank</span><br>
+<span class='email'>Svrha uplate: Ime Prezime (npr. Petar Petrović)</span></p>
+<p>Nakon što uplatite, pošaljite mi mejl.</p>
+<p>U mejlu navedite detalje narudžbine (koju mapu uzimate), ime i prezime iz Svrhe uplate, adresu na koju treba poslati paket i broj telefona. Moja imejl adresa: <span class='email'>uros@krcadinac.com</span>.</p>
+<p>Nakon što uplata bude proknjižena, poslaćemo vam paket.</p>"
     txt3: "<p>Mape proizvodim u serijama od po 50 primeraka. To znači da se kao autor obavezujem da ne bude više od ukupno 50 potpisanih, docrtanih i numerisanih primeraka svake mape.</p>
 <p>Domaće izdanje knjige »Bantustan: atlas jednog putovanja« objavljena je kao <a href='https://krcadinac.com/download/books/Bantustan.pdf' target='_blank'>otvoreno licenciran besplatan PDF</a>. To znači da knjigu možete ne samo besplatno preuzeti, nego i legalno štampati o svom trošku. Interaktivni projekat »Bantustan: interaktivni atlas« takođe sam objavio kao <a href='http://github.com/parthenocissus/' target='_blank'>slobodan i besplatan projekat otvorenog koda</a>. Koristite ga za učenje, kao primer ili model.</p>
 <p>Kupovinom grafika podržavate moj rad i ovakve prakse činite održivim.</p>
 <p>Hvala!</p>
-<p>Uroš Krčadinac, april, 2022.</p>"
+<p style='padding-top: 1vw;'>Uroš Krčadinac, april 2022.</p>"
