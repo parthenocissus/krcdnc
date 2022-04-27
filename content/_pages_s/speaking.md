@@ -10,6 +10,10 @@ data:
       images:
         - path: "media/pages/speaking_mokrin02.jpg"
           name: "TEDx Mokrin, 2018"
+        - path: "media/pages/uros-sarajevo-2021.jpg"
+          name: "Univerzitet u Sarajevu, Sarajevo, 2021"
+        - path: "media/pages/uros-pancevo-2022.jpg"
+          name: "<em>Prostori budućeg sećanja</em>, bioskop Vojvodina, Pančevo, 2022"
         - path: "media/pages/teaching04.jpg"
           name: "Nova Iskra, Beograd, 2016"
         - path: "media/pages/krokodil01.jpg"
@@ -36,12 +40,31 @@ data:
           name: "Kriterion, Sarajevo, 2015"
         - path: "media/pages/speaking_novaiskra01.jpg"
           name: "Nova Iskra, Beograd, 2016"
+        - path: "media/pages/dksg-publika.jpg"
+          name: "Samostalna izložba, DKSG, Beograd, 2022"
+        - path: "media/pages/uros-dksg-001.jpg"
+          name: "Samostalna izložba, DKSG, Beograd, 2022"
+        - path: "media/pages/dksg-potpisivanje.jpg"
+          name: "Samostalna izložba, DKSG, Beograd, 2022"
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Srpska akademija nauka i umetnosti, Beograd, 2019"        
       text: "<div class='section-list interface-page-li-style'>
-<div class='list-title-first-page interface-heading-style'>2021</div>
+<div class='list-title-first-page interface-heading-style'>2022</div>
 <ul>
+<li>Autorsko predavanje u okviru samostalne izložbe <em><a href='https://www.dksg.rs/lat/onda-porastes-a-mape-postanu-strasne/' target='_blank'>Onda porasteš a mape postanu strašne</a></em>, Galerija Doma kulture Studentski grad, Beograd, Srbija</li>
+<li><em><a href='https://elle.rs/Lifestyle/Umetnost/a43317/Izlozba-Prostori-buduceg-secanja.html' target='_blank'>Digitalna umetnost i hakovanje budućnosti</a></em>, predavanje u okviru grupne izložbe <em>Prostori budućeg sećanja</em>, stari bioskop Vojvodina, Pančevo, Srbija</li>
+<li><em><a href='https://www.kcb.org.rs/2022/03/digitalizacija-i-digitalna-kultura/' target='_blank'>Digitalizacija i digitalna kultura</a></em>, Galerija Artget, Kulturni centar Beograda, Beograd, Srbija</li>
+<li><em>Tribina o rezidencijalnom programu They:Live</em>, Dom kulture Studentski grad, Beograd, Srbija</li>
+<li><em>O hakovanju</em> (autorsko predavanje), Beogradska otvorena škola, Beograd, Srbija</li>
+<li><em>Artist Talk</em>, Istraživačka stanica Petnica, Srbija</li>
+<li><em>Kritičko mapiranje: vizuelizacija podataka u službi kritičkog razumevanja urbanih sistema</em>, predavanje u okviru konferencije <em>Ka drugačijem gradu</em>, Institut za urbane politike, Beograd, Srbija</li>
+</ul>
+<div class='list-title interface-heading-style'>2021</div>
+<ul>
+<li><em><a href='https://fpn.unsa.ba/b/information-literacy-and-democracy-idesa-2021/' target='_blank'>Creative Coding in Balkan Schools: Making Algorithmic Art a Part of Official High School Curiculums in Serbia</a></em>, IDESA 2021, Fakultet političkih nauka Univerziteta u Sarajevu, Sarajevo, Bosna i Hercegovina</li>
+<li><span class='italic-style'>Umetnost u kontekstu</span>, seminar za izabrane umetnike i kustose u okviru <a href='https://theylive.eu/air.php' target='_blank'>They:Live Artist-in-Residence programa</a>, Univerzitet umetnosti UDK, Berlin, Nemačka</li>
 <li><span class='italic-style'>Prezentacija umetničkog i dizajnerskog rada</span>, Visualizing Knowledge Conference, Aalto University, Helsinki, Finska</li>
+<li><em><a href='https://www.vijesti.me/kultura/569560/umjetnicke-prakse-urosa-krcadinca' target='_blank'>Artist Talk</a></em>, Institut za savremenu umjetnost, Podgorica, Crna Gora</li>
 <li><span class='italic-style'>Autorsko predavanje</span>, AI Lab, Centar za promociju nauke, Beograd, Srbija</li>
 <li><span class='italic-style'>Mašinsko učenje, umetnost i kultura</span> (javno predavanje), Odsek za softversko inženjerstvo, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
 <li><span class='italic-style'>Kritička novomedijska umetnost</span> (javno predavanje), Beogradska otvorena škola, Beograd, Srbija</li>
@@ -78,6 +101,7 @@ data:
 <li><span class='italic-style'>Vizuelizacija podataka za aktiviste i zaposlene u javnom sektoru</span> (predavanje i radionica), UNDP seminar otvorenih podataka, Zrenjanin</li>
 <li><span class='italic-style'>Autorsko predavanje</span>, Nova Iskra, Beograd</li>
 <li><span class='italic-style'>(Post)Digital Age: Media, Business, Technology, Trust</span> (javno predavanje), Konferencija (Post)Digital Age, Fakultet za medije i komunikacije, Beograd</li>
+</ul>
 <div class='list-title interface-heading-style'>2018</div>
 <ul>
 <li><span class='italic-style'><a href='http://dejangrba.org/publications/en/books/2018-going-postdigital/2018-going-postdigital.php' target='_blank'>NACRT: Orijentisanje u savremenoj novomedijskoj umetnosti</a></span> (javna tribina), Salon Muzeja savremene umetnosti, Beograd, Srbija</li>
@@ -166,7 +190,7 @@ data:
 <div class='list-title interface-heading-style'><br></div>
 <ul>
 <li>—</li>
-<li>Kompletan spisak tribina o <span class='italic-style'>Bantustanu</span> nalazi se na <a href='/rad/projekti/bantustan-book/'>stranici projekta</a>. Lista izabranih javnih radionica nalazi se na stranici <a href='/rad/edukacija/'>Edukacija.</a></li>
+<li>Kompletan spisak tribina o knjizi <span class='italic-style'>Bantustan: atlas jednog putovanja</span> nalazi se na <a href='/rad/projekti/bantustan-book/'>stranici projekta</a>. Lista izabranih javnih radionica nalazi se na stranici <a href='/rad/edukacija/'>Edukacija</a>.</li>
 </ul>
 </div>" 
 timeline:
@@ -197,4 +221,6 @@ timeline:
     - year: 2020
       d: 10
     - year: 2021
-      d: 5
+      d: 8
+    - year: 2022
+      d: 7

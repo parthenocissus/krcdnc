@@ -10,10 +10,21 @@ data:
       images:
         - path: "media/projects/bantustan-book/img/bantustan-book29.jpg"
         - path: "media/pages/teaching02.jpg"
+        - path: "media/pages/uros-dksg-18-april.jpg"
         - path: "media/pages/krokodil02.jpg"
+        - path: "media/pages/dksg-001.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2021</div>
+      <div class='list-title-first-page interface-heading-style'>2022</div>
     <ul>
+    <li><em><a href='https://rs.n1info.com/kultura/onda-porastes-a-mape-postanu-strasne-izlozba-urosa-krcadinca-u-galeriji-dksg/' target='_blank'>Uroš Krčadinac's Solo Exhibition in the DKSG Gallery</a></em>, N1, Belgrade, Serbia</li>
+    <li><em><a href='https://www.mixcloud.com/Sceniranje/' target='_blank'>Sceniranje</a></em> (Podcast Interview), NKSS, hosts Luna Stefanović and Sofija Balać, Belgrade, Serbia</li>
+    <li><em><a href='https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/4789233/-ildiko-erdei.html' target='_blank'>In the First Five</a></em>, Radio Belgrade 2, author Sara Arsenović, Belgrade, Serbia</li>
+    <li><em><a href='https://www.euronews.rs/kultura/aktuelno-iz-kulture/44780/umetnik-uros-krcadinac-i-kustos-lav-mrenovic-u-rezidencijalnom-programu-u-studentskom-gradu/vest' target='_blank'>Artist-in-residence Uroš Krčadinac and curator-in-residence Lav Mrenović in the Belgrade Student City</a></em>, Euronews, Belgrade, Serbia</li>
+    <li><em><a href='https://www.politika.rs/sr/clanak/505301/Prostori-buduceg-secanja' target='_blank'>Prostori budućeg sećanja</a></em>, Politika, Beograd, Srbija</li>
+    </ul>
+      <div class='list-title interface-heading-style'>2021</div>
+    <ul>
+    <li><em><a href='https://www.vijesti.me/kultura/569560/umjetnicke-prakse-urosa-krcadinca' target='_blank'>The Art Practice of Uroš Krčadinac</a></em>, Vijesti, Podgorica, Montenegro</li>
     <li><em><a href='https://podcast.rs/jedan-pisac-jedna-knjiga-2-james-bridle-novo-mracno-doba-26-01-2021/' target='_blank'>One Writer, One Book</a></em> (Podcast Interview), Radio Galaxy, host Dušan Pavlović, Belgrade, Serbia</li>
     </ul>
       <div class='list-title interface-heading-style'>2020</div>
@@ -39,6 +50,7 @@ data:
 <ul>
 <li><span class='italic-style'><a href='https://www.vreme.com/cms/view.php?id=1452525' target='_blank'>Formal Education is Not Enough</a></span> (Interview), Vreme, Belgrade, Serbia</li>
 <div class='list-title interface-heading-style'>2015</div>
+</ul>
 <ul>
 <li><span class='italic-style'><a href='http://www.klubputnika.org/zbirka/blogovi/bantustan/3997-bantustan-kao-novi-oblik-romana' target='_blank'>Literary Review of Bantustan</a></span>, Klub putnika, author Elis Bektaš</li>
 <li><span class='italic-style'><a href='https://www.beforeafter.rs/kultura/bantustan/' target='_blank'>Interview</a></span>, BeforeAfter, author Staša Bajac</li>
@@ -52,8 +64,7 @@ data:
 <ul>
 <li><span class='italic-style'>Synesketch</span>, Creative Review, London, UK</li>
 <li><span class='italic-style'><a href='http://www.visualcomplexity.com/vc/project.cfm?id=695' target='_blank'>Synesketch</a></span>, VisualComplexity.com, editor Manuel Lima, New York, USA</li>
-</ul>
-</div>" 
+</ul>" 
 timeline:
     - year: 2008
       d: 2
@@ -68,4 +79,6 @@ timeline:
     - year: 2020
       d: 4
     - year: 2021
-      d: 1
+      d: 2
+    - year: 2022
+      d: 5

@@ -226,6 +226,7 @@ def space(name):
     return render_template('/space/' + name + '.html')
 
 
+# ___________________________
 # BANTUSTAN INTERACTIVE ATLAS
 # a special website for interactive maps
 
@@ -268,6 +269,7 @@ def bntstn_map_s(name):
     return render_template('bntstn-atlas/bantustan_map.html', map=this_map, params=sh.params())
 
 
+# _________________________
 # SVESVRSTANI / ALL-ALIGNED
 # a special web app for generating flags
 
@@ -331,6 +333,7 @@ def myflaggenerate():
     return json.dumps({"svg": svg})
 
 
+# _________________
 # ADDITIONAL ROUTES
 # synesketch, download, etc.
 

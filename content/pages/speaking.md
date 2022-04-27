@@ -10,6 +10,10 @@ data:
       images:
         - path: "media/pages/speaking_mokrin02.jpg"
           name: "TEDx Mokrin, Serbia, 2018"
+        - path: "media/pages/uros-sarajevo-2021.jpg"
+          name: "University of Sarajevo, Sarajevo, 2021"
+        - path: "media/pages/uros-pancevo-2022.jpg"
+          name: "<em>Spaces of Future Remembrance</em>, Theater Vojvodina, Pančevo, 2022"
         - path: "media/pages/teaching04.jpg"
           name: "Nova Iskra, Belgrade, 2016"
         - path: "media/pages/krokodil01.jpg"
@@ -36,12 +40,31 @@ data:
           name: "Kriterion, Sarajevo, 2015"        
         - path: "media/pages/speaking_novaiskra01.jpg"
           name: "Nova Iskra, Belgrade, 2016"
+        - path: "media/pages/dksg-publika.jpg"
+          name: "Solo Exhibition, DKSG Gallery, Belgrade, 2022"
+        - path: "media/pages/uros-dksg-001.jpg"
+          name: "Solo Exhibition, DKSG Gallery, Belgrade, 2022"
+        - path: "media/pages/dksg-potpisivanje.jpg"
+          name: "Solo Exhibition, DKSG Gallery, Belgrade, 2022"
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Serbian Academy of Arts and Sciences, Belgrade, 2019"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2021</div>
+      <div class='list-title-first-page interface-heading-style'>2022</div>
 <ul>
+<li>Artist talk as a part of the solo exhibition <em><a href='https://www.dksg.rs/lat/onda-porastes-a-mape-postanu-strasne/' target='_blank'>Then you grow up and maps become scary</a></em>, DKSG Gallery, Belgrade, Serbia</li>
+<li><em><a href='https://elle.rs/Lifestyle/Umetnost/a43317/Izlozba-Prostori-buduceg-secanja.html' target='_blank'>Digital Art and the Hacking of the Future</a></em>, lecture as a part of a group exhibition <em>Spaces of Future Remeberence</em>, Theater Vojvodina, Pančevo, Serbia</li>
+<li><em><a href='https://www.kcb.org.rs/2022/03/digitalizacija-i-digitalna-kultura/' target='_blank'>Digitalization and Digital Culture</a></em>, Artget Gallery, The Cultural Centre of Belgrade, Belgrade, Serbia</li>
+<li><em>Public talk about the They:Live Artist-in-Residence programme</em>, Student City Cultural Centre, Belgrade, Serbia</li>
+<li><em>On Hacking</em> (public lecture), Belgrade Open School, Belgrade, Serbia</li>
+<li><em>Artist Talk</em>, Petnica Science Centre, Serbia</li>
+<li><em>Critical Mapping: Data Visualization as a Tool for Critical Understanding of Urban Systems</em> (public lecture), conf. <em>Towards a Different City</em>, Institute for Urban Studies, Belgrade, Serbia</li>
+</ul>
+<div class='list-title interface-heading-style'>2021</div>
+<ul>
+<li><em><a href='https://fpn.unsa.ba/b/information-literacy-and-democracy-idesa-2021/' target='_blank'>Creative Coding in Balkan Schools: Making Algorithmic Art a Part of Official High School Curiculums in Serbia</a></em>, IDESA 2021, University of Sarajevo, Sarajevo, Bosnia and Herzegovina</li>
+<li><span class='italic-style'>Art in Context</span>, seminar for selected artists and curators within the <a href='https://theylive.eu/air.php' target='_blank'>They:Live Artist-in-Residence programme</a>, University of Art UDK, Berlin, Germany</li>
 <li><span class='italic-style'>Artist Talk</span>, Visualizing Knowledge Conference, Aalto University, Finland</li>
+<li><em><a href='https://www.vijesti.me/kultura/569560/umjetnicke-prakse-urosa-krcadinca' target='_blank'>Artist Talk</a></em>, Institute for Contemporary Art, Podgorica, Montenegro</li>
 <li><span class='italic-style'>AI and Culture</span> (Public Lecture), Department of Software Engineering, Faculty of Organisational Sciences, University of Belgrade, Serbia</li>
 <li><span class='italic-style'>Algoritmic Culture</span> (Public Lecture), Belgrade Open School, Belgrade, Serbia</li>
 <li><span class='italic-style'>How I Spent the Pandemic</span> (Public Lecture), Petnica Science Centre, Serbia</li>
@@ -198,4 +221,6 @@ timeline:
     - year: 2020
       d: 10
     - year: 2021
-      d: 5
+      d: 8
+    - year: 2022
+      d: 7
