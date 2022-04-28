@@ -65,6 +65,9 @@ data:
 <li><span class='italic-style'>Umetnost u kontekstu</span>, seminar za izabrane umetnike i kustose u okviru <a href='https://theylive.eu/air.php' target='_blank'>They:Live Artist-in-Residence programa</a>, Univerzitet umetnosti UDK, Berlin, Nemačka</li>
 <li><span class='italic-style'>Prezentacija umetničkog i dizajnerskog rada</span>, Visualizing Knowledge Conference, Aalto University, Helsinki, Finska</li>
 <li><em><a href='https://www.vijesti.me/kultura/569560/umjetnicke-prakse-urosa-krcadinca' target='_blank'>Artist Talk</a></em>, Institut za savremenu umjetnost, Podgorica, Crna Gora</li>
+<li><em><a href='http://pdp.rs/pdp13sr.pdf' target='_blank'>Kako biti jedno isto kad smo svakog trenutka nešto novo?</a></em> (autorsko predavanje), PDP konferencija, Novi Sad, Srbija</li>
+<li><em><a href='http://pdp.rs/pdp13sr.pdf' target='_blank'>Kako se prave interaktivne priče?</a></em> (radionica interaktivnog pripovedanja), PDP konferencija, Novi Sad, Srbija</li>
+<li><em><a href='https://elementarium.cpn.rs/u-centru/kako-komunicirati-savremenu-nauku/' target='_blank'>Infografika i data pripovedanje</a></em>, javno predavanje u okviru seminara <em>Kako komunicirati savremenu nauku?</em>, Centar za promociju nauke, Beograd, Srbija</li>
 <li><span class='italic-style'>Autorsko predavanje</span>, AI Lab, Centar za promociju nauke, Beograd, Srbija</li>
 <li><span class='italic-style'>Mašinsko učenje, umetnost i kultura</span> (javno predavanje), Odsek za softversko inženjerstvo, Fakultet organizacionih nauka, Univerzitet u Beogradu, Srbija</li>
 <li><span class='italic-style'>Kritička novomedijska umetnost</span> (javno predavanje), Beogradska otvorena škola, Beograd, Srbija</li>
@@ -221,6 +224,6 @@ timeline:
     - year: 2020
       d: 10
     - year: 2021
-      d: 8
+      d: 11
     - year: 2022
       d: 7

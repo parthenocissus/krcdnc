@@ -65,6 +65,9 @@ data:
 <li><span class='italic-style'>Art in Context</span>, seminar for selected artists and curators within the <a href='https://theylive.eu/air.php' target='_blank'>They:Live Artist-in-Residence programme</a>, University of Art UDK, Berlin, Germany</li>
 <li><span class='italic-style'>Artist Talk</span>, Visualizing Knowledge Conference, Aalto University, Finland</li>
 <li><em><a href='https://www.vijesti.me/kultura/569560/umjetnicke-prakse-urosa-krcadinca' target='_blank'>Artist Talk</a></em>, Institute for Contemporary Art, Podgorica, Montenegro</li>
+<li><em><a href='http://pdp.rs/pdp13en.pdf' target='_blank'>How Can You Stay the Same When Each New Moment You Are Created Anew?</a></em> (artist talk), PDP Design Conference, Novi Sad, Serbia</li>
+<li><em><a href='http://pdp.rs/pdp13en.pdf' target='_blank'>How Are Interactive Stories Made?</a></em> (public workshop on interactive storytelling), PDP Design Conference, Novi Sad, Serbia</li>
+<li><em><a href='https://elementarium.cpn.rs/u-centru/kako-komunicirati-savremenu-nauku/' target='_blank'>Infografika i data pripovedanje</a></em>, javno predavanje u okviru seminara <em>Kako komunicirati savremenu nauku?</em>, Centar za promociju nauke, Beograd, Srbija</li>
 <li><span class='italic-style'>AI and Culture</span> (Public Lecture), Department of Software Engineering, Faculty of Organisational Sciences, University of Belgrade, Serbia</li>
 <li><span class='italic-style'>Algoritmic Culture</span> (Public Lecture), Belgrade Open School, Belgrade, Serbia</li>
 <li><span class='italic-style'>How I Spent the Pandemic</span> (Public Lecture), Petnica Science Centre, Serbia</li>
@@ -221,6 +224,6 @@ timeline:
     - year: 2020
       d: 10
     - year: 2021
-      d: 8
+      d: 11
     - year: 2022
       d: 7
