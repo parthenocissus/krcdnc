@@ -13,7 +13,7 @@ page:
     txt2: "<p>Grafike se prodaju u sledećem paketu:</p>
 <p><ul><li>štampana mapa na velikom formatu, 50 x 70 cm, potpisana i numerisana, tehnika sitoštampe, kvalitetan papir;</li>
 <li>docrtan crtež na mapi ili na zasebnom papiru (po želji), unikatan, svakom drugačiji;</li>
-<li>hilzna, tuba za pakovanje i transport;</li>
+<li>hilzna, tuba za pakovanje i transport.</li>
 </ul></p>
 <p>Jedan paket: <span class='email'>400 HRK</span>. Dva paketa: <span class='email'>650 HRK</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>1100 HRK</span>.</p>"
     txt3: "<p>Mape proizvodim u serijama od po 50 primeraka. To znači da se kao autor obavezujem da ne bude više od ukupno 50 potpisanih, docrtanih i numerisanih primeraka svake mape.</p>
