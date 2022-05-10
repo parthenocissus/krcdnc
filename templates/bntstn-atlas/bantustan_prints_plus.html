@@ -1,0 +1,154 @@
+{% extends "bntstn-atlas/bantustan_base.html" %}
+
+{% block title %}
+    Bantustan {{ params.bntstn.title }}
+{% endblock %}
+
+{% block head %}
+
+    {{ super() }}
+
+    {% set main_img_path = "space/afroatlas/maps/small/" ~ params.bntstn.lang ~ "_" ~ "zambia" ~ ".jpg" %}
+    {% set main_title = 'Uroš Krčadinac → Bantustan Atlas ' ~ params.bntstn.menu.submenu.prints %}
+    {% set main_description = map.desc %}
+    {% set main_url = 'https://krcadinac.com/bantustan-interactive-atlas/' ~ params.bntstn.menu.submenu.prints_link %}
+
+    <meta property="og:title" content="{{ main_title }}">
+    <meta property="og:description" content="{{ main_description }}">
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
+    <meta property="og:url" content="{{ main_url }}">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@krcadinac"/>
+    <meta name="twitter:title" content="{{ main_title }}"/>
+    <meta name="twitter:description" content="{{ main_description }}"/>
+    <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}"/>
+
+    <style>
+
+        html, body {
+            background-color: white;
+            overflow-y: auto;
+        }
+
+        .home-header .hamburger rect {
+            fill: black;
+        }
+
+        .home-header .hamburger:hover rect {
+            fill: var(--main);
+        }
+
+        .home-header .lang div a {
+            color: black;
+        }
+
+        .home-header .lang div a:hover {
+            color: var(--main);
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: white;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #1D1D1D;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: black;
+        }
+
+    </style>
+
+{% endblock %}
+
+{% block main %}
+
+    <div class="yellower">
+        <svg x="0px" y="0px" viewBox="0 0 100 100">
+            <circle cx="0px" cy="0px" r="50"></circle>
+        </svg>
+    </div>
+
+    <div class="home-header white-back-mobile">
+
+        <svg id="menu-hamburger" class="home-hamburger hamburger" x="0px" y="0px" viewBox="0 0 11 11">
+            <rect width="11" height="3"></rect>
+            <rect y="8" width="11" height="3"></rect>
+            <rect y="4" width="11" height="3"></rect>
+        </svg>
+
+        <div class="lang">
+            <div id="nas"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.rs }}">Naš</a></div>
+            <div id="eng"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.en }}">Eng</a></div>
+        </div>
+
+    </div>
+
+    <div class="prints-content">
+
+        <div class="inner">{{ map.page.txt|safe }}</div>
+
+        <div class="images">
+            <div class="img_row">
+                <img src="{{ url_for('static', filename='space/afroatlas/prints/namibija-print.jpg') }}">
+                <img src="{{ url_for('static', filename='space/afroatlas/prints/tanganjika-print.jpg') }}">
+            </div>
+            <div class="img_row" style="grid-template-columns: 887fr 2000fr;">
+                <img src="{{ url_for('static', filename='space/afroatlas/prints/idrisi-print.jpg') }}">
+                <img src="{{ url_for('static', filename='space/afroatlas/prints/najrobi-print.jpg') }}">
+            </div>
+        </div>
+
+        <div class="inner">{{ map.page.txt2|safe }}</div>
+
+        <div class="images">
+            <div class="img_row" style="grid-template-columns: 1fr 1fr;">
+                <img src="{{ url_for('static', filename='space/afroatlas/prints/najrobi-detalj.jpg') }}">
+                <img src="{{ url_for('static', filename='space/afroatlas/prints/tanganjika-detalj.jpg') }}">
+            </div>
+            <div class="img_row" style="grid-template-columns: 1498fr 668fr;">
+                <img src="{{ url_for('static', filename='space/afroatlas/prints/namibija-detalj.jpg') }}">
+                <img src="{{ url_for('static', filename='space/afroatlas/prints/idrisi-uros.jpg') }}">
+            </div>
+        </div>
+
+        <div class="inner">{{ map.page.txt3|safe }}</div>
+
+    </div>
+
+{#    <div class="prints-maps">#}
+{#        {% for m in map.map_list %}#}
+{#            {% set lnk = 'space/afroatlas/maps/small/' ~ params.bntstn.lang ~ '_' ~ m.id ~ '.jpg' %}#}
+{#            {% set goto = '/bantustan-interactive-atlas/' ~ params.bntstn.menu.map_link ~ '/' ~ m.id %}#}
+{#            {% set realchapter = params.bntstn.chapter ~ " " ~ m.chapter ~ ", " %}#}
+{#            {% set chapter = "" if m.chapter == "other" else realchapter %}#}
+{#            {% set capt = m.title ~ ", " ~ chapter ~ "2015–2022." %}#}
+{#            <a href='{{ goto }}'>#}
+{#                <div class="map-img">#}
+{#                    <img src="{{ url_for('static', filename=lnk) }}"#}
+{#                         alt="{{ 'uroš krčadinac ' ~ m.id }}"#}
+{#                         title="{{ params.bntstn.menu.prints_tooltip ~ ' → ' ~ m.title }}"/>#}
+{#                    <div class="map-caption">{{ capt }}</div>#}
+{#                </div>#}
+{#            </a>#}
+{#        {% endfor %}#}
+{#    </div>#}
+
+
+{% endblock %}
+
+{% block menulang %}
+    <div id="nas"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.rs }}">Naš</a></div>
+    <div id="eng"><a href="{{ '/bantustan-interactive-atlas/' ~ map.identity.en }}">Eng</a></div>
+{% endblock %}

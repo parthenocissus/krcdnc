@@ -256,6 +256,13 @@ def bntstn_atlas_prints_s():
     return render_template('bntstn-atlas/bantustan_prints.html', map=this_page, params=sh.params())
 
 
+@app.route('/bantustan-interactive-atlas/printovi-dodatne-informacije/')
+def bntstn_atlas_prints_plus_s():
+    this_page = utils.bntstn_home(fp, sh, "_prints_plus")
+    return render_template('bntstn-atlas/bantustan_prints_plus.html', map=this_page, params=sh.params())
+
+
+
 # maps
 @app.route('/bantustan-interactive-atlas/map/<name>/')
 def bntstn_map(name):
