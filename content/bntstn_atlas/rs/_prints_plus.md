@@ -15,7 +15,8 @@ page:
 <li>docrtan crtež na mapi ili na zasebnom papiru (po želji), unikatan, svakom drugačiji;</li>
 <li>hilzna, tuba za pakovanje i transport.</li>
 </ul></p>
-<p>Jedan paket: <span class='email'>400 kn</span>. Dva paketa: <span class='email'>650 kn</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>1100 kn</span>.</p>"
+<p>Prva opcija: plaćanje u kešu, na licu mesta. Jedan paket iznosi <span class='email'>400 kn</span>. Dva paketa: <span class='email'>650 kn</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>1100 kn</span>.</p>
+<p>Druga opcija: plaćanje u evrima preko PayPala i podizanje paketa na licu mesta. U tom slučaju, jedan paket iznosi <span class='email'>53 eur</span>. Dva paketa: <span class='email'>85 eur</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>145 eur</span>.</p>"
     txt3: "<p>Mape proizvodim u serijama od po 50 primeraka. To znači da se kao autor obavezujem da ne bude više od ukupno 50 potpisanih, docrtanih i numerisanih primeraka svake mape.</p>
 <p>Domaće izdanje knjige »Bantustan: atlas jednog putovanja« objavljena je kao <a href='https://krcadinac.com/download/books/Bantustan.pdf' target='_blank'>otvoreno licenciran besplatan PDF</a>. To znači da knjigu možete ne samo besplatno preuzeti, nego i legalno štampati o svom trošku. Interaktivni projekat »Bantustan: interaktivni atlas« takođe sam objavio kao <a href='http://github.com/parthenocissus/' target='_blank'>slobodan i besplatan projekat otvorenog koda</a>.</p>
 <p>Kupovinom grafika podržavate moj rad i ovakve prakse činite održivim.</p>
