@@ -17,7 +17,8 @@ data:
       <div class='list-title-first-page interface-heading-style'>2022</div>
     <ul>
     <li><em><a href='https://rs.n1info.com/kultura/onda-porastes-a-mape-postanu-strasne-izlozba-urosa-krcadinca-u-galeriji-dksg/' target='_blank'>Uroš Krčadinac's Solo Exhibition in the DKSG Gallery</a></em>, N1, Belgrade, Serbia</li>
-    <li><em><a href='https://www.mixcloud.com/Sceniranje/' target='_blank'>Sceniranje</a></em> (Podcast Interview), NKSS, hosts Luna Stefanović and Sofija Balać, Belgrade, Serbia</li>
+    <li><em><a href='https://013info.rs/vesti/srbija/uros-krcadinac-i-lav-mrenovic-predstavili-rezultate-umetnicke-rezidencije-u-okviru' target='_blank'>Uroš Krčadinac and Lav Mrenović presented the results of the Artist-in-Residence project They:Live</a></em>, 013info, Pančevo, Serbia</li>
+    <li><em><a href='https://www.mixcloud.com/Sceniranje/200-marina-milovanovi%C4%87-i-uro%C5%A1-kr%C4%8Dadinac-priroda-i-dru%C5%A1tvo/' target='_blank'>Sceniranje</a></em> (Podcast Interview), NKSS, hosts Luna Stefanović and Sofija Balać, Belgrade, Serbia</li>
     <li><em><a href='https://www.rts.rs/page/radio/sr/story/24/radio-beograd-2/4789233/-ildiko-erdei.html' target='_blank'>In the First Five</a></em>, Radio Belgrade 2, author Sara Arsenović, Belgrade, Serbia</li>
     <li><em><a href='https://www.euronews.rs/kultura/aktuelno-iz-kulture/44780/umetnik-uros-krcadinac-i-kustos-lav-mrenovic-u-rezidencijalnom-programu-u-studentskom-gradu/vest' target='_blank'>Artist-in-residence Uroš Krčadinac and curator-in-residence Lav Mrenović in the Belgrade Student City</a></em>, Euronews, Belgrade, Serbia</li>
     <li><em><a href='https://www.politika.rs/sr/clanak/505301/Prostori-buduceg-secanja' target='_blank'>Prostori budućeg sećanja</a></em>, Politika, Beograd, Srbija</li>
