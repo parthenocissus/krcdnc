@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#ffffff\" height=\"100\" stroke=\"none\" width=\"50.0\" x=\"0.0\" y=\"0\"></rect><rect fill=\"#ff1ea8\" height=\"100\" stroke=\"none\" width=\"50.0\" x=\"50.0\" y=\"0\"></rect><rect fill=\"#bd3809\" height=\"100\" stroke=\"none\" width=\"50.0\" x=\"100.0\" y=\"0\"></rect></g><g id=\"empty\"></g></svg>",
+    "q1": "miloslav//2. grupa//1. pokušaj",
+    "q2": "-",
+    "q3": "-",
+    "email": "simteo011@gmail.com",
+    "checked": true
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        #flag {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+    </style>
+
+    <link rel="shortcut icon" href="#">
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        let parameters = JSON.parse({{ params|tojson }});
+        let appText = {{ lp|tojson }};
+    </script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
+
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>#}
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/instalacija.js') }}"></script>
+
+    <title>Svesvrstani</title>
+
+</head>
+<body>
+
+<main>
+
+    <div id="flag">
+        <svg id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet">
+        </svg>
+    </div>
+
+</main>
+
+</body>
+</html>

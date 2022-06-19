@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><path d=\"M0,100 L150,0 L150,100 z\" fill=\"#cc3200\" stroke=\"none\"></path><path d=\"M0,100 L150,0 L0,0 z\" fill=\"#cc6600\" stroke=\"none\"></path></g><g transform=\"translate(6.494173845532821, 6.494173845532821) scale(0.2701165230893436) rotate(0, 50.0, 50.0)\"><path d=\"M 100.0,81.7 L 83.3,65.0 L 66.7,81.7 L 50.0,65.0 L 33.4,81.7 L 16.7,65.0 L 0.0,81.7 L 0.0,67.8 L 16.7,51.099999999999994 L 33.4,67.8 L 50.0,51.1 L 66.7,67.8 L 83.30000000000001,51.099999999999994 L 100.0,67.8 L 100.0,81.7 M 100.0,48.9 L 83.3,32.2 L 66.7,48.9 L 50.0,32.2 L 33.4,48.9 L 16.7,32.2 L 0.0,48.9 L 0.0,35.0 L 16.7,18.3 L 33.4,35.0 L 50.0,18.3 L 66.7,35.0 L 83.30000000000001,18.3 L 100.0,35.0 L 100.0,48.9\" fill=\"#336633\" stroke=\"none\" stroke-width=\"3.0px\"></path></g></svg>",
+    "q1": "{rezerva}",
+    "q2": "{rezerva}",
+    "q3": "{rezerva}",
+    "email": "{rezerva}",
+    "checked": true
+}

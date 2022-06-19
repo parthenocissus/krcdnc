@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#ff9932\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect><rect fill=\"#708090\" height=\"100\" stroke=\"none\" width=\"44.80944010426085\" x=\"0\" y=\"0\"></rect></g><g id=\"empty\"></g></svg>",
+    "q1": "{rezerva}",
+    "q2": "{rezerva}",
+    "q3": "{rezerva}",
+    "email": "{rezerva}",
+    "checked": true
+}

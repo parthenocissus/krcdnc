@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#000000\" height=\"50.0\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect><rect fill=\"#760188\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"50.0\"></rect><path d=\"M0,0 L86.60254037844386,50.0 L0,100 z\" fill=\"#009966\" stroke=\"none\"></path><path d=\"M0,0 L86.60254037844386,50.0 L0,100 L86.60254037844386,50.0 L150,50.0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"32.84201090230598\"></path><path d=\"M0,0 L86.60254037844386,50.0 L0,100 L86.60254037844386,50.0 L150,50.0\" fill=\"none\" stroke=\"#971e1d\" stroke-width=\"18.2166028259514\"></path></g><g transform=\"translate(4.972122608215351, 35.47212260821535) scale(0.290557547835693) rotate(0, 50.0, 50.0)\"><path d=\"M 40.4,55.3 L 30.799999999999997,55.3 L 30.799999999999997,44.4 L 51.3,44.4 L 82.0,13.7 L 69.2,13.7 L 69.2,3.4 L 100.0,3.4 L 100.0,35.6 L 88.5,35.6 L 88.5,23.1 L 67.1,44.4 L 76.89999999999999,44.4 L 76.89999999999999,55.3 L 56.2,55.3 L 15.8,95.7 L 0.0,95.7 L 40.4,55.3\" fill=\"#ff9901\" stroke=\"#ffce00\" stroke-width=\"3.0px\"></path></g></svg>",
+    "q1": "{rezerva}",
+    "q2": "{rezerva}",
+    "q3": "{rezerva}",
+    "email": "{rezerva}",
+    "checked": true
+}

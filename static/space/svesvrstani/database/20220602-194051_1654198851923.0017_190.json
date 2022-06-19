@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><path d=\"M0,0 L0.0,150.0 L129.9038105676658,75.00000000000001 z\" fill=\"#ff6602\" stroke=\"none\" transform=\"translate(75.0, 50.0)\"></path><path d=\"M0,0 L129.9038105676658,75.00000000000001 L129.9038105676658,-74.99999999999997 z\" fill=\"#ffce00\" stroke=\"none\" transform=\"translate(75.0, 50.0)\"></path><path d=\"M0,0 L129.9038105676658,-74.99999999999997 L1.8369701987210297e-14,-150.0 z\" fill=\"#009966\" stroke=\"none\" transform=\"translate(75.0, 50.0)\"></path><path d=\"M0,0 L1.8369701987210297e-14,-150.0 L-129.90381056766574,-75.00000000000007 z\" fill=\"#00008b\" stroke=\"none\" transform=\"translate(75.0, 50.0)\"></path><path d=\"M0,0 L-129.90381056766574,-75.00000000000007 L-129.90381056766586,74.9999999999999 z\" fill=\"#925394\" stroke=\"none\" transform=\"translate(75.0, 50.0)\"></path><path d=\"M0,0 L-129.90381056766586,74.9999999999999 L-3.6739403974420595e-14,150.0 z\" fill=\"#603814\" stroke=\"none\" transform=\"translate(75.0, 50.0)\"></path></g><g id=\"empty\"></g></svg>",
+    "q1": "{rezerva}",
+    "q2": "{rezerva}",
+    "q3": "{rezerva}",
+    "email": "{rezerva}",
+    "checked": true
+}

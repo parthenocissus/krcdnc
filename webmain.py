@@ -285,6 +285,12 @@ from bin.allaligned.allaligned_facade import MyFlagFacadeUtil
 mf = MyFlagFacadeUtil()
 
 
+@app.route("/svesvrstani-instalacija")
+def svesvrstani_instalacija():
+    lp, params = mf.flag_mappings("sr")
+    return render_template('svesvrstani/svesvrstani-instalacija.html', params=params, lp=lp)
+
+
 @app.route("/mojazastava")
 def mojazastava():
     lp, params = mf.flag_mappings("sr")
@@ -338,6 +344,19 @@ def myflagdeleteall():
 def myflaggenerate():
     svg = mf.generate_flag(request.args.get('vector'))
     return json.dumps({"svg": svg})
+
+
+@app.route('/_generate_flags')
+def generate_flags():
+    # print(request)
+    svg_data = mf.get_flag_random(request)
+    return json.dumps(svg_data)
+
+
+@app.route('/_get_flags_from_database')
+def get_flags_from_database():
+    svg_data = mf.get_flag_from_database(request)
+    return json.dumps(svg_data)
 
 
 # _________________

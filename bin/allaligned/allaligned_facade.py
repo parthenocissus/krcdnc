@@ -1,8 +1,12 @@
-import os
 import json
 import time
+from os import listdir
+from os.path import isfile, join
+
 # import glob
+import random
 from random import randint
+# from random import random
 
 from flask import send_file
 
@@ -22,6 +26,7 @@ class MyFlagFacadeUtil:
         self.database_path = 'static/space/svesvrstani/database/'
         self.database2_path = 'static/space/svesvrstani/database2/'
         self.database_final_path = 'static/space/svesvrstani/database_final/'
+        self.selected_flags = 'static/space/svesvrstani/selected_flags/'
         self.current_flag_svg = ""
 
         with open(self.lang_path, encoding="utf8") as json_file:
@@ -35,6 +40,34 @@ class MyFlagFacadeUtil:
         svg = svg.replace('height="100px"', '').replace('width="150px"', '')
         # self.current_flag_svg = svg
         return svg
+
+    def get_flag_from_database(self, request):
+        n = int(json.loads(request.args.get('n')))
+        svg_data = []
+        path = self.selected_flags
+        files = [f for f in listdir(path) if isfile(join(path, f))]
+        for _ in range(n):
+            file_name = random.choice(files)
+            full_name = f"{path}/{file_name}"
+            svg = open(full_name, "r").read()
+            # svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
+            svg = svg.replace('height="100px"', '').replace('width="150px"', '')
+            svg = svg.replace('version="1.1"', 'id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet"')
+            svg_data.append(svg)
+        return svg_data
+
+    def get_flag_random(self, request):
+        # raw_input = json.loads(request.args.get('raw'))
+        n = int(json.loads(request.args.get('n')))
+        svg_data = []
+        for _ in range(n):
+            # gf = GenFlag(raw_input=raw_input, raw=True)
+            gf = GenFlag()
+            svg = gf.svg_string()
+            svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
+            svg = svg.replace('height="100px"', '').replace('width="150px"', '')
+            svg_data.append(svg)
+        return svg_data
 
     def save_data(self, data):
         data = json.loads(data)

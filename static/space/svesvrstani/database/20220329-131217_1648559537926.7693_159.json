@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#ffce00\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect><line fill=\"none\" stroke=\"#ff9932\" stroke-width=\"12.344665344232327\" x1=\"0\" x2=\"150\" y1=\"0\" y2=\"100\"></line><line fill=\"none\" stroke=\"#ff9932\" stroke-width=\"12.344665344232327\" x1=\"0\" x2=\"150\" y1=\"100\" y2=\"0\"></line><line fill=\"none\" stroke=\"#ff9932\" stroke-width=\"14.310751412093481\" x1=\"75.0\" x2=\"75.0\" y1=\"0\" y2=\"100\"></line><line fill=\"none\" stroke=\"#ff9932\" stroke-width=\"14.310751412093481\" x1=\"0\" x2=\"150\" y1=\"50.0\" y2=\"50.0\"></line></g><g id=\"empty\"></g></svg>",
+    "q1": "{rezerva}",
+    "q2": "{rezerva}",
+    "q3": "{rezerva}",
+    "email": "{rezerva}",
+    "checked": true
+}

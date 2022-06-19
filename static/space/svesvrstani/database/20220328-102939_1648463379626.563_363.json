@@ -1,0 +1,8 @@
+{
+    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#fec50c\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect></g><g transform=\"translate(44.53776024093528, 19.537760240935278) scale(0.6092447951812945) rotate(0, 50.0, 50.0)\"><path d=\"M 50.0,1.9 L 61.8,38.199999999999996 L 100.0,38.199999999999996 L 69.1,60.7 L 80.9,97.0 L 50.0,74.5 L 19.1,97.0 L 30.900000000000002,60.7 L 0.0,38.2 L 38.2,38.2 L 50.0,1.9\" fill=\"#68bfe5\" stroke=\"none\" stroke-width=\"2.0px\"></path></g></svg>",
+    "q1": "Osećam spokoj dok gledam u ovu kombinaciju boja.",
+    "q2": "Nervira me neophodnost donošenja odluke.\nRaduje me proleće.",
+    "q3": "Korisna. I svetski putnik.",
+    "email": "nadjabulajic@gmail.com",
+    "checked": false
+}
