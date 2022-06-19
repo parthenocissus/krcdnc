@@ -82,7 +82,7 @@ class MyFlagFacadeUtil:
 
     def download_data(self):
         stream = BytesIO()
-        target = self.database_path
+        target = self.database2_path # database_path
         with ZipFile(stream, 'w') as zf:
             for file in glob(os.path.join(target, '*.json')):
                 zf.write(file, os.path.basename(file))
