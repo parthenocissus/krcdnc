@@ -1,8 +1,0 @@
-{
-    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#ffffff\" height=\"50.0\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0.0\"></rect><rect fill=\"#9d9dc1\" height=\"50.0\" stroke=\"none\" width=\"150\" x=\"0\" y=\"50.0\"></rect></g><g transform=\"translate(47.621214704726555, 22.621214704726555) scale(0.5475757059054689) rotate(0, 50.0, 50.0)\"><path d=\"M 79.47,60.89 C 79.47,88.51 66.28,100.0 50.0,100.0 C 33.72,100.0 20.53,88.51 20.53,60.89 C 20.53,33.269999999999996 26.26,0.0 50.0,0.0 C 69.83,0.0 79.47,33.28 79.47,60.89\" fill=\"#696ab1\" stroke=\"none\" stroke-width=\"0px\"></path><path d=\"M 69.24,73.3 C 69.24,83.92999999999999 60.629999999999995,92.53999999999999 50.0,92.53999999999999 C 39.370000000000005,92.53999999999999 30.76,83.92 30.76,73.3 C 30.76,62.67999999999999 39.37,54.06 50.0,54.06 C 60.63,54.06 69.24,62.67 69.24,73.3\" fill=\"#784f16\" stroke=\"none\" stroke-width=\"0px\"></path></g></svg>",
-    "q1": "{rezerva}",
-    "q2": "{rezerva}",
-    "q3": "{rezerva}",
-    "email": "{rezerva}",
-    "checked": true
-}

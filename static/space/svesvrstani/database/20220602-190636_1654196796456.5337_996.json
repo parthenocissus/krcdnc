@@ -1,8 +1,0 @@
-{
-    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#cc0033\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect><line fill=\"none\" stroke=\"#e93d8c\" stroke-width=\"14.403677007277766\" x1=\"50.0\" x2=\"50.0\" y1=\"0\" y2=\"100\"></line><line fill=\"none\" stroke=\"#e93d8c\" stroke-width=\"14.403677007277766\" x1=\"0\" x2=\"150\" y1=\"50.0\" y2=\"50.0\"></line></g><path d=\"M 63.78932800579416 50.0 L 58.21153037965513 53.40132725109185 L 59.75052734090262 59.75052734090262 L 53.40132725109185 58.21153037965513 L 50.0 63.78932800579416 L 46.59867274890815 58.21153037965513 L 40.24947265909738 59.75052734090262 L 41.78846962034487 53.40132725109185 L 36.21067199420584 50.0 L 41.78846962034486 46.59867274890816 L 40.24947265909738 40.24947265909738 L 46.59867274890815 41.78846962034487 L 50.0 36.21067199420584 L 53.40132725109185 41.78846962034487 L 59.75052734090262 40.24947265909738 L 58.21153037965513 46.59867274890815 z\" fill=\"#deba72\" stroke=\"none\"></path></svg>",
-    "q1": "Branka Konjikušić 1970e",
-    "q2": "Zastava oslikava prazničnu atmosferu i duh provoda '70ih.",
-    "q3": "/",
-    "email": "/",
-    "checked": true
-}

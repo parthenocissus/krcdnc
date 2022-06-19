@@ -1,8 +1,0 @@
-{
-    "flag": "<svg id=\"flag-svg\" viewBox=\"0 0 150 100\" preserveAspectRatio=\"xMidYMid meet\" baseProfile=\"full\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:ev=\"http://www.w3.org/2001/xml-events\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><clipPath id=\"mask0\"><rect height=\"100\" width=\"150\" x=\"0\" y=\"0\"></rect></clipPath></defs><g clip-path=\"url(#mask0)\"><rect fill=\"#603814\" height=\"100\" stroke=\"none\" width=\"150\" x=\"0\" y=\"0\"></rect><line fill=\"none\" stroke=\"#CB001E\" stroke-width=\"15.6980910620807\" x1=\"50.0\" x2=\"50.0\" y1=\"0\" y2=\"100\"></line><line fill=\"none\" stroke=\"#CB001E\" stroke-width=\"15.6980910620807\" x1=\"0\" x2=\"150\" y1=\"50.0\" y2=\"50.0\"></line></g><g transform=\"translate(22.210656806608565, 22.210656806608565) scale(0.5557868638678287) rotate(0, 50.0, 50.0)\"><path d=\"M 93.0,100.3 L 7.0,100.3 L 7.0,43.3 L 50.0,0.29999999999999716 L 93.0,43.4 L 93.0,100.3 M 21.1,86.2 L 78.9,86.2 L 78.9,49.3 L 49.900000000000006,20.299999999999997 L 21.1,49.1 L 21.1,86.2 L 21.1,86.2 M 33.9,77.3 L 33.9,56.2 L 50.0,40.1 L 66.2,56.3 L 66.2,77.3 L 33.9,77.3 L 33.9,77.3\" fill=\"#cc6600\" stroke=\"none\" stroke-width=\"3.0px\"></path></g></svg>",
-    "q1": "proba//2. grupa//1. pokušaj//",
-    "q2": "-",
-    "q3": "-",
-    "email": "simteo011@gmail.com",
-    "checked": true
-}
