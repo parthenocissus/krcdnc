@@ -37,6 +37,6 @@ $(document).ready(function () {
         // let api = genAPI;
         // let api = fromDatabaseAPI;
         generate(api);
-    }, 3500);
+    }, 5000);
 
 });
