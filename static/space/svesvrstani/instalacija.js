@@ -3,7 +3,7 @@ $(document).ready(function () {
     // const genAPI = "_myflaggenerate";
     // const fromDatabaseAPI = "_myflagfromdatabase";
 
-    const genAPI = "_generate_flags";
+    const genAPI = "_generate_flags_clean";
     const fromDatabaseAPI = "_get_flags_from_database";
 
     let generate = (api) => {
@@ -33,10 +33,10 @@ $(document).ready(function () {
     };
 
     setInterval(function () {
-        let api = (Math.random() > .5) ? genAPI : fromDatabaseAPI;
+        let api = (Math.random() > .4) ? genAPI : fromDatabaseAPI;
         // let api = genAPI;
         // let api = fromDatabaseAPI;
         generate(api);
-    }, 1000);
+    }, 3500);
 
 });

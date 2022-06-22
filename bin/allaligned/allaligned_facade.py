@@ -73,6 +73,22 @@ class MyFlagFacadeUtil:
             svg_data.append(svg)
         return svg_data
 
+    def get_flag_random_clean(self, request):
+        # raw_input = json.loads(request.args.get('raw'))
+        n = json.loads(request.args.get('n'))
+        # data_txt = request.args.get('vector')
+        # data = json.loads(data_txt)
+        svg_data = []
+        for i in range(n):
+            # gf = GenFlag(raw_input=data, raw=True)
+            gf = GenFlag()
+            svg = gf.svg_string()
+            # svg = f'{svg[:4]} id="flag{i}" {svg[5:]}'
+            svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
+            svg = svg.replace('height="100px"', '').replace('width="150px"', '')
+            svg_data.append(svg)
+        return svg_data
+
     def save_data(self, data):
         data = json.loads(data)
         # data['flag'] = self.current_flag_svg

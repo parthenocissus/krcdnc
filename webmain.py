@@ -360,8 +360,13 @@ def myflaggenerate():
 
 @app.route('/_generate_flags')
 def generate_flags():
-    # print(request)
     svg_data = mf.get_flag_random(request)
+    return json.dumps(svg_data)
+
+
+@app.route('/_generate_flags_clean')
+def generate_flags_clean():
+    svg_data = mf.get_flag_random_clean(request)
     return json.dumps(svg_data)
 
 
