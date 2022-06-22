@@ -51,6 +51,9 @@ $(document).ready(function () {
         let flags = $("#flags");
         flags.empty();
 
+        let spinner = $("#spinner");
+        spinner.show();
+
         let data = [];
         $("input[type=range]").each(function () {
             let input = $(this);
@@ -71,6 +74,8 @@ $(document).ready(function () {
             svgCount = result.length;
         }).done(() => {
             // setSvgEvents();
+            // $("#flags svg").attr("title", "Tooltip");
+            spinner.hide();
             setSvgEventsPng();
             console.log("flags received from backend, baby");
         });

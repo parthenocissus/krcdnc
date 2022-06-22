@@ -48,12 +48,12 @@
 <body>
 
 <header>
-{#    <label for="check">#}
-{#        <input type="checkbox" id="check"/>#}
-{#        <span></span>#}
-{#        <span></span>#}
-{#        <span></span>#}
-{#    </label>#}
+    {#    <label for="check">#}
+    {#        <input type="checkbox" id="check"/>#}
+    {#        <span></span>#}
+    {#        <span></span>#}
+    {#        <span></span>#}
+    {#    </label>#}
     <h1>{{ lp.main_title|safe }}</h1>
     <h3><a href="/svesvrstani">Srpski</a><a href="/all-aligned">English</a></h3>
 </header>
@@ -63,14 +63,11 @@
     <div id="left" class="interface-column">
         <div>
             <div id="instructions">
-{#                <em>All-Aligned</em> is an AI toolkit for infinite nation building and memetic identity creation.</em>#}
                 {{ lp.description }}
             </div>
             <div id="filters">
-{#                <div>Choose parameters for flag generation:</div>#}
                 {{ lp.instruction }}
                 <select id="choose-params" class="chosen" multiple="true" name="faculty"></select>
-{#                <div id="slider-header">Set parameter values:</div>#}
                 <div id="slider-header">{{ lp.instruction2 }}</div>
                 <div id="slider-group"></div>
             </div>
@@ -78,13 +75,15 @@
 
         <div>
             <div>
-{#                <button type="button" id="go">Generate</button>#}
                 <button type="button" id="go">{{ lp.generate }}</button>
             </div>
         </div>
     </div>
 
     <div id="home-flag-space">
+        <div id="spinner">
+            <img src="{{ url_for('static', filename='space/svesvrstani/img/spinner.gif') }}" alt="spinner">
+        </div>
         <div id="flags"></div>
     </div>
 
