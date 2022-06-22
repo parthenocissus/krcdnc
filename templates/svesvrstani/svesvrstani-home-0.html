@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+
+        @font-face {
+            font-family: "noe-display-bold";
+            src: url({{ url_for('static', filename='media/fonts/noe-display/noe-display-bold.woff') }}) format("woff");
+        }
+
+        {#@font-face {#}
+        {#    font-family: "apercu-mono-regular";#}
+        {#    src: url({{ url_for('static', filename='media/fonts/apercu/apercu-mono-regular-pro.woff') }}) format("woff");#}
+        {# }#}
+
+        @font-face {
+            font-family: "roboto-regular";
+            src: url({{ url_for('static', filename='media/fonts/roboto/roboto-v29-latin-regular.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "roboto-bold";
+            src: url({{ url_for('static', filename='media/fonts/roboto/Roboto-Bold.woff') }}) format("woff");
+        }
+
+    </style>
+
+    <link rel="shortcut icon" href="#">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/svesvrstani.css') }}">
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        let parameters = JSON.parse({{ params|tojson }});
+        let appText = {{ lp|tojson }};
+    </script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
+
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>#}
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/svesvrstani.js') }}"></script>
+
+    <title>{{ lp.main_title }}</title>
+
+</head>
+<body>
+
+<header>
+    <h3><a href="/svesvrstani">Srpski</a> / <a href="/all-aligned">English</a></h3>
+</header>
+
+<main>
+
+    <h1>{{ lp.main_title }}</h1>
+
+    <p class="small-margin">{{ lp.subtitle }}</p>
+
+{#    <img id="gif-illustration" src="{{ url_for('static', filename='space/svesvrstani/img/mojazastava-humans.gif') }}">#}
+
+    <p class="smaller">{{ lp.params_desc }}</p>
+
+    <p class="smaller small-margin">{{ lp.params_title }}</p>
+
+    <div id="slider-group"></div>
+
+    <button id="gen-prime" class="generate">{{ lp.generate_button }}</button>
+
+    <div id="spinner">
+        <img src="{{ url_for('static', filename='space/svesvrstani/img/spinner.gif') }}" alt="spinner">
+    </div>
+
+    <div id="flag">
+        <svg id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet">
+            <defs>
+                <clipPath id="mask0">
+                    <rect height="100" width="150" x="0" y="0"/>
+                </clipPath>
+            </defs>
+            <g clip-path="url(#mask0)">
+                <path d="M0,100 L150,0 L150,100 z" fill="#003897" stroke="none"/>
+                <path d="M0,100 L150,0 L0,0 z" fill="#ffffff" stroke="none"/>
+            </g>
+            <g transform="translate(9.08695097795441, 9.08695097795441) scale(0.2182609804409118) rotate(0, 50.0, 50.0)">
+                <path d="M 50.0,1.9 L 61.8,38.199999999999996 L 100.0,38.199999999999996 L 69.1,60.7 L 80.9,97.0 L 50.0,74.5 L 19.1,97.0 L 30.900000000000002,60.7 L 0.0,38.2 L 38.2,38.2 L 50.0,1.9"
+                      fill="#ff0000" stroke="none" stroke-width="2.0"/>
+            </g>
+        </svg>
+    </div>
+
+    <div id="under-buttons">
+        <div id="grid">
+            <div>
+                <button id="gen-secundum" class="generate">{{ lp.generate_again_button|safe }}</button>
+            </div>
+            <div>
+                <button class="continue">{{ lp.continue_button|safe }}</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="continued">
+
+        <br>
+
+        <p>{{ lp.congrats1 }}</p>
+        <p>{{ lp.congrats2 }}</p>
+        <p>{{ lp.quest_intro }}</p>
+
+        <p class="small-margin-bottom">{{ lp.quest1 }}</p>
+        <textarea id="q1" rows="5" cols="60" class="required" name="description"></textarea>
+
+        <p class="small-margin-bottom">{{ lp.quest2 }}</p>
+        <textarea id="q2" rows="5" cols="60" class="required" name="description"></textarea>
+
+        <p class="small-margin-bottom">{{ lp.quest3 }}</p>
+        <textarea id="q3" rows="5" cols="60" class="required" name="description"></textarea>
+
+        <p class="small-margin-bottom">{{ lp.quest_email }}</p>
+        <input id="q4" class="txt-input required" type="text" autocomplete="off" id="email" name="email" required minlength="4"
+               size="10">
+
+        <button class="get-flag">{{ lp.download_button }}</button>
+
+        <p class="failed">{{ lp.failed|safe }}</p>
+
+        <div class="form-group">
+            <input type="checkbox" id="saglasan" checked>
+            <label class="smaller" for="html">{{ lp.checkbox_note }}</label>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+{#    <p class="smaller">{{ lp.production }}</p>#}
+    <h3>{{ lp.production }}</h3>
+</footer>
+
+
+</body>
+</html>

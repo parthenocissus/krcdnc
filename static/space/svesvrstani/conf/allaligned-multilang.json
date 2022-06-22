@@ -1,6 +1,12 @@
 {
   "en_params": {
     "myflag": {
+      "main_title": "All&#8209Aligned",
+      "description": "What does your personal flag look like? The one you identify with, the banner of you as a person. Make it with our all-aligned software generator of infinitely different flags and micro-identities.",
+      "instruction": "Choose parameters for generative flag design. Max 7.",
+      "instruction2": "Set parameter values:",
+      "generate": "Generate!",
+      "institution": "DKSG, Belgrade",
       "slider_label": "label",
       "title": "My Flag",
       "subtitle": "Hey! We are making an exhibition of student flags in the Student City Cultural Center. What does your personal flag look like? Make it with our Web app.",
@@ -24,6 +30,12 @@
   },
   "sr_params": {
     "myflag": {
+      "main_title": "Svesvrstani",
+      "description": "Kako izgleda tvoja zastava, ona sa kojom se identifikuješ, barjak tebe kao osobe? Napravi je pomoću svesvrstanog softverskog generatora beskonačno različitih zastava i mikroidentiteta.",
+      "instruction": "Izaberi parametre koji utiču na dizajn zastave. Maksimalno sedam.",
+      "instruction2": "Podesi vrednosti parametara:",
+      "generate": "Generiši!",
+      "institution": "DKSG, Beograd",
       "slider_label": "label_sr",
       "title": "Moja Zastava",
       "subtitle": "Hej! Pravimo izložbu zastava studenata u Domu kulture studentski grad. Kako izgleda baš tvoja zastava? Napravi je pomoću našeg programa.",

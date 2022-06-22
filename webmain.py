@@ -291,6 +291,18 @@ def svesvrstani_instalacija():
     return render_template('svesvrstani/svesvrstani-instalacija.html', params=params, lp=lp)
 
 
+@app.route("/svesvrstani")
+def svesvrstani():
+    lp, params = mf.flag_mappings("sr")
+    return render_template('svesvrstani/svesvrstani-home.html', params=params, lp=lp)
+
+
+@app.route("/all-aligned")
+def allaligned():
+    lp, params = mf.flag_mappings("en")
+    return render_template('svesvrstani/svesvrstani-home.html', params=params, lp=lp)
+
+
 @app.route("/mojazastava")
 def mojazastava():
     lp, params = mf.flag_mappings("sr")

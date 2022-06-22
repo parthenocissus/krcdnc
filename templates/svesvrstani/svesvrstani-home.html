@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+
+        @font-face {
+            font-family: "Metropolis-Black";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Black.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "Metropolis-Medium";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Medium.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "Metropolis-Regular";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Regular.woff') }}) format("woff");
+        }
+
+    </style>
+
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/chosen.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/flags.css') }}">
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        let flagMappings = JSON.parse({{ params|tojson }});
+    </script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/interface.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/flaglabs.js') }}"></script>
+
+    <title>{{ lp.main_title }}</title>
+
+</head>
+<body>
+
+<header>
+{#    <label for="check">#}
+{#        <input type="checkbox" id="check"/>#}
+{#        <span></span>#}
+{#        <span></span>#}
+{#        <span></span>#}
+{#    </label>#}
+    <h1>{{ lp.main_title|safe }}</h1>
+    <h3><a href="/svesvrstani">Srpski</a><a href="/all-aligned">English</a></h3>
+</header>
+
+<main id="main-home">
+
+    <div id="left" class="interface-column">
+        <div>
+            <div id="instructions">
+{#                <em>All-Aligned</em> is an AI toolkit for infinite nation building and memetic identity creation.</em>#}
+                {{ lp.description }}
+            </div>
+            <div id="filters">
+{#                <div>Choose parameters for flag generation:</div>#}
+                {{ lp.instruction }}
+                <select id="choose-params" class="chosen" multiple="true" name="faculty"></select>
+{#                <div id="slider-header">Set parameter values:</div>#}
+                <div id="slider-header">{{ lp.instruction2 }}</div>
+                <div id="slider-group"></div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+{#                <button type="button" id="go">Generate</button>#}
+                <button type="button" id="go">{{ lp.generate }}</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="home-flag-space">
+        <div id="flags"></div>
+    </div>
+
+</main>
+
+<footer>
+    <div id="centre">{{ lp.institution }}</div>
+    <div id="signature">Uroš Krčadinac, 2022.</div>
+</footer>
+
+</body>
+</html>

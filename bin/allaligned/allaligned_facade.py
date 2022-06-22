@@ -28,6 +28,7 @@ class MyFlagFacadeUtil:
         self.database_final_path = 'static/space/svesvrstani/database_final/'
         self.selected_flags = 'static/space/svesvrstani/selected_flags/'
         self.current_flag_svg = ""
+        self.n_flags = 42
 
         with open(self.lang_path, encoding="utf8") as json_file:
             self.lang = json.load(json_file)
@@ -58,14 +59,17 @@ class MyFlagFacadeUtil:
 
     def get_flag_random(self, request):
         # raw_input = json.loads(request.args.get('raw'))
-        n = int(json.loads(request.args.get('n')))
+        n = self.n_flags
+        data_txt = request.args.get('vector')
+        data = json.loads(data_txt)
         svg_data = []
-        for _ in range(n):
-            # gf = GenFlag(raw_input=raw_input, raw=True)
-            gf = GenFlag()
+        for i in range(n):
+            gf = GenFlag(raw_input=data, raw=True)
+            # gf = GenFlag()
             svg = gf.svg_string()
-            svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
-            svg = svg.replace('height="100px"', '').replace('width="150px"', '')
+            svg = f'{svg[:4]} id="flag{i}" {svg[5:]}'
+            # svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
+            # svg = svg.replace('height="100px"', '').replace('width="150px"', '')
             svg_data.append(svg)
         return svg_data
 
