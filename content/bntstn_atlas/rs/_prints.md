@@ -7,13 +7,11 @@ identity:
 desc: "Grafike, printovi i mape koje je Uroš Krčadinac nacrtao za putopisni roman Bantustan: atlas jednog putovanja"
 page:
     txt: "<h6>Grafike i printovi</h6>
-<p>Prva samostalna izložba ilustrovanih bantustanskih mapa »Onda porasteš a mape postanu strašne« biće otvorena 18. aprila u 19h u <a href='https://goo.gl/maps/8g5gedcbbEjqrTQD6' target='_blank'>Domu kulture Studentski grad (DKSG)</a> u Beogradu.</p>
-<p>Posetioci izložbe moći će da kupe grafike izrađene u tehnici sitoštampe. Za početak, izabrali smo 4 mape: <a href='/bantustan-interactive-atlas/mapa/tanzania2/' target='_blank'>Tanganjika</a>, <a href='/bantustan-interactive-atlas/mapa/namibia/' target='_blank'>Namibija</a>, <a href='/bantustan-interactive-atlas/mapa/al-idrisi/' target='_blank'>el Idrisi</a> i <a href='/static/space/afroatlas/maps/s_nairobi.jpg' target='_blank'>Najrobi</a>. Mape su štampane u ograničenim serijama od po 50 primeraka. Printovi su dimenzija 70 x 50 cm. Svakome ko odluči da kupi mapu docrtaću mali unikatan crtež posvećen baš toj osobi.</p>"
+<p>Za početak, izabrali smo 4 mape i izradili ih u tehnici sitoštampe: <a href='/bantustan-interactive-atlas/mapa/tanzania2/' target='_blank'>Tanganjika</a>, <a href='/bantustan-interactive-atlas/mapa/namibia/' target='_blank'>Namibija</a>, <a href='/bantustan-interactive-atlas/mapa/al-idrisi/' target='_blank'>el Idrisi</a> i <a href='/static/space/afroatlas/maps/s_nairobi.jpg' target='_blank'>Najrobi</a>. Mape su štampane u ograničenim serijama od po 50 primeraka. Printovi su dimenzija 70 x 50 cm. Svakome ko odluči da kupi mapu docrtaću mali unikatan crtež posvećen baš toj osobi.</p>"
     txt2: "<p>Grafike se prodaju u sledećem paketu:</p>
 <p><ul><li>štampana mapa na velikom formatu, 50 x 70 cm, potpisana i numerisana, tehnika sitoštampe, kvalitetan papir;</li>
 <li>docrtan crtež na mapi ili na zasebnom papiru (po želji), unikatan, svakom drugačiji;</li>
 <li>hilzna, tuba za pakovanje i transport;</li>
-<li>specijalno, za sve koji dođu na izložbu, deo paketa biće i potpisana publikacija sa izložbe, knjižica koja ima 20 strana i sadrži recenzije dr Ildiko Erdei, Emilije Epštajn, Maneta Radmanovića i Ane Knežević, kao i moj autorski tekst <a href='/rad/sveska/bantustan-interactive-exhibition/' target='_blank'>»Onda porasteš a mape postanu strašne«</a>.</li>
 </ul></p>
 <p>Jedan paket: <span class='email'>6.000 RSD</span>. Dva paketa: <span class='email'>10.000 RSD</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>18.000 RSD</span>.</p>
 <p>Ukoliko ne možete da stignete na izložbu, postoji mogućnost da vam paket pošaljemo poštom. U tom slučaju na osnovni iznos treba doplatiti <span class='email'>200 RSD</span> za poštarinu. Tada jedan paket iznosi <span class='email'>6.200 RSD</span>, dva <span class='email'>10.400 RSD</span>, a četiri <span class='email'>18.800 RSD</span>.</p>
