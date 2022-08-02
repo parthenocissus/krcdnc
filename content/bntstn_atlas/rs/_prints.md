@@ -31,4 +31,4 @@ page:
 <p>Domaće izdanje knjige »Bantustan: atlas jednog putovanja« objavljena je kao <a href='https://krcadinac.com/download/books/Bantustan.pdf' target='_blank'>otvoreno licenciran besplatan PDF</a>. To znači da knjigu možete ne samo besplatno preuzeti, nego i legalno štampati o svom trošku. Interaktivni projekat »Bantustan: interaktivni atlas« takođe sam objavio kao <a href='http://github.com/parthenocissus/' target='_blank'>slobodan i besplatan projekat otvorenog koda</a>. Koristite ga za učenje, kao primer ili model.</p>
 <p>Kupovinom grafika podržavate moj rad i ovakve prakse činite održivim.</p>
 <p>Hvala!</p>
-<p style='padding-top: 1vw;'>Uroš Krčadinac, april 2022.</p>"
+<p style='padding-top: 1vw;'>Uroš Krčadinac, 2022.</p>"
