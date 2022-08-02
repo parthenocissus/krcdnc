@@ -11,7 +11,7 @@ page:
     txt2: "<p>Grafike se prodaju u sledećem paketu:</p>
 <p><ul><li>štampana mapa na velikom formatu, 50 x 70 cm, potpisana i numerisana, tehnika sitoštampe, kvalitetan papir;</li>
 <li>docrtan crtež na mapi ili na zasebnom papiru (po želji), unikatan, svakom drugačiji;</li>
-<li>hilzna, tuba za pakovanje i transport;</li>
+<li>hilzna, tuba za pakovanje i transport.</li>
 </ul></p>
 <p style='padding-top: 20px;'><span class='email'>▶ ZA SRBIJU</span></p>
 <p>Ako plaćate u kešu, mapu vam dostavljamo lično. Tada jedan paket iznosi: <span class='email'>6.000 RSD</span>. Dva paketa: <span class='email'>10.000 RSD</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>18.000 RSD</span>.</p>
