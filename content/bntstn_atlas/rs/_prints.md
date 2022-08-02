@@ -13,7 +13,7 @@ page:
 <li>docrtan crtež na mapi ili na zasebnom papiru (po želji), unikatan, svakom drugačiji;</li>
 <li>hilzna, tuba za pakovanje i transport;</li>
 </ul></p>
-<p style='padding-top: 20px;'><span class='email'>■ ZA SRBIJU</span></p>
+<p style='padding-top: 20px;'><span class='email'>▶ ZA SRBIJU</span></p>
 <p>Ako plaćate u kešu, mapu vam dostavljamo lično. Tada jedan paket iznosi: <span class='email'>6.000 RSD</span>. Dva paketa: <span class='email'>10.000 RSD</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>18.000 RSD</span>.</p>
 <p>Ako plaćate preko računa, mapu vam šaljemo poštom. U tom slučaju na osnovni iznos treba doplatiti <span class='email'>200 RSD</span> za poštarinu.</p>
 <p>Podaci o računu:</p>
@@ -21,10 +21,10 @@ page:
 <span class='email'>250115003467150031</span><br>
 <span class='email'>Eurobank</span><br>
 <span class='email'>Svrha uplate: Ime Prezime (npr. Petar Petrović)</span></p>
-<p style='padding-top: 20px;'><span class='email'>■ ZA INOSTRANSTVO</span></p>
+<p style='padding-top: 20px;'><span class='email'>▶ ZA INOSTRANSTVO</span></p>
 <p>U ovom slučaju omogućeno je plaćanje u evrima preko PayPala. U tom slučaju, jedan paket iznosi <span class='email'>60 eur</span>. Dva paketa: <span class='email'>90 eur</span>. Četiri paketa, po jedan za svaku mapu: <span class='email'>150 eur</span>.</p>
 <p>Imejl adresa za PayPal: <span class='email'>uros.krcadinac@gmail.com</span>.</p>
-<p style='padding-top: 20px;'><span class='email'>■</span> U svakom slučaju, nakon što uplatite, pošaljite mi mejl.</p>
+<p style='padding-top: 20px;'><span class='email'>▶</span> U svakom slučaju, nakon što uplatite, pošaljite mi mejl.</p>
 <p>U mejlu navedite detalje narudžbine (koju mapu uzimate), ime i prezime iz Svrhe uplate, adresu na koju treba poslati paket i broj telefona. Moja imejl adresa: <span class='email'>uros.krcadinac@gmail.com</span>.</p>
 <p>Nakon što uplata bude proknjižena, poslaćemo vam paket.</p>"
     txt3: "<p>Mape proizvodim u serijama od po 50 primeraka. To znači da se kao autor obavezujem da ne bude više od ukupno 50 potpisanih, docrtanih i numerisanih primeraka svake mape.</p>
