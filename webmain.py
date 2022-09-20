@@ -10,6 +10,9 @@ import utils
 import random
 from langutil import LangUtilEn, LangUtilSh
 
+from bin.twitter.scheduler import schedule
+
+
 app = Flask(__name__)
 
 DEBUG = True
@@ -24,6 +27,10 @@ app.config.from_object(__name__)
 
 en = LangUtilEn(fp)
 sh = LangUtilSh(fp)
+
+
+# ALL-ALIGNED TWITTER BOT SCHEDULER
+schedule()
 
 
 # BASE ROUTES
@@ -284,20 +291,35 @@ from bin.allaligned.allaligned_facade import MyFlagFacadeUtil
 mf = MyFlagFacadeUtil()
 
 
+@app.route("/svesvrstani")
+@app.route("/svesvrstani/home")
+def svesvrstani():
+    lp, params = mf.flag_mappings("sr")
+    return render_template('svesvrstani/svesvrstani-main.html', params=params, lp=lp)
+
+
+@app.route("/all-aligned")
+@app.route("/all-aligned/home")
+def allaligned():
+    lp, params = mf.flag_mappings("en")
+    return render_template('svesvrstani/svesvrstani-main.html', params=params, lp=lp)
+
+
+
 @app.route("/svesvrstani-instalacija")
 def svesvrstani_instalacija():
     lp, params = mf.flag_mappings("sr")
     return render_template('svesvrstani/svesvrstani-instalacija.html', params=params, lp=lp)
 
 
-@app.route("/svesvrstani")
-def svesvrstani():
+@app.route("/svesvrstani-app")
+def svesvrstani_app():
     lp, params = mf.flag_mappings("sr")
     return render_template('svesvrstani/svesvrstani-home.html', params=params, lp=lp)
 
 
-@app.route("/all-aligned")
-def allaligned():
+@app.route("/all-aligned-app")
+def allaligned_app():
     lp, params = mf.flag_mappings("en")
     return render_template('svesvrstani/svesvrstani-home.html', params=params, lp=lp)
 

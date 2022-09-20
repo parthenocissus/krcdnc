@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+
+        @font-face {
+            font-family: "Metropolis-Black";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Black.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "Metropolis-Medium";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Medium.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "Metropolis-Regular";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Regular.woff') }}) format("woff");
+        }
+
+    </style>
+
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/chosen.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/svesvrstani-stilovi.css') }}">
+    {#    <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/flags.css') }}">#}
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        let flagMappings = JSON.parse({{ params|tojson }});
+    </script>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/interface.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/flaglabs.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/svesvrstani.js') }}"></script>
+
+    {% block head %}
+    {% endblock %}
+
+</head>
+<body class="landing">
+
+<div id="lang">
+    <a href="{{ lp.addresses.nas }}">Naš</a>
+    <a href="{{ lp.addresses.eng }}">Eng</a>
+</div>
+
+<aside>
+
+    <svg class="menu" x="0px" y="0px" viewBox="0 0 20 20">
+        <circle cx="10" cy="10" r="10"></circle>
+        <g id="hamburger">
+            <line id="hamburgerLine1" x1="0" y1="6.2" x2="20" y2="6.2"></line>
+            <line id="hamburgerLine2" x1="0" y1="13.8" x2="20" y2="13.8"></line>
+        </g>
+    </svg>
+
+    <h1 class="textual">
+        <a href="{{ lp.menu.base.address }}">{{ lp.main_title|safe }}</a>
+    </h1>
+    <h2 class="textual">
+        <a href="/" target="_blank">Uroš Krčadinac</a>
+    </h2>
+
+</aside>
+
+<div id="main-menu">
+    <div id="vertical-menu">
+        {% set base = lp.menu.base.address %}
+        <a href="{{ base ~ lp.menu.home.address }}" class="active">{{ lp.menu.home.name }}</a>
+        <a href="{{ base ~ lp.menu.concept.address }}">{{ lp.menu.concept.name }}</a>
+        <a href="{{ base ~ lp.menu.generator.address }}">{{ lp.menu.generator.name }}</a>
+        <a href="{{ base ~ lp.menu.exhibitions.address }}">{{ lp.menu.exhibitions.name }}</a>
+        <a href="{{ base ~ lp.menu.essays.address }}">{{ lp.menu.essays.name }}</a>
+        <a href="{{ base ~ lp.menu.code.address }}">{{ lp.menu.code.name }}</a>
+        <a href="{{ base ~ lp.menu.merch.address }}">{{ lp.menu.merch.name }}</a>
+    </div>
+</div>
+
+<div id="gray-fog"></div>
+
+{% block body %}
+{% endblock %}
+
+</body>
+</html>

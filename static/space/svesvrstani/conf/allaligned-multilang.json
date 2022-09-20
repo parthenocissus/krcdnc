@@ -1,7 +1,41 @@
 {
   "en_params": {
     "myflag": {
-      "main_title": "All&#8209Aligned",
+      "main_title": "All-Aligned",
+      "author_address": "/work/about",
+      "main_tagline_h1": "Random flag generator<br>for infinite identity building",
+      "main_tagline_h2": "<a href='/allaligned/concept' target='_blank'>The All-Aligned</a> is a digital art project by <a href='/work/about' target='_blank'>Uroš Krčadinac</a>. An open source AI system for automated vexillology, it visualises the fractal-like fragmentary nature of our digital condition and raises questions about the society where identity creation is mediated by Big Tech.",
+      "main_button": "Generate a flag!",
+      "addresses": {
+        "nas": "/svesvrstani",
+        "eng": "/all-aligned"
+      },
+      "menu": {
+        "base": {
+          "name": "All-Aligned", "address": "/all-aligned"
+        },
+        "home": {
+          "name": "Home", "address": "/home"
+        },
+        "concept": {
+          "name": "Concept", "address": "/concept"
+        },
+        "generator": {
+          "name": "Generator", "address": "/generator"
+        },
+        "exhibitions": {
+          "name": "Exhibitions", "address": "/exhibitions"
+        },
+        "essays": {
+          "name": "Essays", "address": "/essays"
+        },
+        "code": {
+          "name": "Code", "address": "/code"
+        },
+        "merch": {
+          "name": "Merch", "address": "/merch"
+        }
+      },
       "description": "What does your personal flag look like? The one you identify with, the banner of you as a person. Make it with our all-aligned software generator of infinitely different flags and micro-identities.",
       "instruction": "Choose parameters for generative flag design. Max 7.",
       "instruction2": "Set parameter values:",
@@ -31,6 +65,40 @@
   "sr_params": {
     "myflag": {
       "main_title": "Svesvrstani",
+      "author_address": "/rad/bio",
+      "main_tagline_h1": "Generator nasumičnih zastava<br>za kreiranje beskonačno identiteta",
+      "main_tagline_h2": "<a href='/svesvrstani/koncept' target='_blank'>Svesvrstani</a> su digitalno-umetnički projekat <a href='/rad/bio' target='_blank'>Uroša Krčadinca</a>. Kao AI sistem otvorenog koda za automatizovanu veksilologiju, Svesvrstani vizuelizuju fraktalnu i fragmentarnu prirodu naših digitalnih života i postavljaju pitanja o društvu čije identitete oblikuju algoritmi.",
+      "addresses": {
+        "nas": "/svesvrstani",
+        "eng": "/all-aligned"
+      },
+      "main_button": "Generiši zastavu!",
+      "menu": {
+        "base": {
+          "name": "Svesvrstani", "address": "/svesvrstani"
+        },
+        "concept": {
+          "name": "Koncept", "address": "/concept"
+        },
+        "home": {
+          "name": "Početna", "address": "/home"
+        },
+        "generator": {
+          "name": "Generator", "address": "/generator"
+        },
+        "exhibitions": {
+          "name": "Izložbe", "address": "/exhibitions"
+        },
+        "essays": {
+          "name": "Eseji", "address": "/essays"
+        },
+        "code": {
+          "name": "Kôd", "address": "/code"
+        },
+        "merch": {
+          "name": "Dućan", "address": "/merch"
+        }
+      },
       "description": "Kako izgleda tvoja zastava, ona sa kojom se identifikuješ, barjak tebe kao osobe? Napravi je pomoću svesvrstanog softverskog generatora beskonačno različitih zastava i mikroidentiteta.",
       "instruction": "Izaberi parametre koji utiču na dizajn zastave. Maksimalno sedam.",
       "instruction2": "Podesi vrednosti parametara:",

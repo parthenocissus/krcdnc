@@ -1,0 +1,25 @@
+{% extends "svesvrstani/svesvrstani-base.html" %}
+
+{% block head %}
+
+    <title>{{ lp.main_title }}</title>
+
+{% endblock %}
+
+{% block body %}
+
+    <main class="landing">
+
+        <div class="title-block">
+            <h1 class="landing">{{ lp.main_tagline_h1|safe }}</h1>
+            <h2 class="landing">{{ lp.main_tagline_h2|safe }}</h2>
+            <button id="landing-generate">{{ lp.main_button }}</button>
+        </div>
+
+    </main>
+
+    <div class="title-flag">
+        <img src="{{ url_for('static', filename='space/svesvrstani/img/south-africa.gif') }}">
+    </div>
+
+{% endblock %}

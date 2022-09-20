@@ -1,0 +1,241 @@
+:root {
+    --back-color: #f5f5f5;
+    --dark-gray: #4d4d4d;
+    --light-gray: #dcdcdc;
+    --regular-gray: #a2a2a2;
+}
+
+/* Aside */
+
+aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 46px;
+    height: 100vh;
+    z-index: 10;
+    background-color: white;
+    border-right: 1px solid var(--light-gray);
+}
+
+#main-menu {
+    position: absolute;
+    left: 0;
+    /*top: 50px;*/
+    top: 100vh;
+    /*width: 0;*/
+    width: 270px;
+    /*height: 100vh;*/
+    height: 280px;
+    z-index: 5;
+    background-color: var(--back-color);
+    border: 1px solid var(--regular-gray);
+}
+
+#main-menu #vertical-menu {
+    margin: 34px 80px;
+    display: none;
+}
+
+#main-menu #vertical-menu a {
+    display: block;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Metropolis-Black", sans-serif;
+    font-weight: 900;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+#main-menu #vertical-menu a:hover {
+    color: var(--regular-gray);
+}
+
+#gray-fog {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+    display: none;
+}
+
+#lang {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+#lang a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: .65em;
+    z-index: 15;
+    font-family: "Metropolis-Medium", sans-serif;
+    line-height: 1.6em;
+}
+
+#lang a:hover {
+    color: var(--regular-gray);
+}
+
+aside .textual {
+    position: fixed;
+    text-transform: uppercase;
+    font-size: .7em;
+
+    z-index: 15;
+    top: 50%;
+    left: 8px;
+    writing-mode: tb-rl;
+    cursor: default;
+
+    -webkit-transform: translate(0, -50%) rotate(180deg);
+    -moz-transform: translate(0, -50%) rotate(180deg);
+    -o-transform: translate(0, -50%) rotate(180deg);
+    -ms-transform: translate(0, -50%) rotate(180deg);
+    transform: translate(0, -50%) rotate(180deg);
+}
+
+aside .textual a {
+    color: black;
+    text-decoration: none;
+}
+
+aside .textual a:hover {
+    color: var(--regular-gray);
+}
+
+aside h1 {
+    text-align: center;
+    font-family: "Metropolis-Black", sans-serif;
+    font-weight: 900;
+}
+
+aside h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Metropolis-Regular", sans-serif;
+    top: calc(100% - 110px) !important;
+    height: 150px;
+}
+
+svg.menu {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 16px;
+    height: 16px;
+    z-index: 15;
+    cursor: pointer;
+}
+
+svg.menu:hover circle {
+    fill: var(--regular-gray);
+}
+
+svg.menu circle {
+    stroke: none;
+    fill: black;
+}
+
+svg.menu g line {
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+    stroke: white;
+    fill: none;
+}
+
+
+/* Landing Page, Home */
+
+body.landing {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f5; /* gainsboro;  white; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.title-block {
+    margin: 0 0 2em 10vw;
+    width: 40vw;
+}
+
+.title-flag {
+    position: absolute;
+    left: 46vw;
+    z-index: -10;
+}
+
+.title-flag img {
+    width: 38vw;
+    transform: rotate(15deg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    padding-top: 3em;
+}
+
+h1.landing {
+    font-family: "Metropolis-Black", sans-serif;
+    font-weight: 900;
+    font-size: 1.8em;
+    line-height: 1.15em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0 0 0.2em 0;
+}
+
+h2.landing {
+    font-family: "Metropolis-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 3em;
+    width: 80%;
+}
+
+h2.landing a {
+    font-family: "Metropolis-Medium", sans-serif;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+h2.landing a:hover {
+    color: var(--dark-gray);
+    border-bottom: 1px solid var(--light-gray);
+}
+
+button#landing-generate {
+    font-family: "Metropolis-Medium", sans-serif;
+    font-size: 1em;
+    margin: 0;
+    /*width: 100%;*/
+    background-color: black;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    border: 0px lightgray solid;
+    border-radius: 0px;
+}
+
+button#landing-generate:hover {
+    background-color: var(--dark-gray);
+    /*color: white;*/
+}
+
