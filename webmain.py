@@ -30,7 +30,7 @@ sh = LangUtilSh(fp)
 
 
 # ALL-ALIGNED TWITTER BOT SCHEDULER
-# schedule()
+schedule()
 
 
 # BASE ROUTES
