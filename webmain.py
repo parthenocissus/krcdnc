@@ -10,7 +10,7 @@ import utils
 import random
 from langutil import LangUtilEn, LangUtilSh
 
-# from bin.twitter.scheduler import schedule
+from bin.twitter.scheduler import schedule
 
 
 app = Flask(__name__)
