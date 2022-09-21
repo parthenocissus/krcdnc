@@ -76,7 +76,7 @@ def go():
 
 def schedule():
     scheduler = BackgroundScheduler()
-    # scheduler.add_job(func=go, trigger="interval", seconds=5)
-    scheduler.add_job(func=go, trigger="interval", hours=4)
+    scheduler.add_job(func=go, trigger="interval", seconds=10)
+    # scheduler.add_job(func=go, trigger="interval", hours=4)
     scheduler.start()
     atexit.register(lambda: scheduler.shutdown())
