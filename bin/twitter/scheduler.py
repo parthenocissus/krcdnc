@@ -2,6 +2,7 @@ import time
 import json
 import atexit
 import tweepy
+import sys
 
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -52,6 +53,7 @@ def get_for_n(data, n):
     flag_file_name = bot_flags_path + str(n) + ".jpg"
     return tweet_txt, flag_file_name
 
+
 def go():
     print(time.strftime("%A, %d. %B %Y %I:%M:%S %p"))
     with open(counter_path, 'r') as f:
@@ -64,7 +66,8 @@ def go():
     with open(bot_text_path, encoding='utf-8') as f:
         data = json.load(f)
         if key not in data:
-            n = 1
+            sys.exit("Kraj.")
+            # n = 1
         tweet_txt, flag_file_name = get_for_n(data, n)
 
     tweet(tweet_txt, flag_file_name)

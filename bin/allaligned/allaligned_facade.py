@@ -28,7 +28,7 @@ class MyFlagFacadeUtil:
         self.database_final_path = 'static/space/svesvrstani/database_final/'
         self.selected_flags = 'static/space/svesvrstani/selected_flags/'
         self.current_flag_svg = ""
-        self.n_flags = 42
+        self.n_flags = 35
 
         with open(self.lang_path, encoding="utf8") as json_file:
             self.lang = json.load(json_file)
