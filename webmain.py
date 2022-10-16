@@ -399,7 +399,9 @@ def allaligned_essays():
     params, plist = utils.svesvrstani_exhibition_list(fp, en, "essays")
     return render_template('svesvrstani/svesvrstani-list-page.html', params=params, list=plist, lp=mf.lp("en"))
 
+
 # Svesvrstani Other Apps
+
 
 @app.route("/svesvrstani-instalacija")
 def svesvrstani_instalacija():

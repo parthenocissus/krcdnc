@@ -279,7 +279,7 @@ def svesvrstani_exhibition_list(flatpages, lang, type):
     page_params = flatpages.get_or_404(f'{lang.get_svesvrstani_dir()}/{type}')
     lang_dir = lang.get_svesvrstani_dir_ext(f'/{type}') + '/'
     page_list = [p for p in flatpages if p.path.startswith(lang_dir)]
-    page_list.sort(key=lambda item: int(item['year']), reverse=True)
+    page_list.sort(key=lambda item: int(item['year']), reverse=False)
     page_list_grouped = {"first": [], "second": []}
     for p in page_list:
         print(p)

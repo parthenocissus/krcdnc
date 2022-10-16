@@ -1,6 +1,6 @@
 title:
-    name: All-Aligned in Rijeka
-    subtitle: Drugo More, Rijeka, Croatia
+    name: All-Aligned in Drugo More
+    subtitle: Drugo More, Rijeka
 id: drugo-more
 year: 2022
 importance: first
