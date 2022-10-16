@@ -1,6 +1,6 @@
 title:
-    name: All-Aligned
-    subtitle: Kontejner, Zagreb 
+    name: All-Aligned in Zagreb
+    subtitle: Kontejner, Zagreb, Croatia 
 id: kontejner
 year: 2022
 importance: first

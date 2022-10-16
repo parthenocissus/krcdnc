@@ -1,5 +1,5 @@
 title:
-    name: Svesvrstani
+    name: Svesvrstani u Rijeci
     subtitle: Drugo more, Rijeka 
 id: drugo-more
 year: 2022

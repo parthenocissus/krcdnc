@@ -1,6 +1,6 @@
 title:
     name: All-Aligned
-    subtitle: DKSG Gallery, Belgrade 
+    subtitle: DKSG Gallery, Belgrade, Serbia 
 id: dksg
 year: 2022
 importance: first

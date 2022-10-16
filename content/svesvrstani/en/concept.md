@@ -17,7 +17,7 @@ content: "<p class='regular'>Contemporary computer programs can generate logos a
     <p class='regular'>The term “anarchy”, for example, increases the probability that the layout will be diagonal, that the palette will be black and red, and that a graphic version of the anarchist letter A will be extracted from the character base. Similarly, the term “ecological” is associated with shades of green, the term “student” with emblems student campuses, etc.</p>
     <p class='regular'>It is up to the users to select the parameters (ideas and concepts), adjust the sliders and click <em>Generate</em>. With each new click, the software automatically produces completely new flags according to the entered parameters.</p>
     <div class='img-container'>
-        <img src='/static/space/svesvrstani/media/fractal_flags_001.png'>
+        <img src='/static/space/svesvrstani/media/upokretu.jpg'>
     </div>
     <h2 class='regular'>Project Origins</h2>
     <p class='regular'>The project was launched during the international art residency <strong>They: Live – student lives revealed through context-based art practices</strong>. The residency, which was supported by Creative Europe and the Serbian Ministry of Culture, took place in the main student campuses of Belgrade, Madrid, Rijeka, Podgorica, and Novi Sad. As part of the residency, the selected artists and curators spent a month in the main student campus of their city.</p>

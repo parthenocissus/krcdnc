@@ -17,7 +17,7 @@ content: "<p class='regular'>Današnji računarski programi mogu da generišu lo
     <p class='regular'>Pojam »anarhije«, primera radi, povećava verovatnoću da layout bude dijagonalan, da paleta bude crnocrvena, a da se iz baze znakova izvuče grafička verzija anarhističkog slova A. Pojam »ekološkog« povezan je sa nijansama zelene boje, pojam »studentskog« sa amblemima studentskih kampusa, itd.</p>
     <p class='regular'>Na korisnicima je da izberu parametre (ideje i pojmove), podese slajdere i kliknu <em>Generiši</em>. Svakim novim klikom se automatski, spram unetih parametara, proizvedu sasvim nove zastave.</p>
     <div class='img-container'>
-        <img src='/static/space/svesvrstani/media/fractal_flags_001.png'>
+        <img src='/static/space/svesvrstani/media/upokretu.jpg'>
     </div>
     <h2 class='regular'>Poreklo projekta</h2>
     <p class='regular'>Projekat sam započeo na međunarodnoj umetničkoj rezidenciji <strong>They: Live – student lives revealed through context-based art practices</strong>. Rezidencija, koju je podržala Kreativna Evropa i domaće Ministarstvo kulture, odvijala se u glavnim studentskim kampusima Beograda, Madrida, Rijeke, Podgorice i Novog Sada. U okviru rezidencije izabrani umetnici i kustosi proveli su mesec dana u glavnom studentskom kampusu svog grada.</p>
