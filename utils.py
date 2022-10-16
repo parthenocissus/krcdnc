@@ -253,6 +253,39 @@ def __set_prev_next(page_data, map_list, lp, prev, next):
             "id": m["id"],
             "title": title
         }
+
     page_data.meta["prev"] = set_one(prev, "prev")
     page_data.meta["next"] = set_one(next, "next")
     return page_data
+
+
+# Svesvrstani / All-Aligned
+
+
+def svesvrstani_page(flatpages, lang, name):
+    return flatpages.get_or_404(f'{lang.get_svesvrstani_dir()}/{name}')
+
+
+def svesvrstani_exhibition(flatpages, lang, name):
+    return flatpages.get_or_404(f'{lang.get_svesvrstani_dir_ext("/exhibitions")}/{name}')
+
+
+def svesvrstani_essay(flatpages, lang, name):
+    return flatpages.get_or_404(f'{lang.get_svesvrstani_dir_ext("/essays")}/{name}')
+
+
+def svesvrstani_exhibition_list(flatpages, lang, type):
+    # lang_params = lang.params()
+    page_params = flatpages.get_or_404(f'{lang.get_svesvrstani_dir()}/{type}')
+    lang_dir = lang.get_svesvrstani_dir_ext(f'/{type}') + '/'
+    page_list = [p for p in flatpages if p.path.startswith(lang_dir)]
+    page_list.sort(key=lambda item: int(item['year']), reverse=True)
+    page_list_grouped = {"first": [], "second": []}
+    for p in page_list:
+        print(p)
+        if p['importance'] == "first":
+            page_list_grouped['first'].append(p)
+        else:
+            page_list_grouped['second'].append(p)
+    print(page_list_grouped)
+    return page_params, page_list_grouped

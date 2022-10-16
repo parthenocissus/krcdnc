@@ -3,7 +3,7 @@ $(document).ready(function () {
     let toggle = true;
 
     let mainMenuWidth = "18%";
-    let mainMenuTop = "40px";
+    let mainMenuTop = "3vw";
 
     let changeLine = (id, x1, y1, x2, y2) => {
         d3.select(id).transition()
@@ -48,7 +48,6 @@ $(document).ready(function () {
 
     $("#gray-fog").on("click", () => {
         menuOff();
-    })
-
+    });
 
 });

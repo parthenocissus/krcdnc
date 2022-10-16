@@ -14,6 +14,11 @@
         }
 
         @font-face {
+            font-family: "Metropolis-Bold";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Bold.woff') }}) format("woff");
+        }
+
+        @font-face {
             font-family: "Metropolis-Medium";
             src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Medium.woff') }}) format("woff");
         }
@@ -23,6 +28,16 @@
             src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Regular.woff') }}) format("woff");
         }
 
+        @font-face {
+            font-family: "Metropolis-RegularItalic";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-RegularItalic.woff') }}) format("woff");
+        }
+
+        @font-face {
+            font-family: "Metropolis-Thin";
+            src: url({{ url_for('static', filename='media/fonts/metropolis/Metropolis-Thin.woff') }}) format("woff");
+        }
+
     </style>
 
     <link rel="shortcut icon" href="#">
@@ -30,30 +45,37 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/svesvrstani-stilovi.css') }}">
     {#    <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/flags.css') }}">#}
 
-    <script type=text/javascript>
-        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-        let flagMappings = JSON.parse({{ params|tojson }});
-    </script>
+{#    <script type=text/javascript>#}
+{#        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};#}
+{#        let flagMappings = JSON.parse({{ params|tojson }});#}
+{#    </script>#}
 
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/interface.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/flaglabs.js') }}"></script>
+{#    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/interface.js') }}"></script>#}
+{#    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/flaglabs.js') }}"></script>#}
     <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/svesvrstani.js') }}"></script>
 
     {% block head %}
     {% endblock %}
 
 </head>
-<body class="landing">
+<body>
 
-<div id="lang">
-    <a href="{{ lp.addresses.nas }}">Naš</a>
-    <a href="{{ lp.addresses.eng }}">Eng</a>
-</div>
+
+{#{% set lang_link = lp.lang_info.counter_lang %}#}
+
+{% block langlinkage %}
+<a id="lang-link" href="{{ lang_link }}" title="{{ lp.lang_info.tooltip }}">
+    <div id="lang">
+        <p id="other">{{ lp.lang_info.lang1 }}</p>
+        <p id="this">{{ lp.lang_info.lang2 }}</p>
+    </div>
+</a>
+{% endblock %}
 
 <aside>
 

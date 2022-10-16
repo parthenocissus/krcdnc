@@ -305,6 +305,101 @@ def allaligned():
     return render_template('svesvrstani/svesvrstani-main.html', params=params, lp=lp)
 
 
+@app.route("/svesvrstani/generator")
+def svesvrstani_generator():
+    lp, params = mf.flag_mappings("sr")
+    return render_template('svesvrstani/svesvrstani-generator.html', params=params, lp=lp)
+
+
+@app.route("/all-aligned/generator")
+def allaligned_generator():
+    lp, params = mf.flag_mappings("en")
+    return render_template('svesvrstani/svesvrstani-generator.html', params=params, lp=lp)
+
+
+@app.route("/svesvrstani/concept")
+def svesvrstani_concept():
+    page = utils.svesvrstani_page(fp, sh, "concept")
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("sr"))
+
+
+@app.route("/all-aligned/concept")
+def allaligned_concept():
+    page = utils.svesvrstani_page(fp, en, "concept")
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("en"))
+
+
+@app.route("/svesvrstani/code")
+def svesvrstani_code():
+    page = utils.svesvrstani_page(fp, sh, "code")
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("sr"))
+
+
+@app.route("/all-aligned/code")
+def allaligned_code():
+    page = utils.svesvrstani_page(fp, en, "code")
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("en"))
+
+
+@app.route("/svesvrstani/support")
+def svesvrstani_support():
+    page = utils.svesvrstani_page(fp, sh, "support")
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("sr"))
+
+
+@app.route("/all-aligned/support")
+def allaligned_support():
+    page = utils.svesvrstani_page(fp, en, "support")
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("en"))
+
+@app.route('/svesvrstani/exhibitions/<name>/')
+def svesvrstani_exhibition_page(name):
+    page = utils.svesvrstani_exhibition(fp, sh, name)
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("sr"))
+
+
+@app.route('/all-aligned/exhibitions/<name>/')
+def allaligned_exhibition_page(name):
+    page = utils.svesvrstani_exhibition(fp, en, name)
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("en"))
+
+
+@app.route('/svesvrstani/essays/<name>/')
+def svesvrstani_essay_page(name):
+    page = utils.svesvrstani_essay(fp, sh, name)
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("sr"))
+
+
+@app.route('/all-aligned/essays/<name>/')
+def allaligned_essay_page(name):
+    page = utils.svesvrstani_essay(fp, en, name)
+    return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("en"))
+
+
+@app.route('/svesvrstani/exhibitions')
+def svesvrstani_exhibitions():
+    params, plist = utils.svesvrstani_exhibition_list(fp, sh, "exhibitions")
+    return render_template('svesvrstani/svesvrstani-list-page.html', params=params, list=plist, lp=mf.lp("sr"))
+
+
+@app.route('/all-aligned/exhibitions')
+def allaligned_exhibitions():
+    params, plist = utils.svesvrstani_exhibition_list(fp, en, "exhibitions")
+    return render_template('svesvrstani/svesvrstani-list-page.html', params=params, list=plist, lp=mf.lp("en"))
+
+
+@app.route('/svesvrstani/essays')
+def svesvrstani_essays():
+    params, plist = utils.svesvrstani_exhibition_list(fp, sh, "essays")
+    return render_template('svesvrstani/svesvrstani-list-page.html', params=params, list=plist, lp=mf.lp("sr"))
+
+
+@app.route('/all-aligned/essays')
+def allaligned_essays():
+    params, plist = utils.svesvrstani_exhibition_list(fp, en, "essays")
+    return render_template('svesvrstani/svesvrstani-list-page.html', params=params, list=plist, lp=mf.lp("en"))
+
+# Svesvrstani Other Apps
 
 @app.route("/svesvrstani-instalacija")
 def svesvrstani_instalacija():
@@ -354,6 +449,8 @@ def konacnabazazastava():
 def downloadflags():
     return mf.download_data()
 
+# Svesvrstani API
+
 
 @app.route('/_myflagsave', methods=['POST'])
 def myflagsave():
@@ -382,6 +479,13 @@ def myflaggenerate():
 @app.route('/_generate_flags')
 def generate_flags():
     svg_data = mf.get_flag_random(request)
+    return json.dumps(svg_data)
+
+
+@app.route('/svesvrstani/_generate_flags')
+@app.route('/all-aligned/_generate_flags')
+def generate_flags_website():
+    svg_data = mf.get_flag_random_viewbox(request, 16)
     return json.dumps(svg_data)
 
 

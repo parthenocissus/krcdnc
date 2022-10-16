@@ -4,7 +4,7 @@
       "main_title": "All-Aligned",
       "author_address": "/work/about",
       "main_tagline_h1": "Random flag generator<br>for infinite identity building",
-      "main_tagline_h2": "<a href='/allaligned/concept' target='_blank'>The All-Aligned</a> is a digital art project by <a href='/work/about' target='_blank'>Uroš Krčadinac</a>. An open source AI system for automated vexillology, it visualises the fractal-like fragmentary nature of our digital condition and raises questions about the society where identity creation is mediated by Big Tech.",
+      "main_tagline_h2": "<a href='/all-aligned/concept' target='_blank'>The All-Aligned</a> is a digital art project by <a href='/work/about' target='_blank'>Uroš Krčadinac</a>. An open source AI system for automated vexillology, it visualises the fractal-like fragmentary nature of our digital condition and raises questions about the society where identity creation is mediated by Big Tech.",
       "main_button": "Generate a flag!",
       "addresses": {
         "nas": "/svesvrstani",
@@ -21,7 +21,7 @@
           "name": "Concept", "address": "/concept"
         },
         "generator": {
-          "name": "Generator", "address": "/generator"
+          "name": "Generator", "address": "/generator", "full_name": "Flag Generator"
         },
         "exhibitions": {
           "name": "Exhibitions", "address": "/exhibitions"
@@ -30,13 +30,22 @@
           "name": "Essays", "address": "/essays"
         },
         "code": {
-          "name": "Code", "address": "/code"
+          "name": "Open Source", "address": "/code"
         },
         "merch": {
-          "name": "Merch", "address": "/merch"
+          "name": "Support Us", "address": "/support"
         }
       },
+      "lang_info": {
+        "counter_lang": "/svesvrstani",
+        "lang1": "Naš",
+        "lang2": "Eng",
+        "tooltip": "Promeni jezik"
+      },
+      "media_path": "space/svesvrstani/media/",
       "description": "What does your personal flag look like? The one you identify with, the banner of you as a person. Make it with our all-aligned software generator of infinitely different flags and micro-identities.",
+      "desc_generator": "How does a flag you would stand under look like? Generate and choose such a flag using our All-Aligned software generator of endlessly different flags and microidentites.",
+      "instruction_alt": "Choose parameters for generative flag design. Max 7.",
       "instruction": "Choose parameters for generative flag design. Max 7.",
       "instruction2": "Set parameter values:",
       "generate": "Generate!",
@@ -59,7 +68,15 @@
       "download_button": "Download Your Flag",
       "failed": "Please fill in all the text fields!<br>Put at least one word.",
       "checkbox_note": "I agree that the photograph of me with the flag can be used for the exhibition. (This only applies to those who complete the questionnaire on the spot, in cooperation with our team.)",
-      "production": "Production: Student City Cultural Center (DKSG), Belgrade, 2022."
+      "production": "Production: Student City Cultural Center (DKSG), Belgrade, 2022.",
+      "support": "Click on a flag to save it as SVG and PNG file. If you wish to support our project, send us the SVG via email and <a href='/all-aligned/support' target='_blank'>order a physical flag as a unique art object</a>.",
+      "downloader": {
+        "line1": "Great one!",
+        "line2": "You can save it as a SVG or a PNG file.",
+        "line3": "If you wish to support our project (or just want to have this flag as a physical object so you can hang it on your bookshelf), send us the SVG via email (uros@krcadinac.com) and order a flag as an unique artwork.",
+        "line4": "Check out more information about <a href='/all-aligned/support' target='_blank'>buying an AI art flag from us</a>.",
+        "exit": "Exit"
+      }
     }
   },
   "sr_params": {
@@ -67,7 +84,7 @@
       "main_title": "Svesvrstani",
       "author_address": "/rad/bio",
       "main_tagline_h1": "Generator nasumičnih zastava<br>za kreiranje beskonačno identiteta",
-      "main_tagline_h2": "<a href='/svesvrstani/koncept' target='_blank'>Svesvrstani</a> su digitalno-umetnički projekat <a href='/rad/bio' target='_blank'>Uroša Krčadinca</a>. Kao AI sistem otvorenog koda za automatizovanu veksilologiju, Svesvrstani vizuelizuju fraktalnu i fragmentarnu prirodu naših digitalnih života i postavljaju pitanja o društvu čije identitete oblikuju algoritmi.",
+      "main_tagline_h2": "<a href='/svesvrstani/concept' target='_blank'>Svesvrstani</a> su digitalno-umetnički projekat <a href='/rad/bio' target='_blank'>Uroša Krčadinca</a>. Kao AI sistem otvorenog koda za automatizovanu veksilologiju, Svesvrstani vizuelizuju fraktalnu i fragmentarnu prirodu naših digitalnih života i postavljaju pitanja o društvu čije identitete oblikuju algoritmi.",
       "addresses": {
         "nas": "/svesvrstani",
         "eng": "/all-aligned"
@@ -84,7 +101,7 @@
           "name": "Početna", "address": "/home"
         },
         "generator": {
-          "name": "Generator", "address": "/generator"
+          "name": "Generator", "address": "/generator", "full_name": "Generator zastava"
         },
         "exhibitions": {
           "name": "Izložbe", "address": "/exhibitions"
@@ -93,14 +110,23 @@
           "name": "Eseji", "address": "/essays"
         },
         "code": {
-          "name": "Kôd", "address": "/code"
+          "name": "Otvoren kôd", "address": "/code"
         },
         "merch": {
-          "name": "Dućan", "address": "/merch"
+          "name": "Podržite nas", "address": "/support"
         }
       },
+      "lang_info": {
+        "counter_lang": "/all-aligned",
+        "lang1": "Eng",
+        "lang2": "Naš",
+        "tooltip": "Change language"
+      },
+      "media_path": "space/svesvrstani/media/",
       "description": "Kako izgleda tvoja zastava, ona sa kojom se identifikuješ, barjak tebe kao osobe? Napravi je pomoću svesvrstanog softverskog generatora beskonačno različitih zastava i mikroidentiteta.",
+      "desc_generator": "Kako izgleda zastava ispod koje biste stali? Napravite takvu zastavu pomoću našeg svesvrstanog softverskog generatora beskonačno različitih zastava i mikroidentiteta.",
       "instruction": "Izaberi parametre koji utiču na dizajn zastave. Maksimalno sedam.",
+      "instruction_alt": "Izaberite parametre koji utiču na dizajn zastave. Maksimalno sedam.",
       "instruction2": "Podesi vrednosti parametara:",
       "generate": "Generiši!",
       "institution": "DKSG, Beograd",
@@ -122,7 +148,15 @@
       "download_button": "Preuzmi svoju zastavu",
       "failed": "Molimo te da popuniš sva polja! Makar jednom rečju.",
       "checkbox_note": "Saglasan sam da se fotografija mene sa zastavom upotrebi za izložbu. (Ovo važi samo za one koji upitnik popunjavaju na licu mesta, u saradnji sa našom ekipom.)",
-      "production": "Produkcija: Dom kulture Studentski grad, 2022."
+      "production": "Produkcija: Dom kulture Studentski grad, 2022.",
+      "support": "Kliknite na zastavu da biste je sačuvali kao SVG i PNG. Ako želite da podržite projekat, pošaljite nam SVG fajl na mejl i <a href='/svesvrstani/support' target='_blank'>naručite da vam izradimo zastavu kao unikatan umetnički predmet</a>.",
+      "downloader": {
+        "line1": "Odlična!",
+        "line2": "Možete je sačuvati kao SVG ili PNG fajl.",
+        "line3": "Ako želite da podržite naš projeat (ili prosto želite da imate ovu zastavu kao fizički objekat koji ćete okačiti na policu), pošaljite nam SVG fajl preko mejla (uros@krcadinac.com) i naručite zastavu kao unikatan umetnički rad.",
+        "line4": "Pogledajte više informacija o <a href='/svesvrstani/support' target='_blank'>kupovini zastave</a>.",
+        "exit": "Izađi"
+      }
     }
   }
 }

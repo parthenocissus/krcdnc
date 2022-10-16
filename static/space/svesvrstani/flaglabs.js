@@ -17,31 +17,69 @@ $(document).ready(function () {
         }
     };
 
-    let setSvgEventsPng = () => {
+    let downloadSVG = (flag) => {
+        flag.attr({
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink"
+        });
+        let svgData = flag.get(0).outerHTML;
+        let svgBlob = new Blob([svgData], {type: "image/svg+xml;charset=utf-8"});
+        let svgUrl = URL.createObjectURL(svgBlob);
+        let downloadLink = document.createElement("a");
+        downloadLink.href = svgUrl;
+        downloadLink.download = "flag.svg";
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+    }
+
+    let downloadPNG = (flag) => {
+        console.log("saving png...");
+        let s = {w: 600, h: 400};
+        let svg = flag.get(0).outerHTML;
+
+        let viewboxAttr = 'viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet"';
+        let hwAttr = 'height="100px" width="150px"';
+        svg = svg.replace(viewboxAttr, hwAttr);
+
+        let canvas = document.createElement("canvas");
+        canvas.width = s.w;
+        canvas.height = s.h;
+        let context = canvas.getContext('2d');
+
+        let v = canvg.Canvg.fromString(context, svg, {
+            ignoreDimensions: true,
+            scaleWidth: s.w,
+            scaleHeight: s.h,
+            offsetX: 56.25,
+            offsetY: 37.5
+        });
+        v.start();
+
+        let img = canvas.toDataURL("image/png");
+        const link = document.createElement('a');
+        link.download = 'flag.png';
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+    }
+
+    $("#svg").click(() => {
+        let flag = $(".chosen-flag > svg")
+        downloadSVG(flag);
+    });
+
+    $("#png").click(() => {
+        let flag = $(".chosen-flag > svg")
+        downloadPNG(flag);
+    });
+
+    let setFlagClick = () => {
         for (let i = 0; i < svgCount; i++) {
             d3.select("#flag" + i).on("click", () => {
-                console.log("SAVING IMAGE...");
-                let s = { w: 600, h: 400 };
-                let svg = $("#flag" + i).get(0).outerHTML;
-                let canvas = document.createElement("canvas");
-                canvas.width = s.w;
-                canvas.height = s.h;
-                let context = canvas.getContext('2d');
-
-                let v = canvg.Canvg.fromString(context, svg, {
-                    ignoreDimensions: true,
-                    scaleWidth: s.w,
-                    scaleHeight: s.h,
-                    offsetX: 56.25,
-                    offsetY: 37.5
-                });
-                v.start();
-
-                let img = canvas.toDataURL("image/png");
-                const link = document.createElement('a');
-                link.download = 'flag.png';
-                link.href = canvas.toDataURL("image/png");
-                link.click();
+                $(".flag-downloader-back").fadeIn(100);
+                let flag = $("#flag" + i);
+                let flagCode = flag.get(0).outerHTML
+                $(".chosen-flag").html(flagCode);
             });
         }
     };
@@ -66,6 +104,7 @@ $(document).ready(function () {
         });
 
         let params = {vector: JSON.stringify(data)};
+
         $.getJSON(urlGen, params, (result) => {
             flags.empty();
             result.forEach((i) => {
@@ -76,10 +115,26 @@ $(document).ready(function () {
             // setSvgEvents();
             // $("#flags svg").attr("title", "Tooltip");
             spinner.hide();
-            setSvgEventsPng();
+            setFlagClick();
             console.log("flags received from backend, baby");
         });
 
+    });
+
+    let exitDownloader = () => {
+        $(".flag-downloader-back").fadeOut(180, () => {
+           $(".chosen-flag").html("");
+        });
+    };
+
+    $("#exit").click(() => {
+        exitDownloader();
+    });
+
+    $("#outer").click(() => {
+        exitDownloader();
+    }).children().on('click', function (e) {
+        e.stopPropagation();
     });
 
 });

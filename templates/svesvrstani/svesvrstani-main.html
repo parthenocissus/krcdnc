@@ -6,20 +6,32 @@
 
 {% endblock %}
 
+{% set lang_link = lp.lang_info.counter_lang %}
+{% block langlinkage %}
+{{ super() }}
+{% endblock %}
+
 {% block body %}
 
-    <main class="landing">
+    <div class="body-landing">
 
-        <div class="title-block">
-            <h1 class="landing">{{ lp.main_tagline_h1|safe }}</h1>
-            <h2 class="landing">{{ lp.main_tagline_h2|safe }}</h2>
-            <button id="landing-generate">{{ lp.main_button }}</button>
+        <main class="landing">
+
+            <div class="title-block">
+                <h1 class="landing">{{ lp.main_tagline_h1|safe }}</h1>
+                <h2 class="landing">{{ lp.main_tagline_h2|safe }}</h2>
+                {% set lang_link = lp.menu.base.address ~ lp.menu.generator.address %}
+                <a href='{{ lang_link }}'>
+                    <button id="landing-generate">{{ lp.main_button }}</button>
+                </a>
+            </div>
+
+        </main>
+
+        <div class="title-flag">
+            <img src="{{ url_for('static', filename='space/svesvrstani/img/south-africa.gif') }}">
         </div>
 
-    </main>
-
-    <div class="title-flag">
-        <img src="{{ url_for('static', filename='space/svesvrstani/img/south-africa.gif') }}">
     </div>
 
 {% endblock %}

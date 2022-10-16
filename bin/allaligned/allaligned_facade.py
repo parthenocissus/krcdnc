@@ -57,9 +57,10 @@ class MyFlagFacadeUtil:
             svg_data.append(svg)
         return svg_data
 
-    def get_flag_random(self, request):
+    def get_flag_random(self, request, n=0):
         # raw_input = json.loads(request.args.get('raw'))
-        n = self.n_flags
+        if n == 0:
+            n = self.n_flags
         data_txt = request.args.get('vector')
         data = json.loads(data_txt)
         svg_data = []
@@ -70,6 +71,23 @@ class MyFlagFacadeUtil:
             svg = f'{svg[:4]} id="flag{i}" {svg[5:]}'
             # svg = f'{svg[:4]} id="flag-svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
             # svg = svg.replace('height="100px"', '').replace('width="150px"', '')
+            svg_data.append(svg)
+        return svg_data
+
+    def get_flag_random_viewbox(self, request, n=0):
+        # raw_input = json.loads(request.args.get('raw'))
+        if n == 0:
+            n = self.n_flags
+        data_txt = request.args.get('vector')
+        data = json.loads(data_txt)
+        svg_data = []
+        for i in range(n):
+            gf = GenFlag(raw_input=data, raw=True)
+            # gf = GenFlag()
+            svg = gf.svg_string()
+            # svg = f'{svg[:4]} id="flag{i}" {svg[5:]}'
+            svg = f'{svg[:4]} id="flag{i}" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet" {svg[5:]}'
+            svg = svg.replace('height="100px"', '').replace('width="150px"', '')
             svg_data.append(svg)
         return svg_data
 
@@ -141,6 +159,10 @@ class MyFlagFacadeUtil:
                 zf.write(file, os.path.basename(file))
         stream.seek(0)
         return send_file(stream, as_attachment=True, attachment_filename='archive.zip')
+
+    def lp(self, language):
+        lang_key = language + "_params"
+        return self.lang[lang_key]["myflag"]
 
     def flag_mappings(self, language):
         lang_key = language + "_params"

@@ -1,0 +1,68 @@
+{% extends "svesvrstani/svesvrstani-base.html" %}
+
+{% block head %}
+
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/interface.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/flaglabs.js') }}"></script>
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        let flagMappings = JSON.parse({{ params|tojson }});
+    </script>
+
+    <title>{{ lp.main_title }} → {{ lp.menu.generator.full_name }}</title>
+
+{% endblock %}
+
+{% set lang_link = lp.lang_info.counter_lang ~ lp.menu.generator.address %}
+{% block langlinkage %}
+    {{ super() }}
+{% endblock %}
+
+{% block body %}
+
+    <main class="generator-page">
+
+        <div class="list-heading">
+            <div class="breadcrumbs">
+                <a href="{{ lp.menu.base.address }}">{{ lp.main_title }}</a> →
+            </div>
+            <h1 class="list-h">{{ lp.menu.generator.full_name }}</h1>
+            <h3 class="list-h">{{ lp.desc_generator|safe }}</h3>
+            <div id="filters">
+                <h3 class="list-h" id="filter-instruction">{{ lp.instruction_alt }}</h3>
+                <select id="choose-params" class="chosen" multiple="true" name="faculty"></select>
+                <h3 class="list-h" id="slider-header">{{ lp.instruction2 }}</h3>
+                <div id="slider-group"></div>
+            </div>
+            <button type="button" id="go">{{ lp.generate }}</button>
+            <h3 class="list-h">{{ lp.support|safe }}</h3>
+        </div>
+
+        <div id="home-flag-space">
+            <div id="spinner">
+                <img src="{{ url_for('static', filename='space/svesvrstani/img/spinner.gif') }}" alt="spinner">
+            </div>
+            <div id="flags"></div>
+        </div>
+
+    </main>
+
+    <div class="flag-downloader-back">
+        <div class="flag-downloader-container" id="outer">
+            <div class="flag-downloader">
+                <div class="chosen-flag"></div>
+                <h3 class="list-h">{{ lp.downloader.line1|safe }}</h3>
+                <h3 class="list-h">{{ lp.downloader.line2|safe }}</h3>
+                <h3 class="list-h">{{ lp.downloader.line3|safe }}</h3>
+                <h3 class="list-h">{{ lp.downloader.line4|safe }}</h3>
+                <div class="buttons">
+                    <button class="download" type="button" id="svg">SVG</button>
+                    <button class="download" type="button" id="png">PNG</button>
+                    <button class="download" type="button" id="exit">{{ lp.downloader.exit }}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

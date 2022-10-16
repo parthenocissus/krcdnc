@@ -4,7 +4,7 @@
       "tags": ["east_asian", "sun", "world"] },
     { "name": "ring", "weight": 0.2,
       "tags": ["east_asian", "sun", "nordic", "queer", "trans", "intersex", "world"] },
-    { "name": "random_star", "weight": 5000,
+    { "name": "random_star", "weight": 5,
       "tags": ["east_asian", "sun", "star", "world"] },
 
     { "name": "fleur_de_lis", "weight": 1.5, "file_name": "fleur_de_lis",
@@ -414,7 +414,7 @@
 
     { "name": "belgrade_emblem", "weight": 1, "file_name": "belgrade_emblem", "color": "full",
       "tags": ["serbia", "balkan", "belgrade"] },
-    { "name": "belgrade_genex", "weight": 3000, "file_name": "belgrade_genex", "color": "full",
+    { "name": "belgrade_genex", "weight": 1, "file_name": "belgrade_genex", "color": "full",
       "tags": ["serbia", "balkan", "belgrade"] },
     { "name": "belgrade_parliament", "weight": 1, "file_name": "belgrade_parliament", "color": "full",
       "tags": ["serbia", "balkan", "belgrade"] },
