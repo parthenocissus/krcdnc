@@ -35,5 +35,6 @@ content: "<p class='regular'>Contemporary computer programs can generate logos a
     </div>
     <h2 class='regular'>Crew</h2>
     <p class='regular'><strong>Maida Gruden</strong>, coordinator of the residency, curator and editor of the DKSG art program, <strong>Andrija Stojanović</strong>, producer and project coordinator, <strong>Ana Pinter</strong>, director and choreographer, <strong>Lav Mrenović</strong>, curator, and <strong>Jelena Pejović</strong>, graphic designer, worked with me on this project. I would like to thank <strong>Miloš Rančić</strong>, <strong>Jacques Laroche</strong> and <strong>Antonije Petrović</strong> for technical and programming support.</p>
+    <p class='regular'>Also, here is the group of students who, with a help of <strong>Ana Pinter</strong> and me, created the event <a href='/all-aligned/exhibitions/u-pokretu'><strong>All-Aligned in Movement</strong></a>: <strong>Teodora Simić</strong>, <strong>Svetlana Ilić</strong>, <strong>Teodora Kozomara</strong>, <strong>Vanja Ivanović</strong>, <strong>Niks Božović</strong>, <strong>Teodora Jevtić</strong>, <strong>Željko Petrović</strong> and <strong>Miron Petrik Popović</strong>.</p>
     <br>
     <p class='regular'><em>Uroš Krčadinac, fall 2022.</em>"
