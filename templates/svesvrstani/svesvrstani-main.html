@@ -5,7 +5,7 @@
     <meta property="og:title" content="{{ lp.main_title }}">
     <meta property="og:description" content="{{ lp.main_tagline_h2|striptags }}">
     {% set main_img_path = 'space/svesvrstani/media/og-image.jpg' %}
-    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image" content="{{ 'https://krcadinac.com/static/' ~ main_img_path }}">
     <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
     <meta property="og:url" content="{{ 'https://krcadinac.com' ~ lp.menu.base.name }}">
 
