@@ -2,7 +2,7 @@
 
 {% block head %}
 
-    <meta property="og:title" content="{{ lp.main_title }} → {{ page.generator.full_name }}">
+    <meta property="og:title" content="{{ lp.main_title }} → {{ lp.menu.generator.full_name }}">
     <meta property="og:description" content="{{ lp.main_tagline_h2|striptags }}">
     {% set main_img_path = 'space/svesvrstani/media/og-image.jpg' %}
     <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
@@ -11,7 +11,7 @@
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@krcadinac"/>
-    <meta name="twitter:title" content="{{ lp.main_title }} → {{ page.generator.full_name }}"/>
+    <meta name="twitter:title" content="{{ lp.main_title }} → {{ lp.menu.generator.full_name }}"/>
     <meta name="twitter:description" content="{{ lp.main_tagline_h2|striptags }}"/>
     <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}"/>
 
