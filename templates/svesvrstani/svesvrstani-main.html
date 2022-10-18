@@ -2,6 +2,19 @@
 
 {% block head %}
 
+    <meta property="og:title" content="{{ lp.main_title }}">
+    <meta property="og:description" content="{{ lp.main_tagline_h2|striptags }}">
+    {% set main_img_path = 'space/svesvrstani/media/og-image.jpg' %}
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
+    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ lp.menu.base.name }}">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@krcadinac"/>
+    <meta name="twitter:title" content="{{ lp.main_title }}"/>
+    <meta name="twitter:description" content="{{ lp.main_tagline_h2|striptags }}"/>
+    <meta name="twitter:image" content="{{ url_for('static', filename=main_img_path) }}"/>
+
     <title>{{ lp.main_title }}</title>
 
 {% endblock %}
