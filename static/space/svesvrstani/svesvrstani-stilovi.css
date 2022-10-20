@@ -198,7 +198,7 @@ div.body-landing {
 
 .title-flag img {
     width: 44vw;
-    /*transform: rotate(15deg);*/
+    /*transform: rotate(15deg); no rotation!*/
     position: absolute;
     top: 0;
     bottom: 0;
