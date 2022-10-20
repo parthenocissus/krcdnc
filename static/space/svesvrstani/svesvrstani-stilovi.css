@@ -192,18 +192,18 @@ div.body-landing {
 
 .title-flag {
     position: absolute;
-    left: 48vw;
+    left: 45vw;
     z-index: -10;
 }
 
 .title-flag img {
-    width: 38vw;
-    transform: rotate(15deg);
+    width: 44vw;
+    /*transform: rotate(15deg);*/
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto 0;
-    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 h1.landing {
@@ -794,4 +794,69 @@ button.download:hover {
 
 .thumbs .gallery figure:hover a img {
     opacity: .7;
+}
+
+/* ------ */
+/* MOBILE */
+
+@media only screen and (max-width: 769px) {
+
+    aside {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 40px;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0); /* var(--back-color); */
+        border-right: 0;
+    }
+
+    #main-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 5;
+        background-color: var(--back-color);
+        border: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    #main-menu #vertical-menu {
+        margin: 50px 50px;
+    }
+
+    #main-menu #vertical-menu a {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+
+    #lang {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        z-index: 15;
+    }
+
+    #lang p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    svg.menu {
+        left: 15px;
+        top: 19px;
+        width: 17px;
+        height: 17px;
+        z-index: 15;
+    }
+
+    aside .textual {
+        display: none;
+    }
+
 }
