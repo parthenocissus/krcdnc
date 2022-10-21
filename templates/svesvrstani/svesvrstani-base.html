@@ -46,20 +46,12 @@
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/chosen.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/svesvrstani-stilovi.css') }}">
-    {#    <link rel="stylesheet" href="{{ url_for('static', filename='space/svesvrstani/flags.css') }}">#}
-
-{#    <script type=text/javascript>#}
-{#        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};#}
-{#        let flagMappings = JSON.parse({{ params|tojson }});#}
-{#    </script>#}
 
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/canvg.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/lib/chosen.proto.min.js') }}"></script>
-{#    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/interface.js') }}"></script>#}
-{#    <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/flaglabs.js') }}"></script>#}
     <script type="text/javascript" src="{{ url_for('static', filename='space/svesvrstani/svesvrstani.js') }}"></script>
 
     {% block head %}
@@ -68,8 +60,6 @@
 </head>
 <body>
 
-
-{#{% set lang_link = lp.lang_info.counter_lang %}#}
 
 {% block langlinkage %}
 <a id="lang-link" href="{{ lang_link }}" title="{{ lp.lang_info.tooltip }}">

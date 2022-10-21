@@ -3,7 +3,7 @@
     "myflag": {
       "main_title": "All-Aligned",
       "author_address": "/work/about",
-      "main_tagline_h1": "Random flag generator<br>for infinite identity building",
+      "main_tagline_h1": "Random flag generator <br class='wide'>for infinite identity building",
       "main_tagline_h2": "<a href='/all-aligned/concept' target='_blank'>The All-Aligned</a> is a digital art project by <a href='/work/about' target='_blank'>Uroš Krčadinac</a>. An open source AI system for automated vexillology, it visualises the fractal-like fragmentary nature of our digital condition and raises questions about the society where identity creation is mediated by Big Tech.",
       "main_button": "Generate a flag!",
       "addresses": {
@@ -83,7 +83,7 @@
     "myflag": {
       "main_title": "Svesvrstani",
       "author_address": "/rad/bio",
-      "main_tagline_h1": "Generator nasumičnih zastava<br>za kreiranje beskonačno identiteta",
+      "main_tagline_h1": "Generator nasumičnih zastava <br class='wide'>za kreiranje beskonačno identiteta",
       "main_tagline_h2": "<a href='/svesvrstani/concept' target='_blank'>Svesvrstani</a> su digitalno-umetnički projekat <a href='/rad/bio' target='_blank'>Uroša Krčadinca</a>. Kao AI sistem otvorenog koda za automatizovanu veksilologiju, Svesvrstani vizuelizuju fraktalnu i fragmentarnu prirodu naših digitalnih života i postavljaju pitanja o društvu čije identitete oblikuju algoritmi.",
       "addresses": {
         "nas": "/svesvrstani",

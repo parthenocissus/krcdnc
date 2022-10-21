@@ -7,6 +7,12 @@ $(document).ready(function () {
     let mainMenuTopMobile = "0";
     let mobileQuery = "(max-width: 650px)";
 
+    if (window.matchMedia(mobileQuery).matches) {
+        // menuOn = menuOnMobile;
+        // menuOff = menuOffMobile;
+        mainMenuTop = mainMenuTopMobile;
+    }
+
     let changeLine = (id, x1, y1, x2, y2) => {
         d3.select(id).transition()
             .ease(d3.easeCubicOut)
@@ -38,13 +44,13 @@ $(document).ready(function () {
         toggle = false;
     }
 
-    let menuOnMobile = () => {
-        changeLineOn();
-        $("#main-menu").fadeIn(300, () => {
-            $("#vertical-menu").fadeIn(180);
-        });
-        toggle = false;
-    }
+    // let menuOnMobile = () => {
+    //     changeLineOn();
+    //     $("#main-menu").fadeIn(300, () => {
+    //         $("#vertical-menu").fadeIn(180);
+    //     });
+    //     toggle = false;
+    // }
 
     let menuOff = () => {
         changeLineOff();
@@ -57,18 +63,13 @@ $(document).ready(function () {
         toggle = true;
     }
 
-    let menuOffMobile = () => {
-        changeLineOff();
-        $("#vertical-menu").fadeOut(180, () => {
-            $("#main-menu").fadeOut(180);
-        });
-        toggle = true;
-    }
-
-    if (window.matchMedia(mobileQuery).matches) {
-        menuOn = menuOnMobile;
-        menuOff = menuOffMobile;
-    }
+    // let menuOffMobile = () => {
+    //     changeLineOff();
+    //     $("#vertical-menu").fadeOut(180, () => {
+    //         $("#main-menu").fadeOut(180);
+    //     });
+    //     toggle = true;
+    // }
 
     d3.select(".menu").on("click", () => {
         (toggle) ? menuOn() : menuOff();

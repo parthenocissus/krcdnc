@@ -160,7 +160,7 @@ svg.menu circle {
 svg.menu g line {
     stroke-width: 3;
     stroke-miterlimit: 10;
-    stroke: white;
+    stroke: var(--back-color);
     fill: none;
 }
 
@@ -198,7 +198,6 @@ div.body-landing {
 
 .title-flag img {
     width: 44vw;
-    /*transform: rotate(15deg); no rotation!*/
     position: absolute;
     top: 0;
     bottom: 0;
@@ -241,7 +240,6 @@ button#landing-generate {
     font-family: "Metropolis-Medium", sans-serif;
     font-size: 1.1vw;
     margin: 0;
-    /*width: 100%;*/
     background-color: black;
     color: white;
     display: inline-block;
@@ -254,7 +252,6 @@ button#landing-generate {
 
 button#landing-generate:hover {
     background-color: var(--dark-gray);
-    /*color: white;*/
 }
 
 /* Regular Page */
@@ -796,6 +793,10 @@ button.download:hover {
     opacity: .7;
 }
 
+.wide {
+    display: block;
+}
+
 /* ------ */
 /* MOBILE */
 
@@ -815,7 +816,7 @@ button.download:hover {
     #main-menu {
         position: fixed;
         left: 0;
-        top: 0;
+        top: 100vh;
         width: 100vw;
         height: 100vh;
         z-index: 5;
@@ -857,6 +858,230 @@ button.download:hover {
 
     aside .textual {
         display: none;
+    }
+
+    /* Landing Home Page */
+    .wide {
+        display: none;
+    }
+
+    div.body-landing {
+        display: block;
+    }
+
+    .title-block {
+        margin: 0;
+        padding: 100px 15px 0 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .title-flag {
+        position: relative;
+        left: 0;
+    }
+
+    .title-flag img {
+        width: 100%;
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    h1.landing {
+        font-size: 25px;
+        line-height: 28px;
+        padding: 0 0 15px 0;
+    }
+
+    h2.landing {
+        font-size: 17px;
+        line-height: 24px;
+        margin: 0 0 35px 0;
+        width: 100%;
+    }
+
+    button#landing-generate {
+        font-size: 17px;
+        padding: 15px 20px;
+    }
+
+    /* Regular Page */
+    main.regular {
+        margin: 80px 15px 40px 15px;
+    }
+
+    h1.regular {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 10px 0 0 0;
+    }
+
+    h1.subtitle {
+        font-size: 28px;
+        line-height: 32px;
+        padding-bottom: 10px;
+    }
+
+    h2.regular {
+        font-family: "Metropolis-Black", sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 15px 0 0 0;
+    }
+
+    p.regular {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .img-container {
+        padding: 10px 0 10px 0;
+    }
+
+    .breadcrumbs {
+        font-size: 14px;
+        padding: 0 0 3px 0;
+    }
+
+    /* List Page */
+    main.list-page {
+        margin: 80px 15px 40px 15px;
+        display: block;
+    }
+
+    .page-list {
+        padding: 0 0 20px 0;
+        display: block;
+    }
+
+    h1.list-h {
+        font-size: 22px;
+        line-height: 26px;
+        padding: 16px 0 10px 0;
+    }
+
+    h2.list-h {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+
+    h1.subgroup-h {
+        font-size: 14px;
+        padding: 15px 0 0 0;
+    }
+
+    .item-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .item-subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .item-image {
+        width: 100%;
+        padding: 15px 0 10px 0;
+    }
+
+    /* Gallery on Regular Page */
+    .thumbs {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+
+    .thumbs .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
+
+    /* Generator Page */
+    main.generator-page {
+        margin: 80px 15px 40px 15px;
+        display: block;
+    }
+
+    h3.list-h {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0 0 10px 0;
+    }
+
+    button#go {
+        font-size: 16px;
+        margin: 25px 0 20px 0;
+        padding: 15px 20px;
+    }
+
+    /* Flag Space */
+    #home-flag-space {
+        box-sizing: border-box;
+        padding: 36px 0 0 0;
+        width: 100%;
+    }
+
+    #home-flag-space #flags {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Slider styles */
+    #slider-header {
+        padding: 10px 0 15px 0;
+    }
+
+    #slider-group label {
+        bottom: 7px;
+        padding-left: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .slider-div input[type=range] {
+        height: 23px;
+    }
+
+    .slider-div input[type=range]::-webkit-slider-thumb {
+        height: 16px;
+        width: 16px;
+        border-radius: 16px;
+        margin-top: -7px;
+    }
+
+    .slider-div input[type=range]::-moz-range-thumb {
+        height: 16px;
+        width: 16px;
+        border-radius: 16px;
+    }
+
+    /* Flag Downloader */
+
+    .flag-downloader {
+        background-color: var(--back-color);
+        width: 90vw;
+        padding: 3vw;
+    }
+
+    .chosen-flag {
+        padding: 0 0 15px 0;
+    }
+
+    .buttons {
+        padding: 20px 0 0 0;
+        grid-gap: 5px;
+    }
+
+    button.download {
+        font-size: 16px;
+        padding: 15px 20px;
     }
 
 }
