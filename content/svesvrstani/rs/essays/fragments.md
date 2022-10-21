@@ -1,7 +1,7 @@
 title:
     name: Fragmenti i citati 
     subtitle: Posveta za Svesvrstane
-id: fragmentss
+id: fragments
 year: 2022
 importance: second
 address: "/essays/fragments"
