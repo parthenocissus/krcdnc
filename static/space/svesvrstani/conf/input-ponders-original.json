@@ -236,6 +236,48 @@
       "communism": 1
     }
   },
+  "christian": {
+    "meta_data": {"label": "Christian", "label_sr": "Hrišćanska", "type": "unipolar"},
+    "layout": {
+      "unicolor": 1,
+      "canton": 0.5,
+      "cross": 1,
+      "cross_saltire": 0.5,
+      "nordic_cross": 0.9,
+      "canton_cross": 0.9
+    },
+    "colors": {
+      "red": 0.5,
+      "blue": 0.5,
+      "brown": 0.2,
+      "white": 0.2,
+      "yellow": 0.2
+    },
+    "symbols": {
+      "christian": 1
+    }
+  },
+  "islamic": {
+    "meta_data": {"label": "Islamic", "label_sr": "Muslimanska", "type": "unipolar"},
+    "layout": {
+      "unicolor": 1,
+      "tricolor_horizontal": 0.5,
+      "chevron": 0.5,
+      "hoist_stripe": 1,
+      "fly_stripe": 0.5,
+      "top_stripe": 0.5,
+      "bottom_stripe": 0.5
+    },
+    "colors": {
+      "green": 1,
+      "black": 0.5,
+      "white": 0.5,
+      "red": 0.5
+    },
+    "symbols": {
+      "islam": 1
+    }
+  },
   "serbian": {
     "meta_data": {"label": "Serbian", "label_sr": "Srpska", "type": "unipolar"},
     "layout": {
