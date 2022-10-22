@@ -29,6 +29,9 @@
         "essays": {
           "name": "Essays", "address": "/essays"
         },
+        "press": {
+          "name": "Press", "address": "/press"
+        },
         "code": {
           "name": "Open Source", "address": "/code"
         },
@@ -108,6 +111,9 @@
         },
         "essays": {
           "name": "Eseji", "address": "/essays"
+        },
+        "press": {
+          "name": "U medijima", "address": "/press"
         },
         "code": {
           "name": "Otvoren kôd", "address": "/code"

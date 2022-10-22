@@ -352,10 +352,23 @@ def allaligned_support():
     page = utils.svesvrstani_page(fp, en, "support")
     return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("en"))
 
-@app.route('/svesvrstani/exhibitions/<name>/')
-def svesvrstani_exhibition_page(name):
-    page = utils.svesvrstani_exhibition(fp, sh, name)
+
+@app.route("/svesvrstani/press")
+def svesvrstani_press():
+    page = utils.svesvrstani_page(fp, sh, "press")
     return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("sr"))
+
+
+# @app.route("/all-aligned/press")
+# def allaligned_press():
+#     page = utils.svesvrstani_page(fp, en, "press")
+#     return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("en"))
+#
+#
+# @app.route('/svesvrstani/exhibitions/<name>/')
+# def svesvrstani_exhibition_page(name):
+#     page = utils.svesvrstani_exhibition(fp, sh, name)
+#     return render_template('svesvrstani/svesvrstani-regular-page.html', params={}, page=page, lp=mf.lp("sr"))
 
 
 @app.route('/all-aligned/exhibitions/<name>/')
