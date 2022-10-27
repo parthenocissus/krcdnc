@@ -60,7 +60,7 @@ presentations:
       events:
         - link: "/all-aligned/exhibitions/dksg"
           linked: "The All-Aligned"
-          name: Solo Exhibition, Student City Cultural Centre (DKSG) Gallery, Belgrade, Serbia
+          name: Solo Exhibition, Students' City Cultural Centre Gallery, Belgrade, Serbia
         - link: "/all-aligned/exhibitions/drugo-more"
           linked: "The All-Aligned"
           name: Solo Exhibition, Drugo More Gallery, Rijeka, Croatia
@@ -69,7 +69,7 @@ presentations:
           name: Solo Exhibition, Kontejner Gallery, Zagreb, Croatia
         - link: "/all-aligned/exhibitions/u-pokretu"
           linked: "The All-Aligned in Movement"
-          name: Public Game, DKSG Open Space, Belgrade, Serbia
+          name: Public Game, Students' City Cultural Centre Open Space, Belgrade, Serbia
         - link: "/all-aligned/exhibitions/sutra"
           linked: "The All-Aligned Bot"
           name: Group Exhibition, S.U.T.R.A. Festival of Digital Art, Museum of Science and Technology, Belgrade, Serbia
@@ -90,10 +90,10 @@ press:
           linked: Flags are a common trauma and thrill of us Post-Yugoslavs
           name: "Interview, Nova, Belgrade, Serbia"
         - link: 'https://rs.n1info.com/kultura/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/'
-          linked: 'Solo Exhibition “All-Aligned” by Uroš Krčadinac in DKSG Gallery'
+          linked: 'Solo Exhibition “All-Aligned” by Uroš Krčadinac in SCCC Gallery'
           name: N1, Belgrade, Serbia
         - link: 'https://citymagazine.danas.rs/kultura/art/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/'
-          linked: 'Solo Exhibition “All-Aligned” by Uroš Krčadinac in DKSG Gallery'
+          linked: 'Solo Exhibition “All-Aligned” by Uroš Krčadinac in SCCC Gallery'
           name: City Magazine, Belgrade, Serbia
         - link: 'https://javniservis.net/mediji/dnevnici-nedeljnici-mesecnici/novi-magazin/na-mom-radaru-uros-krcadinac/'
           linked: 'On My Radar'
@@ -110,81 +110,81 @@ img_data:
       caption: "<a href='/all-aligned' target='_blank'>The All-Aligned Flags</a>, example. Uroš Krčadinac, 2022."
       gif: true
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
       caption: "Fractal Flags. A procedural graphic work by Uroš Krčadinac, 2022."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1915x937"
       caption: "<a href='/all-aligned/generator' target='_blank'>Flag Generator Interface</a>. Uroš Krčadinac, 2022."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"
-      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in DKSG Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
+      caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
 lead: "The All-Aligned is a digital art project by Uroš Krčadinac. An open source AI system for automated flag design, it visualises the fractal-like fragmentary nature of our digital condition and raises questions about the society where identity creation is mediated by Big Tech."
 
 The core of the All-Aligned is a custom made random flag generator for infinite identity building.
@@ -201,8 +201,8 @@ The project was started during the international artist-in-residence programme <
 
 The All-Aligned project was created in Belgrade, the city which is a half century old birth place of a <a href='https://en.wikipedia.org/wiki/Non-Aligned_Movement' target='_blank'>Non-Aligned Movement</a>. It was a global movement against the Cold War, imperialism, and the identitarian division of the world. Yugoslavia played a significant role in the movement. Being born on the eve of the breakup of Yugoslavia and the fall of the Berlin Wall, when the power of the movement was alredy waning, I learned more about the Non-Aligned by travelling in Africa than by living in Serbia. Sometimes it seems to me that what happened locally in my childhood is now happening globally, and that it is mediated by digital systems like these. That's why the mathematical and programming work on All-Aligned was as emotional for me as drawing an image or writing a poem.
 
-There have been three <a href='/all-aligned/exhibitions' target='_blank'>solo exhibitions</a> so far: in <a href='/all-aligned/exhibitions/dksg/' target='_blank'>DKSG Gallery</a> in Belgrade, Serbia, in <a href='/all-aligned/exhibitions/drugo-more/' target='_blank'>Drugo More</a> Gallery in Rijeka, Croatia, and in <a href='/all-aligned/exhibitions/kontejner/' target='_blank'>Kontejner Space</a> in Zagreb, Croatia. The subproject <a href='/all-aligned/exhibitions/sutra/' target='_blank'>All-Aligned Bot</a> was shown at the S.U.T.R.A. festival in the Museum of Science and Technology in Belgrade. The All-Aligned was widely <a href='/all-aligned/essays/press/' target='_blank'>written about in Serbian and Balkan press</a>. In the spring 2023. the project will be presented at the Huan Carlos University in Madrid, Spain.
+There have been three <a href='/all-aligned/exhibitions' target='_blank'>solo exhibitions</a> so far: in <a href='/all-aligned/exhibitions/dksg/' target='_blank'>Students' City Cultural Centre Gallery</a> in Belgrade, Serbia, in <a href='/all-aligned/exhibitions/drugo-more/' target='_blank'>Drugo More</a> Gallery in Rijeka, Croatia, and in <a href='/all-aligned/exhibitions/kontejner/' target='_blank'>Kontejner Space</a> in Zagreb, Croatia. The subproject <a href='/all-aligned/exhibitions/sutra/' target='_blank'>All-Aligned Bot</a> was shown at the S.U.T.R.A. festival in the Museum of Science and Technology in Belgrade. The All-Aligned was widely <a href='/all-aligned/essays/press/' target='_blank'>written about in Serbian and Balkan press</a>. In the spring 2023. the project will be presented at the Huan Carlos University in Madrid, Spain.
 
-Maida Gruden, coordinator of the residency, curator and editor of the DKSG art program, Andrija Stojanović, producer and project coordinator, Ana Pinter, director and choreographer, Lav Mrenović, curator, and Jelena Pejović, graphic designer, worked with me on this project. I would like to thank Miloš Rančić, Jacques Laroche and Antonije Petrović for technical and programming support. 
+Maida Gruden, coordinator of the They: Live project and SCCC's Head of Visual Arts Department, Andrija Stojanović, producer and SCCCs' associate for international cooperation, Ana Pinter, director and choreographer, Lav Mrenović, curator, and Jelena Pejović, graphic designer, worked with me on this project. I would like to thank Miloš Rančić, Jacques Laroche and Antonije Petrović for technical and programming support. 
 
 Also, here is the group of students who, with a help of Ana Pinter and me, created the event <a href='/all-aligned/exhibitions/u-pokretu' target='_blank'>All-Aligned in Movement</a>: Teodora Simić, Svetlana Ilić, Teodora Kozomara, Vanja Ivanović, Niks Božović, Teodora Jevtić, Željko Petrović and Miron Petrik Popović.
