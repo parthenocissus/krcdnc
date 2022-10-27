@@ -7,7 +7,7 @@ author: "Uroš Krčadinac"
 image:
     main: "svesvrstani_main.gif"
 year: "2022"
-content: "<p class='regular'>Contemporary computer programs can generate logos and ads, memes and songs, artistic images, realistic photographs and apstract animations, commercial and political propaganda. <strong>The All-Aligned</strong> are a software and cultural project in the field of generative algorithmic art, for which I've created such an AI: a generator of infinite random flags, an open source expert system for automated <a href='https://en.wikipedia.org/wiki/Vexillology' target='_blank'>vexillology</a>.</p>
+content: "<p class='regular'>Contemporary computer programs can generate logos and ads, memes and songs, artistic images, realistic photographs and apstract animations, commercial and political propaganda. <strong>The All-Aligned</strong> are a project in the field of generative algorithmic art, for which I've created such an AI: a generator of infinite random flags, an open source expert system for automated <a href='https://en.wikipedia.org/wiki/Vexillology' target='_blank'>vexillology</a>.</p>
     <p class='regular'>By generating flags, the system also generates an infinite number of micro-identities, which multiply in a fractal manner, dividing themselves ad infinitum. Visualizing the fragmentary nature of our digital lives, <strong>the All-Aligned</strong> ask: what is a society in which we, as users of digital systems, identify ourselves with automatically generated symbols, a society whose identities are driven by algorithms?</p>
     <div class='img-container'>
         <img src='/static/space/svesvrstani/media/izlozba_dksg_000.jpg'>
