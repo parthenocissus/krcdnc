@@ -11,7 +11,7 @@ year: 2022
 content: "<p class='regular'>If you like the <em>All-Aligned</em> project, think about buying a unique flag as a physical object and a signed art piece.</p>
 <p class='regular'>First generate a flag that you fancy using our software <a href='/all-aligned/generator' target='_blank'><strong>Generator</strong></a>. After you choose the flag you would like to have in a physical form, click on it and save it as a SVG and a PNG file. Send these files to my email:</p>
 <p class='regular'><strong>uros@krcadinac.com</strong></p>
-<p class='regular'>The price of one flag is <strong>25 euros</strong> or <strong>3000 Serbian dinars</strong>.</p>
+<p class='regular'>Flags are printed on satin, 26 x 17 cm, with a small wooden mast. The price of one flag is <strong>25 euros</strong> or <strong>3000 Serbian dinars</strong>.</p>
 <p class='regular'>You can pay in cash or via PayPal. For the PayPal all you need is my email: <strong>uros.krcadinac@gmail.com</strong>.</p>
 <p class='regular'>After the payment is registered, we will ship you the flag or deliver it to you in person.</p>
 <p class='regular'><br></p>

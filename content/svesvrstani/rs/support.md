@@ -11,7 +11,7 @@ year: 2022
 content: "<p class='regular'>Ukoliko vam se dopada projekat <em>Svesvrstani</em>, možete kupiti unikatnu zastavu kao fizički predmet i potpisan umetnički rad.</p>
 <p class='regular'>Najpre izgenerišite zastavu koja vam se dopada pomoću našeg <a href='/svesvrstani/generator' target='_blank'><strong>Generatora</strong></a>. Nakon što dođete do one koja biste voleli i u fizičkom obliku, kliknite na nju i sačuvajte je kao SVG i PNG fajl. Ove fajlove pošaljite na moj imejl:</p>
 <p class='regular'><strong>uros.krcadinac@gmail.com</strong></p>
-<p class='regular'>Jedna zastava iznosi <strong>3000 RSD</strong> ili <strong>25 EUR</strong>.</p>
+<p class='regular'>Jedna zastava, napravljena na kaširanom satenu, dimenzija 26 x 17 cm, sa malim drvenim jarbolom, iznosi <strong>3000 RSD</strong> ili <strong>25 EUR</strong>.</p>
 <p class='regular'>Iznos možete platiti u kešu, preko računa u Republici Srbiji ili preko Paypala. Podaci o domaćem računu:</p>
 <p class='regular'><strong>Uroš Krčadinac<br>
 250115003467150031<br>
