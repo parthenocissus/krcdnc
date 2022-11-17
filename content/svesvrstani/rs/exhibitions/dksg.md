@@ -1,5 +1,5 @@
 title:
-    name: Svesvrstani
+    name: Svesvrstani u DKSG
     subtitle: Galerija DKSG, Beograd 
     subtitle1: Uroš Krčadinac
 id: dksg

@@ -1,5 +1,5 @@
 title:
-    name: All-Aligned
+    name: All-Aligned in SCCC
     subtitle: SCCC Gallery, Belgrade 
 id: dksg
 year: 2022

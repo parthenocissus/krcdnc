@@ -59,14 +59,14 @@ presentations:
     - year: 2022
       events:
         - link: "/svesvrstani/exhibitions/dksg"
-          linked: "Svesvrstani"
+          linked: "Svesvrstani u DKSG"
           name: Samostalna izložba, Galerija DKSG, Beograd
         - link: "/svesvrstani/exhibitions/drugo-more"
-          linked: "Svesvrstani"
-          name: Samostalna izložba, Galerija Drugo more, Rijeka
+          linked: "Svesvrstani u Drugom moru"
+          name: Samostalna izložba, Galerija Filodrammatica, Drugo more, Rijeka
         - link: "/svesvrstani/exhibitions/kontejner"
-          linked: "Svesvrstani"
-          name: Samostalna izložba, Galerija Kontejner, Zagreb
+          linked: "Svesvrstani u Kontejneru"
+          name: Samostalna izložba, Galerija Miroslav Kraljević, Kontejner, Zagreb
         - link: "/svesvrstani/exhibitions/u-pokretu"
           linked: "Svesvrstani u pokretu"
           name: Javni događaj, igra ili performans, DKSG, Beograd
@@ -89,6 +89,12 @@ press:
         - link: 'https://nova.rs/kultura/uros-krcadinac-zastave-su-zajednicka-trauma-i-ushicenje-nas-postjugoslovena/'
           linked: Zastave su zajednička trauma i ushićenje nas Postjugoslovena
           name: "Intervju, Nova, Beograd"
+        - link: https://lavoce.hr/cultura-e-spettacoli/la-bandiera-simbolo-dellidentita-nazionale
+          linked: "La bandiera: simbolo dell’identità nazionale"
+          name: "La voce del popolo, Rijeka"
+        - link: https://www.novilist.hr/ostalo/kultura/izlozbe/izlozba-svesvrstani-urosa-krcadinca-zastave-po-svacijoj-mjeri/
+          linked: "Zastave po svačijoj mjeri"
+          name: "Novi list, Rijeka"
         - link: 'https://rs.n1info.com/kultura/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/'
           linked: 'Samostalna izložba “Svesvrstani” Uroša Krčadinca'
           name: N1, Belgrade, Serbia

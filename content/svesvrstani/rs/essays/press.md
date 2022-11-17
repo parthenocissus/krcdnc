@@ -15,6 +15,8 @@ content: "<p class='regular'>O projektu <em>Svesvrstani</em> pisali su razni med
 <p class='regular'><br></p>
 <p class='regular'><a href='https://p-portal.net/uros-krcadinac-na-nas-jezik-vise-utice-gugl-nego-sanu-i-hazu/' target='_blank'><em>Na naš jezik više utiče Gugl nego SANU i HAZU</em></a>, intervju, P-portal, Zagreb, Hrvatska, 2022.</p>
 <p class='regular'><a href='https://nova.rs/kultura/uros-krcadinac-zastave-su-zajednicka-trauma-i-ushicenje-nas-postjugoslovena/' target='_blank'><em>Zastave su zajednička trauma i ushićenje nas postjugoslovena</em></a>, intervju, Nova, Beograd, Srbija, 2022.</p>
+<p class='regular'><a href='https://lavoce.hr/cultura-e-spettacoli/la-bandiera-simbolo-dellidentita-nazionale' target='_blank'><em>La bandiera: simbolo dell’identità nazionale</em></a>, La voce del popolo, Rijeka, Croatia, 2022.</p>
+<p class='regular'><a href='https://www.novilist.hr/ostalo/kultura/izlozbe/izlozba-svesvrstani-urosa-krcadinca-zastave-po-svacijoj-mjeri/' target='_blank'><em>Zastave po svačijoj mjeri</em></a>, Novi list, Rijeka, Croatia, 2022.</p>
 <p class='regular'><a href='https://nova.rs/kultura/da-li-smo-se-upecali-izlozba-svesvsrtani-u-studentskom-gradu/' target='_blank'><em>Da li smo se upecali?</em></a>, Nova, Beograd, Srbija, 2022.</p>
 <p class='regular'><a href='https://rs.n1info.com/kultura/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/' target='_blank'><em>Izložba „Svesvrstani“ Uroša Krčadinca u Studentskom gradu</em></a>, N1, Beograd, Srbija, 2022.</p>
 <p class='regular'><a href='https://citymagazine.danas.rs/kultura/art/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/' target='_blank'><em>Izložba „Svesvrstani“ Uroša Krčadinca u Studentskom gradu</em></a>, City Magazine, Beograd, Srbija, 2022.</p>

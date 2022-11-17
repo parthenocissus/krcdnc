@@ -59,14 +59,14 @@ presentations:
     - year: 2022
       events:
         - link: "/all-aligned/exhibitions/dksg"
-          linked: "The All-Aligned"
+          linked: "The All-Aligned in SCCC"
           name: Solo Exhibition, Students' City Cultural Centre Gallery, Belgrade, Serbia
         - link: "/all-aligned/exhibitions/drugo-more"
-          linked: "The All-Aligned"
-          name: Solo Exhibition, Drugo More Gallery, Rijeka, Croatia
+          linked: "The All-Aligned in Drugo More"
+          name: Solo Exhibition, Filodrammatica Gallery, Drugo More, Rijeka, Croatia
         - link: "/all-aligned/exhibitions/kontejner"
-          linked: "The All-Aligned"
-          name: Solo Exhibition, Kontejner Gallery, Zagreb, Croatia
+          linked: "The All-Aligned in Kontejner"
+          name: Solo Exhibition, Miroslav Kraljević Gallery, Kontejner Zagreb, Croatia
         - link: "/all-aligned/exhibitions/u-pokretu"
           linked: "The All-Aligned in Movement"
           name: Public Game, Students' City Cultural Centre Open Space, Belgrade, Serbia
@@ -83,12 +83,18 @@ publications:
 press:
     - year: 2022
       events:
-        - link: 'https://p-portal.net/uros-krcadinac-na-nas-jezik-vise-utice-gugl-nego-sanu-i-hazu/'
-          linked: Our Language is More Affected by Google than by SANU and HAZU
+        - link: 'https://p-portal.net/en/uros-krcadinac-our-language-is-influenced-more-by-google-than-by-the-croatian-or-serbian-academy-of-sciences-and-arts/'
+          linked: Our Language Is Influenced More by Google than by the Croatian or Serbian Academy of Sciences and Arts
           name: "Interview, P-Portal, Zagreb, Croatia"
         - link: 'https://nova.rs/kultura/uros-krcadinac-zastave-su-zajednicka-trauma-i-ushicenje-nas-postjugoslovena/'
           linked: Flags are a common trauma and thrill of us Post-Yugoslavs
           name: "Interview, Nova, Belgrade, Serbia"
+        - link: https://lavoce.hr/cultura-e-spettacoli/la-bandiera-simbolo-dellidentita-nazionale
+          linked: "La bandiera: simbolo dell’identità nazionale"
+          name: "La voce del popolo, Rijeka, Croatia"
+        - link: https://www.novilist.hr/ostalo/kultura/izlozbe/izlozba-svesvrstani-urosa-krcadinca-zastave-po-svacijoj-mjeri/
+          linked: "Flags For Everyone"
+          name: "Novi list, Rijeka, Croatia"
         - link: 'https://rs.n1info.com/kultura/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/'
           linked: 'Solo Exhibition “All-Aligned” by Uroš Krčadinac in SCCC Gallery'
           name: N1, Belgrade, Serbia

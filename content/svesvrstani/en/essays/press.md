@@ -13,8 +13,10 @@ image:
     main: "thumbs/contour007_wide.svg"
 content: "<p class='regular'>Various media wrote about the <em>All-Aligned</em>. This is a list of interviews, reviews, reports, press release, and other media texts. Most of the texts are in Serbocroatian.</p>
 <p class='regular'><br></p>
-<p class='regular'><a href='https://p-portal.net/uros-krcadinac-na-nas-jezik-vise-utice-gugl-nego-sanu-i-hazu/' target='_blank'><em>Our Language is More Affected by Google than by SANU and HAZU</em></a>, interview, P-portal, Zagreb, Croatia, 2022.</p>
+<p class='regular'><a href='https://p-portal.net/en/uros-krcadinac-our-language-is-influenced-more-by-google-than-by-the-croatian-or-serbian-academy-of-sciences-and-arts/' target='_blank'><em>Our Language Is Influenced More by Google than by the Croatian or Serbian Academy of Sciences and Arts</em></a>, interview, P-portal, Zagreb, Croatia, 2022.</p>
 <p class='regular'><a href='https://nova.rs/kultura/uros-krcadinac-zastave-su-zajednicka-trauma-i-ushicenje-nas-postjugoslovena/' target='_blank'><em>Flags are a common trauma and thrill of us Post-Yugoslavs</em></a>, interview, Nova, Belgrade, Serbia, 2022.</p>
+<p class='regular'><a href='https://lavoce.hr/cultura-e-spettacoli/la-bandiera-simbolo-dellidentita-nazionale' target='_blank'><em>La bandiera: simbolo dell’identità nazionale</em></a>, La voce del popolo, Rijeka, Croatia, 2022.</p>
+<p class='regular'><a href='https://www.novilist.hr/ostalo/kultura/izlozbe/izlozba-svesvrstani-urosa-krcadinca-zastave-po-svacijoj-mjeri/' target='_blank'><em>Flags For Everyone</em></a>, Novi list, Rijeka, Croatia, 2022.</p>
 <p class='regular'><a href='https://nova.rs/kultura/da-li-smo-se-upecali-izlozba-svesvsrtani-u-studentskom-gradu/' target='_blank'><em>Are we hooked?</em></a>, Nova, Belgrade, Serbia, 2022.</p>
 <p class='regular'><a href='https://rs.n1info.com/kultura/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/' target='_blank'><em>Solo Exhibition “All-Aligned” by Uroš Krčadinac in DKSG Gallery</em></a>, N1, Belgrade, Serbia, 2022.</p>
 <p class='regular'><a href='https://citymagazine.danas.rs/kultura/art/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/' target='_blank'><em>Exhibition “All-Aligned” by Uroš Krčadinac in DKSG Gallery</em></a>, City Magazine, Belgrade, Serbia, 2022.</p>

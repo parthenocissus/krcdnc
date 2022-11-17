@@ -10,7 +10,7 @@ year: "2022."
 content: "<p class='regular'>Današnji računarski programi mogu da generišu logotipe i reklame, mimove i pesme, umetničke slike, realistične fotografije i apstraktne animacije, komercijalnu i političku propagandu. <strong>Svesvrstani</strong> su softverski i umetnički projekat u oblasti generativne i algoritamske umetnosti za koji sam kreirao jedan ovakav AI program: generator beskonačno nasumičnih zastava, open-source ekspertski sistem za automatizovanu <a href='https://sr.wikipedia.org/sr-el/%D0%92%D0%B5%D0%BA%D1%81%D0%B8%D0%BB%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0' target='_blank'>veksilologiju</a>.</p>
     <p class='regular'>Generišući zastave, sistem generiše i beskonačno mirkoidentetita, koji se umnožavaju fraktalno, ad infinitum, do u beskraj. Vizuelizujući fragmentarnu prirodu naših digitalnih života, <strong>Svesvrstasni</strong> se pitaju: kakvo je to društvo u kojem se mi, kao korisnici digitalnih sistema, identifikujemo sa automatski generisanim simbolima, društvo čije identitete oblikuju algoritmi?</p>
     <div class='img-container'>
-        <img src='/static/space/svesvrstani/media/izlozba_dksg_000.jpg'>
+        <img src='/static/space/svesvrstani/media/portret.jpg'>
     </div>
     <h2 class='regular'>Algoritam</h2>
     <p class='regular'>Program sam napisao u Pythonu (back-end) i JavaScriptu (front-end). Srce programa čine sistemi statističkih distribucija za mapiranje semantike na grafiku. Ideje i pojmovi (piratsko, balkansko, libertarijansko, ekološko, inselsko, mračno, ljubavno, itd) mapiraju se na grafičke elemente (boje, layoute, simbole, nove oblike, itd).</p>
@@ -18,7 +18,7 @@ content: "<p class='regular'>Današnji računarski programi mogu da generišu lo
     <p class='regular'>Na korisnicima je da izberu parametre (ideje i pojmove), podese slajdere i kliknu <em>Generiši</em>. Svakim novim klikom se automatski, spram unetih parametara, proizvedu sasvim nove zastave.</p>
     <p class='regular'>Trenutna verzija softvera objavljena je kao <a href='https://github.com/parthenocissus/allaligned-svesvrstani' target='_blank'><strong>besplatan i slobodan projekat otvorenog kôda na GitHubu</strong></a>. Projekat je objavljen pod slobodnom nekomercijalnom licencom GNU General Public Licence v3.0.</p>
     <div class='img-container'>
-        <img src='/static/space/svesvrstani/media/upokretu.jpg'>
+        <img src='/static/space/svesvrstani/media/izlozba_dksg_000.jpg'>
     </div>
     <h2 class='regular'>Poreklo projekta</h2>
     <p class='regular'>Projekat sam započeo u okviru šireg programa Doma kulture Studentski grad u Beogradu koji se bavi životom studenata kroz dva projekta: <a href='https://theylive.eu/' target='_blank'><strong>They: Live – student lives revealed through context-based art practices</strong></a> i <strong>Studenator</strong>, identitetski generator Studentskog grada. Umetnička rezidencija, podržana od strane programa Kreativna Evropa i Ministarstva kulture i informisanja Republike Srbije, odvijala se u glavnim studentskim kampusima Beograda, Madrida, Rijeke, Podgorice i Novog Sada. U okviru rezidencije izabrani umetnici i kustosi proveli su mesec dana u glavnom studentskom kampusu svog grada.</p>
@@ -26,7 +26,7 @@ content: "<p class='regular'>Današnji računarski programi mogu da generišu lo
     <p class='regular'>U junu 2022. napravili smo izložbu <a href='/svesvrstani/exhibitions/dksg'><strong>Svesvrstani</strong></a> u Galeriji DKSG, koja je prikazala zastave koje su nastale u radu sa studentima. U septembru  2022. godine u saradnji sa rediteljkom Anom Pinter i 8 studenata sa različitih fakulteta realizovan je interaktivni performans, društvena igra <a href='/svesvrstani/exhibitions/u-pokretu'><strong>Svesvrstani u pokretu</strong></a> u okviru projeta Studenator na otvorenim prostorima Studentskog grada i Doma kulture Studentski grad.</p>
     <p class='regular'>Izložba i performans postavili su pitanja o odnosu tehnologije i ideologije. Kada izaberemo zastavu, jesmo li je zbilja sami izabrali ili smo se tek upecali na automatizovanu udicu? Dok nam se skrolovanjem i lajkovanjem luče dopamin i serotonin, umišljamo li slobodu izbora? Da li mi vladamo simbolima ili oni nama? I uopšte, ima li estetskih rešenja za strukturne probleme?</p>
     <div class='img-container'>
-        <img src='/static/space/svesvrstani/media/izlozba_dksg_001.jpg'>
+        <img src='/static/space/svesvrstani/media/drugo-more-izlozba02.jpg'>
     </div>
     <h2 class='regular'>Kontekst</h2>
     <p class='regular'>Projekat <strong>Svesvrstani</strong> nastao je u Beogradu, gradu iz kojeg je pre pola veka potekao <strong><a href='https://sh.wikipedia.org/wiki/Pokret_nesvrstanih' target='_blank'>Pokret nesvrstanih</a></strong>. Bio je to globalni pokret protiv Hladnog rata, imperijalizma i identitetske podele sveta, u kojem je Jugoslavija igrala značajnu ulogu.</p>
