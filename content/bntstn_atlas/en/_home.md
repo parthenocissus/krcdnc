@@ -37,5 +37,5 @@ image2:
 page7:
     txt: "<h4 class='last-h4'>Now you can explore <span class='all-maps-link'>all maps</span>.</h4>
 <p>Or, choose <span class='random-map-link'>one map at random</span>. Or, start with the first map in the series, which <a href='/bantustan-interactive-atlas/map/balkan-africa'>connects the Balkans with Africa</a>. Or, if you prefer reading books backwards, start with the last map, which depicts the shores of <a href='/bantustan-interactive-atlas/map/namibia'>Atlantic Ocean in Namibia</a>.</p>
-<p><a href='/bantustan-interactive-atlas/prints'>Graphic prints</a> will be available after the Belgrade exhibition in April, 2022.</p>
+<p><a href='/bantustan-interactive-atlas/prints'>Graphic prints</a> are available.</p>
 <p><br><br><a href='/work/about/' target='_blank'>Uroš Krčadinac</a>, 2015–2022.</p>"
