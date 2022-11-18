@@ -5,10 +5,10 @@ id: zastave-rentijerska-klasa
 year: 2022
 importance: second
 address: "/essays/zastave-rentijerska-klasa"
-thumb: "contour008.svg"
+thumb: "contour009.svg"
 parent:
     name: Essays
     address: "/essays"
 image:
-    main: "thumbs/contour008_wide.svg"
+    main: "thumbs/contour009_wide.svg"
 content: "<p class='regular'>This story is not yet available in English.</p>"

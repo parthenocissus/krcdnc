@@ -5,12 +5,12 @@ id: profilicity
 year: 2022
 importance: second
 address: "/essays/profilicity"
-thumb: "contour008.svg"
+thumb: "contour010.svg"
 parent:
     name: Essays
     address: "/essays"
 image:
-    main: "thumbs/contour008_wide.svg"
+    main: "thumbs/contour010_wide.svg"
 content: "<p class='regular'>While researching digital and generative identities for the <a href='/all-aligned' target='_blank'><em>All-Aligned</em> project</a>, I've discovered <strong>Hans Georg Moeller</strong>, a philosophy professor who currently teaches at the University of Macau. Bridging social systems theory, Tao and Zen philosophy, and materialist approaches to history, Moeller has written several books on systems, identities, digital profiles, and morality traps, such as <em><a href='http://cup.columbia.edu/book/you-and-your-profile/9780231196017' target='_blank'>You and Your Profile: Identity After Authenticity</a></em>, <em><a href='http://cup.columbia.edu/book/the-moral-fool/9780231145084' target='_blank'>The Moral Fool: A Case for Amorality</a></em>, <em><a href='http://cup.columbia.edu/book/genuine-pretending/9780231183994' target='_blank'>Genuine Pretending: On the Philosophy of the Zhuangzi</a></em> and <em><a href='https://www.amazon.com/Luhmann-Explained-Souls-Systems-Ideas/dp/0812695984' target='_blank'>Luhmann Explained: From Souls to Systems </a></em>. Being an academic and a writer, Moeller is also an accomplished Youtuber. He is running two exellent YouTube channels, which I wholeheartedly recommend: <em><a href='https://www.youtube.com/@carefreewandering' target='_blank'>Carefree Wandering</a></em> and <em><a href='https://www.youtube.com/@philosophyinmotion' target='_blank'>Philosophy in Motion</a></em>.</p>
 <p class='regular'>In his book on digital identities, Moeller identifies three technologies for identity production, which have developed throughout history:</p>
 <p class='regular'><strong>1. Sincerity</strong> is the oldest identity technology. It refers to the old traditional social roles, which individuals assume at birth or during key moments in life. This is, for example, the identity of mother or father, son or daughter, peasant or warrior, Serb or Hungarian, Orthodox or Catholic, feudal lord or servant. Traditional society expects individuals to honestly identify with these roles, hence the term <em>sincerety</em>.</p>

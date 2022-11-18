@@ -5,12 +5,12 @@ id: zastave-rentijerska-klasa
 year: 2022
 importance: second
 address: "/essays/zastave-rentijerska-klasa"
-thumb: "contour008.svg"
+thumb: "contour009.svg"
 parent:
     name: Eseji
     address: "/essays"
 image:
-    main: "thumbs/contour008_wide.svg"
+    main: "thumbs/contour009_wide.svg"
 content: "<p class='regular'>– Mislila sam – kaže drugarica – da ne želim da imam decu zato što sam feministkinja. Onda sam shvatila da je pravi razlog to što sam podstanarka koja malo-malo pa izgubi posao. Teško mi je bilo da to priznam sebi. Bilo je lakše verovati u apsolutnu slobodu izbora: ne želim da budem majka, prosto <em>ne želim</em>, i to je samo <em>moj</em> izbor.</p> 
 <p class='regular'>– Nijedan izbor – kažem – nije samo tvoj. Ti si deo sveta.</p>
 <p class='regular'>– Nije. Ali, ima i dublji nivo. Kao da sam borbom za pravo na slobodu izbora samu sebe sprečila da se zapitam odakle ti moji izbori dolaze, moje žudnje, moje potrebe, šta ih oblikuje, kakvo je to moje prirodno i društveno biće koje oblikuje moju svest.

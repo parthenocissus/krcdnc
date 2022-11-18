@@ -5,12 +5,12 @@ id: profilicity
 year: 2022
 importance: second
 address: "/essays/profilicity"
-thumb: "contour008.svg"
+thumb: "contour010.svg"
 parent:
     name: Eseji
     address: "/essays"
 image:
-    main: "thumbs/contour008_wide.svg"
+    main: "thumbs/contour010_wide.svg"
 content: "<p class='regular'>Istražujući digitalne i generativne identitete za projekat <em>Svesvrstani</em>, otkrio sam profesora <strong>Hansa Georga Melera (Moeller)</strong>, koji trenutno predaje na Univerzitetu u Makauu. Povezujući teorije društvenih sistema, tao i zen filozofiju i materijalistički pristup istoriji, Meler je napisao više knjiga o sistemima, identitetima, digitalnim profilima i zamkama moralnosti, kao što su <em><a href='http://cup.columbia.edu/book/you-and-your-profile/9780231196017' target='_blank'>You and Your Profile: Identity After Authenticity</a></em>, <em><a href='http://cup.columbia.edu/book/the-moral-fool/9780231145084' target='_blank'>The Moral Fool: A Case for Amorality</a></em>, <em><a href='http://cup.columbia.edu/book/genuine-pretending/9780231183994' target='_blank'>Genuine Pretending: On the Philosophy of the Zhuangzi</a></em> i <em><a href='https://www.amazon.com/Luhmann-Explained-Souls-Systems-Ideas/dp/0812695984' target='_blank'>Luhmann Explained: From Souls to Systems </a></em>. Uz pisanje i akademiju, Meler se ostvario i kao Jutjuber. Vodi dva odlična kanala koja preporučujem svima: <em><a href='https://www.youtube.com/@carefreewandering' target='_blank'>Carefree Wandering</a></em> i <em><a href='https://www.youtube.com/@philosophyinmotion' target='_blank'>Philosophy in Motion</a></em>.</p>
 <p class='regular'>U svojoj knjizi o identitetima, Meler identifikuje tri tehnologije za proizvodnju identiteta, koje su se razvijale tokom istorije:</p>
 <p class='regular'><strong>1. Čestitost (Sincerity)</strong> je nastarija i najtvrđa identitetska tehnologija. Radi se o tradicionalnim društvenim ulogama, koje pojedinci preuzimaju po rođenju ili tokom ključnih trenutaka u životu. To je, primera radi, identitet oca ili majke, sina ili ćerke, paora ili ratnika, Srbina ili Mađara, pravoslavca ili katolika, feudalca ili sluge. Tradicionalno društvo očekuje da se pojedinci iskreno identifikuju sa ovim ulogama, otuda termin »iskrenost«. U našem kontekstu, pak, verujem da ga je uputnije prevesti kao »čestitost«: biti čestita majka, čestit kralj, čestita vernica, čestit Grk.</p>
