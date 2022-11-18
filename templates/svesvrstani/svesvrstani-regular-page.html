@@ -54,8 +54,9 @@
                 <a href="{{ lp.menu.base.address }}">{{ lp.main_title }}</a> →
             {% else %}
                 {% set parent_link = lp.menu.base.address ~ page.parent.address %}
+                {% set y = page.year_text if page.year_text is defined else page.year %}
                 <a href="{{ lp.menu.base.address }}">{{ lp.main_title }}</a> →
-                <a href="{{ parent_link }}">{{ page.parent.name }}</a> → {{ page.year }}
+                <a href="{{ parent_link }}">{{ page.parent.name }}</a> → {{ y }}
             {% endif %}
         </div>
 

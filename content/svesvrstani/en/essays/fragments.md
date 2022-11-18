@@ -1,8 +1,9 @@
 title:
     name: Fragments and Quotes
-    subtitle: Dedicated to the All-Aligned
+    subtitle: Various Authors
 id: fragments
-year: 2022
+year: 2020
+year_text: "20th and 21st century"
 importance: second
 address: "/essays/fragments"
 thumb: "contour002.svg"

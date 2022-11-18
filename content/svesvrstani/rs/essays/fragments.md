@@ -1,8 +1,9 @@
 title:
     name: Fragmenti i citati 
-    subtitle: Posveta za Svesvrstane
+    subtitle: Razni autori
 id: fragments
-year: 2022
+year: 2020
+year_text: "20. i 21. vek"
 importance: second
 address: "/essays/fragments"
 thumb: "contour002.svg"

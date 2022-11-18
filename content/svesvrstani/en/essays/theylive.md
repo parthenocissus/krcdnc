@@ -1,5 +1,5 @@
 title:
-    name: What does your personal flag look like?
+    name: What Does Your Personal Flag Look Like?
     subtitle: Uroš Krčadinac
 id: theylive
 year: 2022

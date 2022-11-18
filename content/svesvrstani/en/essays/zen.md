@@ -3,6 +3,7 @@ title:
     subtitle: Dajian Huineng
 id: zen
 year: 701
+year_text: "700 AD"
 importance: second
 address: "/essays/zen"
 thumb: "contour005.svg"

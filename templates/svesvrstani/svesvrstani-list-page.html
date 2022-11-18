@@ -66,7 +66,8 @@
                     {% set lnk = lp.menu.base.address ~ p.address  %}
                     <a href="{{ lnk }}" class="single-item-anchor">
                         <div class="single-item">
-                            {% set st = p.title.subtitle ~ ", " ~ p.year %}
+                            {% set y = p.year_text if p.year_text is defined else p.year %}
+                            {% set st = p.title.subtitle ~ ", " ~ y %}
                             {% set item_image = "space/svesvrstani/media/thumbs/" ~ p.thumb %}
                             <div class="item-image">
                                 <img src="{{ url_for('static', filename=item_image) }}" alt="svesvrstani all-aligned">
