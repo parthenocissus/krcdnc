@@ -13,9 +13,17 @@ data:
         - path: "media/pages/uros-dksg-18-april.jpg"
         - path: "media/pages/krokodil02.jpg"
         - path: "media/pages/dksg-001.jpg"
+        - path: "media/pages/drugo-more-izlozba02.jpg"
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2022</div>
     <ul>
+    <li><a href='https://p-portal.net/en/uros-krcadinac-our-language-is-influenced-more-by-google-than-by-the-croatian-or-serbian-academy-of-sciences-and-arts/' target='_blank'><em>Our Language Is Influenced More by Google than by the Croatian or Serbian Academy of Sciences and Arts</em></a>, interview, P-portal, Zagreb, Croatia, 2022.</li>
+    <li><a href='https://nova.rs/kultura/uros-krcadinac-zastave-su-zajednicka-trauma-i-ushicenje-nas-postjugoslovena/' target='_blank'><em>Flags are a common trauma and thrill of us Post-Yugoslavs</em></a>, interview, Nova, Belgrade, Serbia, 2022.</li>
+    <li><a href='https://lavoce.hr/cultura-e-spettacoli/la-bandiera-simbolo-dellidentita-nazionale' target='_blank'><em>La bandiera: simbolo dell’identità nazionale</em></a>, La voce del popolo, Rijeka, Croatia, 2022.</li>
+    <li><a href='https://www.novilist.hr/ostalo/kultura/izlozbe/izlozba-svesvrstani-urosa-krcadinca-zastave-po-svacijoj-mjeri/' target='_blank'><em>Flags For Everyone</em></a>, Novi list, Rijeka, Croatia, 2022.</li>
+    <li><a href='https://nova.rs/kultura/da-li-smo-se-upecali-izlozba-svesvsrtani-u-studentskom-gradu/' target='_blank'><em>Are we hooked?</em></a>, Nova, Belgrade, Serbia, 2022.</li>
+    <li><a href='https://rs.n1info.com/kultura/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/' target='_blank'><em>Solo Exhibition “All-Aligned” by Uroš Krčadinac in DKSG Gallery</em></a>, N1, Belgrade, Serbia, 2022.</li>
+    <li><a href='https://citymagazine.danas.rs/kultura/art/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/' target='_blank'><em>Exhibition “All-Aligned” by Uroš Krčadinac in DKSG Gallery</em></a>, City Magazine, Belgrade, Serbia, 2022.</li>
     <li><em><a href='https://rs.n1info.com/kultura/onda-porastes-a-mape-postanu-strasne-izlozba-urosa-krcadinca-u-galeriji-dksg/' target='_blank'>Uroš Krčadinac's Solo Exhibition in the DKSG Gallery</a></em>, N1, Belgrade, Serbia</li>
     <li><em><a href='https://013info.rs/vesti/srbija/uros-krcadinac-i-lav-mrenovic-predstavili-rezultate-umetnicke-rezidencije-u-okviru' target='_blank'>Uroš Krčadinac and Lav Mrenović presented the results of the Artist-in-Residence project They:Live</a></em>, 013info, Pančevo, Serbia</li>
     <li><em><a href='https://www.mixcloud.com/Sceniranje/200-marina-milovanovi%C4%87-i-uro%C5%A1-kr%C4%8Dadinac-priroda-i-dru%C5%A1tvo/' target='_blank'>Sceniranje</a></em> (Podcast Interview), NKSS, hosts Luna Stefanović and Sofija Balać, Belgrade, Serbia</li>
@@ -82,4 +90,4 @@ timeline:
     - year: 2021
       d: 2
     - year: 2022
-      d: 5
+      d: 13

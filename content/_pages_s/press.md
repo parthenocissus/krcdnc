@@ -13,9 +13,17 @@ data:
         - path: "media/pages/uros-dksg-18-april.jpg"
         - path: "media/pages/krokodil02.jpg"
         - path: "media/pages/dksg-001.jpg"
+        - path: "media/pages/drugo-more-izlozba02.jpg"
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2022</div>
     <ul>
+    <li><a href='https://p-portal.net/uros-krcadinac-na-nas-jezik-vise-utice-gugl-nego-sanu-i-hazu/' target='_blank'><em>Na naš jezik više utiče Gugl nego SANU i HAZU</em></a>, intervju, P-portal, Zagreb, Hrvatska, 2022.</li>
+    <li><a href='https://nova.rs/kultura/uros-krcadinac-zastave-su-zajednicka-trauma-i-ushicenje-nas-postjugoslovena/' target='_blank'><em>Zastave su zajednička trauma i ushićenje nas postjugoslovena</em></a>, intervju, Nova, Beograd, Srbija, 2022.</li>
+    <li><a href='https://lavoce.hr/cultura-e-spettacoli/la-bandiera-simbolo-dellidentita-nazionale' target='_blank'><em>La bandiera: simbolo dell’identità nazionale</em></a>, La voce del popolo, Rijeka, Croatia, 2022.</li>
+    <li><a href='https://www.novilist.hr/ostalo/kultura/izlozbe/izlozba-svesvrstani-urosa-krcadinca-zastave-po-svacijoj-mjeri/' target='_blank'><em>Zastave po svačijoj mjeri</em></a>, Novi list, Rijeka, Croatia, 2022.</li>
+    <li><a href='https://nova.rs/kultura/da-li-smo-se-upecali-izlozba-svesvsrtani-u-studentskom-gradu/' target='_blank'><em>Da li smo se upecali?</em></a>, Nova, Beograd, Srbija, 2022.</li>
+    <li><a href='https://rs.n1info.com/kultura/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/' target='_blank'><em>Izložba „Svesvrstani“ Uroša Krčadinca u Studentskom gradu</em></a>, N1, Beograd, Srbija, 2022.</li>
+    <li><a href='https://citymagazine.danas.rs/kultura/art/izlozba-svesvrstani-urosa-krcadinca-u-studentskom-gradu/' target='_blank'><em>Izložba „Svesvrstani“ Uroša Krčadinca u Studentskom gradu</em></a>, City Magazine, Beograd, Srbija, 2022.</li>
     <li><em><a href='https://rs.n1info.com/kultura/onda-porastes-a-mape-postanu-strasne-izlozba-urosa-krcadinca-u-galeriji-dksg/' target='_blank'>Izložba Uroša Krčadinca u galeriji DKSG</a></em>, N1, Beograd, Srbija</li>
     <li><em><a href='https://013info.rs/vesti/srbija/uros-krcadinac-i-lav-mrenovic-predstavili-rezultate-umetnicke-rezidencije-u-okviru' target='_blank'>Uroš Krčadinac i Lav Mrenović predstavili rezultate umetničke rezidencije u okviru projekta They:Live</a></em>, 013info, Pančevo, Serbia</li>
     <li><em><a href='https://www.mixcloud.com/Sceniranje/200-marina-milovanovi%C4%87-i-uro%C5%A1-kr%C4%8Dadinac-priroda-i-dru%C5%A1tvo/' target='_blank'>Sceniranje</a></em> (podkast intervju), NKSS, vodile Luna Stefanović i Sofija Balać, Beograd, Srbija</li>
@@ -82,4 +90,4 @@ timeline:
     - year: 2021
       d: 2
     - year: 2022
-      d: 5
+      d: 13

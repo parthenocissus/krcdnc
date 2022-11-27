@@ -51,13 +51,17 @@ data:
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2022</div>
 <ul>
+<li><a href='https://vimeo.com/773357213' target='_blank'>Artist Talk</a> as a part of the solo exhibition <em><a href='/all-aligned/exhibitions/drugo-more/' target='_blank'>All-Aligned</a></em>, Filodrammatica Gallery, Drugo More, Rijeka, Croatia</li>
+<li>Artist Talk as a part of the solo exhibition <em><a href='/all-aligned/exhibitions/kontejner/' target='_blank'>All-Aligned</a></em>, Miroslav Kraljević Gallery, Kontejner, Zagreb, Croatia</li>
+<li><em>Digital Poetics</em>, literary festival <em>Nova prikazna</em>, Academy of Arts, Skopje, N. Macedonia</li>
+<li>Artist talk as a part of the international conference <em>The All-Aligned Summit</em> within the <em>They:live</em> project, Students' City Cultural Centre, Belgrade, Serbia</li>
 <li>Artist talk as a part of the solo exhibition <em><a href='https://www.dksg.rs/lat/onda-porastes-a-mape-postanu-strasne/' target='_blank'>Then you grow up and maps become scary</a></em>, DKSG Gallery, Belgrade, Serbia</li>
 <li><em><a href='https://elle.rs/Lifestyle/Umetnost/a43317/Izlozba-Prostori-buduceg-secanja.html' target='_blank'>Digital Art and the Hacking of the Future</a></em>, lecture as a part of a group exhibition <em>Spaces of Future Remeberence</em>, Theater Vojvodina, Pančevo, Serbia</li>
 <li><em><a href='https://www.kcb.org.rs/2022/03/digitalizacija-i-digitalna-kultura/' target='_blank'>Digitalization and Digital Culture</a></em>, Artget Gallery, The Cultural Centre of Belgrade, Belgrade, Serbia</li>
 <li><em>Public talk about the They:Live Artist-in-Residence programme</em>, Student City Cultural Centre, Belgrade, Serbia</li>
 <li><em>On Hacking</em> (public lecture), Belgrade Open School, Belgrade, Serbia</li>
 <li><em>Artist Talk</em>, Petnica Science Centre, Serbia</li>
-<li><em>Critical Mapping: Data Visualization as a Tool for Critical Understanding of Urban Systems</em> (public lecture), conf. <em>Towards a Different City</em>, Institute for Urban Studies, Belgrade, Serbia</li>
+<li><em><a href='https://www.youtube.com/watch?v=rsgQ5n4INZI&ab_channel=Ministarstvoprostora' target='_blank'>Critical Mapping: Data Visualization as a Tool for Critical Understanding of Urban Systems</a></em> (public lecture), conf. <em>Towards a Different City</em>, Institute for Urban Studies, Belgrade, Serbia</li>
 </ul>
 <div class='list-title interface-heading-style'>2021</div>
 <ul>
@@ -226,4 +230,4 @@ timeline:
     - year: 2021
       d: 11
     - year: 2022
-      d: 7
+      d: 11

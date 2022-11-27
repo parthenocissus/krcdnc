@@ -51,13 +51,17 @@ data:
       text: "<div class='section-list interface-page-li-style'>
 <div class='list-title-first-page interface-heading-style'>2022</div>
 <ul>
+<li><a href='https://vimeo.com/773357213' target='_blank'>Artist Talk</a> u okviru samostalne izložbe <em><a href='/svesvrstani/exhibitions/drugo-more/' target='_blank'>Svesvrstani</a></em>, Galerija Filodrammatica, Drugo more, Rijeka, Hrvatska</li>
+<li>Artist Talk u okviru samostalne izložbe <em><a href='/svesvrstani/exhibitions/kontejner/' target='_blank'>Svesvrstani</a></em>, Galerija Miroslav Kraljević, Kontejner, Zagreb, Hrvatska</li>
+<li><em>Digitalne poetike</em>, predavanje na književnom festivalu <em>Nova prikazna</em>, Fakultet za likovne umetnosti, Skoplje, S. Makedonija</li>
+<li>Autorsko predavanje na konferenciji <em>Samit svesvrstanih</em> u okviru međunarodnog projekta <em>They:live</em>, Dom kulture Studentski grad, Beograd, Srbija</li>
 <li>Autorsko predavanje u okviru samostalne izložbe <em><a href='https://www.dksg.rs/lat/onda-porastes-a-mape-postanu-strasne/' target='_blank'>Onda porasteš a mape postanu strašne</a></em>, Galerija Doma kulture Studentski grad, Beograd, Srbija</li>
 <li><em><a href='https://elle.rs/Lifestyle/Umetnost/a43317/Izlozba-Prostori-buduceg-secanja.html' target='_blank'>Digitalna umetnost i hakovanje budućnosti</a></em>, predavanje u okviru grupne izložbe <em>Prostori budućeg sećanja</em>, stari bioskop Vojvodina, Pančevo, Srbija</li>
 <li><em><a href='https://www.kcb.org.rs/2022/03/digitalizacija-i-digitalna-kultura/' target='_blank'>Digitalizacija i digitalna kultura</a></em>, Galerija Artget, Kulturni centar Beograda, Beograd, Srbija</li>
 <li><em>Tribina o rezidencijalnom programu They:Live</em>, Dom kulture Studentski grad, Beograd, Srbija</li>
 <li><em>O hakovanju</em> (autorsko predavanje), Beogradska otvorena škola, Beograd, Srbija</li>
 <li><em>Artist Talk</em>, Istraživačka stanica Petnica, Srbija</li>
-<li><em>Kritičko mapiranje: vizuelizacija podataka u službi kritičkog razumevanja urbanih sistema</em>, predavanje u okviru konferencije <em>Ka drugačijem gradu</em>, Institut za urbane politike, Beograd, Srbija</li>
+<li><em><a href='https://www.youtube.com/watch?v=rsgQ5n4INZI&ab_channel=Ministarstvoprostora' target='_blank'>Kritičko mapiranje: vizuelizacija podataka u službi kritičkog razumevanja urbanih sistema</a></em>, predavanje u okviru konferencije <em>Ka drugačijem gradu</em>, Institut za urbane politike, Beograd, Srbija</li>
 </ul>
 <div class='list-title interface-heading-style'>2021</div>
 <ul>
@@ -226,4 +230,4 @@ timeline:
     - year: 2021
       d: 11
     - year: 2022
-      d: 7
+      d: 11
