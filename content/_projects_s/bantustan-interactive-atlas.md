@@ -3,7 +3,7 @@ title:
     short: "Bantustan: interaktivni atlas"
 id: bantustan-interactive-atlas
 date: 2022
-featured: 3
+featured: 2
 goto:
     link: "/bantustan-interactive-atlas/"
     label: "Interaktivni atlas"

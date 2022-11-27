@@ -2,7 +2,7 @@ title:
     name: "Bantustan Interactive Atlas"
 id: bantustan-interactive-atlas
 date: 2022
-featured: 3
+featured: 2
 goto:
     link: "/bantustan-interactive-atlas/home"
     label: "Interactive Atlas"
