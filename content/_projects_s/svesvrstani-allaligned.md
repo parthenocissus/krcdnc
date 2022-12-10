@@ -65,8 +65,8 @@ presentations:
           linked: "Svesvrstani u Drugom moru"
           name: Samostalna izložba, Galerija Filodrammatica, Drugo more, Rijeka
         - link: "/svesvrstani/exhibitions/kontejner"
-          linked: "Svesvrstani u Kontejneru"
-          name: Samostalna izložba, Galerija Miroslav Kraljević, Kontejner, Zagreb
+          linked: "Svesvrstani u GMK"
+          name: Samostalna izložba, Galerija Miroslav Kraljević (GMK), Kontejner, Zagreb
         - link: "/svesvrstani/exhibitions/u-pokretu"
           linked: "Svesvrstani u pokretu"
           name: Javni događaj, igra ili performans, DKSG, Beograd

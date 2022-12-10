@@ -65,8 +65,8 @@ presentations:
           linked: "The All-Aligned in Drugo More"
           name: Solo Exhibition, Filodrammatica Gallery, Drugo More, Rijeka, Croatia
         - link: "/all-aligned/exhibitions/kontejner"
-          linked: "The All-Aligned in Kontejner"
-          name: Solo Exhibition, Miroslav Kraljević Gallery, Kontejner Zagreb, Croatia
+          linked: "The All-Aligned in GMK"
+          name: Solo Exhibition, GMK (Miroslav Kraljević Gallery), Kontejner, Zagreb, Croatia
         - link: "/all-aligned/exhibitions/u-pokretu"
           linked: "The All-Aligned in Movement"
           name: Public Game, Students' City Cultural Centre Open Space, Belgrade, Serbia
