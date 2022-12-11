@@ -1,5 +1,5 @@
 title:
-    name: Svesvrstani u Galeriji Miroslav Kraljevac
+    name: Svesvrstani u Galeriji Miroslav Kraljević
     subtitle: Kontejner, Zagreb 
 id: kontejner
 year: 2022
