@@ -850,29 +850,29 @@
 
         let language = "{{ params.bntstn.lang }}";
 
-        {#if (language === 'e') {#}
-        {#    chapterOnClick = (page, title) => {#}
-        {#        const txt = "<p>Interactive reading of the book is available only for the Serbocroatian edition, which is published as a free open source e-book. The English edition is available globally on <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazon</a>.</p><p>If you wish to read the story " + title + " in Serbocroatian, you are welcome to automatically open the <a href='/download/books/Bantustan.pdf#page=" + page + "' target='_blank'>page " + page + " of the original Bantustan PDF</a>.";#}
-        {#        noteOnClick(txt);#}
-        {#    }#}
-        {# } else if (mediaQuery.matches) {#}
-        {#    chapterOnClick = (page, title) => {#}
-        {#        const txt = "<p>Ukoliko želite da pročitate priču " + title + ", možete automatski otvoriti <a href='/download/books/Bantustan.pdf#page=" + page + "' target='_blank'>PDF knjige na stranicu " + page + "</a>.</p><p>Za kvalitetnije iskustvo interaktivnog čitanja, preporučujemo vam da ovaj vebsajt otvorite u desktop brauzeru. Domaće elektronsko izdanje <em>Bantustana</em> je otvoreno licencirano i besplatno. Englesko je globalno dostupno na <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazonu</a>.";#}
-        {#        noteOnClick(txt);#}
-        {#    }#}
-        {# }#}
-
         if (language === 'e') {
             chapterOnClick = (page, title) => {
-                const txt = "<p>Interactive reading of the book is available only for the Serbian edition, which is published as a free open source e-book.</p>";
+                const txt = "<p>Interactive reading of the book is available only for the Serbocroatian edition, which is published as a free open source e-book. The English edition is available globally on <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazon</a>.</p><p>If you wish to read the story " + title + " in Serbocroatian, you are welcome to automatically open the <a href='/download/books/Bantustan.pdf#page=" + page + "' target='_blank'>page " + page + " of the original Bantustan PDF</a>.";
                 noteOnClick(txt);
             }
-        } else {
+        } else if (mediaQuery.matches) {
             chapterOnClick = (page, title) => {
-                const txt = "<p>Ukoliko želite da pročitate priču " + title + ", otvorite PDF knjige na stranicu " + page + "</a>. Domaće elektronsko izdanje <em>Bantustana</em> je otvoreno licencirano i besplatno, i može se naći na sajtu Krcadinac.com.</p>";
+                const txt = "<p>Ukoliko želite da pročitate priču " + title + ", možete automatski otvoriti <a href='/download/books/Bantustan.pdf#page=" + page + "' target='_blank'>PDF knjige na stranicu " + page + "</a>.</p><p>Za kvalitetnije iskustvo interaktivnog čitanja, preporučujemo vam da ovaj vebsajt otvorite u desktop brauzeru. Domaće elektronsko izdanje <em>Bantustana</em> je otvoreno licencirano i besplatno. Englesko je globalno dostupno na <a href='https://www.amazon.com/Bantustan-African-Journey-Lazar-Pascanovic/dp/B093B4M61M/' target='_blank'>Amazonu</a>.";
                 noteOnClick(txt);
             }
         }
+
+        {#if (language === 'e') {#}
+        {#    chapterOnClick = (page, title) => {#}
+        {#        const txt = "<p>Interactive reading of the book is available only for the Serbian edition, which is published as a free open source e-book.</p>";#}
+        {#        noteOnClick(txt);#}
+        {#    }#}
+        {# } else {#}
+        {#    chapterOnClick = (page, title) => {#}
+        {#        const txt = "<p>Ukoliko želite da pročitate priču " + title + ", otvorite PDF knjige na stranicu " + page + "</a>. Domaće elektronsko izdanje <em>Bantustana</em> je otvoreno licencirano i besplatno, i može se naći na sajtu Krcadinac.com.</p>";#}
+        {#        noteOnClick(txt);#}
+        {#    }#}
+        {# }#}
 
         /* On Load Main Map in SVG */
 
