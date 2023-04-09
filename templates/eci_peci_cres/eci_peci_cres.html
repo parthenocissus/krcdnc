@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eci peci Cres: interaktivna mapa priča</title>
+
+    <style>
+
+        {# Colors #}
+
+        body {
+            {#--sun: #eca900;#}
+            {#--sunLight: #ffefc7;#}
+            {#--fire: #F25716;#}
+            {#--fireLight: #ffcbcb;#}
+            {#--leaf: #3FFC17;#}
+            {#--leafLight: #c8fcbd;#}
+            {#--sea: #20AAE6;#}
+            {#--seaLight: #acd4e5;#}
+            {#--magic: #B417FC;#}
+            {#--magicLight: #e8bdfc;#}
+
+            --leaf: #a4cf0f;
+            --sun: #eca900;
+            --sea: #6818E7;
+            --fire: #E71830;
+
+            --leafLight: #d2e8ae;
+            --sunLight: #ffefc7;
+            --seaLight: #c4aee8;
+            --fireLight: #e8aeb5;
+
+            --dark: #1A1A1A;
+            --darkSoft: #424242;
+            --white: #FFFFFF;
+            --gray: #d6d6d6;
+        }
+
+        {# Monument Extended #}
+
+        @font-face {
+            font-family: "MonumentExtended-Regular";
+            src: url({{ url_for('static', filename='media/fonts/monument/MonumentExtended-Regular.woff2') }}) format('woff2');
+        }
+
+        @font-face {
+            font-family: "MonumentExtended-Ultrabold";
+            src: url({{ url_for('static', filename='media/fonts/monument/MonumentExtended-Ultrabold.woff2') }}) format('woff2');
+        }
+
+        {# TT Norms Pro #}
+
+        @font-face {
+            font-family: "TTNorms-Regular";
+            src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Regular.woff2') }}) format('woff2');
+        }
+
+        @font-face {
+            font-family: "TTNorms-Medium";
+            src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Medium.woff2') }}) format('woff2');
+        }
+
+        @font-face {
+            font-family: "TTNorms-Medium-Italic";
+            src: url({{ url_for('static', filename='media/fonts/ttnorms/TT-Norms-Pro-Medium-Italic.woff') }}) format('woff2');
+        }
+
+        @font-face {
+            font-family: "TTNorms-Italic";
+            src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Italic.woff2') }}) format('woff2');
+        }
+
+        @font-face {
+            font-family: "TTNorms-Bold";
+            src: url({{ url_for('static', filename='media/fonts/ttnorms/TTNorms-Bold.woff2') }}) format('woff2');
+        }
+
+        {#  Scrollbar #}
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 1vw;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: white;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: var(--dark);
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--gray);
+        }
+
+    </style>
+
+    {#    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"#}
+    {#          integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="#}
+    {#          crossorigin=""/>#}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/leaflet.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='space/eci-peci-cres/eci-peci.css') }}"/>
+
+
+    {#    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"#}
+    {#            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="#}
+    {#            crossorigin=""></script>#}
+    <script src="{{ url_for('static', filename='js/lib/leaflet.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='space/eci-peci-cres/eci-peci.js') }}"></script>
+
+</head>
+
+<body>
+
+<div id="place">
+    <div id="map"></div>
+</div>
+
+<div id="overlay">
+    <div class="gray-fog"></div>
+    <div class="welcome">
+        <h3>{{ data.meta.title }}</h3>
+        {{ data.meta.welcome|safe }}
+        <button id="landing">{{ data.meta.button }}</button>
+        {{ data.meta.welcome_after|safe }}
+    </div>
+</div>
+
+<main>
+    <h1>{{ data.meta.title }}</h1>
+    <div class="shadow-up"></div>
+    <div class="book-scroll-container">
+        <div class="book-scroll">
+            <div class="single-story intro">
+                {{ data.meta.intro|safe }}
+            </div>
+
+            {% for sp in data.story_points %}
+                {% set id = sp.properties.id %}
+                {% set title = "0" + id if id|int < 10 else id %}
+                <h2 id="s{{ id }}">{{ title }}</h2>
+                <div class="single-story">{{ sp.properties.story_html|safe }}</div>
+            {% endfor %}
+
+        </div>
+    </div>
+    <div class="shadow-down"></div>
+</main>
+
+<script>
+    let eciPeciData = {{ data|tojson }};
+</script>
+
+</body>
+
+</html>

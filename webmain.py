@@ -464,8 +464,8 @@ def konacnabazazastava():
 def downloadflags():
     return mf.download_data()
 
-# Svesvrstani API
 
+# Svesvrstani API
 
 @app.route('/_myflagsave', methods=['POST'])
 def myflagsave():
@@ -514,6 +514,15 @@ def generate_flags_clean():
 def get_flags_from_database():
     svg_data = mf.get_flag_from_database(request)
     return json.dumps(svg_data)
+
+
+# Eci peci Cres
+
+@app.route('/eci-peci-cres')
+def eci_peci_cres():
+    epc_json_path = 'static/space/eci-peci-cres/eci-peci.json'
+    data = json.load(open(epc_json_path, encoding='utf-8'))
+    return render_template('eci_peci_cres/eci_peci_cres.html', data=data)
 
 
 # _________________

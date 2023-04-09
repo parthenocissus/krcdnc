@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: var(--dark);
+}
+
+#place {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+}
+
+#map {
+    height: 100vh;
+}
+
+main {
+    position: absolute;
+    z-index: 10;
+    top: 4vh;
+    left: 4vh;
+    background-color: white;
+    padding: 3vw 0 3vw 3vw;
+    margin: 0;
+    width: 50vw;
+    height: 92vh;
+    box-sizing: border-box;
+    border-radius: 1vw;
+    box-shadow: 0 .2vw .5vw 0 var(--dark);
+}
+
+.book-scroll-container {
+    height: calc(85vh - 6vw);
+    padding: 0 3vw 0 0;
+    overflow-y: scroll;
+    position: relative;
+    box-sizing: border-box;
+    /*box-shadow: white 0 30px 40px -2em inset;*/
+}
+
+.shadow-up {
+    position: absolute;
+    z-index: 10;
+    box-sizing: border-box;
+    width: calc(100% - 6vw);
+    height: 3vw;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0); /* IE6-9 */
+}
+
+.shadow-down {
+    position: absolute;
+    bottom: 3vw;
+    z-index: 10;
+    box-sizing: border-box;
+    width: calc(100% - 6vw);
+    height: 3vw;
+    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0); /* IE6-9 */
+}
+
+h1 {
+    font-family: "MonumentExtended-Regular", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: .1vw;
+    font-size: 2vw;
+    height: 7vh;
+    width: 45%;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0;
+    /*box-shadow: 0 0 .5vw 0 var(--white);*/
+    border-bottom: .5vw solid;
+    border-image: linear-gradient(to right, var(--sun) 25%, var(--leaf) 25%, var(--leaf) 50%, var(--sea) 50%, var(--sea) 75%, var(--fire) 75%) 5;
+}
+
+h3 {
+    font-family: "MonumentExtended-Regular", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: .1vw;
+    font-size: 1.2vw;
+    box-sizing: border-box;
+    padding: 0 0 1vw 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Consolas", monospace;
+    font-size: 1.6vw;
+    font-weight: normal;
+    margin: 0 0 1.2vw 0;
+    cursor: pointer;
+    padding: 0 0 0 0.5vw;
+    /*color: var(--sun);*/
+    /*border-left: solid 1vw var(--sun);*/
+}
+
+h2:hover {
+    opacity: .5
+    /*color: var(--dark) !important;*/
+    /*border-left: solid 5vw var(--dark) !important;*/
+}
+
+.single-story {
+    padding: 0 0 2vw 0;
+}
+
+.intro {
+    margin: .4vw 0 .8vw 0;
+}
+
+p {
+    font-family: "TTNorms-Regular", sans-serif;
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+    margin-block-start: .6vw;
+    margin-block-end: 0;
+    width: 90%;
+}
+
+.welcome p {
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+    margin-block-start: .8vw;
+    margin-block-end: 0;
+    width: 90%;
+}
+
+.legend {
+    font-size: 2vw;
+    padding-right: 1vw;
+}
+
+.storyLabel {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+    font-family: "Consolas", monospace;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.leaflet-marker-hover {
+    transition-property: opacity;
+    transition-duration: .2s;
+    opacity: .8;
+}
+
+.sun {
+    color: var(--sun);
+}
+
+.fire {
+    color: var(--fire);
+}
+
+.sea {
+    color: var(--sea);
+}
+
+.magic {
+    color: var(--magic);
+}
+
+.leaf {
+    color: var(--leaf);
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    visibility: visible;
+    overflow: hidden;
+    z-index: 50;
+}
+
+.gray-fog {
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark);
+    opacity: .6;
+}
+
+.welcome {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 83vh;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 1vw;
+    padding: 3vw;
+    box-shadow: 0 .2vw 1.5vw .5vw var(--dark);
+}
+
+p a {
+    color: var(--dark);
+    padding-bottom: .2vw;
+    text-decoration: none;
+    transition: .1s;
+}
+
+p a.a-gray {
+    background: linear-gradient(0deg, var(--gray) 0%, var(--gray) 100%) repeat-x 0 100%;
+    background-size: .3vw .1vw;
+}
+
+p a.a-sun {
+    background: linear-gradient(0deg, var(--sun) 0%, var(--sun) 100%) repeat-x 0 100%;
+    background-size: .3vw .1vw;
+}
+
+p a.a-fire {
+    background: linear-gradient(0deg, var(--fire) 0%, var(--fire) 100%) repeat-x 0 100%;
+    background-size: .3vw .1vw;
+}
+
+p a.a-sea {
+    background: linear-gradient(0deg, var(--sea) 0%, var(--sea) 100%) repeat-x 0 100%;
+    background-size: .3vw .1vw;
+}
+
+p a.a-leaf {
+    background: linear-gradient(0deg, var(--leaf) 0%, var(--leaf) 100%) repeat-x 0 100%;
+    background-size: .3vw .1vw;
+}
+
+p a:hover {
+    background-size: .3vw .3vw;
+}
+
+button#landing {
+    font-family: "TTNorms-Regular", sans-serif;
+    font-size: 1.2vw;
+    margin: 1.6vw 0 .6vw 0;
+    background-color: var(--dark);
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    padding: 1vw 3.5vw;
+    text-decoration: none;
+    border: 0 lightgray solid;
+    border-radius: 0;
+}
+
+button#landing:hover {
+    background-color: var(--darkSoft);
+}
