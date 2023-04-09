@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).on("load", () => {
 
     let storyPoints = eciPeciData["story_points"];
 
@@ -48,12 +48,13 @@ $(document).ready(function () {
 
     let offsets = [];
     let h1 = $('h1');
-    let titleHeight = h1.offset().top + h1.height() + $('.shadow-up').height() + 10;
+    let titleHeight = h1.offset().top + h1.height() + $('.shadow-up').height();
     storyPoints.forEach((sp) => {
         let id = sp["properties"]["id"];
         let storyH2 = $("#s" + id);
         let offset = storyH2.offset().top - titleHeight;
         offsets.push(offset);
+        console.log(offset);
         let clr = defineColor(sp["properties"]["color"]);
         storyH2.css({
             "color": clr.hex,
@@ -62,6 +63,9 @@ $(document).ready(function () {
         storyH2.click(() => {
             let coords = markersById[id].getLatLng();
             map.setView([coords.lat, coords.lng - geo.lonOffset], geo.zoomClick);
+            $('.book-scroll-container').animate({
+                scrollTop: offsets[parseInt(id) - 1]
+            }, 500);
         });
     });
 

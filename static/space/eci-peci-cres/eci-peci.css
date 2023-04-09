@@ -1,3 +1,7 @@
+::selection {
+    background: var(--dark);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +9,10 @@ body {
     width: 100vw;
     overflow: hidden;
     color: var(--dark);
+}
+
+em {
+    font-family: "TTNorms-Italic", sans-serif;
 }
 
 #place {
@@ -111,11 +119,26 @@ h2:hover {
     /*border-left: solid 5vw var(--dark) !important;*/
 }
 
+/*h2.h2-footer {*/
+/*    color: rgba(0, 0, 0, 0);*/
+/*    border-left: solid 1vw var(--gray);*/
+/*}*/
+
+.footer-bar {
+    width: 7%;
+    border-bottom: .5vw solid var(--gray);
+    margin: 2vw 0 1.3vw 0;
+}
+
 .single-story {
     padding: 0 0 2vw 0;
 }
 
 .intro {
+    margin: .4vw 0 .8vw 0;
+}
+
+.p-footer {
     margin: .4vw 0 .8vw 0;
 }
 
@@ -139,6 +162,10 @@ p {
 .legend {
     font-size: 2vw;
     padding-right: 1vw;
+}
+
+p.p-legend {
+    line-height: 1.4vw;
 }
 
 .storyLabel {
@@ -209,15 +236,26 @@ p {
     border-radius: 1vw;
     padding: 3vw;
     box-shadow: 0 .2vw 1.5vw .5vw var(--dark);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.welcome .lower {
+    align-self: end;
+    /*justify-self: end;*/
 }
 
 p a {
     color: var(--dark);
-    padding-bottom: .2vw;
-    text-decoration: none;
+    /*padding-bottom: .2vw;*/
     transition: .1s;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gray);
 }
 
+/*
 p a.a-gray {
     background: linear-gradient(0deg, var(--gray) 0%, var(--gray) 100%) repeat-x 0 100%;
     background-size: .3vw .1vw;
@@ -242,15 +280,17 @@ p a.a-leaf {
     background: linear-gradient(0deg, var(--leaf) 0%, var(--leaf) 100%) repeat-x 0 100%;
     background-size: .3vw .1vw;
 }
+*/
 
 p a:hover {
-    background-size: .3vw .3vw;
+    /*background-size: .3vw .3vw;*/
+    border-bottom: 1px solid var(--dark);
 }
 
 button#landing {
     font-family: "TTNorms-Regular", sans-serif;
     font-size: 1.2vw;
-    margin: 1.6vw 0 .6vw 0;
+    margin: 2vw 0 .6vw 0;
     background-color: var(--dark);
     color: white;
     display: inline-block;
@@ -258,9 +298,34 @@ button#landing {
     padding: 1vw 3.5vw;
     text-decoration: none;
     border: 0 lightgray solid;
-    border-radius: 0;
+    border-radius: .5vw;
 }
 
 button#landing:hover {
     background-color: var(--darkSoft);
+}
+
+p img {
+    margin: .6vw 0 0 0;
+    width: 66%;
+}
+
+.video-meta {
+    width: 80%;
+    margin: .6vw 0 1.2vw 0;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

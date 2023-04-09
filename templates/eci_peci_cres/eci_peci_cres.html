@@ -9,18 +9,7 @@
         {# Colors #}
 
         body {
-            {#--sun: #eca900;#}
-            {#--sunLight: #ffefc7;#}
-            {#--fire: #F25716;#}
-            {#--fireLight: #ffcbcb;#}
-            {#--leaf: #3FFC17;#}
-            {#--leafLight: #c8fcbd;#}
-            {#--sea: #20AAE6;#}
-            {#--seaLight: #acd4e5;#}
-            {#--magic: #B417FC;#}
-            {#--magicLight: #e8bdfc;#}
-
-            --leaf: #a4cf0f;
+        {#--sun: #eca900;#}{#--sunLight: #ffefc7;#}{#--fire: #F25716;#}{#--fireLight: #ffcbcb;#}{#--leaf: #3FFC17;#}{#--leafLight: #c8fcbd;#}{#--sea: #20AAE6;#}{#--seaLight: #acd4e5;#}{#--magic: #B417FC;#}{#--magicLight: #e8bdfc;#} --leaf: #a4cf0f;
             --sun: #eca900;
             --sea: #6818E7;
             --fire: #E71830;
@@ -124,10 +113,14 @@
 <div id="overlay">
     <div class="gray-fog"></div>
     <div class="welcome">
-        <h3>{{ data.meta.title }}</h3>
-        {{ data.meta.welcome|safe }}
-        <button id="landing">{{ data.meta.button }}</button>
-        {{ data.meta.welcome_after|safe }}
+        <div class="upper">
+            <h3>{{ data.meta.title }}</h3>
+            {{ data.meta.welcome|safe }}
+            <button id="landing">{{ data.meta.button }}</button>
+        </div>
+        <div class="lower">
+            {{ data.meta.welcome_after|safe }}
+        </div>
     </div>
 </div>
 
@@ -146,6 +139,12 @@
                 <h2 id="s{{ id }}">{{ title }}</h2>
                 <div class="single-story">{{ sp.properties.story_html|safe }}</div>
             {% endfor %}
+
+            <div class="single-story p-footer">
+{#                <h2 id="s-footer" class="h2-footer">_</h2>#}
+                <div class="footer-bar"></div>
+                {{ data.meta.footer|safe }}
+            </div>
 
         </div>
     </div>
