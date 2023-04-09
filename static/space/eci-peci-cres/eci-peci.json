@@ -38,7 +38,7 @@
       "properties": {
         "id": "2",
         "color": "sun",
-        "story_html": "<p>Gladno jutro.</p><p>Tražimo jedini Mlinar u malom Cresu.</p><p>Slikamo šarene klompe na kamenim stepenicama.</p><p>– Jeste li slikali? – pita čovjek na vratima.<br>– Jesmo. Lijepe su. Možete li nam reći kako da dođemo do Mlinara?<br>– Lako. Ovdje idite ravno, pa skrenite lijevo, kada dođete do Pjacete, odite na desno, pa još malo naprijed, kada vidite pumpu, opet desno i tamo ste.</p><p>On je naš GPS.</p><p>Na svakom uglu uđemo u nečije dvorište puno zelenila.</p><p>Da pokucamo, možda bi nam dali za jesti?</p><p><img src='static/space/eci-peci-cres/media/cres000.JPG'><p>"
+        "story_html": "<p>Gladno jutro.</p><p>Tražimo jedini Mlinar u malom Cresu.</p><p>Slikamo šarene klompe na kamenim stepenicama.</p><p>– Jeste li slikali? – pita čovjek na vratima.<br>– Jesmo. Lijepe su. Možete li nam reći kako da dođemo do Mlinara?<br>– Lako. Ovdje idite ravno, pa skrenite lijevo, kada dođete do Pjacete, odite na desno, pa još malo naprijed, kada vidite pumpu, opet desno i tamo ste.</p><p>On je naš GPS.</p><p>Na svakom uglu uđemo u nečije dvorište puno zelenila.</p><p>Da pokucamo, možda bi nam dali za jesti?</p><p><img src='static/space/eci-peci-cres/media/cres000.jpg'><p>"
       }
     },
 
@@ -102,7 +102,7 @@
       "properties": {
         "id": "6",
         "color": "sea",
-        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_eci_peci.JPG' style='width:100%;'></p>"
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_eci_peci.jpg' style='width:100%;'></p>"
       }
     },
 
@@ -118,7 +118,7 @@
       "properties": {
         "id": "7",
         "color": "sea",
-        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_macka.JPG'></p><p>Zašto ništa nikada nije crno-bijelo?</p>"
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_macka.jpg'></p><p>Zašto ništa nikada nije crno-bijelo?</p>"
       }
     },
 
@@ -134,7 +134,7 @@
       "properties": {
         "id": "8",
         "color": "sun",
-        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_popust.JPG'></p><p><em>Utorkom 10% popusta.</em></p><p>Valjda srijedom dolazi trajekt s hranom pa se žele riješiti svega što prije.</p>"
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_popust.jpg'></p><p><em>Utorkom 10% popusta.</em></p><p>Valjda srijedom dolazi trajekt s hranom pa se žele riješiti svega što prije.</p>"
       }
     },
 
