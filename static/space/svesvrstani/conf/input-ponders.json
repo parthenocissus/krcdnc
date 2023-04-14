@@ -158,6 +158,30 @@
       "african": 1
     }
   },
+  "montenegrin": {
+    "meta_data": {"label": "Montenegrin", "label_sr": "Crnogorska", "type": "unipolar"},
+    "layout": {
+      "border": 1,
+      "tricolor_horizontal": 0.3
+    },
+    "colors": {
+      "red": 1,
+      "yellow": 0.8,
+      "white": 0.3,
+      "blue": 0.3
+    },
+    "particular_colors": {
+      "blue_gray": 1,
+      "cornflower_blue": 1,
+      "aero": 1,
+      "celestial_blue": 1
+    },
+    "symbols": {
+      "montenegro": 1,
+      "serbian": 0.4,
+      "yugoslav": 0.5
+    }
+  },
   "slavic": {
     "meta_data": {"label": "Slavic", "label_sr": "Slovenska", "type": "unipolar"},
     "layout": {

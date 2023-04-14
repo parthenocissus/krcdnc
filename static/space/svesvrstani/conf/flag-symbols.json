@@ -386,6 +386,12 @@
       "tags": ["habsburg", "austrian", "austro_hungarian", "balkan", "mitteleuropa"] },
     { "name": "montenegro_emblem", "weight": 1, "file_name": "montenegro_emblem", "color": "full",
       "tags": ["montenegro", "balkan", "eagle", "two_headed_eagle"] },
+    { "name": "montenegro_map", "weight": 1, "file_name": "montenegro_map", "color": "simple",
+      "tags": ["montenegro", "balkan", "map", "geographic"] },
+    { "name": "montenegro_lion", "weight": 1, "file_name": "montenegro_lion", "color": "simple",
+      "tags": ["montenegro", "balkan", "lion"] },
+    { "name": "montenegro_contour", "weight": 1, "file_name": "montenegro_contour", "color": "simple",
+      "tags": ["montenegro", "balkan", "eagle", "two_headed_eagle"] },
 
     { "name": "zodiac_aries", "weight": 1, "file_name": "zodiac_aries", "color": "simple",
       "tags": ["zodiac"] },
