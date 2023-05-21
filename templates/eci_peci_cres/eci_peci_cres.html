@@ -9,7 +9,7 @@
         {# Colors #}
 
         body {
-        {#--sun: #eca900;#}{#--sunLight: #ffefc7;#}{#--fire: #F25716;#}{#--fireLight: #ffcbcb;#}{#--leaf: #3FFC17;#}{#--leafLight: #c8fcbd;#}{#--sea: #20AAE6;#}{#--seaLight: #acd4e5;#}{#--magic: #B417FC;#}{#--magicLight: #e8bdfc;#} --leaf: #a4cf0f;
+            --leaf: #a4cf0f;
             --sun: #eca900;
             --sea: #6818E7;
             --fire: #E71830;
@@ -114,7 +114,7 @@
     <div class="gray-fog"></div>
     <div class="welcome">
         <div class="upper">
-            <h3>{{ data.meta.title }}</h3>
+{#            <h3>{{ data.meta.title }}</h3>#}
             {{ data.meta.welcome|safe }}
             <button id="landing">{{ data.meta.button }}</button>
         </div>

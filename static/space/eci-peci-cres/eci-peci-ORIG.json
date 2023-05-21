@@ -1,0 +1,166 @@
+{
+  "meta": {
+
+    "title": "Eci peci Cres",
+
+    "title_head": "Eci peci Cres: interaktivna karta priča",
+
+    "button": "Otvorite kartu!",
+
+    "intro": "<br><p>Interaktivna karta priča iz grada Cresa na otoku Cresu, koje su učenici Prve riječke hrvatske gimnazije prikupili i zapisali tokom dugih šetnji u rano proljeće 2023.<br></p>",
+
+    "welcome": "<p>Dobrodošli na Eci Peci Cres, interaktivnu kartu priča iz grada Cresa.</p><p>Karta je nastala u sklopu literarne radionice koju je organizirala profesorica <a href='https://hr.linkedin.com/in/helena-de-karina-b51172129' target='_blank' class='a-sea'>Helena de Karina</a>, a vodili <a href='https://hrvatskodrustvopisaca.hr/hr/clanstvo/clan/kruno-lokotar' target='_blank' class='a-fire'>Kruno Lokotar</a> i <a href='https://krcadinac.com' target='_blank' class='a-sun'>Uroš Krčadinac</a>. Priče su prikupili i napisali učenici <a href='https://prhg.hr/' target='_blank' class='a-gray'>Prve riječke hrvatske gimnazije</a> tokom dugih šetnji po otoku.</p><p class='p-legend'><span class='legend fire'>■</span>tekstualne priče<br><span class='legend sea'>■</span>foto-priče<br><span class='legend leaf'>■</span>video-priče<br><span class='legend sun'>■</span>kombinovane priče</p>",
+
+    "welcome_after": "<p>Partneri projekta:</p><p>[Logotipi partnera...]",
+
+    "footer": "<p>Karta je nastala u sklopu literarne radionice koju je organizirala profesorica <a href='https://hr.linkedin.com/in/helena-de-karina-b51172129' target='_blank' class='a-sea'>Helena de Karina</a>. Radionicu su vodili <a href='https://hrvatskodrustvopisaca.hr/hr/clanstvo/clan/kruno-lokotar' target='_blank' class='a-fire'>Kruno Lokotar</a> i <a href='https://krcadinac.com' target='_blank' class='a-sun'>Uroš Krčadinac</a>. Suradnica je bila Ivona Petrov.</p><p>Priče su prikupili i napisali učenici <a href='https://prhg.hr/' target='_blank' class='a-gray'>Prve riječke hrvatske gimnazije</a> tokom dugih šetnji po otoku. Učenici: Ime Prezime, Ime Prezime, Ime Prezime, Ime Prezime...</p><p>Projekt su podržali <a href='https://min-kulture.gov.hr/' target='_blank' class='a-gray'>Ministarstvo kulture i medija Republike Hrvatske</a> i <a href='https://uniri.hr' target='_blank' class='a-gray'>Sveučilište u Rijeci</a>. Radionica je održana u <a href='https://uniri.hr/en/university-and-community/palace-moise/' target='_blank' class='a-gray'>Palači Moise</a> na Cresu, u proljeće 2023.</p><p>[Logotipi partnera...]"
+  },
+
+  "story_points": [
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.407417,
+          44.958889
+        ]
+      },
+      "properties": {
+        "id": "1",
+        "color": "fire",
+        "story_html": "<p>Topao dan. Cresanka d.d. Sredovječne prodavačice u smjeni:</p><p>– Kako nam tu miriši po kavi!<br>– Jao, kako ne vidiš, pa prosuta je po podu!</p><p>Prodavačica uzima metlu i skuplja zrna kave.</p><p>– Ma baš nam je lijepo, ko da smo u tvornici kave!</p><p>Subota. Sretne su.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.409722,
+          44.958667
+        ]
+      },
+      "properties": {
+        "id": "2",
+        "color": "sun",
+        "story_html": "<p>Gladno jutro.</p><p>Tražimo jedini Mlinar u malom Cresu.</p><p>Slikamo šarene klompe na kamenim stepenicama.</p><p>– Jeste li slikali? – pita čovjek na vratima.<br>– Jesmo. Lijepe su. Možete li nam reći kako da dođemo do Mlinara?<br>– Lako. Ovdje idite ravno, pa skrenite lijevo, kada dođete do Pjacete, odite na desno, pa još malo naprijed, kada vidite pumpu, opet desno i tamo ste.</p><p>On je naš GPS.</p><p>Na svakom uglu uđemo u nečije dvorište puno zelenila.</p><p>Da pokucamo, možda bi nam dali za jesti?</p><p><img src='static/space/eci-peci-cres/media/cres000.jpg'><p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.403528,
+          44.956639
+        ]
+      },
+      "properties": {
+        "id": "3",
+        "color": "fire",
+        "story_html": "<p>Kotači na biciklu okreću se, vjetar u kosi.</p><p>Prema meni, kao suprotan vektor, pedalira dijete na biciklu s kotačima manjim od mojih.</p><p>Smije se, dovikuje mami: vidi me!</p><p>Smijem se, sjetno.</p><p>Još jučer sam bila takva.</p><p>Sada pedaliram u suprotnom smjeru.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408517,
+          44.959577
+        ]
+      },
+      "properties": {
+        "id": "4",
+        "color": "fire",
+        "story_html": "<p>Kad hodam gradom ne obazirem se na druge. Opasno je biti uljudan s neznancima – napast će te da potpišeš ovo, da doniraš onome.</p><p>Jučer kada sam hodala okružila me grupa djece. Ta creska djeca u mraku govore dobar dan.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408993,
+          44.958901
+        ]
+      },
+      "properties": {
+        "id": "5",
+        "color": "fire",
+        "story_html": "<p>Glazba i žamor kafića u predsezoni.</p><p>– To ti je karma – rekla je žena za susjednim stolom.</p><p>(Engleski pop? Hrvatski pop?) Iz zvučnika se začuje crkvena glazba. Zvona pravde.</p><p>Ni ovdje, bogu iza nogu, nisi udaljen od kazne.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4053088,
+          44.9569306
+        ]
+      },
+      "properties": {
+        "id": "6",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_eci_peci.jpg' style='width:100%;'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4075648,
+          44.9601408
+        ]
+      },
+      "properties": {
+        "id": "7",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_macka.jpg'></p><p>Zašto ništa nikada nije crno-bijelo?</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4106763,
+          44.9595593
+        ]
+      },
+      "properties": {
+        "id": "8",
+        "color": "sun",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_popust.jpg'></p><p><em>Utorkom 10% popusta.</em></p><p>Valjda srijedom dolazi trajekt s hranom pa se žele riješiti svega što prije.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4079065,
+          44.9597084
+        ]
+      },
+      "properties": {
+        "id": "9",
+        "color": "leaf",
+        "story_html": "<p><div class='video-meta'><div class='video-container'><iframe width='560' height='315' src='https://www.youtube.com/embed/ItrbEPMsjvY' modestbranding=1 controls=0 title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div></div></p><p>On čuva svoj brod, glanca ga i petlja po njemu.<br>Pobrinuo se da nema ni jedne ogrebotine,<br>da mu ništa ne fali.</p><p>Da se bar ti o meni tako brineš.</p>"
+      }
+    }
+
+  ]
+}

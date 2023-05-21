@@ -9,7 +9,7 @@
 
     "intro": "<br><p>Interaktivna karta priča iz grada Cresa na otoku Cresu, koje su učenici Prve riječke hrvatske gimnazije prikupili i zapisali tokom dugih šetnji u rano proljeće 2023.<br></p>",
 
-    "welcome": "<p>Dobrodošli na interaktivnu kartu priča iz grada Cresa. Karta je nastala u sklopu literarne radionice koju je organizirala profesorica <a href='https://hr.linkedin.com/in/helena-de-karina-b51172129' target='_blank' class='a-sea'>Helena de Karina</a>, a vodili <a href='https://hrvatskodrustvopisaca.hr/hr/clanstvo/clan/kruno-lokotar' target='_blank' class='a-fire'>Kruno Lokotar</a> i <a href='https://krcadinac.com' target='_blank' class='a-sun'>Uroš Krčadinac</a>. Priče su prikupili i napisali učenici <a href='https://prhg.hr/' target='_blank' class='a-gray'>Prve riječke hrvatske gimnazije</a> tokom dugih šetnji po otoku.</p><p class='p-legend'><span class='legend fire'>■</span>tekstualne priče<br><span class='legend sea'>■</span>foto-priče<br><span class='legend leaf'>■</span>video-priče<br><span class='legend sun'>■</span>kombinovane priče</p>",
+    "welcome": "<p>Dobrodošli na Eci Peci Cres, interaktivnu kartu priča iz grada Cresa.</p><p>Karta je nastala u sklopu literarne radionice koju je organizirala profesorica <a href='https://hr.linkedin.com/in/helena-de-karina-b51172129' target='_blank' class='a-sea'>Helena de Karina</a>, a vodili <a href='https://hrvatskodrustvopisaca.hr/hr/clanstvo/clan/kruno-lokotar' target='_blank' class='a-fire'>Kruno Lokotar</a> i <a href='https://krcadinac.com' target='_blank' class='a-sun'>Uroš Krčadinac</a>. Priče su prikupili i napisali učenici <a href='https://prhg.hr/' target='_blank' class='a-gray'>Prve riječke hrvatske gimnazije</a> tokom dugih šetnji po otoku.</p><p class='p-legend'><span class='legend fire'>■</span>tekstualne priče<br><span class='legend sea'>■</span>foto-priče<br><span class='legend leaf'>■</span>video-priče<br><span class='legend sun'>■</span>kombinovane priče</p>",
 
     "welcome_after": "<p>Partneri projekta:</p><p>[Logotipi partnera...]",
 
@@ -23,14 +23,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.407417,
-          44.958889
+          14.408361,
+          44.956467
         ]
       },
       "properties": {
         "id": "1",
-        "color": "fire",
-        "story_html": "<p>Topao dan. Cresanka d.d. Sredovječne prodavačice u smjeni:</p><p>– Kako nam tu miriši po kavi!<br>– Jao, kako ne vidiš, pa prosuta je po podu!</p><p>Prodavačica uzima metlu i skuplja zrna kave.</p><p>– Ma baš nam je lijepo, ko da smo u tvornici kave!</p><p>Subota. Sretne su.</p>"
+        "color": "leaf",
+        "story_html": "<p><div class='video-meta'><div class='video-container'><iframe width='334' height='594' src='https://www.youtube.com/embed/6NsVu4hQL6A' modestbranding=1 controls=0 title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div></div></p>"
       }
     },
 
@@ -39,14 +39,78 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.409722,
-          44.958667
+          14.409656,
+          44.959513
         ]
       },
       "properties": {
         "id": "2",
-        "color": "sun",
+        "color": "sea",
+        "story_html": "<p>Ulazak u Palaču Moise, refleksija.</p><p><img src='static/space/eci-peci-cres/media/cres_02.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.410037,
+          44.959629
+        ]
+      },
+      "properties": {
+        "id": "3",
+        "color": "sea",
+        "story_html": "<p>Soba Jamesa Bonda u palači Moise.</p><p><img src='static/space/eci-peci-cres/media/cres_03.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.410142,
+          44.959202
+        ]
+      },
+      "properties": {
+        "id": "4",
+        "color": "fire",
         "story_html": "<p>Gladno jutro.</p><p>Tražimo jedini Mlinar u malom Cresu.</p><p>Slikamo šarene klompe na kamenim stepenicama.</p><p>– Jeste li slikali? – pita čovjek na vratima.<br>– Jesmo. Lijepe su. Možete li nam reći kako da dođemo do Mlinara?<br>– Lako. Ovdje idite ravno, pa skrenite lijevo, kada dođete do Pjacete, odite na desno, pa još malo naprijed, kada vidite pumpu, opet desno i tamo ste.</p><p>On je naš GPS.</p><p>Na svakom uglu uđemo u nečije dvorište puno zelenila.</p><p>Da pokucamo, možda bi nam dali za jesti?</p><p><img src='static/space/eci-peci-cres/media/cres000.jpg'><p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.409726,
+          44.958708
+        ]
+      },
+      "properties": {
+        "id": "5",
+        "color": "fire",
+        "story_html": "<p>Prodavačica: Koji ćete kruh?<br>Starac: Nonin, ma nonov, nonin.<p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.407417,
+          44.958889
+        ]
+      },
+      "properties": {
+        "id": "6",
+        "color": "fire",
+        "story_html": "<p>Topao dan. Cresanka d.d. Sredovječne prodavačice u smjeni:</p><p>– Kako nam tu miriši po kavi!<br>– Jao, kako ne vidiš, pa prosuta je po podu!</p><p>Prodavačica uzima metlu i skuplja zrna kave.</p><p>– Ma baš nam je lijepo, ko da smo u tvornici kave!</p><p>Subota. Sretne su.</p>"
       }
     },
 
@@ -60,9 +124,41 @@
         ]
       },
       "properties": {
-        "id": "3",
+        "id": "7",
         "color": "fire",
         "story_html": "<p>Kotači na biciklu okreću se, vjetar u kosi.</p><p>Prema meni, kao suprotan vektor, pedalira dijete na biciklu s kotačima manjim od mojih.</p><p>Smije se, dovikuje mami: vidi me!</p><p>Smijem se, sjetno.</p><p>Još jučer sam bila takva.</p><p>Sada pedaliram u suprotnom smjeru.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408458,
+          44.958643
+        ]
+      },
+      "properties": {
+        "id": "8",
+        "color": "sun",
+        "story_html": "<p>Usred grada je mali mol. Svaki put kad ga vidim pomislim da ću prijeći na drugu stranu, ali to je optička varka, morski prolaz je širok nekih 15 metara. Htjela bih ga preskočiti, poletjeti, preletjeti. Neki putovi jednostavno nisu namijenjeni prolasku.</p><p><img src='static/space/eci-peci-cres/media/cres_08.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.409103,
+          44.958854
+        ]
+      },
+      "properties": {
+        "id": "9",
+        "color": "fire",
+        "story_html": "<p>Glazba i žamor kafića u predsezoni.</p><p>To ti je karma – rekla je žena za susjednim stolom.</p><p>Nakon Tajči, iz zvučnika se začuje crkvena glazba. Zvona pravde.</p><p>Ni ovdje, bogu iza nogu, nisi udaljen od kazne.</p>"
       }
     },
 
@@ -76,9 +172,9 @@
         ]
       },
       "properties": {
-        "id": "4",
+        "id": "10",
         "color": "fire",
-        "story_html": "<p>Kad hodam gradom ne obazirem se na druge. Opasno je biti uljudan s neznancima – napast će te da potpišeš ovo, da doniraš onome.</p><p>Jučer kada sam hodala okružila me grupa djece. Ta creska djeca u mraku govore dobar dan.</p>"
+        "story_html": "<p>Kad hodam gradom ne obazirem se na druge. Opasno je biti uljudan s neznancima – napast će te da potpišeš ovo, da doniraš onome. Jučer kada sam hodala okružila me grupa djece. Creska djeca u mraku govore dobar dan.</p>"
       }
     },
 
@@ -87,14 +183,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.408993,
-          44.958901
+          14.4078193,
+          44.9600808
         ]
       },
       "properties": {
-        "id": "5",
+        "id": "11",
+        "color": "sun",
+        "story_html": "<p>00:57.</p><p>Spava nam se, ali ljepše je u društvu. Čuje se otkucaj crkvenog zvona, rani tri minute. Tako je, do dva ujutro, nastavilo zvoniti – svakih 15 minuta, tri minute ranije.</p><p>Otok ima svoje vrijeme</p><p><img src='static/space/eci-peci-cres/media/cres_11.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408886964506678,
+          44.95900291236565
+        ]
+      },
+      "properties": {
+        "id": "12",
+        "color": "sun",
+        "story_html": "<p>1. april 2023.</p><p>Vani je sunce, a ja u debeloj jakni.</p><p>Sjedim u kafiću. Pijem macchiato. Do mene sjede dvije žene. Jedna kaže:</p><p>– Ja sam još u ormaru.</p><p>Razmišljam, kako li je tek njoj vruće.</p><p><img src='static/space/eci-peci-cres/media/cres_12.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408471297942784,
+          44.9599046222309
+        ]
+      },
+      "properties": {
+        "id": "13",
         "color": "fire",
-        "story_html": "<p>Glazba i žamor kafića u predsezoni.</p><p>– To ti je karma – rekla je žena za susjednim stolom.</p><p>(Engleski pop? Hrvatski pop?) Iz zvučnika se začuje crkvena glazba. Zvona pravde.</p><p>Ni ovdje, bogu iza nogu, nisi udaljen od kazne.</p>"
+        "story_html": "<p>Rivom hodaju dva čovjeka, brzo.</p><p>– Uspori više, jebote! – progovori mlađi.</p><p>I ja sam usporila.</p>"
       }
     },
 
@@ -103,14 +231,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4053088,
-          44.9569306
+          14.409243774110838,
+          44.95790036794923
         ]
       },
       "properties": {
-        "id": "6",
-        "color": "sea",
-        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_eci_peci.jpg' style='width:100%;'></p>"
+        "id": "14",
+        "color": "fire",
+        "story_html": "<p>– Ovaj Talijan ima kuću na Cresu.</p><p>– Ma koji? Ja ga ne poznam.</p><p>– Ciao ragazze!</p>"
       }
     },
 
@@ -119,14 +247,158 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.4075648,
-          44.9601408
+          14.406646,
+          44.958359
         ]
       },
       "properties": {
-        "id": "7",
+        "id": "15",
+        "color": "sun",
+        "story_html": "<p>Snažno jugo izbacilo me na obale ovog grada.</p><p>Tmurno nebo prati me već danima. Hoće li tu konačno sinuti svjetlo?</p><p>Eto ga. Vidim ga.</p><p>Stigla sam do Santa Lucije.</p><p>Ručak: sedam ćevapa, Ledo pomfrit, luk i žličica ajvara.</p><p><img src='static/space/eci-peci-cres/media/cres_15.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4079685,
+          44.9603468
+        ]
+      },
+      "properties": {
+        "id": "16",
+        "color": "sun",
+        "story_html": "<p>Cres na Cresu... mačke! Na svakom koraku nas promatraju, poput onih baba na svojim prozorima koje su zamjena nadzornim kamerama. Ovdje ih baš i nema pa su mačke preuzele taj posao.</p><p><img src='static/space/eci-peci-cres/media/cres_16.jpg' style='width:100%;'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4060930,
+          44.9582773
+        ]
+      },
+      "properties": {
+        "id": "17",
+        "color": "sun",
+        "story_html": "<p>U malom gradu nalazi se velik broj kapelica. Duga i uska vrata zajedno s dva prozorčića – lice kapele. Krov i zvono – njena kapica. Sjena joj prikriva lice, ali naglašava figuru.</p><p><img src='static/space/eci-peci-cres/media/cres_17.jpg' style='width:100%;'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4097342,
+          44.9590305
+        ]
+      },
+      "properties": {
+        "id": "18",
+        "color": "sun",
+        "story_html": "<p>Još jedna otvorena vrata zaštićena proljetnim klompama.</p><p>– Jesi uspjela slikat – upita starčeva glava iznad koje ponosno bdije hipogrif i čuva starca i njegove klompe koje se polako uspinju stepenicama.</p><p><img src='static/space/eci-peci-cres/media/cres_18.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4044166,
+          44.9516309
+        ]
+      },
+      "properties": {
+        "id": "19",
+        "color": "sun",
+        "story_html": "<p>Kamen, mušula, kamen. Odjednom s bicikle začujem restoranski razgovor:</p><p>– Ako ćeš ti mušule, ja ću dagnje.</p><p>Pitam se čija je ova.</p><p><img src='static/space/eci-peci-cres/media/cres_19.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4164145,
+          44.9479494
+        ]
+      },
+      "properties": {
+        "id": "20",
+        "color": "sun",
+        "story_html": "<p>Bicikla, galeb, more, a i ja zajedno s njima. Dovedeni vjetrom na kraj dobro poznatog puta spustimo kočnicu i pomislimo “Why not?”. Nastavimo u nepoznato.</p><p><img src='static/space/eci-peci-cres/media/cres_20.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.405541,
+          44.957103
+        ]
+      },
+      "properties": {
+        "id": "21",
+        "color": "sun",
+        "story_html": "<p>Znak bez znaka, što to znači? Znak je uputa, nema znaka, nema upute. Nema znaka, nema upute, nema zabrane, nema upozorenja, nema dopune. Sloboda je neokaljana. Puno značenja za jedan neznak. Mislim da me ipak nije toliko briga.</p><p>Mora li sve imati značenje?</p><p><img src='static/space/eci-peci-cres/media/cres_21.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.407312,
+          44.958629
+        ]
+      },
+      "properties": {
+        "id": "22",
+        "color": "sun",
+        "story_html": "<p>Listovi me stežu, previše sam hodala. Uvijek sam htjela voziti jedan od onih motora za penziće. Košara kod volana, držač za šalicu, odlična lumbalna potpora. Blago zatezanje pretvorilo se u oštre grčeve. Sunce se spustilo na vrh jarbola da odmori. Kad dođem do njega i ja ću malo sjesti. </p><p><img src='static/space/eci-peci-cres/media/cres_22.jpg' style='width:100%;'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.40709,
+          44.95853
+        ]
+      },
+      "properties": {
+        "id": "23",
         "color": "sea",
-        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_macka.jpg'></p><p>Zašto ništa nikada nije crno-bijelo?</p>"
+        "story_html": "<p>Na lijepom plavom Dunavu na Cresu.</p><p><img src='static/space/eci-peci-cres/media/cres_23.jpg' style='width:100%;'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.40936,
+          44.95867
+        ]
+      },
+      "properties": {
+        "id": "24",
+        "color": "sun",
+        "story_html": "<p>Tri nonića u kafiću su stala i ćakulala.</p><p>– Idem vidit što mi radi žena.<br>– Ajde.<br>– Ajde ćao.</p><p><img src='static/space/eci-peci-cres/media/cres_24.jpg' style='width:100%;'></p>"
       }
     },
 
@@ -140,9 +412,41 @@
         ]
       },
       "properties": {
-        "id": "8",
+        "id": "25",
         "color": "sun",
-        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_popust.jpg'></p><p><em>Utorkom 10% popusta.</em></p><p>Valjda srijedom dolazi trajekt s hranom pa se žele riješiti svega što prije.</p>"
+        "story_html": "<p><em>Utorkom 10% popusta.</em></p><p>Valjda srijedom dolazi trajekt s hranom pa se žele riješiti svega što prije.</p><p><img src='static/space/eci-peci-cres/media/cres_25.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4105,
+          44.9594
+        ]
+      },
+      "properties": {
+        "id": "26",
+        "color": "sun",
+        "story_html": "<p>Zbrajaju li se popusti?</p><p><img src='static/space/eci-peci-cres/media/cres_26.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4098561,
+          44.9591999
+        ]
+      },
+      "properties": {
+        "id": "27",
+        "color": "sun",
+        "story_html": "<p>Brane je našao sreću u bočici brandyja na prozoru.</p><p>Uskim ulicama luta, tuđe cigare guta.</p><p>Bura zahuja, on leluja.</p><p><img src='static/space/eci-peci-cres/media/cres_27.jpg'></p>"
       }
     },
 
@@ -156,11 +460,538 @@
         ]
       },
       "properties": {
-        "id": "9",
+        "id": "28",
         "color": "leaf",
         "story_html": "<p><div class='video-meta'><div class='video-container'><iframe width='560' height='315' src='https://www.youtube.com/embed/ItrbEPMsjvY' modestbranding=1 controls=0 title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div></div></p><p>On čuva svoj brod, glanca ga i petlja po njemu.<br>Pobrinuo se da nema ni jedne ogrebotine,<br>da mu ništa ne fali.</p><p>Da se bar ti o meni tako brineš.</p>"
       }
-    }
+    },
 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.401708747790073,
+          44.957148984127
+        ]
+      },
+      "properties": {
+        "id": "29",
+        "color": "sun",
+        "story_html": "<p>Mislim da me netko gleda. Na svakom uglu par očiju. Pokušavam se obraniti, skameniti facu, da postanem kamen.</p><p>Nitko ga ne promatra.</p><p><img src='static/space/eci-peci-cres/media/cres_29.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4106266,
+          44.9600590
+        ]
+      },
+      "properties": {
+        "id": "30",
+        "color": "fire",
+        "story_html": "<p>Slušam djecu kako viču: Ja letim! Letim!</p><p>Mala ja je to mogla.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4075648,
+          44.9601408
+        ]
+      },
+      "properties": {
+        "id": "31",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_macka.jpg'></p><p>Zašto ništa nikada nije crno-bijelo?</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408653,
+          44.959166
+        ]
+      },
+      "properties": {
+        "id": "32",
+        "color": "fire",
+        "story_html": "<p>Caffe Bar Burin.</p><p>Na drugom kraju kafića je šest penzića okupljeno oko jednog malog stola. Stol je natrpan pićima – nije bio namijenjen da se toliko ljudi okupi oko njega.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4092701,
+          44.9587606
+        ]
+      },
+      "properties": {
+        "id": "33",
+        "color": "sun",
+        "story_html": "<p>Konobari pitaju da ih uslikamo. Svjetlo, pregače, frizura, sve na mjestu.</p><p>– Čekaj, čekaj, pa ne možemo s praznim tacnama.<br>– Nema šefa danas!<br>– Oćemo rundu stavit?<br>– Ma samo ti slikaj.</p><p><img src='static/space/eci-peci-cres/media/cres_33.jpg' style='width:100%;'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4052856,
+          44.9610153
+        ]
+      },
+      "properties": {
+        "id": "34",
+        "color": "sea",
+        "story_html": "<p><em>Onaj</em> susjed.</p><p><img src='static/space/eci-peci-cres/media/cres_34.jpg' style='width:100%;'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4096529,
+          44.9597
+        ]
+      },
+      "properties": {
+        "id": "35",
+        "color": "fire",
+        "story_html": "<p>Andreja sjedi ispred palače Moise, na starim hrđavim kolicima. Gleda u nebo. Ljulja noge.</p><p>– Šta je to? – pitam.<br>– Ne znam, ostavili su – odgovori.<br>– Kako to? Zar ljudi samo puštaju ovakve stvari tu?<br>– Ovdje često bude smeće, a sad zašto, valjda im je zgodno. Ja tu čekam da vidim jel neko bacio ili samo pustio privremeno. Meni će koristit sigurno, treba nam za namještaj, za prenosit i tako... Dosad smo uvijek gnjavili radnike. Ovo bi nam super došlo.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.406335,
+          44.959393
+        ]
+      },
+      "properties": {
+        "id": "36",
+        "color": "sea",
+        "story_html": "<p>Gladan sam, mirišem cvijeće.</p><p><img src='static/space/eci-peci-cres/media/cres_36.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4053088,
+          44.9569306
+        ]
+      },
+      "properties": {
+        "id": "37",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_eci_peci.jpg' style='width:100%;'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408,
+          44.961
+        ]
+      },
+      "properties": {
+        "id": "38",
+        "color": "fire",
+        "story_html": "<p>Kad sam joj rekla da je danas 1. april zlobno se nasmijala.</p><p>Nekoliko sekundi kasnije počela je štucati.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4041514,
+          44.9565119
+        ]
+      },
+      "properties": {
+        "id": "39",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_39.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408356672400105,
+          44.961325249359966
+        ]
+      },
+      "properties": {
+        "id": "40",
+        "color": "sun",
+        "story_html": "<p>kauč-razgovor:<br>prvo sam mislila<br>treba sredit glavu<br>zato sam prestala<br>da se smirim<br>da se smirim.</p><p>a onda sam skužila.</p><p><img src='static/space/eci-peci-cres/media/cres_40.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.409339149774636,
+          44.95991752558084
+        ]
+      },
+      "properties": {
+        "id": "41",
+        "color": "leaf",
+        "story_html": "<p><div class='video-meta'><div class='video-container'><iframe width='560' height='315' src='https://www.youtube.com/embed/DxVIB5FIk5A' modestbranding=1 controls=0 title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe></div></div></p><p>Ulica Sv. Sidar. Nakon par minuta šutnje, teta na balkonu je progovorila.</p><p>– Cure?</p><p>Pogledale smo je.</p><p>– Što radite ovdje?</p><p>Trebalo joj je da se uvjeri da smo sve žene.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.399887,
+          44.957708
+        ]
+      },
+      "properties": {
+        "id": "42",
+        "color": "sun",
+        "story_html": "<p>grč<br>cvrkut ptica<br>sunce priča<br>nema grča<br>samo cvrčka</p><p><img src='static/space/eci-peci-cres/media/cres_42.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.410386019382166,
+          44.95984201004932
+        ]
+      },
+      "properties": {
+        "id": "43",
+        "color": "sun",
+        "story_html": "<p>Na vratima je mala roza haljinica.<br>Iznad nje moj odraz.<br>Zajedno smo dobitna kombinacija.<br>Vratit ću se na Cres.<br>Maturalna se bliži, a haljine još nemam.</p><p><img src='static/space/eci-peci-cres/media/cres_43.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.410089,
+          44.960158
+        ]
+      },
+      "properties": {
+        "id": "44",
+        "color": "sun",
+        "story_html": "<p>dobila sam razglednice.<br>prva pomisao bila je,<br>poslati je tebi.<br>džaba mi odmor,<br>ako ćeš me pratiti i ovdje.</p><p><img src='static/space/eci-peci-cres/media/cres_44.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.409649,
+          44.960036
+        ]
+      },
+      "properties": {
+        "id": "45",
+        "color": "sun",
+        "story_html": "<p>žedna sam.<br>u bočici žućkasta tekućina.<br>sitnim plavim slovima piše:</p><p>Ustrajnost je ključ<br>pomoću kojeg ćeš<br>okusiti uspjeh.</p><p><img src='static/space/eci-peci-cres/media/cres_45.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.406538,
+          44.958632
+        ]
+      },
+      "properties": {
+        "id": "46",
+        "color": "sun",
+        "story_html": "<p>Sjedim u Santa Luciji.<br>Gledam kroz prozor.<br>Neka mala zabija šaku u čašu punu vode.<br>Roditelji je ne šljive,<br>pitam se, hoće li proliti sve i napraviti nered?<br>Roditelji ozbiljno pričaju, ona se smije.</p><p><img src='static/space/eci-peci-cres/media/cres_46.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.407893,
+          44.958719
+        ]
+      },
+      "properties": {
+        "id": "47",
+        "color": "sea",
+        "story_html": "<p>Vidimo se na klupi kod raže.</p><p><img src='static/space/eci-peci-cres/media/cres_47.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.406195,
+          44.958013
+        ]
+      },
+      "properties": {
+        "id": "48",
+        "color": "sea",
+        "story_html": "<p>Čuvari grada.</p><p><img src='static/space/eci-peci-cres/media/cres_48.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408401,
+          44.958314
+        ]
+      },
+      "properties": {
+        "id": "49",
+        "color": "sun",
+        "story_html": "<p>Usred grada je mol. Svaki put kad ga vidim pomislim da će me odvest na drugu stranu, ali udaljenost do drugog mola je nekih 15 metara. Ne mogu je preskočiti, iako želim.</p><p><img src='static/space/eci-peci-cres/media/cres_49.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408167,
+          44.960284
+        ]
+      },
+      "properties": {
+        "id": "50",
+        "color": "fire",
+        "story_html": "<p>Djevojčica je ushićeno rekla: ajme, jesu to jagode?</p><p>Kasnije, kada smo htjele kupiti jagode, sve su bile prodane.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4070103,
+          44.9632396
+        ]
+      },
+      "properties": {
+        "id": "51",
+        "color": "sea",
+        "story_html": "<p>Grobovi iz kojih izlazi cvijeće.</p><p><img src='static/space/eci-peci-cres/media/cres_51.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4057527,
+          44.9513475
+        ]
+      },
+      "properties": {
+        "id": "52",
+        "color": "sun",
+        "story_html": "<p>Striktno poštivanje znakova!</p><p><img src='static/space/eci-peci-cres/media/cres_52.jpg'></p><p>– Ajde mama, što čekaš? – kaže dijete nestrpljivo, dok se vozi na biciklu,\na mama priča s prijateljicom.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408071,
+          44.958498
+        ]
+      },
+      "properties": {
+        "id": "53",
+        "color": "sun",
+        "story_html": "<p>Šta rade gimnazijalci na Cresu?</p><p><img src='static/space/eci-peci-cres/media/cres_53.jpg'></p><p>Mjere udaljenost između dva mola.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.408866,
+          44.961061
+        ]
+      },
+      "properties": {
+        "id": "54",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_54.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.404175,
+          44.957103
+        ]
+      },
+      "properties": {
+        "id": "55",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_55.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.409231,
+          44.959368
+        ]
+      },
+      "properties": {
+        "id": "56",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_56.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.398386676977779,
+          44.95865731021602
+        ]
+      },
+      "properties": {
+        "id": "57",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_57.jpg'></p><p>vozimo bicikle, svako toliko netko se zadere:</p><p>– sunce!<br>– kako je lijepo!<br>– gladna sam!<br>– pijesak!<br>– uzbrdica!</p><p>sva su drva predebela da zavežemo bicikle.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.407499,
+          44.961333
+        ]
+      },
+      "properties": {
+        "id": "58",
+        "color": "fire",
+        "story_html": "<p>Penzić vozi mini-motorin, između nogu mu je plinska boca, možda prazna, možda puna. Na prednjem dijelu zaljepljena mu je naljepnica “Volim grad koji teče”. Bit će da je Cres nova Rijeka.</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.41232066719267,
+          44.957023282261616
+        ]
+      },
+      "properties": {
+        "id": "59",
+        "color": "sea",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_59.jpg'></p><p>Klasa 1a, četiri zvjezdice, a Jad obala!</p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4092905,
+          44.9587037
+        ]
+      },
+      "properties": {
+        "id": "60",
+        "color": "sun",
+        "story_html": "<p>Od kladionice je ostao k.o. – nokaut!</p><p><img src='static/space/eci-peci-cres/media/cres_60.jpg'></p>"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4082800,
+          44.9601631
+        ]
+      },
+      "properties": {
+        "id": "61",
+        "color": "sun",
+        "story_html": "<p><img src='static/space/eci-peci-cres/media/cres_61.jpg'></p><p>U sporom prijelazu, spajaju se.<br>Kamen budi nježnim dodirom. Postupno se vežu.<br>Vidljiv vez skrivena je ljepota grada.</p>"
+      }
+    }
   ]
 }
