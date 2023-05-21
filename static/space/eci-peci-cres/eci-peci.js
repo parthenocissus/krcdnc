@@ -31,7 +31,7 @@ $(window).on("load", () => {
     }
 
     let params = {
-        radius: vw(1.5),
+        radius: vw(1),
         fillOpacity: {
             'on': .95,
             'hover': .7
@@ -48,13 +48,15 @@ $(window).on("load", () => {
 
     let offsets = [];
     let h1 = $('h1');
-    let titleHeight = h1.offset().top + h1.height() + $('.shadow-up').height();
+
+    // let titleHeight = h1.offset().top + h1.height() + $('.shadow-up').height();
+    let titleHeight = h1.offset().top + h1.height() + vw(2.5);
+
     storyPoints.forEach((sp) => {
         let id = sp["properties"]["id"];
         let storyH2 = $("#s" + id);
         let offset = storyH2.offset().top - titleHeight;
         offsets.push(offset);
-        console.log(offset);
         let clr = defineColor(sp["properties"]["color"]);
         storyH2.css({
             "color": clr.hex,
@@ -121,8 +123,8 @@ $(window).on("load", () => {
 
     document.getElementsByClassName('leaflet-control-attribution')[0].style.display = 'none';
 
-    $("#landing").click(() => {
-        $("#overlay").hide();
-    });
+    // $("#landing").click(() => {
+    //     $("#overlay").hide();
+    // });
 
 });

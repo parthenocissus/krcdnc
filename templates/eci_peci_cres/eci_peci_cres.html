@@ -22,7 +22,7 @@
             --dark: #1A1A1A;
             --darkSoft: #424242;
             --white: #FFFFFF;
-            --gray: #d6d6d6;
+            --gray: #939598;
         }
 
         {# Monument Extended #}
@@ -110,23 +110,23 @@
     <div id="map"></div>
 </div>
 
-<div id="overlay">
-    <div class="gray-fog"></div>
-    <div class="welcome">
-        <div class="upper">
+{#<div id="overlay">#}
+{#    <div class="gray-fog"></div>#}
+{#    <div class="welcome">#}
+{#        <div class="upper">#}
 {#            <h3>{{ data.meta.title }}</h3>#}
-            {{ data.meta.welcome|safe }}
-            <button id="landing">{{ data.meta.button }}</button>
-        </div>
-        <div class="lower">
-            {{ data.meta.welcome_after|safe }}
-        </div>
-    </div>
-</div>
+{#            {{ data.meta.welcome|safe }}#}
+{#            <button id="landing">{{ data.meta.button }}</button>#}
+{#        </div>#}
+{#        <div class="lower">#}
+{#            {{ data.meta.welcome_after|safe }}#}
+{#        </div>#}
+{#    </div>#}
+{#</div>#}
 
 <main>
     <h1>{{ data.meta.title }}</h1>
-    <div class="shadow-up"></div>
+{#    <div class="shadow-up"></div>#}
     <div class="book-scroll-container">
         <div class="book-scroll">
             <div class="single-story intro">
@@ -148,7 +148,7 @@
 
         </div>
     </div>
-    <div class="shadow-down"></div>
+{#    <div class="shadow-down"></div>#}
 </main>
 
 <script>

@@ -80,13 +80,12 @@ h1 {
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: .1vw;
-    font-size: 2vw;
-    height: 7vh;
-    width: 45%;
+    font-size: 1.65vw;
+    height: 5.5vh;
+    width: 36%;
     box-sizing: border-box;
     padding: 0 0 0 0;
     margin: 0;
-    /*box-shadow: 0 0 .5vw 0 var(--white);*/
     border-bottom: .5vw solid;
     border-image: linear-gradient(to right, var(--sun) 25%, var(--leaf) 25%, var(--leaf) 50%, var(--sea) 50%, var(--sea) 75%, var(--fire) 75%) 5;
 }
@@ -104,9 +103,9 @@ h3 {
 
 h2 {
     font-family: "Consolas", monospace;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
     font-weight: normal;
-    margin: 0 0 1.2vw 0;
+    margin: 0 0 0vw 0;
     cursor: pointer;
     padding: 0 0 0 0.5vw;
     /*color: var(--sun);*/
@@ -127,15 +126,15 @@ h2:hover {
 .footer-bar {
     width: 7%;
     border-bottom: .5vw solid var(--gray);
-    margin: 2vw 0 1.3vw 0;
+    margin: 2vw 0 0 0;
 }
 
 .single-story {
-    padding: 0 0 2vw 0;
+    padding: 0 0 2.2vw 0;
 }
 
 .intro {
-    margin: .4vw 0 .8vw 0;
+    margin: .4vw 0 1.1vw 0;
 }
 
 .p-footer {
@@ -166,6 +165,7 @@ p {
 
 p.p-legend {
     line-height: 1.4vw;
+    padding: .65vw 0 .8vw 0;
 }
 
 .storyLabel {
@@ -175,7 +175,7 @@ p.p-legend {
     -moz-box-shadow: 0 0 0;
     box-shadow: 0 0 0;
     font-family: "Consolas", monospace;
-    font-size: 1.4vw;
+    font-size: 1vw;
     font-weight: bold;
 }
 
@@ -312,7 +312,7 @@ p img {
 
 .video-meta {
     width: 80%;
-    margin: .6vw 0 1.2vw 0;
+    margin: 1vw 0 1.2vw 0;
 }
 
 .video-container {
