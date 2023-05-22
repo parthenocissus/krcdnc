@@ -13,7 +13,7 @@
 
     "welcome_after": "<p>Partneri projekta:</p><p>[Logotipi partnera...]",
 
-    "footer": "<p>Partneri projekta:</p><p><img src='static/space/eci-peci-cres/media/logo.png' style='width:100%;'></p>"
+    "footer": "<p>Eci peci Cres je otvoren i besplatan <a href='https://github.com/parthenocissus' target='_blank' class='a-gray'>open source projekt</a>.</p><p>Dizajn i razvoj softvera: <a href='https://krcadinac.com' target='_blank' class='a-sun'>Uroš Krčadinac</a>.</p><br><p>Partneri projekta:</p><p><img src='static/space/eci-peci-cres/media/logo.png' style='width:100%;'></p>"
   },
 
   "story_points": [

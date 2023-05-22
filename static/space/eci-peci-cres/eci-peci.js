@@ -9,7 +9,7 @@ $(window).on("load", () => {
     let geo = {
         "lat": 44.9587,
         "lon": 14.403,
-        "lonOffset": 0.002,
+        "lonOffset": 0.0025,
         "zoomDefault": 17,
         "zoomClick": 18,
         "zoomMax": 20
