@@ -20,8 +20,6 @@ $(window).on("load", () => {
         geo.lat = 44.959;
         geo.lon = 14.408;
         geo.lonOffset = 0;
-        // params.radius = 15;
-        // borderLeft = "10px";
     }
 
     let defaultTileOSM = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -53,7 +51,6 @@ $(window).on("load", () => {
             'hover': .7
         }
     };
-
 
     /* Mobile */
     if (window.matchMedia(mobileQuery).matches) {
