@@ -86,6 +86,12 @@
             background: var(--gray);
         }
 
+        @media only screen and (max-width: 769px) {
+            ::-webkit-scrollbar {
+                width: 10px;
+            }
+        }
+
     </style>
 
     {#    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"#}
@@ -125,8 +131,11 @@
 {#</div>#}
 
 <main>
+
     <h1>{{ data.meta.title }}</h1>
-{#    <div class="shadow-up"></div>#}
+
+    {#<div class="shadow-up"></div>#}
+
     <div class="book-scroll-container">
         <div class="book-scroll">
             <div class="single-story intro">
@@ -141,14 +150,14 @@
             {% endfor %}
 
             <div class="single-story p-footer">
-{#                <h2 id="s-footer" class="h2-footer">_</h2>#}
+                {#                <h2 id="s-footer" class="h2-footer">_</h2>#}
                 <div class="footer-bar"></div>
                 {{ data.meta.footer|safe }}
             </div>
 
         </div>
     </div>
-{#    <div class="shadow-down"></div>#}
+    {#    <div class="shadow-down"></div>#}
 </main>
 
 <script>

@@ -2,12 +2,26 @@ $(window).on("load", () => {
 
     let storyPoints = eciPeciData["story_points"];
 
+    let mobileQuery = "(max-width: 769px)";
+
+    let borderLeft = "1vw";
+
     let geo = {
         "lat": 44.9587,
         "lon": 14.403,
         "lonOffset": 0.002,
         "zoomDefault": 17,
-        "zoomClick": 18
+        "zoomClick": 18,
+        "zoomMax": 20
+    }
+
+    /* Mobile */
+    if (window.matchMedia(mobileQuery).matches) {
+        geo.lat = 44.959;
+        geo.lon = 14.408;
+        geo.lonOffset = 0;
+        // params.radius = 15;
+        // borderLeft = "10px";
     }
 
     let defaultTileOSM = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -18,7 +32,7 @@ $(window).on("load", () => {
     }).setView([geo.lat, geo.lon], geo.zoomDefault);
 
     L.tileLayer(mapboxToken, {
-        maxZoom: 20
+        maxZoom: geo.zoomMax
     }).addTo(map);
 
     L.control.zoom({
@@ -30,6 +44,8 @@ $(window).on("load", () => {
         return (percent * w) / 100;
     }
 
+    let onMoveOffset = vw(2.5);
+
     let params = {
         radius: vw(1),
         fillOpacity: {
@@ -37,6 +53,14 @@ $(window).on("load", () => {
             'hover': .7
         }
     };
+
+
+    /* Mobile */
+    if (window.matchMedia(mobileQuery).matches) {
+        params.radius = 15;
+        borderLeft = "10px";
+        onMoveOffset = 25;
+    }
 
     let defineColor = (name) => {
         return {
@@ -50,7 +74,7 @@ $(window).on("load", () => {
     let h1 = $('h1');
 
     // let titleHeight = h1.offset().top + h1.height() + $('.shadow-up').height();
-    let titleHeight = h1.offset().top + h1.height() + vw(2.5);
+    let titleHeight = h1.offset().top + h1.height() + onMoveOffset;
 
     storyPoints.forEach((sp) => {
         let id = sp["properties"]["id"];
@@ -60,7 +84,7 @@ $(window).on("load", () => {
         let clr = defineColor(sp["properties"]["color"]);
         storyH2.css({
             "color": clr.hex,
-            "border-left": "solid 1vw " + clr.hex
+            "border-left": "solid " + borderLeft + " " + clr.hex
         });
         storyH2.click(() => {
             let coords = markersById[id].getLatLng();
