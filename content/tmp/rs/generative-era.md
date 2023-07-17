@@ -1,6 +1,7 @@
 title: 
     name: "Androidi ne sanjaju ništa"
     short: "Androidi ne sanjaju ništa"
+    x: ""
 id: generative-era
 featured: 3
 date: "15/1/2021"
