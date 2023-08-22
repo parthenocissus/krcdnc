@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 let generativeEra = function () {
 
     document.getElementById("js-cont").innerHTML = '';
-    document.getElementById("illustration").innerHTML = '';
+    // document.getElementById("illustration").innerHTML = '';
 
     const w = 940, margin = 62, distance = 62;
     let params = Simulation.calculateParams(w, margin, distance);
