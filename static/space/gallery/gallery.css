@@ -50,16 +50,16 @@ main {
 
 #gallery-title {
     font-family: "FivoSans-Bold", sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     position: fixed;
-    top: 2vw;
-    left: 2vw;
+    top: 1.3vw;
+    left: 1.5vw;
 }
 
 #author-title {
     position: fixed;
-    top: 2vw;
-    right: 2vw;
+    top: 1.3vw;
+    right: 1.5vw;
     text-align: right;
 }
 
@@ -79,10 +79,10 @@ main {
 #call {
     font-size: 1.2vw;
     position: fixed;
-    right: 2vw;
-    bottom: 2vw;
+    right: 1.5vw;
+    bottom: 1.4vw;
     text-align: right;
-    line-height: 1.5vw;
+    line-height: 1.45vw;
 }
 
 .bold {
@@ -202,9 +202,9 @@ figure a img:hover {
 }
 
 .description p {
-    padding-right: 8vw;
-    font-size: 1.3vw;
-    line-height: 1.8vw;
+    padding: 0 8vw .1vw 0;
+    font-size: 1.1vw;
+    line-height: 1.3vw;
 }
 
 .description .sold-container {
