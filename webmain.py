@@ -525,6 +525,15 @@ def eci_peci_cres():
     return render_template('eci_peci_cres/eci_peci_cres.html', data=data)
 
 
+# Gallery
+
+@app.route('/galerija')
+def galerija():
+    print("testing...")
+    page = utils.gallery_page(fp, sh)
+    return render_template('gallery/gallery.html', params={}, page=page)
+
+
 # _________________
 # ADDITIONAL ROUTES
 # synesketch, download, etc.

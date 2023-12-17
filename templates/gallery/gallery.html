@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <meta property="og:title" content="{{ page.title.author }} → {{ page.title.name }}">
+    <meta property="og:description" content="{{ page.intro.txt|striptags }}">
+    {% set main_img_path = page.media.path ~ page.media.og_img %}
+    <meta property="og:image" content="{{ url_for('static', filename=main_img_path) }}">
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>
+    <meta property="og:url" content="{{ 'https://krcadinac.com/' ~ page.title.url }}">
+
+    <link rel="shortcut icon" type="image/png"
+          href="{{ url_for('static', filename='media/favicon/favicon.ico') }}"/>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='space/gallery/gallery.css') }}">
+
+    <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+
+    <title>{{ page.title.author }} → {{ page.title.name }}</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/photoswipe.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lib/default-skin.css') }}">
+
+    <script src="{{ url_for('static', filename='js/lib/photoswipe.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lib/photoswipe-ui-default.min.js') }}"></script>
+
+    <style>
+
+        {# Fivo Sans #}
+
+        @font-face {
+            font-family: "FivoSans-Regular";
+            src: url({{ url_for('static', filename='media/fonts/fivo/FivoSans-Regular.woff') }}) format('woff');
+        }
+
+        @font-face {
+            font-family: "FivoSans-Bold";
+            src: url({{ url_for('static', filename='media/fonts/fivo/FivoSans-Bold.woff') }}) format('woff');
+        }
+
+        @font-face {
+            font-family: "FivoSans-Black";
+            src: url({{ url_for('static', filename='media/fonts/fivo/FivoSans-Black.woff') }}) format('woff');
+        }
+
+        .pswp__counter {
+            font-family: "FivoSans-Regular", sans-serif;
+        }
+
+        .pswp__caption__center {
+            font-family: "FivoSans-Regular", sans-serif;
+            color: white;
+            max-width: 100%;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<main>
+
+    <div id="menu-layer">
+        <div id="gallery-title" class="title"><a href="#">{{ page.title.name }}</a></div>
+        <div id="author-title" class="title"><a href="https://krcadinac.com/rad/bio/"
+                                                target="_blank">{{ page.title.author }}</a></div>
+        <div id="call">{{ page.call.txt|safe }}</div>
+    </div>
+
+    <div class="block-height">
+        <div class="block-container">
+            <div class="first-last-page" id="first-page">
+                <div class="intro-img">
+                    <img src="{{ url_for('static', filename = page.media.path ~ page.media.gif) }}">
+                </div>
+                <div class="intro">
+                    <p>{{ page.intro.txt|safe }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% for item in page.items %}
+
+        <div class="block-height">
+            <div class="block-container">
+                <div class="block">
+                    <div class="image {{ item.orientation }}-rules">
+
+                        {% set img_path = page.media.path ~ item.img %}
+                        {% set light_desc = item.name ~ " / " ~ item.desc ~ " / " ~ item.dims ~ " / Uroš Krčadinac, 2023." %}
+                        <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                            <figure class="img-figure {{ item.orientation }}" itemprop="associatedMedia" itemscope
+                                    itemtype="http://schema.org/ImageObject"
+                                    title="{{ page.tooltips.img }}">
+                                <a href="{{ url_for('static', filename=img_path) }}"
+                                   data-size="{{ item.size }}"
+                                   itemprop="contentUrl" data-index="1" caption="{{ light_desc }}">
+                                    <img class="{{ item.orientation }}" src="{{ url_for('static', filename=img_path) }}" itemprop="thumbnail">
+                                </a>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                    <div class="description">
+                        {% set decoration = "" %}
+                        {% if item.sold is defined %}
+                            {% set decoration = "strike-through" %}
+                            <div class="sold-container">
+                                <p class="sold">{{ item.sold|safe }}</p>
+                            </div>
+                        {% endif %}
+                        <p class="bold">{{ item.name }}</p>
+                        <p>{{ item.desc|safe }}</p>
+                        {% if item.note is defined %}
+                            <p>{{ item.note|safe }}</p>
+                        {% endif %}
+                        <p>{{ item.dims|safe }}</p>
+                        <p class="{{ decoration }}">{{ item.price|safe }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
+
+    <div class="block-height">
+        <div class="block-container">
+            <div class="first-last-page" id="last-page">
+                <div class="outro">
+                    <p>{{ page.outro.txt|safe }}</p>
+                </div>
+                <div class="intro-img">
+                    <img src="{{ url_for('static', filename = page.media.path ~ page.media.last_img) }}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!-- PhotoSwipe Markup -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left"
+                    title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    let lightboxSetup = () => {
+
+        $('.gallery').each(function () {
+            let $pic = $(this),
+                getItems = function () {
+                    let items = [];
+                    $pic.find('a').each(function () {
+                        let $href = $(this).attr('href'),
+                            $size = $(this).data('size').split('x'),
+                            $width = $size[0],
+                            $height = $size[1],
+                            $cap = $(this).attr('caption');
+
+                        let item = {
+                            src: $href,
+                            w: $width,
+                            h: $height,
+                            title: $cap
+                        }
+
+                        items.push(item);
+                    });
+                    return items;
+                }
+
+            let items = getItems();
+
+            let $pswp = $('.pswp')[0];
+
+            let options = {
+                index: 0,
+                bgOpacity: 1,
+                showHideOpacity: true,
+                captionEl: true,
+                fullscreenEl: false,
+                zoomEl: false,
+                shareEl: false
+            };
+
+            $pic.on('click', 'figure', function (event) {
+                event.preventDefault();
+                options.index = $(this).index();
+                console.log(options);
+                let lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
+                lightBox.init();
+            });
+
+            $(".lightbox-rect").on('click', function (event) {
+                event.preventDefault();
+                let lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
+                lightBox.init();
+            });
+
+        });
+
+    };
+
+    lightboxSetup();
+
+</script>
+
+</body>
+</html>

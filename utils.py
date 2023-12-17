@@ -290,3 +290,9 @@ def svesvrstani_exhibition_list(flatpages, lang, type):
             page_list_grouped['second'].append(p)
     print(page_list_grouped)
     return page_params, page_list_grouped
+
+
+# Gallery
+
+def gallery_page(flatpages, lang):
+    return flatpages.get_or_404(f'{lang.get_gallery_dir()}/gallery')
