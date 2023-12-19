@@ -10,7 +10,7 @@ media:
     last_img: "izlozba.jpg"
     og_img: "kentaurski_crtez.jpg"
 intro:
-    txt: "Dobrodošli na moju onlajn galeriju. Radove smo crtali zajedno robot i ja. Pripadaju seriji <span class='bold'>Kentaurski crteži</span>, koju smo do sada prikazali na dve samostalne izložbe, u GNT SANU Beograd i Prostor Novi Sad."
+    txt: "Dobrodošli na moju onlajn galeriju. Radove smo crtali zajedno robot i ja. Pripadaju seriji <span class='bold'>Kentaurski crteži</span>, koju smo do sada prikazali na dve samostalne izložbe, u GNT Beograd i Prostor Novi Sad."
 outro:
     txt: "Ako vam se dopada neki od radova koji su već prodati, pišite mi. Robot i ja ćemo videti šta možemo da nacrtamo za vas :)"
 tooltips:
@@ -122,6 +122,7 @@ items:
       img: "asemic_rnn_variations_002.jpg"
       orientation: "vertical"
       size: "1389x2000"
+tmp:
     - name: "Asemičke RNN varijacije #3"
       desc: "Robotski crtež flomasterom"
       note: "(deo serije AI piktoglifa treniranih nad hiljadama rukom crtanih čovečuljaka)"
