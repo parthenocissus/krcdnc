@@ -50,7 +50,7 @@ team:
     - name: Aleksa Borković (kinematograf)
 presentation_title: Samostalne izložbe
 presentations:
-    - year: 2020
+    - year: 2023
       events:
         - link: 'https://www.sanu.ac.rs/izlozba-kentaurski-crtezi-u-galeriji-nauke-i-tehnike-sanu/'
           linked: "Kentaurski crteži" 

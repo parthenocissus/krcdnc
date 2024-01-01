@@ -50,7 +50,7 @@ team:
     - name: Aleksa Borković (Cinematographer)
 presentation_title: Solo Exhibitions
 presentations:
-    - year: 2020
+    - year: 2023
       events:
         - link: 'https://www.sanu.ac.rs/izlozba-kentaurski-crtezi-u-galeriji-nauke-i-tehnike-sanu/'
           linked: "Centaur Drawings" 
