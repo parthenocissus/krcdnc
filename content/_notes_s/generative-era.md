@@ -63,8 +63,18 @@ content:
 <p>Jer, da: računari su mnoštvo prekidača koji računaju. Ništa drugo. Sve računarske funkcije, sve šta računari rade – od video igara do poslovnih analiza – svodi se na prekidače koji sabiraju i odizimaju. Zahvaljujući napretku tehnologije čipova i mikrotranzistora, prekidači u današnjim računarima veoma su mali, ali na suštinskoj razini, računari nisu drugo do mnoštvo prekidača.</p>
 <p>To važi i za veštačke neuralne mreže (ANN), osnov današnjih AI tehnoligija. I one su algoritmi za sabiranje i oduzimanje koji pokreću mnoštvo prekidača. ANN su inspirisane biološkim neuralnim mrežama, no tu se pre radi o labavoj metafori nego o stvaranju silikonskog uma.</p>
 <p>Zato bi, čini mi se, to šta zovemo veštačkom inteligencijom bilo poštenije zvati kolektivnom automatizovanom statistikom. ANN ne bi bile u stanju da simuliraju pisanje, crtanje i komponovanje da se pre toga nisu baždarile na kolektivnim podacima svih nas, uistinu celog čovečanstva, na ogromnim bazama slikovnih, tekstualnih i medijskih podataka. Tek se na osnovu toga formira neka vrsta statističke logike. Jezičke logike, u slučaju ChatGPTa; slikovne logike, u slučaju Midjourneya; šahovske logike, u slučaju Deep Bluea. Svi ovi algoritmi, pak, u svojoj osnovi nisu ništa drugo do procesi mehaničkog računanja.</p>
-<p>Kad ChatGPT piše, to u stvari <em>mi</em> pišemo. Svi mi <em>zajedno</em>.</p>
-<p>Ima nečeg neobično primamljivog u metafizičkoj ideji mehaničkih prekidača koji su postali svesni sebe. Uzalud Gedelove teoreme nepotpunosti, uzalud istorija fenomenologije, uzalud problem kvalije, uzalud Čalmersov teški problem svesti, uzalud Serlove i Nejglove kritike, uzalud sve antidualne bizarnosti savremene kvantne fizike, uzalud svi nerazreviši paradoksi i kontradikcije – od Zenona i Nagarđune, preko Hegela i Gedela, do Vitgenštajna i Šredingera. Prekidači svesni sebe previše su zavodljiva priča da bi se tek tako odbacila.</p>
+<p>Kad ChatGPT piše, to u stvari <em>mi</em> pišemo. Svi mi <em>zajedno</em>.</p>"
+    - type: "img"
+      grid_rules: "grid-template-columns: 1fr 1fr;"
+      img_data:
+        - file_name: "genERA_white.png"
+          size: "842x865"
+          caption: "<em>Re:Rematch Man+Machine vs. Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."
+        - file_name: "genERA_yellow.png"
+          size: "842x865"
+          caption: "<em>Re:Rematch Man+Machine vs. Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."
+    - type: "txt"
+      html: "<p>Ima nečeg neobično primamljivog u metafizičkoj ideji mehaničkih prekidača koji su postali svesni sebe. Uzalud Gedelove teoreme nepotpunosti, uzalud istorija fenomenologije, uzalud problem kvalije, uzalud Čalmersov teški problem svesti, uzalud Serlove i Nejglove kritike, uzalud sve antidualne bizarnosti savremene kvantne fizike, uzalud svi nerazreviši paradoksi i kontradikcije – od Zenona i Nagarđune, preko Hegela i Gedela, do Vitgenštajna i Šredingera. Prekidači svesni sebe previše su zavodljiva priča da bi se tek tako odbacila.</p>
 <p>Verovati u ovu priču, pak, nije daleko od magijskog mišljenja. Iako danas imamo ozbiljnu matematiku i silicijumske čipove, narativ o veštačkom biću nije nov. Od automatizovanih lutkarskih pozorišta u antičkoj Grčkoj,<sup id='s6'>♞</sup> preko hebrejskih legendi o golemu, stvorenju od gline koje oživljavamo pomoću ispravne magijske čini, sve do Pinokija i Matriksa, san o duhu iz mašine deo je našeg mitološkog folklora.</p>
 <p>Može biti da, kao pojam, veštačka inteligencija pripada pre književnosti nego računarstvu.</p>"
     - type: "img"
@@ -101,7 +111,7 @@ content:
 <p>Zato verujem da treba mapirati vektore sila. Mapirati međusobne interakcije. Mapirati obrise istorijskih situacija i matrice istorijskih pomaka. Mapirati strukture unutar kojih živimo: ekonomske, tehnološke, energetske, migratorne, klimatske, epidemiološke, medijske, pa i šahovske. Oslobađati se ideoloških bajalica, vetriti mistifikacije, razvijati senzibilitet za sistemske procese čiji smo i sami deo. Stvarati nove jezike kojima se o sistemima može pričati, misliti i maštati.</p>
 <p>Nakon velike pobede Deep Bluea, mnogi su pomislili da će šah kao igra izumreti. Zašto bismo igrali igru u kojoj nas računari sigurno pobeđuju? Desilo se, međutim, suprotno. Šah je dobio na popularnosti. Ulazak algoritama u šahovsku igru otkrio nam je nove taktike i strategije, doprineo razvoju šahovske teorije, razvio neočekivane prakse a šah učinio pristupačnijim i uzbudljivijim nego ranije.</p>
 <p>Jednu od najzanimljivijih šahovskih inovacija uveo je sam Kasparov, i to upravo nakon što ga je Deep Blue porazio. Kasparov je izmislio <em>Kentaurski šah</em>,<sup id='s7'>♚</sup> šahovsku varijantu u kojoj je šahistima dozvoljeno da koriste računare. Ljudi-igrači koriste kompjuter za istraživanje mogućih poteza, za brzo pretraživanje nepreglednog prostora kombinatornih mogućnosti, ali sami donose odluke. Jedan par čovek-računar igra protiv drugog para čovek-računar. Kentaur protiv kentaura, kiborg protiv kiborga.</p>
-<p>Tako je nastao moj digitalni umetnički projekat <em>Re:Rematch Man+Machine vs Man+Machine</em>.<sup id='s8'>♛</sup></p>
+<p>Tako je nastao digitalni umetnički rad <em>Re:Rematch Man+Machine vs Man+Machine</em>.<sup id='s8'>♛</sup></p>
 <p>Prateći kentaurski koncept Garija Kasparova i kartografske prakse Ere Milivojevića, pokušao sam da osmislim novi digitalno-grafički jezik za opisivanje taktičkih interakcija. Napisao sam računarski program koji generiše beskonačno mnogo različitih šahovskih partija, uživo, animira ih i za svaku od njih crta mapu poteza. Kao kod Milivojevića, estetika nastaje kao posledica taktike. Samo što, umesto šest ikoničkih šahovskih partija, imamo beskonačni niz nasumičnih partija.</p>
 <p>Šahovskim figurama dodelio sam minimalističke simbole: kraljica je ✕, kralj ＋, top □, skakač △, lovac ◇, pešak ○. Simulacija ovog nasumičnog automatskog šaha odigrava se uživo:</p>
 <div class='illustration' id='illustration'></div>
@@ -114,14 +124,11 @@ content:
 <p>Pre više od pola veka, pisac Filip K. Dik zapitao se: da li androidi sanjaju električne ovce? Verujem da se odgovor sastoji u novom pitanju:</p>
 <p>Androidi ne sanjaju ništa, ali sanjamo li mi? <mark>&#9632;</mark></p>"
     - type: "img"
-      grid_rules: "grid-template-columns: 1fr 1fr;"
+      grid_rules: "grid-template-columns: 1fr;"
       img_data:
-        - file_name: "genERA_white.png"
-          size: "842x865"
-          caption: "<em>Re:Rematch Man+Machine vs. Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."
-        - file_name: "genERA_yellow.png"
-          size: "842x865"
-          caption: "<em>Re:Rematch Man+Machine vs. Man+Machine</em>, generativna grafika, Uroš Krčadinac, 2020."
+        - file_name: "genERA_down.png"
+          size: "1778x965"
+          caption: "Robotski crtež, Uroš Krčadinac, 2023. Rad sa izložbe </em><a href='/rad/projekti/centaur-drawings/' target='_blank'>Kentaurski crteži</a><em> (GNT, Beograd). Ukoliko su vam ovakvi crteži zanimljivi, tu je </em><a href='/galerija' target='_blank'>PRODAJNA GALERIJA</a>."
     - type: "txt"
       html: "<p><em>Ovaj esej objavljen je u leto 2023. u <a href='http://www.skd.rs/knjizevni-magazin-231-232-233/' target='_blank'></em>Кnjiževnom magazinu<em> Srpskog književnog društva (trobroj 231-232-233)</a> pod imenom </em>»Кultura kentaura: Generativne šahovske mape kao jezik nove digitalne osećajnosti«<em>.</p>
     <p>Esej govori o projektu </em><a href='/rad/projekti/rerematch' target='_blank'>Re:Rematch Man+Machine vs. Man+Machine</a> i prati samostalnu izložbu </em><a href='/rad/projekti/centaur-drawings/' target='_blank'>Kentaurski crteži</a><em> (GNT, Beograd) na kojoj su prikazani crteži koje smo zajedno crtali moj robot i ja, a po algoritmima projekta</em> Re:Rematch<em>. Ukoliko su vam ovakvi crteži zanimljivi, tu je </em><a href='/galerija' target='_blank'>PRODAJNA GALERIJA</a>.</p>"
