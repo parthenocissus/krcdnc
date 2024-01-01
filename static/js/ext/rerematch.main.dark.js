@@ -18,6 +18,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 let generativeEra = function () {
 
+    $("#illustration").empty();
+
     document.getElementById("js-cont").innerHTML = '';
     // document.getElementById("illustration").innerHTML = '';
 
