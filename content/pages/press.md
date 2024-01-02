@@ -3,19 +3,34 @@ title:
 id: press
 linechart_tooltip: "Press Timeline"
 lead: "Press and media coverage. Selected<br>interviews. Featured reviews."
-layout: 2
+layout: 1
 data:
     - title: 0
       id: "venues"
       images:
         - path: "media/projects/bantustan-book/img/bantustan-book29.jpg"
+      images_extra:
         - path: "media/pages/teaching02.jpg"
         - path: "media/pages/uros-dksg-18-april.jpg"
         - path: "media/pages/krokodil02.jpg"
         - path: "media/pages/dksg-001.jpg"
         - path: "media/pages/drugo-more-izlozba02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2022</div>
+      <div class='list-title-first-page interface-heading-style'>2023</div>
+<ul>
+<li><a href='https://www.youtube.com/watch?v=BF_26tU_Dzs' target='_blank'><em>Read Me (Pročitaj me)</em></a>, RTCG, Cetinje, Montenegro</li>
+<li><a href='https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti' target='_blank'><em>We will not be subjugated by artificial intelligence; we will do it to ourselves</em></a>, Normalizuj.me, Podgorica, Montenegro</li>
+<li><a href='/static/media/pages/krcadinac_blic.jpg' target='_blank'><em>It's not worth escaping AI technologies, nor is it worth celebrating them</em></a>, Blic, Belgrade, Serbia</li>
+<li><a href='https://www.youtube.com/watch?v=4Nh-kG4NVEc' target='_blank'><em>Every technology is a political question</em></a>, Normalizuj.me, Podgorica, Montenegro</li>
+<li><a href='https://www.portalnovosti.com/uros-krcadinac-prica-o-ai-u-je-prica-o-privatizaciji-zajednickog-rada' target='_blank'><em>The story of AI is a story of the privatization of collective labor</em></a>, Portal Novosti, Zagreb, Croatia, interview by Lujo Parežanin</li>
+<li><a href='https://kaleidoskop-media.com/mediji/transformacija-kulture-u-eri-ai' target='_blank'><em>The transformation of culture in the era of AI</em></a>, Kaleidoskop, Belgrade, Serbia, author Gordana Tadić</li>
+<li><a href='https://www.rts.rs/lat/radio/radio-beograd-2/5271469/o-kentaurskoj-umetnosti-i-projektu-kojim-se-obelezava-100-godina-animacije-u-srbiji.html' target='_blank'><em>On Centaur Art</em></a>, Radio Beograd 2, Interview, RTS, Belgrade, Serbia</li>
+<li><a href='https://6yka.com/intervju/uros-krcadinac-prica-o-ai-u-je-prica-o-privatizaciji-zajednickog-rada' target='_blank'><em>Interview</em></a>, Buka, Sarajevo, BiH</li>
+<li><a href='http://www.arte.rs/sr/vesti/uros_krcadinac_kentaurski_crtezi-15641' target='_blank'><em>Centaur Drawings</em></a>, Arte, Belgrade, Serbia</li>
+<li><a href='https://www.vesti.rs/Kultura/Uros-Krcadinac-Kentaurski-crtezi.html' target='_blank'><em>Centaur Drawings</em></a>, Vesti.rs, Belgrade, Serbia</li>
+<li><a href='https://n1info.ba/kultura/u-galeriji-savremenih-umjetnosti-manifesto-postavljena-je-izlozba-krcadinca/' target='_blank'><em>An exhibition by Uroš Krčadinac is currently displayed at the Manifesto Gallery of Contemporary Arts</em></a>, N1, Sarajevo, BiH</li>
+</ul>
+      <div class='list-title interface-heading-style'>2022</div>
     <ul>
     <li><a href='https://p-portal.net/en/uros-krcadinac-our-language-is-influenced-more-by-google-than-by-the-croatian-or-serbian-academy-of-sciences-and-arts/' target='_blank'><em>Our Language Is Influenced More by Google than by the Croatian or Serbian Academy of Sciences and Arts</em></a>, interview, P-portal, Zagreb, Croatia, 2022.</li>
     <li><a href='https://nova.rs/kultura/uros-krcadinac-zastave-su-zajednicka-trauma-i-ushicenje-nas-postjugoslovena/' target='_blank'><em>Flags are a common trauma and thrill of us Post-Yugoslavs</em></a>, interview, Nova, Belgrade, Serbia, 2022.</li>

@@ -3,19 +3,34 @@ title:
 id: press
 lead: "Medijski izveštaji. Novinski tekstovi.<br>Izabrani invervjui. Odabrane recenzije."
 linechart_tooltip: "Vremenska linija izabranih pojavljivanja u medijima"
-layout: 2
+layout: 1
 data:
     - title: 0
       id: "venues"
       images:
         - path: "media/projects/bantustan-book/img/bantustan-book29.jpg"
+      images_extra:
         - path: "media/pages/teaching02.jpg"
         - path: "media/pages/uros-dksg-18-april.jpg"
         - path: "media/pages/krokodil02.jpg"
         - path: "media/pages/dksg-001.jpg"
         - path: "media/pages/drugo-more-izlozba02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2022</div>
+<div class='list-title-first-page interface-heading-style'>2023</div>
+<ul>
+<li><a href='https://www.youtube.com/watch?v=BF_26tU_Dzs' target='_blank'><em>Pročitaj me</em></a>, Radio-televizija Crne Gore, Cetinje</li>
+<li><a href='https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti' target='_blank'><em>Neće nas pokoriti vještačka inteligencija, sami sebi ćemo to učiniti</em></a>, Normalizuj.me, Podgorica</li>
+<li><a href='/static/media/pages/krcadinac_blic.jpg' target='_blank'><em>Ne vredi bežati od AI tehnologija, ne vredi ih ni slaviti</em></a>, Blic, Beograd, Srbija</li>
+<li><a href='https://www.youtube.com/watch?v=4Nh-kG4NVEc' target='_blank'><em>Svaka tehnologija je političko pitanje</em></a>, Normalizuj.me, Podgorica, Crna Gora</li>
+<li><a href='https://www.portalnovosti.com/uros-krcadinac-prica-o-ai-u-je-prica-o-privatizaciji-zajednickog-rada' target='_blank'><em>Priča o AI-u je priča o privatizaciji zajedničkog rada</em></a>, Portal Novosti, Zagreb, intervju vodio Lujo Parežanin</li>
+<li><a href='https://kaleidoskop-media.com/mediji/transformacija-kulture-u-eri-ai' target='_blank'><em>Transformacija kulture u eri AI</em></a>, Kaleidoskop, Beograd, autorka Gordana Tadić</li>
+<li><a href='https://www.rts.rs/lat/radio/radio-beograd-2/5271469/o-kentaurskoj-umetnosti-i-projektu-kojim-se-obelezava-100-godina-animacije-u-srbiji.html' target='_blank'><em>O kentaurskoj umetnosti</em></a>, Radio Beograd 2, intervju, RTS, Beograd</li>
+<li><a href='https://6yka.com/intervju/uros-krcadinac-prica-o-ai-u-je-prica-o-privatizaciji-zajednickog-rada' target='_blank'><em>Intervju</em></a>, Buka, Sarajevo</li>
+<li><a href='http://www.arte.rs/sr/vesti/uros_krcadinac_kentaurski_crtezi-15641' target='_blank'><em>Kentaurski crteži</em></a>, Arte, Beograd</li>
+<li><a href='https://www.vesti.rs/Kultura/Uros-Krcadinac-Kentaurski-crtezi.html' target='_blank'><em>Kentaurski crteži</em></a>, Vesti.rs, Beograd</li>
+<li><a href='https://n1info.ba/kultura/u-galeriji-savremenih-umjetnosti-manifesto-postavljena-je-izlozba-krcadinca/' target='_blank'><em>U Galeriji savremenih umjetnosti Manifesto postavljena je izložba Krčadinca</em></a>, N1, Sarajevo, BiH</li>
+</ul>
+      <div class='list-title interface-heading-style'>2022</div>
     <ul>
     <li><a href='https://p-portal.net/uros-krcadinac-na-nas-jezik-vise-utice-gugl-nego-sanu-i-hazu/' target='_blank'><em>Na naš jezik više utiče Gugl nego SANU i HAZU</em></a>, intervju, P-portal, Zagreb, Hrvatska, 2022.</li>
     <li><a href='https://nova.rs/kultura/uros-krcadinac-zastave-su-zajednicka-trauma-i-ushicenje-nas-postjugoslovena/' target='_blank'><em>Zastave su zajednička trauma i ushićenje nas postjugoslovena</em></a>, intervju, Nova, Beograd, Srbija, 2022.</li>
@@ -91,3 +106,5 @@ timeline:
       d: 2
     - year: 2022
       d: 13
+    - year: 2023
+      d: 11
