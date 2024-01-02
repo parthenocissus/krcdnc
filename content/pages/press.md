@@ -20,6 +20,7 @@ data:
 <ul>
 <li><a href='https://www.youtube.com/watch?v=BF_26tU_Dzs' target='_blank'><em>Read Me (Pročitaj me)</em></a>, RTCG, Cetinje, Montenegro</li>
 <li><a href='https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti' target='_blank'><em>We will not be subjugated by artificial intelligence; we will do it to ourselves</em></a>, Normalizuj.me, Podgorica, Montenegro</li>
+<li><a href='https://n1info.ba/video/novi-dan/galerija-manifesto-postavljena-samostalna-izlozba-svestrani/' target='_blank'><em>The All-Aligned Exhibition in Sarajevo</em></a>, N1, Sarajevo, BiH</li>
 <li><a href='/static/media/pages/krcadinac_blic.jpg' target='_blank'><em>It's not worth escaping AI technologies, nor is it worth celebrating them</em></a>, Blic, Belgrade, Serbia</li>
 <li><a href='https://www.youtube.com/watch?v=4Nh-kG4NVEc' target='_blank'><em>Every technology is a political question</em></a>, Normalizuj.me, Podgorica, Montenegro</li>
 <li><a href='https://www.portalnovosti.com/uros-krcadinac-prica-o-ai-u-je-prica-o-privatizaciji-zajednickog-rada' target='_blank'><em>The story of AI is a story of the privatization of collective labor</em></a>, Portal Novosti, Zagreb, Croatia, interview by Lujo Parežanin</li>
@@ -107,4 +108,4 @@ timeline:
     - year: 2022
       d: 13
     - year: 2023
-      d: 11
+      d: 12

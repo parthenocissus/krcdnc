@@ -20,6 +20,7 @@ data:
 <ul>
 <li><a href='https://www.youtube.com/watch?v=BF_26tU_Dzs' target='_blank'><em>Pročitaj me</em></a>, Radio-televizija Crne Gore, Cetinje</li>
 <li><a href='https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti' target='_blank'><em>Neće nas pokoriti vještačka inteligencija, sami sebi ćemo to učiniti</em></a>, Normalizuj.me, Podgorica</li>
+<li><a href='https://n1info.ba/video/novi-dan/galerija-manifesto-postavljena-samostalna-izlozba-svestrani/' target='_blank'><em>Postavljena samostalna izložba Svesvrstani</em></a>, N1, Sarajevo</li>
 <li><a href='/static/media/pages/krcadinac_blic.jpg' target='_blank'><em>Ne vredi bežati od AI tehnologija, ne vredi ih ni slaviti</em></a>, Blic, Beograd, Srbija</li>
 <li><a href='https://www.youtube.com/watch?v=4Nh-kG4NVEc' target='_blank'><em>Svaka tehnologija je političko pitanje</em></a>, Normalizuj.me, Podgorica, Crna Gora</li>
 <li><a href='https://www.portalnovosti.com/uros-krcadinac-prica-o-ai-u-je-prica-o-privatizaciji-zajednickog-rada' target='_blank'><em>Priča o AI-u je priča o privatizaciji zajedničkog rada</em></a>, Portal Novosti, Zagreb, intervju vodio Lujo Parežanin</li>
@@ -107,4 +108,4 @@ timeline:
     - year: 2022
       d: 13
     - year: 2023
-      d: 11
+      d: 12

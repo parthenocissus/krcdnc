@@ -94,6 +94,9 @@ press:
         - link: 'https://www.youtube.com/watch?v=BF_26tU_Dzs'
           linked: Pročitaj me
           name: Radio-televizija Crne Gore, Cetinje
+        - link: https://n1info.ba/video/novi-dan/galerija-manifesto-postavljena-samostalna-izlozba-svestrani/
+          linked: Postavljena samostalna izložba Svesvrstani
+          name: N1, Sarajevo, BiH
         - link: 'https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti'
           linked: Neće nas pokoriti vještačka inteligencija, sami sebi ćemo to učiniti
           name: Normalizuj.me, Podgorica

@@ -94,6 +94,9 @@ press:
         - link: 'https://www.youtube.com/watch?v=BF_26tU_Dzs'
           linked: Read Me (Pročitaj me)
           name: RTCG, Cetinje, Montenegro
+        - link: https://n1info.ba/video/novi-dan/galerija-manifesto-postavljena-samostalna-izlozba-svestrani/
+          linked: The All-Aligned Exhibition in Sarajevo
+          name: N1, Sarajevo, BiH
         - link: 'https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti'
           linked: "We will not be subjugated by artificial intelligence; we will do it to ourselves"
           name: Normalizuj.me, Podgorica, Montenegro
