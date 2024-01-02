@@ -19,6 +19,7 @@ data:
       <div class='list-title-first-page interface-heading-style'>2023</div>
 <ul>
 <li><a href='https://www.youtube.com/watch?v=BF_26tU_Dzs' target='_blank'><em>Read Me (Pročitaj me)</em></a>, RTCG, Cetinje, Montenegro</li>
+<li><a href='/all-aligned/essays/adna/' target='_blank'><em>Regulated Interpellation</em></a>, curator Adna Muslija's review, catalog for <a href='/all-aligned/exhibitions/manifesto/' target='_blank'>The All-Aligned Exhibition in Sarajevo</a>, Galerija Manifesto, Sarajevo, BiH</li>
 <li><a href='https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti' target='_blank'><em>We will not be subjugated by artificial intelligence; we will do it to ourselves</em></a>, Normalizuj.me, Podgorica, Montenegro</li>
 <li><a href='https://n1info.ba/video/novi-dan/galerija-manifesto-postavljena-samostalna-izlozba-svestrani/' target='_blank'><em>The All-Aligned Exhibition in Sarajevo</em></a>, N1, Sarajevo, BiH</li>
 <li><a href='/static/media/pages/krcadinac_blic.jpg' target='_blank'><em>It's not worth escaping AI technologies, nor is it worth celebrating them</em></a>, Blic, Belgrade, Serbia</li>
@@ -108,4 +109,4 @@ timeline:
     - year: 2022
       d: 13
     - year: 2023
-      d: 12
+      d: 13
