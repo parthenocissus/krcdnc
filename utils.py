@@ -64,6 +64,11 @@ def press(flatpages, lang):
 def writing(flatpages, lang):
     diglit = "digital-literature"
     bantu = "bantustan-book"
+    bantu_atlas = "bantustan-interactive-atlas"
+    bantu_exhibition = "maps-exhibition"
+    cs_synesketch = "synesketch"
+    cs_paperista = "paperista"
+    cs_allaligned = "svesvrstani-allaligned"
     tactical = "optimised-tactical-poetics"
     research = "research"
     by = "category"
@@ -71,18 +76,28 @@ def writing(flatpages, lang):
     page = flatpages.get_or_404('{}/{}'.format(lang.pgdir(), "writing"))
 
     projs = [p for p in flatpages if p.path.startswith(lang.dir())]
+
     bantu_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), bantu))
+    bantu_atlas_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), bantu_atlas))
+    bantu_exhibition_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), bantu_exhibition))
+
+    cs_synesketch_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), cs_synesketch))
+    cs_paperista_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), cs_paperista))
+    cs_allaligned_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), cs_allaligned))
+
     tactical_page = flatpages.get_or_404('{}/{}'.format(lang.dir(), tactical))
 
-    prose_projects = [bantu_page]
+    prose_projects = [bantu_page, bantu_atlas_page, bantu_exhibition_page]
 
     diglit_projs = list(filter(lambda x: (x["id"] != bantu) and (diglit in map(lambda d: d["id"], x[by])), projs))
     diglit_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
 
     # research_projs = list(filter(lambda x: (research in map(lambda d: d["id"], x[by])), projs))
-    research_projs = list(
-        filter(lambda x: (x["id"] != tactical) and (research in map(lambda d: d["id"], x[by])), projs))
-    research_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
+    # research_projs = list(
+    #     filter(lambda x: (x["id"] != tactical) and (research in map(lambda d: d["id"], x[by])), projs))
+    # research_projs.sort(key=lambda item: (item['date'], item['featured']), reverse=True)
+
+    research_projs = [cs_synesketch_page, cs_paperista_page, cs_allaligned_page]
 
     date_format = "%d/%m/%Y"
     note_list = [p for p in flatpages if p.path.startswith(lang.ntdir())]

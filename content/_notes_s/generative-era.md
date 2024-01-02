@@ -131,7 +131,7 @@ content:
           caption: "Robotski crtež, Uroš Krčadinac, 2023. Rad sa izložbe </em><a href='/rad/projekti/centaur-drawings/' target='_blank'>Kentaurski crteži</a><em> (GNT, Beograd). Ukoliko su vam ovakvi crteži zanimljivi, tu je </em><a href='/galerija' target='_blank'>PRODAJNA GALERIJA</a>."
     - type: "txt"
       html: "<p><em>Ovaj esej objavljen je u leto 2023. u <a href='http://www.skd.rs/knjizevni-magazin-231-232-233/' target='_blank'></em>Кnjiževnom magazinu<em> Srpskog književnog društva (trobroj 231-232-233)</a> pod imenom </em>»Кultura kentaura: Generativne šahovske mape kao jezik nove digitalne osećajnosti«<em>.</p>
-    <p>Esej govori o projektu </em><a href='/rad/projekti/rerematch' target='_blank'>Re:Rematch Man+Machine vs. Man+Machine</a> i prati samostalnu izložbu </em><a href='/rad/projekti/centaur-drawings/' target='_blank'>Kentaurski crteži</a><em> (GNT, Beograd) na kojoj su prikazani crteži koje smo zajedno crtali moj robot i ja, a po algoritmima projekta</em> Re:Rematch<em>. Ukoliko su vam ovakvi crteži zanimljivi, tu je </em><a href='/galerija' target='_blank'>PRODAJNA GALERIJA</a>.</p>"
+    <p>Esej govori o projektu </em><a href='/rad/projekti/rerematch' target='_blank'>Re:Rematch Man+Machine vs. Man+Machine</a><em> i prati samostalnu izložbu </em><a href='/rad/projekti/centaur-drawings/' target='_blank'>Kentaurski crteži</a><em> (GNT, Beograd) na kojoj su prikazani crteži koje smo zajedno crtali moj robot i ja, a po algoritmima projekta</em> Re:Rematch<em>. Ukoliko su vam ovakvi crteži zanimljivi, tu je </em><a href='/galerija' target='_blank'>PRODAJNA GALERIJA</a>.</p>"
 plus:
     - type: "img-temp"
       grid_rules: "grid-template-columns: 1fr;"
