@@ -56,6 +56,14 @@ team:
     - name: Antonije Petrović (Technical Support)
 presentation_title: Exhibitions
 presentations:
+    - year: 2023
+      events:
+        - link: "/all-aligned/exhibitions/fluid"
+          linked: "The All-Aligned on Fluid"
+          name: Solo Exhibition, Miroslav Dado Đurić Gallery, Fluid Design Forum, Cetinje, Montenegro
+        - link: "/all-aligned/exhibitions/manifesto"
+          linked: "The All-Aligned in Manifesto"
+          name: Solo Exhibition, Manifesto Gallery of Contemporary Arts, Sarajevo, BiH
     - year: 2022
       events:
         - link: "/all-aligned/exhibitions/dksg"
@@ -81,6 +89,23 @@ publications:
           linked: "Essays About the All-Aligned Project"
           name: "Various Authors, Krcadinac.com, Belgrade, Serbia"
 press:
+    - year: 2023
+      events:
+        - link: 'https://www.youtube.com/watch?v=BF_26tU_Dzs'
+          linked: Read Me (Pročitaj me)
+          name: RTCG, Cetinje, Montenegro
+        - link: 'https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti'
+          linked: "We will not be subjugated by artificial intelligence; we will do it to ourselves"
+          name: Normalizuj.me, Podgorica, Montenegro
+        - link: /static/media/pages/krcadinac_blic.jpg
+          linked: "It's not worth escaping AI technologies, nor is it worth celebrating them"
+          name: Blic, Beograde, Serbia
+        - link: https://www.youtube.com/watch?v=4Nh-kG4NVEc
+          linked: Every technology is a political question
+          name: Normalizuj.me, Podgorica, Montenegro
+        - link: https://n1info.ba/kultura/u-galeriji-savremenih-umjetnosti-manifesto-postavljena-je-izlozba-krcadinca/
+          linked: An exhibition by Uroš Krčadinac is currently displayed at the Manifesto Gallery of Contemporary Arts
+          name: N1, Sarajevo, BiH
     - year: 2022
       events:
         - link: 'https://p-portal.net/en/uros-krcadinac-our-language-is-influenced-more-by-google-than-by-the-croatian-or-serbian-academy-of-sciences-and-arts/'

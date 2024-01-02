@@ -56,6 +56,14 @@ team:
     - name: Antonije Petrović (tehnička podrška)
 presentation_title: Izložbe
 presentations:
+    - year: 2023
+      events:
+        - link: "/svesvrstani/exhibitions/fluid"
+          linked: "Svesvrstani na Fluidu"
+          name: Samostalna izložba, Galerija Miroslav Dado Đurić, Fluid Design Forum, Cetinje
+        - link: "/svesvrstani/exhibitions/manifesto"
+          linked: "Svesvrstani u Manifestu"
+          name: Samostalna izložba, Galerija Manifesto, Sarajevo
     - year: 2022
       events:
         - link: "/svesvrstani/exhibitions/dksg"
@@ -81,6 +89,23 @@ publications:
           linked: "Eseji o projektu Svesvrstani"
           name: "Razni autori, Krcadinac.com, Beograd"
 press:
+    - year: 2023
+      events:
+        - link: 'https://www.youtube.com/watch?v=BF_26tU_Dzs'
+          linked: Pročitaj me
+          name: Radio-televizija Crne Gore, Cetinje
+        - link: 'https://normalizuj.me/intervju/nece-nas-pokoriti-vjestacka-inteligencija-sami-sebi-cemo-to-uciniti'
+          linked: Neće nas pokoriti vještačka inteligencija, sami sebi ćemo to učiniti
+          name: Normalizuj.me, Podgorica
+        - link: /static/media/pages/krcadinac_blic.jpg
+          linked: Ne vredi bežati od AI tehnologija, ne vredi ih ni slaviti
+          name: Blic, Beograd
+        - link: https://www.youtube.com/watch?v=4Nh-kG4NVEc
+          linked: Svaka tehnologija je političko pitanje
+          name: Normalizuj.me, Podgorica
+        - link: https://n1info.ba/kultura/u-galeriji-savremenih-umjetnosti-manifesto-postavljena-je-izlozba-krcadinca/
+          linked: U Galeriji savremenih umjetnosti Manifesto postavljena je izložba Krčadinca
+          name: N1, Sarajevo
     - year: 2022
       events:
         - link: 'https://p-portal.net/uros-krcadinac-na-nas-jezik-vise-utice-gugl-nego-sanu-i-hazu/'
