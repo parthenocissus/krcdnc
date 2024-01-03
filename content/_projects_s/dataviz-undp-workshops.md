@@ -13,7 +13,7 @@ category:
     - id: installation
       name: Instalacije + performansi
     - id: data-art
-      name: Data umetnosti
+      name: Data umetnost
     - id: dataviz
       name: Vizuelizacija podataka
     - id: interactive
