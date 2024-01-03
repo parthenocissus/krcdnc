@@ -42,6 +42,7 @@ data:
           name: "Nova Iskra, Belgrade, 2016"
         - path: "media/pages/dksg-publika.jpg"
           name: "Solo Exhibition, DKSG Gallery, Belgrade, 2022"
+      images_extra:
         - path: "media/pages/uros-dksg-001.jpg"
           name: "Solo Exhibition, DKSG Gallery, Belgrade, 2022"
         - path: "media/pages/dksg-potpisivanje.jpg"
@@ -49,7 +50,27 @@ data:
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Serbian Academy of Arts and Sciences, Belgrade, 2019"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2022</div>
+      <div class='list-title-first-page interface-heading-style'>2023</div>
+<ul>
+<li><a href='https://www.dieangewandte.at/aktuell/aktuell_detail?artikel_id=1683686536720' target='_blank'>Artist Talk, Abteilung Digitale Kunst, Universität für angewandte Kunst Wien</a>, Vienna, Austria</li>
+<li><a href='https://www.designscience.school/' target='_blank'><em>Centaur Culture: Androids Don't Dream, But Do We?</em></a>, Keynote Talk, Paraintelligence: Design and Science Summer School, Academy of Fine Arts and Design, University in Ljubljana, Ljubljana, Slovenija</li>
+<li><a href='https://www.youtube.com/watch?v=d-3YXnNEHAQ' target='_blank'><em>Data Art and Data Storytelling for Journalism and Advocacy</em></a>, K-Monitor Egyesület, Budapest, Hungary</li>
+<li><em>On Centaur Drawings</em></a>, a drawing performance with a pen plotter and a public conversation with art historian Anica Tucakov, as part of the exhibition <a href='/work/projects/centaur-drawings/' target='_blank'><em>Centaur Drawings</em></a>, SASA Gallery of Science and Technology, Belgrade, Serbia</li>
+<li><em>Human-Robot Drawings</em></a>, Pandora Conference: Where Data Meets Games, Data Science Conference, Belgrade, Serbia</li>
+<li>Artist Talk, Academy of Applied Arts, University of Rijeka, Croatia</li>
+<li>Artist Talk as a part of the solo exhibition <a href='/all-aligned/exhibitions/manifesto/' target='_blank'><em>All-Aligned</em> Manifesto Gallery</a>, Sarajevo, BiH</li>
+<li>Artist Talk as a part of the solo exhibition <a href='/all-aligned/exhibitions/fluid/' target='_blank'><em>Svesvrstani</em>, Miroslav Dado Đurić Gallery</a>, Fluid Design Forum, Cetinje, Crna Gora</li>
+<li><em>Blind Cartographers: Poetic Maps of the Everyday</em></a>, lecture in cooperation with writer Kruno Lokotar, Moise Palace, Cres, Croatia</li>
+<li><em>Critical Cartography</em></a>, Inter University Centre Dubrovnik, Croatia</li>
+<li><em>What Is Digital Art?</em>, LNŠ, Petnica Science Centre, Serbia</li>
+<li><em>Algorithmic Co-Creation</em>, Fluid Design Forum, Faculty of Fine Arts, Cetinje, Montenegro</li>
+<li><em>AI, Art & Society</em>, Belgrade Open School, Belgrade, Serbia</li>
+<li><em>Automated Ideology</em>, public talk with political scientist Jasmin Hasanović, Manifesto Gallery, Sarajevo, BiH</li>
+<li>Panel discussion about the novel <em>The Judgment of Richard Richter</em> (together with Igor Štiks, Jelena Nidžović and Sara Arsenović), Kontrast Publishing, KC Grad, Belgrade, Serbia</li>
+<li>Guided public tour of the exhibition <a href='/work/projects/centaur-drawings/' target='_blank'><em>Centaur Drawings</em></a>, SASA Gallery of Science and Technology, Belgrade, Serbia</li>
+<li>Javno vođenje kroz izložbu, <a href='/work/projects/centaur-drawings/' target='_blank'><em>Centaur Drawings</em></a>, Prostor, Novi Sad, Serbia</li>
+</ul>
+<div class='list-title interface-heading-style'>2022</div>
 <ul>
 <li><a href='https://vimeo.com/773357213' target='_blank'>Artist Talk</a> as a part of the solo exhibition <em><a href='/all-aligned/exhibitions/drugo-more/' target='_blank'>All-Aligned</a></em>, Filodrammatica Gallery, Drugo More, Rijeka, Croatia</li>
 <li>Artist Talk as a part of the solo exhibition <em><a href='/all-aligned/exhibitions/kontejner/' target='_blank'>All-Aligned</a></em>, Miroslav Kraljević Gallery, Kontejner, Zagreb, Croatia</li>
@@ -231,3 +252,5 @@ timeline:
       d: 11
     - year: 2022
       d: 11
+    - year: 2023
+      d: 17

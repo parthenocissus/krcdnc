@@ -42,6 +42,7 @@ data:
           name: "Nova Iskra, Beograd, 2016"
         - path: "media/pages/dksg-publika.jpg"
           name: "Samostalna izložba, DKSG, Beograd, 2022"
+      images_extra:
         - path: "media/pages/uros-dksg-001.jpg"
           name: "Samostalna izložba, DKSG, Beograd, 2022"
         - path: "media/pages/dksg-potpisivanje.jpg"
@@ -49,7 +50,27 @@ data:
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Srpska akademija nauka i umetnosti, Beograd, 2019"        
       text: "<div class='section-list interface-page-li-style'>
-<div class='list-title-first-page interface-heading-style'>2022</div>
+<div class='list-title-first-page interface-heading-style'>2023</div>
+<ul>
+<li><a href='https://www.dieangewandte.at/aktuell/aktuell_detail?artikel_id=1683686536720' target='_blank'>Artist Talk, Abteilung Digitale Kunst, Universität für angewandte Kunst Wien</a>, Beč, Austrija</li>
+<li><a href='https://www.designscience.school/' target='_blank'><em>Centaur Culture: Androids Don't Dream, But Do We?</em></a>, Keynote Talk, Paraintelligence: Design and Science Summer School, Akademija za likovno umetnost in oblikovanje, Univerza v Ljubljani, Ljubljana, Slovenija</li>
+<li><a href='https://www.youtube.com/watch?v=d-3YXnNEHAQ' target='_blank'><em>Data Art and Data Storytelling for Journalism and Advocacy</em></a>, K-Monitor Egyesület, Budimpešta, Mađarska</li>
+<li><em>O kentaurskim crtežima</em></a>, performativno crtanje sa robotom i javna tribina sa istoričarkom umetnosti Anicom Tucakov, deo izložbe <a href='/rad/projekti/centaur-drawings/' target='_blank'><em>Kentaurski crteži</em></a>, Galerija nauke i tehnike SANU, Beograd, Srbija</li>
+<li><em>Robotsko-ljudski crteži</em></a>, predavanje, Pandora Conference: Where Data Meets Games, Data Science Conference, Beograd, Srbija</li>
+<li>Artist Talk, Akademija primijenjenih umjetnosti, Sveučilište u Rijeci, Rijeka, Hrvatska</li>
+<li>Artist Talk u okviru samostalne izložbe <em><a href='/svesvrstani/exhibitions/manifesto/' target='_blank'>Svesvrstani, Galerija Manifesto</a></em>, Sarajevo, BiH</li>
+<li>Artist Talk u okviru samostalne izložbe <em><a href='/svesvrstani/exhibitions/fluid/' target='_blank'>Svesvrstani, Galerija Miroslav Dado Đurić</a></em>, Fluid Design Forum, Cetinje, Crna Gora</li>
+<li><em>Slepi kartografi: poetske mape svakodnevice</em></a>, autorsko predavanje u saradnji sa piscem Krunom Lokotarom, Palača Moise, Cres, Hrvatska</li>
+<li><em>Kritička kartografija</em></a>, Inter University Centre Dubrovnik, Dubrovnik, Hrvatska</li>
+<li><em>Šta je digitalna umetnost?</em>, Letnja naučna škola, Istraživačka stanica Petnica, Srbija</li>
+<li><em>Algoritamska ko-kreacija</em>, Fluid Design Forum, Fakultet likovnih umjetnosti Cetinje, Crna Gora</li>
+<li><em>Veštačka inteligencija, umetnost i društvo</em>, Beogradska otvorena škola, Beograd, Srbija</li>
+<li><em>Automatizovana ideologija</em>, javna tribina sa politikologom Jasminom Hasanovićem, Galerija Manifesto, Sarajevo</li>
+<li>Javna tribina o romanu <em>Elijahova stolica</em>, zajedno sa Igorom Štiksom, Jelenom Nidžović i Sarom Arsenović, Kontrast izdavaštvo, KC Grad, Beograd, Srbija</li>
+<li>Javno vođenje kroz izložbu, <a href='/rad/projekti/centaur-drawings/' target='_blank'><em>Kentaurski crteži</em></a>, Galerija nauke i tehnike SANU, Beograd, Srbija</li>
+<li>Javno vođenje kroz izložbu, <a href='/rad/projekti/centaur-drawings/' target='_blank'><em>Kentaurski crteži</em></a>, Kreativni centar Prostor, Novi Sad, Srbija</li>
+</ul>
+<div class='list-title interface-heading-style'>2022</div>
 <ul>
 <li><a href='https://vimeo.com/773357213' target='_blank'>Artist Talk</a> u okviru samostalne izložbe <em><a href='/svesvrstani/exhibitions/drugo-more/' target='_blank'>Svesvrstani</a></em>, Galerija Filodrammatica, Drugo more, Rijeka, Hrvatska</li>
 <li>Artist Talk u okviru samostalne izložbe <em><a href='/svesvrstani/exhibitions/kontejner/' target='_blank'>Svesvrstani</a></em>, Galerija Miroslav Kraljević, Kontejner, Zagreb, Hrvatska</li>
@@ -231,3 +252,5 @@ timeline:
       d: 11
     - year: 2022
       d: 11
+    - year: 2023
+      d: 17

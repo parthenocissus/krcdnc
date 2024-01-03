@@ -12,7 +12,7 @@ data:
         - path: "media/pages/teaching01.jpg"
         - path: "media/projects/dataviz-workshops/img/dataviz-workshops01.jpg"
         - path: "media/pages/speaking_novaiskra02.jpg"
-      text: "<p>Currently, I work as an <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Assistant Professor of Digital Art and Computing</a> at the Department of Digital Art, Faculty of Media and Communications, Singidunum University, Belgrade, Serbia. I also work as a <a href='http://goodoldai.org/' target='_blank'>Research Associate and Visiting Lecturer at the Good Old AI Lab</a>, Department of Software Engineering, Faculty of Organizational Sciences, University of Belgrade, Serbia.</p> 
+      text: "<p>Currently, I work as an <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Associate Professor of Digital Art and Computing</a> at the Department of Digital Art, Faculty of Media and Communications, Singidunum University, Belgrade, Serbia. I also work as a <a href='http://goodoldai.org/' target='_blank'>Research Associate and Visiting Lecturer at the Good Old AI Lab</a>, Department of Software Engineering, Faculty of Organizational Sciences, University of Belgrade, Serbia.</p> 
 <p>At the Faculty of Media and Communications, I try to foster a transdisciplinary studio environment in collaboration with <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidora Nikolić</a>, <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borut Vild</a>, and <a href='https://www.colorado.edu/lab/medlab/darija-medic' target='_blank'>Darija Medić</a>.</p> 
 <p>Along with teaching, I have created a group of interactive art courses for the Department of Digital Art, which was seen as a pioneering effort within Serbian high education system. Courses include:</p>
 <p><span class='italic-style'><span class='bullet-padding'>•</span> Creative Coding: Algorithm, Image, and Text<br>
@@ -83,4 +83,8 @@ timeline:
     - year: 2021
       d: 13
     - year: 2022
-      d: 2
+      d: 17
+    - year: 2023
+      d: 17
+    - year: 2024
+      d: 1

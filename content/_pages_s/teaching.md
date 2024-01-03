@@ -12,7 +12,7 @@ data:
         - path: "media/pages/teaching01.jpg"
         - path: "media/projects/dataviz-workshops/img/dataviz-workshops01.jpg"
         - path: "media/pages/speaking_novaiskra02.jpg"
-      text: "<p>Trenutno radim kao <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>Docent digitalne umetnosti i računarstva</a> na Departmanu za digitalne umetnosti Fakulteta za medije i komunikacije Univerziteta Singidunum. Docent sam u dve oblasti: umetničkoj i naučnoj. Takođe radim kao <a href='http://goodoldai.org/' target='_blank'>naučni saradnik i gostujući predavač laboratorije Good Old AI</a> na Departmanu za softversko inženjerstvo Fakulteta organizacionih nauka Univerziteta u Beogradu.</p> 
+      text: "<p>Trenutno radim kao <a href='https://fmk.singidunum.ac.rs/profesori/uros-krcadinac/' target='_blank'>vanredni profesor digitalne umetnosti i računarstva</a> na Departmanu za digitalne umetnosti Fakulteta za medije i komunikacije Univerziteta Singidunum. Docent sam u dve oblasti: umetničkoj i naučnoj. Takođe radim kao <a href='http://goodoldai.org/' target='_blank'>naučni saradnik i gostujući predavač laboratorije Good Old AI</a> na Departmanu za softversko inženjerstvo Fakulteta organizacionih nauka Univerziteta u Beogradu.</p> 
 <p>U saradnji sa <a href='https://fmk.singidunum.ac.rs/profesori/isidora-nikolic/' target='_blank'>Isidorom Nikolić</a>, <a href='https://fmk.singidunum.ac.rs/profesori/borut-vild/' target='_blank'>Borutom Vildom</a> i <a href='https://www.colorado.edu/lab/medlab/darija-medic' target='_blank'>Darijom Medić</a>, na Fakultetu za medije i komunikacije nastojim da negujem transdisciplinarnu studijsku atmosferu. Uporedo s nastavom, osmislio sam grupu predmeta koji se bave interaktivnom umetnošću, jednu od prvih takvih u obrazovnom sistemu Srbije. Predmeti uključuju:</p>
 <p><span class='italic-style'>
 <span class='bullet-padding'>•</span> Programiranje za umetnike, dizajnere i pisce<br>
@@ -83,4 +83,8 @@ timeline:
     - year: 2021
       d: 13
     - year: 2022
-      d: 2
+      d: 17
+    - year: 2023
+      d: 17
+    - year: 2024
+      d: 1
