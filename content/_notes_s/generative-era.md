@@ -18,7 +18,7 @@ content:
     - type: "txt"
       html: "<p>Kako izgleda jedna partija šaha?</p>
 <p>Ako se poslužimo standardnom algebarskom notacijom i svaki potez označimo 1) znakom za figuru i 2) znakom za polje na šahovskoj tabli (po x-osi, polja idu od a do h; po y-osi, od 1 do 8), ovako bi mogla da izgleda jedna partija od 19 poteza:</p>
-<p>1. e4 c6 2. d4 d5 3. ♘c3 dxe4 4. ♘xe4 ♘d7 5. ♘g5 ♘gf6 6. ♗d3 e6 7. ♘1f3 h6 8. ♘xe6 ♕e7 9. 0-0 fxe6 10. ♗g6+ ♔d8 11. ♗f4 b5 12. a4 ♗b7 13. ♖e1 ♘d5 14. ♗g3 ♔c8 15. axb5 cxb5 16. ♕d3 ♗c6 17. ♗f5 exf5 18. ♖xe7 ♗xe7 19. c4 1–0</p>
+<p>1. e4 c6 2. d4 d5 3. ♘c3 dxe4 4. ♘xe4 ♘d7 5. ♘g5 ♘gf6 6. ♗d3 e6 7. ♘f3 h6 8. ♘xe6 ♕e7 9. 0-0 fxe6 10. ♗g6+ ♔d8 11. ♗f4 b5 12. a4 ♗b7 13. ♖e1 ♘d5 14. ♗g3 ♔c8 15. axb5 cxb5 16. ♕d3 ♗c6 17. ♗f5 exf5 18. ♖xe7 ♗xe7 19. c4 1–0</p>
 <p>Zapis će pročitati samo posvećeni šahisti. Za sve ostale, on je kriptičan isto koliko i vojni šifrarnik ili kôd napisan na nekom programskom jeziku.</p>
 <p>Istu partiju šaha, međutim, možemo nacrtati i kao mapu:</p>
 <p style='text-align: center !important;'><img style='text-align: center !important; padding: 10px 60px 5px 0; display: inline; height: 150px; width: 150px;' src='/static/media/notes/generative-era/img/kasparov-deep-blue-partija000.png'></p>

@@ -16,7 +16,11 @@ data:
         - path: "media/pages/dksg-001.jpg"
         - path: "media/pages/drugo-more-izlozba02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2023</div>
+      <div class='list-title-first-page interface-heading-style'>2024</div>
+<ul>
+<li><a href='https://www.youtube.com/watch?v=bdqXQ1NzJ9s' target='_blank'><em>Journey to Dreams (U susret snovima)</em></a>, RTS, Belgrade, Serbia</li>
+</ul>
+      <div class='list-title interface-heading-style'>2023</div>
 <ul>
 <li><a href='https://www.youtube.com/watch?v=BF_26tU_Dzs' target='_blank'><em>Read Me (Pročitaj me)</em></a>, RTCG, Cetinje, Montenegro</li>
 <li><a href='/all-aligned/essays/adna/' target='_blank'><em>Regulated Interpellation</em></a>, curator Adna Muslija's review, catalog for <a href='/all-aligned/exhibitions/manifesto/' target='_blank'>The All-Aligned Exhibition in Sarajevo</a>, Galerija Manifesto, Sarajevo, BiH</li>
@@ -110,3 +114,5 @@ timeline:
       d: 13
     - year: 2023
       d: 13
+    - year: 2024
+      d: 1
