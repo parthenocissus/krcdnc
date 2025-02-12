@@ -429,9 +429,9 @@
     { "name": "belgrade_victor", "weight": 1, "file_name": "belgrade_victor", "color": "full",
       "tags": ["serbia", "balkan", "belgrade"] },
 
-    { "name": "nato", "weight": 200, "file_name": "nato", "color": "simple",
+    { "name": "nato", "weight": 1, "file_name": "nato", "color": "simple",
       "tags": ["european", "french", "american", "capitalism", "libertarian"]},
-    { "name": "nato2", "weight": 200, "file_name": "nato2", "color": "simple",
+    { "name": "nato2", "weight": 1, "file_name": "nato2", "color": "simple",
       "tags": ["european", "french", "american", "capitalism", "libertarian"]}
 
   ],
