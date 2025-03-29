@@ -3,6 +3,7 @@ title:
 id: svesvrstani-allaligned
 date: 2022
 featured: 3
+featured_gif: true
 goto:
     link: "/all-aligned"
     label: "Vebsajt projekta"
@@ -140,9 +141,8 @@ press:
           name: 'Euronews, Belgrade, Serbia'
 img_to_show: 9
 img_data:
-    - size: "1727x905"
-      caption: "<a href='/all-aligned' target='_blank'>Svesvrstane zastave</a>, primer. Uroš Krčadinac, 2022."
-      gif: true
+    - size: "1600x787"
+      caption: "Samostalna izložba  “Svesvrstani” Uroša Krčadinca u Drugom Moru, Rijeka, 2022."
     - size: "1600x1066"
       caption: "<a href='/svesvrstani/exhibitions/dksg' target='_blank'>Samostalna izložba “Svesvrstani” Uroša Krčadinca</a>, Beograd, 2022. Autori fotografija: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"

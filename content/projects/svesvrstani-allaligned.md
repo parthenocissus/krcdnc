@@ -3,6 +3,7 @@ title:
 id: svesvrstani-allaligned
 date: 2022
 featured: 3
+featured_gif: true
 goto:
     link: "/all-aligned"
     label: "Open Project"
@@ -140,9 +141,8 @@ press:
           name: 'Euronews, Belgrade, Serbia'
 img_to_show: 9
 img_data:
-    - size: "1727x905"
-      caption: "<a href='/all-aligned' target='_blank'>The All-Aligned Flags</a>, example. Uroš Krčadinac, 2022."
-      gif: true
+    - size: "1600x787"
+      caption: "The All-Aligned Solo Exhibition in Drugo More, Rijeka, 2022."
     - size: "1600x1066"
       caption: "<a href='/all-aligned/exhibitions/dksg' target='_blank'>The All-Aligned Solo Exhibition by Uroš Krčadinac in Students' City Cultural Centre Gallery</a>, Belgrade, 2022. Photos: Ivona Petrov, Dušan Pavlović, Anđela Dabić."
     - size: "1600x1066"

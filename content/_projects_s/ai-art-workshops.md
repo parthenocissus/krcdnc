@@ -3,7 +3,7 @@ title:
     html: "Veštačka inteligencija<br>za pisce i umetnike"
     short: AI za pisce + umetnike
 id: ai-art-workshops
-featured: 3
+featured: 2
 date: 2019
 ranks:
     visual: 3
