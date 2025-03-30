@@ -26,6 +26,11 @@ medium:
       name: Print on tracing paper, 42.3 x 33 cm
 presentation_title: Exhibitions
 presentations:
+    - year: 2024
+      events:
+        - link: "https://novogallery.net/izlozbe/umrezeno-more/"
+          linked: Umreženo more
+          name: Galerija Novo, Udruga Metamedij, Pula, Croatia
     - year: 2017
       events:
         - link: "https://2017.pland.hr/en/"

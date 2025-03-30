@@ -50,7 +50,23 @@ data:
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Serbian Academy of Arts and Sciences, Belgrade, 2019"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2023</div>
+      <div class='list-title-first-page interface-heading-style'>2025</div>
+<ul>
+<li><em>Gaitless (the Field):</em> Project Presentation, <a href='https://modina.eu/news/modina-networking-meeting/' target='_blank'>Modina Networking Meeting</a>, Lisbon, Portugal</li>
+<li><em>Gaitless (the Field):</em> Project Presentation, <a href='https://mirevi.de/' target='_blank'>MIREVI Labs</a>, Modina, Düsseldorf, Germany</li>
+<li><em>Data Art</em>, Belgrade Open School, Belgrade, Serbia</li>
+<li><em>AI and Society</em>, Belgrade Open School, Serbia</li>
+</ul>
+      <div class='list-title interface-heading-style'>2024</div>
+<ul>
+<li><a href='/download/books/theylive.pdf' target='_blank'>They:live Project Presentation</a>, They:live Conference, Universidad Rey Juan Carlos (URJC), Madrid, Spain</li>
+<li><a href='https://novogallery.net/izlozbe/umrezeno-more/' target='_blank'>Artwork presentation, <em>Umreženo more</em> group exhibition</a>, Galerija Novo, Udruga Metamedij, Pula, Croatia</li>
+<li><a href='https://www.facebook.com/story.php/?story_fbid=1004426094817597&id=100057506476596&_rdr' target='_blank'>Artist Talk</a>, public lecture, MSURS, Banjaluka, BiH</li>
+<li><em>Algo-politics and Algo-poetics</em>, <a href='https://msub.org.rs/accompanying-program/conference-coding-the-gaze-technology-art-and-society-feminist-perspectives/?lang=en#' target='_blank'>Conference <em>Coding the Gaze: Technology, Art and Society</em></a>, Museum of Contemporary Art, Belgrade, Serbia</li>
+<li><em>Networked Storytelling</em>, Belgrade Open School, Serbia</li>
+<li><em>Introduction to Data Visualization and Storytelling</em>, LNŠ, Petnica Science Centre, Serbia</li>
+</ul>
+      <div class='list-title interface-heading-style'>2023</div>
 <ul>
 <li><a href='https://www.dieangewandte.at/aktuell/aktuell_detail?artikel_id=1683686536720' target='_blank'>Artist Talk, Abteilung Digitale Kunst, Universität für angewandte Kunst Wien</a>, Vienna, Austria</li>
 <li><a href='https://www.designscience.school/' target='_blank'><em>Centaur Culture: Androids Don't Dream, But Do We?</em></a>, Keynote Talk, Paraintelligence: Design and Science Summer School, Academy of Fine Arts and Design, University in Ljubljana, Ljubljana, Slovenija</li>
@@ -68,7 +84,7 @@ data:
 <li><em>Automated Ideology</em>, public talk with political scientist Jasmin Hasanović, Manifesto Gallery, Sarajevo, BiH</li>
 <li>Panel discussion about the novel <em>The Judgment of Richard Richter</em> (together with Igor Štiks, Jelena Nidžović and Sara Arsenović), Kontrast Publishing, KC Grad, Belgrade, Serbia</li>
 <li>Guided public tour of the exhibition <a href='/work/projects/centaur-drawings/' target='_blank'><em>Centaur Drawings</em></a>, SASA Gallery of Science and Technology, Belgrade, Serbia</li>
-<li>Javno vođenje kroz izložbu, <a href='/work/projects/centaur-drawings/' target='_blank'><em>Centaur Drawings</em></a>, Prostor, Novi Sad, Serbia</li>
+<li>Guided public tour of the exhibition <a href='/work/projects/centaur-drawings/' target='_blank'><em>Centaur Drawings</em></a>, Prostor, Novi Sad, Serbia</li>
 </ul>
 <div class='list-title interface-heading-style'>2022</div>
 <ul>
@@ -254,3 +270,7 @@ timeline:
       d: 11
     - year: 2023
       d: 17
+    - year: 2024
+      d: 6
+    - year: 2025
+      d: 4

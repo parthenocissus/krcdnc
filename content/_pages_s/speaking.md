@@ -50,7 +50,23 @@ data:
         - path: "media/projects/ai-art-workshops/img/ai-art-workshops01.jpg"
           name: "Srpska akademija nauka i umetnosti, Beograd, 2019"        
       text: "<div class='section-list interface-page-li-style'>
-<div class='list-title-first-page interface-heading-style'>2023</div>
+<div class='list-title-first-page interface-heading-style'>2025</div>
+<ul>
+<li><em>Gaitless (the Field):</em> prezentacija projekta, <a href='https://modina.eu/news/modina-networking-meeting/' target='_blank'>Modina Networking Meeting</a>, Lisabon, Portugalija</li>
+<li><em>Gaitless (the Field):</em> prezentacija projekta, <a href='https://mirevi.de/' target='_blank'>MIREVI Labs</a>, Modina, Dizeldorf, Nemačka</li>
+<li><em>Data Art</em>, Beogradska otvorena škola, Beograd, Srbija</li>
+<li><em>Veštačka inteligencija i društvo</em>, Beogradska otvorena škola, Beograd, Srbija</li>
+</ul>
+      <div class='list-title interface-heading-style'>2024</div>
+<ul>
+<li><a href='/download/books/theylive.pdf' target='_blank'>Prezentacija projekta They:live</a>, Konferencija They:live, Universidad Rey Juan Carlos (URJC), Madrid, Spain</li>
+<li><a href='https://novogallery.net/izlozbe/umrezeno-more/' target='_blank'>Prezentacija umetničkog rada, grupna izložba <em>Umreženo more</em></a>, Galerija Novo, Udruga Metamedij, Pula, Hrvatska</li>
+<li><a href='https://www.facebook.com/story.php/?story_fbid=1004426094817597&id=100057506476596&_rdr' target='_blank'>Androidi ne sanjaju ništa</a>, javno predavanje i otvaranje Noći muzeja, Muzej savremene umjetnosti Republike Srpske, Banjaluka, RS, BiH</li>
+<li><em>Algo-politics and Algo-poetics</em>, <a href='https://msub.org.rs/accompanying-program/conference-coding-the-gaze-technology-art-and-society-feminist-perspectives/?lang=en#' target='_blank'>Konferencija <em>Coding the Gaze: Technology, Art and Society</em></a>, Muzej savremene umetnosti, Beograd, Srbija</li>
+<li><em>Umreženo pripovedanje</em>, Beogradska otvorena škola, Beograd, Srbija</li>
+<li><em>Uvod u data vizuelizaciju i data pripovedanje</em>, LNŠ, Istraživačka stanica Petnica, Srbija</li>
+</ul>
+      <div class='list-title interface-heading-style'>2023</div>
 <ul>
 <li><a href='https://www.dieangewandte.at/aktuell/aktuell_detail?artikel_id=1683686536720' target='_blank'>Artist Talk, Abteilung Digitale Kunst, Universität für angewandte Kunst Wien</a>, Beč, Austrija</li>
 <li><a href='https://www.designscience.school/' target='_blank'><em>Centaur Culture: Androids Don't Dream, But Do We?</em></a>, Keynote Talk, Paraintelligence: Design and Science Summer School, Akademija za likovno umetnost in oblikovanje, Univerza v Ljubljani, Ljubljana, Slovenija</li>
@@ -254,3 +270,7 @@ timeline:
       d: 11
     - year: 2023
       d: 17
+    - year: 2024
+      d: 6
+    - year: 2025
+      d: 4

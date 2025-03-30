@@ -35,8 +35,13 @@ publications:
         - link: "http://www.klubputnika.org/zbirka/blogovi/bantustan/3930-geografsko-ja" 
           linked: Geografsko ja
           name: "Esej, KlubPutnika.org"          
-presentation_title: Izložbe
+presentation_title: Grupne izložbe
 presentations:
+    - year: 2024
+      events:
+        - link: "https://novogallery.net/izlozbe/umrezeno-more/"
+          linked: Umreženo more
+          name: Galerija Novo, Udruga Metamedij, Pula, Hrvatska
     - year: 2017
       events:
         - link: "https://2017.pland.hr/en/"
