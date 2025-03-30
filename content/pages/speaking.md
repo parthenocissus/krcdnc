@@ -72,7 +72,7 @@ data:
 <li><a href='https://www.designscience.school/' target='_blank'><em>Centaur Culture: Androids Don't Dream, But Do We?</em></a>, Keynote Talk, Paraintelligence: Design and Science Summer School, Academy of Fine Arts and Design, University in Ljubljana, Ljubljana, Slovenija</li>
 <li><a href='https://www.youtube.com/watch?v=d-3YXnNEHAQ' target='_blank'><em>Data Art and Data Storytelling for Journalism and Advocacy</em></a>, K-Monitor Egyesület, Budapest, Hungary</li>
 <li><em>On Centaur Drawings</em></a>, a drawing performance with a pen plotter and a public conversation with art historian Anica Tucakov, as part of the exhibition <a href='/work/projects/centaur-drawings/' target='_blank'><em>Centaur Drawings</em></a>, SASA Gallery of Science and Technology, Belgrade, Serbia</li>
-<li><em>Human-Robot Drawings</em></a>, Pandora Conference: Where Data Meets Games, Data Science Conference, Belgrade, Serbia</li>
+<li><a href='https://www.youtube.com/watch?v=ks9ZBwmdTAo' target='_blank'><em>Centaur Drawings</em></a>, Pandora Conference: Where Data Meets Games, Data Science Conference, Belgrade, Serbia</li>
 <li>Artist Talk, Academy of Applied Arts, University of Rijeka, Croatia</li>
 <li>Artist Talk as a part of the solo exhibition <a href='/all-aligned/exhibitions/manifesto/' target='_blank'><em>All-Aligned</em> Manifesto Gallery</a>, Sarajevo, BiH</li>
 <li>Artist Talk as a part of the solo exhibition <a href='/all-aligned/exhibitions/fluid/' target='_blank'><em>Svesvrstani</em>, Miroslav Dado Đurić Gallery</a>, Fluid Design Forum, Cetinje, Crna Gora</li>

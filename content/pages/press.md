@@ -19,6 +19,7 @@ data:
       <div class='list-title-first-page interface-heading-style'>2024</div>
 <ul>
 <li><a href='https://www.youtube.com/watch?v=bdqXQ1NzJ9s' target='_blank'><em>Journey to Dreams (U susret snovima)</em></a>, RTS, Belgrade, Serbia</li>
+<li>O predavanju <em>Androidi ne sanjaju ništa</em> u MSURS, radio emisija, RTRS, Banjaluka, RS, BiH</li>
 </ul>
       <div class='list-title interface-heading-style'>2023</div>
 <ul>

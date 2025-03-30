@@ -71,8 +71,8 @@ data:
 <li><a href='https://www.dieangewandte.at/aktuell/aktuell_detail?artikel_id=1683686536720' target='_blank'>Artist Talk, Abteilung Digitale Kunst, Universität für angewandte Kunst Wien</a>, Beč, Austrija</li>
 <li><a href='https://www.designscience.school/' target='_blank'><em>Centaur Culture: Androids Don't Dream, But Do We?</em></a>, Keynote Talk, Paraintelligence: Design and Science Summer School, Akademija za likovno umetnost in oblikovanje, Univerza v Ljubljani, Ljubljana, Slovenija</li>
 <li><a href='https://www.youtube.com/watch?v=d-3YXnNEHAQ' target='_blank'><em>Data Art and Data Storytelling for Journalism and Advocacy</em></a>, K-Monitor Egyesület, Budimpešta, Mađarska</li>
-<li><em>O kentaurskim crtežima</em></a>, performativno crtanje sa robotom i javna tribina sa istoričarkom umetnosti Anicom Tucakov, deo izložbe <a href='/rad/projekti/centaur-drawings/' target='_blank'><em>Kentaurski crteži</em></a>, Galerija nauke i tehnike SANU, Beograd, Srbija</li>
-<li><em>Robotsko-ljudski crteži</em></a>, predavanje, Pandora Conference: Where Data Meets Games, Data Science Conference, Beograd, Srbija</li>
+<li><em>O kentaurskim crtežima</em>, performativno crtanje sa robotom i javna tribina sa istoričarkom umetnosti Anicom Tucakov, deo izložbe <a href='/rad/projekti/centaur-drawings/' target='_blank'><em>Kentaurski crteži</em></a>, Galerija nauke i tehnike SANU, Beograd, Srbija</li>
+<li><a href='https://www.youtube.com/watch?v=ks9ZBwmdTAo' target='_blank'><em>Centaur Drawings</em></a>, predavanje, Pandora Conference: Where Data Meets Games, Data Science Conference, Beograd, Srbija</li>
 <li>Artist Talk, Akademija primijenjenih umjetnosti, Sveučilište u Rijeci, Rijeka, Hrvatska</li>
 <li>Artist Talk u okviru samostalne izložbe <em><a href='/svesvrstani/exhibitions/manifesto/' target='_blank'>Svesvrstani, Galerija Manifesto</a></em>, Sarajevo, BiH</li>
 <li>Artist Talk u okviru samostalne izložbe <em><a href='/svesvrstani/exhibitions/fluid/' target='_blank'>Svesvrstani, Galerija Miroslav Dado Đurić</a></em>, Fluid Design Forum, Cetinje, Crna Gora</li>
