@@ -83,6 +83,14 @@ presentations:
           linked: "Svesvrstani bot"
           name: Grupna izložba, Festival digitalne umetnosti S.U.T.R.A., Muzej nauke i tehnike, Beograd
 publications:
+    - year: 2025
+      pubs:
+        - name: "<em>All-Aligned: Rethinking Affective Digital Power through Algorithmic Flag Design and Participative Software Art</em>, Uroš Krčadinac & Jacques Laroche, AM Journal, Beograd, Srbija"
+    - year: 2024
+      pubs:
+        - link: "/download/books/theylive.pdf"
+          linked: "They:Live. Exploring student lives through photography, oral history and context-based art"
+          name: "Lorenzo J. Torres Hortelano, Maida Gruden & Andrija Stojanović (Eds.), Tirant Humanidades, Valensija, Španija"
     - year: 2022
       pubs:
         - name: "<em>The All-Aligned</em>, zvanični katalog izlođbe, Krcadinac U., Mrenović L., & Gruden M., DKSG i Kreativna Evropa, Beograd. ISBN 978-86-7933-175-5."
