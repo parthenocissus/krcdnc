@@ -63,6 +63,8 @@ data:
 <li><a href='https://novogallery.net/izlozbe/umrezeno-more/' target='_blank'>Prezentacija umetničkog rada, grupna izložba <em>Umreženo more</em></a>, Galerija Novo, Udruga Metamedij, Pula, Hrvatska</li>
 <li><a href='https://www.facebook.com/story.php/?story_fbid=1004426094817597&id=100057506476596&_rdr' target='_blank'>Androidi ne sanjaju ništa</a>, javno predavanje i otvaranje Noći muzeja, Muzej savremene umjetnosti Republike Srpske, Banjaluka, RS, BiH</li>
 <li><em>Algo-politics and Algo-poetics</em>, <a href='https://msub.org.rs/accompanying-program/conference-coding-the-gaze-technology-art-and-society-feminist-perspectives/?lang=en#' target='_blank'>Konferencija <em>Coding the Gaze: Technology, Art and Society</em></a>, Muzej savremene umetnosti, Beograd, Srbija</li>
+<li><em>Introduction to Artificial Intelligence as Media Technology</em>, <a href='https://www.orientation-philosophy.com/seminars/media-and-art-in-second-order-orientation/' target='_blank'>Media and Art in (Second-Order) Orientation Seminar</a>, The Foundation for Philosophical Orientation, Tennessee, SAD</li>
+<li><em>AI-Related Art Practices</em>, <a href='https://www.orientation-philosophy.com/seminars/media-and-art-in-second-order-orientation/' target='_blank'>Media and Art in (Second-Order) Orientation Seminar</a>, The Foundation for Philosophical Orientation, Tennessee, SAD</li>
 <li><em>Umreženo pripovedanje</em>, Beogradska otvorena škola, Beograd, Srbija</li>
 <li><em>Uvod u data vizuelizaciju i data pripovedanje</em>, LNŠ, Istraživačka stanica Petnica, Srbija</li>
 </ul>
@@ -271,6 +273,6 @@ timeline:
     - year: 2023
       d: 17
     - year: 2024
-      d: 6
+      d: 8
     - year: 2025
       d: 4
