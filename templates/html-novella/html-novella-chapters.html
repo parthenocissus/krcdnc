@@ -1,0 +1,42 @@
+{% extends "html-novella/html-novella-base.html" %}
+
+{% block head %}
+
+    {#    <meta property="og:title" content="{{ lp.main_title }}">#}
+    {#    <meta property="og:description" content="{{ lp.main_tagline_h2|striptags }}">#}
+    {#    {% set main_img_path = 'space/svesvrstani/media/og-image.jpg' %}#}
+    {#    <meta property="og:image" content="{{ 'https://krcadinac.com/static/' ~ main_img_path }}">#}
+    {#    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>#}
+    {#    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ lp.menu.base.name }}">#}
+
+    <title>{{ params.htmlnvl.title }} → {{ params.htmlnvl.table_of_contents }}</title>
+
+{% endblock %}
+
+{% block body %}
+
+    <div class="table-contents-body">
+
+        <div class="table-contents-chapters">
+            <div class="table-contents-heading">
+                <h1>{{ params.htmlnvl.table_of_contents }}</h1>
+                <h2>{{ params.htmlnvl.table_of_contents_subtitle }}</h2>
+            </div>
+
+            <p>
+                {% for i in range(1, params.htmlnvl.n_chapters + 1) %}
+                    {% set path = "/" ~ params.htmlnvl.path ~ params.htmlnvl.chapter_path ~ i %}
+                    <a href="{{ path }}" target="_blank">{{ i }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </p>
+
+        </div>
+
+        <div class="table-contents-graph">
+            <div id="graph"></div>
+        </div>
+
+    </div>
+
+
+{% endblock %}

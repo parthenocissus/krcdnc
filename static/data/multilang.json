@@ -1,5 +1,6 @@
 {
   "en_params": {
+    "htmlnvl": {},
     "bntstn": {
       "title": "Interactive Atlas",
       "lang": "e",
@@ -248,6 +249,23 @@
     }
   },
   "sh_params": {
+    "htmlnvl": {
+      "title": "Žiroskop",
+      "subtitle": "html novela u nastavcima <br>o ljubavi, prijateljstvu i <br>matematičkim strukturama",
+      "path": "html-novela-ziroskop/",
+      "chapter": "Poglavlje",
+      "chapter_path": "poglavlje/",
+      "table_of_contents": "Sadržaj",
+      "table_of_contents_subtitle": "Dosad objavljena poglavlja",
+      "table_contents_path": "sadrzaj",
+      "about": "O knjizi",
+      "about_path": "o-knjizi",
+      "graph_caption": "Povezana poglavlja",
+      "classes": {
+        "aside_theme": "dark",
+        "aside_menu": "visible"
+      }
+    },
     "bntstn": {
       "title": "Interaktivni atlas",
       "lang": "s",

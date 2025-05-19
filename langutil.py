@@ -17,6 +17,7 @@ class LangUtil:
         self.notes_tmp_dir = 'tmp/en'
         self.bntstn_atlas_dir = 'bntstn_atlas/en'
         self.svesvrstani_dir = 'svesvrstani/en'
+        self.html_novella_dir = 'html_novella/en'
         self.gallery_dir = 'gallery/en'
         self.data = None
 
@@ -36,6 +37,9 @@ class LangUtil:
 
     def dir(self):
         return self.projects_dir
+
+    def get_html_novella_dir(self):
+        return self.html_novella_dir
 
     def get_bntstn_atlas_dir(self):
         return self.bntstn_atlas_dir
@@ -138,6 +142,7 @@ class LangUtilSh(LangUtil):
         self.notes_tmp_dir = 'tmp/sh'
         self.bntstn_atlas_dir = 'bntstn_atlas/rs'
         self.svesvrstani_dir = 'svesvrstani/rs'
+        self.html_novella_dir = 'html_novella/rs'
         self.gallery_dir = 'gallery/rs'
         self.data = self.lang_data['sh_params']
         self.data['pictodata'] = LangUtilSh.__fix_sh_pictodata(self.pictogram_data)

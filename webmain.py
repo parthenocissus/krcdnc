@@ -283,6 +283,39 @@ def bntstn_map_s(name):
 
 
 # _________________________
+# HTML NOVELLA »NEURONSKA MREŽA«
+# an ergodic novella
+
+@app.route("/htmlnvl")
+@app.route("/html-novela")
+@app.route("/html-novela-ziroskop")
+@app.route("/html-novela-ziroskop/")
+@app.route("/html-novela-ziroskop/home")
+def html_novella():
+    # params = utils.set_aside_theme(sh, theme="light", menu="hidden")
+    params = utils.html_novella_landing(fp, sh, theme="light", menu="hidden")
+    return render_template('html-novella/html-novella-home.html', params=params)
+
+
+@app.route("/html-novela-ziroskop/poglavlje/<id>/")
+def html_novella_chapter(id):
+    page, params = utils.html_novella_chapter(fp, sh, id, theme="dark")
+    return render_template('html-novella/html-novella-page.html', params=params, page=page)
+
+
+@app.route("/html-novela-ziroskop/sadrzaj")
+def html_novella_table_contents():
+    params = utils.html_novella_table_contents(fp, sh, theme="light")
+    return render_template('html-novella/html-novella-chapters.html', params=params)
+
+
+@app.route("/html-novela-ziroskop/o-knjizi")
+def html_novella_about():
+    page, params = utils.html_novella_page(fp, sh, "about", theme="dark")
+    return render_template('html-novella/html-novella-about.html', params=params, page=page)
+
+
+# _________________________
 # SVESVRSTANI / ALL-ALIGNED
 # a special web app for generating flags
 

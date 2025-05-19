@@ -1,0 +1,40 @@
+{% extends "html-novella/html-novella-base.html" %}
+
+{% block head %}
+
+    {#    <meta property="og:title" content="{{ lp.main_title }}">#}
+    {#    <meta property="og:description" content="{{ lp.main_tagline_h2|striptags }}">#}
+    {#    {% set main_img_path = 'space/svesvrstani/media/og-image.jpg' %}#}
+    {#    <meta property="og:image" content="{{ 'https://krcadinac.com/static/' ~ main_img_path }}">#}
+    {#    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>#}
+    {#    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ lp.menu.base.name }}">#}
+
+    <title>{{ params.htmlnvl.title }}</title>
+
+{% endblock %}
+
+{% block body %}
+
+    <div class="body-landing">
+
+        <main class="landing">
+
+            <div class="title-block">
+                <h1>{{ params.htmlnvl.title|safe }}</h1>
+                <h2>{{ params.htmlnvl.subtitle|safe }}</h2>
+            </div>
+
+        </main>
+
+        <div class="landing-menu">
+            <ul>
+                <li><a href="/{{ params.htmlnvl.path }}{{ params.htmlnvl.table_contents_path }}">Sadržaj</a></li>
+                <li><a href="/{{ params.htmlnvl.path }}{{ params.htmlnvl.about_path }}">O knjizi</a></li>
+                <li><a href="/{{ params.htmlnvl.path }}{{ params.htmlnvl.chapter_path }}1/">Prvo poglavlje</a></li>
+                <li><a href="/{{ params.htmlnvl.path }}{{ params.htmlnvl.chapter_path }}{{ params.htmlnvl.last_id }}/">Trenutno poglavlje</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+{% endblock %}

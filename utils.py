@@ -1,7 +1,10 @@
 import random
 import time
+import os
 from datetime import datetime
 from itertools import groupby
+
+from collections import defaultdict, deque
 
 
 def project(flatpages, lang, name):
@@ -200,6 +203,134 @@ def __timeof(date, date_format):
 
 def __yearof(date, date_format):
     return datetime.strptime(date, date_format).year
+
+
+# Html Novella
+
+def set_aside_theme(lang, theme="dark", menu="visible"):
+    params = lang.params()
+    params["htmlnvl"]["classes"]["aside_theme"] = theme
+    params["htmlnvl"]["classes"]["aside_menu"] = menu
+    params["htmlnvl"]["classes"]["aside_right_theme"] = theme
+    if theme == "light" and menu != "visible":
+        params["htmlnvl"]["classes"]["aside_right_theme"] = "light-main"
+    return params
+
+
+def html_novella_landing(flatpages, lang, theme="light", menu="hidden"):
+    params = set_aside_theme(lang, theme=theme, menu=menu)
+    pages = [p for p in flatpages if p.path.startswith(f'{lang.get_html_novella_dir()}/chapters/')]
+    pages = sorted(pages, key=lambda p: int(p['id']))
+    params["htmlnvl"]["last_id"] = pages[-1]["id"]
+    return params
+
+
+def html_novella_page(flatpages, lang, name, theme="light"):
+    params = set_aside_theme(lang, theme=theme)
+    return flatpages.get_or_404(f'{lang.get_html_novella_dir()}/{name}'), params
+
+
+def html_novella_chapter(flatpages, lang, id, theme="dark"):
+    params = set_aside_theme(lang, theme=theme)
+    page = flatpages.get_or_404(f'{lang.get_html_novella_dir()}/chapters/{id}')
+    page.meta["prev"] = int(id) - 1
+    page.meta["next"] = int(id) + 1
+
+    pages = [p for p in flatpages if p.path.startswith(f'{lang.get_html_novella_dir()}/chapters/')]
+    links = __create_links(pages)
+
+    params["htmlnvl"]["current_links"] = links
+    params["htmlnvl"]["n_chapters"] = len(pages)
+
+    filtered_links, node_distances = __get_links_within_two_steps_of_target(links, int(id))
+
+    params["htmlnvl"]["current_links"] = filtered_links
+
+    return page, params
+
+
+def html_novella_table_contents(flatpages, lang, theme="light"):
+    params = set_aside_theme(lang, theme=theme)
+    pages = [p for p in flatpages if p.path.startswith(f'{lang.get_html_novella_dir()}/chapters/')]
+    links = __create_links(pages)
+    params["htmlnvl"]["current_links"] = links
+    params["htmlnvl"]["n_chapters"] = len(pages)
+    return params
+
+
+def __create_links(pages):
+    pages = sorted(pages, key=lambda p: int(p['id']))
+    links = []
+    for i in range(len(pages) - 1):
+        links.append({
+            'source': int(pages[i]['id']),
+            'target': int(pages[i + 1]['id']),
+            'consecutive': True
+        })
+
+    for p in pages:
+        source_id = int(p['id'])
+        linked_field = p['linked']
+
+        linked_targets = __parse_linked_field(linked_field)
+
+        for target_id in linked_targets:
+            target_id = int(target_id)  # Ensure target is integer
+            # Avoid duplicate consecutive links
+            if not any(
+                    link['source'] == source_id and link['target'] == target_id and link['consecutive']
+                    for link in links
+            ):
+                links.append({
+                    'source': source_id,
+                    'target': target_id,
+                    'consecutive': False
+                })
+
+    return links
+
+
+def __parse_linked_field(linked):
+    if linked is None or linked == "":
+        return []
+    if isinstance(linked, int):
+        return [linked]
+    if isinstance(linked, str):
+        return [int(x.strip()) for x in linked.split(',') if x.strip()]
+
+
+def __get_links_within_two_steps_of_target(links, target_id):
+
+    # Step 1: Build graph (bidirectional, from all links)
+    graph = defaultdict(set)
+    for link in links:
+        graph[link['source']].add(link['target'])
+        graph[link['target']].add(link['source'])
+
+    # Step 2: BFS to compute distances from target_id
+    distances = {}
+    queue = deque([(target_id, 0)])
+    visited = set()
+
+    while queue:
+        node, dist = queue.popleft()
+        if node in visited:
+            continue
+        visited.add(node)
+        distances[node] = dist
+        if dist < 2:  # only explore further if within 2 steps
+            for neighbor in graph[node]:
+                if neighbor not in visited:
+                    queue.append((neighbor, dist + 1))
+
+    # Step 3: Filter links: both source and target must be in distances and ≤ 2 away
+    filtered_links = [
+        link for link in links
+        if link['source'] in distances and link['target'] in distances
+        and distances[link['source']] <= 2 and distances[link['target']] <= 2
+    ]
+
+    return filtered_links, distances
 
 
 # Bantustan Interactive Atlas

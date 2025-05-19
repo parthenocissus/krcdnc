@@ -1,0 +1,568 @@
+:root {
+    --dark-color: #000000;
+    --power-color: #f42727;
+    --light-color: #f2edd7;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--light-color);
+    background: var(--power-color);
+}
+
+::selection {
+    color: var(--light-color);
+    background: var(--power-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Aside */
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 3vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: var(--power-color);
+}
+
+aside .logo {
+    position: fixed;
+    left: .7vw;
+    top: .7vw;
+    width: 1.6vw;
+}
+
+aside svg {
+    cursor: pointer;
+    width: 100%;
+}
+
+aside svg.light g path {
+    fill: var(--light-color);
+    transition: fill 0.13s ease-in-out;
+}
+
+aside svg.light:hover g path {
+    fill: var(--dark-color);
+}
+
+aside svg.dark g path {
+    fill: var(--dark-color);
+    transition: fill 0.13s ease-in-out;
+}
+
+aside svg.dark:hover g path {
+    fill: var(--light-color);
+}
+
+aside .textual {
+    position: fixed;
+    font-size: .9vw;
+
+    z-index: 15;
+    top: 50%;
+    left: .05vw;
+    writing-mode: tb-rl;
+    cursor: default;
+
+    -webkit-transform: translate(0, -50%) rotate(180deg);
+    -moz-transform: translate(0, -50%) rotate(180deg);
+    -o-transform: translate(0, -50%) rotate(180deg);
+    -ms-transform: translate(0, -50%) rotate(180deg);
+    transform: translate(0, -50%) rotate(180deg);
+}
+
+aside .textual a.light {
+    color: var(--light-color);
+    text-decoration: none;
+    transition: fill 0.13s ease-in-out;
+}
+
+aside .textual a.light:hover {
+    color: var(--dark-color);
+}
+
+aside .textual a.dark {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: fill 0.13s ease-in-out;
+}
+
+aside .textual a.dark:hover {
+    color: var(--light-color);
+}
+
+aside h1 {
+    /*text-align: center;*/
+    text-align: left;
+    top: calc(50% - 1vw) !important;
+    font-family: "Literata BoldItalic", sans-serif;
+    font-weight: 700;
+    letter-spacing: .04vw;
+}
+
+aside h2 {
+    text-align: left;
+    font-family: "Literata Regular", sans-serif;
+    font-weight: 400;
+    letter-spacing: .02vw;
+    top: calc(100% - 9.5vw) !important;
+    height: 15vw;
+}
+
+aside .hidden {
+    display: none;
+}
+
+#aside-right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 3vw;
+    /*height: 100vh;*/
+    z-index: 10;
+}
+
+#aside-right .logo {
+    position: fixed;
+    right: .7vw;
+    top: .7vw;
+    width: 1.6vw;
+}
+
+#aside-right svg {
+    cursor: pointer;
+    width: 100%;
+}
+
+#aside-right svg.light g path {
+    fill: var(--light-color);
+    transition: fill 0.13s ease-in-out;
+}
+
+#aside-right svg.light:hover g path {
+    fill: var(--power-color);
+}
+
+#aside-right svg.dark g path {
+    fill: var(--dark-color);
+    transition: fill 0.13s ease-in-out;
+}
+
+#aside-right svg.dark:hover g path {
+    fill: var(--power-color);
+}
+
+#aside-right svg.light-main g path {
+    fill: var(--light-color);
+    transition: fill 0.13s ease-in-out;
+}
+
+#aside-right svg.light-main:hover g path {
+    fill: var(--dark-color);
+}
+
+/* Home Page */
+
+.body-landing {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+    background-color: var(--power-color);
+    /*background-color: var(--dark-color);*/
+}
+
+.landing {
+    padding: 20vh 0 0 10vw;
+}
+
+.title-block h1 {
+    font-family: "Literata BoldItalic", serif;
+    color: var(--dark-color);
+    font-size: 3vw;
+}
+
+.title-block h2 {
+    font-family: "WorkSans LightItalic", sans-serif;
+    color: var(--light-color);
+    font-size: 2vw;
+    letter-spacing: 0.07vw;
+    /*line-height: 2.8vw;*/
+}
+
+.landing-menu {
+    text-align: right;
+    padding: 15vh 10vw 0 0;
+}
+
+.landing-menu ul li a {
+    font-family: "WorkSans Regular", sans-serif;
+    font-size: 1.2vw;
+    letter-spacing: 0.07vw;
+    line-height: 1.7vw;
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.landing-menu ul li a:hover {
+    color: var(--light-color);
+}
+
+/* Chapter Page */
+
+.chapter-body {
+    margin: 0;
+    padding: 0 10vw 0 10vw;
+    background-color: var(--light-color);
+}
+
+.chapter-heading {
+    color: var(--dark-color);
+}
+
+.chapter-heading h2 {
+    margin: 0;
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-size: 1vw;
+    text-transform: uppercase;
+    /*letter-spacing: 0.05vw;*/
+    color: var(--dark-color);
+    padding: 3vw 0 0 2vw;
+}
+
+.chapter-heading h1 {
+    margin: 0;
+    font-family: "Literata SemiBold", serif;
+    font-size: 4vw;
+    /*letter-spacing: 0.07vw;*/
+    color: var(--dark-color);
+    line-height: 4vw;
+    padding: 0 0 2vw 2vw;
+}
+
+.about-heading h1 {
+    margin: 0;
+    font-family: "Literata SemiBold", serif;
+    font-size: 4vw;
+    /*letter-spacing: 0.07vw;*/
+    color: var(--dark-color);
+    line-height: 4vw;
+    padding: 3.5vw 0 2vw 2vw;
+}
+
+.chapter-graph {
+    width: 55vw;
+    height: 30vw;
+    background-color: var(--power-color);
+    padding: 0;
+}
+
+.graph-caption {
+    width: 55vw;
+    text-align: right;
+    padding: .3vw 0 0 0;
+}
+
+.graph-caption a {
+    font-family: "WorkSans Regular", sans-serif;
+    font-size: 1vw;
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.graph-caption a:hover {
+    color: var(--power-color);
+}
+
+.chapter-text {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-gap: 5vw;
+}
+
+.chapter-main-text {
+    padding: 2vw 0 5vw 2vw;
+}
+
+.chapter-main-text p {
+    margin: 0;
+    padding: 0;
+    font-family: "Literata Regular", serif;
+    color: var(--dark-color);
+    font-size: 1.2vw;
+    /*letter-spacing: .04vw;*/
+    /*line-height: 1.9vw;*/
+    text-indent: 3vw;
+    /*font-variant-ligatures: normal;*/
+    font-variant-ligatures: common-ligatures discretionary-ligatures;
+}
+
+.chapter-main-text p:first-of-type {
+    text-indent: 0;
+}
+
+.chapter-main-text p:first-of-type::first-letter {
+    -webkit-initial-letter: 2;
+    initial-letter: 2;
+    margin-right: 0.2em;
+}
+
+.chapter-main-text sup {
+    font-family: "WorkSans Regular", sans-serif;
+    font-size: 1vw;
+    transition: color 0.13s ease-in-out;
+}
+
+.chapter-main-text sup:hover {
+    color: var(--power-color);
+    cursor: pointer;
+}
+
+mark {
+    background-color: transparent;
+    font-size: 1vw;
+    color: var(--dark-color);
+}
+
+/* Sidenotes */
+
+.side-space {
+    position: absolute;
+    top: 0;
+    left: 67vw;
+    width: 20vw;
+}
+
+.sidenotes {
+    position: relative;
+    width: 100%;
+}
+
+.sidenote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: color 0.13s ease-in-out;
+    display: grid;
+    grid-template-columns: 1.6vw auto;
+    font-family: "WorkSans Regular", sans-serif;
+    margin: 0;
+    padding: 0 0 1vw 0;
+    font-size: 1vw;
+}
+
+.sidenote-text-style {
+    font-size: 1vw;
+    /*letter-spacing: .04vw;*/
+    line-height: 1.3vw;
+    transition: color 0.13s ease-in-out;
+}
+
+.side-symbol:hover {
+    cursor: pointer;
+}
+
+.selected {
+    color: var(--power-color) !important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--light-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dark-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--power-color);
+}
+
+/* Prev & Next Arrows */
+
+.prev-container {
+    position: fixed;
+    left: 5vw;
+    bottom: 1.6vw;
+    width: 3vw;
+    color: var(--power-color);
+    text-decoration: none;
+}
+
+.next-container {
+    position: fixed;
+    right: .5vw;
+    bottom: 1.6vw;
+    width: 3vw;
+    color: var(--power-color);
+    text-decoration: none;
+}
+
+.next-container:hover,
+.prev-container:hover {
+    cursor: pointer;
+    color: var(--dark-color);
+}
+
+.next-container:hover .next-arrow,
+.prev-container:hover .prev-arrow {
+    fill: var(--dark-color);
+}
+
+.next-id,
+.prev-id {
+    font-family: "Literata Regular", serif;
+    font-size: 1.3vw;
+    padding: 0 0 .2vw .2vw;
+    transition: color .13ms ease-in-out;
+}
+
+.next-arrow,
+.prev-arrow {
+    width: 1vw;
+    fill: var(--power-color);
+    transition: fill .13ms ease-in-out;
+}
+
+/* Table of Contents - Chapters */
+
+.table-contents-body {
+    margin: 0;
+    padding: 5vw 10vw 15vw 10vw;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 2vw;
+}
+
+.table-contents-heading h1 {
+    font-family: "Literata SemiBold", serif;
+    font-size: 3vw;
+    /*letter-spacing: 0.07vw;*/
+    color: var(--light-color);
+    line-height: 4vw;
+    padding: 0 0 3vw 0;
+}
+
+.table-contents-heading h2 {
+    margin: 0;
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-size: 1vw;
+    text-transform: uppercase;
+    /* letter-spacing: 0.05vw; */
+    /*padding: 0 0 3vw 0;*/
+}
+
+.table-contents-chapters p {
+    margin: 0;
+    font-family: "Literata Regular", serif;
+    font-weight: normal;
+    font-size: 3vw;
+    /*letter-spacing: 0.07vw;*/
+    color: var(--light-color);
+    line-height: 3.8vw;
+    padding: 1vw 0 2vw 0;
+}
+
+.table-contents-chapters p a {
+    font-family: "Literata SemiBold", serif;
+    font-weight: bold;
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+.table-contents-chapters p a:hover {
+    color: var(--power-color);
+}
+
+.table-contents-graph {
+    width: auto;
+    height: auto;
+    background-color: var(--dark-color);
+    padding: 0;
+}
+
+/* Graph */
+
+#graph {
+    width: 100%;
+    height: 100%;
+}
+
+.chapter-graph .node circle {
+    fill: var(--power-color);
+    stroke: var(--dark-color);
+    stroke-width: .1vw;
+}
+
+.table-contents-graph .node circle {
+    fill: var(--dark-color);
+    stroke: var(--light-color);
+    stroke-width: .1vw;
+}
+
+.node text {
+    font-family: "Literata Bold", serif;
+    font-size: 1vw;
+    text-anchor: middle;
+    alignment-baseline: central;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.chapter-graph .node text {
+    fill: var(--dark-color);
+}
+
+.table-contents-graph .node text {
+    fill: var(--light-color);
+}
+
+.chapter-graph .link {
+    stroke: var(--dark-color);
+    stroke-width: .1vw;
+    fill: none;
+}
+
+.table-contents-graph .link {
+    stroke: var(--light-color);
+    stroke-width: .1vw;
+    fill: none;
+}
+
+.chapter-graph .link.dashed {
+    stroke: var(--light-color);
+    stroke-dasharray: .5vw, .5vw;
+}
+
+.table-contents-graph .link.dashed {
+    stroke: var(--power-color);
+    stroke-dasharray: .5vw, .5vw;
+}
+
+marker {
+    fill: var(--dark-color);
+}

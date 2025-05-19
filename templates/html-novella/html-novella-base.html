@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+
+        /* Literata */
+
+        @font-face {
+            font-family: "Literata Regular";
+            src: url({{ url_for('static', filename='media/fonts/literata/Literata-Regular.woff2') }}) format("woff2");
+        }
+
+        @font-face {
+            font-family: "Literata Italic";
+            src: url({{ url_for('static', filename='media/fonts/literata/Literata-Italic.woff2') }}) format("woff2");
+        }
+
+        @font-face {
+            font-family: "Literata Bold";
+            src: url({{ url_for('static', filename='media/fonts/literata/Literata-Bold.woff2') }}) format("woff2");
+        }
+
+        @font-face {
+            font-family: "Literata BoldItalic";
+            src: url({{ url_for('static', filename='media/fonts/literata/Literata-BoldItalic.woff2') }}) format("woff2");
+        }
+
+        @font-face {
+            font-family: "Literata SemiBold";
+            src: url({{ url_for('static', filename='media/fonts/literata/Literata-SemiBold.woff2') }}) format("woff2");
+        }
+
+        /* Work Sans */
+
+        @font-face {
+            font-family: "WorkSans Regular";
+            src: url({{ url_for('static', filename='media/fonts/work-sans/WorkSans-Regular.woff2') }}) format("woff2");
+        }
+
+        @font-face {
+            font-family: "WorkSans SemiBold";
+            src: url({{ url_for('static', filename='media/fonts/work-sans/WorkSans-SemiBold.woff2') }}) format("woff2");
+        }
+
+        @font-face {
+            font-family: "WorkSans Bold";
+            src: url({{ url_for('static', filename='media/fonts/work-sans/WorkSans-Bold.woff2') }}) format("woff2");
+        }
+
+        @font-face {
+            font-family: "WorkSans Italic";
+            src: url({{ url_for('static', filename='media/fonts/work-sans/WorkSans-Italic.woff2') }}) format("woff2");
+        }
+
+        @font-face {
+            font-family: "WorkSans LightItalic";
+            src: url({{ url_for('static', filename='media/fonts/work-sans/WorkSans-LightItalic.woff2') }}) format("woff2");
+        }
+
+    </style>
+
+    <link rel="shortcut icon" type="image/png"
+              href="{{ url_for('static', filename='space/html-novella/media/favicon3.ico') }}"/>
+
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="{{ url_for('static', filename='space/html-novella/html-novella.css') }}">
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='space/html-novella/html-novella.js') }}"></script>
+
+    {% block head %}
+    {% endblock %}
+
+</head>
+<body>
+
+<aside>
+
+    <a class="logo" href="/{{ params.htmlnvl.path }}{{ params.htmlnvl.table_contents_path }}">
+        <svg class="{{ params.htmlnvl.classes.aside_theme }}" x="0px" y="0px" viewBox="0 0 20 20">
+            <g id="star">
+                <path d="M10.4,12.1l0.2,7.8H9.4l0.1-7.8l-2.8,7.3l-1.1-0.5l3.1-7.1l-5.4,5.6l-0.8-0.8l5.6-5.4l-7.1,3.1l-0.4-1.1l7.2-2.8l-7.8,0.1
+                V9.4l7.8,0.2L0.6,6.7l0.5-1.1l7.1,3.1L2.6,3.4l0.8-0.8l5.4,5.6L5.7,1.1l1.1-0.4l2.8,7.2L9.4,0.1h1.2l-0.2,7.8l2.9-7.3l1.1,0.5
+                l-3.1,7.1l5.4-5.6l0.8,0.8l-5.6,5.4l7.2-3.1l0.4,1.1l-7.3,2.8l7.8-0.2v1.2l-7.8-0.1l7.3,2.8l-0.5,1.1l-7.2-3.1l5.6,5.4l-0.8,0.8
+                l-5.4-5.6l3.1,7.1l-1.1,0.4L10.4,12.1z"/>
+            </g>
+        </svg>
+    </a>
+
+    <h1 class="textual {{ params.htmlnvl.classes.aside_menu }}">
+        <a class="{{ params.htmlnvl.classes.aside_theme }}" href="/{{ params.htmlnvl.path }}home">{{ params.htmlnvl.title }}</a>
+    </h1>
+    <h2 class="textual">
+        <a class="{{ params.htmlnvl.classes.aside_theme }}" href="/" target="_blank">Uroš Krčadinac</a>
+    </h2>
+
+</aside>
+
+<div id="aside-right">
+
+    <a class="logo" href="/{{ params.htmlnvl.path }}{{ params.htmlnvl.about_path }}">
+        <svg class="{{ params.htmlnvl.classes.aside_right_theme }}" x="0px" y="0px" viewBox="0 0 20 20">
+            <g id="star-i">
+                <path d="M8.8,6.3L4.2,3.7l0.6-1l4.6,2.7L8.8,6.3z M4.8,10L4.2,9l4.6-2.7l0.6,1L4.8,10z M9.4,5.3V0h1.2v5.3H9.4z M10.6,7.4V20H9.4
+			V7.4H10.6z M15.2,2.7l0.6,1l-4.6,2.6l-0.6-1L15.2,2.7z M11.2,6.3L15.8,9l-0.6,1l-4.6-2.7L11.2,6.3z"/>
+            </g>
+        </svg>
+    </a>
+
+</div>
+
+{% block body %}
+{% endblock %}
+
+<script>
+    let params = {{ params.htmlnvl|tojson }};
+</script>
+
+</body>
+</html>
