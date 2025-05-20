@@ -2,12 +2,18 @@ $(document).ready(function () {
 
     let links = params.current_links;
 
+    const mq = window.matchMedia( "(max-width: 769px)" );
+
     window.addEventListener('load', () => {
         setGraph();
         setSidenotes();
     });
 
     window.addEventListener('resize', () => {
+        // links = params.current_links;
+        // $('#graph svg').remove();
+        $('#graph').empty();
+        // setGraph();
         setSidenotes();
     });
 
@@ -28,10 +34,12 @@ $(document).ready(function () {
                 sidenote = $(this),
                 top = document.querySelector("#s" + index).offsetTop;
 
-            let exactPos = (top > threshold) ? top : threshold;
 
-            sidenote.css("top", exactPos + "px");
-            // sidenote.css("visibility", "visible");
+            let exactPos = (top > threshold) ? top : threshold;
+            if (!mq.matches) {
+                sidenote.css("top", exactPos + "px");
+            }
+
             let sydenoteSymbolIndexed = $("#sidenote-symbol" + index);
             sydenoteSymbolIndexed.html(ref.text());
             threshold = exactPos + $(this).innerHeight();
@@ -66,15 +74,7 @@ $(document).ready(function () {
 
     let setGraph = () => {
 
-        // console.log(links);
-
         const linkPath = params.path + params.chapter_path;
-
-        // const consecutiveCount = links.filter(link => link.consecutive).length;
-        //
-        // console.log(consecutiveCount);
-        //
-        // const nodes = d3.range(1, consecutiveCount+2).map(d => ({ id: d }));
 
         const nodeIds = new Set();
         links.forEach(link => {
@@ -132,7 +132,7 @@ $(document).ready(function () {
             .call(drag(simulation));
 
         node.append('circle')
-            .attr('r', width * 0.02);
+            .attr('r', width * 0.03);
 
         node.append('text')
             .text(d => d.id);

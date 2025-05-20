@@ -22,6 +22,9 @@ body, html {
 
 ul {
     list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
 }
 
 /* Aside */
@@ -121,8 +124,9 @@ aside h2 {
     height: 15vw;
 }
 
-aside .hidden {
+.hidden {
     display: none;
+    visibility: hidden;
 }
 
 #aside-right {
@@ -171,6 +175,10 @@ aside .hidden {
 
 #aside-right svg.light-main:hover g path {
     fill: var(--dark-color);
+}
+
+#top-mobile {
+    display: none;
 }
 
 /* Home Page */
@@ -274,12 +282,13 @@ aside .hidden {
 .graph-caption {
     width: 55vw;
     text-align: right;
-    padding: .3vw 0 0 0;
+    padding: .5vw 0 0 0;
 }
 
 .graph-caption a {
     font-family: "WorkSans Regular", sans-serif;
-    font-size: 1vw;
+    text-transform: uppercase;
+    font-size: .9vw;
     color: var(--dark-color);
     text-decoration: none;
 }
@@ -526,7 +535,7 @@ mark {
 
 .node text {
     font-family: "Literata Bold", serif;
-    font-size: 1vw;
+    font-size: 1.3vw;
     text-anchor: middle;
     alignment-baseline: central;
     font-weight: bold;
@@ -555,14 +564,283 @@ mark {
 
 .chapter-graph .link.dashed {
     stroke: var(--light-color);
-    stroke-dasharray: .5vw, .5vw;
+    stroke-dasharray: .2vw, .2vw;
 }
 
 .table-contents-graph .link.dashed {
     stroke: var(--power-color);
-    stroke-dasharray: .5vw, .5vw;
+    stroke-dasharray: .2vw, .2vw;
 }
 
 marker {
     fill: var(--dark-color);
+}
+
+/* ------ */
+/* MOBILE */
+
+@media only screen and (max-width: 769px) {
+
+    aside {
+        background-color: transparent;
+    }
+
+    aside .textual {
+        display: none;
+    }
+
+    aside .logo {
+        left: 5px;
+        /*top: .7vw;*/
+        width: 12px;
+        margin: 1px 0 0 0;
+    }
+
+    #aside-right .logo {
+        right: 5px;
+        width: 12px;
+        margin: 1px 0 0 0;
+    }
+
+    #top-mobile {
+        display: flex;
+        position: fixed;
+        width: 100vw;
+        height: 26px;
+        background-color: var(--power-color);
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #top-mobile a {
+        font-family: "Literata Italic", sans-serif;
+        /*font-weight: 700;*/
+        font-size: 12px;
+        color: var(--dark-color);
+        text-decoration: none;
+        padding: 0 0 2px 0;
+    }
+
+    #top-mobile a:hover {
+        color: var(--light-color);
+    }
+
+    #top-mobile a.light {
+        color: var(--light-color);
+    }
+
+    .chapter-body {
+        padding: 0 10px 70px 10px;
+    }
+
+    .chapter-heading h2 {
+        font-size: 10px;
+        text-transform: uppercase;
+        padding: 50px 0 0 0;
+    }
+
+    .chapter-heading h1 {
+        font-size: 32px;
+        color: var(--dark-color);
+        line-height: 32px;
+        padding: 0 0 20px 0;
+    }
+
+    .about-heading h1 {
+        font-size: 32px;
+        line-height: 32px;
+        padding: 20px 0 20px 20px;
+    }
+
+    .chapter-graph {
+        width: 100%;
+        height: 200px;
+    }
+
+    .graph-caption {
+        width: 100%;
+    }
+
+    .graph-caption a {
+        font-size: 9px;
+    }
+
+    .chapter-text {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .chapter-main-text {
+        padding: 20px 0 20px 0;
+    }
+
+    .chapter-main-text p {
+        font-size: 14px;
+        text-indent: 30px;
+    }
+
+    .chapter-main-text p:first-of-type::first-letter {
+        margin-right: 3px;
+    }
+
+    .chapter-main-text sup {
+        font-size: 10px;
+    }
+
+    mark {
+        font-size: 10px;
+    }
+
+    .side-space {
+        position: relative;
+        /*top: 0;*/
+        left: 0;
+        width: 100%;
+    }
+
+    .sidenote {
+        position: relative;
+        display: grid;
+        grid-template-columns: 15px auto;
+        padding: 0 0 10px 0;
+        font-size: 10px;
+    }
+
+    .sidenote-text-style {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .prev-container {
+        left: 10px;
+        bottom: 10px;
+        width: 12px;
+    }
+
+    .next-container {
+        right: 10px;
+        bottom: 10px;
+        width: 12px;
+    }
+
+    .next-id,
+    .prev-id {
+        font-family: "Literata Regular", serif;
+        font-size: 17px;
+        padding: 0 0 3px 2px;
+    }
+
+    .next-arrow,
+    .prev-arrow {
+        width: 13px;
+    }
+
+    /* Graph */
+    .chapter-graph .node circle {
+        stroke-width: 1px;
+    }
+
+    .table-contents-graph .node circle {
+        stroke-width: 1px;
+    }
+
+    .node text {
+        font-size: 12px;
+    }
+
+    .chapter-graph .link {
+        stroke-width: 1px;
+    }
+
+    .table-contents-graph .link {
+        stroke-width: 1px;
+    }
+
+    .chapter-graph .link.dashed {
+        stroke-dasharray: 2px, 2px;
+    }
+
+    .table-contents-graph .link.dashed {
+        stroke-dasharray: 2px, 2px;
+    }
+
+    /* Table of Contents - Chapters */
+    .table-contents-body {
+        padding: 40px 10px 20px 10px;
+        display: block;
+        /*grid-template-columns: 1fr;*/
+        overflow: hidden;
+    }
+
+    .table-contents-heading h1 {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .table-contents-heading h2 {
+        font-size: 12px;
+    }
+
+    .table-contents-chapters p {
+        font-size: 24px;
+        color: var(--light-color);
+        line-height: 30px;
+        padding: 10px 0 10px 0;
+    }
+
+    .table-contents-graph {
+        width: auto;
+        height: calc(100vh - 170px);
+    }
+
+    /* About */
+    .about-heading h1 {
+        font-size: 36px;
+        line-height: 40px;
+        padding: 50px 0 0 0;
+    }
+
+    /* Home */
+
+    .body-landing {
+        box-sizing: border-box;
+        padding: 30px 25px 20px 20px;
+    }
+
+    .landing {
+        padding: 0;
+    }
+
+    .title-block h1 {
+        font-size: 40px;
+        margin: 0;
+        padding: 30px 0 0 0;
+    }
+
+    .title-block h2 {
+        font-size: 26px;
+        letter-spacing: normal;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+
+    .title-block h2 br {
+        display: none;
+    }
+
+    .landing-menu {
+        text-align: left;
+        padding: 50px 0 0 0;
+    }
+
+    .landing-menu ul li a {
+        font-family: "WorkSans Regular", sans-serif;
+        font-size: 17px;
+        letter-spacing: normal;
+        line-height: 24px;
+    }
+
 }
