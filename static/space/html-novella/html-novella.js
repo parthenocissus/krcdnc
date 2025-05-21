@@ -74,6 +74,8 @@ $(document).ready(function () {
 
     let setGraph = () => {
 
+        $('#graph svg').remove();
+
         const linkPath = params.path + params.chapter_path;
 
         const nodeIds = new Set();
