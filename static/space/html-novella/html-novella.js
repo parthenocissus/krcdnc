@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     let links = params.current_links;
 
-    const mq = window.matchMedia( "(max-width: 769px)" );
+    const mq = window.matchMedia("(max-width: 769px)");
 
     window.addEventListener('load', () => {
         setGraph();
@@ -12,7 +12,7 @@ $(document).ready(function () {
     window.addEventListener('resize', () => {
         // links = params.current_links;
         // $('#graph svg').remove();
-        $('#graph').empty();
+        // $('#graph').empty();
         // setGraph();
         setSidenotes();
     });
@@ -87,9 +87,12 @@ $(document).ready(function () {
         const height = document.getElementById('graph').clientHeight;
         const margin = width * 0.03;
 
-        const svg = d3.select('#graph').append('svg')
-            .attr('width', width)
-            .attr('height', height);
+        const svg = d3.select('#graph')
+            .append('svg')
+            .attr('viewBox', `0 0 ${width} ${height}`)
+            .attr('preserveAspectRatio', 'xMidYMid meet')
+            .style('width', '100%')
+            .style('height', '100%');
 
         svg.append('defs').append('marker')
             .attr('id', 'arrowhead')
