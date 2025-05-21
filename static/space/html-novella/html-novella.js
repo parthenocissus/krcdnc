@@ -10,15 +10,8 @@ $(document).ready(function () {
     });
 
     window.addEventListener('resize', () => {
-        // links = params.current_links;
-        // $('#graph svg').remove();
-        // $('#graph').empty();
-        // setGraph();
         setSidenotes();
     });
-
-    // window.addEventListener('load', setSidenotes);
-    // window.addEventListener('resize', setSidenotes);
 
     /* Sidenote Position */
 
