@@ -13,6 +13,10 @@ $(document).ready(function () {
         setSidenotes();
     });
 
+    window.onerror = function (message, source, lineno, colno, error) {
+        alert(`JS Error:\n${message}\nLine: ${lineno}:${colno}`);
+    };
+
     /* Sidenote Position */
 
     let setSidenotes = () => {
