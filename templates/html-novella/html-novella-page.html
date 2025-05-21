@@ -9,7 +9,7 @@
     {#    <meta property="og:image:secure_url" content="{{ url_for('static', filename=main_img_path) }}"/>#}
     {#    <meta property="og:url" content="{{ 'https://krcadinac.com' ~ lp.menu.base.name }}">#}
 
-    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta http-equiv="Cache-Control" content="no-store"/>
     <title>{{ params.htmlnvl.title }} → {{ params.htmlnvl.chapter }} {{ page.id }}</title>
 
 {% endblock %}
@@ -27,7 +27,8 @@
             <div id="graph"></div>
         </div>
         <div class="graph-caption">
-            <a href="/{{ params.htmlnvl.path }}{{ params.htmlnvl.table_contents_path }}">{{ params.htmlnvl.graph_caption }}</a>
+            <a href="/
+                    {{ params.htmlnvl.path }}{{ params.htmlnvl.table_contents_path }}">{{ params.htmlnvl.graph_caption }}</a>
         </div>
 
         <div class="chapter-text">
@@ -90,5 +91,9 @@
         </a>
 
     {% endif %}
+
+    <script>
+        let params = {{ params.htmlnvl|tojson }};
+    </script>
 
 {% endblock %}
