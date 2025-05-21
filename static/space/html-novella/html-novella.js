@@ -1,4 +1,5 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function () {
+// $(document).ready(function () {
 
     let links = params.current_links;
 
