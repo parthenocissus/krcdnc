@@ -12,6 +12,10 @@
     <meta http-equiv="Cache-Control" content="no-store"/>
     <title>{{ params.htmlnvl.title }} → {{ params.htmlnvl.chapter }} {{ page.id }}</title>
 
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/d3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='space/html-novella/html-novella.js') }}"></script>
+
 {% endblock %}
 
 {% block body %}
