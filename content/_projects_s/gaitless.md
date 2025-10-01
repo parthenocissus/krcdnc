@@ -83,4 +83,6 @@ Ideja za Gaitless potekla je od jedne čudne vesti: grupa pljačkaša navodno je
 
 Paradoks Gaitlessa jeste u tome da učesnici, dok dokazuju da u očima AI nisu ljudi, zapravo u suštini jesu ljudi – čudni i kreativni. Sam čin subverzije mašinske percepcije postaje koreografsko načelo.
 
-Oslanjajući se na istorijske primere poput „Dazzle“ kamuflaže iz Prvog svetskog rata, projekta „CV Dazzle“ Adama Harvija i našeg prethodnog rada Tactical Poetics – kao i na izbegavačke taktike srpskih hajduka i jugoslovenskih partizana – Gaitless produžava liniju estetike nastale iz strategije i taktike. <mark>&#9632;</mark>
+—
+
+Koncept i režija: Uroš Krčadinac & Marko Milić × MIREVI. Kreativni razvoj i podrška: Ivana Družetić-Vogel, Patrick Kruse, Ben Fischer. Ples: Milica Urić, Marko Milić, Uroš Krčadinac, Predrag Mladenović, Anke Plaßmann, Nenad Jelesijević. Razvoj multimedijalnog softvera: Ben Fischer. Muzika: Kӣr. Video i fotografija: Leon Loesch. Realizovano u okviru projekta MODINA project, koji je kofinansiran od strane EU programa Kreativna Evropa. <mark>&#9632;</mark>

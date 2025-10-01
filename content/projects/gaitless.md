@@ -84,4 +84,8 @@ The idea came from a strange news story: a group of bank robbers allegedly outwi
 
 The paradox of Gaitless is that participants, in proving they are in the eyes of AI not human, prove they in fact are human – strange and creative. The act of subverting machine perception becomes a choreographic principle.
 
-Drawing from historical precedents like the Dazzle camouflage of WWI, Adam Harvey’s CV Dazzle, and our previous project Tactical Poetics – as well as the evasive tactics of Serbian anti-Ottoman outlaws and Yugoslav antifascist partisans – Gaitless extends the lineage of aesthetics born out of strategy and tactics. <mark>&#9632;</mark>
+Drawing from historical precedents like the Dazzle camouflage of WWI, Adam Harvey’s CV Dazzle, and our previous project Tactical Poetics – as well as the evasive tactics of Serbian anti-Ottoman outlaws and Yugoslav antifascist partisans – Gaitless extends the lineage of aesthetics born out of strategy and tactics. 
+
+—
+
+Concept and Direction: Uroš Krčadinac & Marko Milić × MIREVI. Creative Development and Support: Ivana Družetić-Vogel, Patrick Kruse, Ben Fischer. Dance: Milica Urić, Marko Milić, Uroš Krčadinac, Predrag Mladenović, Anke Plaßmann, Nenad Jelesijević. Multimedia Software Development: Ben Fischer. Music: Kӣr. Video and photography: Leon Loesch. Created in the framework of MODINA project. MODINA is co-financed by the Creative Europe program of the European Union. <mark>&#9632;</mark>
