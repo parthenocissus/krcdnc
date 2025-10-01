@@ -52,8 +52,12 @@ data:
       text: "<div class='section-list interface-page-li-style'>
 <div class='list-title-first-page interface-heading-style'>2025</div>
 <ul>
+<li><em>From Non-Aligned to All-Aligned: Generative Media and the Automation of Ideology</em>, Philosophy and New Media Conference, University of Macau, Makao, Kina</li>
 <li><em>Gaitless (the Field):</em> prezentacija projekta, <a href='https://modina.eu/news/modina-networking-meeting/' target='_blank'>Modina Networking Meeting</a>, Lisabon, Portugalija</li>
 <li><em>Gaitless (the Field):</em> prezentacija projekta, <a href='https://mirevi.de/' target='_blank'>MIREVI Labs</a>, Modina, Dizeldorf, Nemačka</li>
+<li><em>Radionica spekulativnog dizajna — Veštačka inteligencija kao javno-komunalno preduzeće: Šta bi Branko Pešić uradio da ima na raspolaganju AI tehnologije?</em> — Playstudios, Beograđanka, AI Week, Beograd, Srbija</li>
+<li><em>Umetnička vizuelizacija podataka</em>, Letnja naučna škola, Istraživačka stanica Petnica, Srbija</li>
+<li><em>Asemičko pismo i veštačka inteligencija</em>, Seminar dizajna, Istraživačka stanica Petnica, Srbija</li>
 <li><em>Data Art</em>, Beogradska otvorena škola, Beograd, Srbija</li>
 <li><em>Veštačka inteligencija i društvo</em>, Beogradska otvorena škola, Beograd, Srbija</li>
 </ul>
@@ -65,6 +69,7 @@ data:
 <li><em>Algo-politics and Algo-poetics</em>, <a href='https://msub.org.rs/accompanying-program/conference-coding-the-gaze-technology-art-and-society-feminist-perspectives/?lang=en#' target='_blank'>Konferencija <em>Coding the Gaze: Technology, Art and Society</em></a>, Muzej savremene umetnosti, Beograd, Srbija</li>
 <li><em>Introduction to Artificial Intelligence as Media Technology</em>, <a href='https://www.orientation-philosophy.com/seminars/media-and-art-in-second-order-orientation/' target='_blank'>Media and Art in (Second-Order) Orientation Seminar</a>, The Foundation for Philosophical Orientation, Tennessee, SAD</li>
 <li><em>AI-Related Art Practices</em>, <a href='https://www.orientation-philosophy.com/seminars/media-and-art-in-second-order-orientation/' target='_blank'>Media and Art in (Second-Order) Orientation Seminar</a>, The Foundation for Philosophical Orientation, Tennessee, SAD</li>
+<li>Javna tribina, <em>Kultura, umetnost i veštačka inteligencija</em>, 8. Beogradski Kontrapunkt, Beograd, Srbija</li>
 <li><em>Umreženo pripovedanje</em>, Beogradska otvorena škola, Beograd, Srbija</li>
 <li><em>Uvod u data vizuelizaciju i data pripovedanje</em>, LNŠ, Istraživačka stanica Petnica, Srbija</li>
 </ul>
@@ -273,6 +278,6 @@ timeline:
     - year: 2023
       d: 17
     - year: 2024
-      d: 8
+      d: 9
     - year: 2025
-      d: 4
+      d: 8

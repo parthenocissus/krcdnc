@@ -52,8 +52,12 @@ data:
       text: "<div class='section-list interface-page-li-style'>
       <div class='list-title-first-page interface-heading-style'>2025</div>
 <ul>
+<li><em>From Non-Aligned to All-Aligned: Generative Media and the Automation of Ideology</em>, Philosophy and New Media Conference, University of Macau, Macau, China</li>
 <li><em>Gaitless (the Field):</em> Project Presentation, <a href='https://modina.eu/news/modina-networking-meeting/' target='_blank'>Modina Networking Meeting</a>, Lisbon, Portugal</li>
 <li><em>Gaitless (the Field):</em> Project Presentation, <a href='https://mirevi.de/' target='_blank'>MIREVI Labs</a>, Modina, Düsseldorf, Germany</li>
+<li><em>Speculative Design Workshop — Artificial Intelligence as a Socially Owned Public Utility: What Would Branko Pešić Do If He Had Access to AI Technologies?</em> — Playstudios, Belgrade Palace, AI Week, Belgrade, Serbia</li>
+<li><em>Artistic Data Visualization</em>, LNŠ, Petnica Science Centre, Petnica, Serbia</li>
+<li><em>Asemic Writing and Artificial Intelligence</em>, Design Seminar, Petnica Science Centre, Petnica, Serbia</li>
 <li><em>Data Art</em>, Belgrade Open School, Belgrade, Serbia</li>
 <li><em>AI and Society</em>, Belgrade Open School, Serbia</li>
 </ul>
@@ -65,6 +69,7 @@ data:
 <li><em>Algo-politics and Algo-poetics</em>, <a href='https://msub.org.rs/accompanying-program/conference-coding-the-gaze-technology-art-and-society-feminist-perspectives/?lang=en#' target='_blank'>Conference <em>Coding the Gaze: Technology, Art and Society</em></a>, Museum of Contemporary Art, Belgrade, Serbia</li>
 <li><em>Introduction to Artificial Intelligence as Media Technology</em>, <a href='https://www.orientation-philosophy.com/seminars/media-and-art-in-second-order-orientation/' target='_blank'>Media and Art in (Second-Order) Orientation Seminar</a>, The Foundation for Philosophical Orientation, Tennessee, USA</li>
 <li><em>AI-Related Art Practices</em>, <a href='https://www.orientation-philosophy.com/seminars/media-and-art-in-second-order-orientation/' target='_blank'>Media and Art in (Second-Order) Orientation Seminar</a>, The Foundation for Philosophical Orientation, Tennessee, USA</li>
+<li>Public Discussion, <em>Culture, Art, and AI</em>, Kontrapunkt Conference, Belgrade, Serbia</li>
 <li><em>Networked Storytelling</em>, Belgrade Open School, Serbia</li>
 <li><em>Introduction to Data Visualization and Storytelling</em>, LNŠ, Petnica Science Centre, Serbia</li>
 </ul>
@@ -273,6 +278,6 @@ timeline:
     - year: 2023
       d: 17
     - year: 2024
-      d: 8
+      d: 9
     - year: 2025
-      d: 4
+      d: 8
