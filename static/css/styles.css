@@ -400,7 +400,7 @@ main a:hover {
     color: var(--lightcolor);
     padding-bottom: 26px;
     font-family: CartographSans-Medium, monospace;
-    font-size: 9pt;
+    font-size: 8pt;
     line-height: 1.7em;
     letter-spacing: 0.2pt;
 }
@@ -419,7 +419,7 @@ main a:hover {
     /*font-family: 'Ambit-Regular', sans-serif;*/
     font-family: CartographSans-Medium;
     color: var(--lightcolor);
-    font-size: 9pt;
+    font-size: 8pt;
     line-height: 1.7em;
     letter-spacing: 0.2pt;
 }
