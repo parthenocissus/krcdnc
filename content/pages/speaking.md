@@ -56,6 +56,7 @@ data:
 <li><em>Gaitless (the Field):</em> Project Presentation, <a href='https://modina.eu/news/modina-networking-meeting/' target='_blank'>Modina Networking Meeting</a>, Lisbon, Portugal</li>
 <li><em>Gaitless (the Field):</em> Project Presentation, <a href='https://mirevi.de/' target='_blank'>MIREVI Labs</a>, Modina, Düsseldorf, Germany</li>
 <li><em>Speculative Design Workshop — Artificial Intelligence as a Socially Owned Public Utility: What Would Branko Pešić Do If He Had Access to AI Technologies?</em> — Playstudios, Belgrade Palace, AI Week, Belgrade, Serbia</li>
+<li>Book presentation <em>Die, Fool, the Sages Are Coming!</em>, Serbian Cultural Center, Zagreb, Croatia</li>
 <li><em>Artistic Data Visualization</em>, LNŠ, Petnica Science Centre, Petnica, Serbia</li>
 <li><em>Asemic Writing and Artificial Intelligence</em>, Design Seminar, Petnica Science Centre, Petnica, Serbia</li>
 <li><em>Data Art</em>, Belgrade Open School, Belgrade, Serbia</li>
@@ -280,4 +281,4 @@ timeline:
     - year: 2024
       d: 9
     - year: 2025
-      d: 8
+      d: 9

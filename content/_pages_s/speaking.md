@@ -56,6 +56,7 @@ data:
 <li><em>Gaitless (the Field):</em> prezentacija projekta, <a href='https://modina.eu/news/modina-networking-meeting/' target='_blank'>Modina Networking Meeting</a>, Lisabon, Portugalija</li>
 <li><em>Gaitless (the Field):</em> prezentacija projekta, <a href='https://mirevi.de/' target='_blank'>MIREVI Labs</a>, Modina, Dizeldorf, Nemačka</li>
 <li><em>Radionica spekulativnog dizajna — Veštačka inteligencija kao javno-komunalno preduzeće: Šta bi Branko Pešić uradio da ima na raspolaganju AI tehnologije?</em> — Playstudios, Beograđanka, AI Week, Beograd, Srbija</li>
+<li>Prezentacija knjige <em>Crkni glupane dolaze mudraci!</em>, Srpski kulturni centar, Zagreb, Hrvatska</li>
 <li><em>Umetnička vizuelizacija podataka</em>, Letnja naučna škola, Istraživačka stanica Petnica, Srbija</li>
 <li><em>Asemičko pismo i veštačka inteligencija</em>, Seminar dizajna, Istraživačka stanica Petnica, Srbija</li>
 <li><em>Data Art</em>, Beogradska otvorena škola, Beograd, Srbija</li>
@@ -280,4 +281,4 @@ timeline:
     - year: 2024
       d: 9
     - year: 2025
-      d: 8
+      d: 9
