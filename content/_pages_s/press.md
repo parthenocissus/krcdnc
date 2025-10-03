@@ -16,7 +16,10 @@ data:
         - path: "media/pages/dksg-001.jpg"
         - path: "media/pages/drugo-more-izlozba02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-<div class='list-title-first-page interface-heading-style'>2024</div>
+<div class='list-title-first-page interface-heading-style'>2025</div>
+<ul>
+<li><a href='https://www.blic.rs/vesti/drustvo/beogradjanki-chatgpt-pomogao-da-preboli-raskid-strucnjaci-upozoravaju-na-jednu/d6lqd5y' target='_blank'><em>Za 10 godina čeka nas svet algoritama</em></a>, intervju, Blic, Beograd, Srbija</li>
+<div class='list-title interface-heading-style'>2024</div>
 <ul>
 <li><a href='https://www.youtube.com/watch?v=bdqXQ1NzJ9s' target='_blank'><em>U susret snovima</em></a>, RTS, Beograd</li>
 <li>O predavanju <em>Androidi ne sanjaju ništa</em> u MSURS, radio emisija, RTRS, Banjaluka, RS, BiH</li>
@@ -117,3 +120,5 @@ timeline:
       d: 13
     - year: 2024
       d: 2
+    - year: 2025
+      d: 1

@@ -16,7 +16,10 @@ data:
         - path: "media/pages/dksg-001.jpg"
         - path: "media/pages/drugo-more-izlozba02.jpg"
       text: "<div class='section-list interface-page-li-style'>
-      <div class='list-title-first-page interface-heading-style'>2024</div>
+<div class='list-title-first-page interface-heading-style'>2025</div>
+<ul>
+<li><a href='https://www.blic.rs/vesti/drustvo/beogradjanki-chatgpt-pomogao-da-preboli-raskid-strucnjaci-upozoravaju-na-jednu/d6lqd5y' target='_blank'><em>A world of algorithms awaits us in ten years</em></a>, Interview, Blic, Belgrade, Serbia</li>
+<div class='list-title interface-heading-style'>2024</div>
 <ul>
 <li><a href='https://www.youtube.com/watch?v=bdqXQ1NzJ9s' target='_blank'><em>Journey to Dreams (U susret snovima)</em></a>, RTS, Belgrade, Serbia</li>
 <li>About the artist talk in MSURS, radio show, RTRS, Banjaluka, RS, BiH</li>
@@ -117,3 +120,5 @@ timeline:
       d: 13
     - year: 2024
       d: 2
+    - year: 2025
+      d: 1
