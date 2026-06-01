@@ -29,7 +29,7 @@ en = LangUtilEn(fp)
 sh = LangUtilSh(fp)
 
 
-# ALL-ALIGNED TWITTER BOT SCHEDULER
+# ALL-ALIGNED TWITTER BOT SCHEDULER...
 # schedule()
 
 
